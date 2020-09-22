@@ -1,0 +1,74 @@
+version: 4
+status: deprecated
+home: FarmBot-Software/overview
+contents:
+  - title: Farmbot Software
+    url: FarmBot-Software
+    top: true
+    pages:
+    - title: High Level Overview
+      url: overview
+  - title: Web App
+    url: Web-App
+    top: true
+    pages:
+    - title: The FarmBot Web App
+      url: the-farmbot-web-app
+    - title: Farm Designer
+      url: farm-designer
+    - title: Controls
+      url: controls
+    - title: Farmware
+      url: farmware
+    - title: Tools
+      url: tools
+    - title: Sequences
+      url: sequences
+    - title: Regimens
+      url: regimens
+    - title: Device
+      url: device
+    - title: Farm Events
+      url: farm-events
+  - title: Device
+    url: Device
+    top: true
+    pages:
+    - title: FarmBot OS
+      url: farmbot-os
+    - title: Configurator
+      url: configurator
+    - title: Arduino Firmware
+      url: arduino-firmware
+  - title: Additional Information
+    url: Additional-Information
+    top: true
+    pages:
+    - title: Weed Detection
+      url: weed-detection
+    - title: Microstepping
+      url: microstepping
+    - title: Calibration and Homing
+      url: calibration-and-homing
+    - title: Cheatsheet
+      url: cheatsheet
+    - title: Farmware Development
+      url: farmware-dev
+    - title: MQTT Gateway
+      url: mqtt-broker
+    - title: Reading Pins
+      url: reading-pins
+    - title: Rotary Encoders
+      url: rotary-encoders
+  - title: Other Resources
+    url: Other-Resources
+    top: true
+    pages:
+    - title: FarmBot.org Forum
+      url: farmbotorg-forum
+    - title: FarmBot.org Wiki
+      url: farmbotorg-wiki
+    - title: Hardware Docs
+      url: genesis-hardware-docs
+    - title: GitHub
+      url: github

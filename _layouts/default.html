@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="{{ site.color }}">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="icon" type="image/x-icon" href="{{ '/assets/images/favicon.png' | relative_url }}">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/fb.css?v=' | append: site.github.build_revision | relative_url }}">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inknut+Antiqua:700">
+</head>
+
+<body>
+  <nav>
+    <div class="nav-content">
+      <a class="doc-icon" href="{{ '/' | relative_url }}">
+        <img src="{{ 'assets/images/documentation.png' | relative_url }}">
+      </a>
+      <div class="nav-links">
+        <a class="{%- if site.baseurl == '/farmbot-express' -%}
+        current
+        {%- endif -%}" href="http://express.farm.bot">Express</a>
+        <a class="{%- if site.baseurl == '/farmbot-genesis' -%}
+        current
+        {%- endif -%}" href="http://genesis.farm.bot">Genesis</a>
+        <a class="{%- if site.baseurl == '/farmbot-software' -%}
+        current
+        {%- endif -%}" href="https://farmbot-docs.github.io/farmbot-software">
+          Software
+        </a>
+        <a class="{%- if site.baseurl == '/farmbot-developers' -%}
+        current
+        {%- endif -%}" href="https://farmbot-docs.github.io/farmbot-developers">
+          Developer
+        </a>
+        <a class="{%- if site.baseurl == '/farmbot-meta' -%}
+        current
+        {%- endif -%}" href="http://meta.farm.bot">Business</a>
+        <a href="http://shop.farm.bot">Shop</a>
+      </div>
+    </div>
+  </nav>
+
+  {% assign version =
+    page.url | split: '/' | slice: 1 | join: '' | slice: 1, 999 | to_integer %}
+  {%- assign version_toc = site.data.toc | where: "version", version | first -%}
+  {%- assign page_path = page.url | split: '/' | slice: 2, 999 | join: '/' -%}
+
+  <div class="version">
+    <div class="version-content">
+      <select onchange="if (this.value) window.location.href=this.value">
+        {%- capture v_tags -%}
+        {% for v in (1..site.latest_version) %}v{{ v }} {% endfor %}
+        {%- endcapture -%}
+        {%- assign version_tags = v_tags | split: " " -%}
+        {%- for version_tag in version_tags -%}
+        {%- assign toc = site.data.toc[version_tag] -%}
+        {%- if toc -%}
+        {%- capture target_doc_link -%}
+        v{{ toc.version }}/{{ toc.home }}
+        {%- endcapture -%}
+        <option {% if version == toc.version %}selected="selected" {% endif %}
+          value="{{ target_doc_link | relative_url }}">
+          v{{ toc.version }} ({{ toc.status }})
+        </option>
+        {%- endif -%}
+        {%- endfor -%}
+      </select>
+
+      <div class="mobile-nav">
+        <select onchange="if (this.value) window.location.href=this.value">
+          <option value>Navigate the docs...</option>
+          {%- include mobile_toc.html toc=version_toc.contents version=version -%}
+        </select>
+      </div>
+    </div>
+  </div>
+
+  {% if version != site.latest_version %}
+  <div class="banner {% if version > site.latest_version %}wip{% endif %}">
+    {% capture latest_url %}v{{ site.latest_version }}/{{ page_path }}{% endcapture %}
+    <a href="{{ latest_url | relative_url }}">
+      <b>Hey!</b> These docs are for version {{ version }},
+      {% if version > site.latest_version %}
+      which is still under development.
+      {% else %}
+      which is no longer officially supported.
+      {% endif %}
+      Click here for the latest version, {{ site.latest_version }}!
+    </a>
+  </div>
+  {% endif %}
+
+  <div class="all">
+    <div class="nav-toc">
+      {% include toc.html toc=version_toc.contents version=version %}
+    </div>
+    <div class="content">
+      <header class="page-header" role="banner">
+        <h1 class="page-name">{{ page.title | default: site.title }}</h1>
+        <h2 class="page-description">{{ page.excerpt | markdownify }}</h2>
+      </header>
+      <main id="content" class="main-content" role="main">
+        <h2 class="markdown-toc-header">Page Contents</h2>
+        {{ content }}
+        <footer class="site-footer"></footer>
+      </main>
+    </div>
+  </div>
+
+</body>
+
+</html>

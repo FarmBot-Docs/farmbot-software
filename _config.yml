@@ -1,0 +1,4 @@
+theme: jekyll-theme-cayman
+baseurl: /farmbot-software
+color: '#316318'
+latest_version: 11

@@ -1,0 +1,87 @@
+version: 6
+status: deprecated
+home: FarmBot-Software/overview
+contents:
+  - title: Farmbot Software
+    url: FarmBot-Software
+    top: true
+    pages:
+    - title: High Level Overview
+      url: overview
+    - title: Getting Started
+      url: getting-started
+  - title: Web App
+    url: Web-App
+    top: true
+    pages:
+    - title: The FarmBot Web App
+      url: the-farmbot-web-app
+    - title: Logs
+      url: logs
+    - title: Farm Designer
+      url: farm-designer
+    - title: Controls
+      url: controls
+    - title: Farmware
+      url: farmware
+    - title: Tools
+      url: tools
+    - title: Sequences
+      url: sequences
+    - title: Regimens
+      url: regimens
+    - title: Account
+      url: account
+    - title: Device
+      url: device
+    - title: Farm Events
+      url: farm-events
+  - title: Device
+    url: Device
+    top: true
+    pages:
+    - title: FarmBot OS
+      url: farmbot-os
+    - title: Configurator
+      url: configurator
+    - title: Arduino Firmware
+      url: arduino-firmware
+  - title: Additional Information
+    url: Additional-Information
+    top: true
+    pages:
+    - title: Weed Detection
+      url: weed-detection
+    - title: Data Usage
+      url: data-usage
+    - title: Microstepping
+      url: microstepping
+    - title: Support Policy
+      url: support-policy
+    - title: Calibration and Homing
+      url: calibration-and-homing
+    - title: Reading Pins
+      url: reading-pins
+    - title: Rotary Encoders
+      url: rotary-encoders
+  - title: Other Resources
+    url: Other-Resources
+    top: true
+    pages:
+    - title: Developer Docs
+      url: developer-docs
+    - title: Forum
+      url: farmbotorg-forum
+    - title: Hardware Docs
+      url: genesis-hardware-docs
+    - title: GitHub
+      url: github
+    - title: Troubleshooting
+      url: troubleshooting
+      pages:
+      - title: Accessing Configurator
+        url: accessing-configurator
+      - title: Connecting FarmBot to the Web App
+        url: connecting-farmbot-to-the-web-app
+      - title: Diagnostic Reports
+        url: diagnostic-reports
