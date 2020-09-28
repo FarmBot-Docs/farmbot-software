@@ -22,7 +22,7 @@ To perform a hard reset:
 
 1. Power down the device
 2. Remove the SD card
-3. [Re-flash FarmBot OS onto the SD Card from a desktop computer](../../FarmBot OS/farmbot-os.md)
+3. [Re-flash FarmBot OS onto the SD Card from a desktop computer](../../FarmBot-OS/farmbot-os.md)
 
 In summary:
 
@@ -35,7 +35,7 @@ In summary:
 
 The first priority when debugging a complicated software problem is to remove as many components as possible and slowly re-introduce components until the problem is reproducible. This assists FarmBot staff in isolating the source of the problem, a key step in finding a fix. Please perform the following steps prior to contacting FarmBot support regarding non-physical device problems:
 
- 1. Perform a [hard reset](#section-perform-a-hard-reset) of the device's SD card.
+ 1. Perform a [hard reset](#perform-a-hard-reset) of the device's SD card.
  2. If the issue persists after a hard reset, remove the Raspberry Pi from the electronics box by unscrewing the hex screws that anchor it to the case as well as removing any components that may be connected to it, such as the realtime clock. You do not need to keep the Farmduino board connected to the Raspberry Pi. A Farmbot does not require a Farmduino to come online.
  3. Bring the device inside and as close as possible to the WiFi modem, removing all intermediate routers between the device and the modem. You can power the Raspberry Pi using a standard cellphone charger and USB cable.
  4. If you have a home network with multiple routers (sometimes referred to as "daisy chaining"), **connect directly to your modem**. Do not attempt to connect through intermediate routers. For example, if the device had an intermediate router to extend its WiFi range, do not connect to this router, even if you are certain that it is properly configured. Instead, connect directly to your internet modem with no additional network hardware between the Raspberry Pi and the modem.
@@ -64,7 +64,7 @@ The most common reasons for an unstable device connection are:
 **How to fix the problem:**
 
 1. Bring your device into "isolated mode" before troubleshooting or contacting support staff.
-2. If your network runs security software or multiple routers, please review the information provided in the document ["FarmBot for IT Professionals"](https://software.farm.bot/docs/for-it-security-professionals).
+2. If your network runs security software or multiple routers, please review the information provided in the document ["FarmBot for IT Professionals"](for-it-security-professionals.md).
 3. Ensure security software is properly configured per the document above. For extra traceability, you may wish to temporarily disable firewalls or content blockers prior to proceeding. Always check with IT staff prior to making network changes. FarmBot will not provide security or network configuration advice.
 4. If the problem goes away after entering isolated mode, the problem is most likely caused by network configuration of the local area network. Contact your ISP or IT department for support. FarmBot, Inc. does not assist customers in configuring their local network.
 5. If isolated mode does not fix the issue, disable all FarmEvents temporarily. Contact support if this does not fix the issue. Please have your order number ready, as well as the email associated with your FarmBot account.

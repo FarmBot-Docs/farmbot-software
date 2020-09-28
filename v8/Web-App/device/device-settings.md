@@ -33,7 +33,7 @@ When enabled, FarmBot OS will periodically check for, download, and install upda
 include callout.html
 type="success"
 title="Enabled by default"
-content="This setting is enabled by default so that your FarmBot will stay updated automatically with the latest features and security patches. If you decide to disable auto updates, please make sure you regularly manually update your device so that it stays within our [support policy](../../Extras/troubleshooting/support-policy.md)."
+content="This setting is enabled by default so that your FarmBot will stay updated automatically with the latest features and security patches. If you decide to disable auto updates, please make sure you regularly manually update your device so that it stays within our [support policy](../../FarmBot-Software/troubleshooting/support-policy.md)."
 %}
 
 ## Apply software updates
@@ -47,7 +47,7 @@ When enabled, resources such as sequences, regimens, events, plant locations, an
 Disabling this setting may be useful when making many changes to your resources that are not ready to be executed by FarmBot immediately.
 
 ## Camera
-Select the type of camera you are using in the camera selection dropdown. Choices are `USB Camera` and `Raspberry Pi Camera`. Defaults to `USB camera`. Test by using the <span class="fb-button fb-green">take photo</span> button in the [take photo](../../The FarmBot Web App/farmware/take-photo.md) farmware.
+Select the type of camera you are using in the camera selection dropdown. Choices are `USB Camera` and `Raspberry Pi Camera`. Defaults to `USB camera`. Test by using the <span class="fb-button fb-green">take photo</span> button in the [take photo](../../Web-App/farmware/take-photo.md) farmware.
 
 ## Firmware
 Select the firmware to be used with your electronics board.
@@ -60,7 +60,7 @@ This will restart FarmBot's Raspberry Pi and FarmBot OS.
 This will shutdown FarmBot's Raspberry Pi. To turn it back on, unplug FarmBot and plug it back in.
 
 ## Factory reset
-Factory resetting your FarmBot will destroy all data on the device, revoking your FarmBot's ability to connect to your web app account and your home WiFi network. Upon factory resetting, your device will restart [Configurator](../../FarmBot OS/farmbot-os/configurator.md).
+Factory resetting your FarmBot will destroy all data on the device, revoking your FarmBot's ability to connect to your web app account and your home WiFi network. Upon factory resetting, your device will restart [Configurator](../../Device/farmbot-os/configurator.md).
 
 Factory resetting your FarmBot will not affect any data or settings from your web app account, allowing you to do a complete restore to your device once it is back online and paired with your web app account.
 
@@ -71,4 +71,4 @@ Automatically factory reset when the WiFi network cannot be detected. Useful for
 For use with automatic factory reset: set the time in minutes to attempt connecting to WiFi before a factory reset.
 
 # Diagnostic reports
-Please refer to the [diagnostic reports document](diagnostic-reports.md) for more details.
+Please refer to the [diagnostic reports document](../device/diagnostic-reports.md) for more details.

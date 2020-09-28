@@ -51,7 +51,7 @@ Insert the **microSD card** into the **Raspberry Pi**. The card slot location wi
 
 For Genesis kits, the card slot is located on the back side of the Pi 3, on the right-hand edge. You do not need to remove the Raspberry Pi from the electronics box to insert the card; we have left enough access room.
 
-![MicroSD card slot on the Raspberry Pi 3](Screen_Shot_2018-10-04_at_5.10.01_PM.png)
+<img src="Screen_Shot_2018-10-04_at_5.10.01_PM.png" title="MicroSD card slot on the Raspberry Pi 3"></img>
 
 </details>
 
@@ -59,9 +59,9 @@ For Genesis kits, the card slot is located on the back side of the Pi 3, on the 
 
 For Express kits, the card slot is located on the front side of the Pi Zero, on the left-hand edge.
 
-![MicrosD card slot on the Raspberry Pi Zero W](Card.jpeg)
+<img src="Card.jpeg" title="MicroSD card slot on the Raspberry Pi Zero W"></img>
 
 </details>
 
 ## Step 4. Plug in the power source
-Plug your FarmBot's power supply into a wall outlet. You should now see a solid red <span class="fa fa-circle red"></span> LED and a steadily flashing green <span class="fa fa-circle green"></span> LED on the Raspberry Pi, indicating that the Pi has adequate power and is busy booting up. Refer to the [status LEDs](farmbot-os/status-leds.md) page for more information, especially if your LEDs are not lit up as described above.
+Plug your FarmBot's power supply into a wall outlet. You should now see a solid red <span class="fa fa-circle red"></span> LED and a steadily flashing green <span class="fa fa-circle green"></span> LED on the Raspberry Pi, indicating that the Pi has adequate power and is busy booting up. Refer to the [status LEDs](../FarmBot-OS/farmbot-os/status-leds.md) page for more information, especially if your LEDs are not lit up as described above.

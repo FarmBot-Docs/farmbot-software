@@ -21,7 +21,7 @@ content="On Farmduino boards, microstepping is controlled by the MS1, MS2, and M
 
 Stock FarmBots are set to use full-steps by default (no microstepping), which means that one step pulse from the microcontroller will move the motor shaft one full step. With the stock 200 step/revolution motors, this equates to 1/200th of a rotation. If you set the drivers to 1/2 step microstepping, then each step pulse from the microcontroller will move the motor 1/2 of a step, or 1/400th of a revolution. This means that a full motor step would require two step pulses from the Arduino.
 
-If you use microstepping, you will need to make changes in the [hardware settings](../../Web App/device/hardware-settings.md) section of the web app match the hardware DIP switch positions.
+If you use microstepping, you will need to make changes in the [hardware settings](../../Web-App/device/hardware-settings.md) section of the web app match the hardware DIP switch positions.
 
 ![MICRO_STEP_SETTINGS.jpg](MICRO_STEP_SETTINGS.jpg)
 

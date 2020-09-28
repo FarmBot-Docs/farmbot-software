@@ -1,4 +1,4 @@
-version: 2
+version_number: 2
 status: deprecated
 home: Web-App/the-farmbot-web-app
 contents:
@@ -6,51 +6,55 @@ contents:
     url: Web-App
     top: true
     pages:
-    - title: The FarmBot Web App
-      url: the-farmbot-web-app
-    - title: Farm Designer
-      url: farm-designer
-    - title: Controls
-      url: controls
-    - title: Tools
-      url: tools
-    - title: Sequences
-      url: sequences
-    - title: Regimens
-      url: regimens
-    - title: Device
-      url: device
-    - title: Farm Events
-      url: farm-events
+      - title: The FarmBot Web App
+        url: the-farmbot-web-app
+      - title: Farm Designer
+        url: farm-designer
+      - title: Farm Events
+        url: farm-events
+      - title: Controls
+        url: controls
+      - title: Device
+        url: device
+      - title: Tools
+        url: tools
+      - title: Sequences
+        url: sequences
+      - title: Regimens
+        url: regimens
   - title: Device
     url: Device
     top: true
     pages:
-    - title: FarmBot OS
-      url: farmbot-os
-    - title: Configurator
-      url: configurator
-    - title: Arduino Firmware
-      url: arduino-firmware
+      - title: FarmBot OS
+        url: farmbot-os
+      - title: Configurator
+        url: configurator
+      - title: Arduino Firmware
+        url: arduino-firmware
   - title: Additional Information
     url: Additional-Information
     top: true
     pages:
-    - title: Cheatsheet
-      url: cheatsheet
-    - title: Farmware Development
-      url: farmware-dev
-    - title: MQTT Gateway
-      url: mqtt-broker
+      - title: Farmware Development
+        url: farmware-dev
+      - title: Cheatsheet
+        url: cheatsheet
+      - title: MQTT Gateway
+        url: mqtt-broker
   - title: Other Resources
     url: Other-Resources
     top: true
     pages:
-    - title: FarmBot.org Forum
-      url: farmbotorg-forum
-    - title: FarmBot.org Wiki
-      url: farmbotorg-wiki
-    - title: Hardware Docs
-      url: genesis-hardware-docs
-    - title: GitHub
-      url: github
+      - title: Hardware Docs
+        url: https://genesis.farm.bot
+        external: true
+      - title: GitHub
+        url: https://github.com/FarmBot
+        external: true
+      - title: FarmBot.org Forum
+        url: http://forum.farmbot.org/
+        external: true
+      - title: FarmBot.org Wiki
+        url: http://wiki.farmbot.org/
+        external: true

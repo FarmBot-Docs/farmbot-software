@@ -12,10 +12,10 @@ excerpt: "[Open these settings in the app](https://my.farm.bot/app/designer/sett
 include callout.html
 type="info"
 title="For FarmBot Express bots only"
-content="Stall detection settings are only available for FarmBot Express bots. FarmBot Genesis users should refer to the [encoders](encoders.md) section."
+content="Stall detection settings are only available for FarmBot Express bots. FarmBot Genesis users should refer to the [encoders](../settings/encoders.md) section."
 %}
 
-The **stall detection** feature for FarmBot Express bots utilizes the Trinamic TMC2130 stepper drivers’ capability of measuring back-current as a way of determining motor load, and thus when a stall has occurred. For more details, see the [stall detection hardware page](../../FarmBot OS/arduino-firmware/stall-detection-hardware.md).
+The **stall detection** feature for FarmBot Express bots utilizes the Trinamic TMC2130 stepper drivers’ capability of measuring back-current as a way of determining motor load, and thus when a stall has occurred. For more details, see the [stall detection hardware page](../../FarmBot-OS/arduino-firmware/stall-detection-hardware.md).
 
 {%
 include callout.html

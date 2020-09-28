@@ -10,19 +10,19 @@ excerpt: "**In this guide:** Learn how to mount and dismount tools"
 Before we get started, make sure you and your FarmBot meet the following prerequisites:
 
 * Your FarmBot has a **UTM** and **interchangeable tooling**. This is included with all FarmBot Genesis kits, but not with FarmBot Express kits.
-* Your FarmBot is fully assembled. The UTM must be wired up according to the [pin mapping table](https://genesis.farm.bot/docs/utm#section-pin-mapping) and your tools according to their wiring instructions.
+* Your FarmBot is fully assembled. The UTM must be wired up according to the [pin mapping table](https://genesis.farm.bot/FarmBot-Genesis-V1-5/tools/utm#pin-mapping) and your tools according to their wiring instructions.
 * Your FarmBot is powered up, connected to the web app, and can move along each axis without error.
-* You are familiar with [building sequences](../../The FarmBot Web App/sequences.md) with [sensors](../../The FarmBot Web App/controls/sensors.md) and [tools](../../The FarmBot Web App/farm-designer/tools.md).
+* You are familiar with [building sequences](../../The-FarmBot-Web-App/sequences.md) with [sensors](../../The-FarmBot-Web-App/sensors.md) and [tools](../../The-FarmBot-Web-App/tools.md).
 
 # Step 1: Add the tool verification sensor
 
-Ensure you have added the **TOOL VERIFICATION** sensor by checking the SENSORS widget on the Controls page. If you do not see the sensor, add it using [these instructions](doc:sensors#section-creating-sensors).
+Ensure you have added the **TOOL VERIFICATION** sensor by checking the SENSORS widget on the Controls page. If you do not see the sensor, add it using [these instructions](../../The-FarmBot-Web-App/sensors.md#creating-sensors).
 
 ![c39c2f1-Sensor.png](Sensor.png)
 
 # Step 2: Load tools into slots
 
-Ensure you have loaded your **tools** into **slots** by checking the **tools panel** on the Farm Designer page. If you do not see any tools in slots, add them using [these instructions](../../The FarmBot Web App/farm-designer/tools.md). Then check to make sure your **real-life** configuration matches your **virtual** configuration.
+Ensure you have loaded your **tools** into **slots** by checking the **tools panel** on the Farm Designer page. If you do not see any tools in slots, add them using [these instructions](../../The-FarmBot-Web-App/tools.md). Then check to make sure your **real-life** configuration matches your **virtual** configuration.
 
 ![Screen Shot 2020-04-28 at 10.51.32 PM.png](Screen_Shot_2020-04-28_at_10.51.32_PM.png)
 

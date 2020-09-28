@@ -10,15 +10,15 @@ excerpt: "Manually control your FarmBot from anywhere! [my.farmbot.io/app/contro
 You generally will not need to manually control FarmBot, since it acts automatically from instructions provided by Farm Events. But in case you want to show off to your friends, you can do that from this page!
 
 ## Widgets on this page:
- * [Move](#section-move)
- * [Peripherals](#section-peripherals)
- * [Camera](#section-camera)
+ * [Move](#move)
+ * [Peripherals](#peripherals)
+ * [Camera](#camera)
 
 <div class="nav-image">
   <img class="nav-image" src="controls.png" alt="Controls" />
-  <a href="https://software.farmbot.io/docs/controls#section-move" style="top: 14.1%; left: 10.2%; width: 30.51%; height: 47.6%;"></a>
-  <a href="https://software.farmbot.io/docs/controls#section-peripherals" style="top: 66.5%; left: 10.2%; width: 30.56%; height: 20%;"></a>
-  <a href="https://software.farmbot.io/docs/controls#section-camera" style="top: 14%; left: 42.99%; width: 46.8%; height: 73%;"></a>
+  <a href="https://software.farmbot.io/docs/controls#move" style="top: 14.1%; left: 10.2%; width: 30.51%; height: 47.6%;"></a>
+  <a href="https://software.farmbot.io/docs/controls#peripherals" style="top: 66.5%; left: 10.2%; width: 30.56%; height: 20%;"></a>
+  <a href="https://software.farmbot.io/docs/controls#camera" style="top: 14%; left: 42.99%; width: 46.8%; height: 73%;"></a>
 </div>
 <figcaption class="caption">Click a widget in the image to learn more!</figcaption>
 

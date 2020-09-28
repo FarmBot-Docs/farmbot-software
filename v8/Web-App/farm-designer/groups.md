@@ -11,12 +11,12 @@ slug: "groups"
 ![Screen Shot 2019-08-15 at 3.13.39 PM.png](Screen_Shot_2019-08-15_at_3.13.39_PM.png)
 
 # Creating a group
-To create a group, click the <span class="fb-button fb-blue">:fa-plus:</span> button on the groups panel. This will open up the [multi-select mode](farm-designer#section-multi-select-mode) in the farm designer. Click and hold anywhere in the map and then drag the mouse cursor to create a **box selection** of the plants you wish to add to the group. Then click <span class="fb-button fb-blue">CREATE GROUP</span>.
+To create a group, click the <span class="fb-button fb-blue"><i class="fa fa-plus"></i></span> button on the groups panel. This will open up the [multi-select mode](farm-designer#multi-select-mode) in the farm designer. Click and hold anywhere in the map and then drag the mouse cursor to create a **box selection** of the plants you wish to add to the group. Then click <span class="fb-button fb-blue">CREATE GROUP</span>.
 
 ![Groups 2.png](Groups_2.png)
 
 # Editing a group
-Upon creating a group, the **edit group** panel will be opened. From here, you can change the **GROUP NAME** and make further edits. When you are finished editing, press the :fa-arrow-left: to save your changes and go back to the list of all groups.
+Upon creating a group, the **edit group** panel will be opened. From here, you can change the **GROUP NAME** and make further edits. When you are finished editing, press the <i class="fa fa-arrow-left"></i> to save your changes and go back to the list of all groups.
 
 ## Sort by
 The **SORT BY** method will change the ordering that FarmBot uses when traveling to each plant in the group when the group is used in a sequence. A dashed line will be shown in the map visualizing the path. Sorting options include `X/Y, Ascending`, `X/Y, Descending`, `Y/X, Ascending`, `Y/X, Descending`, and `Random Order`. We encourage you to play around with this option to find the most efficient path FarmBot can take.
@@ -39,7 +39,7 @@ To add a plant to the group, click its icon in the farm designer map.
 To remove a plant from the group, click its icon in the **GROUP MEMBERS** list. When mousing over icons in this list, the corresponding icon in the map will be highlighted, allowing you to ensure you're removing the correct plant.
 
 # Using groups
-Once you're happy with your group, try it in a sequence! Simply create a sequence with an [externally defined location variable](../../The FarmBot Web App/sequences/externally-defined-variables.md):
+Once you're happy with your group, try it in a sequence! Simply create a sequence with an [externally defined location variable](../../Web-App/sequences/externally-defined-variables.md):
 
 ![Groups 4.png](Groups_4.png)
 

@@ -48,4 +48,4 @@ content="* Sequences must be synced to the device before use in a pin binding.
 %}
 
 # Deleting a pin binding
-To delete a pin binding, press the <span class="fb-button fb-red">:fa-times:</span> button.
+To delete a pin binding, press the <span class="fb-button fb-red"><i class="fa fa-times"></i></span> button.

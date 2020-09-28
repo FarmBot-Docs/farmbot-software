@@ -15,4 +15,4 @@ Updates will happen **over-the-air** (OTA), meaning FarmBot will download the la
 
 An OTA update will usually take between 15 seconds and 3 minutes to download, depending on network quality and connection speed. The update process will then take 1 to 5 minutes before FarmBot is back online and ready to start work again.
 
-If you're experiencing OTA update issues, remove the microSD card from your FarmBot and [manually flash](doc:farmbot-os#section-installing-farmbot-os) the latest `.img` file.
+If you're experiencing OTA update issues, remove the microSD card from your FarmBot and [manually flash](../../FarmBot-OS/farmbot-os.md#installing-farmbot-os) the latest `.img` file.

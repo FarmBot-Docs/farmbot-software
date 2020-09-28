@@ -7,7 +7,7 @@ excerpt: "Descriptions of all the commands you can use in a sequence"
 * toc
 {:toc}
 
-Below are descriptions of all the commands you can use in a sequence. When using the web app, hover over the :fa-question-circle: icon in the top right of any sequence step to view usage information.
+Below are descriptions of all the commands you can use in a sequence. When using the web app, hover over the <i class="fa fa-question-circle"></i> icon in the top right of any sequence step to view usage information.
 
 # Move
 The <span class="fb-step fb-move-absolute">Move</span> command instructs FarmBot to move to a new location. To use this command, first choose a **LOCATION**  from the dropdown. Options include:
@@ -31,7 +31,7 @@ When choosing the **offset from current location** option, three input fields wi
 ![Screen Shot 2020-08-24 at 8.41.23 AM.png](Screen_Shot_2020-08-24_at_8.41.23_AM.png)
 
 ## Location variables
-When choosing **variable - add new**, a variable form will be added to the sequence header. Upon selecting a variable value in the sequence header, the dropdown selections in all <span class="fb-step fb-move-absolute">Move</span> steps set to that variable will be updated. See the [variables](variables.md) documentation for more information.
+When choosing **variable - add new**, a variable form will be added to the sequence header. Upon selecting a variable value in the sequence header, the dropdown selections in all <span class="fb-step fb-move-absolute">Move</span> steps set to that variable will be updated. See the [variables](../sequences/variables.md) documentation for more information.
 
 ![Screen Shot 2020-08-24 at 8.43.16 AM.png](Screen_Shot_2020-08-24_at_8.43.16_AM.png)
 
@@ -52,7 +52,7 @@ If you try to move to a location to mount a tool or pick up a seed in one step, 
 %}
 
 ## Advanced options
-Within the **[+]** dropdown, you will find several options to modify the base **LOCATION** and several options for changing how FarmBot performs the movement. By default, the app will only load the **[+]** options in an open state if you've changed any of options from the default values. If you would like the **[+]** options to always load in an open state, set **OPEN OPTIONS BY DEFAULT** to <span class="fb-peripheral-on">YES</span> from the :fa-gear: menu in the sequence header.
+Within the **[+]** dropdown, you will find several options to modify the base **LOCATION** and several options for changing how FarmBot performs the movement. By default, the app will only load the **[+]** options in an open state if you've changed any of options from the default values. If you would like the **[+]** options to always load in an open state, set **OPEN OPTIONS BY DEFAULT** to <span class="fb-peripheral-on">YES</span> from the <i class="fa fa-gear"></i> menu in the sequence header.
 
 ![Screen Shot 2020-08-24 at 8.50.33 AM.png](Screen_Shot_2020-08-24_at_8.50.33_AM.png)
 
@@ -94,7 +94,7 @@ This is useful when you need FarmBot to move across the garden but want to ensur
 # Control peripheral
 The <span class="fb-step fb-write-pin">Control Peripheral</span> command allows you to control **peripherals** such as the vacuum pump, solenoid valve, and lights. To use this command, first select a peripheral from the **PERIPHERAL** dropdown. Options include:
 
-  * All of the peripherals you have defined in the [peripherals widget on the controls page](https://software.farm.bot/docs/controls#section-peripherals)
+  * All of the peripherals you have defined in the [peripherals widget on the controls page](../../The-FarmBot-Web-App/controls.md#peripherals)
   * The Box LEDs, if you have any included with your FarmBot version
 
 Next, select the **MODE** which you would like to control the peripheral with. You can choose either `Digital` or `Analog`.
@@ -126,7 +126,7 @@ The <span class="fb-step fb-write-pin">Toggle Peripheral</span> command allows y
 
 To use this command, select a peripheral from the **PERIPHERAL** dropdown. Options include:
 
-  * All of the peripherals you have defined in the [peripherals widget on the controls page](https://software.farm.bot/docs/controls#section-peripherals)
+  * All of the peripherals you have defined in the [peripherals widget on the controls page](../../The-FarmBot-Web-App/controls.md#peripherals)
   * The Box LEDs, if you have any included with your FarmBot version
 
 ![Screen Shot 2020-01-06 at 12.24.47 PM.png](Screen_Shot_2020-01-06_at_12.24.47_PM.png)
@@ -134,8 +134,8 @@ To use this command, select a peripheral from the **PERIPHERAL** dropdown. Optio
 # Read sensor
 The <span class="fb-step fb-read-pin">Read Sensor</span> command instructs FarmBot to read the value of a **sensor**. For example, you would use this command to measure the soil moisture content with the soil moisture sensor. To use this command, first select a sensor from the **SENSOR** dropdown. Options include:
 
-  * All of the sensors you have defined in the [sensors widget on the controls page](https://software.farm.bot/docs/controls#section-sensors)
-  * All of the peripherals you have defined in the [peripherals widget on the controls page](https://software.farm.bot/docs/controls#section-peripherals)
+  * All of the sensors you have defined in the [sensors widget on the controls page](../../The-FarmBot-Web-App/controls.md#sensors)
+  * All of the peripherals you have defined in the [peripherals widget on the controls page](../../The-FarmBot-Web-App/controls.md#peripherals)
 
 Next, select the **MODE** which you would like to read the sensor with. You can choose either `Digital` or `Analog`. Use digital for a `0` (LOW) or `1` (HIGH) response, and analog for a reading between `0` and `1023` for 0-5V.
 
@@ -241,7 +241,7 @@ content="You can drag and drop existing sequences from the **sequences list** in
 %}
 
 # Run farmware
-The <span class="fb-step fb-take-photo">Run Farmware</span> command instructs FarmBot to run a [farmware](../farmware.md). To use the command, select which farmware you would like to run from the **PACKAGE NAME** dropdown. Or, select `Manual Input` and type in the name of the package, for example, `plant-detection`.
+The <span class="fb-step fb-take-photo">Run Farmware</span> command instructs FarmBot to run a [farmware](../../The-FarmBot-Web-App/farmware.md). To use the command, select which farmware you would like to run from the **PACKAGE NAME** dropdown. Or, select `Manual Input` and type in the name of the package, for example, `plant-detection`.
 
 ![Screen Shot 2020-08-27 at 1.20.44 PM.png](Screen_Shot_2020-08-27_at_1.20.44_PM.png)
 
@@ -251,7 +251,7 @@ The <span class="fb-step fb-take-photo">Detect Weeds</span> command instructs Fa
 ![Screen Shot 2020-08-27 at 1.21.07 PM.png](Screen_Shot_2020-08-27_at_1.21.07_PM.png)
 
 # Take photo
-The <span class="fb-step fb-wait">Take Photo</span> command instructs FarmBot to take a photo with the USB camera or the Raspberry Pi camera (whichever is selected in [device settings](../../Web App/device/device-settings.md)). After taking the photo, FarmBot will upload it to the web app, along with the coordinates from where the photo was taken, and the date and time.
+The <span class="fb-step fb-wait">Take Photo</span> command instructs FarmBot to take a photo with the USB camera or the Raspberry Pi camera (whichever is selected in [device settings](../../The-FarmBot-Web-App/settings/farmbot-settings.md)). After taking the photo, FarmBot will upload it to the web app, along with the coordinates from where the photo was taken, and the date and time.
 
 You can view the photos taken on the photos panel and in the farm designer.
 
@@ -272,7 +272,7 @@ While a variety of properties are available for each item type such as `X`, `Y`,
 include callout.html
 type="warning"
 title="Advanced feature"
-content="The assertion command is intended for power users and software developers only. See the [developer documentation](https://developer.farm.bot/docs/assertions) for a list of the available functions."
+content="The assertion command is intended for power users and software developers only. See the [developer documentation](https://developer.farm.bot/Documentation/assertions) for a list of the available functions."
 %}
 
 The <span class="fb-step fb-if-statement">Assertion</span> command allows FarmBot to test if a condition is true or false for automated testing purposes. For example, you could set up a FarmBot to move back and forth repeatedly along an axis, and check the position after each movement. This type of test is useful for high-cycle hardware testing, and for continuous integration testing of software changes.

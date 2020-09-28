@@ -9,23 +9,23 @@ excerpt: "Control and configure FarmBot from anywhere"
 
 The **FarmBot web app** is a web-based application that allows you to control and configure your FarmBot from any desktop computer, laptop, tablet, or smartphone. Because the app is web-based, you will never need to install it, and every time you load the app, you will have the latest features and security updates. The core features include the:
 
-:seedling: [Farm designer](farm-designer.md) for drag and drop designing of your garden layout
+:seedling: [Farm designer](../The-FarmBot-Web-App/farm-designer.md) for drag and drop designing of your garden layout
 
-:calendar: [Event scheduler](farm-designer/events.md) for telling FarmBot when to water the garden and perform other operations
+:calendar: [Event scheduler](../The-FarmBot-Web-App/events.md) for telling FarmBot when to water the garden and perform other operations
 
-:page-facing-up: [Sequence editor](sequences.md) allowing you to program how FarmBot operates without writing any code
+:page-facing-up: [Sequence editor](../The-FarmBot-Web-App/sequences.md) allowing you to program how FarmBot operates without writing any code
 
-:registered: [Regimen editor](regimens.md) for scheduling sequences based on plant age
+:registered: [Regimen editor](../The-FarmBot-Web-App/regimens.md) for scheduling sequences based on plant age
 
-:video-game: [Controls](controls.md) for moving FarmBot in real-time and operating its peripherals and sensors
+:video-game: [Controls](../The-FarmBot-Web-App/controls.md) for moving FarmBot in real-time and operating its peripherals and sensors
 
-:wrench: Management of FarmBot's [tools and seed containers](farm-designer/tools.md)
+:wrench: Management of FarmBot's [tools and seed containers](../The-FarmBot-Web-App/tools.md)
 
-:electric-plug: Management and control of [farmware](farmware.md), FarmBot's 3rd-party plugin system
+:electric-plug: Management and control of [farmware](../The-FarmBot-Web-App/farmware.md), FarmBot's 3rd-party plugin system
 
-:1234: Management of [FarmBot's settings](settings.md)
+:1234: Management of [FarmBot's settings](../The-FarmBot-Web-App/settings.md)
 
-:pager: Storage and viewing of [logs](the-farmbot-web-app/logs.md) and sensor readings
+:pager: Storage and viewing of [logs](../The-FarmBot-Web-App/the-farmbot-web-app/logs.md) and sensor readings
 
 <iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D0EAcUbO6tqo&src=http%3A%2F%2Fwww.youtube.com%2Fembed%2F0EAcUbO6tqo&type=text%2Fhtml&key=f2aa6fc3595946d0afc3d76cbbd25dc3&schema=youtube" width="854" height="480" scrolling="no" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
 

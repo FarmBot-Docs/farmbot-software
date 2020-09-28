@@ -41,7 +41,7 @@ content="There is more technical documentation about the FarmBot Arduino Firmwar
 include callout.html
 type="info"
 title="Requires FarmBot OS"
-content="This firmware installation method is for people who installed [FarmBot OS](raspberry-pi-software.md) on their Raspberry Pi. If you installed a different OS, then you will need to use one of the other firmware installation methods below."
+content="This firmware installation method is for people who installed [FarmBot OS](farmbot-os.md) on their Raspberry Pi. If you installed a different OS, then you will need to use one of the other firmware installation methods below."
 %}
 
 1. Plug your Arduino into the Raspberry Pi using a USB cable.

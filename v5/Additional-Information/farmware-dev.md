@@ -33,7 +33,7 @@ To install new Farmware, use the __Farmware__ widget, currently located on the _
 
 Installation is performed by entering the URL of the _manifest.json_ file for the Farmware.
 
-For example, entering `https://raw.githubusercontent.com/FarmBot-Labs/farmware_manifests/master/packages/take-photo/manifest.json` and clicking install would install the `Take Photo` Farmware, whose source code is located at the GitHub project [here](https://github.com/FarmBot-Labs/Take-Photo). See [Farmware manifest](#section-farmware-manifest) for more information.
+For example, entering `https://raw.githubusercontent.com/FarmBot-Labs/farmware_manifests/master/packages/take-photo/manifest.json` and clicking install would install the `Take Photo` Farmware, whose source code is located at the GitHub project [here](https://github.com/FarmBot-Labs/Take-Photo). See [Farmware manifest](#farmware-manifest) for more information.
 
 # Developing Farmware
 
@@ -152,7 +152,7 @@ _Use: real-time web app communication and bot actions_
 
 Celery Script is JSON sent to FarmBot OS to perform actions such as device movements and setting environment variables.
 
-Send Celery Script [available actions](https://github.com/FarmBot/farmbot-js/blob/master/dist/corpus.d.ts) by posting to the farmware URL (see [Environment Variables](#section-environment-variables)).
+Send Celery Script [available actions](https://github.com/FarmBot/farmbot-js/blob/master/dist/corpus.d.ts) by posting to the farmware URL (see [Environment Variables](#environment-variables)).
 
 See the [Celery Script developer documentation](https://github.com/FarmBot/farmbot-js/wiki/Celery-Script) for more information.
 
@@ -226,7 +226,7 @@ VALUE = os.environ['farmware_name_key']
 
 ## Farmware manifest
 
-To [install a Farmware](#section-installing-farmware), you need to create a `manifest.json` file and host it.
+To [install a Farmware](#installing-farmware), you need to create a `manifest.json` file and host it.
 
 
 __Farmware Manifest Example:__

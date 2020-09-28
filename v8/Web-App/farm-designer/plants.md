@@ -10,7 +10,7 @@ You can view all of your plants in the **plants panel** list, as well as in the 
 
 # Adding plants
 
-To add a plant, click the <span class="fb-button fb-green">:fa-plus:</span> button in the plants panel. This will bring up the **choose a crop** panel where you can type in the name of the **crop** you would like the add to your garden. We recommend searching for more generic common crop names rather than specific varieties and cultivars, for example, "Mushrooms".
+To add a plant, click the <span class="fb-button fb-green"><i class="fa fa-plus"></i></span> button in the plants panel. This will bring up the **choose a crop** panel where you can type in the name of the **crop** you would like the add to your garden. We recommend searching for more generic common crop names rather than specific varieties and cultivars, for example, "Mushrooms".
 
 ![Screen Shot 2019-07-15 at 7.37.38 PM.png](Screen_Shot_2019-07-15_at_7.37.38_PM.png)
 

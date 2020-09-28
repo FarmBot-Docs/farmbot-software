@@ -31,12 +31,12 @@ Homing can be performed automatically or manually. **Automatic homing** utilizes
 include callout.html
 type="info"
 title=""
-content="**ENCODERS**, **STALL DETECTION**, or **ENDSTOPS** must be enabled for FarmBot to automatically find the home position. See the [how it works](#section-how-it-works) section below for more information."
+content="**ENCODERS**, **STALL DETECTION**, or **ENDSTOPS** must be enabled for FarmBot to automatically find the home position. See the [how it works](#how-it-works) section below for more information."
 %}
 
 Instruct FarmBot to automatically find the home position on a regular basis by using the <span class="fb-step fb-move-absolute">FIND HOME</span> command in a sequence. This is recommended at the start of long-running sequences and sequences that require a high degree of precision.
 
-Alternatively you can use the <span class="fb-button fb-yellow">FIND HOME X</span>, <span class="fb-button fb-yellow">FIND HOME Y</span>, and <span class="fb-button fb-yellow">FIND HOME Z</span> buttons in the settings panel to have FarmBot find home whenever you wish, or the <span class="fb-button fb-gray">:fa-home:</span> button on the controls page to perform homing for all three axes in the order Z, Y, X. This is recommended after powering up FarmBot, any kind of movement error, or after moving FarmBot by hand.
+Alternatively you can use the <span class="fb-button fb-yellow">FIND HOME X</span>, <span class="fb-button fb-yellow">FIND HOME Y</span>, and <span class="fb-button fb-yellow">FIND HOME Z</span> buttons in the settings panel to have FarmBot find home whenever you wish, or the <span class="fb-button fb-gray"><i class="fa fa-home"></i></span> button on the controls page to perform homing for all three axes in the order Z, Y, X. This is recommended after powering up FarmBot, any kind of movement error, or after moving FarmBot by hand.
 
 ## Manual homing
 1. Move FarmBot to the desired home position with the manual controls or by hand.
@@ -57,7 +57,7 @@ Calibration can be performed automatically or manually. **Automatic calibration*
 include callout.html
 type="info"
 title=""
-content="**ENCODERS**, **STALL DETECTION**, or **ENDSTOPS** must be enabled for FarmBot to automatically calibrate. See the [how it works](#section-how-it-works) section below for more information."
+content="**ENCODERS**, **STALL DETECTION**, or **ENDSTOPS** must be enabled for FarmBot to automatically calibrate. See the [how it works](#how-it-works) section below for more information."
 %}
 
 Instruct FarmBot to automatically calibrate an axis with the <span class="fb-button fb-yellow">CALIBRATE X</span>, <span class="fb-button fb-yellow">CALIBRATE Y</span>, and <span class="fb-button fb-yellow">CALIBRATE Z</span> buttons in the settings panel. FarmBot will first find the maximum position of an axis and then find the minimum (home) position, and measure the distance in millimeters between the two. FarmBot will then update the **AXIS LENGTH** setting.
@@ -80,7 +80,7 @@ FarmBot Genesis kits include **rotary encoders** on each motor that monitor how 
 include callout.html
 type="info"
 title=""
-content="See the [stall detection](../../FarmBot OS/arduino-firmware/stall-detection.md) page for more information."
+content="See the [stall detection](../../FarmBot-OS/arduino-firmware/stall-detection.md) page for more information."
 %}
 
 ## Back-current sensing stepper drivers
@@ -91,7 +91,7 @@ FarmBot Express kits include **back-current sensing stepper drivers** that can d
 include callout.html
 type="info"
 title=""
-content="See the [stall detection](../../FarmBot OS/arduino-firmware/stall-detection.md) page for more information."
+content="See the [stall detection](../../FarmBot-OS/arduino-firmware/stall-detection.md) page for more information."
 %}
 
 ## Endstop limit switches

@@ -17,7 +17,7 @@ On the **tools panel** you can manage all of your FarmBot's **tools**, **seed co
 
 # Tools and seed containers
 ## Creating tools and seed containers
-To create a new **tool** or **seed container**, press the <span class="fb-button fb-gray">:fa-plus:</span> button. Provide a <span class="fb-input">Name</span> to define the tool or seed container and then press <span class="fb-button fb-green">SAVE</span>. Alternatively, press <span class="fb-button fb-green">:fa-plus: STOCK NAMES</span> to add all of the standard tools and seed containers included with your FarmBot kit.
+To create a new **tool** or **seed container**, press the <span class="fb-button fb-gray"><i class="fa fa-plus"></i></span> button. Provide a <span class="fb-input">Name</span> to define the tool or seed container and then press <span class="fb-button fb-green">SAVE</span>. Alternatively, press <span class="fb-button fb-green"><i class="fa fa-plus"></i> STOCK NAMES</span> to add all of the standard tools and seed containers included with your FarmBot kit.
 
 ![Screen Shot 2020-02-20 at 1.00.19 PM.png](Screen_Shot_2020-02-20_at_1.00.19_PM.png)
 
@@ -41,13 +41,13 @@ Once you've added all of your tools and seed containers, its time to load some o
 ![202d59e-Screen_Shot_2019-05-05_at_11.18.59_PM.png](Screen_Shot_2019-05-05_at_11.18.59_PM.png)
 
 ## Creating slots
-To create a new slot, press the <span class="fb-button fb-gray">:fa-plus:</span> button next to the **SLOTS** label in the tools panel.
+To create a new slot, press the <span class="fb-button fb-gray"><i class="fa fa-plus"></i></span> button next to the **SLOTS** label in the tools panel.
 
 Next, provide **coordinates** for the tool slot.
   * If you plan to load an **interchangeable tool** into the slot (Genesis kits only), use coordinates for when FarmBot's UTM will fully mount the tool while it is still in the slot.
   * If you plan to load a **seed container** into the slot, use coordinates for when FarmBot's seed injector needle will be positioned to pick up a seed from the container.
 
-To input accurate coordinates, use the manual controls to move FarmBot into the desired position (mounting the tool or picking up a seed). Then click the **USE CURRENT LOCATION** <span class="fb-button fb-light-blue">:fa-crosshairs:</span> button to copy FarmBot's current coordinates into the **X**, **Y**, and **Z** input fields.
+To input accurate coordinates, use the manual controls to move FarmBot into the desired position (mounting the tool or picking up a seed). Then click the **USE CURRENT LOCATION** <span class="fb-button fb-light-blue"><i class="fa fa-crosshairs"></i></span> button to copy FarmBot's current coordinates into the **X**, **Y**, and **Z** input fields.
 
 ![Screen Shot 2020-02-20 at 1.30.58 PM.png](Screen_Shot_2020-02-20_at_1.30.58_PM.png)
 

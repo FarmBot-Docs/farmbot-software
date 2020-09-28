@@ -17,7 +17,7 @@ This will restart FarmBot's Raspberry Pi and FarmBot OS.
 This will shutdown FarmBot's Raspberry Pi. To turn it back on, unplug FarmBot and plug it back in.
 
 # Factory reset
-Factory resetting your FarmBot will destroy all data on the device, revoking your FarmBot's ability to connect to your web app account and your home WiFi network. Upon factory resetting, your device will restart [Configurator](../../FarmBot OS/farmbot-os/configurator.md).
+Factory resetting your FarmBot will destroy all data on the device, revoking your FarmBot's ability to connect to your web app account and your home WiFi network. Upon factory resetting, your device will restart [Configurator](../../FarmBot-OS/farmbot-os/configurator.md).
 
 Factory resetting your FarmBot will not affect any data or settings from your web app account, allowing you to do a complete restore to your device once it is back online and paired with your web app account.
 

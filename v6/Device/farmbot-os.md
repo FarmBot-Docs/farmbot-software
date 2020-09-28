@@ -89,7 +89,7 @@ content="If the red <span class=\"fa fa-circle\" style=\"color: red;opacity: 1\"
 |------------------------------|------------------------------|------------------------------|
 |<span class="fa fa-circle" style="color: green;opacity: 1"></span> (solid green)|Busy                          |Working/booting
 |<span class="fa fa-sun-o" style="color: green;opacity: 1"></span> (blinking randomly)|Busy                          |Working/booting
-|<span class="fa fa-sun-o" style="color: green;opacity: 1"></span> (blinking consistently)|Network disconnected or emergency stopped|[Configure FarmBot](../FarmBot OS/farmbot-os/configurator.md), press <span class="fb-button fb-yellow">UNLOCK</span> in the Web App, or check that the network FarmBot is connected to is online.
+|<span class="fa fa-sun-o" style="color: green;opacity: 1"></span> (blinking consistently)|Network disconnected or emergency stopped|[Configure FarmBot](configurator.md), press <span class="fb-button fb-yellow">UNLOCK</span> in the Web App, or check that the network FarmBot is connected to is online.
 |<span class="fa fa-circle-thin" style="color: green;opacity: 1"></span> (off)|Ready                         |Waiting for the next task
 
 
@@ -137,7 +137,7 @@ See [pinout.xyz](https://pinout.xyz/) for a Raspberry Pi GPIO reference diagram.
 |BLUE (connection)             |STATUS                        |TIPS                          |
 |------------------------------|------------------------------|------------------------------|
 |<span class="fa fa-circle" style="color: blue;opacity: 1"></span> (solid blue)|Connected                     |Working
-|<span class="fa fa-sun-o" style="color: blue;opacity: 1"></span> (blinking slowly)|Needs configuration           |[Configure FarmBot](../FarmBot OS/farmbot-os/configurator.md), press <span class="fb-button fb-yellow">UNLOCK</span> in the Web App, or check that the network FarmBot is connected to is online.
+|<span class="fa fa-sun-o" style="color: blue;opacity: 1"></span> (blinking slowly)|Needs configuration           |[Configure FarmBot](configurator.md), press <span class="fb-button fb-yellow">UNLOCK</span> in the Web App, or check that the network FarmBot is connected to is online.
 |<span class="fa fa-circle-thin" style="color: blue;opacity: 1"></span> (off)|Offline                       |Check your internet connection.
 
 ## LED 3: Controllable [white] (Raspberry Pi GPIO BCM pin 12)

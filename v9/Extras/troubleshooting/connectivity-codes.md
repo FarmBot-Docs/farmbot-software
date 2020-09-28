@@ -61,42 +61,42 @@ In one particular school firewall, the IT department opened port 3002 for FarmBo
 You are either offline, using a web browser that does not support WebSockets, or are behind a firewall that blocks port 3002. Do not attempt to debug FarmBot hardware until you solve this issue first. You will not be able to troubleshoot hardware issues without a reliable browser and internet connection.
 ```
 
-**Corrective Action**: See [Code 1](#section-code-1)
+**Corrective Action**: See [Code 1](#code-1)
 
 # Code 3
 ```
 You are either offline, using a web browser that does not support WebSockets, or are behind a firewall that blocks port 3002. Do not attempt to debug FarmBot hardware until you solve this issue first. You will not be able to troubleshoot hardware issues without a reliable browser and internet connection.
 ```
 
-**Corrective Action**: See [Code 1](#section-code-1)
+**Corrective Action**: See [Code 1](#code-1)
 
 # Code 4
 ```
 You are either offline, using a web browser that does not support WebSockets, or are behind a firewall that blocks port 3002. Do not attempt to debug FarmBot hardware until you solve this issue first. You will not be able to troubleshoot hardware issues without a reliable browser and internet connection.
 ```
 
-**Corrective Action**: See [Code 1](#section-code-1)
+**Corrective Action**: See [Code 1](#code-1)
 
 # Code 5
 ```
 You are either offline, using a web browser that does not support WebSockets, or are behind a firewall that blocks port 3002. Do not attempt to debug FarmBot hardware until you solve this issue first. You will not be able to troubleshoot hardware issues without a reliable browser and internet connection.
 ```
 
-**Corrective Action**: See [Code 1](#section-code-1)
+**Corrective Action**: See [Code 1](#code-1)
 
 # Code 6
 ```
 You are either offline, using a web browser that does not support WebSockets, or are behind a firewall that blocks port 3002. Do not attempt to debug FarmBot hardware until you solve this issue first. You will not be able to troubleshoot hardware issues without a reliable browser and internet connection.
 ```
 
-**Corrective Action**: See [Code 1](#section-code-1)
+**Corrective Action**: See [Code 1](#code-1)
 
 # Code 7
 ```
 You are either offline, using a web browser that does not support WebSockets, or are behind a firewall that blocks port 3002. Do not attempt to debug FarmBot hardware until you solve this issue first. You will not be able to troubleshoot hardware issues without a reliable browser and internet connection.
 ```
 
-**Corrective Action**: See [Code 1](#section-code-1)
+**Corrective Action**: See [Code 1](#code-1)
 
 # Code 8
 ```
@@ -118,7 +118,7 @@ Note: Some older FBOS versions and specific FBOS config settings may result in a
 Your browser is connected correctly, but we have no recent record of FarmBot connecting to the internet. This usually happens because of a bad WiFi signal in the garden, a bad password during configuration, or a very long power outage.
 ```
 
-**Corrective Action**: See [Code 8](#section-code-8)
+**Corrective Action**: See [Code 8](#code-8)
 
 # Code 10
 ```
@@ -127,16 +127,16 @@ FarmBot and the browser are both connected to the internet (or have been recentl
 
 **Corrective Action**:
 1. Try rebooting FarmBot and refreshing the browser.
-2. A firewall may be blocking port 5672 check this port so see if it is blocked. If you are a company or a school please have your IT professional review [this document](https://software.farm.bot/docs/for-it-security-professionals).
+2. A firewall may be blocking port 5672 check this port so see if it is blocked. If you are a company or a school please have your IT professional review [this document](for-it-security-professionals.md).
 3. On FarmBot Genesis 1.4 check the Blue LED communication light. You have blocked ports if the Blue LED is OFF and the Green LED is on. (Only FarmBot Genesis v1.4 models have this diagnostic Green and Blue LEDs)
-Please review our [troubleshooting document](https://software.farm.bot/docs/connecting-farmbot-to-the-internet).
+Please review our [troubleshooting document](connecting-farmbot-to-the-internet.md).
 
 # Code 11
 ```
 FarmBot and the browser are both connected to the internet (or have been recently). Try rebooting FarmBot and refreshing the browser. If the issue persists, something may be preventing FarmBot from accessing the message broker (used to communicate with your web browser in real-time). If you are on a company or school network, a firewall may be blocking port 5672.
 ```
 
-**Corrective Action**: See [Code 10](#section-code-10)
+**Corrective Action**: See [Code 10](#code-10)
 
 # Code 12
 ```
@@ -162,105 +162,105 @@ FarmBot and the browser both have internet connectivity, but we haven't seen any
 Arduino is possibly unplugged. Check the USB cable between the Raspberry Pi and the Arduino. Reboot FarmBot after a reconnection. If the issue persists, reconfiguration of FarmBot OS may be necessary.
 ```
 
-**Corrective Action**: See [Code 12](#section-code-12)
+**Corrective Action**: See [Code 12](#code-12)
 
 # Code 15
 ```
 You are either offline, using a web browser that does not support WebSockets, or are behind a firewall that blocks port 3002. Do not attempt to debug FarmBot hardware until you solve this issue first. You will not be able to troubleshoot hardware issues without a reliable browser and internet connection.
 ```
 
-**Corrective Action**: See [Code 1](#section-code-1)
+**Corrective Action**: See [Code 1](#code-1)
 
 # Code 16
 ```
 You are either offline, using a web browser that does not support WebSockets, or are behind a firewall that blocks port 3002. Do not attempt to debug FarmBot hardware until you solve this issue first. You will not be able to troubleshoot hardware issues without a reliable browser and internet connection.
 ```
 
-**Corrective Action**: See [Code 1](#section-code-1)
+**Corrective Action**: See [Code 1](#code-1)
 
 # Code 17
 ```
 You are either offline, using a web browser that does not support WebSockets, or are behind a firewall that blocks port 3002. Do not attempt to debug FarmBot hardware until you solve this issue first. You will not be able to troubleshoot hardware issues without a reliable browser and internet connection.
 ```
 
-**Corrective Action**: See [Code 1](#section-code-1)
+**Corrective Action**: See [Code 1](#code-1)
 
 # Code 18
 ```
 You are either offline, using a web browser that does not support WebSockets, or are behind a firewall that blocks port 3002. Do not attempt to debug FarmBot hardware until you solve this issue first. You will not be able to troubleshoot hardware issues without a reliable browser and internet connection.
 ```
 
-**Corrective Action**: See [Code 1](#section-code-1)
+**Corrective Action**: See [Code 1](#code-1)
 
 # Code 19
 ```
 You are either offline, using a web browser that does not support WebSockets, or are behind a firewall that blocks port 3002. Do not attempt to debug FarmBot hardware until you solve this issue first. You will not be able to troubleshoot hardware issues without a reliable browser and internet connection.
 ```
 
-**Corrective Action**: See [Code 1](#section-code-1)
+**Corrective Action**: See [Code 1](#code-1)
 
 # Code 20
 ```
 You are either offline, using a web browser that does not support WebSockets, or are behind a firewall that blocks port 3002. Do not attempt to debug FarmBot hardware until you solve this issue first. You will not be able to troubleshoot hardware issues without a reliable browser and internet connection.
 ```
 
-**Corrective Action**: See [Code 1](#section-code-1)
+**Corrective Action**: See [Code 1](#code-1)
 
 # Code 21
 ```
 You are either offline, using a web browser that does not support WebSockets, or are behind a firewall that blocks port 3002. Do not attempt to debug FarmBot hardware until you solve this issue first. You will not be able to troubleshoot hardware issues without a reliable browser and internet connection.
 ```
 
-**Corrective Action**: See [Code 1](#section-code-1)
+**Corrective Action**: See [Code 1](#code-1)
 
 # Code 22
 ```
 You are either offline, using a web browser that does not support WebSockets, or are behind a firewall that blocks port 3002. Do not attempt to debug FarmBot hardware until you solve this issue first. You will not be able to troubleshoot hardware issues without a reliable browser and internet connection.
 ```
 
-**Corrective Action**: See [Code 1](#section-code-1)
+**Corrective Action**: See [Code 1](#code-1)
 
 # Code 23
 ```
 You are either offline, using a web browser that does not support WebSockets, or are behind a firewall that blocks port 3002. Do not attempt to debug FarmBot hardware until you solve this issue first. You will not be able to troubleshoot hardware issues without a reliable browser and internet connection.
 ```
 
-**Corrective Action**: See [Code 1](#section-code-1)
+**Corrective Action**: See [Code 1](#code-1)
 
 # Code 24
 ```
 Your browser is connected correctly, but we have no recent record of FarmBot connecting to the internet. This usually happens because of a bad WiFi signal in the garden, a bad password during configuration, or a very long power outage.
 ```
 
-**Corrective Action**: See [Code 8](#section-code-8)
+**Corrective Action**: See [Code 8](#code-8)
 
 # Code 25
 ```
 Your browser is connected correctly, but we have no recent record of FarmBot connecting to the internet. This usually happens because of a bad WiFi signal in the garden, a bad password during configuration, or a very long power outage.
 ```
 
-**Corrective Action**: See [Code 8](#section-code-8)
+**Corrective Action**: See [Code 8](#code-8)
 
 # Code 26
 ```
 FarmBot and the browser are both connected to the internet (or have been recently). Try rebooting FarmBot and refreshing the browser. If the issue persists, something may be preventing FarmBot from accessing the message broker (used to communicate with your web browser in real-time). If you are on a company or school network, a firewall may be blocking port 5672.
 ```
 
-**Corrective Action**: See [Code 10](#section-code-10)
+**Corrective Action**: See [Code 10](#code-10)
 
 # Code 27
 ```
 FarmBot and the browser are both connected to the internet (or have been recently). Try rebooting FarmBot and refreshing the browser. If the issue persists, something may be preventing FarmBot from accessing the message broker (used to communicate with your web browser in real-time). If you are on a company or school network, a firewall may be blocking port 5672.
 ```
 
-**Corrective Action**: See [Code 10](#section-code-10)
+**Corrective Action**: See [Code 10](#code-10)
 
 # Code 28
 ```
 Arduino is possibly unplugged. Check the USB cable between the Raspberry Pi and the Arduino. Reboot FarmBot after a reconnection. If the issue persists, reconfiguration of FarmBot OS may be necessary.
 ```
 
-**Corrective Action**: See [Code 12](#section-code-12)
+**Corrective Action**: See [Code 12](#code-12)
 
 # Code 29
 ```
@@ -277,7 +277,7 @@ FarmBot and the browser both have internet connectivity, but we haven't seen any
 Arduino is possibly unplugged. Check the USB cable between the Raspberry Pi and the Arduino. Reboot FarmBot after a reconnection. If the issue persists, reconfiguration of FarmBot OS may be necessary.
 ```
 
-**Corrective Action**: See [Code 12](#section-code-12)
+**Corrective Action**: See [Code 12](#code-12)
 
 # Code 31
 ```

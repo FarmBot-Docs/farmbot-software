@@ -34,7 +34,7 @@ _Raspberry Pi Zero W, included with Express kits_
 |------------------------------|------------------------------|
 |<span class="fa fa-circle green"></span> (solid green)|Busy working/booting
 |<span class="fa fa-sun-o green"></span> (blinking randomly)|Busy working/booting
-|<span class="fa fa-sun-o green"></span> (blinking consistently)|Network disconnected or emergency stopped - [Configure FarmBot](configurator.md), press <span class="fb-button fb-yellow">UNLOCK</span> in the Web App, or check that the network FarmBot is connected to is online.
+|<span class="fa fa-sun-o green"></span> (blinking consistently)|Network disconnected or emergency stopped - [Configure FarmBot](../farmbot-os/configurator.md), press <span class="fb-button fb-yellow">UNLOCK</span> in the Web App, or check that the network FarmBot is connected to is online.
 |<span class="fa fa-circle-thin green"></span> (off)|Ready and waiting for the next task
 
 # Electronics box LEDs
@@ -66,8 +66,8 @@ This blue LED indicates the **connection status** between FarmBot and the intern
 |Blue (connection)             |Status                        |
 |------------------------------|------------------------------|
 |<span class="fa fa-circle blue"></span> (solid blue)|Connected and working
-|<span class="fa fa-sun-o blue"></span> (blinking slowly)|Needs configuration - [Configure FarmBot](configurator.md), press <span class="fb-button fb-yellow">UNLOCK</span> in the Web App, or check that the network FarmBot is connected to is online.
-|<span class="fa fa-circle-thin blue"></span> (off)|Offline - Check your internet connection.<br><br>If you are connected to the internet but the Blue LED is off, one or more of your ports may be blocked. Get your network administrator to check the ports listed in the [Firewall is blocking network traffic](https://software.farm.bot/docs/connecting-farmbot-to-the-web-app#section-6-firewall-is-blocking-network-traffic) troubleshooting section.
+|<span class="fa fa-sun-o blue"></span> (blinking slowly)|Needs configuration - [Configure FarmBot](../farmbot-os/configurator.md), press <span class="fb-button fb-yellow">UNLOCK</span> in the Web App, or check that the network FarmBot is connected to is online.
+|<span class="fa fa-circle-thin blue"></span> (off)|Offline - Check your internet connection.<br><br>If you are connected to the internet but the Blue LED is off, one or more of your ports may be blocked. Get your network administrator to check the ports listed in the [Firewall is blocking network traffic](../../Extras/troubleshooting/connecting-farmbot-to-the-web-app.md#6-firewall-is-blocking-network-traffic) troubleshooting section.
 
 ## LED 3 (custom)
 This white LED (Genesis kits only) is user controllable via the <span class="fb-step fb-write-pin">Control Peripheral</span> sequence command. It is connected to Raspberry Pi GPIO BCM pin 12.
@@ -84,7 +84,7 @@ The **E-Stop Button** (included with all Genesis v1.4+ and Express v1.0+ kits) h
 |Red (E-stop)                  |Status                        |
 |------------------------------|------------------------------|
 |<span class="fa fa-circle red"></span> (solid red)|Unlocked and ready
-|<span class="fa fa-sun-o red"></span> (blinking red)|FarmBot is missing firmware. This is normal during configuration. If you have completed configuration, selected your FarmBot model in the [Message Center](../../The FarmBot Web App/the-farmbot-web-app/message-center.md) and still see blinking, you may need to flash the [Arduino Firmware](../arduino-firmware.md).
+|<span class="fa fa-sun-o red"></span> (blinking red)|FarmBot is missing firmware. This is normal during configuration. If you have completed configuration, selected your FarmBot model in the [Message Center](../../The-FarmBot-Web-App/the-farmbot-web-app/message-center.md) and still see blinking, you may need to flash the [Arduino Firmware](../../FarmBot-OS/arduino-firmware.md).
 |<span class="fa fa-circle-thin red"></span> (off)|Locked - Check the Unlock Button LED status
 
 ## Unlock Button
@@ -96,4 +96,4 @@ The **Unlock Button** (included with all Genesis v1.4+) has a yellow LED that in
 |<span class="fa fa-circle-thin orange"></span> (off)|Unlocked and ready
 
 ## Other buttons
-Some kits include three additional buttons (Button 3, Button 4, and Button 5) whose actions can be customized via [Pin Bindings](../../The FarmBot Web App/settings/pin-bindings.md), however the LEDs for these buttons are not customizable.
+Some kits include three additional buttons (Button 3, Button 4, and Button 5) whose actions can be customized via [Pin Bindings](../../The-FarmBot-Web-App/settings/pin-bindings.md), however the LEDs for these buttons are not customizable.

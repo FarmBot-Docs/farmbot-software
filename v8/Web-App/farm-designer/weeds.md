@@ -9,7 +9,7 @@ slug: "weeds"
 The **weeds panel** allows you to keep track of the weeds in your garden that your FarmBot has detected or that you have manually entered.
 
 # Adding weeds
-To add a weed, click the <span class="fb-button fb-red">:fa-plus:</span> button in the weeds panel.
+To add a weed, click the <span class="fb-button fb-red"><i class="fa fa-plus"></i></span> button in the weeds panel.
 
 ![Screen Shot 2019-11-30 at 10.38.56 PM.png](Screen_Shot_2019-11-30_at_10.38.56_PM.png)
 
@@ -18,7 +18,7 @@ This will open the **create weed** panel where you can provide the **name**, **X
 ![Screen Shot 2019-11-30 at 10.43.37 PM.png](Screen_Shot_2019-11-30_at_10.43.37_PM.png)
 
 # Editing weeds
-To edit a weed, click it in the weeds list or in the map (when the weeds panel is opened). This will open the **edit weed** panel, allowing you to change anything about the weed. Changes will be saved when you press the :fa-arrow-left: button.
+To edit a weed, click it in the weeds list or in the map (when the weeds panel is opened). This will open the **edit weed** panel, allowing you to change anything about the weed. Changes will be saved when you press the <i class="fa fa-arrow-left"></i> button.
 
 ![Screen Shot 2019-11-30 at 10.45.20 PM.png](Screen_Shot_2019-11-30_at_10.45.20_PM.png)
 

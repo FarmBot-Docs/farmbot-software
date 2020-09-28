@@ -47,7 +47,7 @@ content="Calibration speed is currently determined by the **HOMING SPEED** setti
 ## Set zero position
 Pressing the <span class="fb-button fb-yellow">Zero X</span>, <span class="fb-button fb-yellow">Zero Y</span>, and <span class="fb-button fb-yellow">Zero Z</span> buttons allows you to *manually* set FarmBot's current location as zero for that axis. This is used for *manually* setting the Home position (0, 0, 0) when you do not have endstops or encoders enabled.
 
-However, because stock FarmBots have encoders, it is recommended to instead use the [Homing](#section-homing) function for *automatically* finding the Home position of each axis and setting that position to zero.
+However, because stock FarmBots have encoders, it is recommended to instead use the [Homing](#homing) function for *automatically* finding the Home position of each axis and setting that position to zero.
 
 So in general, the Set Zero buttons should not be regularly used because it does not make sense to change your zero position once you have your garden growing, and because all FarmBots should have either encoders or endstops enabled which allows for automatically finding and setting the Home position.
 
@@ -79,7 +79,7 @@ With these inputs you can manually specify the length in mm of each axis. This i
 include callout.html
 type="info"
 title="Reminder:"
-content="The length values of each axis are measured and auto-filled whenever your use the [Calibration](#section-calibration) function."
+content="The length values of each axis are measured and auto-filled whenever your use the [Calibration](#calibration) function."
 %}
 
 
@@ -218,7 +218,7 @@ content="Starting with FarmBot Genesis v1.4, our custom Farmduino boards feature
 %}
 
 ## Encoder scaling
-The encoder scaling factor is used to match the encoder resolution with the motor resolution. The rotary encoders included with the stock FarmBots are 360 line/revolution. The stock motors are 200 step/revolution and used with full-step microstepping (a value of 1 in the equation below). For more information on microstepping, see [Microstepping](../../FarmBot OS/arduino-firmware/microstepping.md).
+The encoder scaling factor is used to match the encoder resolution with the motor resolution. The rotary encoders included with the stock FarmBots are 360 line/revolution. The stock motors are 200 step/revolution and used with full-step microstepping (a value of 1 in the equation below). For more information on microstepping, see [Microstepping](../../Device/arduino-firmware/microstepping.md).
 
 The encoder scaling factor is calculated as follows, and rounded to the nearest integer.
 Encoder scaling = 10000 x motor resolution x microsteps / encoder resolution

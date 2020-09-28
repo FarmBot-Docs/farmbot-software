@@ -30,7 +30,7 @@ To install new Farmware, use the __Farmware__ widget, currently located on the _
 
 Installation is performed by entering the URL of the _manifest.json_ file for the Farmware.
 
-For example, entering `https://raw.githubusercontent.com/FarmBot-Labs/farmware_manifests/master/packages/take-photo/manifest.json` and clicking install would install the `Take Photo` Farmware, whose source code is located at the GitHub project [here](https://github.com/FarmBot-Labs/Take-Photo). See [Farmware manifest](#section-farmware-manifest) for more information.
+For example, entering `https://raw.githubusercontent.com/FarmBot-Labs/farmware_manifests/master/packages/take-photo/manifest.json` and clicking install would install the `Take Photo` Farmware, whose source code is located at the GitHub project [here](https://github.com/FarmBot-Labs/Take-Photo). See [Farmware manifest](#farmware-manifest) for more information.
 
 # Developing Farmware
 
@@ -59,7 +59,7 @@ plants = response.json()
 
 _Use: credentials_
 
-Environment variables are used to get credentials (token) and to interface with the FarmBot Web App. Set via [Celery Script](#section-celery-script).
+Environment variables are used to get credentials (token) and to interface with the FarmBot Web App. Set via [Celery Script](#celery-script).
 
 
 __Python example:__
@@ -156,7 +156,7 @@ print(os.environ['BEGIN_CS'] + json.dumps(add_point))
 
 # Farmware manifest
 
-To [install a Farmware](#section-installing-farmware), you need to create a `manifest.json` file and host it.
+To [install a Farmware](#installing-farmware), you need to create a `manifest.json` file and host it.
 
 
 __Farmware Manifest Example:__

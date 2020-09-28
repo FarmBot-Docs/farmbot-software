@@ -12,9 +12,9 @@ excerpt: "Configure FarmBot to connect to your home WiFi network and web app acc
 include callout.html
 type="info"
 title="Configuration requires a web app account"
-content="To complete configuration, you must have a **verified web app account**. See instructions for creating and verifying an account [here](../../The FarmBot Web App/the-farmbot-web-app/creating-an-account.md).
+content="To complete configuration, you must have a **verified web app account**. See instructions for creating and verifying an account [here](../../The-FarmBot-Web-App/the-farmbot-web-app/creating-an-account.md).
 
-We also recommend [choosing a FarmBot model](doc:creating-an-account#section-account-seeding) from the message center before starting configuration. This will set the correct firmware version in your web app account, allowing FarmBot to fully initialize when it connects."
+We also recommend [choosing a FarmBot model](../../The-FarmBot-Web-App/the-farmbot-web-app/creating-an-account.md#account-seeding) from the message center before starting configuration. This will set the correct firmware version in your web app account, allowing FarmBot to fully initialize when it connects."
 %}
 
 **Configurator** is a piece of software built into **FarmBot OS** that makes it easy to connect your FarmBot to a **WiFi network** and your **web app account**.
@@ -62,17 +62,17 @@ If you're connecting FarmBot with WiFi, select the **network name** (SSID) of th
 
 ![SSID.png](SSID.png)
 
-Now enter the <span class="fb-input">Password</span> for the WiFi network and press <span class="fb-button fb-green">NEXT</span>. For other network settings such as DNS or IP assignment, press **ADVANCED SETTINGS** :fa-caret-down:
+Now enter the <span class="fb-input">Password</span> for the WiFi network and press <span class="fb-button fb-green">NEXT</span>. For other network settings such as DNS or IP assignment, press **ADVANCED SETTINGS** <i class="fa fa-caret-down"></i>
 
 ![PSK.png](PSK.png)
 
 ## Ethernet connections
-There are not any required settings for ethernet connections, though if you need to input additional network configuration such as DNS or IP assignment, press **ADVANCED SETTINGS** :fa-caret-down:. Otherwise, press <span class="fb-button fb-green">NEXT</span>.
+There are not any required settings for ethernet connections, though if you need to input additional network configuration such as DNS or IP assignment, press **ADVANCED SETTINGS** <i class="fa fa-caret-down"></i>. Otherwise, press <span class="fb-button fb-green">NEXT</span>.
 
 # Step 3: Enter your web app credentials
 Enter the <span class="fb-input">Email</span> and <span class="fb-input">Password</span> you used when creating your web app account. Then press <span class="fb-button fb-green">NEXT</span>.
 
-Remember: you must already have a **verified web app account** in order for the FarmBot to connect to the web app. See instructions for creating and verifying an account [here](../../The FarmBot Web App/the-farmbot-web-app/creating-an-account.md).
+Remember: you must already have a **verified web app account** in order for the FarmBot to connect to the web app. See instructions for creating and verifying an account [here](../../The-FarmBot-Web-App/the-farmbot-web-app/creating-an-account.md).
 
 ![Web app.png](Web_app.png)
 
@@ -97,7 +97,7 @@ Press <span class="fb-button fb-green">FINISH</span>. FarmBot OS will now attemp
 include callout.html
 type="success"
 title="Make sure you've chosen your FarmBot model"
-content="If you haven't yet [selected a FarmBot model](doc:creating-an-account#section-account-seeding) from the message center, then FarmBot will not know which firmware version to flash to the microcontroller. This will result in all movement commands failing. If this happens, make sure you choose a FarmBot model, or manually select a firmware option from the Device page and it will be flashed to the microcontroller."
+content="If you haven't yet [selected a FarmBot model](../../The-FarmBot-Web-App/the-farmbot-web-app/creating-an-account.md#account-seeding) from the message center, then FarmBot will not know which firmware version to flash to the microcontroller. This will result in all movement commands failing. If this happens, make sure you choose a FarmBot model, or manually select a firmware option from the Device page and it will be flashed to the microcontroller."
 %}
 
 If there is a problem with the configuration, such as an incorrect password, then the Configurator program will restart and you will see the `farmbot-xxxx` WiFi network again. If this happens, try configuring again or consult the [troubleshooting guides](../../Extras/troubleshooting.md).

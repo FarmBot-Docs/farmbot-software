@@ -19,10 +19,10 @@ content="This example sequence is only applicable to FarmBot Genesis kits, which
 %}
 
 ## Step 1: Add the tool to a slot
-If you haven't already, [create the watering nozzle tool in the web app and add it to a slot](../../The FarmBot Web App/farm-designer/tools.md). Then place the real tool in the physical slot to ensure your real-life configuration matches the web app.
+If you haven't already, [create the watering nozzle tool in the web app and add it to a slot](../../Web-App/tools.md). Then place the real tool in the physical slot to ensure your real-life configuration matches the web app.
 
 ## Step 2: Create the sequence
-Navigate to the **Sequences** page of the web app and press the <span class="fb-button fb-green">:fa-plus:</span> button to add a new sequence. The new sequence will appear in the sequence editor in the middle column. Give the sequence a descriptive name and optionally assign it a color.
+Navigate to the **Sequences** page of the web app and press the <span class="fb-button fb-green"><i class="fa fa-plus"></i></span> button to add a new sequence. The new sequence will appear in the sequence editor in the middle column. Give the sequence a descriptive name and optionally assign it a color.
 
 ![Screen Shot 2019-07-15 at 12.38.36 PM.png](Screen_Shot_2019-07-15_at_12.38.36_PM.png)
 

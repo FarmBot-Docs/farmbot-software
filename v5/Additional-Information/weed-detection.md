@@ -12,7 +12,7 @@ excerpt: "Computer vision software to detect weeds"
 include callout.html
 type="warning"
 title="Under Development"
-content="Weed detection functionality will be available in alpha soon. The [weed detector widget](https://software.farmbot.io/docs/farmware#section-weed-detector) can be previewed in the [farmbot web app](https://my.farmbot.io)."
+content="Weed detection functionality will be available in alpha soon. The [weed detector widget](https://software.farmbot.io/docs/farmware#weed-detector) can be previewed in the [farmbot web app](https://my.farmbot.io)."
 %}
 
 FarmBot is designed for removing weeds early and often such that the weeds are always small, young, and fragile, and therefore easily removed by the [Weeder Tool](https://genesis.farmbot.io/docs/weeder).

@@ -11,7 +11,7 @@ Rotary encoders attached to the back of each motor constantly monitor FarmBot's 
 
 * a motor is not moving due to incorrect speed settings or lack of power.
 * it has collided with an object such as dirt on the tracks, plant branches, or animals.
-* the end of an axis has been reached during [Automatic Calibration and Homing](../Extras/calibration-and-homing.md) or in error.
+* the end of an axis has been reached during [Automatic Calibration and Homing](../Additional-Information/calibration-and-homing.md) or in error.
 * someone is physically pushing the device to a different location.
 
 With rotary encoders, FarmBot can be aware that it has not reached the intended location instead of continuing in the wrong position and accidentally destroying the whole garden.

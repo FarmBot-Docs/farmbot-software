@@ -12,7 +12,7 @@ excerpt: "**In this guide:** Learn how to scan the whole garden for weeds using 
 include callout.html
 type="info"
 title=""
-content="This guide assumes you have already [calibrated your FarmBot's camera](../../The FarmBot Web App/farmware/camera-calibration.md)."
+content="This guide assumes you have already [calibrated your FarmBot's camera](../../The-FarmBot-Web-App/photos/camera-calibration.md)."
 %}
 
 # Step 1: Create a point grid

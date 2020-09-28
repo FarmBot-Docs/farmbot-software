@@ -12,7 +12,7 @@ excerpt: "[Open these settings in the app](https://my.farm.bot/app/designer/sett
 include callout.html
 type="info"
 title="For FarmBot Genesis bots only"
-content="Encoder settings are only available for FarmBot Genesis bots. FarmBot Express users should refer to the [stall detection](../../FarmBot OS/arduino-firmware/stall-detection.md) section."
+content="Encoder settings are only available for FarmBot Genesis bots. FarmBot Express users should refer to the [stall detection](../settings/stall-detection.md) section."
 %}
 
 
@@ -26,7 +26,7 @@ FarmBot Genesis kits have rotary encoders built-in. The rotary encoders should b
 include callout.html
 type="info"
 title=""
-content="See [Rotary Encoders](doc:stall-detection#section-rotary-encoders) for more information."
+content="See [Rotary Encoders](../settings/stall-detection.md#rotary-encoders) for more information."
 %}
 
 # Use encoders for positioning
@@ -59,7 +59,7 @@ content="Starting with FarmBot Genesis v1.4, our custom Farmduino boards feature
 %}
 
 # Encoder scaling
-The encoder scaling factor is used to match the encoder resolution with the motor resolution. The rotary encoders included with the stock FarmBots are 360 line/revolution. The stock motors are 200 step/revolution and used with full-step microstepping (a value of 1 in the equation below). For more information on microstepping, see [Microstepping](../../FarmBot OS/arduino-firmware/microstepping.md).
+The encoder scaling factor is used to match the encoder resolution with the motor resolution. The rotary encoders included with the stock FarmBots are 360 line/revolution. The stock motors are 200 step/revolution and used with full-step microstepping (a value of 1 in the equation below). For more information on microstepping, see [Microstepping](../../FarmBot-OS/arduino-firmware/microstepping.md).
 
 The encoder scaling factor is calculated as follows, and rounded to the nearest integer.
 ```

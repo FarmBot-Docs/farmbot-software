@@ -14,7 +14,7 @@ When setting up FarmBot to take care of your whole garden, you will frequently n
   * Building another sequence that executes the first sequence **for every plant in the group**.
 
 # Step 1: Create a group
-Navigate to the **groups panel** and click <span class="fb-button fb-blue">:fa-plus:</span>. **Select all** plants, and then use **FILTERS** to narrow your selection. In this example we will filter by **Type** so that only the Spinach plants are selected. Give your group a descriptive name such as "All Spinach Plants" and then press :fa-arrow-left: to save the group.
+Navigate to the **groups panel** and click <span class="fb-button fb-blue"><i class="fa fa-plus"></i></span>. **Select all** plants, and then use **FILTERS** to narrow your selection. In this example we will filter by **Type** so that only the Spinach plants are selected. Give your group a descriptive name such as "All Spinach Plants" and then press <i class="fa fa-arrow-left"></i> to save the group.
 
 ![Create Group.gif](Create_Group.gif)
 
@@ -24,7 +24,7 @@ Navigate to the **groups panel** and click <span class="fb-button fb-blue">:fa-p
 include callout.html
 type="info"
 title=""
-content="You can also create groups of points or weeds, use other filters, and even manually select specific plants. For more detailed instructions and advanced methods for creating groups, [click here](../../The FarmBot Web App/farm-designer/groups.md)."
+content="You can also create groups of points or weeds, use other filters, and even manually select specific plants. For more detailed instructions and advanced methods for creating groups, [click here](../../The-FarmBot-Web-App/farm-designer/groups.md)."
 %}
 
 # Step 2: Perform an action on one plant
@@ -33,7 +33,7 @@ content="You can also create groups of points or weeds, use other filters, and e
 include callout.html
 type="info"
 title=""
-content="If you are unfamiliar with what sequences and variables are, read the [sequences](../../The FarmBot Web App/sequences.md) and [variables](../../The FarmBot Web App/sequences/variables.md) documentation before beginning."
+content="If you are unfamiliar with what sequences and variables are, read the [sequences](../../The-FarmBot-Web-App/sequences.md) and [variables](../../The-FarmBot-Web-App/sequences/variables.md) documentation before beginning."
 %}
 
 The first sequence you need to make will perform an action (in this example, watering) on one plant. We'll name this sequence "Water one plant", and it should have the following steps:

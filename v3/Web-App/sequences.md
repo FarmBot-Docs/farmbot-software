@@ -25,7 +25,7 @@ These are the basic operations we can use in sequences that FarmBot can execute:
 * <span class="fb-step fb-send-message">Send Message</span> - Sends a message to the web app. This is useful for error and success notifications and debugging.
 * <span class="fb-step fb-if-statement">If Statement</span> - Executes another sequence if a condition is true. This is useful for error detection and smarter, condition based farming.
 * <span class="fb-step fb-execute">Execute</span> - Use existing sequences as steps in a new, larger sequence. This technique allows you to re-use smaller sequences in different combinations to create far more complex sequences that are easier to modify, manage, and mashup. You can then use the individual sequences in other ways without having to recreate them each time.
-* <span class="fb-step fb-take-photo">Take Photo</span> - Takes a picture with a USB webcam or the Raspberry Pi camera (select your camera in the [Device](doc:device#section-device) widget) and sends it to the web app.
+* <span class="fb-step fb-take-photo">Take Photo</span> - Takes a picture with a USB webcam or the Raspberry Pi camera (select your camera in the [Device](../Web-App/device.md#device) widget) and sends it to the web app.
 
 # Building a sequence
 
@@ -44,7 +44,7 @@ In the next sections, several sequences are built as examples.
 
 Let's create a sequence to mount the watering nozzle as an example.
 
-First, add the [watering tool](https://genesis.farmbot.io/docs/watering-nozzle) to the toolbay and follow the [Tools](../The FarmBot Web App/farm-designer/tools.md) instructions to add it to the web app.
+First, add the [watering tool](https://genesis.farmbot.io/docs/watering-nozzle) to the toolbay and follow the [Tools](../Web-App/tools.md) instructions to add it to the web app.
 
 Navigate to the **Sequences** page of the web app, and press the <span class="fb-button fb-green">+</span> button in the right column to add a new sequence.
 
@@ -99,7 +99,7 @@ Now that we've created a sequence to mount the watering tool, we can create a se
 
 1. **Mount the Watering Tool** - Mount the watering nozzle by using the <span class="fb-step fb-execute-sequence">Execute Sequence</span> step and selecting the `Mount Watering Tool` sequence created in the previous section.
 2. **Move to 100mm above the Spinach plant** - Move the watering nozzle above the plant to be watered (`(100, 200, -600)` in this example) by making use of the Z-Offset input in the <span class="fb-step fb-move-absolute">Move Absolute</span> step.
-3. **Open the solenoid valve to start the flow of water** - Add a <span class="fb-step fb-write-pin">Write Pin</span> step to write `Pin 10` with a value of `1`  (The pin number should correspond to the pin you have attached the solenoid valve to on the RAMPS board. See the [peripherals widget instructions](https://software.farmbot.io/docs/controls#section-peripherals) in order to test valve operation.)
+3. **Open the solenoid valve to start the flow of water** - Add a <span class="fb-step fb-write-pin">Write Pin</span> step to write `Pin 10` with a value of `1`  (The pin number should correspond to the pin you have attached the solenoid valve to on the RAMPS board. See the [peripherals widget instructions](https://software.farmbot.io/docs/controls#peripherals) in order to test valve operation.)
 4. **Wait** - Use the <span class="fb-step fb-wait">Wait</span> step to continue watering the Spinach plant for 4000 milliseconds (4 seconds).
 5. **Cose the solenoid valve** - Use another <span class="fb-step fb-write-pin">Write Pin</span> step to write `Pin 10` with a value of `0`, turning off the flow of water.
 

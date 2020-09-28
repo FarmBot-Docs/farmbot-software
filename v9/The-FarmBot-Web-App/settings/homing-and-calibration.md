@@ -11,9 +11,9 @@ excerpt: "[Open these settings in the app](https://my.farm.bot/app/device?highli
 ![Screen Shot 2020-04-22 at 4.58.13 PM.png](Screen_Shot_2020-04-22_at_4.58.13_PM.png)
 
 # Homing
-Homing an axis instructs FarmBot to find the home (minimum) position by moving towards home until an endstop, rotary encoder, or stepper driver signals that the end of the axis has been reached. Homing can only be performed if endstops or encoders are enabled. See [Calibration and Homing](../../FarmBot Software/how-to-guides/calibrate-and-home-farmbot.md) for further details.
+Homing an axis instructs FarmBot to find the home (minimum) position by moving towards home until an endstop, rotary encoder, or stepper driver signals that the end of the axis has been reached. Homing can only be performed if endstops or encoders are enabled. See [Calibration and Homing](../../FarmBot-Software/how-to-guides/calibrate-and-home-farmbot.md) for further details.
 
-To home an axis, click the <span class="fb-button fb-yellow">HOME X</span>, <span class="fb-button fb-yellow">HOME Y</span>, or <span class="fb-button fb-yellow">HOME Z</span> buttons. To home all three axes, you can use the <span class="fb-button fb-gray">:fa-home:</span> button in the controls widget (assuming that that button is set to its default behavior).
+To home an axis, click the <span class="fb-button fb-yellow">HOME X</span>, <span class="fb-button fb-yellow">HOME Y</span>, or <span class="fb-button fb-yellow">HOME Z</span> buttons. To home all three axes, you can use the <span class="fb-button fb-gray"><i class="fa fa-home"></i></span> button in the controls widget (assuming that that button is set to its default behavior).
 
 {%
 include callout.html
@@ -35,7 +35,7 @@ content="Calibration speed is currently determined by the **HOMING SPEED** setti
 # Set zero position
 Pressing the <span class="fb-button fb-yellow">Zero X</span>, <span class="fb-button fb-yellow">Zero Y</span>, and <span class="fb-button fb-yellow">Zero Z</span> buttons allows you to *manually* set FarmBot's current location as zero for that axis. This is used for *manually* setting the Home position (0, 0, 0) when you do not have endstops or encoders enabled.
 
-However, because stock FarmBots have encoders, it is recommended to instead use the [Homing](#section-homing) function for *automatically* finding the Home position of each axis and setting that position to zero.
+However, because stock FarmBots have encoders, it is recommended to instead use the [Homing](#homing) function for *automatically* finding the Home position of each axis and setting that position to zero.
 
 So in general, the Set Zero buttons should not be regularly used because it does not make sense to change your zero position once you have your garden growing, and because all FarmBots should have either encoders or endstops enabled which allows for automatically finding and setting the Home position.
 
@@ -67,6 +67,6 @@ With these inputs you can manually specify the length in mm of each axis. This i
 include callout.html
 type="info"
 title="Reminder"
-content="The length values of each axis are measured and auto-filled whenever your use the [Calibration](#section-calibration) function."
+content="The length values of each axis are measured and auto-filled whenever your use the [Calibration](#calibration) function."
 %}
 

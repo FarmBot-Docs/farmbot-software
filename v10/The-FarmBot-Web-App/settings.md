@@ -1,7 +1,7 @@
 ---
 title: "Settings"
 slug: "settings"
-excerpt: "Manage app and FarmBot settings :fa-cog:\n[Open in the app](https://my.farm.bot/app/designer/settings)"
+excerpt: "Manage app and FarmBot settings <i class="fa fa-cog"></i>\n[Open in the app](https://my.farm.bot/app/designer/settings)"
 ---
 
 * toc

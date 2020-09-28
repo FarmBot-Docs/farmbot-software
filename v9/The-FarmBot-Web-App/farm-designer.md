@@ -12,24 +12,24 @@ The **farm designer** allows you to graphically design the layout of your garden
 <iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fvideoseries%3Flist%3DPLMhsMRlKjcNIYlDKDdKvPQuHqBjjS1ZGc&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DGVb4fYaqy2M&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FGVb4fYaqy2M%2Fhqdefault.jpg&key=f2aa6fc3595946d0afc3d76cbbd25dc3&type=text%2Fhtml&schema=youtube" width="854" height="480" scrolling="no" frameborder="0" allowfullscreen></iframe>
 
 # Map menu
-Click the white :fa-arrow-left: button in the top right of the map to open up the **map menu**. Here you will find <span class="fb-button fb-gray">:fa-minus:</span> and <span class="fb-button fb-gray">:fa-plus:</span> buttons to zoom in and out of the map, as well as a toggles to turn on and off map layers:
+Click the white <i class="fa fa-arrow-left"></i> button in the top right of the map to open up the **map menu**. Here you will find <span class="fb-button fb-gray"><i class="fa fa-minus"></i></span> and <span class="fb-button fb-gray"><i class="fa fa-plus"></i></span> buttons to zoom in and out of the map, as well as a toggles to turn on and off map layers:
 
 |Layer                         |Description                   |
 |------------------------------|------------------------------|
 |**PLANTS**                    |The plant icons (not including weeds or spread)
-|**POINTS**                    |Points created in the [points panel](farm-designer/points.md)
+|**POINTS**                    |Points created in the [points panel](../The-FarmBot-Web-App/farm-designer/points.md)
 |**WEEDS**                     |Weed icons and their spread
 |**SPREAD**                    |The spread of plants and weeds
 |**FARMBOT**                   |The FarmBot gantry, UTM or tool head, slots, tools, seed containers, peripheral state visualizations, and axis limit lines
-|**PHOTOS**                    |Photos taken by FarmBot's onboard camera. See [camera calibration](farmware/camera-calibration.md) if photos are not positioned, scaled, or rotated correctly.
-|**AREAS**                     |Areas defined by [group filters](doc:groups#section--filtering-by-location-).
+|**PHOTOS**                    |Photos taken by FarmBot's onboard camera. See [camera calibration](../The-FarmBot-Web-App/farmware/camera-calibration.md) if photos are not positioned, scaled, or rotated correctly.
+|**AREAS**                     |Areas defined by [group filters](../The-FarmBot-Web-App/farm-designer/groups.md#filtering-by-location).
 
 
 
 ![Screen Shot 2020-04-21 at 11.44.19 PM.png](Screen_Shot_2020-04-21_at_11.44.19_PM.png)
 
 # Move mode
-Pressing the <span class="fb-button fb-gray">MOVE MODE</span> button in the map menu will open the **move to location** panel. Click any spot within the map grid to mark it with an :fa-times:. Then press <span class="fb-button fb-gray">MOVE TO THIS COORDINATE</span> to send FarmBot to the selected position. You can optionally enter a new coordinate for the **Z-AXIS**.
+Pressing the <span class="fb-button fb-gray">MOVE MODE</span> button in the map menu will open the **move to location** panel. Click any spot within the map grid to mark it with an <i class="fa fa-times"></i>. Then press <span class="fb-button fb-gray">MOVE TO THIS COORDINATE</span> to send FarmBot to the selected position. You can optionally enter a new coordinate for the **Z-AXIS**.
 
 ![Screen Shot 2020-04-21 at 11.42.19 PM.png](Screen_Shot_2020-04-21_at_11.42.19_PM.png)
 

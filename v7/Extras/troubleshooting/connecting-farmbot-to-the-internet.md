@@ -14,7 +14,7 @@ Your FarmBot needs to be connected to the internet and your device through the W
 ![0c09c78-Connectivity_1024x1024.png](Connectivity_1024x1024.png)
 
 # 1. Use the connectivity tool
-The connectivity tool is used to diagnose the communications within the FarmBot. To learn more about the Connectivity tool and to get access to the full list of connectivity codes check out this page: [Connectivity Diagnosis Codes](https://software.farm.bot/docs/connectivity-codes)
+The connectivity tool is used to diagnose the communications within the FarmBot. To learn more about the Connectivity tool and to get access to the full list of connectivity codes check out this page: [Connectivity Diagnosis Codes](connectivity-codes.md)
 
 
 
@@ -24,7 +24,7 @@ The connectivity tool is used to diagnose the communications within the FarmBot.
 
 The most common issue preventing FarmBot communication is blocked ports.
 
-For schools and corporate networks it is very common for the IT department to block ports that are not commonly used. Just because the FarmBot is connected to the internet doesn't mean the FarmBot will connect to the Web App because of these blocked ports. We have [specific instructions for your IT department](https://software.farm.bot/docs/for-it-security-professionals) to help you connect your FarmBot to the internet if you suspect any ports are blocked.
+For schools and corporate networks it is very common for the IT department to block ports that are not commonly used. Just because the FarmBot is connected to the internet doesn't mean the FarmBot will connect to the Web App because of these blocked ports. We have [specific instructions for your IT department](for-it-security-professionals.md) to help you connect your FarmBot to the internet if you suspect any ports are blocked.
 
 FarmBot requires the following ports to be open on your network:
 
@@ -38,7 +38,7 @@ On FarmBot Genesis 1.4 check the Blue LED communication light. You have blocked 
 
 ![FarmBot_Lights.png](FarmBot_Lights.png)
 
-Please see the [FarmBot OS documentation about the LEDs](https://software.farm.bot/docs/farmbot-os#section-led-2-connection-status-blue-raspberry-pi-gpio-bcm-pin-25-) to learn more.
+Please see the [FarmBot OS documentation about the LEDs](https://software.farm.bot/docs/farmbot-os#led-2-connection-status-blue-raspberry-pi-gpio-bcm-pin-25-) to learn more.
 
 # 3. Use a wired Ethernet connection
 

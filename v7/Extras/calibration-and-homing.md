@@ -25,10 +25,10 @@ Run an axis calibration to have FarmBot determine the home position and the leng
 include callout.html
 type="info"
 title=""
-content="Either endstops or encoders must be enabled in the [hardware settings widget](doc:device#section-hardware) for an axis to be automatically calibrated. See the [how it works](#section-how-it-works) section below for more information."
+content="Either endstops or encoders must be enabled in the [hardware settings widget](../Web-App/device.md#hardware) for an axis to be automatically calibrated. See the [how it works](#how-it-works) section below for more information."
 %}
 
-Use the <span class="fb-button fb-gray">CALIBRATE X</span>, <span class="fb-button fb-gray">CALIBRATE Y</span>, and <span class="fb-button fb-gray">CALIBRATE Z</span> buttons in the [hardware settings widget](doc:device#section-hardware) to home and calibrate the length of each axis.
+Use the <span class="fb-button fb-gray">CALIBRATE X</span>, <span class="fb-button fb-gray">CALIBRATE Y</span>, and <span class="fb-button fb-gray">CALIBRATE Z</span> buttons in the [hardware settings widget](../Web-App/device.md#hardware) to home and calibrate the length of each axis.
 
 # Homing
 
@@ -38,10 +38,10 @@ Use the <span class="fb-button fb-gray">CALIBRATE X</span>, <span class="fb-butt
 include callout.html
 type="info"
 title=""
-content="Either endstops or encoders must be enabled in the [hardware settings widget](doc:device#section-hardware) for FarmBot to find the home position. See the [how it works](#section-how-it-works) section below for more information."
+content="Either endstops or encoders must be enabled in the [hardware settings widget](../Web-App/device.md#hardware) for FarmBot to find the home position. See the [how it works](#how-it-works) section below for more information."
 %}
 
-Use the <span class="fb-button fb-gray">HOME X</span>, <span class="fb-button fb-gray">HOME Y</span>, and <span class="fb-button fb-gray">HOME Z</span> buttons in the [hardware settings widget](doc:device#section-hardware) to find home for each axis.
+Use the <span class="fb-button fb-gray">HOME X</span>, <span class="fb-button fb-gray">HOME Y</span>, and <span class="fb-button fb-gray">HOME Z</span> buttons in the [hardware settings widget](../Web-App/device.md#hardware) to find home for each axis.
 
 # How it works
 

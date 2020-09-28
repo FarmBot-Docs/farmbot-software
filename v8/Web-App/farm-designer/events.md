@@ -15,7 +15,7 @@ It would not be convenient for you to manually initiate sequences every time you
 
 # Creating events
 
-Navigate to the events panel on the farm designer page and press the <span class="fb-button fb-yellow">:fa-plus:</span> button to create a new **event**. Choose the **SEQUENCE OR REGIMEN** that you would like to execute and provide a **START** date and time. By default, the current date and current time + 3 minutes will be input into the date and time fields.
+Navigate to the events panel on the farm designer page and press the <span class="fb-button fb-yellow"><i class="fa fa-plus"></i></span> button to create a new **event**. Choose the **SEQUENCE OR REGIMEN** that you would like to execute and provide a **START** date and time. By default, the current date and current time + 3 minutes will be input into the date and time fields.
 
 Optionally, sequence events can be set to **REPEAT EVERY** custom interval **UNTIL** a stop date and time.
 
@@ -38,7 +38,7 @@ Press the <span class="fb-button fb-green">SAVE</span> button to save the event.
 
 # Editing events
 
-To edit an event, hover over an event in the agenda view and press the :fa-edit: icon. Make the desired changes and press <span class="fb-button fb-green">SAVE</span>.
+To edit an event, hover over an event in the agenda view and press the <i class="fa fa-edit"></i> icon. Make the desired changes and press <span class="fb-button fb-green">SAVE</span>.
 
 {%
 include callout.html

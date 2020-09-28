@@ -22,7 +22,7 @@ Below, we describe the available methods for installing the Arduino Firmware ont
 include callout.html
 type="success"
 title="Installed automatically"
-content="If you just [installed](../FarmBot OS/farmbot-os.md) and [configured](../FarmBot OS/farmbot-os/configurator.md) FarmBot OS, then the Arduino firmware has already been installed and you can skip ahead to using the [web app](../The FarmBot Web App/the-farmbot-web-app.md).
+content="If you just [installed](farmbot-os.md) and [configured](farmbot-os/configurator.md) FarmBot OS, then the Arduino firmware has already been installed and you can skip ahead to using the [web app](../Web-App/the-farmbot-web-app.md).
 
 Any time FarmBot OS updates, it will install the latest version of the firmware automatically as well."
 %}
@@ -38,6 +38,6 @@ Navigate to the [Device page](https://my.farm.bot/app/device). Under the Device 
 include callout.html
 type="warning"
 title="For developers only"
-content="This method is only recommended for software developers working with custom firmware. For more information, see the [developer docs](https://developer.farm.bot/docs/firmware#section-installing-custom-firmware)."
+content="This method is only recommended for software developers working with custom firmware. For more information, see the [developer docs](https://developer.farm.bot/Documentation/firmware/custom-firmware)."
 %}
 

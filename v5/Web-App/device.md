@@ -8,15 +8,15 @@ excerpt: "Manage your FarmBot's settings: [my.farmbot.io/app/device](http://my.f
 {:toc}
 
 Widgets on this page:
- * [Device](#section-device-widget)
- * [Connectivity](#section-connectivity-widget)
- * [Hardware](#section-hardware-widget)
+ * [Device](#device-widget)
+ * [Connectivity](#connectivity-widget)
+ * [Hardware](#hardware-widget)
 
 <div class="nav-image">
   <img class="nav-image" src="device.png" alt="Device" />
-  <a href="https://software.farmbot.io/docs/device#section-device-widget" style="top: 9.22%; left: 3.16%; width: 45.73%; height: 49.83%;"></a>
-  <a href="https://software.farmbot.io/docs/device#section-connectivity-widget" style="top: 62.12%; left: 3.10%; width: 45.78%; height: 37.20%;"></a>
-  <a href="https://software.farmbot.io/docs/device#section-hardware-widget" style="top: 9.13%; left: 51.00%; width: 45.84%; height: 23.81%;"></a>
+  <a href="https://software.farmbot.io/docs/device#device-widget" style="top: 9.22%; left: 3.16%; width: 45.73%; height: 49.83%;"></a>
+  <a href="https://software.farmbot.io/docs/device#connectivity-widget" style="top: 62.12%; left: 3.10%; width: 45.78%; height: 37.20%;"></a>
+  <a href="https://software.farmbot.io/docs/device#hardware-widget" style="top: 9.13%; left: 51.00%; width: 45.84%; height: 23.81%;"></a>
 </div>
 <figcaption class="caption">Click a widget in the image to learn more!</figcaption>
 
@@ -39,7 +39,7 @@ Widgets on this page:
 
 ## Camera selection
 
-Select the type of camera you are using in the camera selection dropdown. Choices are `USB Camera` and `Raspberry Pi Camera`. Defaults to `USB camera`. Test by using the `Take Photo` button in the [Take Photo](doc:farmware#section-take-photo) widget.
+Select the type of camera you are using in the camera selection dropdown. Choices are `USB Camera` and `Raspberry Pi Camera`. Defaults to `USB camera`. Test by using the `Take Photo` button in the [Take Photo](../Web-App/farmware.md#take-photo) widget.
 
 
 # Hardware widget
@@ -62,7 +62,7 @@ content="Press the `+` (for example, in `Motors [+]`) to expand the settings sec
 ![calibration.png](calibration.png)
 
 ### Homing
-Homing an axis instructs FarmBot to find the home (minimum) position by moving towards home until an endstop or encoder signals that the end of the axis has been reached. Homing can only be performed if endstops or encoders are enabled. See [Calibration and Homing](../Extras/calibration-and-homing.md) for further details.
+Homing an axis instructs FarmBot to find the home (minimum) position by moving towards home until an endstop or encoder signals that the end of the axis has been reached. Homing can only be performed if endstops or encoders are enabled. See [Calibration and Homing](../Additional-Information/calibration-and-homing.md) for further details.
 
 {%
 include callout.html
@@ -73,7 +73,7 @@ content="Homing is the act of _finding_ the home (zero) position by using endsto
 
 
 ### Calibration
-Calibrating an axis instructs FarmBot to find the minimum (home) position, then find the maximum position, and also measure the distance between the two positions, which is the length of the axis. Calibration can only be performed if either endstops or encoders are enabled. See [Calibration and Homing](../Extras/calibration-and-homing.md) for further details.
+Calibrating an axis instructs FarmBot to find the minimum (home) position, then find the maximum position, and also measure the distance between the two positions, which is the length of the axis. Calibration can only be performed if either endstops or encoders are enabled. See [Calibration and Homing](../Additional-Information/calibration-and-homing.md) for further details.
 
 {%
 include callout.html
@@ -95,7 +95,7 @@ content="Calibration speed is currently determined by the **MINIMUM SPEED** sett
 ### Set zero position
 Pressing the <span class="fb-button fb-yellow">Zero X</span>, <span class="fb-button fb-yellow">Zero Y</span>, and <span class="fb-button fb-yellow">Zero Z</span> buttons allows you to *manually* set FarmBot's current location as zero for that axis. This is used for *manually* setting the Home position (0, 0, 0) when you do not have endstops or encoders enabled.
 
-However, because stock FarmBots have encoders, it is recommended to instead use the [Homing](#section-homing) function for *automatically* finding the Home position of each axis and setting that position to zero.
+However, because stock FarmBots have encoders, it is recommended to instead use the [Homing](#homing) function for *automatically* finding the Home position of each axis and setting that position to zero.
 
 So in general, the Set Zero buttons should not be regularly used because it does not make sense to change your zero position once you have your garden growing, and because all FarmBots should have either encoders or endstops enabled which allows for automatically finding and setting the Home position.
 
@@ -127,7 +127,7 @@ With these inputs you can manually specify the length in mm of each axis. This i
 include callout.html
 type="info"
 title="Reminder:"
-content="The length values of each axis are measured and auto-filled whenever your use the [Calibration](#section-calibration) function."
+content="The length values of each axis are measured and auto-filled whenever your use the [Calibration](#calibration) function."
 %}
 
 
@@ -241,7 +241,7 @@ This setting changes the direction of the second x-axis motor in case you wired 
 ![encoders.png](encoders.png)
 
 ### Enable encoders
-Stock FarmBot kits have rotary encoders built-in. The rotary encoders should be enabled by using these toggles. If you are experiencing troubles with your movements you might try to disable encoders for testing purposes. If you do not have encoders hooked up, you must have encoders disabled here otherwise your FarmBot will think it is stalling with every movement. Note that Homing and Calibration can only be used if encoders (or endstops) are enabled. See [Rotary Encoders](../Extras/rotary-encoders.md) for more information.
+Stock FarmBot kits have rotary encoders built-in. The rotary encoders should be enabled by using these toggles. If you are experiencing troubles with your movements you might try to disable encoders for testing purposes. If you do not have encoders hooked up, you must have encoders disabled here otherwise your FarmBot will think it is stalling with every movement. Note that Homing and Calibration can only be used if encoders (or endstops) are enabled. See [Rotary Encoders](../Additional-Information/rotary-encoders.md) for more information.
 
 ### Use encoders for positioning
 (Alpha) Use the encoders for calculating movements in addition to using encoders for stall detection.
@@ -274,7 +274,7 @@ content="In future versions of FarmBot electronics we will implement dedicated c
 
 
 ### Encoder scaling
-The encoder scaling factor is used to match the encoder resolution with the motor resolution. The rotary encoders included with the stock FarmBots are 360 line/revolution. The stock motors are 200 step/revolution and used with full-step microstepping (a value of 1 in the equation below). For more information on microstepping, see [Microstepping](../FarmBot OS/arduino-firmware/microstepping.md).
+The encoder scaling factor is used to match the encoder resolution with the motor resolution. The rotary encoders included with the stock FarmBots are 360 line/revolution. The stock motors are 200 step/revolution and used with full-step microstepping (a value of 1 in the equation below). For more information on microstepping, see [Microstepping](../Additional-Information/microstepping.md).
 
 The encoder scaling factor is calculated as follows, and rounded to the nearest integer.
 Encoder scaling = 100 x motor resolution x microsteps / encoder resolution

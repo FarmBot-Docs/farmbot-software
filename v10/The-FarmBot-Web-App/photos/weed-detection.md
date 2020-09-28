@@ -6,7 +6,7 @@ slug: "weed-detection"
 * toc
 {:toc}
 
-FarmBot is designed to remove weeds early and often, so that the weeds are always small, young, and fragile, and therefore easily removed by the [weeding tool](https://genesis.farm.bot/docs/weeder). FarmBot finds weeds by using computer vision software to detect all plants in the bed and then mark any detected plant that was not planted by FarmBot as a weed.
+FarmBot is designed to remove weeds early and often, so that the weeds are always small, young, and fragile, and therefore easily removed by the [weeding tool](https://genesis.farm.bot/v1.5/FarmBot-Genesis-V1-5/tools/weeder). FarmBot finds weeds by using computer vision software to detect all plants in the bed and then mark any detected plant that was not planted by FarmBot as a weed.
 
 <iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D_Qko08YBP2o&src=http%3A%2F%2Fwww.youtube.com%2Fembed%2F_Qko08YBP2o&type=text%2Fhtml&key=f2aa6fc3595946d0afc3d76cbbd25dc3&schema=youtube" width="854" height="480" scrolling="no" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
 
@@ -16,7 +16,7 @@ FarmBot is designed to remove weeds early and often, so that the weeds are alway
 include callout.html
 type="info"
 title="Calibration required"
-content="To use the weed detection feature, you must first [calibrate the camera](#section-camera-calibration)."
+content="To use the weed detection feature, you must first [calibrate the camera](#camera-calibration)."
 %}
 
 # Step 1: Select color range

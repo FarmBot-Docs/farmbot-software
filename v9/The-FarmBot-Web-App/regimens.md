@@ -15,7 +15,7 @@ excerpt: "Plant care recipes for your FarmBot to follow :seedling:\n[Open this p
 2. `Light Watering`
 3. `Medium Watering`
 
-You decide to grow 10 tomato plants with these sequences starting on **March 1st**. To do this using the [event scheduler](farm-designer/events.md), you might create three events:
+You decide to grow 10 tomato plants with these sequences starting on **March 1st**. To do this using the [event scheduler](../The-FarmBot-Web-App/farm-designer/events.md), you might create three events:
 1. `Seed Injection` to run on **March 1st**
 2. `Light Watering` to run every other day from **March 1st to March 13th**
 3. `Medium Watering` to run every other day from **March 15th to April 22nd**
@@ -35,13 +35,13 @@ We can then use events to schedule this regimen to start on March 1st, March 9th
 
 # Creating a regimen
 
-In the left panel of the **Regimens** page, press the <span class="fb-button fb-green">:fa-plus:</span> button to create a new regimen. The new regimen will be loaded into the middle **Regimen Editor** panel, and the **Scheduler** will appear in the column on the right. Give your regimen a descriptive name and optionally assign it a color.
+In the left panel of the **Regimens** page, press the <span class="fb-button fb-green"><i class="fa fa-plus"></i></span> button to create a new regimen. The new regimen will be loaded into the middle **Regimen Editor** panel, and the **Scheduler** will appear in the column on the right. Give your regimen a descriptive name and optionally assign it a color.
 
 ![Screen Shot 2019-07-15 at 2.13.04 PM.png](Screen_Shot_2019-07-15_at_2.13.04_PM.png)
 
-In the scheduler panel, select the **SEQUENCE** you wish to add to the regimen. Pick a **TIME** and the **DAYS** for it to run. For this example, we will run the `Seed Injection` sequence at `10am` on `Day 1`. Press the <span class="fb-button fb-green">:fa-plus:</span> button in the scheduler panel to add the sequence to the regimen.
+In the scheduler panel, select the **SEQUENCE** you wish to add to the regimen. Pick a **TIME** and the **DAYS** for it to run. For this example, we will run the `Seed Injection` sequence at `10am` on `Day 1`. Press the <span class="fb-button fb-green"><i class="fa fa-plus"></i></span> button in the scheduler panel to add the sequence to the regimen.
 
-If you make a mistake, remove items from the regimen by clicking the :fa-trash: icon.
+If you make a mistake, remove items from the regimen by clicking the <i class="fa fa-trash"></i> icon.
 
 ![Screen Shot 2019-07-15 at 2.11.27 PM.png](Screen_Shot_2019-07-15_at_2.11.27_PM.png)
 

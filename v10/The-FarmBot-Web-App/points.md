@@ -14,7 +14,7 @@ If you would like to create custom locations in your garden for FarmBot to trave
 * Points for FarmBot to travel to for daily photos
 
 # Adding points
-To add points, click the <span class="fb-button fb-teal">:fa-plus:</span> button in the points panel. This will open the **add point** panel where you can add individual points or create a grid of points.
+To add points, click the <span class="fb-button fb-teal"><i class="fa fa-plus"></i></span> button in the points panel. This will open the **add point** panel where you can add individual points or create a grid of points.
 
 ![Screen Shot 2019-11-30 at 5.00.05 PM.png](Screen_Shot_2019-11-30_at_5.00.05_PM.png)
 
@@ -33,7 +33,7 @@ Toggling **CAMERA VIEW AREA** <span class="fb-peripheral-on">ON</span> will show
 ![Screen Shot 2020-07-08 at 12.58.39 PM.png](Screen_Shot_2020-07-08_at_12.58.39_PM.png)
 
 # Editing points
-To edit a point, click it in the points list or in the map (when the points panel is opened). This will open the **edit point** panel, allowing you to change anything about the point. Changes will be saved when you press the :fa-arrow-left: button.
+To edit a point, click it in the points list or in the map (when the points panel is opened). This will open the **edit point** panel, allowing you to change anything about the point. Changes will be saved when you press the <i class="fa fa-arrow-left"></i> button.
 
 ![Screen Shot 2019-11-30 at 5.01.21 PM.png](Screen_Shot_2019-11-30_at_5.01.21_PM.png)
 

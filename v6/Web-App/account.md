@@ -10,10 +10,10 @@ excerpt: "Manage your account and app settings [my.farm.bot/app/account](https:/
 
 <div class="nav-image">
   <img class="nav-image" src="account.png" alt="Account" />
-  <a href="#section-account-settings" style="top: 6.66%; left: 26.34%; width: 47.39%; height: 11.98%;"></a>
-  <a href="#section-change-password" style="top: 21.76%; left: 26.27%; width: 47.32%; height: 15.71%;"></a>
-  <a href="#section-app-settings" style="top: 40.56%; left: 26.34%; width: 47.46%; height: 31.23%;"></a>
-  <a href="#section-delete-account" style="top: 74.94%; left: 26.27%; width: 47.53%; height: 24.33%;"></a>
+  <a href="#account-settings" style="top: 6.66%; left: 26.34%; width: 47.39%; height: 11.98%;"></a>
+  <a href="#change-password" style="top: 21.76%; left: 26.27%; width: 47.32%; height: 15.71%;"></a>
+  <a href="#app-settings" style="top: 40.56%; left: 26.34%; width: 47.46%; height: 31.23%;"></a>
+  <a href="#delete-account" style="top: 74.94%; left: 26.27%; width: 47.53%; height: 24.33%;"></a>
 </div>
 <figcaption class="caption">Click a widget in the image to learn more!</figcaption>
 
@@ -48,13 +48,13 @@ Show a confirmation dialog when the sequence delete step icon is pressed.
 If not using a webcam, use this setting to remove the widget from the Controls page.
 
 ## Dynamic map size
-Change the [Farm Designer](../The FarmBot Web App/farm-designer.md)  map size based on axis length. A value must be input in `AXIS LENGTH` and `STOP AT MAX` must be enabled in the [Hardware](doc:device#section-hardware-widget) widget.
+Change the [Farm Designer](../Web-App/farm-designer.md)  map size based on axis length. A value must be input in `AXIS LENGTH` and `STOP AT MAX` must be enabled in the [Hardware](../Web-App/device.md#hardware-widget) widget.
 
 ## Double default map dimensions
-Double the default dimensions of the [Farm Designer](../The FarmBot Web App/farm-designer.md) map for a map with four times the area. ([FarmBot Genesis XL](https://farm.bot/))
+Double the default dimensions of the [Farm Designer](../Web-App/farm-designer.md) map for a map with four times the area. ([FarmBot Genesis XL](https://farm.bot/))
 
 ## Display plant animations
-Enable plant animations in the [Farm Designer](../The FarmBot Web App/farm-designer.md).
+Enable plant animations in the [Farm Designer](../Web-App/farm-designer.md).
 
 {%
 include callout.html

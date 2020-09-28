@@ -10,15 +10,15 @@ excerpt: "Manually control your FarmBot from anywhere! [my.farmbot.io/app/contro
 You generally will not need to manually control FarmBot, since it acts automatically from instructions provided by Farm Events. But in case you want to show off to your friends, you can do that from this page!
 
 ## Widgets on this page:
- * [Move](#section-move)
- * [Peripherals](#section-peripherals)
- * [Webcam Feeds](#section-webcam-feeds)
+ * [Move](#move)
+ * [Peripherals](#peripherals)
+ * [Webcam Feeds](#webcam-feeds)
 
 <div class="nav-image">
   <img class="nav-image" src="controls.png" alt="Controls" />
-  <a href="https://software.farmbot.io/docs/controls#section-move" style="top: 14.1%; left: 10.2%; width: 30.51%; height: 47.6%;"></a>
-  <a href="https://software.farmbot.io/docs/controls#section-peripherals" style="top: 66.5%; left: 10.2%; width: 30.56%; height: 19.5%;"></a>
-  <a href="https://software.farmbot.io/docs/controls#section-webcam-feeds" style="top: 14%; left: 42.99%; width: 46.8%; height: 73%;"></a>
+  <a href="https://software.farmbot.io/docs/controls#move" style="top: 14.1%; left: 10.2%; width: 30.51%; height: 47.6%;"></a>
+  <a href="https://software.farmbot.io/docs/controls#peripherals" style="top: 66.5%; left: 10.2%; width: 30.56%; height: 19.5%;"></a>
+  <a href="https://software.farmbot.io/docs/controls#webcam-feeds" style="top: 14%; left: 42.99%; width: 46.8%; height: 73%;"></a>
 </div>
 <figcaption class="caption">Click a widget in the image to learn more!</figcaption>
 
@@ -31,7 +31,7 @@ You generally will not need to manually control FarmBot, since it acts automatic
 ![move.png](move.png)
 
   * The current position of your FarmBot (Motor Coordinates (mm)) is shown in the grey fields directly below the X-AXIS, Y-AXIS, and Z-AXIS labels. This information is updated in real-time.
-  * You can move the device a *relative distance* in any direction by using the arrow buttons. The default move amount is 100mm, though you can also select 1, 10, and 1000mm amounts. Depending on your settings in the **Hardware** configuration widget on the [Device](device.md)  page, you may not be able to move to negative coordinates or past the specified axis maximums.
+  * You can move the device a *relative distance* in any direction by using the arrow buttons. The default move amount is 100mm, though you can also select 1, 10, and 1000mm amounts. Depending on your settings in the **Hardware** configuration widget on the [Device](../Web-App/device.md)  page, you may not be able to move to negative coordinates or past the specified axis maximums.
   * The home button will move FarmBot to zero for all axes by first moving the Z axis to zero, then the other axes to zero.
   * You can move the device to an *absolute position* by typing in new coordinates to the input fields labeled X-AXIS, Y-AXIS, and Z-AXIS and pressing <span class="fb-button fb-green">GO</span>.
   * If you ever need to immediately halt your FarmBot, press the <span class="fb-button fb-red">E-STOP</span> button.
@@ -40,7 +40,7 @@ You generally will not need to manually control FarmBot, since it acts automatic
 # Peripherals
 You can manually operate FarmBot's peripherals using the toggle switches in the **Peripherals** widget.
 
-The pins can be changed to the pins used when plugging in the peripherals in [this step](https://genesis.farmbot.io/docs/plug-everything-in#section-step-3-connect-the-peripherals) of the hardware documentation.
+The pins can be changed to the pins used when plugging in the peripherals in [this step](https://genesis.farmbot.io/docs/plug-everything-in#step-3-connect-the-peripherals) of the hardware documentation.
 
 ![peripherals_unknown.png](peripherals_unknown.png)
 

@@ -14,16 +14,16 @@ To create and edit groups, navigate to the **groups panel** on the farm designer
 ![Screen Shot 2020-04-13 at 4.07.09 PM.png](Screen_Shot_2020-04-13_at_4.07.09_PM.png)
 
 # Creating a group
-To create a group, click the <span class="fb-button fb-blue">:fa-plus:</span> button in the groups panel. This will open the **edit group** panel with your new _Untitled Group_ loaded.
+To create a group, click the <span class="fb-button fb-blue"><i class="fa fa-plus"></i></span> button in the groups panel. This will open the **edit group** panel with your new _Untitled Group_ loaded.
 
 ![Screen Shot 2020-04-13 at 4.14.53 PM.png](Screen_Shot_2020-04-13_at_4.14.53_PM.png)
 
-Alternatively you can use the [multi-select mode](doc:farm-designer#section-multi-select-mode) in the farm designer and then click <span class="fb-button fb-blue">CREATE GROUP</span> to create a new group with your selection.
+Alternatively you can use the [multi-select mode](../../The-FarmBot-Web-App/farm-designer.md#multi-select-mode) in the farm designer and then click <span class="fb-button fb-blue">CREATE GROUP</span> to create a new group with your selection.
 
 ![Screen Shot 2020-04-13 at 4.57.56 PM.png](Screen_Shot_2020-04-13_at_4.57.56_PM.png)
 
 # Editing a group
-From the edit group panel, you can change the **GROUP NAME**, **SORT BY** order, add **FILTERS** to automatically select group members, and manually add additional members. When you are finished editing, press the :fa-arrow-left: to go back to the list of all groups.
+From the edit group panel, you can change the **GROUP NAME**, **SORT BY** order, add **FILTERS** to automatically select group members, and manually add additional members. When you are finished editing, press the <i class="fa fa-arrow-left"></i> to go back to the list of all groups.
 
 The **SORT BY** method will change the ordering that FarmBot uses when traveling to each group member when the group is used in a sequence. A dashed line will be shown in the map visualizing the chosen path. We encourage you to play around with this option to find the most efficient path FarmBot can take.
 
@@ -71,7 +71,7 @@ To manually add additional group members that aren't already selected by filters
 To remove manually added group members, click their icon again in the farm designer map or in the **GROUP MEMBERS** list. When mousing over icons in the list, the corresponding icon in the map will be highlighted, allowing you to ensure you're removing the correct item. To remove all manually added group members at once, click the <span class="fb-button fb-red">CLEAR</span> button next to "manually selected".
 
 # Using groups
-Once you're happy with your group, try it in a sequence! Simply create a sequence with an [externally defined location variable](../sequences/externally-defined-variables.md):
+Once you're happy with your group, try it in a sequence! Simply create a sequence with an [externally defined location variable](../../The-FarmBot-Web-App/sequences/externally-defined-variables.md):
 
 ![Groups 4.png](Groups_4.png)
 

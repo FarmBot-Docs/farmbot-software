@@ -9,19 +9,19 @@ excerpt: "Manage the weeds found in your garden\n[Open this panel in the app](ht
 
 The **weeds panel** allows you to manage the weeds in your garden. Weeds are divided into three categories:
 
-  * **PENDING** weeds have been detected by FarmBot's camera and are awaiting manual triage. The <span class="fb-button fb-green">:fa-check:</span> and <span class="fb-button fb-green">:fa-check: ALL</span> buttons will move weeds to the **ACTIVE** category while the <span class="fb-button fb-red">:fa-times:</span> and <span class="fb-button fb-red">:fa-times: ALL</span> buttons will delete the weeds.
-  * **ACTIVE** weeds are weeds currently active in the garden. These weeds were either identified by FarmBot's camera and then triaged into this category, or they were manually added with the <span class="fb-button fb-red">:fa-plus:</span> button.
+  * **PENDING** weeds have been detected by FarmBot's camera and are awaiting manual triage. The <span class="fb-button fb-green"><i class="fa fa-check"></i></span> and <span class="fb-button fb-green"><i class="fa fa-check"></i> ALL</span> buttons will move weeds to the **ACTIVE** category while the <span class="fb-button fb-red"><i class="fa fa-times"></i></span> and <span class="fb-button fb-red"><i class="fa fa-times"></i> ALL</span> buttons will delete the weeds.
+  * **ACTIVE** weeds are weeds currently active in the garden. These weeds were either identified by FarmBot's camera and then triaged into this category, or they were manually added with the <span class="fb-button fb-red"><i class="fa fa-plus"></i></span> button.
   * **REMOVED** weeds are weeds that are no longer a concern. This category should include weeds that have been removed by FarmBot or by hand.
 
 ![Screen Shot 2020-08-24 at 11.38.34 AM.png](Screen_Shot_2020-08-24_at_11.38.34_AM.png)
 
 # Adding weeds
-To manually add a weed, click the <span class="fb-button fb-red">:fa-plus:</span> button in the weeds panel. This will open the **add weed** panel where you can provide a **NAME**, **COLOR**, **X**, **Y**, and **Z** coordinates, and a **RADIUS** for the weed. You can also click and drag in the map to define the coordinates and radius. Click <span class="fb-button fb-green">SAVE</span> to save the weed.
+To manually add a weed, click the <span class="fb-button fb-red"><i class="fa fa-plus"></i></span> button in the weeds panel. This will open the **add weed** panel where you can provide a **NAME**, **COLOR**, **X**, **Y**, and **Z** coordinates, and a **RADIUS** for the weed. You can also click and drag in the map to define the coordinates and radius. Click <span class="fb-button fb-green">SAVE</span> to save the weed.
 
 ![Screen Shot 2020-08-24 at 12.07.33 PM.png](Screen_Shot_2020-08-24_at_12.07.33_PM.png)
 
 # Editing weeds
-To edit a weed, click it in the panel or in the map (when the weeds panel is opened). This will open the **edit weed** panel, allowing you to change anything about the weed. Changes will be saved when you press the :fa-arrow-left: button.
+To edit a weed, click it in the panel or in the map (when the weeds panel is opened). This will open the **edit weed** panel, allowing you to change anything about the weed. Changes will be saved when you press the <i class="fa fa-arrow-left"></i> button.
 
 ![Screen Shot 2020-08-24 at 12.11.58 PM.png](Screen_Shot_2020-08-24_at_12.11.58_PM.png)
 

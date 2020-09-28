@@ -7,7 +7,7 @@ excerpt: "Descriptions of all the commands you can use in a sequence"
 * toc
 {:toc}
 
-Below are descriptions of all the commands you can use in a sequence. When using the web app, hover over the :fa-question-circle: icon in the top right of any sequence step to view usage information.
+Below are descriptions of all the commands you can use in a sequence. When using the web app, hover over the <i class="fa fa-question-circle"></i> icon in the top right of any sequence step to view usage information.
 
 # Move to
 The <span class="fb-step fb-move-absolute">Move To</span> command moves FarmBot to an absolute coordinate position. To use this command, first choose a location from the **LOCATION** dropdown. Options include:
@@ -24,7 +24,7 @@ When choosing the **custom coordinates** option, three input fields will be reve
 ![Screen Shot 2019-05-02 at 11.25.20 AM.png](Screen_Shot_2019-05-02_at_11.25.20_AM.png)
 
 ## Location variables
-When choosing a **location variable**, a variable form will be added to the sequence header. Upon selecting a variable value in the sequence header, the dropdown selections in all <span class="fb-step fb-move-absolute">Move To</span> steps set to that variable will be updated. See the [variables](variables.md) documentation for more information.
+When choosing a **location variable**, a variable form will be added to the sequence header. Upon selecting a variable value in the sequence header, the dropdown selections in all <span class="fb-step fb-move-absolute">Move To</span> steps set to that variable will be updated. See the [variables](../sequences/variables.md) documentation for more information.
 
 ![2 Variable Form.png](2_Variable_Form.png)
 
@@ -47,7 +47,7 @@ If you try to move to a location to mount a tool or pick up a seed in one step, 
 ## Advanced options
 Within the **More [+]** dropdown, you will find options for adding **offsets** to the location and changing the **speed** at which FarmBot performs this movement. In the example below, an **X-OFFSET** of `100` will pull the Watering Nozzle tool out of the tool slot by 100mm. Meanwhile, the **SPEED (%)** option has been set to `50`, meaning FarmBot will perform this movement at 50% of the maximum speed it normally moves at.
 
-You can add offsets for multiple axes at once, and also use negative offsets. The default values for all offsets are `0`, while the default speed is `100%`. By default, the app will only load the **More [+]** dropdowns in an open state if you've changed any of the offset or speed values from the defaults. If you would like the **More [+]** dropdowns to always load in an open state, enable **OPEN OPTIONS BY DEFAULT** from the :fa-gear: menu in the sequence header.
+You can add offsets for multiple axes at once, and also use negative offsets. The default values for all offsets are `0`, while the default speed is `100%`. By default, the app will only load the **More [+]** dropdowns in an open state if you've changed any of the offset or speed values from the defaults. If you would like the **More [+]** dropdowns to always load in an open state, enable **OPEN OPTIONS BY DEFAULT** from the <i class="fa fa-gear"></i> menu in the sequence header.
 
 ![Screen Shot 2019-07-05 at 11.32.24 PM.png](Screen_Shot_2019-07-05_at_11.32.24_PM.png)
 
@@ -61,7 +61,7 @@ You can move relative along multiple axes at once, and in both negative and posi
 # Control peripheral
 The <span class="fb-step fb-write-pin">Control Peripheral</span> command allows you to control **peripherals** such as the vacuum pump, solenoid valve, and lights. To use this command, first select a peripheral from the **PERIPHERAL** dropdown. Options include:
 
-  * All of the peripherals you have defined in the [peripherals widget on the controls page](https://software.farm.bot/docs/controls#section-peripherals)
+  * All of the peripherals you have defined in the [peripherals widget on the controls page](../../The-FarmBot-Web-App/controls.md#peripherals)
   * The Box LEDs, if you have any included with your FarmBot version
 
 Next, select the **MODE** which you would like to control the peripheral with. You can choose either `Digital` or `Analog`.
@@ -82,7 +82,7 @@ The <span class="fb-step fb-write-pin">Toggle Peripheral</span> command allows y
 
 To use this command, select a peripheral from the **PERIPHERAL** dropdown. Options include:
 
-  * All of the peripherals you have defined in the [peripherals widget on the controls page](https://software.farm.bot/docs/controls#section-peripherals)
+  * All of the peripherals you have defined in the [peripherals widget on the controls page](../../The-FarmBot-Web-App/controls.md#peripherals)
   * The Box LEDs, if you have any included with your FarmBot version
 
 ![Screen Shot 2020-01-06 at 12.24.47 PM.png](Screen_Shot_2020-01-06_at_12.24.47_PM.png)
@@ -90,8 +90,8 @@ To use this command, select a peripheral from the **PERIPHERAL** dropdown. Optio
 # Read sensor
 The <span class="fb-step fb-read-pin">Read Sensor</span> command instructs FarmBot to read the value of a **sensor**. For example, you would use this command to measure the soil moisture content with the soil moisture sensor. To use this command, first select a sensor from the **SENSOR** dropdown. Options include:
 
-  * All of the sensors you have defined in the [sensors widget on the controls page](https://software.farm.bot/docs/controls#section-sensors)
-  * All of the peripherals you have defined in the [peripherals widget on the controls page](https://software.farm.bot/docs/controls#section-peripherals)
+  * All of the sensors you have defined in the [sensors widget on the controls page](../../The-FarmBot-Web-App/controls.md#sensors)
+  * All of the peripherals you have defined in the [peripherals widget on the controls page](../../The-FarmBot-Web-App/controls.md#peripherals)
 
 Next, select the **MODE** which you would like to read the sensor with. You can choose either `Digital` or `Analog`. Use digital for a `0` (LOW) or `1` (HIGH) response, and analog for a reading between `0` and `1023` for 0-5V.
 
@@ -136,7 +136,7 @@ The <span class="fb-step fb-wait">Reboot</span> command instructs FarmBot to pow
 ![Screen Shot 2020-02-10 at 12.05.37 PM.png](Screen_Shot_2020-02-10_at_12.05.37_PM.png)
 
 # Find home
-The <span class="fb-step fb-find-home">Find Home</span> command instructs FarmBot to perform a homing operation to set zero for one axis or all three axes. If you choose to **FIND ALL**, FarmBot will find home for each axis one at a time in the order: z-axis, y-axis, x-axis. Note that you must have [stall detection](../../FarmBot OS/arduino-firmware/stall-detection.md) or [endstops](../settings/endstops.md) enabled along each axis you wish to find home for.
+The <span class="fb-step fb-find-home">Find Home</span> command instructs FarmBot to perform a homing operation to set zero for one axis or all three axes. If you choose to **FIND ALL**, FarmBot will find home for each axis one at a time in the order: z-axis, y-axis, x-axis. Note that you must have [stall detection](../../FarmBot-OS/arduino-firmware/stall-detection.md) or [endstops](../../The-FarmBot-Web-App/settings/endstops.md) enabled along each axis you wish to find home for.
 
 ![Screen Shot 2019-05-02 at 11.24.44 AM.png](Screen_Shot_2019-05-02_at_11.24.44_AM.png)
 
@@ -146,7 +146,7 @@ The <span class="fb-step fb-find-home">Set Zero</span> command instructs FarmBot
 ![Screen Shot 2019-12-03 at 3.01.34 PM.png](Screen_Shot_2019-12-03_at_3.01.34_PM.png)
 
 # Calibrate
-The <span class="fb-step fb-find-home">Calibrate</span> command instructs FarmBot to perform a calibration of the chosen axis. If you choose to **CALIBRATE ALL**, FarmBot will calibrate each axis one at a time in the order: z-axis, y-axis, x-axis. Note that you must have [stall detection](../../FarmBot OS/arduino-firmware/stall-detection.md) or [endstops](../settings/endstops.md) enabled along each axis you wish to calibrate.
+The <span class="fb-step fb-find-home">Calibrate</span> command instructs FarmBot to perform a calibration of the chosen axis. If you choose to **CALIBRATE ALL**, FarmBot will calibrate each axis one at a time in the order: z-axis, y-axis, x-axis. Note that you must have [stall detection](../../FarmBot-OS/arduino-firmware/stall-detection.md) or [endstops](../../The-FarmBot-Web-App/settings/endstops.md) enabled along each axis you wish to calibrate.
 
 ![Screen Shot 2019-12-03 at 3.01.52 PM.png](Screen_Shot_2019-12-03_at_3.01.52_PM.png)
 
@@ -176,12 +176,12 @@ content="You can drag and drop existing sequences from the **sequences list** in
 %}
 
 # Run farmware
-The <span class="fb-step fb-take-photo">Run Farmware</span> command instructs FarmBot to run a [farmware](../farmware.md). To use the command, select which farmware you would like to run from the **PACKAGE NAME** dropdown. Or, select `Manual Input` and type in the name of the package, for example, `plant-detection`.
+The <span class="fb-step fb-take-photo">Run Farmware</span> command instructs FarmBot to run a [farmware](../../The-FarmBot-Web-App/farmware.md). To use the command, select which farmware you would like to run from the **PACKAGE NAME** dropdown. Or, select `Manual Input` and type in the name of the package, for example, `plant-detection`.
 
 ![Screen Shot 2019-05-02 at 11.26.53 AM.png](Screen_Shot_2019-05-02_at_11.26.53_AM.png)
 
 # Take photo
-The <span class="fb-step fb-wait">Take Photo</span> command instructs FarmBot to take a photo with the USB camera or the Raspberry Pi camera (whichever is selected in [device settings](../../Web App/device/device-settings.md)). After taking the photo, FarmBot will upload it to the web app, along with the coordinates from where the photo was taken, and the date and time.
+The <span class="fb-step fb-wait">Take Photo</span> command instructs FarmBot to take a photo with the USB camera or the Raspberry Pi camera (whichever is selected in [device settings](../../The-FarmBot-Web-App/settings/farmbot-settings.md)). After taking the photo, FarmBot will upload it to the web app, along with the coordinates from where the photo was taken, and the date and time.
 
 You can view the photos taken on the farmware page and in the farm designer.
 
@@ -198,7 +198,7 @@ The <span class="fb-step fb-wait">Mark as</span> command instructs FarmBot to **
 include callout.html
 type="warning"
 title="Advanced feature"
-content="The assertion command is intended for power users and software developers only. See the [developer documentation](https://developer.farm.bot/docs/assertions) for a list of the available functions."
+content="The assertion command is intended for power users and software developers only. See the [developer documentation](https://developer.farm.bot/Documentation/assertions) for a list of the available functions."
 %}
 
 The <span class="fb-step fb-if-statement">Assertion</span> command allows FarmBot to test if a condition is true or false for automated testing purposes. For example, you could set up a FarmBot to move back and forth repeatedly along an axis, and check the position after each movement. This type of test is useful for high-cycle hardware testing, and for continuous integration testing of software changes.

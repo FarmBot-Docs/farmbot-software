@@ -1,4 +1,4 @@
-version: 8
+version_number: 8
 status: deprecated
 home: FarmBot-Software/overview
 contents:
@@ -6,136 +6,136 @@ contents:
     url: FarmBot-Software
     top: true
     pages:
-    - title: High Level Overview
-      url: overview
-    - title: Getting Started
-      url: getting-started
-    - title: How Do I?
-      url: how-do-i
-      pages:
-      - title: Measure Soil Moisture
-        url: measure-soil-moisture
-      - title: Calibrate and Home FarmBot
-        url: calibrate-and-home-farmbot
-      - title: Verify a Tool Has Been Mounted
-        url: verify-a-tool-has-been-mounted
-    - title: Troubleshooting
-      url: troubleshooting
-      pages:
-      - title: Accessing Configurator
-        url: accessing-configurator
-      - title: Connecting FarmBot to the Internet
-        url: connecting-farmbot-to-the-internet
-      - title: Connecting FarmBot to the Web App
-        url: connecting-farmbot-to-the-web-app
-      - title: Connectivity Diagnosis Codes
-        url: connectivity-codes
-      - title: For IT Security Professionals
-        url: for-it-security-professionals
-      - title: Support Policy
-        url: support-policy
+      - title: High Level Overview
+        url: overview
+      - title: Getting Started
+        url: getting-started
+      - title: How Do I?
+        url: how-do-i
+        pages:
+          - title: Measure Soil Moisture
+            url: measure-soil-moisture
+          - title: Calibrate and Home FarmBot
+            url: calibrate-and-home-farmbot
+          - title: Verify a Tool Has Been Mounted
+            url: verify-a-tool-has-been-mounted
+      - title: Troubleshooting
+        url: troubleshooting
+        pages:
+          - title: Accessing Configurator
+            url: accessing-configurator
+          - title: Connecting FarmBot to the Internet
+            url: connecting-farmbot-to-the-internet
+          - title: Connecting FarmBot to the Web App
+            url: connecting-farmbot-to-the-web-app
+          - title: Connectivity Diagnosis Codes
+            url: connectivity-codes
+          - title: For IT Security Professionals
+            url: for-it-security-professionals
+          - title: Support Policy
+            url: support-policy
   - title: Web App
     url: Web-App
     top: true
     pages:
-    - title: The FarmBot Web App
-      url: the-farmbot-web-app
-      pages:
-      - title: Creating an Account
-        url: creating-an-account
-      - title: Message Center
-        url: message-center
-      - title: Logs
-        url: logs
-      - title: Account Settings
-        url: account-settings
-    - title: Farm Designer
-      url: farm-designer
-      pages:
-      - title: Plants
-        url: plants
-      - title: Groups
-        url: groups
-      - title: Gardens
-        url: gardens
-      - title: Events
-        url: events
-      - title: Points
-        url: points
-      - title: Weeds
-        url: weeds
-    - title: Controls
-      url: controls
-      pages:
-      - title: Move
-        url: move
-      - title: Peripherals
-        url: peripherals
-      - title: Webcam Feeds
-        url: webcam-feeds
-      - title: Sensors
-        url: sensors
-    - title: Farmware
-      url: farmware
-      pages:
-      - title: Camera Calibration
-        url: camera-calibration
-      - title: Weed Detection
-        url: weed-detection
-      - title: Take Photo
-        url: take-photo
-    - title: Tools
-      url: tools
-      pages:
-      - title: Tool Slots
-        url: tool-slots
-    - title: Sequences
-      url: sequences
-      pages:
-      - title: Sequence Commands
-        url: sequence-commands
-      - title: Building a Sequence
-        url: building-a-sequence
-      - title: Example Sequences
-        url: example-sequences
-      - title: Variables
-        url: variables
-      - title: Externally Defined Variables
-        url: externally-defined-variables
-    - title: Regimens
-      url: regimens
-    - title: Device
-      url: device
-      pages:
-      - title: Pin Bindings
-        url: pin-bindings
-      - title: Device Settings
-        url: device-settings
-      - title: Diagnostic Reports
-        url: diagnostic-reports
-      - title: Hardware Settings
-        url: hardware-settings
+      - title: The FarmBot Web App
+        url: the-farmbot-web-app
+        pages:
+          - title: Creating an Account
+            url: creating-an-account
+          - title: Message Center
+            url: message-center
+          - title: Logs
+            url: logs
+          - title: Account Settings
+            url: account-settings
+      - title: Farm Designer
+        url: farm-designer
+        pages:
+          - title: Plants
+            url: plants
+          - title: Groups
+            url: groups
+          - title: Gardens
+            url: gardens
+          - title: Events
+            url: events
+          - title: Points
+            url: points
+          - title: Weeds
+            url: weeds
+      - title: Controls
+        url: controls
+        pages:
+          - title: Move
+            url: move
+          - title: Peripherals
+            url: peripherals
+          - title: Webcam Feeds
+            url: webcam-feeds
+          - title: Sensors
+            url: sensors
+      - title: Device
+        url: device
+        pages:
+          - title: Device Settings
+            url: device-settings
+          - title: Hardware Settings
+            url: hardware-settings
+          - title: Pin Bindings
+            url: pin-bindings
+          - title: Diagnostic Reports
+            url: diagnostic-reports
+      - title: Farmware
+        url: farmware
+        pages:
+          - title: Take Photo
+            url: take-photo
+          - title: Camera Calibration
+            url: camera-calibration
+          - title: Weed Detection
+            url: weed-detection
+      - title: Tools
+        url: tools
+        pages:
+          - title: Tool Slots
+            url: tool-slots
+      - title: Sequences
+        url: sequences
+        pages:
+          - title: Sequence Commands
+            url: sequence-commands
+          - title: Building a Sequence
+            url: building-a-sequence
+          - title: Example Sequences
+            url: example-sequences
+          - title: Variables
+            url: variables
+          - title: Externally Defined Variables
+            url: externally-defined-variables
+      - title: Regimens
+        url: regimens
   - title: Device
     url: Device
     top: true
     pages:
-    - title: FarmBot OS
-      url: farmbot-os
-      pages:
-      - title: Configurator
-        url: configurator
-      - title: Status LEDs
-        url: status-leds
-      - title: Data Usage
-        url: data-usage
-      - title: OTA Updates
-        url: ota-updates
-    - title: Arduino Firmware
-      url: arduino-firmware
-      pages:
-      - title: Stall Detection
-        url: stall-detection
-      - title: Microstepping
-        url: microstepping
-      - title: Endstops
-        url: endstops
+      - title: FarmBot OS
+        url: farmbot-os
+        pages:
+          - title: Configurator
+            url: configurator
+          - title: Status LEDs
+            url: status-leds
+          - title: Data Usage
+            url: data-usage
+          - title: OTA Updates
+            url: ota-updates
+      - title: Arduino Firmware
+        url: arduino-firmware
+        pages:
+          - title: Stall Detection
+            url: stall-detection
+          - title: Endstops
+            url: endstops
+          - title: Microstepping
+            url: microstepping

@@ -23,12 +23,12 @@ Below, we describe two methods for installing the Arduino Firmware onto the Ardu
 include callout.html
 type="info"
 title="Requires FarmBot OS"
-content="This firmware installation method is for people who have already installed [FarmBot OS](raspberry-pi-software.md) on their Raspberry Pi."
+content="This firmware installation method is for people who have already installed [FarmBot OS](farmbot-os.md) on their Raspberry Pi."
 %}
 
-**Prerequisite**: Install FarmBot OS (see [Raspberry Pi Software](raspberry-pi-software.md))
+**Prerequisite**: Install FarmBot OS (see [Raspberry Pi Software](farmbot-os.md))
 1. Plug your Arduino into the Raspberry Pi using a USB cable.
-2. Configure FarmBot OS (see [FarmBot Configurator](wifi-configurator.md))
+2. Configure FarmBot OS (see [FarmBot Configurator](configurator.md))
 3. Login to the FarmBot Web Application and go to the **Controls** page to test movement.
 
 

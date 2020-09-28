@@ -12,10 +12,10 @@ excerpt: "Computer vision software to detect weeds"
 include callout.html
 type="info"
 title=""
-content="See [Farmware](doc:farmware#section-weed-detector) for operation instructions."
+content="See [Farmware](../Web-App/farmware.md#weed-detector) for operation instructions."
 %}
 
-FarmBot is designed for removing weeds early and often such that the weeds are always small, young, and fragile, and therefore easily removed by the [Weeder Tool](https://genesis.farm.bot/docs/weeder).
+FarmBot is designed for removing weeds early and often such that the weeds are always small, young, and fragile, and therefore easily removed by the [Weeder Tool](https://genesis.farm.bot/v1.5/FarmBot-Genesis-V1-5/tools/weeder).
 
 ### How does FarmBot determine which plants are weeds?
 

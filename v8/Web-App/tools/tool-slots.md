@@ -12,23 +12,23 @@ Once you've added all of your tools and seed containers, its time to load some o
 ![toolbay.png](toolbay.png)
 
 # Creating tool slots
-To create a new tool slot, press <span class="fb-button fb-gray">edit</span> and then the <span class="fb-button fb-green">:fa-plus:</span> button.
+To create a new tool slot, press <span class="fb-button fb-gray">edit</span> and then the <span class="fb-button fb-green"><i class="fa fa-plus"></i></span> button.
 
 Next, provide **coordinates** for the tool slot.
   * _If you plan to load an **interchangeable tool** into the slot:_ Use coordinates for when FarmBot's UTM will fully mount the tool while it is still in the slot.
   * _If you plan to load a **seed container** into the slot:_ Use coordinates for when FarmBot's seed injector needle will be positioned to pick up a seed from the container.
 
-To input accurate coordinates, use the manual controls to move FarmBot into the desired position (mounting the tool or picking up a seed). Then click **USE CURRENT LOCATION** <span class="fb-button fb-light-blue">:fa-crosshairs:</span> in the slot's :fa-gear: menu to copy FarmBot's current coordinates into the **X**, **Y**, and **Z** input fields.
+To input accurate coordinates, use the manual controls to move FarmBot into the desired position (mounting the tool or picking up a seed). Then click **USE CURRENT LOCATION** <span class="fb-button fb-light-blue"><i class="fa fa-crosshairs"></i></span> in the slot's <i class="fa fa-gear"></i> menu to copy FarmBot's current coordinates into the **X**, **Y**, and **Z** input fields.
 
 ![Screen Shot 2019-05-05 at 10.58.35 PM.png](Screen_Shot_2019-05-05_at_10.58.35_PM.png)
 
 ## Changing slot direction
-Most tool slots have a **slot direction**, which is the direction that the tool or seed container must be loaded and unloaded from. To specify a tool slot's direction, use the **CHANGE SLOT DIRECTION** dropdown located in the slot's :fa-gear: menu.
+Most tool slots have a **slot direction**, which is the direction that the tool or seed container must be loaded and unloaded from. To specify a tool slot's direction, use the **CHANGE SLOT DIRECTION** dropdown located in the slot's <i class="fa fa-gear"></i> menu.
 
 ![Screen Shot 2019-05-05 at 11.12.04 PM.png](Screen_Shot_2019-05-05_at_11.12.04_PM.png)
 
 ## Gantry-mounted slots
-FarmBot Express devices come with a gantry-mounted holder for two seed troughs. Because the two slots in the holder will move with the gantry, they don't have an x-coordinate relative to the tool head. To account for this and properly render these types of slots in the farm designer, you can specify that a slot is **GANTRY-MOUNTED** from the slot's :fa-gear: menu. Doing so will display the x-coordinate input as <span class="fb-input fb-disabled-input">Gantry</span>.
+FarmBot Express devices come with a gantry-mounted holder for two seed troughs. Because the two slots in the holder will move with the gantry, they don't have an x-coordinate relative to the tool head. To account for this and properly render these types of slots in the farm designer, you can specify that a slot is **GANTRY-MOUNTED** from the slot's <i class="fa fa-gear"></i> menu. Doing so will display the x-coordinate input as <span class="fb-input fb-disabled-input">Gantry</span>.
 
 ![Gantry mounted.png](Gantry_mounted.png)
 
@@ -54,7 +54,7 @@ Once you are finished creating tool slots and loading them with tools and/or see
 ![Screen Shot 2019-05-05 at 11.18.59 PM.png](Screen_Shot_2019-05-05_at_11.18.59_PM.png)
 
 # Deleting tool slots
-To delete a tool slot, press <span class="fb-button fb-gray">edit</span> and then the <span class="fb-button fb-red">:fa-times:</span> button for the slot you wish to delete. Finish editing by pressing <span class="fb-button fb-gray">back</span>.
+To delete a tool slot, press <span class="fb-button fb-gray">edit</span> and then the <span class="fb-button fb-red"><i class="fa fa-times"></i></span> button for the slot you wish to delete. Finish editing by pressing <span class="fb-button fb-gray">back</span>.
 
 {%
 include callout.html

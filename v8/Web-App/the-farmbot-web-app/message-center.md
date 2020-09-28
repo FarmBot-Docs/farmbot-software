@@ -15,7 +15,7 @@ The **message center** page contains **messages** with important information abo
 Most messages will have buttons, links, input fields, dropdown menus, and other types of actionable UI elements. We recommend you fully read each message and take any necessary actions before dismissing it.
 
 # Dismissing messages
-When you are finished reading a message, click the :fa-times: icon in the top right of the card to dismiss it. At this time, you will not be able to recover messages after dismissal.
+When you are finished reading a message, click the <i class="fa fa-times"></i> icon in the top right of the card to dismiss it. At this time, you will not be able to recover messages after dismissal.
 
 {%
 include callout.html

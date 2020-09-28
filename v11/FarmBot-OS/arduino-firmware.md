@@ -16,7 +16,7 @@ The **FarmBot Arduino Firmware** performs the following tasks:
 include callout.html
 type="success"
 title="Installed automatically"
-content="If you just [installed](farmbot-os.md) and [configured](farmbot-os/configurator.md) FarmBot OS, then the Arduino firmware has already been flashed to the microcontroller and you can skip ahead to using the [web app](../The FarmBot Web App/the-farmbot-web-app.md).
+content="If you just [installed](../FarmBot-OS/farmbot-os.md) and [configured](../FarmBot-OS/farmbot-os/configurator.md) FarmBot OS, then the Arduino firmware has already been flashed to the microcontroller and you can skip ahead to using the [web app](../The-FarmBot-Web-App/the-farmbot-web-app.md).
 
 Any time FarmBot OS updates, it will flash the latest version of the firmware automatically as well."
 %}
@@ -35,4 +35,4 @@ If you are experiencing issues with your firmware, or just installed replacement
 
 # Using custom firmware
 
-Using custom firmware is only recommended for software developers. For more information, see the [developer docs](https://developer.farm.bot/docs/firmware#section-installing-custom-firmware).
+Using custom firmware is only recommended for software developers. For more information, see the [developer docs](https://developer.farm.bot/Documentation/firmware/custom-firmware).

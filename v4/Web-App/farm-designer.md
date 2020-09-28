@@ -11,8 +11,8 @@ View and layout your garden in a virtual representation of your FarmBot's bed on
 
 <div class="nav-image">
   <img class="nav-image" src="overview.png" alt="Farm Designer" />
-  <a href="https://software.farmbot.io/docs/farm-designer#section-add-plants" style="top: 12%; left: 0%; width: 30.75%; height: 87%;"></a>
-  <a href="https://software.farmbot.io/docs/farm-designer#section-map" style="top: 12%; left: 30.75%; width: 68.5%; height: 87%;"></a>
+  <a href="https://software.farmbot.io/docs/farm-designer#add-plants" style="top: 12%; left: 0%; width: 30.75%; height: 87%;"></a>
+  <a href="https://software.farmbot.io/docs/farm-designer#map" style="top: 12%; left: 30.75%; width: 68.5%; height: 87%;"></a>
 </div>
 <figcaption class="caption">Click a section in the image to learn more about it!</figcaption>
 
@@ -32,7 +32,7 @@ Find the crop that you'd like in your garden and click it to bring up the crop i
 
 ![cherry_tomato.png](cherry_tomato.png)
 
-Drag the crop image into the [map](#section-map) to place the crop in your garden.
+Drag the crop image into the [map](#map) to place the crop in your garden.
 
 ![tomato_drag.png](tomato_drag.png)
 
@@ -44,7 +44,7 @@ You now have a plant!
 
 # Move a plant
 
-To move a plant, simply drag the plant to a new location in the [map](#section-map).
+To move a plant, simply drag the plant to a new location in the [map](#map).
 
 # Remove a plant
 

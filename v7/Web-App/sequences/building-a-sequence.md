@@ -21,7 +21,7 @@ In the next sections, several sequences are built as examples.
 
 Let's create a sequence to mount the watering nozzle as an example.
 
-First, add the [watering tool](https://genesis.farm.bot/docs/watering-nozzle) to the toolbay and follow the [Tools](../../The FarmBot Web App/farm-designer/tools.md) instructions to add it to the web app.
+First, add the [watering tool](https://genesis.farm.bot/docs/watering-nozzle) to the toolbay and follow the [Tools](../../Web-App/tools.md) instructions to add it to the web app.
 
 Navigate to the **Sequences** page of the web app, and press the <span class="fb-button fb-green">+</span> button in the left column (**Sequences**)  to add a new sequence.
 
@@ -97,7 +97,7 @@ Now that we've created a sequence to mount the watering tool, we can create a se
 
 1. **Mount the Watering Tool** - Mount the watering nozzle by using the <span class="fb-step fb-execute">Execute Sequence</span> step and selecting the `Mount Watering Tool` sequence created in the previous section.
 2. **Move to above the Spinach plant** - Move the watering nozzle above the plant to be watered (`(200, 960, 0)` in this example) by making use of the Z-Offset input in the <span class="fb-step fb-move-absolute">Move Absolute</span> step.
-3. **Open the solenoid valve to start the flow of water** - Add a <span class="fb-step fb-write-pin">Write Pin</span> step to write `Pin 8` with a value of `ON`  (The pin number should correspond to the pin you have attached the solenoid valve to on the RAMPS board. See the [peripherals widget instructions](https://software.farmbot.io/docs/controls#section-peripherals) in order to test valve operation.)
+3. **Open the solenoid valve to start the flow of water** - Add a <span class="fb-step fb-write-pin">Write Pin</span> step to write `Pin 8` with a value of `ON`  (The pin number should correspond to the pin you have attached the solenoid valve to on the RAMPS board. See the [peripherals widget instructions](https://software.farmbot.io/docs/controls#peripherals) in order to test valve operation.)
 4. **Wait** - Use the <span class="fb-step fb-wait">Wait</span> step to continue watering the Spinach plant for 4000 milliseconds (4 seconds).
 5. **Cose the solenoid valve** - Use another <span class="fb-step fb-write-pin">Write Pin</span> step to write `Pin 8` with a value of `OFF`, turning off the flow of water.
 
@@ -115,7 +115,7 @@ Then, the new water dispensing sequence can be added by using an <span class="fb
 
 ![water_all_spinach.png](water_all_spinach.png)
 
-As you can see in this sequence, we have imported coordinates from plant locations in the <span class="fb-step fb-move-absolute">Move Absolute</span> step. These plant locations are defined in the [Farm Designer](../../The FarmBot Web App/farm-designer.md).
+As you can see in this sequence, we have imported coordinates from plant locations in the <span class="fb-step fb-move-absolute">Move Absolute</span> step. These plant locations are defined in the [Farm Designer](../../Web-App/farm-designer.md).
 
 As always, don't forget to <span class="fb-button fb-green">SAVE</span> and <span class="fb-button fb-yellow">SYNC NOW</span> before pressing <span class="fb-button fb-orange">TEST</span> to test the sequence!
 

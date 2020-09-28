@@ -15,13 +15,13 @@ The **farm designer** allows you to graphically design the layout of your garden
 
 # Map menu
 
-Click the white :fa-arrow-left: button in the top right of the map to open up the **map menu**. Here you will find <span class="fb-button fb-gray">:fa-minus:</span> and <span class="fb-button fb-gray">:fa-plus:</span> buttons to zoom in and out of the map, as well as a toggles to turn on and off map layers:
+Click the white <i class="fa fa-arrow-left"></i> button in the top right of the map to open up the **map menu**. Here you will find <span class="fb-button fb-gray"><i class="fa fa-minus"></i></span> and <span class="fb-button fb-gray"><i class="fa fa-plus"></i></span> buttons to zoom in and out of the map, as well as a toggles to turn on and off map layers:
 
 * **PLANTS?** will toggle the display of the plant icons
 * **POINTS?** will toggle the display of points, such as weeds
 * **SPREAD?** will toggle the display of gray spread indicators (spread is an estimate of how much space a plant will need)
 * **FARMBOT?** will toggle the display of the virtual FarmBot gantry and tool head, tools, slots, and some tool/peripheral animations
-* **PHOTOS?** will toggle the display of photos taken by FarmBot's onboard camera. See [camera calibration](../The FarmBot Web App/farmware/camera-calibration.md) if photos are not positioned, scaled, or rotated correctly.
+* **PHOTOS?** will toggle the display of photos taken by FarmBot's onboard camera. See [camera calibration](../Web-App/farmware/camera-calibration.md) if photos are not positioned, scaled, or rotated correctly.
 
 ![Screen Shot 2019-07-15 at 6.32.19 PM.png](Screen_Shot_2019-07-15_at_6.32.19_PM.png)
 
@@ -29,7 +29,7 @@ Click the white :fa-arrow-left: button in the top right of the map to open up th
 
 # Move to location mode
 
-Pressing the <span class="fb-button fb-gray">MOVE MODE</span> button in the map menu will enter a **move to location** mode. Click any spot within the map grid to mark it with an :fa-times:. Then press <span class="fb-button fb-gray">MOVE TO THIS COORDINATE</span> to send FarmBot to the selected position. You can optionally enter a new coordinate for the **Z-AXIS**.
+Pressing the <span class="fb-button fb-gray">MOVE MODE</span> button in the map menu will enter a **move to location** mode. Click any spot within the map grid to mark it with an <i class="fa fa-times"></i>. Then press <span class="fb-button fb-gray">MOVE TO THIS COORDINATE</span> to send FarmBot to the selected position. You can optionally enter a new coordinate for the **Z-AXIS**.
 
 ![move_to.png](move_to.png)
 

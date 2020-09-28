@@ -20,7 +20,7 @@ The connectivity tool is used to diagnose the communications within the FarmBot.
 
 The most common issue preventing FarmBot communication is blocked ports.
 
-For schools and corporate networks it is very common for the IT department to block ports that are not commonly used. Just because the FarmBot is connected to the internet doesn't mean the FarmBot will connect to the Web App because of these blocked ports. We have [specific instructions for your IT department](https://software.farm.bot/docs/for-it-security-professionals) to help you connect your FarmBot to the internet if you suspect any ports are blocked.
+For schools and corporate networks it is very common for the IT department to block ports that are not commonly used. Just because the FarmBot is connected to the internet doesn't mean the FarmBot will connect to the Web App because of these blocked ports. We have [specific instructions for your IT department](../troubleshooting/for-it-security-professionals.md) to help you connect your FarmBot to the internet if you suspect any ports are blocked.
 
 FarmBot requires the following ports to be open on your network:
 
@@ -39,7 +39,7 @@ On FarmBot Genesis v1.4 check the Blue LED communication light. You have blocked
 include callout.html
 type="info"
 title=""
-content="See the [status LEDs page](../../FarmBot OS/farmbot-os/status-leds.md) for more information."
+content="See the [status LEDs page](../../Device/farmbot-os/status-leds.md) for more information."
 %}
 
 # 3. Use a wired Ethernet connection

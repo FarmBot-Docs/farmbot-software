@@ -11,7 +11,7 @@ slug: "verify-a-tool-has-been-mounted"
 include callout.html
 type="info"
 title=""
-content="This guide assumes you have wired up your UTM using the [pin mapping table](https://genesis.farm.bot/docs/utm#section-pin-mapping), and that you are familiar with [sequences](../../The FarmBot Web App/sequences.md) and [sensors](../../The FarmBot Web App/controls/sensors.md)."
+content="This guide assumes you have wired up your UTM using the [pin mapping table](https://genesis.farm.bot/FarmBot-Genesis-V1-5/tools/utm#pin-mapping), and that you are familiar with [sequences](../../Web-App/sequences.md) and [sensors](../../Web-App/controls/sensors.md)."
 %}
 
 

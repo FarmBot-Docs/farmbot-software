@@ -9,11 +9,11 @@ excerpt: "**In this guide:** See examples for how to use FarmBot's buttons"
 
 FarmBot Genesis v1.4+ kits include five **push buttons** on top of the electronics box. Two of these buttons are reserved for triggering <span class="fb-button fb-red">E-STOP</span> and <span class="fb-button fb-yellow">UNLOCK</span> actions while the other three buttons are user customizable. In this guide we'll show you how you can configure your buttons to:
 
-[:flashlight: Toggle lights for nighttime harvesting](#section-example-1-toggle-lights-for-nighttime-harvesting)
+[:flashlight: Toggle lights for nighttime harvesting](#example-1-toggle-lights-for-nighttime-harvesting)
 
-[:sweat-drops: Wash your bounty and your hands](#section-example-2-wash-your-bounty-and-your-hands)
+[:sweat-drops: Wash your bounty and your hands](#example-2-wash-your-bounty-and-your-hands)
 
-[:arrow-double-up: Get FarmBot out of the way](#section-example-3-get-farm-bot-out-of-the-way)
+[:arrow-double-up: Get FarmBot out of the way](#example-3-get-farm-bot-out-of-the-way)
 
 # Example 1: Toggle lights for nighttime harvesting
 
@@ -39,7 +39,7 @@ If the lighting is currently off (a value of `0`), and the button is pressed, Fa
 
 ## Step 3: Create the pin binding
 
-Create a **[pin binding](../../The FarmBot Web App/settings/pin-bindings.md)** that binds an available button to your sequence that toggles the lights. Press <span class="fb-button fb-green">SAVE</span> and then try everything out by pressing the button on your FarmBot!
+Create a **[pin binding](../../The-FarmBot-Web-App/settings/pin-bindings.md)** that binds an available button to your sequence that toggles the lights. Press <span class="fb-button fb-green">SAVE</span> and then try everything out by pressing the button on your FarmBot!
 
 ![Screen Shot 2020-04-30 at 4.05.53 PM.png](Screen_Shot_2020-04-30_at_4.05.53_PM.png)
 
@@ -61,7 +61,7 @@ Create a sequence with the following commands:
 
 ## Step 2: Create the pin binding
 
-Create a **[pin binding](../../The FarmBot Web App/settings/pin-bindings.md)** that binds an available button to your sequence that doses water. Press <span class="fb-button fb-green">SAVE</span> and then try everything out by pressing the button on your FarmBot!
+Create a **[pin binding](../../The-FarmBot-Web-App/settings/pin-bindings.md)** that binds an available button to your sequence that doses water. Press <span class="fb-button fb-green">SAVE</span> and then try everything out by pressing the button on your FarmBot!
 
 ![Screen Shot 2020-04-30 at 4.30.43 PM.png](Screen_Shot_2020-04-30_at_4.30.43_PM.png)
 
@@ -91,7 +91,7 @@ If FarmBot's current `X position` is in the first half of the bed (a value less 
 
 ## Step 3: Create the pin binding
 
-Create a **[pin binding](../../The FarmBot Web App/settings/pin-bindings.md)** that binds an available button to your sequence that determines where FarmBot should move to. Press <span class="fb-button fb-green">SAVE</span> and then try everything out by pressing the button on your FarmBot!
+Create a **[pin binding](../../The-FarmBot-Web-App/settings/pin-bindings.md)** that binds an available button to your sequence that determines where FarmBot should move to. Press <span class="fb-button fb-green">SAVE</span> and then try everything out by pressing the button on your FarmBot!
 
 ![Screen Shot 2020-04-30 at 4.53.56 PM.png](Screen_Shot_2020-04-30_at_4.53.56_PM.png)
 

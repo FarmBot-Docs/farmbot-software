@@ -27,7 +27,7 @@ Camera calibration works by using the distance between and orientation of calibr
 
 # Calibrate the camera
 
-Place two [red objects](https://genesis.farm.bot/docs/miscellaneous#section-red-markers) on the surface of the soil in your garden bed. The objects should be bright red, and preferably round. They can be placed anywhere in the bed, but they need to be placed *square* with FarmBot's coordinate system and in a location where FarmBot's camera can be moved directly overhead.
+Place two [red objects](https://genesis.farm.bot/docs/miscellaneous#red-markers) on the surface of the soil in your garden bed. The objects should be bright red, and preferably round. They can be placed anywhere in the bed, but they need to be placed *square* with FarmBot's coordinate system and in a location where FarmBot's camera can be moved directly overhead.
 
 Measure the distance from the center of one object to the center of the next. The objects can be separated as far apart as they can while still remaining within the field of view of the camera. `100` to `200`mm is a good starting point. Input the distance in millimeters into the **CALIBRATION OBJECT SEPARATION** field in the **Camera Calibration** settings section.
 

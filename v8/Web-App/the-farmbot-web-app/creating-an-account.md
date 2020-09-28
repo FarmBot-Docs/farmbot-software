@@ -21,15 +21,15 @@ Once you let the app know which FarmBot model you have, it will add a set of res
 ![Choose your FarmBot.png](Choose_your_FarmBot.png)
 
 # Connect FarmBot to your account
-1. [Install FarmBot OS](../../FarmBot OS/farmbot-os.md)
-2. [Configure FarmBot](../../FarmBot OS/farmbot-os/configurator.md) with the same email and password you used to create your web app account
+1. [Install FarmBot OS](../../Device/farmbot-os.md)
+2. [Configure FarmBot](../../Device/farmbot-os/configurator.md) with the same email and password you used to create your web app account
 3. Go to [my.farm.bot](https://my.farm.bot) and log in
 
 {%
 include callout.html
 type="success"
 title="Can you hear me now?"
-content="The web application should now be in communication with your FarmBot. You should see some bootup logs streaming into the status ticker, and FarmBot should respond to any commands you send it. If there are any problems, see the [troubleshooting guide](../../Extras/troubleshooting.md)."
+content="The web application should now be in communication with your FarmBot. You should see some bootup logs streaming into the status ticker, and FarmBot should respond to any commands you send it. If there are any problems, see the [troubleshooting guide](../../FarmBot-Software/troubleshooting.md)."
 %}
 
 # Using a demo account

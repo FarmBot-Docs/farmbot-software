@@ -9,11 +9,11 @@ excerpt: "Scale, rotate, and position images accurately in the map :camera:"
 
 FarmBot's camera must be **calibrated** so that images can be **scaled**, **rotated**, and **positioned** such that the pixels in the images match up with the FarmBot coordinate system. This allows images to be displayed in the correct location in the farm designer map and also allows FarmBot to detect and locate objects in the garden, such as weeds.
 
-There are two methods for camera calibration. [Method 1 - Calibration via dot grid](#section-method-1-calibration-via-dot-grid), is the preferred method because it is the most accurate and easiest to perform. Method 1 requires a printed **[camera calibration card](https://farm.bot/products/camera-calibration-card)** featuring a dot grid (shown below), which is included with all Genesis v1.5+ and Express v1.0+ kits.
+There are two methods for camera calibration. [Method 1 - Calibration via dot grid](#method-1-calibration-via-dot-grid), is the preferred method because it is the most accurate and easiest to perform. Method 1 requires a printed **[camera calibration card](https://farm.bot/products/camera-calibration-card)** featuring a dot grid (shown below), which is included with all Genesis v1.5+ and Express v1.0+ kits.
 
 ![MVIMG_20200727_180001.jpg](MVIMG_20200727_180001.jpg)
 
-[Method 2 - Calibration via two objects](#section-method-2-calibration-via-two-objects), is the less preferred method because it is more difficult. Method 2 should only be used if you do not have a printed camera calibration card featuring a dot grid.
+[Method 2 - Calibration via two objects](#method-2-calibration-via-two-objects), is the less preferred method because it is more difficult. Method 2 should only be used if you do not have a printed camera calibration card featuring a dot grid.
 
 # Method 1: Calibration via dot grid
 
@@ -30,7 +30,7 @@ Place the **camera calibration card** on the surface of the soil in your garden 
 ![MVIMG_20200727_180243.jpg](MVIMG_20200727_180243.jpg)
 
 ## Step 2: Calibrate
-From the [controls panel](../controls/move.md), move FarmBot directly over the camera calibration card and raise the z-axis as high as it will go. Now open the [photos panel](https://my.farm.bot/app/designer/photos) and scroll down to the **camera calibration** section. Expand the section and press the <span class="fb-button fb-green">calibrate</span> button. FarmBot will take a photo, then move 100mm in the +Y direction, take another photo, move 100mm in the +X direction, take a 3rd photo, and then move back to where it started.
+From the [controls panel](../../The-FarmBot-Web-App/controls/move.md), move FarmBot directly over the camera calibration card and raise the z-axis as high as it will go. Now open the [photos panel](https://my.farm.bot/app/designer/photos) and scroll down to the **camera calibration** section. Expand the section and press the <span class="fb-button fb-green">calibrate</span> button. FarmBot will take a photo, then move 100mm in the +Y direction, take another photo, move 100mm in the +X direction, take a 3rd photo, and then move back to where it started.
 
 {%
 include callout.html
@@ -79,10 +79,10 @@ Place two red calibration objects on the surface of the soil in your garden bed.
 
 |Kit                           |Calibration Object            |
 |------------------------------|------------------------------|
-|Genesis v1.2                  |[Red rubber caps](https://genesis.farm.bot/v1.2/docs/miscellaneous#section-red-markers)
-|Genesis v1.3                  |[Red rubber caps](https://genesis.farm.bot/v1.3/docs/miscellaneous#section-red-markers)
-|Genesis v1.4                  |[Red plastic golf tees](https://genesis.farm.bot/v1.4/docs/miscellaneous#section-red-markers)
-|Genesis v1.5 and Express v1.0 |[Calibration card with red dots](https://genesis.farm.bot/v1.5/docs/electronics-and-wiring#section-camera-calibration-card)
+|Genesis v1.2                  |[Red rubber caps](https://genesis.farm.bot/v1.2/Extras/bom/miscellaneous#red-markers)
+|Genesis v1.3                  |[Red rubber caps](https://genesis.farm.bot/v1.3/Extras/bom/miscellaneous#red-markers)
+|Genesis v1.4                  |[Red plastic golf tees](https://genesis.farm.bot/v1.4/Extras/bom/miscellaneous#red-markers)
+|Genesis v1.5 and Express v1.0 |[Calibration card with red dots](https://genesis.farm.bot/v1.5/Extras/bom/electronics-and-wiring#camera-calibration-card)
 
 The objects can be placed anywhere in the bed, but they need to be placed *square* with FarmBot's coordinate system and in a location where FarmBot's camera can be moved directly overhead. The objects should be separated about 100mm or more apart, but they must both be within the field of view of the camera.
 

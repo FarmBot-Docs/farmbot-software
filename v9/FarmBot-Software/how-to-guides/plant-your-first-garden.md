@@ -22,7 +22,7 @@ For your first garden, we recommend selecting **easy-to-grow crops** and growing
 
 ## Add plants to the map
 
-Once your crops are chosen, add them to the farm designer map by navigating to the [plants panel on the farm designer page](https://my.farm.bot/app/designer/plants) and clicking <span class="fb-button fb-green">:fa-plus:</span>. Type in a crop name to the search field, for example `Spinach`, and then select the best search result. Click `ADD TO MAP` and then click anywhere in the map to add a plant at that location.
+Once your crops are chosen, add them to the farm designer map by navigating to the [plants panel on the farm designer page](https://my.farm.bot/app/designer/plants) and clicking <span class="fb-button fb-green"><i class="fa fa-plus"></i></span>. Type in a crop name to the search field, for example `Spinach`, and then select the best search result. Click `ADD TO MAP` and then click anywhere in the map to add a plant at that location.
 
 {%
 include callout.html
@@ -36,7 +36,7 @@ content="* Do not place plants too closely together or they will fight each othe
 
 ![Add Plants.gif](Add_Plants.gif)
 
-When you are finished adding plants of the first crop type, press the :fa-arrow-left: button or the `esc` key to return to the plants panel. To add plants of another crop type, click <span class="fb-button fb-green">:fa-plus:</span> again and begin a new search.
+When you are finished adding plants of the first crop type, press the <i class="fa fa-arrow-left"></i> button or the `esc` key to return to the plants panel. To add plants of another crop type, click <span class="fb-button fb-green"><i class="fa fa-plus"></i></span> again and begin a new search.
 
 ![Screen Shot 2020-04-22 at 7.14.59 PM.png](Screen_Shot_2020-04-22_at_7.14.59_PM.png)
 
@@ -46,7 +46,7 @@ When you are finished adding plants of the first crop type, press the :fa-arrow-
 include callout.html
 type="info"
 title=""
-content="For more detailed instructions and advanced methods for adding plants to your map, [click here](../../The FarmBot Web App/farm-designer/plants.md)."
+content="For more detailed instructions and advanced methods for adding plants to your map, [click here](../../The-FarmBot-Web-App/farm-designer/plants.md)."
 %}
 
 ## Rearrange and remove plants as needed
@@ -56,7 +56,7 @@ If you need to rearrange or remove any plants, click the plant icon in the map t
 ![Edit Plants.gif](Edit_Plants.gif)
 
 # Step 2: Create groups for each crop type
-Navigate to the **groups panel** and click <span class="fb-button fb-blue">:fa-plus:</span>. **Select all** plants, and then **FILTER** by **Type** so that only the plants of one crop type are highlighted in the map. Give your group a descriptive name such as "All Spinach Plants"  and then press the :fa-arrow-left: button to save the group.
+Navigate to the **groups panel** and click <span class="fb-button fb-blue"><i class="fa fa-plus"></i></span>. **Select all** plants, and then **FILTER** by **Type** so that only the plants of one crop type are highlighted in the map. Give your group a descriptive name such as "All Spinach Plants"  and then press the <i class="fa fa-arrow-left"></i> button to save the group.
 
 Repeat to create groups for each crop type that you added to your garden.
 
@@ -68,12 +68,12 @@ Repeat to create groups for each crop type that you added to your garden.
 include callout.html
 type="info"
 title=""
-content="For more detailed instructions and advanced methods for creating plants groups, [click here](../../The FarmBot Web App/farm-designer/groups.md)."
+content="For more detailed instructions and advanced methods for creating plants groups, [click here](../../The-FarmBot-Web-App/farm-designer/groups.md)."
 %}
 
 # Step 3: Create seeding sequences
 
-In this tutorial we'll make two sequences. The first sequence will plant one seed for one plant. We'll then use this as a building block to plant all the seeds for one crop type in the second sequence. If you are unfamiliar with what sequences are, read the [sequences](../../The FarmBot Web App/sequences.md) documentation before beginning.
+In this tutorial we'll make two sequences. The first sequence will plant one seed for one plant. We'll then use this as a building block to plant all the seeds for one crop type in the second sequence. If you are unfamiliar with what sequences are, read the [sequences](../../The-FarmBot-Web-App/sequences.md) documentation before beginning.
 
 ## Sequence 1: Plant one seed
 
@@ -135,7 +135,7 @@ content="Sequence 1 is now complete. Give it a descriptive name such as \"Plant 
 
 Sequence 2 will have far fewer commands than Sequence 1. All Sequence 2 needs to do is mount the seeder tool (Genesis kits only), execute Sequence 1 for every plant in our group, and then dismount the seeder tool (Genesis kits only).
 
-**Step 1:** <span class="fb-step fb-execute">EXECUTE</span> a sequence to mount the seeder tool. If you haven't built a sequence for this yet, refer to [this guide](mount-and-dismount-tools.md).
+**Step 1:** <span class="fb-step fb-execute">EXECUTE</span> a sequence to mount the seeder tool. If you haven't built a sequence for this yet, refer to [this guide](../how-to-guides/mount-and-dismount-tools.md).
 
 {%
 include callout.html
@@ -152,7 +152,7 @@ content="This step is only applicable for Genesis kits with a UTM and interchang
 
 ![Screen Shot 2020-04-23 at 12.30.42 AM.png](Screen_Shot_2020-04-23_at_12.30.42_AM.png)
 
-**Step 3:** <span class="fb-step fb-execute">EXECUTE</span> a sequence to dismount the seeder tool. If you haven't built a sequence for this yet, refer to [this guide](mount-and-dismount-tools.md).
+**Step 3:** <span class="fb-step fb-execute">EXECUTE</span> a sequence to dismount the seeder tool. If you haven't built a sequence for this yet, refer to [this guide](../how-to-guides/mount-and-dismount-tools.md).
 
 {%
 include callout.html

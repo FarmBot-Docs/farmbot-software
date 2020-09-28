@@ -16,7 +16,7 @@ excerpt: ":movie-camera: [Video tutorial](https://youtu.be/0EAcUbO6tqo?t=35)"
 ![Screen Shot 2020-04-21 at 5.39.55 PM.png](Screen_Shot_2020-04-21_at_5.39.55_PM.png)
 
 # Choose your FarmBot
-Clicking the email verification link will log you into the app and take you to the [message center](message-center.md). Here, you'll see a few messages to help you become familiar with the app, as well as one to **Choose your FarmBot**.
+Clicking the email verification link will log you into the app and take you to the [message center](../the-farmbot-web-app/message-center.md). Here, you'll see a few messages to help you become familiar with the app, as well as one to **Choose your FarmBot**.
 
 Once you let the app know which FarmBot model you have, it will add a set of resources (peripherals, sequences, etc) and apply a set of settings (map size, firmware version, etc) appropriate to your FarmBot model. This will allow you to get started working with your FarmBot more quickly.
 
@@ -32,8 +32,8 @@ content="If you want to build up your FarmBot account completely from scratch, y
 %}
 
 # Connect FarmBot to your account
-1. [Install FarmBot OS](../../FarmBot OS/farmbot-os.md)
-2. [Configure FarmBot](../../FarmBot OS/farmbot-os/configurator.md) with the same email and password you used to create your web app account
+1. [Install FarmBot OS](../../FarmBot-OS/farmbot-os.md)
+2. [Configure FarmBot](../../FarmBot-OS/farmbot-os/configurator.md) with the same email and password you used to create your web app account
 3. Go to [my.farm.bot](https://my.farm.bot) and log in
 
 {%

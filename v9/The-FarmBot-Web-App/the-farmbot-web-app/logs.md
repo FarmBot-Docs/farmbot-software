@@ -16,14 +16,14 @@ There are several **log types**, each with their own color, that indicate the ty
 
 |Log Type                      |Meaning                       |
 |------------------------------|------------------------------|
-|<span class="green">:fa-circle:</span> **SUCCESS**|FarmBot has successfully completed a task.<br>**Example:** *Synced*
-|<span class="yellow">:fa-circle:</span> **BUSY**|FarmBot is busy working on a task.<br>**Example:** *Syncing*
-|<span class="orange">:fa-circle:</span> **WARN**|A situation may require your attention or make FarmBot unresponsive.<br>**Example:** *Emergency locking and powering down*
-|<span class="red">:fa-circle:</span> **ERROR**|An error or emergency stop has occurred.<br>**Example:** *Movement failed*
-|<span class="light-blue">:fa-circle:</span> **INFO**|General information about what FarmBot is doing.<br>**Example:** *Starting Water All Plants Sequence*
-|<span class="blue">:fa-circle:</span> **FUN**|Logs that are just for fun :rabbit:
-|<span class="gray">:fa-circle:</span> **DEBUG**|Verbose information relevant to software development and troubleshooting.<br>**Example:** *Network interface needs configuration: wlan0*
-|<span class="gray">:fa-circle:</span> **ASSERTION**|Results of <span class="fb-step fb-wait">ASSERTION</span> commands. (advanced)
+|<span class="green"><i class="fa fa-circle"></i></span> **SUCCESS**|FarmBot has successfully completed a task.<br>**Example:** *Synced*
+|<span class="yellow"><i class="fa fa-circle"></i></span> **BUSY**|FarmBot is busy working on a task.<br>**Example:** *Syncing*
+|<span class="orange"><i class="fa fa-circle"></i></span> **WARN**|A situation may require your attention or make FarmBot unresponsive.<br>**Example:** *Emergency locking and powering down*
+|<span class="red"><i class="fa fa-circle"></i></span> **ERROR**|An error or emergency stop has occurred.<br>**Example:** *Movement failed*
+|<span class="light-blue"><i class="fa fa-circle"></i></span> **INFO**|General information about what FarmBot is doing.<br>**Example:** *Starting Water All Plants Sequence*
+|<span class="blue"><i class="fa fa-circle"></i></span> **FUN**|Logs that are just for fun :rabbit:
+|<span class="gray"><i class="fa fa-circle"></i></span> **DEBUG**|Verbose information relevant to software development and troubleshooting.<br>**Example:** *Network interface needs configuration: wlan0*
+|<span class="gray"><i class="fa fa-circle"></i></span> **ASSERTION**|Results of <span class="fb-step fb-wait">ASSERTION</span> commands. (advanced)
 
 # Verbosity and filtering
 FarmBot sends logs for nearly every action it takes. Sometimes seeing all of the logs can be helpful, for example when trying out new features or when debugging your system. Other times seeing only the most important "high level" logs is desirable, such as when you leave your FarmBot to work for a few weeks and you just periodically check in.
@@ -39,7 +39,7 @@ The **PRESETS** for <span class="fb-button fb-gray">NORMAL</span> and <span clas
 ![Screen Shot 2019-07-10 at 4.06.29 PM.png](Screen_Shot_2019-07-10_at_4.06.29_PM.png)
 
 # Logs settings menu
-You can customize whether or not FarmBot sends some types of logs or not by using the options in the :fa-cog: menu. Each option is described in the tooltip shown when the <span class="fb-tooltip">:fa-question:</span> icon is clicked.
+You can customize whether or not FarmBot sends some types of logs or not by using the options in the <i class="fa fa-cog"></i> menu. Each option is described in the tooltip shown when the <span class="fb-tooltip"><i class="fa fa-question"></i></span> icon is clicked.
 
 ![Screen Shot 2019-07-10 at 4.05.39 PM.png](Screen_Shot_2019-07-10_at_4.05.39_PM.png)
 

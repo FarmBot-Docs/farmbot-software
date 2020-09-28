@@ -6,7 +6,7 @@ slug: "troubleshooting"
 * toc
 {:toc}
 
-Having trouble with the FamBot software? Browse through the troubleshooting guides below for help. Also make sure to check out the [Hardware Troubleshooting Guide](https://genesis.farm.bot/docs/troubleshooting).
+Having trouble with the FamBot software? Browse through the troubleshooting guides below for help. Also make sure to check out the [Hardware Troubleshooting Guide](https://genesis.farm.bot/Extras/troubleshooting).
 
 {%
 include callout.html

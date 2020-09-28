@@ -15,7 +15,7 @@ Accurate position tracking is imperative for FarmBot to sow seeds one day and re
   * Know all three **axis lengths**, so FarmBot does not try to move farther than allowed.
 
 # Home
-All of FarmBot's movements must be based off a fixed **home position**, also known as the **origin**, **zero**, or `(0, 0, 0)`. To know where the home position is located, FarmBot can either [automatically find home](#section-automatically-find-home) or you can [manually set home](#section-manually-set-home). Finding or setting home should occur regularly:
+All of FarmBot's movements must be based off a fixed **home position**, also known as the **origin**, **zero**, or `(0, 0, 0)`. To know where the home position is located, FarmBot can either [automatically find home](#automatically-find-home) or you can [manually set home](#manually-set-home). Finding or setting home should occur regularly:
 
   * After powering up FarmBot
   * After a movement error
@@ -29,14 +29,14 @@ All of FarmBot's movements must be based off a fixed **home position**, also kno
 include callout.html
 type="info"
 title=""
-content="**ENCODERS**, **STALL DETECTION**, or **LIMIT SWITCHES** must be <span class=\"fb-peripheral-on\">ON</span> for FarmBot to automatically find home. See the [how it works](#section-how-it-works) section for more information."
+content="**ENCODERS**, **STALL DETECTION**, or **LIMIT SWITCHES** must be <span class=\"fb-peripheral-on\">ON</span> for FarmBot to automatically find home. See the [how it works](#how-it-works) section for more information."
 %}
 
 To **automatically find home**, FarmBot will:
 
 :mag: Move in the direction of the home position, **searching** for it.
 
-:boom: Using [special hardware](#section-how-it-works), FarmBot will **detect** when the home position has been reached.
+:boom: Using [special hardware](#how-it-works), FarmBot will **detect** when the home position has been reached.
 
 :white-check-mark: Once the home position is reached the first time, FarmBot will back up a short distance and then move forward again to **verify** that the home position is found a second time in the same location. If the verification fails, FarmBot will go back to step 1 of the process.
 
@@ -48,7 +48,7 @@ _Note that the graphic above omits step 3 of the process_
 
 To instruct FarmBot to automatically find home on a regular basis, use the <span class="fb-step fb-move-absolute">FIND HOME</span> command in your sequences. This is recommended at the start of long-running sequences and sequences that require a high degree of precision.
 
-To instruct FarmBot to automatically find home right now, use the <span class="fb-button fb-yellow">FIND HOME X</span>, <span class="fb-button fb-yellow">FIND HOME Y</span>, and <span class="fb-button fb-yellow">FIND HOME Z</span> buttons in the settings panel, or the <span class="fb-button fb-gray">:fa-home:</span> button on the controls page to find home for all three axes in the order Z, Y, X. This is recommended after moving FarmBot by hand or a movement error.
+To instruct FarmBot to automatically find home right now, use the <span class="fb-button fb-yellow">FIND HOME X</span>, <span class="fb-button fb-yellow">FIND HOME Y</span>, and <span class="fb-button fb-yellow">FIND HOME Z</span> buttons in the settings panel, or the <span class="fb-button fb-gray"><i class="fa fa-home"></i></span> button on the controls page to find home for all three axes in the order Z, Y, X. This is recommended after moving FarmBot by hand or a movement error.
 
 To instruct FarmBot to automatically find home every time it boots up, turn the **FIND HOME ON BOOT** setting <span class="fb-peripheral-on">ON</span>. This may be useful for recovering from a power outage, or in classrooms where one FarmBot is shared by many students and regularly turned on and off.
 
@@ -61,7 +61,7 @@ You may also instruct FarmBot to set the home position on a regular basis by usi
 Most FarmBot setups physically restrict movements beyond the home position via hardware such as hardstops. If this is true for your setup, you should also turn **STOP AT HOME** <span class="fb-peripheral-on">ON</span> for each applicable axis. This will further restrict FarmBot (via software) from even *attempting* to move beyond the home position.
 
 # Axis length
-To restrict movement beyond the maximum position of an axis, FarmBot must first know the **axis length**. To know the axis lengths, FarmBot can either [automatically find axis lengths](#section-automatically-find-axis-length) or you can [manually set axis lengths](#section-manually-set-axis-length). Finding or setting axis lengths should occur only after hardware changes that affect the length of an axis:
+To restrict movement beyond the maximum position of an axis, FarmBot must first know the **axis length**. To know the axis lengths, FarmBot can either [automatically find axis lengths](#automatically-find-axis-length) or you can [manually set axis lengths](#manually-set-axis-length). Finding or setting axis lengths should occur only after hardware changes that affect the length of an axis:
 
 * After assembling your FarmBot
 * After adjusting belts or hardstops
@@ -73,18 +73,18 @@ To restrict movement beyond the maximum position of an axis, FarmBot must first 
 include callout.html
 type="info"
 title=""
-content="**ENCODERS**, **STALL DETECTION**, or **LIMIT SWITCHES** must be <span class=\"fb-peripheral-on\">ON</span> for FarmBot to automatically find axis lengths. See the [how it works](#section-how-it-works) section for more information."
+content="**ENCODERS**, **STALL DETECTION**, or **LIMIT SWITCHES** must be <span class=\"fb-peripheral-on\">ON</span> for FarmBot to automatically find axis lengths. See the [how it works](#how-it-works) section for more information."
 %}
 
 To **automatically find an axis length**, FarmBot will:
 
 :mag: Move in the direction of the maximum position, **searching** for it.
 
-:boom: Using [special hardware](#section-how-it-works), FarmBot will **detect** when the maximum position has been reached.
+:boom: Using [special hardware](#how-it-works), FarmBot will **detect** when the maximum position has been reached.
 
 :straight-ruler: FarmBot will then move in the direction of the home position, **searching** for it, while also **measuring** the distance it has moved from the maximum position.
 
-:boom: Using [special hardware](#section-how-it-works), FarmBot will **detect** when the home position has been reached.
+:boom: Using [special hardware](#how-it-works), FarmBot will **detect** when the home position has been reached.
 
 :white-check-mark: FarmBot will then **set** the **AXIS LENGTH** to the distance that was measured between the maximum and home positions. FarmBot will also set the current location as the home position.
 
@@ -107,9 +107,9 @@ Automatically finding home and axis lengths requires special hardware to signal 
 
 |FarmBot model                 |Required hardware             |
 |------------------------------|------------------------------|
-|Genesis v1.2+<br>Genesis XL v1.2+|[Rotary encoders](#section-rotary-encoders)
-|Express v1.0+<br>Express XL v1.0+|[Stall detecting stepper drivers](#section-stall-detecting-stepper-drivers)
-|DIY bots                      |[Limit switches](#section-limit-switches)
+|Genesis v1.2+<br>Genesis XL v1.2+|[Rotary encoders](#rotary-encoders)
+|Express v1.0+<br>Express XL v1.0+|[Stall detecting stepper drivers](#stall-detecting-stepper-drivers)
+|DIY bots                      |[Limit switches](#limit-switches)
 
 ## Rotary encoders
 
@@ -119,7 +119,7 @@ FarmBot Genesis kits include **rotary encoders** on each motor that monitor how 
 include callout.html
 type="info"
 title=""
-content="See the [stall detection](../../FarmBot OS/arduino-firmware/stall-detection.md) page for more information."
+content="See the [stall detection](../../FarmBot-OS/arduino-firmware/stall-detection.md) page for more information."
 %}
 
 ## Stall detecting stepper drivers
@@ -130,7 +130,7 @@ FarmBot Express kits include **stall detecting stepper drivers** that can detect
 include callout.html
 type="info"
 title=""
-content="See the [stall detection](../../FarmBot OS/arduino-firmware/stall-detection.md) page for more information."
+content="See the [stall detection](../../FarmBot-OS/arduino-firmware/stall-detection.md) page for more information."
 %}
 
 ## Limit switches

@@ -1,7 +1,7 @@
 ---
 title: "Farmware"
 slug: "farmware"
-excerpt: "Plugin system for FarmBot OS :fa-puzzle-piece:\n[Open this panel in the app](https://my.farm.bot/app/designer/farmware)"
+excerpt: "Plugin system for FarmBot OS <i class="fa fa-puzzle-piece"></i>\n[Open this panel in the app](https://my.farm.bot/app/designer/farmware)"
 ---
 
 * toc
@@ -17,7 +17,7 @@ excerpt: "Plugin system for FarmBot OS :fa-puzzle-piece:\n[Open this panel in th
 include callout.html
 type="info"
 title="Interested in developing farmware?"
-content="See our [developer documentation](https://developer.farm.bot/docs/farmware) for more details."
+content="See our [developer documentation](https://developer.farm.bot/Documentation/farmware) for more details."
 %}
 
 # Installing Farmware
@@ -29,7 +29,7 @@ title="Only install Farmware from developers you trust"
 content="Installing a Farmware onto your FarmBot will allow it to add, modify, and delete any resources from your FarmBot account every time it is run, including your Plants, Weeds, Sequences, Regimens, Events, Settings, and more. **Exercise caution when installing Farmware**, and only install Farmware from developers you trust."
 %}
 
-To install a new Farmware, press the <span class="fb-button fb-gray">:fa-plus:</span> button on the Farmware panel. Enter the **FARMWARE MANIFEST URL** (link to the `manifest.json` file for the Farmware) and press <span class="fb-button fb-green">install</span>.
+To install a new Farmware, press the <span class="fb-button fb-gray"><i class="fa fa-plus"></i></span> button on the Farmware panel. Enter the **FARMWARE MANIFEST URL** (link to the `manifest.json` file for the Farmware) and press <span class="fb-button fb-green">install</span>.
 
 ![Screen Shot 2020-06-29 at 9.36.08 PM.png](Screen_Shot_2020-06-29_at_9.36.08_PM.png)
 

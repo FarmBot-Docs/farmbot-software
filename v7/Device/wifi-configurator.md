@@ -6,4 +6,4 @@ slug: "wifi-configurator"
 * toc
 {:toc}
 
-This page has been moved to [Configurator](../FarmBot OS/farmbot-os/configurator.md).
+This page has been moved to [Configurator](farmbot-os/configurator.md).

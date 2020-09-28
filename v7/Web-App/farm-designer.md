@@ -11,8 +11,8 @@ View and layout your garden in a virtual representation of your FarmBot's bed on
 
 <div class="nav-image">
   <img class="nav-image" src="overview.png" alt="Farm Designer" />
-  <a href="#section-add-plants" style="top: 12%; left: 0%; width: 30.75%; height: 87%;"></a>
-  <a href="#section-map" style="top: 12%; left: 30.75%; width: 69%; height: 87%;"></a>
+  <a href="#add-plants" style="top: 12%; left: 0%; width: 30.75%; height: 87%;"></a>
+  <a href="#map" style="top: 12%; left: 30.75%; width: 69%; height: 87%;"></a>
 </div>
 <figcaption class="caption">Click a section in the image to learn more about it!</figcaption>
 
@@ -40,7 +40,7 @@ Find the crop that you'd like in your garden and click it to bring up the crop i
 
 ![golden_beet_crop_page.png](golden_beet_crop_page.png)
 
-Drag the crop image into the [map](#section-map) to place the crop in your garden.
+Drag the crop image into the [map](#map) to place the crop in your garden.
 
 ![beet_drag.png](beet_drag.png)
 
@@ -67,7 +67,7 @@ content="When adding many of the same plant, press the `ADD TO MAP` button in th
 
 To move a plant, start by clicking a plant to edit it.
 
-Then click and drag the plant to a new location in the [map](#section-map).
+Then click and drag the plant to a new location in the [map](#map).
 
 Visual drag helpers will appear to help guide plant placement:
  * The current coordinate location will appear as `X, Y`.

@@ -7,11 +7,11 @@ slug: "externally-defined-variables"
 {:toc}
 
 There are five places that you can provide a value for an **externally defined variable**:
-1. When using the [test button](#section-test-button)
-2. In an [execute step](#section-execute-step)
-3. In a [parent sequence's header](#section-sequence-header)
-4. In a [regimen header](#section-regimen-header)
-5. In an [event](#section-event)
+1. When using the [test button](#test-button)
+2. In an [execute step](#execute-step)
+3. In a [parent sequence's header](#sequence-header)
+4. In a [regimen header](#regimen-header)
+5. In an [event](#event)
 
 # Test button
 If you want to test your sequence, you will need to provide a value for the variable to be used during the test. Simply click the <span class="fb-button fb-orange">TEST</span> button and provide a variable value in the popup form. Then click <span class="fb-button fb-orange">TEST</span> again and FarmBot will execute the sequence with the variable value provided. You can test your sequence as many times as you want with the same or different variable values each time.

@@ -32,7 +32,7 @@ content="Found some bugs? Have a feature request or improved code you would like
 include callout.html
 type="success"
 title="Installed automatically"
-content="If you just [installed](../FarmBot OS/farmbot-os.md) and [configured](../FarmBot OS/farmbot-os/configurator.md) FarmBot OS, then the Arduino firmware has already been installed and you can skip ahead to using the [web app](../The FarmBot Web App/the-farmbot-web-app.md).
+content="If you just [installed](farmbot-os.md) and [configured](configurator.md) FarmBot OS, then the Arduino firmware has already been installed and you can skip ahead to using the [web app](../Web-App/the-farmbot-web-app.md).
 
 Any time FarmBot OS updates, it will install the latest version of the firmware automatically as well."
 %}

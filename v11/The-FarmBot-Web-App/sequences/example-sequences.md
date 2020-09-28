@@ -18,10 +18,10 @@ content="This example sequence is only applicable to FarmBot Genesis kits, which
 %}
 
 ## Step 1: Add the tool to a slot
-If you haven't already, [create the watering nozzle tool in the web app and add it to a slot](../farm-designer/tools.md). Then place the real tool in the physical slot to ensure your real-life configuration matches the web app.
+If you haven't already, [create the watering nozzle tool in the web app and add it to a slot](../../The-FarmBot-Web-App/tools.md). Then place the real tool in the physical slot to ensure your real-life configuration matches the web app.
 
 ## Step 2: Create the sequence
-Navigate to the **Sequences** page of the web app and press the <span class="fb-button fb-green">:fa-plus:</span> button to add a new sequence. The new sequence will appear in the sequence editor in the middle column. Give the sequence a descriptive name and optionally assign it a color.
+Navigate to the **Sequences** page of the web app and press the <span class="fb-button fb-green"><i class="fa fa-plus"></i></span> button to add a new sequence. The new sequence will appear in the sequence editor in the middle column. Give the sequence a descriptive name and optionally assign it a color.
 
 ![Screen Shot 2019-07-15 at 12.38.36 PM.png](Screen_Shot_2019-07-15_at_12.38.36_PM.png)
 
@@ -72,7 +72,7 @@ It can be helpful to add a <span class="fb-step fb-move-relative">Move Relative<
 You may consider omitting the <span class="fb-step fb-find-home">Find Home</span> command at the beginning of the sequence if the sequence is being used within a larger sequence that already has a <span class="fb-step fb-find-home">Find Home</span> at the beginning.
 
 ### Use a location variable
-This example sequence can only be used to mount the watering nozzle tool, meaning you will need to make additional sequences to mount other tools. Consider using a [location variable](variables.md) to make this a generic _mount tool_ sequence that can be used to mount any of your tools.
+This example sequence can only be used to mount the watering nozzle tool, meaning you will need to make additional sequences to mount other tools. Consider using a [location variable](../sequences/variables.md) to make this a generic _mount tool_ sequence that can be used to mount any of your tools.
 
 # Example 2: Watering sequence
 
@@ -92,7 +92,7 @@ Now that we've created a sequence to mount the watering nozzle, let's create a s
 Now that you've mounted the watering nozzle tool and used the tool to water a plant, use another <span class="fb-step fb-execute">Execute Sequence</span> step and a third sequence to put the watering nozzle tool away.
 
 ### Water any plant by using a variable
-This sequence can only be used to water the specific Spinach plant chosen. Instead of making watering sequences for every plant in your garden, make this sequence a generic _Water plant_ sequence that can be used on any plant by using a [location variable](variables.md).
+This sequence can only be used to water the specific Spinach plant chosen. Instead of making watering sequences for every plant in your garden, make this sequence a generic _Water plant_ sequence that can be used on any plant by using a [location variable](../sequences/variables.md).
 
 ### Take a photo
 While your FarmBot is located at the plant, consider using a <span class="fb-step fb-wait">Take Photo</span> step to track the growth of your plant each time it is watered.

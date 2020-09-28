@@ -7,7 +7,7 @@ slug: "building-a-sequence"
 {:toc}
 
 # Step 1: Create or select a sequence
-In the **Sequences** panel, click the <span class="fb-button fb-green">:fa-server:</span> button to create a new sequence. Or, select an existing sequence if you would like to edit it. If you have many sequences, use the search box to find one more quickly.
+In the **Sequences** panel, click the <span class="fb-button fb-green"><i class="fa fa-server"></i></span> button to create a new sequence. Or, select an existing sequence if you would like to edit it. If you have many sequences, use the search box to find one more quickly.
 
 Once a sequence has been created or selected, it will be loaded into the **Sequence Editor** panel, and the **Commands** panel will appear on the right side of the screen (on large screens). If you are using a small screen, such as on a smartphone, you will only see the **Sequence Editor** panel at this point.
 
@@ -37,17 +37,17 @@ title=""
 content="Drag and drop functionality does not work on touchscreens, such as on an iPad."
 %}
 
-On small screens, click the <span class="fb-button fb-gray">Add command</span> button located in the sequence where you would like to add the command. This will bring up the **Add Command** panel, where you can then click the command you would like to add at that location. If you change your mind, click the :fa-arrow-left: button to go back to the editor.
+On small screens, click the <span class="fb-button fb-gray">Add command</span> button located in the sequence where you would like to add the command. This will bring up the **Add Command** panel, where you can then click the command you would like to add at that location. If you change your mind, click the <i class="fa fa-arrow-left"></i> button to go back to the editor.
 
 ![D_JIv7iWkAA-zAV.jpeg](D_JIv7iWkAA-zAV.jpeg)
 
 ## Delete, copy, and re-order steps
-Each step in a sequence has a cluster of icons in the top right: :fa-question-circle: :fa-trash: :fa-copy: :fa-arrows-v:.
- * Clicking or hovering over the :fa-question-circle: icon will bring up a tooltip with information about how to use that command.
- * Clicking :fa-trash: will delete the step from the sequence.
- * Clicking :fa-copy: will duplicate the step and all of its parameter values. The copy will be inserted directly below the original.
- * Clicking and dragging the :fa-arrows-v: icon will allow you to drag and drop the step to another location in the sequence.
- * Clicking the :fa-arrows-v: icon will show a popup with :fa-arrow-circle-up: and :fa-arrow-circle-down: icons. Clicking one of these will move the step up or down one position in the sequence. These controls are especially useful when using a touchscreen that doesn't work with drag-and-drop functionality.
+Each step in a sequence has a cluster of icons in the top right: <i class="fa fa-question-circle"></i> <i class="fa fa-trash"></i> <i class="fa fa-copy"></i> <i class="fa fa-arrows-v"></i>.
+ * Clicking or hovering over the <i class="fa fa-question-circle"></i> icon will bring up a tooltip with information about how to use that command.
+ * Clicking <i class="fa fa-trash"></i> will delete the step from the sequence.
+ * Clicking <i class="fa fa-copy"></i> will duplicate the step and all of its parameter values. The copy will be inserted directly below the original.
+ * Clicking and dragging the <i class="fa fa-arrows-v"></i> icon will allow you to drag and drop the step to another location in the sequence.
+ * Clicking the <i class="fa fa-arrows-v"></i> icon will show a popup with <i class="fa fa-arrow-circle-up"></i> and <i class="fa fa-arrow-circle-down"></i> icons. Clicking one of these will move the step up or down one position in the sequence. These controls are especially useful when using a touchscreen that doesn't work with drag-and-drop functionality.
 
 ![Screen Shot 2019-07-12 at 3.26.22 PM.png](Screen_Shot_2019-07-12_at_3.26.22_PM.png)
 

@@ -24,7 +24,7 @@ content="When you create your FarmBot web app account and login for the first ti
 %}
 
 ## Last Seen
-View when FarmBot was last connected to the cloud. Refresh the time by pressing the :fa-refresh: icon.
+View when FarmBot was last connected to the cloud. Refresh the time by pressing the <i class="fa fa-refresh"></i> icon.
 
 ## FarmBot OS
 View the version of FarmBot OS that you have installed on your device, that version's release notes, and install updates if they are available using the <span class="fb-button fb-green">UPDATE</span> button. Note that the update button will display as <span class="fb-button fb-gray">UP TO DATE</span> when there are no updates available.
@@ -36,19 +36,19 @@ When enabled, FarmBot OS will periodically check for, download, and install upda
 include callout.html
 type="success"
 title="Enabled by default"
-content="This setting is enabled by default so that your FarmBot will stay updated automatically with the latest features and security patches. If you decide to disable auto updates, please make sure you regularly manually update your device so that it stays within our [support policy](../../Extras/troubleshooting/support-policy.md)."
+content="This setting is enabled by default so that your FarmBot will stay updated automatically with the latest features and security patches. If you decide to disable auto updates, please make sure you regularly manually update your device so that it stays within our [support policy](../../FarmBot-Software/support-policy.md)."
 %}
 
 ## Auto sync
-When enabled, device resources such as [sequences](dpoc:sequences), [regimens](../../The FarmBot Web App/regimens.md), [events](../../The FarmBot Web App/farm-designer/events.md), plant locations, and more will be synced with FarmBot automatically as soon as they are created, changed, or deleted. This setting is enabled by default to help make your FarmBot experience streamlined and efficient.
+When enabled, device resources such as [sequences](dpoc:sequences), [regimens](../../Web-App/regimens.md), [events](../../Web-App/events.md), plant locations, and more will be synced with FarmBot automatically as soon as they are created, changed, or deleted. This setting is enabled by default to help make your FarmBot experience streamlined and efficient.
 
 Disabling this setting may be useful when making many changes to your resources that are not ready to be executed by FarmBot immediately.
 
 ## Camera
-Select the type of camera you are using in the camera selection dropdown. Choices are `USB Camera` and `Raspberry Pi Camera`. Defaults to `USB camera`. Test by using the <span class="fb-button fb-green">take photo</span> button in the [take photo](../../The FarmBot Web App/farmware/take-photo.md) farmware.
+Select the type of camera you are using in the camera selection dropdown. Choices are `USB Camera` and `Raspberry Pi Camera`. Defaults to `USB camera`. Test by using the <span class="fb-button fb-green">take photo</span> button in the [take photo](../../Web-App/farmware/take-photo.md) farmware.
 
 ## Firmware
-Select the firmware to be used with your electronics board. Refer to [this table](doc:configurator#section-hardware-board-kit-version) for more information on making a selection.
+Select the firmware to be used with your electronics board. Refer to [this table](../../Device/farmbot-os/configurator.md#hardware-board-kit-version) for more information on making a selection.
 
 # Power and reset
 ## Restart FarmBot
@@ -67,4 +67,4 @@ Automatically factory reset when the WiFi network cannot be detected. Useful for
 For use with automatic factory reset: set the time in minutes to attempt connecting to WiFi before a factory reset.
 
 # Diagnostic reports
-Please refer to the [diagnostic reports document](diagnostic-reports.md) for more details.
+Please refer to the [diagnostic reports document](../device/diagnostic-reports.md) for more details.

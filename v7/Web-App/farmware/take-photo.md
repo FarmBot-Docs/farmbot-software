@@ -28,6 +28,6 @@ Once you have taken multiple photos, use the `PREV` and `NEXT` buttons to naviga
 include callout.html
 type="info"
 title=""
-content="The default camera is a USB camera. If you would like to use a Raspberry Pi camera, use the camera selection dropdown menu in the **Device** widget on the [Device](doc:device#section-device) page."
+content="The default camera is a USB camera. If you would like to use a Raspberry Pi camera, use the camera selection dropdown menu in the **Device** widget on the [Device](../../Web-App/device.md#device) page."
 %}
 

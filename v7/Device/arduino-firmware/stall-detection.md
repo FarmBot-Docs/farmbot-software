@@ -19,6 +19,6 @@ In situations like this, FarmBot needs a way to **detect** the stall so that it 
 * A motor is not moving correctly due to unreasonable speed and/or acceleration settings, a lack of power, or another hardware malfunction.
 * FarmBot has collided with an object such as plant branches :seedling:, a hand :hand:, or an animal :dog:.
 * There is too much resistance or friction for FarmBot to overcome. This could be caused by dirt on the tracks, eccentric spacers that are too tight, belts that are too tight, excessive machine weight, cold temperatures causing cabling and tubing to become stiff, or other factors.
-* The end of an axis has been reached during [automatic calibration](doc:calibrate-and-home-farmbot#section-automatic-calibration) or [homing](doc:calibrate-and-home-farmbot#section-homing), or in error.
+* The end of an axis has been reached during [automatic calibration](../../Extras/how-do-i/calibrate-and-home-farmbot.md#automatic-calibration) or [homing](../../Extras/how-do-i/calibrate-and-home-farmbot.md#homing), or in error.
 
 In addition to detecting stalls, rotary encoders also keep track of FarmBot's position. This even works when FarmBot is idle and you move an axis _by hand_.

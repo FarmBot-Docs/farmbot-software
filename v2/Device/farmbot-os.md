@@ -60,7 +60,7 @@ You need to use an image writing tool to install FarmBot OS onto your microSD ca
 Plug in the power source to the Raspberry Pi. Depending on your setup, power will be coming from either a standard microUSB cable plugged into a standalone power supply, from a DC/DC buck converter coming from your RAMPS shield, or from a DC/DC buck converter coming straight from your FarmBot's power supply. Note: The power supplied must be rated to 5V and at least 1A, though 2A is recommended.
 
 ## Step 5. Configure your FarmBot
-Use the FarmBot Configurator (for details, see [FarmBot Configurator](doc:farmbot-configurator)):
+Use the FarmBot Configurator (for details, see [FarmBot Configurator](configurator.md)):
 * Using a phone, tablet or laptop, search for the WiFi network 'farmbot-xxxx'.
 * Connect to that and open a web browser to http://192.168.24.1/
 * Follow the on screen instructions to configure your FarmBot. Once you save your configuration FarmBot will connect to your home WiFi network and to the FarmBot web application.

@@ -12,7 +12,7 @@ The **SENSORS** widget allows you to manage FarmBot's sensors and read them in r
 ![Screen Shot 2019-05-06 at 9.25.03 PM.png](Screen_Shot_2019-05-06_at_9.25.03_PM.png)
 
 # Creating sensors
-To create a new sensor, press <span class="fb-button fb-gray">EDIT</span>, and then the <span class="fb-button fb-green">:fa-plus:</span> button. To define the sensor, provide a <span class="fb-input">Label</span>, choose a <span class="fb-dropdown">Pin #</span>, and specify if the sensor is analog or digital. Alternatively, press <span class="fb-button fb-green">:fa-plus: STOCK SENSORS</span> to add all of the standard FarmBot sensors.
+To create a new sensor, press <span class="fb-button fb-gray">EDIT</span>, and then the <span class="fb-button fb-green"><i class="fa fa-plus"></i></span> button. To define the sensor, provide a <span class="fb-input">Label</span>, choose a <span class="fb-dropdown">Pin #</span>, and specify if the sensor is analog or digital. Alternatively, press <span class="fb-button fb-green"><i class="fa fa-plus"></i> STOCK SENSORS</span> to add all of the standard FarmBot sensors.
 
 > 🚧
 >
@@ -36,14 +36,14 @@ To clear out all current filters, press <span class="fb-button fb-gray">CLEAR FI
 ![Screen Shot 2019-05-06 at 9.48.09 PM.png](Screen_Shot_2019-05-06_at_9.48.09_PM.png)
 
 ## Sequence based readings
-You can also read sensors from [sequences](../sequences.md) by using the <span class="fb-step fb-read-pin">READ SENSOR</span> command. For more information, see the [read sensor command documentation](doc:sequence-commands#section-read-sensor).
+You can also read sensors from [sequences](../../The-FarmBot-Web-App/sequences.md) by using the <span class="fb-step fb-read-pin">READ SENSOR</span> command. For more information, see the [read sensor command documentation](../../The-FarmBot-Web-App/sequences/sequence-commands.md#read-sensor).
 
 # Deleting sensors
-To delete a sensor, press <span class="fb-button fb-gray">edit</span> and then the sensor's <span class="fb-button fb-red">:fa-minus:</span> button. Finish editing by pressing <span class="fb-button fb-gray">back</span>.
+To delete a sensor, press <span class="fb-button fb-gray">edit</span> and then the sensor's <span class="fb-button fb-red"><i class="fa fa-minus"></i></span> button. Finish editing by pressing <span class="fb-button fb-gray">back</span>.
 
 > 📘
 >
 > You cannot delete a sensor that is in-use by a sequence.
 
 # Hiding the widgets
-If you do not plan to use any sensors, use the **HIDE SENSORS** toggle in the [app settings area](../settings/account-settings.md) to remove the widgets from the controls page.
+If you do not plan to use any sensors, use the **HIDE SENSORS** toggle in the [app settings area](../../The-FarmBot-Web-App/settings/account-settings.md) to remove the widgets from the controls page.

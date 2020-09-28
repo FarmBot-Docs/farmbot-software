@@ -17,15 +17,15 @@ FarmBot will now set the chosen location as the origin (also known as `Home`, `Z
 
 # Automatic Calibration
 
-Run an axis calibration to let FarmBot determine home and the length of the axis. Either endstops or encoders must be enabled in the [hardware settings widget](doc:device#section-hardware) for an axis to be calibrated.
+Run an axis calibration to let FarmBot determine home and the length of the axis. Either endstops or encoders must be enabled in the [hardware settings widget](../Web-App/device.md#hardware) for an axis to be calibrated.
 
-Use the <span class="fb-button fb-gray">CALIBRATE X</span>, <span class="fb-button fb-gray">CALIBRATE Y</span>, and <span class="fb-button fb-gray">CALIBRATE Z</span> buttons in the [hardware settings widget](doc:device#section-hardware) to home and calibrate the length of each axis.
+Use the <span class="fb-button fb-gray">CALIBRATE X</span>, <span class="fb-button fb-gray">CALIBRATE Y</span>, and <span class="fb-button fb-gray">CALIBRATE Z</span> buttons in the [hardware settings widget](../Web-App/device.md#hardware) to home and calibrate the length of each axis.
 
-Use the <span class="fb-button fb-gray">HOME X</span>, <span class="fb-button fb-gray">HOME Y</span>, and <span class="fb-button fb-gray">HOME Z</span> buttons in the [hardware settings widget](doc:device#section-hardware) to home each axis.
+Use the <span class="fb-button fb-gray">HOME X</span>, <span class="fb-button fb-gray">HOME Y</span>, and <span class="fb-button fb-gray">HOME Z</span> buttons in the [hardware settings widget](../Web-App/device.md#hardware) to home each axis.
 
 ## With rotary encoders (included in FarmBot Genesis kits)
 
-FarmBot moves in the zero direction of the axis until the [rotary encoders](../Extras/rotary-encoders.md) detect missed motor steps when the axis reaches the end. This location is recorded as zero for the axis. If performing calibration in addition to homing, FarmBot will move the opposite direction from zero and record the distance traveled (length of axis) when the other end is reached, and then move back home.
+FarmBot moves in the zero direction of the axis until the [rotary encoders](../Additional-Information/rotary-encoders.md) detect missed motor steps when the axis reaches the end. This location is recorded as zero for the axis. If performing calibration in addition to homing, FarmBot will move the opposite direction from zero and record the distance traveled (length of axis) when the other end is reached, and then move back home.
 
 ## With end-stops (DIY option if not using rotary encoders)
 

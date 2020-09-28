@@ -1,7 +1,7 @@
 ---
 title: "Connecting FarmBot to the Web App"
 slug: "connecting-farmbot-to-the-web-app"
-excerpt: "Problem description: I completed all steps of the [configuration process](https://software.farm.bot/docs/configurator#section-configure-farmbot) and now I'm waiting for FarmBot to connect to the web application."
+excerpt: "Problem description: I completed all steps of the [configuration process](../../Device/configurator.md#configure-farmbot) and now I'm waiting for FarmBot to connect to the web application."
 ---
 
 * toc
@@ -32,7 +32,7 @@ If you mistyped your WiFi credentials (network name and/or password) during conf
 If your FarmBot is too far from your WiFi router, then it will not be able to find the network and/or reliably connect to the Internet to send and receive messages. If this occurred, then FarmBot will automatically restart into configuration mode. We recommend installing a WiFi repeater or connecting the FarmBot to your WiFi router directly with an Ethernet cable.
 
 # 6. Firewall is blocking network traffic
-If you are installing FarmBot at a school or company with restricted network access (firewall), then FarmBot may not be able to fully connect to the web application to send and receive messages. Tell your network administrator that FarmBot needs access to ports `5672` (AMQP), `1883` (MQTT), `8883` (MQTT over SSL), `80` (HTTP), and `443` (HTTPS) in order to function correctly. Additionally, the FarmBot device also requires outbound access to two redundant NTP servers for setting the system clock: `0.pool.ntp.org` and `1.pool.ntp.org`. The servers are based in the United States. The services are provided on `UDP port 123`. Obstructed access to these servers is another common pitfall when operating a FarmBot behind a firewall. You may also want to send your network admin [this page](https://developer.farm.bot/docs/for-it-security-professionals), which contains additional details for allowing FarmBot to work with a firewall.
+If you are installing FarmBot at a school or company with restricted network access (firewall), then FarmBot may not be able to fully connect to the web application to send and receive messages. Tell your network administrator that FarmBot needs access to ports `5672` (AMQP), `1883` (MQTT), `8883` (MQTT over SSL), `80` (HTTP), and `443` (HTTPS) in order to function correctly. Additionally, the FarmBot device also requires outbound access to two redundant NTP servers for setting the system clock: `0.pool.ntp.org` and `1.pool.ntp.org`. The servers are based in the United States. The services are provided on `UDP port 123`. Obstructed access to these servers is another common pitfall when operating a FarmBot behind a firewall. You may also want to send your network admin [this page](doc:for-it-security-professionals), which contains additional details for allowing FarmBot to work with a firewall.
 
 {%
 include callout.html

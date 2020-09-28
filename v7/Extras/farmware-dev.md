@@ -12,7 +12,7 @@ excerpt: "Plug-Ins to expand FarmBot functionality"
 include callout.html
 type="info"
 title="Documentation has moved"
-content="Farmware Developer documentation has been moved [here](https://software.farm.bot)."
+content="Farmware Developer documentation has been moved [here](https://dev.farm.bot)."
 %}
 
 
@@ -21,6 +21,6 @@ content="Farmware Developer documentation has been moved [here](https://software
 include callout.html
 type="success"
 title=""
-content="For documentation for the Web App Farmware page, see [Farmware](../The FarmBot Web App/farmware.md)."
+content="For documentation for the Web App Farmware page, see [Farmware](../Web-App/farmware.md)."
 %}
 

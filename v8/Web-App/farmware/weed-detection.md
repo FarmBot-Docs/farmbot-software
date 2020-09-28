@@ -15,7 +15,7 @@ title="1st party farmware"
 content="This farmware comes pre-installed with FarmBot OS."
 %}
 
-FarmBot is designed to remove weeds early and often, so that the weeds are always small, young, and fragile, and therefore easily removed by the [weeding tool](https://genesis.farm.bot/docs/weeder). FarmBot finds weeds by using computer vision software to detect all plants in the bed and then mark any detected plant that was not planted by FarmBot as a weed.
+FarmBot is designed to remove weeds early and often, so that the weeds are always small, young, and fragile, and therefore easily removed by the [weeding tool](https://genesis.farm.bot/v1.5/FarmBot-Genesis-V1-5/tools/weeder). FarmBot finds weeds by using computer vision software to detect all plants in the bed and then mark any detected plant that was not planted by FarmBot as a weed.
 
 <iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D_Qko08YBP2o&src=http%3A%2F%2Fwww.youtube.com%2Fembed%2F_Qko08YBP2o&type=text%2Fhtml&key=f2aa6fc3595946d0afc3d76cbbd25dc3&schema=youtube" width="854" height="480" scrolling="no" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
 
@@ -43,7 +43,7 @@ The weed detector software needs a range of color to look for when determining w
 Once an image has been taken with the camera, the weed detector software will process it. There are several processing parameters available (**BLUR**, **MORPH**, and **ITERATION**) that can help you fine tune the system to perform the best in your environment. It is recommended to use the default values at first, run a test, and then experiment with the processing parameter values to see how the results change.
 
 ## Detect weeds
-Move the FarmBot over a section of soil. Press <span class="fb-button fb-green">detect weeds</span> to instruct FarmBot to take a photo and then process that image with the weed detector software. Any weeds found in the image will appear in the [farm designer](../../The FarmBot Web App/farm-designer.md) as a pair of red circles. The small center circle will represent the center of the weed, while the larger outer circle will represent the size of the weed. Press <span class="fb-button fb-red">clear weeds</span> to delete all weed points from the map.
+Move the FarmBot over a section of soil. Press <span class="fb-button fb-green">detect weeds</span> to instruct FarmBot to take a photo and then process that image with the weed detector software. Any weeds found in the image will appear in the [farm designer](../../Web-App/farm-designer.md) as a pair of red circles. The small center circle will represent the center of the weed, while the larger outer circle will represent the size of the weed. Press <span class="fb-button fb-red">clear weeds</span> to delete all weed points from the map.
 
 <span class="fb-button fb-green">scan image</span> can be used to run weed detection on an image already taken, instead of taking a new photo.
 

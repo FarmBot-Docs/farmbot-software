@@ -6,9 +6,9 @@ slug: "reading-pins"
 * toc
 {:toc}
 
-This section assumes you have wired up your UTM using the [pin mapping](https://genesis.farmbot.io/docs/wire-up-the-utm#section-pin-mapping) table in the [Hardware Docs](../Other Resources/genesis-hardware-docs.md), and your soil sensor according to the [wiring instructions](https://genesis.farmbot.io/docs/soil-sensor#section-step-5-wire-it-up).
+This section assumes you have wired up your UTM using the [pin mapping](https://genesis.farmbot.io/docs/wire-up-the-utm#pin-mapping) table in the [Hardware Docs](../Other-Resources/genesis-hardware-docs.md), and your soil sensor according to the [wiring instructions](https://genesis.farmbot.io/docs/soil-sensor#step-5-wire-it-up).
 
-This section also assumes you are familiar with [Sequences](../The FarmBot Web App/sequences.md).
+This section also assumes you are familiar with [Sequences](../Web-App/sequences.md).
 
 # Tool Verification
 
@@ -34,7 +34,7 @@ If the pin has not yet been read, the sequence above will error because the pin 
 
 # Soil Sensor
 
-The soil sensor can be read in a similar fashion to the [tool verification pin](#section-tool-verification). This time, we will use pin 59 (UTM pin **D**) in analog pin mode.
+The soil sensor can be read in a similar fashion to the [tool verification pin](#tool-verification). This time, we will use pin 59 (UTM pin **D**) in analog pin mode.
 
 ![read_soil_sensor.png](read_soil_sensor.png)
 

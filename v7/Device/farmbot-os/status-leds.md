@@ -23,7 +23,7 @@ The Raspberry Pi has two LED lights that convey information about its status.
 |------------------------------|------------------------------|------------------------------|
 |<span class="fa fa-circle" style="color: green;opacity: 1"></span> (solid green)|Busy                          |Working/booting
 |<span class="fa fa-sun-o" style="color: green;opacity: 1"></span> (blinking randomly)|Busy                          |Working/booting
-|<span class="fa fa-sun-o" style="color: green;opacity: 1"></span> (blinking consistently)|Network disconnected or emergency stopped|[Configure FarmBot](../farmbot-os/configurator.md), press <span class="fb-button fb-yellow">UNLOCK</span> in the Web App, or check that the network FarmBot is connected to is online.
+|<span class="fa fa-sun-o" style="color: green;opacity: 1"></span> (blinking consistently)|Network disconnected or emergency stopped|[Configure FarmBot](configurator.md), press <span class="fb-button fb-yellow">UNLOCK</span> in the Web App, or check that the network FarmBot is connected to is online.
 |<span class="fa fa-circle-thin" style="color: green;opacity: 1"></span> (off)|Ready                         |Waiting for the next task
 
 
@@ -48,8 +48,8 @@ This blue LED indicates the **connection status** between FarmBot and the intern
 |BLUE (connection)             |STATUS                        |TIPS                          |
 |------------------------------|------------------------------|------------------------------|
 |<span class="fa fa-circle" style="color: blue;opacity: 1"></span> (solid blue)|Connected                     |Working
-|<span class="fa fa-sun-o" style="color: blue;opacity: 1"></span> (blinking slowly)|Needs configuration           |[Configure FarmBot](../farmbot-os/configurator.md), press <span class="fb-button fb-yellow">UNLOCK</span> in the Web App, or check that the network FarmBot is connected to is online.
-|<span class="fa fa-circle-thin" style="color: blue;opacity: 1"></span> (off)|Offline                       |Check your internet connection.<br><br>If you are connected to the internet but the Blue LED is off, one or more of your ports may be blocked. Get your network administrator to check the ports listed in the [Firewall is blocking network traffic](https://software.farm.bot/docs/connecting-farmbot-to-the-web-app#section-6-firewall-is-blocking-network-traffic) troubleshooting section.
+|<span class="fa fa-sun-o" style="color: blue;opacity: 1"></span> (blinking slowly)|Needs configuration           |[Configure FarmBot](configurator.md), press <span class="fb-button fb-yellow">UNLOCK</span> in the Web App, or check that the network FarmBot is connected to is online.
+|<span class="fa fa-circle-thin" style="color: blue;opacity: 1"></span> (off)|Offline                       |Check your internet connection.<br><br>If you are connected to the internet but the Blue LED is off, one or more of your ports may be blocked. Get your network administrator to check the ports listed in the [Firewall is blocking network traffic](../../Extras/troubleshooting/connecting-farmbot-to-the-web-app.md#6-firewall-is-blocking-network-traffic) troubleshooting section.
 
 ## LED 3
 This white LED is user controllable via the <span class="fb-step fb-write-pin">Control Peripheral</span> sequence command. It is connected to Raspberry Pi GPIO BCM pin 12.
