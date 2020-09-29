@@ -2,7 +2,7 @@ version_number: 8
 status: deprecated
 home: FarmBot-Software/overview
 contents:
-  - title: Farmbot Software
+  - title: FarmBot Software
     url: FarmBot-Software
     top: true
     pages:

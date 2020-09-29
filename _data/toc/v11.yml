@@ -2,7 +2,7 @@ version_number: 11
 status: stable
 home: FarmBot-Software/intro
 contents:
-  - title: Farmbot Software
+  - title: FarmBot Software
     url: FarmBot-Software
     top: true
     pages:
@@ -27,7 +27,7 @@ contents:
             url: use-farmbots-buttons
           - title: Scan the Garden for Weeds
             url: scan-the-garden-for-weeds
-  - title: The Farmbot Web App
+  - title: The FarmBot Web App
     url: The-FarmBot-Web-App
     top: true
     pages:
@@ -124,7 +124,7 @@ contents:
             url: danger-zone
           - title: Farm Designer Settings
             url: farm-designer-settings
-  - title: Farmbot Os
+  - title: FarmBot OS
     url: FarmBot-OS
     top: true
     pages:
