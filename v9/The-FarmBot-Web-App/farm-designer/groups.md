@@ -18,7 +18,7 @@ To create a group, click the <span class="fb-button fb-blue"><i class="fa fa-plu
 
 ![Screen Shot 2020-04-13 at 4.14.53 PM.png](Screen_Shot_2020-04-13_at_4.14.53_PM.png)
 
-Alternatively you can use the [multi-select mode](../../The-FarmBot-Web-App/farm-designer.md#multi-select-mode) in the farm designer and then click <span class="fb-button fb-blue">CREATE GROUP</span> to create a new group with your selection.
+Alternatively you can use the [multi-select mode](../../The-FarmBot-Web-App/farm-designer.md#select-mode) in the farm designer and then click <span class="fb-button fb-blue">CREATE GROUP</span> to create a new group with your selection.
 
 ![Screen Shot 2020-04-13 at 4.57.56 PM.png](Screen_Shot_2020-04-13_at_4.57.56_PM.png)
 
@@ -85,3 +85,7 @@ Once you've verified that FarmBot is operating how you intend, you can run this 
 
 # Deleting a group
 To delete a group, click the <span class="fb-button fb-red">DELETE GROUP</span> button. Note that you cannot delete a group that is in-use by a sequence, regimen, or event.
+
+# What's next?
+
+ * [Gardens](../farm-designer/gardens.md)

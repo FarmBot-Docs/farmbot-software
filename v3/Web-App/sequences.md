@@ -25,7 +25,7 @@ These are the basic operations we can use in sequences that FarmBot can execute:
 * <span class="fb-step fb-send-message">Send Message</span> - Sends a message to the web app. This is useful for error and success notifications and debugging.
 * <span class="fb-step fb-if-statement">If Statement</span> - Executes another sequence if a condition is true. This is useful for error detection and smarter, condition based farming.
 * <span class="fb-step fb-execute">Execute</span> - Use existing sequences as steps in a new, larger sequence. This technique allows you to re-use smaller sequences in different combinations to create far more complex sequences that are easier to modify, manage, and mashup. You can then use the individual sequences in other ways without having to recreate them each time.
-* <span class="fb-step fb-take-photo">Take Photo</span> - Takes a picture with a USB webcam or the Raspberry Pi camera (select your camera in the [Device](../Web-App/device.md#device) widget) and sends it to the web app.
+* <span class="fb-step fb-take-photo">Take Photo</span> - Takes a picture with a USB webcam or the Raspberry Pi camera (select your camera in the [Device](../Web-App/device.md#device-widget) widget) and sends it to the web app.
 
 # Building a sequence
 
@@ -106,3 +106,7 @@ Now that we've created a sequence to mount the watering tool, we can create a se
 ![watering_sequence.png](watering_sequence.png)
 
 Press the <span class="fb-button fb-green">SAVE</span> button and then <span class="fb-button fb-yellow">SYNC NOW</span> at the top of the page to sync your new sequence with the device, and press <span class="fb-button fb-orange">SAVE AND RUN</span> to try out your new sequence!
+
+# What's next?
+
+ * [Regimens](../Web-App/regimens.md)

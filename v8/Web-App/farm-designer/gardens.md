@@ -39,7 +39,7 @@ This will load the garden into the map allowing you to view it, as well as add, 
 Once you are finished viewing and editing, click the <span class="fb-button fb-gray">Exit</span> button located in the saved gardens panel, or the <span class="fb-button fb-red">Exit</span> button located in the **VIEWING SAVED GARDEN** menu at the top of the map area.
 
 # Applying a garden
-If you are ready to use one of your gardens, you must **apply** it to an empty map. First, delete all plants from the current garden (the one that is shown when you load the app). You can do this quickly by using the [multi-select mode](../../Web-App/farm-designer.md#multi-select-mode) and <span class="fb-button fb-gray">Select all</span> button.
+If you are ready to use one of your gardens, you must **apply** it to an empty map. First, delete all plants from the current garden (the one that is shown when you load the app). You can do this quickly by using the [multi-select mode](../../Web-App/farm-designer.md#select-mode) and <span class="fb-button fb-gray">Select all</span> button.
 
 Once the current map is empty, navigate to the gardens panel, select a garden, and click <span class="fb-button fb-green">Apply</span>.
 
@@ -50,3 +50,7 @@ title=""
 content="Applying a garden may take a moment depending on the number of plants."
 %}
 
+
+# What's next?
+
+ * [Events](../farm-designer/events.md)

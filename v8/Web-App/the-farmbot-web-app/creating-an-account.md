@@ -111,3 +111,7 @@ title=""
 content="Not all features of the app will work in demo mode because there will not be a real FarmBot connected to the account. Additionally, keep in mind that demo accounts and their data are automatically deleted after 1 hour."
 %}
 
+
+# What's next?
+
+ * [Message Center](../the-farmbot-web-app/message-center.md)

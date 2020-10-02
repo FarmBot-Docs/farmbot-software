@@ -46,3 +46,7 @@ content="You cannot change from executing a sequence to executing a regimen or v
 
 # Deleting events
 To delete an event, click on it to open up the edit event panel. Then press the <span class="fb-button fb-red">DELETE</span> button.
+
+# What's next?
+
+ * [Points](../The-FarmBot-Web-App/points.md)

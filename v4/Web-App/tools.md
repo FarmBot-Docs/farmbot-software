@@ -40,3 +40,7 @@ content="Enter all of the tools you would like to use into the toolbay in the ap
 __Tip__: Enter your seed bin location into a toolbay slot as well. The X and Y coordinates should follow the same pattern as the other tools. Determine the Z coordinate by mounting the seed injector tool you will be using to plant seeds and using the controls to move it carefully to a position that it will be able to pick up seeds from the bin.
 
 Press `SAVE` when done to save your tool locations.
+
+# What's next?
+
+ * [Sequences](../Web-App/sequences.md)

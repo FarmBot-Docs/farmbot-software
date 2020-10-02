@@ -15,7 +15,7 @@ If you just finished your FarmBot hardware assembly, you should be ready to set 
 3. Finish setting up your account by [choosing your FarmBot](../The-FarmBot-Web-App/the-farmbot-web-app/creating-an-account.md#choose-your-farmbot). This will add a set of starter resources (sequences, tools, etc) and apply settings appropriate to your FarmBot model.
 
 # Step 2: Connect your FarmBot
-1. [Install FarmBot OS](../FarmBot-OS/farmbot-os.md#installing-farmbot-os) onto the microSD card and power on the device.
+1. [Install FarmBot OS](../FarmBot-OS/farmbot-os.md#installation) onto the microSD card and power on the device.
 2. [Configure FarmBot](../FarmBot-OS/farmbot-os/configurator.md) to connect to your home WiFi network and your web app account.
 3. Log in to the web app and verify that FarmBot has connected.
 

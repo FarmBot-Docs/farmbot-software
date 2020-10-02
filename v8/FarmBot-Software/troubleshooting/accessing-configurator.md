@@ -8,7 +8,7 @@ excerpt: "Problem description: I'm trying to configure my FarmBot but I do not s
 {:toc}
 
 # 1. Install FarmBot OS
-[Flash the latest version of FarmBot OS](../../Device/farmbot-os.md#installing-farmbot-os) onto the microSD card and then insert the microSD card into the Raspberry Pi.
+[Flash the latest version of FarmBot OS](../../Device/farmbot-os.md#installation) onto the microSD card and then insert the microSD card into the Raspberry Pi.
 
 {%
 include callout.html
@@ -32,7 +32,7 @@ If you've installed FarmBot OS and ensured the Raspberry Pi is receiving adequat
 
 Use a smartphone, tablet, or laptop to look for the `farmbot-xxxx` WiFi network. Ensure that WiFi is enabled on your smartphone, tablet, or laptop (no airplane mode). If you don't see the `farmbot-xxxx` network immediately, allow up to 2 minutes for your smartphone, tablet, or laptop to complete its search. Also, ensure that you are physically close enough to connect to the FarmBot (5-10 meters without any walls in the way is a good distance).
 
-Once you find the `farmbot-xxxx` WiFi network, connect to it and follow the detailed configuration instructions [here](../../Device/farmbot-os/configurator.md#configure-farmbot).
+Once you find the `farmbot-xxxx` WiFi network, connect to it and follow the detailed configuration instructions [here](../../Device/farmbot-os/configurator.md).
 
 If you do not see the `farmbot-xxxx` WiFi network, try again with a different smartphone, tablet, or laptop. If you still cannot find the network, move on to the next troubleshooting step.
 

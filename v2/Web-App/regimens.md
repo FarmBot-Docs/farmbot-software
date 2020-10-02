@@ -66,3 +66,8 @@ Using this method, we created one Regimen and four Event Schedules instead of th
 
 ![medium added.png](medium_added.png)
 
+
+# What's next?
+
+ * [Farm Designer](../Web-App/farm-designer.md)
+ * [Farm Events](../Web-App/farm-events.md)

@@ -61,7 +61,7 @@ You can move relative along multiple axes at once, and in both negative and posi
 # Control peripheral
 The <span class="fb-step fb-write-pin">Control Peripheral</span> command allows you to control **peripherals** such as the vacuum pump, solenoid valve, and lights. To use this command, first select a peripheral from the **PERIPHERAL** dropdown. Options include:
 
-  * All of the peripherals you have defined in the [peripherals widget on the controls page](../../The-FarmBot-Web-App/controls.md#peripherals)
+  * All of the peripherals you have defined in the [peripherals widget on the controls page](../../The-FarmBot-Web-App/controls/peripherals.md)
   * The Box LEDs, if you have any included with your FarmBot version
 
 Next, select the **MODE** which you would like to control the peripheral with. You can choose either `Digital` or `Analog`.
@@ -85,7 +85,7 @@ The <span class="fb-step fb-write-pin">Toggle Peripheral</span> command allows y
 
 To use this command, select a peripheral from the **PERIPHERAL** dropdown. Options include:
 
-  * All of the peripherals you have defined in the [peripherals widget on the controls page](../../The-FarmBot-Web-App/controls.md#peripherals)
+  * All of the peripherals you have defined in the [peripherals widget on the controls page](../../The-FarmBot-Web-App/controls/peripherals.md)
   * The Box LEDs, if you have any included with your FarmBot version
 
 ![Screen Shot 2020-01-06 at 12.24.47 PM.png](Screen_Shot_2020-01-06_at_12.24.47_PM.png)
@@ -93,8 +93,8 @@ To use this command, select a peripheral from the **PERIPHERAL** dropdown. Optio
 # Read sensor
 The <span class="fb-step fb-read-pin">Read Sensor</span> command instructs FarmBot to read the value of a **sensor**. For example, you would use this command to measure the soil moisture content with the soil moisture sensor. To use this command, first select a sensor from the **SENSOR** dropdown. Options include:
 
-  * All of the sensors you have defined in the [sensors widget on the controls page](../../The-FarmBot-Web-App/controls.md#sensors)
-  * All of the peripherals you have defined in the [peripherals widget on the controls page](../../The-FarmBot-Web-App/controls.md#peripherals)
+  * All of the sensors you have defined in the [sensors widget on the controls page](../../The-FarmBot-Web-App/sensors.md)
+  * All of the peripherals you have defined in the [peripherals widget on the controls page](../../The-FarmBot-Web-App/controls/peripherals.md)
 
 Next, select the **MODE** which you would like to read the sensor with. You can choose either `Digital` or `Analog`. Use digital for a `0` (LOW) or `1` (HIGH) response, and analog for a reading between `0` and `1023` for 0-5V.
 
@@ -217,3 +217,7 @@ Assertions must be written in **Lua**, and will be evaluated against a Lua 5.2 i
 
 ![Assertion.JPG](Assertion.JPG)
 
+
+# What's next?
+
+ * [Building a Sequence](../sequences/building-a-sequence.md)

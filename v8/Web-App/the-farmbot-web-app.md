@@ -91,3 +91,10 @@ The core functions of the app include:
 
 <iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D0EAcUbO6tqo&src=http%3A%2F%2Fwww.youtube.com%2Fembed%2F0EAcUbO6tqo&type=text%2Fhtml&key=f2aa6fc3595946d0afc3d76cbbd25dc3&schema=youtube" width="854" height="480" scrolling="no" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
 
+
+# What's next?
+
+ * [Creating an Account](../Web-App/the-farmbot-web-app/creating-an-account.md)
+ * [Message Center](../Web-App/the-farmbot-web-app/message-center.md)
+ * [Account Settings](../Web-App/the-farmbot-web-app/account-settings.md)
+ * [Logs](../Web-App/the-farmbot-web-app/logs.md)

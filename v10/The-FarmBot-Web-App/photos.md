@@ -38,3 +38,8 @@ title=""
 content="The default camera used is a **USB camera**. If you would like to use a **Raspberry Pi camera**, use the [**CAMERA** dropdown](https://my.farm.bot/app/designer/settings?highlight=camera) in the settings panel."
 %}
 
+
+# What's next?
+
+ * [Camera Calibration](../The-FarmBot-Web-App/photos/camera-calibration.md)
+ * [Weed Detection](../The-FarmBot-Web-App/photos/weed-detection.md)

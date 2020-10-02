@@ -41,3 +41,9 @@ title="For developers only"
 content="This method is only recommended for software developers working with custom firmware. For more information, see the [developer docs](https://developer.farm.bot/Documentation/firmware/custom-firmware)."
 %}
 
+
+# What's next?
+
+ * [Stall Detection](arduino-firmware/stall-detection.md)
+ * [Microstepping](arduino-firmware/microstepping.md)
+ * [Endstops](arduino-firmware/endstops.md)

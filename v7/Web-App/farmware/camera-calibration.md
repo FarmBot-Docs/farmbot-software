@@ -52,3 +52,7 @@ title="Note"
 content="Once camera calibration is run, you must always detect weeds with the camera at that height (z-axis coordinate). Running calibration with the z-axis all the way up is recommended to maximize the camera's field of view."
 %}
 
+
+# What's next?
+
+ * [Weed Detection](../farmware/weed-detection.md)

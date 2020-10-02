@@ -43,7 +43,7 @@ Use the `PREV` and `NEXT` buttons to navigate through previously taken images.
 include callout.html
 type="info"
 title=""
-content="The default camera is a USB camera. If you would like to use a Raspberry Pi camera, use the camera selection dropdown menu in the **Device** widget on the [Device](../Web-App/device.md#device) page."
+content="The default camera is a USB camera. If you would like to use a Raspberry Pi camera, use the camera selection dropdown menu in the **Device** widget on the [Device](../Web-App/device.md#device-widget) page."
 %}
 
 # Weed Detector

@@ -12,7 +12,7 @@ excerpt: "Step-by-step instructions for configuring FarmBot"
 include callout.html
 type="info"
 title="Configuration requires a web app account"
-content="To complete configuration, you must have a **verified web app account**. See instructions for creating and verifying an account [here](https://software.farm.bot/docs/the-farmbot-web-app#registration)."
+content="To complete configuration, you must have a **verified web app account**. See instructions for creating and verifying an account [here](../Web-App/the-farmbot-web-app.md#registration)."
 %}
 
 Configurator is a piece of software built into FarmBot OS that makes it easy to connect your FarmBot's Raspberry Pi to a WiFi network and to your FarmBot web app account. You will not ever need to connect a keyboard and screen to the device or SSH into the device over an ethernet connection.
@@ -68,4 +68,4 @@ Now press <span class="fb-button fb-green">FINISH</span>. FarmBot OS will now at
 * Navigate to [my.farm.bot](https://my.farm.bot) and watch the status ticker to see when FarmBot comes online and begins sending messages. This should happen within 2 minutes of completing configuration.
 * Once FarmBot is initialized, try pressing the <span class="fb-button fb-yellow">SYNC</span> button or one of the manual movement arrow buttons. You should see FarmBot responding to your commands and sending back messages.
 
-If there is a problem with the configuration, such as a password is wrong, then FarmBot Configurator will restart and you will see the `farmbot-xxxx` WiFi network again. If this happens, try configuring again or consult the [troubleshooting guides](https://software.farm.bot/docs/troubleshooting).
+If there is a problem with the configuration, such as a password is wrong, then FarmBot Configurator will restart and you will see the `farmbot-xxxx` WiFi network again. If this happens, try configuring again or consult the [troubleshooting guides](../Additional-Information/troubleshooting.md).

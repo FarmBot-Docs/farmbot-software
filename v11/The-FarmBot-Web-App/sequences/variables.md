@@ -58,3 +58,7 @@ content="You'll now also need to provide a **DEFAULT VALUE** for the variable, w
 _A dynamic sequence that can be used in a general way_
 
 Now our sequence is built in a generic way that will allow it to mount any tool, depending on what value is provided for the variable! In the next section we'll look at all the ways in which you can provide this value.
+
+# What's next?
+
+ * [Externally Defined Variables](../sequences/externally-defined-variables.md)

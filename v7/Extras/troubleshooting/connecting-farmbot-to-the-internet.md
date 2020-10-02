@@ -38,7 +38,7 @@ On FarmBot Genesis 1.4 check the Blue LED communication light. You have blocked 
 
 ![FarmBot_Lights.png](FarmBot_Lights.png)
 
-Please see the [FarmBot OS documentation about the LEDs](https://software.farm.bot/docs/farmbot-os#led-2-connection-status-blue-raspberry-pi-gpio-bcm-pin-25-) to learn more.
+Please see the [FarmBot OS documentation about the LEDs](../../Device/farmbot-os.md#led-2-connection-status-blue-raspberry-pi-gpio-bcm-pin-25) to learn more.
 
 # 3. Use a wired Ethernet connection
 

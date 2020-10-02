@@ -51,3 +51,7 @@ content="You can use existing sequences as steps in a new, larger sequence. This
 For example, you could make an **Inject Seed** sequence, a **Measure Moisture** sequence, and a **Water** sequence, and combine them all into one mega sequence named **Start Plant**. You can then use the individual sequences in other ways without having to recreate them each time."
 %}
 
+
+# What's next?
+
+ * [Regimens](../Web-App/regimens.md)

@@ -81,3 +81,8 @@ title="Run your Regimens using Farm Events"
 content="Notice that Regimens only include information about days (from zero), not dates. To use a Regimen, give it a start date and time using a Farm Event."
 %}
 
+
+# What's next?
+
+ * [Farm Designer](../Web-App/farm-designer.md)
+ * [Farm Events](../Web-App/farm-events.md)

@@ -95,3 +95,7 @@ content="The instructions below are intended for expert users and software devel
 %}
 
 Please see the official README for the web app source code [here](https://github.com/FarmBot/farmbot-web-app/blob/master/README.md).
+
+# What's next?
+
+ * [Tools](../Web-App/tools.md)

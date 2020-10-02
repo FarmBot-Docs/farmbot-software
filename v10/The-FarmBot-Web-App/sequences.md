@@ -34,3 +34,11 @@ To move sequences between folders, click or click and drag the <i class="fa fa-b
 
 # Sequence editor options
 You can customize how the sequence editor works with the options in the <i class="fa fa-cog"></i> menu located to the left of the <span class="fb-button fb-yellow">COPY</span> button when a sequence is loaded into the editor. Each option is described in the tooltip shown when the <i class="fa fa-question-circle"></i> icon is clicked.
+
+# What's next?
+
+ * [Sequence Commands](../The-FarmBot-Web-App/sequences/sequence-commands.md)
+ * [Building a Sequence](../The-FarmBot-Web-App/sequences/building-a-sequence.md)
+ * [Example Sequences](../The-FarmBot-Web-App/sequences/example-sequences.md)
+ * [Variables](../The-FarmBot-Web-App/sequences/variables.md)
+ * [Externally Defined Variables](../The-FarmBot-Web-App/sequences/externally-defined-variables.md)

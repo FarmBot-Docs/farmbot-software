@@ -51,3 +51,7 @@ content="You cannot change from executing a sequence to executing a regimen or v
 
 ![Screen Shot 2019-07-05 at 9.09.53 PM.png](Screen_Shot_2019-07-05_at_9.09.53_PM.png)
 
+
+# What's next?
+
+ * [Points](../farm-designer/points.md)

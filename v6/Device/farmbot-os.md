@@ -145,3 +145,7 @@ Control this LED via the <span class="fb-step fb-write-pin">Write Pin</span> Seq
 
 ## LED 4: Controllable [white] (Raspberry Pi GPIO BCM pin 13)
 Control this LED via the <span class="fb-step fb-write-pin">Write Pin</span> Sequence step command.
+
+# What's next?
+
+ * [Configurator](configurator.md)

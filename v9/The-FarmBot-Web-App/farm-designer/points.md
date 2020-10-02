@@ -42,3 +42,7 @@ To delete a point, click on it to open up the edit point panel. Then press the <
 > 📘
 >
 > Points cannot be deleted if they are in-use by any sequences, regimens, or events.
+
+# What's next?
+
+ * [Weeds](../farm-designer/weeds.md)

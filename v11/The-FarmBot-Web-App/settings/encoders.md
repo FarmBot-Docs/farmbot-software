@@ -26,7 +26,7 @@ FarmBot Genesis kits have rotary encoders built-in. The rotary encoders should b
 include callout.html
 type="info"
 title=""
-content="See [Rotary Encoders](../settings/stall-detection.md#rotary-encoders) for more information."
+content="See [Rotary Encoders](../../FarmBot-Software/how-to-guides/axis-setup.md#rotary-encoders) for more information."
 %}
 
 # Use encoders for positioning

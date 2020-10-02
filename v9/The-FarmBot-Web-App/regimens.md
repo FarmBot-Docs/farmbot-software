@@ -55,3 +55,7 @@ Last we'll add a `Medium Watering` sequence to run at `8PM` every other day for 
 
 # Running a regimen
 A regimen on its own will not execute because the regimen only has enough information to run sequences at a day and time _relative_ from a start date. Thus, to run a regimen, you will have to schedule it using an [event](events).
+
+# What's next?
+
+ * [Events](../The-FarmBot-Web-App/farm-designer/events.md)

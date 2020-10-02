@@ -68,3 +68,7 @@ title="OpenFarm is built by us too!"
 content="[OpenFarm](https://openfarm.cc) was originally conceived as a small component of the FarmBot project. As progress was made, it became clear that OpenFarm had no reason to be tied to FarmBot, but could rather live on its own. In September of 2014, 1,605 people [backed OpenFarm on Kickstarter](https://www.kickstarter.com/projects/roryaronson/openfarm-learn-to-grow-anything/). Today, OpenFarm is a standalone application, non-profit, and community. You can get involved with OpenFarm by joining the [Slack channel](http://slack.openfarm.cc), contributing on [GitHub](https://github.com/openfarmcc), or going to [OpenFarm](https://openfarm.cc) and creating content!"
 %}
 
+
+# What's next?
+
+ * [Getting Started](../FarmBot-Software/getting-started.md)

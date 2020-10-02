@@ -256,3 +256,7 @@ The pin guard feature provides an extra layer of safety to your FarmBot in the e
 
 ## Reset hardware parameter defaults
 This will restore all settings to their default values, as shown in each setting's tooltip.
+
+# What's next?
+
+ * [Pin Bindings](../device/pin-bindings.md)

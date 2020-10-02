@@ -19,3 +19,8 @@ You can create sequences using the sequence editor as shown below. On the left o
 
 _An example sequence to water a spinach plant_
 
+
+# What's next?
+
+ * [Sequence Commands](../Web-App/sequences/sequence-commands.md)
+ * [Building a Sequence](../Web-App/sequences/building-a-sequence.md)

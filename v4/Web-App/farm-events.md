@@ -69,3 +69,7 @@ title="Don't forget to SYNC"
 content="Before your FarmBot can start executing the Farm Events you have created, you will need to share the data with the device. Press the <span class=\"fb-button fb-yellow\">SYNC NOW</span> button in the upper right of the web app. If the sync was successful, the button will display <span class=\"fb-button fb-green\">SYNCED</span>."
 %}
 
+
+# What's next?
+
+ * [Controls](../Web-App/controls.md)

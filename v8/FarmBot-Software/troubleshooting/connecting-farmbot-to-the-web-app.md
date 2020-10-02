@@ -1,7 +1,7 @@
 ---
 title: "Connecting FarmBot to the Web App"
 slug: "connecting-farmbot-to-the-web-app"
-excerpt: "Problem description: I completed all steps of the [configuration process](../../Device/farmbot-os/configurator.md#configure-farmbot) and now I'm waiting for FarmBot to connect to the web application."
+excerpt: "Problem description: I completed all steps of the [configuration process](../../Device/farmbot-os/configurator.md) and now I'm waiting for FarmBot to connect to the web application."
 ---
 
 * toc

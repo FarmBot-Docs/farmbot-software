@@ -51,3 +51,7 @@ To delete a peripheral, press <span class="fb-button fb-gray">edit</span> and th
 > 📘 Coming soon
 >
 > You cannot delete a peripheral that is in-use by a sequence.
+
+# What's next?
+
+ * [Webcam Feeds](../controls/webcam-feeds.md)

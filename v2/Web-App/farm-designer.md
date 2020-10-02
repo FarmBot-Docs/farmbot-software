@@ -60,3 +60,7 @@ You can view all of your plants in the map, a virtual representation of the Farm
 
 ![dc5db8f-map.png](map.png)
 
+
+# What's next?
+
+ * [Farm Events](../Web-App/farm-events.md)

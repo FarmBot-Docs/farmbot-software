@@ -68,3 +68,7 @@ For use with automatic factory reset: set the time in minutes to attempt connect
 
 # Diagnostic reports
 Please refer to the [diagnostic reports document](../device/diagnostic-reports.md) for more details.
+
+# What's next?
+
+ * [Hardware Settings](../device/hardware-settings.md)

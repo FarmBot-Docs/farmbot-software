@@ -42,3 +42,18 @@ You may also change the **SELECTION TYPE** to allow for selecting other objects 
 
 ![Screen Shot 2020-04-21 at 11.55.36 PM.png](Screen_Shot_2020-04-21_at_11.55.36_PM.png)
 
+
+# What's next?
+
+ * [Plants](../The-FarmBot-Web-App/plants.md)
+ * [Groups](../The-FarmBot-Web-App/groups.md)
+ * [Gardens](../The-FarmBot-Web-App/gardens.md)
+ * [Events](../The-FarmBot-Web-App/events.md)
+ * [Points](../The-FarmBot-Web-App/points.md)
+ * [Weeds](../The-FarmBot-Web-App/weeds.md)
+ * [Controls](../The-FarmBot-Web-App/controls.md)
+ * [Sensors](../The-FarmBot-Web-App/sensors.md)
+ * [Photos](../The-FarmBot-Web-App/photos.md)
+ * [Farmware](../The-FarmBot-Web-App/farmware.md)
+ * [Tools](../The-FarmBot-Web-App/tools.md)
+ * [Settings](../The-FarmBot-Web-App/settings.md)

@@ -64,3 +64,7 @@ Click <span class="fb-button fb-green">Save &ast;</span> to save the sequence.
 > 📘
 >
 > Whenever a sequence has unsaved changes, an **&ast;** will be shown next to the sequence name in the sequence list, and in the <span class="fb-button fb-green">Save &ast;</span> button.
+
+# What's next?
+
+ * [Example Sequences](../sequences/example-sequences.md)

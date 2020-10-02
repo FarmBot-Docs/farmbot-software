@@ -74,7 +74,7 @@ The recommended workflow for using the web app is:
 3. **Create [Sequences](../Web-App/sequences.md)** for using those tools: [my.farm.bot/app/sequences](https://my.farm.bot/app/sequences)
 4. **Create [Regimens](../Web-App/regimens.md)** to repeat sequences at specific times in the days of a plant's life: [my.farm.bot/app/regimens](https://my.farm.bot/app/regimens)
 5. **Schedule [Farm Events](../Web-App/farm-events.md)** to execute Regimens (or sequences): [my.farm.bot/app/designer/farm_events](https://my.farm.bot/app/designer/farm_events)
-6. **[Watch](../Web-App/controls.md#camera) your FarmBot work!** [my.farm.bot/app/controls](https://my.farm.bot/app/controls) (Also [my.farm.bot/app/designer](https://my.farm.bot/app/designer))
+6. **[Watch](../Web-App/controls.md#webcam-feeds) your FarmBot work!** [my.farm.bot/app/controls](https://my.farm.bot/app/controls) (Also [my.farm.bot/app/designer](https://my.farm.bot/app/designer))
 
 # Provisioning the Web App
 
@@ -88,3 +88,7 @@ content="The instructions below are intended for expert users and software devel
 %}
 
 Please see the official README for the web app source code [here](https://github.com/FarmBot/farmbot-web-app/blob/master/README.md).
+
+# What's next?
+
+ * [Tools](../Web-App/tools.md)

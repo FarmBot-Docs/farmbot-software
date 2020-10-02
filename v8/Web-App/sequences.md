@@ -19,3 +19,11 @@ You can create sequences using the sequence editor as shown below. On the left o
 
 # Sequence editor options
 You can customize how the sequence editor works with the options in the <i class="fa fa-cog"></i> menu located to the left of the <span class="fb-button fb-yellow">COPY</span> button when a sequence is loaded into the editor. Each option is described in the tooltip shown when the <i class="fa fa-question-circle"></i> icon is clicked.
+
+# What's next?
+
+ * [Sequence Commands](../Web-App/sequences/sequence-commands.md)
+ * [Building a Sequence](../Web-App/sequences/building-a-sequence.md)
+ * [Example Sequences](../Web-App/sequences/example-sequences.md)
+ * [Variables](../Web-App/sequences/variables.md)
+ * [Externally Defined Variables](../Web-App/sequences/externally-defined-variables.md)

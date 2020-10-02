@@ -49,3 +49,12 @@ There are a handful of options in the **settings panel** that you can use to cus
 
 ![Farm Designer Settings.png](Farm_Designer_Settings.png)
 
+
+# What's next?
+
+ * [Plants](../Web-App/farm-designer/plants.md)
+ * [Groups](../Web-App/farm-designer/groups.md)
+ * [Gardens](../Web-App/farm-designer/gardens.md)
+ * [Events](../Web-App/farm-designer/events.md)
+ * [Points](../Web-App/farm-designer/points.md)
+ * [Weeds](../Web-App/farm-designer/weeds.md)

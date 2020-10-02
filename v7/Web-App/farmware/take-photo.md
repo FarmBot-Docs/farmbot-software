@@ -31,3 +31,7 @@ title=""
 content="The default camera is a USB camera. If you would like to use a Raspberry Pi camera, use the camera selection dropdown menu in the **Device** widget on the [Device](../../Web-App/device.md#device) page."
 %}
 
+
+# What's next?
+
+ * [Camera Calibration](../farmware/camera-calibration.md)

@@ -92,3 +92,7 @@ Once the account becomes eligible for deletion, an email will be sent with the s
 
 **3) Deletion**
 If the user does not login to their account within 14 days of the warning email, the account will be automatically deleted and cannot be recovered.
+
+# What's next?
+
+ * [Logs](../../The-FarmBot-Web-App/the-farmbot-web-app/logs.md)

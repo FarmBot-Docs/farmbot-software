@@ -36,3 +36,8 @@ If you are experiencing issues with your firmware, or just installed replacement
 # Using custom firmware
 
 Using custom firmware is only recommended for software developers. For more information, see the [developer docs](https://developer.farm.bot/Documentation/firmware/custom-firmware).
+
+# What's next?
+
+ * [Stall Detection](../FarmBot-OS/arduino-firmware/stall-detection.md)
+ * [Microstepping](../FarmBot-OS/arduino-firmware/microstepping.md)

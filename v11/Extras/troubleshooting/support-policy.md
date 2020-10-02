@@ -15,7 +15,7 @@ For example, if FarmBot OS v1.2.3 is released on January 1st, and a user does no
 
 # Best practices
 
- * Enable [auto-update](../../The-FarmBot-Web-App/settings/farmbot-settings.md#farmbot-os-auto-update) on your device. (All new accounts have auto-update enabled by default)
+ * Enable [auto-update](../../The-FarmBot-Web-App/settings/farmbot-settings.md#auto-update) on your device. (All new accounts have auto-update enabled by default)
  * If you decide against automatic updates, consider subscribing to the [FarmBot newsletter](http://newsletter.farm.bot) to receive alerts about new versions of FarmBot OS.
  * Avoid service disruptions by ensuring your device still falls within the software support timeframe described above.
 

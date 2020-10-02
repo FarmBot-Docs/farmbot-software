@@ -97,3 +97,7 @@ To view a graph of motor positions over time, toggle <span class="fb-peripheral-
 
 ![Screen Shot 2020-06-30 at 11.53.25 AM.png](Screen_Shot_2020-06-30_at_11.53.25_AM.png)
 
+
+# What's next?
+
+ * [Peripherals](../controls/peripherals.md)

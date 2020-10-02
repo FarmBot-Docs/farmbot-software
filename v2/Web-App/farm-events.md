@@ -14,3 +14,7 @@ If you've ever used a calendar application before, you'll feel right at home wit
 
 ![events.png](events.png)
 
+
+# What's next?
+
+ * [Controls](../Web-App/controls.md)

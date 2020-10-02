@@ -12,7 +12,7 @@ excerpt: "Step-by-step instructions for configuring FarmBot to connect to your h
 include callout.html
 type="info"
 title="Configuration requires a web app account"
-content="To complete configuration, you must have a **verified web app account**. See instructions for creating and verifying an account [here](https://software.farm.bot/docs/the-farmbot-web-app#registration)."
+content="To complete configuration, you must have a **verified web app account**. See instructions for creating and verifying an account [here](../../Web-App/the-farmbot-web-app.md#registration)."
 %}
 
 **Configurator** is a piece of software built into **FarmBot OS** that makes it easy to connect your FarmBot to a WiFi network and to your FarmBot web app account. You will not ever need to connect a keyboard and screen to the FarmBot or SSH in over an ethernet connection.
@@ -61,7 +61,7 @@ Use the dropdown menu to choose the firmware version to install based on what el
 |Genesis v1.4                  |Farmduino                     |`Farmduino (Genesis v1.4)`
 
 ### Email and password for your web app account
-Remember: you must have a **verified web app account** in order for the FarmBot to connect to the web app. See instructions for creating and verifying an account [here](https://software.farm.bot/docs/the-farmbot-web-app#registration).
+Remember: you must have a **verified web app account** in order for the FarmBot to connect to the web app. See instructions for creating and verifying an account [here](../../Web-App/the-farmbot-web-app.md#registration).
 
 If you are self-hosting the web application on your own servers, replace "https://my.farm.bot" with your custom server URL (advanced).
 

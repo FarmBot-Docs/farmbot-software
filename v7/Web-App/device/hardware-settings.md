@@ -278,3 +278,7 @@ This will restore all settings to their default values, as shown in the table be
 |Invert Endstops               |No
 
 All Pin Guard settings will be set to Pin 0, 60 seconds, Low.
+
+# What's next?
+
+ * [Pin Bindings](../device/pin-bindings.md)

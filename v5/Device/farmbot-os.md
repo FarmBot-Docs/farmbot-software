@@ -81,3 +81,7 @@ title="Check the web app"
 content="If all has gone well during your setup, you should now see your FarmBot 'Online' in the web application interface."
 %}
 
+
+# What's next?
+
+ * [Configurator](configurator.md)

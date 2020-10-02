@@ -72,3 +72,8 @@ Permanently delete your account and all of its data.
 # Export Data
 
 Download all of your Web App account data. Exported data is delivered in JSON format to your email address as a file attachment.
+
+# What's next?
+
+ * [Logs](../Web-App/account/logs.md)
+ * [Account Limitations](../Web-App/account/account-limitations.md)

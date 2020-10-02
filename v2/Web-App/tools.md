@@ -31,3 +31,7 @@ Press `EDIT` to add your tools to the toolbay. Fill out the X, Y, and Z coordina
 __Tip__: Use the [Move](../Web-App/controls.md#move) widget on the controls page to determine the location of your tool in the toolbay. The coordinates should correspond to where the UTM is making contact while directly above the tool in the toolbay.
 
 Press `SAVE` when done to save your tool locations.
+
+# What's next?
+
+ * [Sequences](../Web-App/sequences.md)

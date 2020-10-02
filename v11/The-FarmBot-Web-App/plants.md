@@ -61,3 +61,7 @@ To change the plant's location, you can either enter new coordinates in the **X*
 
 # Deleting plants
 To delete a plant, click on it to bring up the plant details panel. Then press the <span class="fb-button fb-red">DELETE</span> button. Press the <span class="fb-button fb-gray">DELETE MULTIPLE</span> button to bring up the **multi-select panel** for deleting multiple plants at once, or taking other actions on the selection.
+
+# What's next?
+
+ * [Groups](../The-FarmBot-Web-App/groups.md)

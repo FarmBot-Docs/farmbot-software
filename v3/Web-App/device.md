@@ -147,7 +147,7 @@ content="The length values of each axis will be measured and auto-filled wheneve
 %}
 
 # Encoder scaling
-The encoder scaling factor is used to match the encoder resolution with the motor resolution. The rotary encoders included with the stock FarmBots are 360 line/revolution. The stock motors are 200 step/revolution and used with full-step microstepping (a value of 1 in the equation below). For more information on microstepping, see [Microstepping](doc:microstepping).
+The encoder scaling factor is used to match the encoder resolution with the motor resolution. The rotary encoders included with the stock FarmBots are 360 line/revolution. The stock motors are 200 step/revolution and used with full-step microstepping (a value of 1 in the equation below). For more information on microstepping, see [Microstepping](../Additional-Information/rotary-encoders.md).
 
 The encoder scaling factor is calculated as follows, and rounded to the nearest integer.
 Encoder scaling = 100 x motor resolution x microsteps / encoder resolution

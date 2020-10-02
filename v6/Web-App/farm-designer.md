@@ -142,3 +142,7 @@ Press <span class="fb-button fb-gray">MOVE MODE</span> in the map menu to enter 
 ![move_to.png](move_to.png)
 
 Click any spot within the map grid to mark it with an `X`, and press <span class="fb-button fb-gray">MOVE TO THIS COORDINATE</span> to send the movement command.
+
+# What's next?
+
+ * [Farm Events](../Web-App/farm-events.md)

@@ -34,3 +34,7 @@ To delete a webcam feed, press <span class="fb-button fb-gray">edit</span> and t
 
 # Hiding the widget
 If you do not plan to use any webcams to monitor your FarmBot, use the **HIDE WEBCAM WIDGET** toggle in the [app settings area](../../The-FarmBot-Web-App/settings/account-settings.md) to remove the widget from the controls page.
+
+# What's next?
+
+ * [Sensors](../controls/sensors.md)

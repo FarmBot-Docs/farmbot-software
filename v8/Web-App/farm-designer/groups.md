@@ -53,3 +53,7 @@ Once you've verified that FarmBot is operating how you intend, you can run this 
 
 # Deleting a group
 To delete a group, click the <span class="fb-button fb-red">DELETE GROUP</span> button. Note that you cannot delete a group that is in-use by a sequence, regimen, or event.
+
+# What's next?
+
+ * [Gardens](../farm-designer/gardens.md)

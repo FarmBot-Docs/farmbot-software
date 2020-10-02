@@ -43,3 +43,7 @@ title="Can you hear me now?"
 content="The web application should now be in communication with your FarmBot. You should see some bootup logs streaming into the status ticker, and FarmBot should respond to any commands you send it. If there are any problems, see the [troubleshooting guide](../../Extras/troubleshooting.md)."
 %}
 
+
+# What's next?
+
+ * [Message Center](../the-farmbot-web-app/message-center.md)

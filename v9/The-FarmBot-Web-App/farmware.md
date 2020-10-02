@@ -33,3 +33,9 @@ You can also run Farmware systematically by using the <span class="fb-step fb-ta
 # Advanced options
 
 Press the <span class="fa fa-gear"></span> icon to open the Farmware advanced menu. To show first-party Farmware (pre-installed Farmware) in the Farmware list, enable the **SHOW IN LIST** setting. If a pre-installed Farmware is accidentally deleted, press the **REINSTALL** <i class="fa fa-download"></i> button.
+
+# What's next?
+
+ * [Take Photo](../The-FarmBot-Web-App/farmware/take-photo.md)
+ * [Camera Calibration](../The-FarmBot-Web-App/farmware/camera-calibration.md)
+ * [Weed Detection](../The-FarmBot-Web-App/farmware/weed-detection.md)

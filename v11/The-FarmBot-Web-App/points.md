@@ -56,3 +56,7 @@ title=""
 content="Points cannot be deleted if they are in-use by any sequences, regimens, or events."
 %}
 
+
+# What's next?
+
+ * [Weeds](../The-FarmBot-Web-App/weeds.md)

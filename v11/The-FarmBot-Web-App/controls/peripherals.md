@@ -55,3 +55,7 @@ title=""
 content="You cannot delete a peripheral that is in-use by a sequence."
 %}
 
+
+# What's next?
+
+ * [Webcam Feeds](../controls/webcam-feeds.md)

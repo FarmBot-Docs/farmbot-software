@@ -20,3 +20,10 @@ title="Outdated content"
 content="Please note that the video above is a little outdated. We are working on a new version. In the meantime, the following documentation pages are up-to-date."
 %}
 
+
+# What's next?
+
+ * [Move](../Web-App/controls/move.md)
+ * [Peripherals](../Web-App/controls/peripherals.md)
+ * [Webcam Feeds](../Web-App/controls/webcam-feeds.md)
+ * [Sensors](../Web-App/controls/sensors.md)

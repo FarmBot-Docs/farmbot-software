@@ -17,11 +17,11 @@ FarmBot will now set the chosen location as the origin (also known as `Home`, `Z
 
 # Automatic Calibration
 
-Run an axis calibration to let FarmBot determine home and the length of the axis. Either endstops or encoders must be enabled in the [hardware settings widget](../Web-App/device.md#hardware) for an axis to be calibrated.
+Run an axis calibration to let FarmBot determine home and the length of the axis. Either endstops or encoders must be enabled in the [hardware settings widget](../Web-App/device.md#hardware-widget) for an axis to be calibrated.
 
-Use the <span class="fb-button fb-gray">CALIBRATE X</span>, <span class="fb-button fb-gray">CALIBRATE Y</span>, and <span class="fb-button fb-gray">CALIBRATE Z</span> buttons in the [hardware settings widget](../Web-App/device.md#hardware) to home and calibrate the length of each axis.
+Use the <span class="fb-button fb-gray">CALIBRATE X</span>, <span class="fb-button fb-gray">CALIBRATE Y</span>, and <span class="fb-button fb-gray">CALIBRATE Z</span> buttons in the [hardware settings widget](../Web-App/device.md#hardware-widget) to home and calibrate the length of each axis.
 
-Use the <span class="fb-button fb-gray">HOME X</span>, <span class="fb-button fb-gray">HOME Y</span>, and <span class="fb-button fb-gray">HOME Z</span> buttons in the [hardware settings widget](../Web-App/device.md#hardware) to home each axis.
+Use the <span class="fb-button fb-gray">HOME X</span>, <span class="fb-button fb-gray">HOME Y</span>, and <span class="fb-button fb-gray">HOME Z</span> buttons in the [hardware settings widget](../Web-App/device.md#hardware-widget) to home each axis.
 
 ## With rotary encoders (included in FarmBot Genesis kits)
 
