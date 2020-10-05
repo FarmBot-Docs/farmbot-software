@@ -1,7 +1,7 @@
 ---
 title: "Sequences"
 slug: "sequences"
-excerpt: "Drag-and-drop programming for your FarmBot :pager:\n[Open this page in the app](https://my.farm.bot/app/sequences)"
+description: "Drag-and-drop programming for your FarmBot :pager:\n[Open this page in the app](https://my.farm.bot/app/sequences)"
 ---
 
 * toc
@@ -15,25 +15,25 @@ The web app is a platform designed to give you unlimited control over how you us
 
 You can create sequences using the sequence editor as shown below. On the left of the screen is a list of all your sequences, which can be organized into folders. In the middle is the currently opened sequence. And on the right are the available commands that you can add to sequences.
 
-![Screen Shot 2020-01-01 at 12.36.51 PM.png](Screen_Shot_2020-01-01_at_12.36.51_PM.png)
+![Screen Shot 2020-01-01 at 12.36.51 PM.png](_images/Screen_Shot_2020-01-01_at_12.36.51_PM.png)
 
 # Organizing sequences into folders
-Add a new folder in the top level by pressing the <span class="fb-button fb-green"><i class="fa fa-folder"></i></span> button next to the sequence search bar. To change the color of the folder, click the folder icon.
+Add a new folder in the top level by pressing the <span class="fb-button fb-green"><i class='fa fa-folder'></i></span> button next to the sequence search bar. To change the color of the folder, click the folder icon.
 
-![Screen Shot 2020-01-01 at 12.49.47 PM.png](Screen_Shot_2020-01-01_at_12.49.47_PM.png)
+![Screen Shot 2020-01-01 at 12.49.47 PM.png](_images/Screen_Shot_2020-01-01_at_12.49.47_PM.png)
 
-Open and close a folder by clicking the <i class="fa fa-chevron-right"></i> and <i class="fa fa-chevron-down"></i> buttons, or open and close all folders by clicking the <span class="fb-button fb-gray"><i class="fa fa-chevron-right"></i></span> and <span class="fb-button fb-gray"><i class="fa fa-chevron-down"></i></span> buttons next to the sequence search bar.
+Open and close a folder by clicking the <i class='fa fa-chevron-right'></i> and <i class='fa fa-chevron-down'></i> buttons, or open and close all folders by clicking the <span class="fb-button fb-gray"><i class='fa fa-chevron-right'></i></span> and <span class="fb-button fb-gray"><i class='fa fa-chevron-down'></i></span> buttons next to the sequence search bar.
 
-Click the <i class="fa fa-ellipsis-v"></i> menu shown on the right when hovering on a folder to delete the folder, edit the folder name, add a subfolder, or add a new sequence within the folder.
+Click the <i class='fa fa-ellipsis-v'></i> menu shown on the right when hovering on a folder to delete the folder, edit the folder name, add a subfolder, or add a new sequence within the folder.
 
-![Screen Shot 2020-01-01 at 12.47.21 PM.png](Screen_Shot_2020-01-01_at_12.47.21_PM.png)
+![Screen Shot 2020-01-01 at 12.47.21 PM.png](_images/Screen_Shot_2020-01-01_at_12.47.21_PM.png)
 
-To move sequences between folders, click or click and drag the <i class="fa fa-bars"></i> menu shown on the right when hovering over the sequence.
+To move sequences between folders, click or click and drag the <i class='fa fa-bars'></i> menu shown on the right when hovering over the sequence.
 
-![Screen Shot 2020-01-01 at 12.52.50 PM.png](Screen_Shot_2020-01-01_at_12.52.50_PM.png)
+![Screen Shot 2020-01-01 at 12.52.50 PM.png](_images/Screen_Shot_2020-01-01_at_12.52.50_PM.png)
 
 # Sequence editor options
-You can customize how the sequence editor works with the options in the <i class="fa fa-cog"></i> menu located to the left of the <span class="fb-button fb-yellow">COPY</span> button when a sequence is loaded into the editor. Each option is described in the tooltip shown when the <i class="fa fa-question-circle"></i> icon is clicked.
+You can customize how the sequence editor works with the options in the <i class='fa fa-cog'></i> menu located to the left of the <span class="fb-button fb-yellow">COPY</span> button when a sequence is loaded into the editor. Each option is described in the tooltip shown when the <i class='fa fa-question-circle'></i> icon is clicked.
 
 # What's next?
 

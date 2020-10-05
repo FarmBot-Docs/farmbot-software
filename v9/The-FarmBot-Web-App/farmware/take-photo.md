@@ -1,7 +1,7 @@
 ---
 title: "Take Photo"
 slug: "take-photo"
-excerpt: "Farmware for taking photos with your FarmBot's camera"
+description: "Farmware for taking photos with your FarmBot's camera"
 ---
 
 * toc
@@ -24,7 +24,7 @@ To take a photo, press the <span class="fb-button fb-green">take photo</span> bu
 Once you have taken multiple photos, use the `PREV` and `NEXT` buttons to navigate through your images. To delete a photo, press the <span class="fb-button fb-red">delete photo</span> button.
 
 
-![Screen Shot 2019-05-02 at 5.42.10 PM.png](Screen_Shot_2019-05-02_at_5.42.10_PM.png)
+![Screen Shot 2019-05-02 at 5.42.10 PM.png](_images/Screen_Shot_2019-05-02_at_5.42.10_PM.png)
 
 > 📘
 >

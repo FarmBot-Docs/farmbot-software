@@ -1,7 +1,7 @@
 ---
 title: "Axis Setup"
 slug: "axis-setup"
-excerpt: "**In this guide:** Learn how to find and set FarmBot's home position and axis lengths, and restrict FarmBot from moving beyond those boundaries"
+description: "**In this guide:** Learn how to find and set FarmBot's home position and axis lengths, and restrict FarmBot from moving beyond those boundaries"
 ---
 
 * toc
@@ -42,13 +42,13 @@ To **automatically find home**, FarmBot will:
 
 :house: Once the verification succeeds, FarmBot will **set** the current location as the home position. In other words, FarmBot's coordinates will be set to `(0, 0, 0)`.
 
-![find-home-3.gif](find-home-3.gif)
+![find-home-3.gif](_images/find-home-3.gif)
 
 _Note that the graphic above omits step 3 of the process_
 
 To instruct FarmBot to automatically find home on a regular basis, use the <span class="fb-step fb-move-absolute">FIND HOME</span> command in your sequences. This is recommended at the start of long-running sequences and sequences that require a high degree of precision.
 
-To instruct FarmBot to automatically find home right now, use the <span class="fb-button fb-yellow">FIND HOME X</span>, <span class="fb-button fb-yellow">FIND HOME Y</span>, and <span class="fb-button fb-yellow">FIND HOME Z</span> buttons in the settings panel, or the <span class="fb-button fb-gray"><i class="fa fa-home"></i></span> button on the controls page to find home for all three axes in the order Z, Y, X. This is recommended after moving FarmBot by hand or a movement error.
+To instruct FarmBot to automatically find home right now, use the <span class="fb-button fb-yellow">FIND HOME X</span>, <span class="fb-button fb-yellow">FIND HOME Y</span>, and <span class="fb-button fb-yellow">FIND HOME Z</span> buttons in the settings panel, or the <span class="fb-button fb-gray"><i class='fa fa-home'></i></span> button on the controls page to find home for all three axes in the order Z, Y, X. This is recommended after moving FarmBot by hand or a movement error.
 
 To instruct FarmBot to automatically find home every time it boots up, turn the **FIND HOME ON BOOT** setting <span class="fb-peripheral-on">ON</span>. This may be useful for recovering from a power outage, or in classrooms where one FarmBot is shared by many students and regularly turned on and off.
 
@@ -88,7 +88,7 @@ To **automatically find an axis length**, FarmBot will:
 
 :white-check-mark: FarmBot will then **set** the **AXIS LENGTH** to the distance that was measured between the maximum and home positions. FarmBot will also set the current location as the home position.
 
-![calibrate.gif](calibrate.gif)
+![calibrate.gif](_images/calibrate.gif)
 
 To instruct FarmBot to automatically find an axis length right now, use the <span class="fb-button fb-yellow">FIND LENGTH X</span>, <span class="fb-button fb-yellow">FIND LENGTH Y</span>, and <span class="fb-button fb-yellow">FIND LENGTH Z</span> buttons in the settings panel. This is recommended after first assembling your FarmBot or making any changes to the hardware that may affect the distance FarmBot can travel.
 

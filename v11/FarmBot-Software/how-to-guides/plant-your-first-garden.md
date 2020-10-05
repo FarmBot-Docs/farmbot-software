@@ -1,7 +1,7 @@
 ---
 title: "Plant Your First Garden"
 slug: "plant-your-first-garden"
-excerpt: "**In this guide:** Add plants to the map, group them, build planting sequences, and sow your first seeds"
+description: "**In this guide:** Add plants to the map, group them, build planting sequences, and sow your first seeds"
 ---
 
 * toc
@@ -22,7 +22,7 @@ For your first garden, we recommend selecting **easy-to-grow crops** and growing
 
 ## Add plants to the map
 
-Once your crops are chosen, add them to the farm designer map by navigating to the [plants panel on the farm designer page](https://my.farm.bot/app/designer/plants) and clicking <span class="fb-button fb-green"><i class="fa fa-plus"></i></span>. Type in a crop name to the search field, for example `Spinach`, and then select the best search result. Click `ADD TO MAP` and then click anywhere in the map to add a plant at that location.
+Once your crops are chosen, add them to the farm designer map by navigating to the [plants panel on the farm designer page](https://my.farm.bot/app/designer/plants) and clicking <span class="fb-button fb-green"><i class='fa fa-plus'></i></span>. Type in a crop name to the search field, for example `Spinach`, and then select the best search result. Click `ADD TO MAP` and then click anywhere in the map to add a plant at that location.
 
 {%
 include callout.html
@@ -34,11 +34,11 @@ content="* Do not place plants too closely together or they will fight each othe
 
 
 
-![Add Plants.gif](Add_Plants.gif)
+![Add Plants.gif](_images/Add_Plants.gif)
 
-When you are finished adding plants of the first crop type, press the <i class="fa fa-arrow-left"></i> button or the `esc` key to return to the plants panel. To add plants of another crop type, click <span class="fb-button fb-green"><i class="fa fa-plus"></i></span> again and begin a new search.
+When you are finished adding plants of the first crop type, press the <i class='fa fa-arrow-left'></i> button or the `esc` key to return to the plants panel. To add plants of another crop type, click <span class="fb-button fb-green"><i class='fa fa-plus'></i></span> again and begin a new search.
 
-![Screen Shot 2020-04-22 at 7.14.59 PM.png](Screen_Shot_2020-04-22_at_7.14.59_PM.png)
+![Screen Shot 2020-04-22 at 7.14.59 PM.png](_images/Screen_Shot_2020-04-22_at_7.14.59_PM.png)
 
 
 
@@ -53,14 +53,14 @@ content="For more detailed instructions and advanced methods for adding plants t
 
 If you need to rearrange or remove any plants, click the plant icon in the map that you wish to edit. Then drag-and-drop the plant to a new location in the map, manually type in new **X** and **Y** coordinates, or press <span class="fb-button fb-red">DELETE</span> to remove it.
 
-![Edit Plants.gif](Edit_Plants.gif)
+![Edit Plants.gif](_images/Edit_Plants.gif)
 
 # Step 2: Create groups for each crop type
-Navigate to the **groups panel** and click <span class="fb-button fb-blue"><i class="fa fa-plus"></i></span>. **Select all** plants, and then **FILTER** by **Type** so that only the plants of one crop type are highlighted in the map. Give your group a descriptive name such as "All Spinach Plants"  and then press the <i class="fa fa-arrow-left"></i> button to save the group.
+Navigate to the **groups panel** and click <span class="fb-button fb-blue"><i class='fa fa-plus'></i></span>. **Select all** plants, and then **FILTER** by **Type** so that only the plants of one crop type are highlighted in the map. Give your group a descriptive name such as "All Spinach Plants"  and then press the <i class='fa fa-arrow-left'></i> button to save the group.
 
 Repeat to create groups for each crop type that you added to your garden.
 
-![Create Group.gif](Create_Group.gif)
+![Create Group.gif](_images/Create_Group.gif)
 
 
 
@@ -88,43 +88,43 @@ Below are all the commands for Sequence 1. Some values shown in the images may n
 
 **Step 1:** <span class="fb-step fb-move-absolute">MOVE TO</span> above a gantry-mounted seed trough by using a positive **Z-OFFSET**.
 
-![Screen Shot 2020-04-22 at 11.52.47 PM.png](Screen_Shot_2020-04-22_at_11.52.47_PM.png)
+![Screen Shot 2020-04-22 at 11.52.47 PM.png](_images/Screen_Shot_2020-04-22_at_11.52.47_PM.png)
 
 **Step 2:** <span class="fb-step fb-write-pin">CONTROL PERIPHERAL</span> to turn the vacuum pump **ON** for picking up a seed.
 
-![Screen Shot 2020-04-22 at 11.54.27 PM.png](Screen_Shot_2020-04-22_at_11.54.27_PM.png)
+![Screen Shot 2020-04-22 at 11.54.27 PM.png](_images/Screen_Shot_2020-04-22_at_11.54.27_PM.png)
 
 **Step 3:** <span class="fb-step fb-move-absolute">MOVE TO</span> the gantry-mounted seed trough (without an offset) such that the luer lock needle is positioned in the trough to pick up a seed.
 
-![Screen Shot 2020-04-22 at 11.57.11 PM.png](Screen_Shot_2020-04-22_at_11.57.11_PM.png)
+![Screen Shot 2020-04-22 at 11.57.11 PM.png](_images/Screen_Shot_2020-04-22_at_11.57.11_PM.png)
 
 **Step 4:** <span class="fb-step fb-move-absolute">MOVE TO</span> above the gantry-mounted seed trough by using a positive **Z-OFFSET**. A seed should be suction-held onto the needle at this point.
 
-![bfa3eb0-Screen_Shot_2020-04-22_at_11.52.47_PM.png](Screen_Shot_2020-04-22_at_11.52.47_PM.png)
+![bfa3eb0-Screen_Shot_2020-04-22_at_11.52.47_PM.png](_images/Screen_Shot_2020-04-22_at_11.52.47_PM.png)
 
 **Step 5:** <span class="fb-step fb-move-absolute">MOVE TO</span> an **externally defined location variable**. You can find this option by first choosing "Location Variable - Add new" in the command's dropdown. This will add a gray **LOCATION VARIABLE** form to the top of the sequence. There, choose "Externally defined" and provide a **DEFAULT VALUE** of (0, 0, 0) coordinates. In the next sequence we make, we'll pass specific plant locations into this variable.
 
-![Screen Shot 2020-04-23 at 12.08.56 AM.png](Screen_Shot_2020-04-23_at_12.08.56_AM.png)
+![Screen Shot 2020-04-23 at 12.08.56 AM.png](_images/Screen_Shot_2020-04-23_at_12.08.56_AM.png)
 
 
 
-![Screen Shot 2020-04-23 at 12.00.53 AM.png](Screen_Shot_2020-04-23_at_12.00.53_AM.png)
+![Screen Shot 2020-04-23 at 12.00.53 AM.png](_images/Screen_Shot_2020-04-23_at_12.00.53_AM.png)
 
 **Step 6:** <span class="fb-step fb-move-absolute">MOVE TO</span> the externally defined location variable with a negative **Z-OFFSET** equal to the distance that the z-axis must descend to place the seed in the soil at the correct depth. You can calculate this value by measuring the distance from the tip of the seeder needle to the top of the soil when the z-axis is fully raised, and then adding 10 to 40 more millimeters depending on how deep you would like to sow the seeds.
 
-![Screen Shot 2020-04-23 at 12.05.30 AM.png](Screen_Shot_2020-04-23_at_12.05.30_AM.png)
+![Screen Shot 2020-04-23 at 12.05.30 AM.png](_images/Screen_Shot_2020-04-23_at_12.05.30_AM.png)
 
 **Step 7:** <span class="fb-step fb-write-pin">CONTROL PERIPHERAL</span> to turn the vacuum pump **OFF** and release the seed in the soil.
 
-![Screen Shot 2020-04-23 at 12.12.27 AM.png](Screen_Shot_2020-04-23_at_12.12.27_AM.png)
+![Screen Shot 2020-04-23 at 12.12.27 AM.png](_images/Screen_Shot_2020-04-23_at_12.12.27_AM.png)
 
 **Step 8:** <span class="fb-step fb-wait">MARK AS</span> to **MARK** the location variable (the plant) **AS** `Planted`.
 
-![Screen Shot 2020-05-19 at 5.00.43 PM.png](Screen_Shot_2020-05-19_at_5.00.43_PM.png)
+![Screen Shot 2020-05-19 at 5.00.43 PM.png](_images/Screen_Shot_2020-05-19_at_5.00.43_PM.png)
 
 **Step 9:** <span class="fb-step fb-move-absolute">MOVE TO</span> the externally defined location variable to retract the needle out of the soil and raise the z-axis back to the maximum height.
 
-![59d2bb1-Screen_Shot_2020-04-23_at_12.00.53_AM.png](Screen_Shot_2020-04-23_at_12.00.53_AM.png)
+![59d2bb1-Screen_Shot_2020-04-23_at_12.00.53_AM.png](_images/Screen_Shot_2020-04-23_at_12.00.53_AM.png)
 
 
 
@@ -150,11 +150,11 @@ content="This step is only applicable for Genesis kits with a UTM and interchang
 
 
 
-![Screen Shot 2020-04-23 at 12.26.34 AM.png](Screen_Shot_2020-04-23_at_12.26.34_AM.png)
+![Screen Shot 2020-04-23 at 12.26.34 AM.png](_images/Screen_Shot_2020-04-23_at_12.26.34_AM.png)
 
 **Step 2:** <span class="fb-step fb-execute">EXECUTE</span> the "Plant one seed" sequence. Because this sequence has an externally defined variable, you will be presented with the **LOCATION VARIABLE** form in the command. Selecting the "All Spinach Plants" group will instruct FarmBot to run the "Plant one seed" sequence for every plant in that group.
 
-![Screen Shot 2020-04-23 at 12.30.42 AM.png](Screen_Shot_2020-04-23_at_12.30.42_AM.png)
+![Screen Shot 2020-04-23 at 12.30.42 AM.png](_images/Screen_Shot_2020-04-23_at_12.30.42_AM.png)
 
 **Step 3:** <span class="fb-step fb-execute">EXECUTE</span> a sequence to dismount the seeder tool. If you haven't built a sequence for this yet, refer to [this guide](../how-to-guides/mount-and-dismount-tools.md).
 
@@ -167,7 +167,7 @@ content="This step is only applicable for Genesis kits with a UTM and interchang
 
 
 
-![Screen Shot 2020-04-23 at 12.33.45 AM.png](Screen_Shot_2020-04-23_at_12.33.45_AM.png)
+![Screen Shot 2020-04-23 at 12.33.45 AM.png](_images/Screen_Shot_2020-04-23_at_12.33.45_AM.png)
 
 
 

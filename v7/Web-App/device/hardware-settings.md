@@ -7,14 +7,14 @@ slug: "hardware-settings"
 {:toc}
 
 
-![hardware_widget.png](hardware_widget.png)
+![hardware_widget.png](_images/hardware_widget.png)
 
 # Homing and calibration
 
-![calibration.png](calibration.png)
+![calibration.png](_images/calibration.png)
 
 ## Homing
-Homing an axis instructs FarmBot to find the home (minimum) position by moving towards home until an endstop or encoder signals that the end of the axis has been reached. Homing can only be performed if endstops or encoders are enabled. See [Calibration and Homing](../../Extras/calibration-and-homing.md) for further details.
+Homing an axis instructs FarmBot to find the home (minimum) position by moving towards home until an endstop or encoder signals that the end of the axis has been reached. Homing can only be performed if endstops or encoders are enabled. See [Calibration and Homing](../../Extras/how-do-i/calibrate-and-home-farmbot.md) for further details.
 
 {%
 include callout.html
@@ -25,7 +25,7 @@ content="Homing is the act of _finding_ the home (zero) position by using endsto
 
 
 ## Calibration
-Calibrating an axis instructs FarmBot to find the minimum (home) position, then find the maximum position, and also measure the distance between the two positions, which is the length of the axis. Calibration can only be performed if either endstops or encoders are enabled. See [Calibration and Homing](../../Extras/calibration-and-homing.md) for further details.
+Calibrating an axis instructs FarmBot to find the minimum (home) position, then find the maximum position, and also measure the distance between the two positions, which is the length of the axis. Calibration can only be performed if either endstops or encoders are enabled. See [Calibration and Homing](../../Extras/how-do-i/calibrate-and-home-farmbot.md) for further details.
 
 {%
 include callout.html
@@ -95,7 +95,7 @@ content="Do not set the timeout times to extremely high values (such as 20,000 s
 
 # Motors
 
-![motors.png](motors.png)
+![motors.png](_images/motors.png)
 
 ## Max retries
 The number of times that FarmBot will try to move to a position before stopping and reporting that the movement has failed.
@@ -183,10 +183,10 @@ This setting changes the direction of the second x-axis motor in case you wired 
 
 # Encoders and endstops
 
-![encoders.png](encoders.png)
+![encoders.png](_images/encoders.png)
 
 ## Enable encoders
-Stock FarmBot kits have rotary encoders built-in. The rotary encoders should be enabled by using these toggles. If you are experiencing troubles with your movements you might try to disable encoders for testing purposes. If you do not have encoders hooked up, you must have encoders disabled here otherwise your FarmBot will think it is stalling with every movement. Note that Homing and Calibration can only be used if encoders (or endstops) are enabled. See [Rotary Encoders](../../Extras/rotary-encoders.md) for more information.
+Stock FarmBot kits have rotary encoders built-in. The rotary encoders should be enabled by using these toggles. If you are experiencing troubles with your movements you might try to disable encoders for testing purposes. If you do not have encoders hooked up, you must have encoders disabled here otherwise your FarmBot will think it is stalling with every movement. Note that Homing and Calibration can only be used if encoders (or endstops) are enabled. See [Rotary Encoders](../../Device/arduino-firmware/stall-detection.md) for more information.
 
 ## Use encoders for positioning
 (Alpha) Use the encoders for calculating movements in addition to using encoders for stall detection.
@@ -235,7 +235,7 @@ This switches endstop operation from normally open (NC) to normally closed (NC).
 
 # Danger zone
 
-![reset.png](reset.png)
+![reset.png](_images/reset.png)
 
 ## Reset Hardware Parameter Defaults
 This will restore all settings to their default values, as shown in the table below.

@@ -1,7 +1,7 @@
 ---
 title: "Tools"
 slug: "tools"
-excerpt: "Manage tools and seed containers [my.farm.bot/app/tools](https://my.farm.bot/app/tools)"
+description: "Manage tools and seed containers [my.farm.bot/app/tools](https://my.farm.bot/app/tools)"
 ---
 
 * toc
@@ -15,14 +15,14 @@ On the **tools page** you can manage all of your FarmBot's **tools**, **seed con
 
 # Creating tools and seed containers
 
-To create a new tool or seed container, press <span class="fb-button fb-gray">edit</span> and then the <span class="fb-button fb-green"><i class="fa fa-plus"></i></span> button. Provide a <span class="fb-input">Name</span> to define the tool or seed container. Alternatively, press <span class="fb-button fb-green"><i class="fa fa-plus"></i> STOCK TOOLS</span> to add all of the standard tools and seed containers.
+To create a new tool or seed container, press <span class="fb-button fb-gray">edit</span> and then the <span class="fb-button fb-green"><i class='fa fa-plus'></i></span> button. Provide a <span class="fb-input">Name</span> to define the tool or seed container. Alternatively, press <span class="fb-button fb-green"><i class='fa fa-plus'></i> STOCK TOOLS</span> to add all of the standard tools and seed containers.
 
 When finished editing, press <span class="fb-button fb-green">SAVE</span>.
 
-![Screen Shot 2019-05-05 at 10.39.15 PM.png](Screen_Shot_2019-05-05_at_10.39.15_PM.png)
+![Screen Shot 2019-05-05 at 10.39.15 PM.png](_images/Screen_Shot_2019-05-05_at_10.39.15_PM.png)
 
 # Deleting tools and seed containers
-To delete a tool or seed container, press <span class="fb-button fb-gray">edit</span> and then the <span class="fb-button fb-red"><i class="fa fa-times"></i></span> button for the item you wish to delete. Finish editing by pressing <span class="fb-button fb-gray">back</span>.
+To delete a tool or seed container, press <span class="fb-button fb-gray">edit</span> and then the <span class="fb-button fb-red"><i class='fa fa-times'></i></span> button for the item you wish to delete. Finish editing by pressing <span class="fb-button fb-gray">back</span>.
 
 {%
 include callout.html

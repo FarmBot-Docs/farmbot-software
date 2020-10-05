@@ -1,7 +1,7 @@
 ---
 title: "Connecting FarmBot to the Internet"
 slug: "connecting-farmbot-to-the-internet"
-excerpt: "Problem description: FarmBot is having trouble connecting to the Internet or staying connected consistently."
+description: "Problem description: FarmBot is having trouble connecting to the Internet or staying connected consistently."
 ---
 
 * toc
@@ -9,12 +9,12 @@ excerpt: "Problem description: FarmBot is having trouble connecting to the Inter
 
 Your FarmBot needs to be connected to the internet and your device through the Web App. The connectivity popup should show a `code 31` diagnosis code which means that all the communications points are functional. A `code 31` means the nodes are communicating correctly and the points on the graphic should show green. Follow this troubleshooting guide if you are having trouble getting full connectivity to your FarmBot.
 
-![0c09c78-Connectivity_1024x1024.png](Connectivity_1024x1024.png)
+![0c09c78-Connectivity_1024x1024.png](_images/Connectivity_1024x1024.png)
 
 # 1. Use the connectivity tool
 The connectivity tool is used to diagnose the communications within the FarmBot. To learn more about the Connectivity tool and to get access to the full list of connectivity codes check out this page: [Connectivity Diagnosis Codes](../troubleshooting/connectivity-codes.md)
 
-![51d4009-Connectivity_diagnosis_code_.jpg](Connectivity_diagnosis_code_.jpg)
+![51d4009-Connectivity_diagnosis_code_.jpg](_images/Connectivity_diagnosis_code_.jpg)
 
 # 2. Check your network for blocked ports
 
@@ -31,7 +31,7 @@ FarmBot requires the following ports to be open on your network:
 
 On FarmBot Genesis v1.4 check the Blue LED communication light. You have blocked ports if the Blue LED is OFF and the Green LED is ON. (Only FarmBot Genesis v1.4 models have this diagnostic Green and Blue LEDs)
 
-![FarmBot_Lights.png](FarmBot_Lights.png)
+![FarmBot_Lights.png](_images/FarmBot_Lights.png)
 
 
 
@@ -46,7 +46,7 @@ content="See the [status LEDs page](../../Device/farmbot-os/status-leds.md) for 
 
 The best and most reliable way to connect FarmBot to the internet is with a wired Ethernet connection. Simply connect an Ethernet cable between the Raspberry Pi and your router.
 
-![image.jpg](image.jpg)
+![image.jpg](_images/image.jpg)
 
 # 4. Use a Wi-Fi range extender
 
@@ -57,7 +57,7 @@ There are multiple ways users can use a Wi-Fi range extender and these are a few
 
 There are many Range extender’s and Repeaters on the market and this one is just an example:
 
-![Dell Range Extender.bmp](Dell_Range_Extender.bmp)
+![Dell Range Extender.bmp](_images/Dell_Range_Extender.bmp)
 
 _Netgear Universal Wi-Fi Range Extender (WN3000RP)_
 

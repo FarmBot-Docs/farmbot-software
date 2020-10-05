@@ -1,7 +1,7 @@
 ---
 title: "Regimens"
 slug: "regimens"
-excerpt: "Plant care recipes for your FarmBot to follow [my.farmbot.io/app/regimens](http://my.farmbot.io/app/regimens)"
+description: "Plant care recipes for your FarmBot to follow [my.farmbot.io/app/regimens](http://my.farmbot.io/app/regimens)"
 ---
 
 * toc
@@ -24,7 +24,7 @@ Now imagine you want to grow 10 more tomato plants starting March 9th, and 10 mo
 
 While the Event Scheduler works by scheduling an event on a *specific calendar day* such as **March 1st**, the Regimen Builder works by scheduling events on a *relative day* such as **Day 22** from when the regimen is started. Regimens are therefore a way to bulk re-schedule a set of events starting at any time.
 
-![s8.png](s8.png)
+![s8.png](_images/s8.png)
 
 Let's look at our tomatoes example again, this time using the Regimen Builder to reach the same outcome. First, we'll make a Regimen:
 1. Seed Injection will run on **Day 1**
@@ -40,37 +40,37 @@ Using this method, we created one Regimen and four Event Schedules instead of th
 
 In the far right, press the <span class="fb-button fb-green">+</span> button (in the **Regimens** panel).
 
-![r1.png](r1.png)
+![r1.png](_images/r1.png)
 
 A new regimen will appear in the **Regimen Editor**.
 
-![r2.png](r2.png)
+![r2.png](_images/r2.png)
 
  You can give it a name and a color.
 
-![r3.png](r3.png)
+![r3.png](_images/r3.png)
 
 In the **Scheduler**, select a sequence from the dropdown. Pick a time and day for it to run. For this example, we will run the **Seed Injection** sequence on day 1 at 10am. Press the <span class="fb-button fb-green">+</span> button in the **Scheduler** panel to add the scheduled sequence to the regimen.
 
-![r4.png](r4.png)
+![r4.png](_images/r4.png)
 
 You can see the scheduled sequence has been added to the **Regimen Editor**.
 
 Next we will add some **Light Watering** to the regimen. For this example, we will perform light watering every other day at 8pm for the first two weeks.
 
-![r5.png](r5.png)
+![r5.png](_images/r5.png)
 
 You can see the scheduled sequence has been added to the **Regimen Editor**.
 
-![r6.png](r6.png)
+![r6.png](_images/r6.png)
 
 Next we will select the **Medium Watering** sequence and have it run every other day at 8pm for weeks 3 through 7.
 
-![r7.png](r7.png)
+![r7.png](_images/r7.png)
 
 After pressing the <span class="fb-button fb-green">+</span> button, our regimen is complete! Press <span class="fb-button fb-green">Save</span> to save the regimen.
 
-![s8.png](s8.png)
+![s8.png](_images/s8.png)
 
 
 

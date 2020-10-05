@@ -1,7 +1,7 @@
 ---
 title: "Getting Started"
 slug: "getting-started"
-excerpt: "Suggested steps for getting started with FarmBot"
+description: "Suggested steps for getting started with FarmBot"
 ---
 
 * toc
@@ -12,7 +12,7 @@ If you just finished your FarmBot hardware assembly, you should be ready to set 
 1. Create a web application account at [my.farm.bot](https://my.farm.bot).
 2. [Install FarmBot OS](../Device/farmbot-os.md) and [configure FarmBot](../Device/farmbot-os/configurator.md) to connect to your home WiFi network and your web application account.
 3. Verify that manual movements are successful throughout your FarmBot's working area using the [manual Controls](../Web-App/controls.md).
-4. [Calibrate](../Extras/calibration-and-homing.md) the device.
+4. [Calibrate](../Extras/how-do-i/calibrate-and-home-farmbot.md) the device.
 5. Adjust [Device parameters](../Web-App/device.md) as desired and/or needed.
 6. Add [Tools and Tool Slots](../Web-App/tools.md).
 7. Create and test [Sequences](../Web-App/sequences.md) for mounting and dismounting tools.

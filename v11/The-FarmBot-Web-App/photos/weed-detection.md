@@ -6,7 +6,7 @@ slug: "weed-detection"
 * toc
 {:toc}
 
-FarmBot is designed to remove weeds early and often, so that the weeds are always small, young, and fragile, and therefore easily removed by the [weeding tool](https://genesis.farm.bot/v1.5/FarmBot-Genesis-V1-5/tools/weeder). FarmBot finds weeds by using computer vision software to detect all plants in the bed and then mark any detected plant that was not planted by FarmBot as a weed.
+FarmBot is designed to remove weeds early and often, so that the weeds are always small, young, and fragile, and therefore easily removed by the [weeding tool](https://genesis.farm.bot/docs/weeder). FarmBot finds weeds by using computer vision software to detect all plants in the bed and then mark any detected plant that was not planted by FarmBot as a weed.
 
 <iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D_Qko08YBP2o&src=http%3A%2F%2Fwww.youtube.com%2Fembed%2F_Qko08YBP2o&type=text%2Fhtml&key=f2aa6fc3595946d0afc3d76cbbd25dc3&schema=youtube" width="854" height="480" scrolling="no" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
 
@@ -22,7 +22,7 @@ content="To use the weed detection feature, you must first [calibrate the camera
 # Step 1: Select color range
 The weed detector software needs a range of color to look for when determining what is a plant and what is soil or other background. Use the sliders for **HUE**, **SATURATION**, and **VALUE** to select a range of colors you want to detect. The color boxes will give an indication of the range selected. For the hue slider, a green color range is approximately `30` to `90`.
 
-![Screen Shot 2020-06-29 at 8.07.32 PM.png](Screen_Shot_2020-06-29_at_8.07.32_PM.png)
+![Screen Shot 2020-06-29 at 8.07.32 PM.png](_images/Screen_Shot_2020-06-29_at_8.07.32_PM.png)
 
 # Step 2: Tune processing parameters
 Once an image has been taken with the camera, the weed detector software will process it. There are several processing parameters available (**BLUR**, **MORPH**, and **ITERATION**) that can help you fine tune the system to perform the best in your environment. It is recommended to use the default values at first, run a test, and then experiment with the processing parameter values to see how the results change.
@@ -30,7 +30,7 @@ Once an image has been taken with the camera, the weed detector software will pr
 # Step 3: Detect weeds
 Move the FarmBot over a section of soil. Press <span class="fb-button fb-green">detect weeds</span> to instruct FarmBot to take a photo and then process that image with the weed detection software. Any weeds found in the image will appear in the map, and be listed in the weeds panel.
 
-![Screen Shot 2020-06-29 at 8.13.50 PM.png](Screen_Shot_2020-06-29_at_8.13.50_PM.png)
+![Screen Shot 2020-06-29 at 8.13.50 PM.png](_images/Screen_Shot_2020-06-29_at_8.13.50_PM.png)
 
 <span class="fb-button fb-green">scan current image</span> can be used to run weed detection on an image already taken, instead of taking a new photo.
 

@@ -1,7 +1,7 @@
 ---
 title: "Logs"
 slug: "logs"
-excerpt: "View and filter FarmBot OS log messages :email:\n[Open this page in the app](https://my.farm.bot/app/logs)"
+description: "View and filter FarmBot OS log messages :email:\n[Open this page in the app](https://my.farm.bot/app/logs)"
 ---
 
 * toc
@@ -16,14 +16,14 @@ There are several **log types**, each with their own color, that indicate the ty
 
 |Log Type                      |Meaning                       |
 |------------------------------|------------------------------|
-|<span class="green"><i class="fa fa-circle"></i></span> **SUCCESS**|FarmBot has successfully completed a task.<br>**Example:** *Synced*
-|<span class="yellow"><i class="fa fa-circle"></i></span> **BUSY**|FarmBot is busy working on a task.<br>**Example:** *Syncing*
-|<span class="orange"><i class="fa fa-circle"></i></span> **WARN**|A situation may require your attention or make FarmBot unresponsive.<br>**Example:** *Emergency locking and powering down*
-|<span class="red"><i class="fa fa-circle"></i></span> **ERROR**|An error or emergency stop has occurred.<br>**Example:** *Movement failed*
-|<span class="light-blue"><i class="fa fa-circle"></i></span> **INFO**|General information about what FarmBot is doing.<br>**Example:** *Starting Water All Plants Sequence*
-|<span class="blue"><i class="fa fa-circle"></i></span> **FUN**|Logs that are just for fun :rabbit:
-|<span class="gray"><i class="fa fa-circle"></i></span> **DEBUG**|Verbose information relevant to software development and troubleshooting.<br>**Example:** *Network interface needs configuration: wlan0*
-|<span class="gray"><i class="fa fa-circle"></i></span> **ASSERTION**|Results of <span class="fb-step fb-wait">ASSERTION</span> commands. (advanced)
+|<span class="green"><i class='fa fa-circle'></i></span> **SUCCESS**|FarmBot has successfully completed a task.<br>**Example:** *Synced*
+|<span class="yellow"><i class='fa fa-circle'></i></span> **BUSY**|FarmBot is busy working on a task.<br>**Example:** *Syncing*
+|<span class="orange"><i class='fa fa-circle'></i></span> **WARN**|A situation may require your attention or make FarmBot unresponsive.<br>**Example:** *Emergency locking and powering down*
+|<span class="red"><i class='fa fa-circle'></i></span> **ERROR**|An error or emergency stop has occurred.<br>**Example:** *Movement failed*
+|<span class="light-blue"><i class='fa fa-circle'></i></span> **INFO**|General information about what FarmBot is doing.<br>**Example:** *Starting Water All Plants Sequence*
+|<span class="blue"><i class='fa fa-circle'></i></span> **FUN**|Logs that are just for fun :rabbit:
+|<span class="gray"><i class='fa fa-circle'></i></span> **DEBUG**|Verbose information relevant to software development and troubleshooting.<br>**Example:** *Network interface needs configuration: wlan0*
+|<span class="gray"><i class='fa fa-circle'></i></span> **ASSERTION**|Results of <span class="fb-step fb-wait">ASSERTION</span> commands. (advanced)
 
 # Verbosity and filtering
 FarmBot sends logs for nearly every action it takes. Sometimes seeing all of the logs can be helpful, for example when trying out new features or when debugging your system. Other times seeing only the most important "high level" logs is desirable, such as when you leave your FarmBot to work for a few weeks and you just periodically check in.
@@ -36,12 +36,12 @@ Setting a verbosity slider to `0` means you will not see any logs of that type i
 
 The **PRESETS** for <span class="fb-button fb-gray">NORMAL</span> and <span class="fb-button fb-gray">MAX</span> set all log types to verbosity level `1` and `3` respectively.
 
-![Screen Shot 2019-07-10 at 4.06.29 PM.png](Screen_Shot_2019-07-10_at_4.06.29_PM.png)
+![Screen Shot 2019-07-10 at 4.06.29 PM.png](_images/Screen_Shot_2019-07-10_at_4.06.29_PM.png)
 
 # Logs settings menu
-You can customize whether or not FarmBot sends some types of logs or not by using the options in the <i class="fa fa-cog"></i> menu. Each option is described in the tooltip shown when the <span class="fb-tooltip"><i class="fa fa-question"></i></span> icon is clicked.
+You can customize whether or not FarmBot sends some types of logs or not by using the options in the <i class='fa fa-cog'></i> menu. Each option is described in the tooltip shown when the <span class="fb-tooltip"><i class='fa fa-question'></i></span> icon is clicked.
 
-![Screen Shot 2019-07-10 at 4.05.39 PM.png](Screen_Shot_2019-07-10_at_4.05.39_PM.png)
+![Screen Shot 2019-07-10 at 4.05.39 PM.png](_images/Screen_Shot_2019-07-10_at_4.05.39_PM.png)
 
 
 
@@ -63,7 +63,7 @@ Time Period | Max Number of Logs
 
 If a log limit is reached, a **cooldown period** will begin where log storage and display is suspended until the next time period. For example, if the 1 minute limit is reached, logs will be suspended until the next minute. A warning log and toast notification will be displayed, indicating the suspension:
 
-![Screen Shot 2018-08-15 at 12.23.33 PM.png](Screen_Shot_2018-08-15_at_12.23.33_PM.png)
+![Screen Shot 2018-08-15 at 12.23.33 PM.png](_images/Screen_Shot_2018-08-15_at_12.23.33_PM.png)
 
 
 
@@ -76,7 +76,7 @@ content="Even when log storage and display is suspended, you can still control t
 
 Once the cooldown period has ended, logs will resume being stored and displayed in the web application. An informational log and toast notification will indicate this:
 
-![Screen Shot 2018-08-15 at 12.23.42 PM.png](Screen_Shot_2018-08-15_at_12.23.42_PM.png)
+![Screen Shot 2018-08-15 at 12.23.42 PM.png](_images/Screen_Shot_2018-08-15_at_12.23.42_PM.png)
 
 
 

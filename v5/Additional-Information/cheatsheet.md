@@ -1,7 +1,7 @@
 ---
 title: "Cheatsheet"
 slug: "cheatsheet"
-excerpt: "The shortlist of commands, nomenclature, and locations to get all the FarmBot software up and running"
+description: "The shortlist of commands, nomenclature, and locations to get all the FarmBot software up and running"
 ---
 
 * toc

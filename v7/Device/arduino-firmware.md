@@ -1,7 +1,7 @@
 ---
 title: "Arduino Firmware"
 slug: "arduino-firmware"
-excerpt: "Step-by-step instructions for installing the FarmBot's Arduino firmware"
+description: "Step-by-step instructions for installing the FarmBot's Arduino firmware"
 ---
 
 * toc
@@ -39,7 +39,7 @@ Navigate to the [Device page](https://my.farm.bot/app/device). Under the Device 
 include callout.html
 type="warning"
 title="For developers only"
-content="This method is only recommended for software developers working with custom firmware. For more information, see the [developer docs](https://developer.farm.bot/Documentation/firmware/custom-firmware)."
+content="This method is only recommended for software developers working with custom firmware. For more information, see the [developer docs](https://developer.farm.bot/docs/custom-firmware)."
 %}
 
 

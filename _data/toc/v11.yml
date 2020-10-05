@@ -1,5 +1,5 @@
 version_number: 11
-status: stable
+status: deprecated
 home: FarmBot-Software/intro
 contents:
   - title: FarmBot Software
@@ -68,6 +68,10 @@ contents:
       - title: Photos
         url: photos
         pages:
+          - title: Filter map photos
+            url: filter-map-photos
+          - title: Camera settings
+            url: camera-settings
           - title: Camera Calibration
             url: camera-calibration
           - title: Weed Detection

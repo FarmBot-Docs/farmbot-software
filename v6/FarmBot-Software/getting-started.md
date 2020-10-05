@@ -1,7 +1,7 @@
 ---
 title: "Getting Started"
 slug: "getting-started"
-excerpt: "Suggested steps for getting started with FarmBot"
+description: "Suggested steps for getting started with FarmBot"
 ---
 
 * toc

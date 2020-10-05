@@ -1,7 +1,7 @@
 ---
 title: "Configurator"
 slug: "configurator"
-excerpt: "Step-by-step instructions for configuring FarmBot"
+description: "Step-by-step instructions for configuring FarmBot"
 ---
 
 * toc
@@ -41,7 +41,7 @@ content="Using FarmBot OS release 3.0.6 or later? Try [farmbot.io/setup](http://
 
 
 
-![configurator.png](configurator.png)
+![configurator.png](_images/configurator.png)
 
 6. From here, follow the on-screen form to enter:
  * Your local timezone.

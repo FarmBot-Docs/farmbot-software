@@ -1,7 +1,7 @@
 ---
 title: "Farmware"
 slug: "farmware"
-excerpt: "Photos and Weed Detection [my.farmbot.io/app/farmware](http://my.farmbot.io/app/farmware)"
+description: "Photos and Weed Detection [my.farmbot.io/app/farmware](http://my.farmbot.io/app/farmware)"
 ---
 
 * toc
@@ -14,7 +14,7 @@ Widgets on this page:
  * [Camera Calibration](#camera-calibration)
 
 <div class="nav-image">
-  <img class="nav-image" src="farmware.png" alt="Device" />
+  <img class="nav-image" src="_images/farmware.png" alt="Device" />
   <a href="https://software.farmbot.io/docs/farmware#farmware" style="top: 5.01%; left: 59.11%; width: 39.85%; height: 11.27%;"></a>
   <a href="https://software.farmbot.io/docs/farmware#take-photo" style="top: 5.17%; left: 0.64%; width: 56.61%; height: 39.71%;"></a>
   <a href="https://software.farmbot.io/docs/farmware#weed-detector" style="top: 46.90%; left: 50.81%; width: 48.03%; height: 52.45%;"></a>
@@ -25,8 +25,8 @@ Widgets on this page:
 
 
 <!--
-farmware_page.png
-photo_widget.png
+_images/farmware_page.png
+_images/photo_widget.png
 -->
 
 
@@ -35,7 +35,7 @@ photo_widget.png
 
 
 
-![farmware.png](farmware.png)
+![farmware.png](_images/farmware.png)
 
 Run a Farmware by selecting it from the list and pressing <span class="fb-button fb-green">run</span>. For more information, see [Farmware](../Additional-Information/farmware-dev.md).
 
@@ -43,7 +43,7 @@ Run a Farmware by selecting it from the list and pressing <span class="fb-button
 
 
 
-![photo_widget.png](photo_widget.png)
+![photo_widget.png](_images/photo_widget.png)
 
 Take photos using FarmBot's camera and view them.
 
@@ -74,11 +74,11 @@ content=""
 
 Calibrate your FarmBot's camera. See also: [Weed Detector](#weed-detector)
 
-![camera_calibration.png](camera_calibration.png)
+![camera_calibration.png](_images/camera_calibration.png)
 
 Camera calibration works by using the distance between and orientation of calibration objects placed in the garden bed. Calibration only needs to be performed once.
 
-![config.png](config.png)
+![config.png](_images/config.png)
 
 ## Instructions:
 
@@ -131,7 +131,7 @@ content="To use the Weed Detector widget, you must first calibrate the camera us
 
 
 
-![weed_detector.png](weed_detector.png)
+![weed_detector.png](_images/weed_detector.png)
 
 Select hue, saturation, and value ranges to cover the colors you want to detect using the sliders. The color boxes will give an indication of the range selected. For the hue slider, a green color range is approximately 30-90.
 
@@ -145,7 +145,7 @@ Detect weeds across FarmBot's entire bed by creating a sequence of movements in 
 
 Weed removal can be performed by creating a weed removal sequence that uses the weeding tool on weeds (points) in the Farm Designer. For more information on the weed detection process, see [Weed Detection](../Additional-Information/weed-detection.md). For more information on creating sequences, see [Sequences](../Web-App/sequences.md).
 
-![both.png](both.png)
+![both.png](_images/both.png)
 
 _Left: Camera Calibration widget, Right: Weed Detector widget_
 

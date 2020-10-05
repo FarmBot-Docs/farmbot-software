@@ -1,14 +1,14 @@
 ---
 title: "Encoders"
 slug: "encoders"
-excerpt: "[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=encoders)"
+description: "[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=encoders)"
 ---
 
 * toc
 {:toc}
 
 
-![Screen Shot 2020-04-22 at 4.57.44 PM.png](Screen_Shot_2020-04-22_at_4.57.44_PM.png)
+![Screen Shot 2020-04-22 at 4.57.44 PM.png](_images/Screen_Shot_2020-04-22_at_4.57.44_PM.png)
 
 # Enable encoders
 FarmBot Genesis kits have rotary encoders built-in. The rotary encoders should be enabled by using these toggles. If you are experiencing troubles with your movements you might try to disable encoders for testing purposes. If you do not have encoders hooked up, you must have encoders disabled here otherwise your FarmBot will think it is stalling with every movement. Note that Homing and Calibration can only be used if encoders (or endstops) are enabled.

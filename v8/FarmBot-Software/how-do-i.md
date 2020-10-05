@@ -1,7 +1,7 @@
 ---
 title: "How Do I?"
 slug: "how-do-i"
-excerpt: "Guides for accomplishing common tasks with your FarmBot"
+description: "Guides for accomplishing common tasks with your FarmBot"
 ---
 
 * toc

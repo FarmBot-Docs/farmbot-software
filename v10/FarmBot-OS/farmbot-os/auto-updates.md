@@ -10,7 +10,7 @@ FarmBot OS is regularly improved to include new features, security enhancements,
 
 By default, all FarmBots are configured to update automatically at 3AM local time, meaning you don't have to worry about manually staying up-to-date. You can change the **UPDATE TIME** and also turn off **AUTO UPDATE** from the device settings panel, though this is not recommended.
 
-![Screen Shot 2020-05-19 at 8.49.56 AM.png](Screen_Shot_2020-05-19_at_8.49.56_AM.png)
+![Screen Shot 2020-05-19 at 8.49.56 AM.png](_images/Screen_Shot_2020-05-19_at_8.49.56_AM.png)
 
 # The update process
 Updates will happen **over-the-air**, meaning FarmBot will download the latest version of the software when it becomes available, apply it, and reboot as necessary. Under normal circumstances there will be no need for reconfiguration or any manual effort required by the user; FarmBot should come back online, re-sync, and resume any scheduled events automatically.
@@ -24,5 +24,5 @@ Major releases of FarmBot OS may have **breaking changes** that allow the greate
 
 To view a summarized change of what's new in FarmBot OS, click the **Release Notes** popup.
 
-![Screen Shot 2020-05-19 at 8.39.23 AM.png](Screen_Shot_2020-05-19_at_8.39.23_AM.png)
+![Screen Shot 2020-05-19 at 8.39.23 AM.png](_images/Screen_Shot_2020-05-19_at_8.39.23_AM.png)
 

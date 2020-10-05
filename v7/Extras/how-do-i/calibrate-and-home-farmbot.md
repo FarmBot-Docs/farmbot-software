@@ -1,7 +1,7 @@
 ---
 title: "Calibrate and Home FarmBot"
 slug: "calibrate-and-home-farmbot"
-excerpt: "Manual and automatic approaches"
+description: "Manual and automatic approaches"
 ---
 
 * toc
@@ -46,7 +46,7 @@ Use the <span class="fb-button fb-gray">HOME X</span>, <span class="fb-button fb
 There are two mechanisms by which automatic calibration and homing can work:
 
 ## With rotary encoders (included in FarmBot Genesis kits)
-FarmBot moves in the zero direction of the axis until the [rotary encoders](../rotary-encoders.md) detect missed motor steps when the axis reaches the end. This location is recorded as zero for the axis. If performing calibration in addition to homing, FarmBot will move the opposite direction from zero and record the distance traveled (length of axis) when the other end is reached, and then move back home.
+FarmBot moves in the zero direction of the axis until the [rotary encoders](../../Device/arduino-firmware/stall-detection.md) detect missed motor steps when the axis reaches the end. This location is recorded as zero for the axis. If performing calibration in addition to homing, FarmBot will move the opposite direction from zero and record the distance traveled (length of axis) when the other end is reached, and then move back home.
 
 ## With end-stops (DIY option if not using rotary encoders)
 FarmBot moves in the zero direction of the axis until the end-stop triggers when the axis reaches the end. This location is recorded as zero for the axis. If performing calibration in addition to homing, FarmBot will move the opposite direction from zero and record the distance traveled (length of axis) when the end-stop on the other end is reached, and then move back home.

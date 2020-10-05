@@ -1,7 +1,7 @@
 ---
 title: "Controls"
 slug: "controls"
-excerpt: "Manually control your FarmBot from anywhere! :calling:\n[Open this panel in the app](https://my.farm.bot/app/designer/controls)"
+description: "Manually control your FarmBot from anywhere! :calling:\n[Open this panel in the app](https://my.farm.bot/app/designer/controls)"
 ---
 
 * toc

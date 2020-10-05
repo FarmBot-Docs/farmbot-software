@@ -1,7 +1,7 @@
 ---
 title: "Controls"
 slug: "controls"
-excerpt: "Manually control your FarmBot from anywhere! [my.farm.bot/app/controls](https://my.farm.bot/app/controls)"
+description: "Manually control your FarmBot from anywhere! [my.farm.bot/app/controls](https://my.farm.bot/app/controls)"
 ---
 
 * toc

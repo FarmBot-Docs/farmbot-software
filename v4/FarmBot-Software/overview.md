@@ -1,7 +1,7 @@
 ---
 title: "High Level Overview"
 slug: "overview"
-excerpt: "Description of the FarmBot software toolchain"
+description: "Description of the FarmBot software toolchain"
 ---
 
 * toc
@@ -114,7 +114,7 @@ content="Have a question or need help setting up some of the software? You can a
 ## The FarmBot Web Application
 The web app allows you to easily configure and control your FarmBot from a web browser on your laptop, tablet, or smartphone. The application features real-time manual controls and logging, a sequence builder for creating custom routines for FarmBot to execute, and a drag-and-drop farm designer so you can graphically design and manage your farm.
 
-![Farm Designer V7.png](Farm_Designer_V7.png)
+![Farm Designer V7.png](_images/Farm_Designer_V7.png)
 
 ## MQTT Gateway
 The MQTT Gateway is a cloud application that acts as an intermediary for all messages between the FarmBot web app and FarmBot devices. It handles socket connections, device identification, and authentication.
@@ -155,7 +155,7 @@ Data is exchanged across the web application, Raspberry Pi controller, and the u
 FarmBot's Raspberry Pi controller automatically synchronizes with the web application every hour and with manual initiation from the user via the browser. The data that is transferred during synchronization includes logs, configuration settings, sensor data, sequences, schedules, and events. The diagram below explains how this works.
 
 <div class="translatable-image-flow">
-  <!--<a href="FarmBot_Syncing_Flows.png">-->
+  <!--<a href="_images/FarmBot_Syncing_Flows.png">-->
   <img src="https://cloud.githubusercontent.com/assets/12681652/15723358/e4639daa-27f6-11e6-9db9-ed35f7a69d25.png" />
   <!--</a>-->
   

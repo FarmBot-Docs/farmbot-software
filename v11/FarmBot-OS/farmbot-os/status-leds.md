@@ -1,7 +1,7 @@
 ---
 title: "Status LEDs"
 slug: "status-leds"
-excerpt: "The meaning behind the blinking"
+description: "The meaning behind the blinking"
 ---
 
 * toc
@@ -10,13 +10,13 @@ excerpt: "The meaning behind the blinking"
 # Raspberry Pi LEDs
 The Raspberry Pi has two LED lights that convey information about its status.
 
-![RASPBERRY_PI_LIGHTS.jpg](RASPBERRY_PI_LIGHTS.jpg)
+![RASPBERRY_PI_LIGHTS.jpg](_images/RASPBERRY_PI_LIGHTS.jpg)
 
 _Raspberry Pi 3, included with Genesis kits_
 
 
 
-![Pi Zero.jpg](Pi_Zero.jpg)
+![Pi Zero.jpg](_images/Pi_Zero.jpg)
 
 _Raspberry Pi Zero W, included with Express kits_
 
@@ -40,13 +40,13 @@ _Raspberry Pi Zero W, included with Express kits_
 # Electronics box LEDs
 In addition to the LEDs located on the Raspberry Pi, Genesis v1.4+ kits feature LEDs mounted on top of the electronics box, and Express v1.0+ kits feature LEDs on the Farmduino Express circuit board.
 
-![LEDs.png](LEDs.png)
+![LEDs.png](_images/LEDs.png)
 
 _Box LEDs on Genesis kit_
 
 
 
-![IMG_20200618_144126.jpg](IMG_20200618_144126.jpg)
+![IMG_20200618_144126.jpg](_images/IMG_20200618_144126.jpg)
 
 _Farmduino Express LEDs on Express kits_
 
@@ -67,7 +67,7 @@ This blue LED indicates the **connection status** between FarmBot and the intern
 |------------------------------|------------------------------|
 |<span class="fa fa-circle blue"></span> (solid blue)|Connected and working
 |<span class="fa fa-sun-o blue"></span> (blinking slowly)|Needs configuration - [Configure FarmBot](../farmbot-os/configurator.md), press <span class="fb-button fb-yellow">UNLOCK</span> in the Web App, or check that the network FarmBot is connected to is online.
-|<span class="fa fa-circle-thin blue"></span> (off)|Offline - Check your internet connection.<br><br>If you are connected to the internet but the Blue LED is off, one or more of your ports may be blocked. Get your network administrator to check the ports listed in the [Firewall is blocking network traffic](../../Extras/troubleshooting/connecting-farmbot-to-the-web-app.md#6--firewall-is-blocking-network-traffic) troubleshooting section.
+|<span class="fa fa-circle-thin blue"></span> (off)|Offline - Check your internet connection.<br><br>If you are connected to the internet but the Blue LED is off, one or more of your ports may be blocked. Get your network administrator to check the ports listed in the [Firewall is blocking network traffic](../../Extras/troubleshooting/connecting-farmbot-to-the-web-app.md#6-firewall-is-blocking-network-traffic) troubleshooting section.
 
 ## LED 3 (custom)
 This white LED (Genesis kits only) is user controllable via the <span class="fb-step fb-write-pin">Control Peripheral</span> sequence command. It is connected to Raspberry Pi GPIO BCM pin 12.

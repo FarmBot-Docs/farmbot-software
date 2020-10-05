@@ -6,7 +6,7 @@ slug: "moving-farmbot-to-new-locations"
 * toc
 {:toc}
 
-FarmBot is a fun platform to share with others and offers a great deal of crowd appeal at events such as fairs and trade shows. Many FarmBot users, particularly those in STEM education, will move their devices to new locations using [mobile garden beds](https://genesis.farm.bot/FarmBot-Genesis-V1-4/supporting-infrastructure/building-a-mobile-raised-bed) or removable trays. This document outlines considerations to account for when moving FarmBot to a new location.
+FarmBot is a fun platform to share with others and offers a great deal of crowd appeal at events such as fairs and trade shows. Many FarmBot users, particularly those in STEM education, will move their devices to new locations using [mobile garden beds](https://genesis.farm.bot/docs/mobile-raised-bed) or removable trays. This document outlines considerations to account for when moving FarmBot to a new location.
 
 # Check network conditions before moving the device
 

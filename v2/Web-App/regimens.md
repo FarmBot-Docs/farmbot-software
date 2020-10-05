@@ -1,7 +1,7 @@
 ---
 title: "Regimens"
 slug: "regimens"
-excerpt: "Plant care recipes for your FarmBot to follow [my.farmbot.io/app/regimens](http://my.farmbot.io/app/regimens)"
+description: "Plant care recipes for your FarmBot to follow [my.farmbot.io/app/regimens](http://my.farmbot.io/app/regimens)"
 ---
 
 * toc
@@ -24,7 +24,7 @@ Now imagine you want to grow 10 more tomato plants starting March 9th, and 10 mo
 
 While the Event Scheduler works by scheduling an event on a *specific calendar day* such as **March 1st**, the Regimen Builder works by scheduling events on a *relative day* such as **Day 22** from when the regimen is started. Regimens are therefore a way to bulk re-schedule a set of events starting at any time.
 
-![regimens.png](regimens.png)
+![regimens.png](_images/regimens.png)
 
 Let's look at our tomatoes example again, this time using the Regimen Builder to reach the same outcome. First, we'll make a Regimen:
 1. Seed Injection will run on **Day 1**
@@ -40,31 +40,31 @@ Using this method, we created one Regimen and four Event Schedules instead of th
 
 
 
-![no regimens.png](no_regimens.png)
+![no regimens.png](_images/no_regimens.png)
 
 
 
-![new regimen.png](new_regimen.png)
+![new regimen.png](_images/new_regimen.png)
 
 
 
-![seed.png](seed.png)
+![seed.png](_images/seed.png)
 
 
 
-![light.png](light.png)
+![light.png](_images/light.png)
 
 
 
-![light_added.png](light_added.png)
+![light_added.png](_images/light_added.png)
 
 
 
-![medium.png](medium.png)
+![medium.png](_images/medium.png)
 
 
 
-![medium added.png](medium_added.png)
+![medium added.png](_images/medium_added.png)
 
 
 # What's next?

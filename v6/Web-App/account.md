@@ -1,7 +1,7 @@
 ---
 title: "Account"
 slug: "account"
-excerpt: "Manage your account and app settings [my.farm.bot/app/account](https://my.farm.bot/app/account)"
+description: "Manage your account and app settings [my.farm.bot/app/account](https://my.farm.bot/app/account)"
 ---
 
 * toc
@@ -9,7 +9,7 @@ excerpt: "Manage your account and app settings [my.farm.bot/app/account](https:/
 
 
 <div class="nav-image">
-  <img class="nav-image" src="account.png" alt="Account" />
+  <img class="nav-image" src="_images/account.png" alt="Account" />
   <a href="#account-settings" style="top: 6.66%; left: 26.34%; width: 47.39%; height: 11.98%;"></a>
   <a href="#change-password" style="top: 21.76%; left: 26.27%; width: 47.32%; height: 15.71%;"></a>
   <a href="#app-settings" style="top: 40.56%; left: 26.34%; width: 47.46%; height: 31.23%;"></a>

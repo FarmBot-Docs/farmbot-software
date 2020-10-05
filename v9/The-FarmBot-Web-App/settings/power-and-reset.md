@@ -1,14 +1,14 @@
 ---
 title: "Power and Reset"
 slug: "power-and-reset"
-excerpt: "[Open these settings in the app](https://my.farm.bot/app/device?highlight=power_and_reset)"
+description: "[Open these settings in the app](https://my.farm.bot/app/device?highlight=power_and_reset)"
 ---
 
 * toc
 {:toc}
 
 
-![Screen Shot 2020-04-22 at 4.58.22 PM.png](Screen_Shot_2020-04-22_at_4.58.22_PM.png)
+![Screen Shot 2020-04-22 at 4.58.22 PM.png](_images/Screen_Shot_2020-04-22_at_4.58.22_PM.png)
 
 # Restart FarmBot
 This will restart FarmBot's Raspberry Pi and FarmBot OS.

@@ -1,19 +1,19 @@
 ---
 title: "Axes"
 slug: "axes"
-excerpt: "[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=axes)"
+description: "[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=axes)"
 ---
 
 * toc
 {:toc}
 
 
-![Screen Shot 2020-04-22 at 4.58.13 PM.png](Screen_Shot_2020-04-22_at_4.58.13_PM.png)
+![Screen Shot 2020-04-22 at 4.58.13 PM.png](_images/Screen_Shot_2020-04-22_at_4.58.13_PM.png)
 
 # Find home
 Finding home instructs FarmBot to find the home (minimum) position by moving towards home until an endstop, rotary encoder, or stepper driver signals that the end of the axis has been reached. Note that **ENCODERS**, **STALL DETECTION**, or **LIMIT SWITCHES** must be <span class="fb-peripheral-on">ON</span> for FarmBot to automatically find home.
 
-To home an axis, click the <span class="fb-button fb-yellow">FIND HOME X</span>, <span class="fb-button fb-yellow">FIND HOME Y</span>, or <span class="fb-button fb-yellow">FIND HOME Z</span> buttons. To home all three axes, you can use the <span class="fb-button fb-gray"><i class="fa fa-home"></i></span> button in the controls widget (assuming that that button is set to its default behavior).
+To home an axis, click the <span class="fb-button fb-yellow">FIND HOME X</span>, <span class="fb-button fb-yellow">FIND HOME Y</span>, or <span class="fb-button fb-yellow">FIND HOME Z</span> buttons. To home all three axes, you can use the <span class="fb-button fb-gray"><i class='fa fa-home'></i></span> button in the controls widget (assuming that that button is set to its default behavior).
 
 {%
 include callout.html

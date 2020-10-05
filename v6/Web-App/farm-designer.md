@@ -1,7 +1,7 @@
 ---
 title: "Farm Designer"
 slug: "farm-designer"
-excerpt: "Drag-and-drop plant placement [my.farm.bot/app/designer](https://my.farm.bot/app/designer)"
+description: "Drag-and-drop plant placement [my.farm.bot/app/designer](https://my.farm.bot/app/designer)"
 ---
 
 * toc
@@ -10,7 +10,7 @@ excerpt: "Drag-and-drop plant placement [my.farm.bot/app/designer](https://my.fa
 View and layout your garden in a virtual representation of your FarmBot's bed on this page.
 
 <div class="nav-image">
-  <img class="nav-image" src="overview.png" alt="Farm Designer" />
+  <img class="nav-image" src="_images/overview.png" alt="Farm Designer" />
   <a href="#add-plants" style="top: 12%; left: 0%; width: 30.75%; height: 87%;"></a>
   <a href="#map" style="top: 12%; left: 30.75%; width: 69%; height: 87%;"></a>
 </div>
@@ -26,27 +26,27 @@ View and layout your garden in a virtual representation of your FarmBot's bed on
 
 Add plants for your FarmBot to grow by pressing the <span class="fb-circle-button fb-green">+</span> button.
 
-![add.png](add.png)
+![add.png](_images/add.png)
 
 Search for a crop in the panel that appears.
 
-![crop_search.png](crop_search.png)
+![crop_search.png](_images/crop_search.png)
 
 For example, "golden beet."
 
-![golden_beet.png](golden_beet.png)
+![golden_beet.png](_images/golden_beet.png)
 
 Find the crop that you'd like in your garden and click it to bring up the crop information.
 
-![golden_beet_crop_page.png](golden_beet_crop_page.png)
+![golden_beet_crop_page.png](_images/golden_beet_crop_page.png)
 
 Drag the crop image into the [map](#map) to place the crop in your garden.
 
-![beet_drag.png](beet_drag.png)
+![beet_drag.png](_images/beet_drag.png)
 
 You now have a plant!
 
-![new_beet.png](new_beet.png)
+![new_beet.png](_images/new_beet.png)
 
 
 
@@ -59,7 +59,7 @@ content="When adding many of the same plant, press the `ADD TO MAP` button in th
 
 
 
-![beet_add.png](beet_add.png)
+![beet_add.png](_images/beet_add.png)
 
 
 
@@ -75,11 +75,11 @@ Visual drag helpers will appear to help guide plant placement:
  * Short light red dashes will appear around other plants in the map aligned with the current plant.
  * The current plant's spread will appear, along with other plants' spreads if the plants are close by.
 
-![move_beet.png](move_beet.png)
+![move_beet.png](_images/move_beet.png)
 
 If the current plant's spread overlaps another plant's spread, the other plant's spread will turn colors indicating the degree of overlap. Green indicates a nearby plant spread, yellow is slightly overlapping, and red is severely overlapping.
 
-![red_overlap.png](red_overlap.png)
+![red_overlap.png](_images/red_overlap.png)
 
 
 
@@ -87,15 +87,15 @@ If the current plant's spread overlaps another plant's spread, the other plant's
 
 If you'd like to delete a plant, click on it to bring up the plant information and press the `EDIT` button.
 
-![edit_beet.png](edit_beet.png)
+![edit_beet.png](_images/edit_beet.png)
 
 Press the <span class="fb-button fb-red">DELETE</span> button to remove the plant.
 
-![delete_beet.png](delete_beet.png)
+![delete_beet.png](_images/delete_beet.png)
 
 You can also press the <span class="fb-button fb-gray">DELETE MULTIPLE</span> button to bring up the plant selection interface to delete multiple plants at once.
 
-![select_beets.png](select_beets.png)
+![select_beets.png](_images/select_beets.png)
 
 
 
@@ -103,11 +103,11 @@ You can also press the <span class="fb-button fb-gray">DELETE MULTIPLE</span> bu
 
 You can view all of your plants in the map, a virtual representation of the FarmBot bed. You can drag plants around to rearrange them by clicking on the plant and pressing `EDIT` in the plants panel.
 
-![garden_map.png](garden_map.png)
+![garden_map.png](_images/garden_map.png)
 
 You can open the map display options menu by pressing the white arrow icon in the upper right.
 
-![menu.png](menu.png)
+![menu.png](_images/menu.png)
 
 **Menu options include:**
 * Zoom (+/-)
@@ -118,7 +118,7 @@ You can open the map display options menu by pressing the white arrow icon in th
 * Origin selector (click on one of the four quadrants to adjust the map to your viewing angle)
 * Move mode (open "move to coordinate" mode)
 
-![overview_with_menu.png](overview_with_menu.png)
+![overview_with_menu.png](_images/overview_with_menu.png)
 
 
 
@@ -129,7 +129,7 @@ In addition to showing the current location of FarmBot, the FarmBot layer shows:
  * Tools (hover to display tool names)
  * Current status of some peripherals (vacuum pump, water, lights)
 
-![lights_on.png](lights_on.png)
+![lights_on.png](_images/lights_on.png)
 
 _Lights are on!_
 
@@ -139,7 +139,7 @@ _Lights are on!_
 
 Press <span class="fb-button fb-gray">MOVE MODE</span> in the map menu to enter "move to coordinate" mode:
 
-![move_to.png](move_to.png)
+![move_to.png](_images/move_to.png)
 
 Click any spot within the map grid to mark it with an `X`, and press <span class="fb-button fb-gray">MOVE TO THIS COORDINATE</span> to send the movement command.
 

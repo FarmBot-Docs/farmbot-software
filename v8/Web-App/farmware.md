@@ -1,7 +1,7 @@
 ---
 title: "Farmware"
 slug: "farmware"
-excerpt: "Plugin system for FarmBot OS [my.farm.bot/app/farmware](https://my.farm.bot/app/farmware)"
+description: "Plugin system for FarmBot OS [my.farm.bot/app/farmware](https://my.farm.bot/app/farmware)"
 ---
 
 * toc
@@ -13,7 +13,7 @@ excerpt: "Plugin system for FarmBot OS [my.farm.bot/app/farmware](https://my.far
 include callout.html
 type="info"
 title="Interested in developing farmware?"
-content="Please see our [developer documentation](https://developer.farm.bot/Documentation/farmware) for more details."
+content="Please see our [developer documentation](https://developer.farm.bot/docs/farmware) for more details."
 %}
 
 
@@ -34,7 +34,7 @@ You can also run Farmware systematically by using the <span class="fb-step fb-ta
 
 # Advanced options
 
-Press the <span class="fa fa-gear"></span> icon to open the Farmware advanced menu. To show first-party Farmware (pre-installed Farmware) in the Farmware list, enable the **SHOW IN LIST** setting. If a pre-installed Farmware is accidentally deleted, press the **REINSTALL** <i class="fa fa-download"></i> button.
+Press the <span class="fa fa-gear"></span> icon to open the Farmware advanced menu. To show first-party Farmware (pre-installed Farmware) in the Farmware list, enable the **SHOW IN LIST** setting. If a pre-installed Farmware is accidentally deleted, press the **REINSTALL** <i class='fa fa-download'></i> button.
 
 # What's next?
 

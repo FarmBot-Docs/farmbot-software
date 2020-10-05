@@ -1,7 +1,7 @@
 ---
 title: "Variables"
 slug: "variables"
-excerpt: "Make your sequences and regimens dynamic"
+description: "Make your sequences and regimens dynamic"
 ---
 
 * toc
@@ -14,7 +14,7 @@ We'll start with a *static* sequence (a sequence without any variables). Static 
 
 If you wanted to mount the Seeder tool, you would need to make a second sequence with all of the **LOCATION** inputs set to the Seeder tool. You can imagine that if you had many tools, creating a bunch of variations of basically the same sequence would be tedious and cumbersome.
 
-![Static Sequence.png](Static_Sequence.png)
+![Static Sequence.png](_images/Static_Sequence.png)
 
 _A static sequence that can only be used for one specific purpose_
 
@@ -23,26 +23,26 @@ Let's change the static sequence above into a *dynamic* sequence that can be use
 
 Select `Location Variable - Add new` for the **LOCATION** input in the first <span class="fb-step fb-move-absolute">Move To</span> command.
 
-![Screen Shot 2019-07-04 at 12.27.56 PM.png](Screen_Shot_2019-07-04_at_12.27.56_PM.png)
+![Screen Shot 2019-07-04 at 12.27.56 PM.png](_images/Screen_Shot_2019-07-04_at_12.27.56_PM.png)
 
-This will create a **location variable** in the sequence header and update the **LOCATION** input in the <span class="fb-step fb-move-absolute">Move To</span> command to display as <span class="fb-dropdown">Location Variable - Select a location <i class="fa fa-caret-down"></i></span>.
+This will create a **location variable** in the sequence header and update the **LOCATION** input in the <span class="fb-step fb-move-absolute">Move To</span> command to display as <span class="fb-dropdown">Location Variable - Select a location <i class='fa fa-caret-down'></i></span>.
 
-![Screen Shot 2019-07-04 at 12.29.57 PM.png](Screen_Shot_2019-07-04_at_12.29.57_PM.png)
+![Screen Shot 2019-07-04 at 12.29.57 PM.png](_images/Screen_Shot_2019-07-04_at_12.29.57_PM.png)
 
 Now select `Location Variable - Select a location` for the **LOCATION** inputs in the other two <span class="fb-step fb-move-absolute">Move To</span> commands.
 
-![Screen Shot 2019-07-04 at 12.32.12 PM.png](Screen_Shot_2019-07-04_at_12.32.12_PM.png)
+![Screen Shot 2019-07-04 at 12.32.12 PM.png](_images/Screen_Shot_2019-07-04_at_12.32.12_PM.png)
 
-Then set the **variable value** (in the sequence header) to the `Watering Nozzle` tool from before and notice that all of the **LOCATION** inputs in the <span class="fb-step fb-move-absolute">Move To</span> commands will update to <span class="fb-dropdown">Location Variable - Watering Nozzle (x, y, z) <i class="fa fa-caret-down"></i></span>.
+Then set the **variable value** (in the sequence header) to the `Watering Nozzle` tool from before and notice that all of the **LOCATION** inputs in the <span class="fb-step fb-move-absolute">Move To</span> commands will update to <span class="fb-dropdown">Location Variable - Watering Nozzle (x, y, z) <i class='fa fa-caret-down'></i></span>.
 
-![Screen Shot 2019-07-04 at 12.35.29 PM.png](Screen_Shot_2019-07-04_at_12.35.29_PM.png)
+![Screen Shot 2019-07-04 at 12.35.29 PM.png](_images/Screen_Shot_2019-07-04_at_12.35.29_PM.png)
 
 At this point, while we've added a variable, the sequence is still *static* and would execute in the exact same way as before every time it is run. If we wanted to mount a different tool, we would again need to create a copy of the sequence, this time changing the variable value to the tool we wanted. And still as before, if we had many tools, such a process would be tedious and cumbersome.
 
 ## Make the variable externally defined
 To make our sequence *dynamic* and re-usable for different purposes, we need to make the variable **externally defined**. This will allow us to provide the variable value from another sequence, a regimen, or an event, which will dictate how the sequence is run each time.
 
-To do this, change the variable value (in the sequence header) to `Externally defined`. This selection will then get reflected in all of the **LOCATION** inputs in the <span class="fb-step fb-move-absolute">Move To</span> commands as they update to <span class="fb-dropdown">Location Variable - Externally defined <i class="fa fa-caret-down"></i></span>.
+To do this, change the variable value (in the sequence header) to `Externally defined`. This selection will then get reflected in all of the **LOCATION** inputs in the <span class="fb-step fb-move-absolute">Move To</span> commands as they update to <span class="fb-dropdown">Location Variable - Externally defined <i class='fa fa-caret-down'></i></span>.
 
 {%
 include callout.html
@@ -53,7 +53,7 @@ content="You'll now also need to provide a **DEFAULT VALUE** for the variable, w
 
 
 
-![Dynamic Sequence.png](Dynamic_Sequence.png)
+![Dynamic Sequence.png](_images/Dynamic_Sequence.png)
 
 _A dynamic sequence that can be used in a general way_
 

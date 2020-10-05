@@ -1,7 +1,7 @@
 ---
 title: "Device"
 slug: "device"
-excerpt: "Manage your FarmBot's settings: [my.farm.bot/app/device](https://my.farm.bot/app/device)"
+description: "Manage your FarmBot's settings: [my.farm.bot/app/device](https://my.farm.bot/app/device)"
 ---
 
 * toc

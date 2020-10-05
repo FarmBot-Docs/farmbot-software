@@ -1,7 +1,7 @@
 ---
 title: "Device"
 slug: "device"
-excerpt: "Manage your FarmBot's settings: [my.farmbot.io/app/device](http://my.farmbot.io/app/device)"
+description: "Manage your FarmBot's settings: [my.farmbot.io/app/device](http://my.farmbot.io/app/device)"
 ---
 
 * toc
@@ -12,8 +12,8 @@ Widgets on this page:
  * [Hardware](#hardware-widget)
 
 <div class="nav-image">
-  <img class="nav-image" src="device_page_short.png" alt="Device" />
-  <!--<img class="nav-image" src="device_page.png" alt="Device" />-->
+  <img class="nav-image" src="_images/device_page_short.png" alt="Device" />
+  <!--<img class="nav-image" src="_images/device_page.png" alt="Device" />-->
   <a href="https://software.farmbot.io/docs/device#device-widget" style="top: 14.12%; left: 2.89%; width: 46.30%; height: 72.46%;"></a>
   <a href="https://software.farmbot.io/docs/device#hardware-widget" style="top: 13.98%; left: 51.08%; width: 46.35%; height: 39.69%;"></a>
 </div>
@@ -21,7 +21,7 @@ Widgets on this page:
 
 # Device Widget
 
-![device_widget.png](device_widget.png)
+![device_widget.png](_images/device_widget.png)
 
  * Give your device a name
  * View the FarmBot OS version and update it
@@ -37,7 +37,7 @@ Select the type of camera you are using in the camera selection dropdown. Choice
 
 # Hardware Widget
 
-![hardware_widget_collapsed.png](hardware_widget_collapsed.png)
+![hardware_widget_collapsed.png](_images/hardware_widget_collapsed.png)
 
 # Max speed
 This setting controls the maximum speed in motor steps per second that FarmBot will reach after accelerating.
@@ -85,7 +85,7 @@ content="Press the `+` in `[+] ADVANCED` to expand the advanced settings section
 
 
 
-![hardware_widget.png](hardware_widget.png)
+![hardware_widget.png](_images/hardware_widget.png)
 
 # Steps per mm
 This setting tells FarmBot how many motor steps it takes to move 1mm along an axis. The default value is 5 steps/mm for the belt-driven (X and Y) axes, and 25 steps/mm for the leadscrew-driven (Z) axis.

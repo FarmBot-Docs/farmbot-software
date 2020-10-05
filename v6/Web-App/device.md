@@ -1,7 +1,7 @@
 ---
 title: "Device"
 slug: "device"
-excerpt: "Manage your FarmBot's settings: [my.farm.bot/app/device](https://my.farm.bot/app/device)"
+description: "Manage your FarmBot's settings: [my.farm.bot/app/device](https://my.farm.bot/app/device)"
 ---
 
 * toc
@@ -14,7 +14,7 @@ Widgets on this page:
  * [Pin Bindings](#pin-bindings-widget)
 
 <div class="nav-image">
-  <img class="nav-image" src="device_page.png" alt="Device" />
+  <img class="nav-image" src="_images/device_page.png" alt="Device" />
   <a href="#device-widget" style="top: 9.14%; left: 2.32%; width: 46.47%; height: 49.01%;"></a>
   <a href="#connectivity-widget" style="top: 61.33%; left: 2.37%; width: 46.47%; height: 37.54%;"></a>
   <a href="#hardware-widget" style="top: 9.21%; left: 51.32%; width: 46.31%; height: 27.55%;"></a>
@@ -32,7 +32,7 @@ Widgets on this page:
 
 
 
-![device_widget.png](device_widget.png)
+![device_widget.png](_images/device_widget.png)
 
 ## Name
 Give your device a name
@@ -78,7 +78,7 @@ For use with automatic factory reset: set the time in minutes to attempt connect
 
 
 
-![connectivity_widget.png](connectivity_widget.png)
+![connectivity_widget.png](_images/connectivity_widget.png)
 
 Shows connection information. If a connection goes offline, the relevant link will turn red and a diagnosis message will display.
 
@@ -86,7 +86,7 @@ Shows connection information. If a connection goes offline, the relevant link wi
 
 
 
-![hardware_widget.png](hardware_widget.png)
+![hardware_widget.png](_images/hardware_widget.png)
 
 
 
@@ -99,7 +99,7 @@ content="Press the `+` (for example, in `Motors [+]`) to expand the settings sec
 
 ## Homing and Calibration
 
-![calibration.png](calibration.png)
+![calibration.png](_images/calibration.png)
 
 ### Homing
 Homing an axis instructs FarmBot to find the home (minimum) position by moving towards home until an endstop or encoder signals that the end of the axis has been reached. Homing can only be performed if endstops or encoders are enabled. See [Calibration and Homing](../Additional-Information/calibration-and-homing.md) for further details.
@@ -184,7 +184,7 @@ content="Do not set the timeout times to extremely high values (such as 20,000 s
 
 ## Motors
 
-![motors.png](motors.png)
+![motors.png](_images/motors.png)
 
 ### Max retries
 The number of times that FarmBot will try to move to a position before stopping and reporting that the movement has failed.
@@ -272,7 +272,7 @@ This setting changes the direction of the second x-axis motor in case you wired 
 
 ## Encoders and Endstops
 
-![encoders.png](encoders.png)
+![encoders.png](_images/encoders.png)
 
 ### Enable encoders
 Stock FarmBot kits have rotary encoders built-in. The rotary encoders should be enabled by using these toggles. If you are experiencing troubles with your movements you might try to disable encoders for testing purposes. If you do not have encoders hooked up, you must have encoders disabled here otherwise your FarmBot will think it is stalling with every movement. Note that Homing and Calibration can only be used if encoders (or endstops) are enabled. See [Rotary Encoders](../Additional-Information/rotary-encoders.md) for more information.
@@ -324,7 +324,7 @@ This switches endstop operation from normally open (NC) to normally closed (NC).
 
 ## Danger Zone
 
-![reset.png](reset.png)
+![reset.png](_images/reset.png)
 
 ### Reset Hardware Parameter Defaults
 This will restore all settings to their default values, as shown in the table below.
@@ -381,7 +381,7 @@ content="Binding to a pin without a physical button and pull-down resistor conne
 
 
 
-![pin_bindings.png](pin_bindings.png)
+![pin_bindings.png](_images/pin_bindings.png)
 
 _v1.4 stock bindings shown_
 
@@ -389,11 +389,11 @@ Set or remove Raspberry Pi GPIO pin bindings to allow start of a sequence or an 
 
 Select a Raspberry Pi GPIO pin number (open the GPIO diagram for assistance as shown below by pressing the <span class="fa fa-th-large"></span> icon) and select a sequence in the drop down menu.
 
-![pin_bindings_gpio.png](pin_bindings_gpio.png)
+![pin_bindings_gpio.png](_images/pin_bindings_gpio.png)
 
 Alternatively, select an action:
 
-![pin_bindings_action.png](pin_bindings_action.png)
+![pin_bindings_action.png](_images/pin_bindings_action.png)
 
 When done press <span class="fb-button fb-green">BIND</span> to save the binding.
 

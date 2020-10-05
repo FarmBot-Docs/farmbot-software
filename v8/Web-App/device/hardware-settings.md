@@ -7,16 +7,16 @@ slug: "hardware-settings"
 {:toc}
 
 
-![hardware_widget.png](hardware_widget.png)
+![hardware_widget.png](_images/hardware_widget.png)
 
 # Homing and calibration
 
-![calibration.png](calibration.png)
+![calibration.png](_images/calibration.png)
 
 ## Homing
 Homing an axis instructs FarmBot to find the home (minimum) position by moving towards home until an endstop, rotary encoder, or stepper driver signals that the end of the axis has been reached. Homing can only be performed if endstops or encoders are enabled. See [Calibration and Homing](../../FarmBot-Software/how-do-i/calibrate-and-home-farmbot.md) for further details.
 
-To home an axis, click the <span class="fb-button fb-yellow">HOME X</span>, <span class="fb-button fb-yellow">HOME Y</span>, or <span class="fb-button fb-yellow">HOME Z</span> buttons. To home all three axes, you can use the <span class="fb-button fb-gray"><i class="fa fa-home"></i></span> button in the controls widget (assuming that that button is set to its default behavior).
+To home an axis, click the <span class="fb-button fb-yellow">HOME X</span>, <span class="fb-button fb-yellow">HOME Y</span>, or <span class="fb-button fb-yellow">HOME Z</span> buttons. To home all three axes, you can use the <span class="fb-button fb-gray"><i class='fa fa-home'></i></span> button in the controls widget (assuming that that button is set to its default behavior).
 
 {%
 include callout.html
@@ -97,7 +97,7 @@ content="Do not set the timeout times to extremely high values (such as 20,000 s
 
 # Motors
 
-![motors.png](motors.png)
+![motors.png](_images/motors.png)
 
 ## Max retries
 The number of times that FarmBot will try to move to a position before stopping and reporting that the movement has failed.
@@ -185,7 +185,7 @@ This setting changes the direction of the second x-axis motor in case it is wire
 
 # Encoders and endstops
 
-![encoders.png](encoders.png)
+![encoders.png](_images/encoders.png)
 
 ## Enable encoders
 FarmBot Genesis kits have rotary encoders built-in. The rotary encoders should be enabled by using these toggles. If you are experiencing troubles with your movements you might try to disable encoders for testing purposes. If you do not have encoders hooked up, you must have encoders disabled here otherwise your FarmBot will think it is stalling with every movement. Note that Homing and Calibration can only be used if encoders (or endstops) are enabled.
@@ -248,11 +248,11 @@ This switches endstop operation from normally open (NC) to normally closed (NC).
 # Pin guard
 The pin guard feature provides an extra layer of safety to your FarmBot in the event of a software malfunction in FarmBot OS or a disruption in connectivity. When a pin guard is set, the firmware will automatically set the selected **PIN NUMBER** to the selected **STATE** after the **TIMEOUT** is reached. For example, the pin connected to your solenoid valve could be set to automatically turn off after 60 seconds. This would prevent flooding your garden if you manually turned the water on and then connectivity between your web browser and the FarmBot cut out, preventing you from turning the water off on your own.
 
-![Screen Shot 2019-07-17 at 9.39.08 AM.png](Screen_Shot_2019-07-17_at_9.39.08_AM.png)
+![Screen Shot 2019-07-17 at 9.39.08 AM.png](_images/Screen_Shot_2019-07-17_at_9.39.08_AM.png)
 
 # Danger zone
 
-![reset.png](reset.png)
+![reset.png](_images/reset.png)
 
 ## Reset hardware parameter defaults
 This will restore all settings to their default values, as shown in each setting's tooltip.

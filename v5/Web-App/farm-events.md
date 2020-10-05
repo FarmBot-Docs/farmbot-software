@@ -1,7 +1,7 @@
 ---
 title: "Farm Events"
 slug: "farm-events"
-excerpt: "Schedule FarmBot actions [my.farmbot.io/app/designer/farm_events](http://my.farmbot.io/app/designer/farm_events)"
+description: "Schedule FarmBot actions [my.farmbot.io/app/designer/farm_events](http://my.farmbot.io/app/designer/farm_events)"
 ---
 
 * toc
@@ -14,7 +14,7 @@ It would not be convenient for you to manually initiate your sequences every tim
 
 If you've ever used a calendar application before, you'll feel right at home with this. Simply choose the sequence you would like to execute, and schedule it to run on a one-off or repeating basis.
 
-![events.png](events.png)
+![events.png](_images/events.png)
 
 
 
@@ -22,11 +22,11 @@ If you've ever used a calendar application before, you'll feel right at home wit
 
 Press the <span class="fb-circle-button fb-purple">+</span> button to create a new Farm Event.
 
-![farm events.png](farm_events.png)
+![farm events.png](_images/farm_events.png)
 
 The **Add Farm Event** screen will appear.
 
-![create event.png](create_event.png)
+![create event.png](_images/create_event.png)
 
 Select:
 * a sequence or regimen to run
@@ -34,11 +34,11 @@ Select:
 * a repeat interval (if desired)
 * a repeat end time and date (if repeating)
 
-![event_filled.png](event_filled.png)
+![event_filled.png](_images/event_filled.png)
 
 Press the <span class="fb-button fb-purple">SAVE</span> button to add the Farm Event. The Farm Event will now show up in the agenda.
 
-![agenda.png](agenda.png)
+![agenda.png](_images/agenda.png)
 
 Be sure to press the <span class="fb-button fb-yellow">SYNC NOW</span> button at the top of the page to sync the newly created Farm Events with the device so that they can be executed!
 
@@ -46,19 +46,19 @@ Be sure to press the <span class="fb-button fb-yellow">SYNC NOW</span> button at
 
 Let's say we have created a `Water` Farm Event that we'd like to make some changes to.
 
-![water.png](water.png)
+![water.png](_images/water.png)
 
 Press the edit icon to the right of the Farm Event name shown in the figure below.
 
-![edit_icon_cursor.png](edit_icon_cursor.png)
+![edit_icon_cursor.png](_images/edit_icon_cursor.png)
 
 Make the desired changes and press <span class="fb-button fb-purple">SAVE</span>.
 
-![editing.png](editing.png)
+![editing.png](_images/editing.png)
 
 The Farm Event will update in the agenda.
 
-![saved.png](saved.png)
+![saved.png](_images/saved.png)
 
 
 

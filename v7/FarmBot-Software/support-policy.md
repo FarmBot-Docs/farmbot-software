@@ -1,7 +1,7 @@
 ---
 title: "Support Policy"
 slug: "support-policy"
-excerpt: "60 days after a version is released, all previous releases will be considered \"deprecated\"."
+description: "60 days after a version is released, all previous releases will be considered \"deprecated\"."
 ---
 
 * toc

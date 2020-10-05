@@ -1,7 +1,7 @@
 ---
 title: "Regimens"
 slug: "regimens"
-excerpt: "Plant care recipes for your FarmBot to follow [my.farm.bot/app/regimens](https://my.farm.bot/app/regimens)"
+description: "Plant care recipes for your FarmBot to follow [my.farm.bot/app/regimens](https://my.farm.bot/app/regimens)"
 ---
 
 * toc
@@ -28,7 +28,7 @@ Now imagine you want to grow 10 more tomato plants starting March 9th, and 10 mo
 
 While the Event Scheduler works by scheduling an event on a *specific calendar day* such as **March 1st**, the Regimen Builder works by scheduling events on a *relative day* such as **Day 22** from when the regimen is started. Regimens are therefore a way to bulk re-schedule a set of events starting at any time.
 
-![regimens.png](regimens.png)
+![regimens.png](_images/regimens.png)
 
 Let's look at our tomatoes example again, this time using the Regimen Builder to reach the same outcome. First, we'll make a Regimen:
 1. Seed Injection will run on **Day 1**
@@ -44,37 +44,37 @@ Using this method, we created one Regimen and four Event Schedules instead of th
 
 In the left **Regimens** panel, press the <span class="fb-button fb-green">+</span> button to create a new Regimen.
 
-![empty_regimen_page.png](empty_regimen_page.png)
+![empty_regimen_page.png](_images/empty_regimen_page.png)
 
 A new regimen will appear in the **Regimen Editor**.
 
-![new_regimen.png](new_regimen.png)
+![new_regimen.png](_images/new_regimen.png)
 
  You can give it a name and a color.
 
-![regimen_name_and_color.png](regimen_name_and_color.png)
+![regimen_name_and_color.png](_images/regimen_name_and_color.png)
 
 In the **Scheduler**, select a sequence from the dropdown. Pick a time and day for it to run. For this example, we will run the **Seed Injection** sequence on day 1 at 10am. Press the <span class="fb-button fb-green">+</span> button in the **Scheduler** panel to add the scheduled sequence to the regimen.
 
-![regimen_seed_injection.png](regimen_seed_injection.png)
+![regimen_seed_injection.png](_images/regimen_seed_injection.png)
 
 You can see the scheduled sequence has been added to the **Regimen Editor**.
 
 Next we will add some **Light Watering** to the regimen. For this example, we will perform light watering every other day at 8pm for the first two weeks.
 
-![regimen_light_watering.png](regimen_light_watering.png)
+![regimen_light_watering.png](_images/regimen_light_watering.png)
 
 You can see the scheduled sequence has been added to the **Regimen Editor**.
 
-![regimen_light_watering_done.png](regimen_light_watering_done.png)
+![regimen_light_watering_done.png](_images/regimen_light_watering_done.png)
 
 Next we will select the **Medium Watering** sequence and have it run every other day at 8pm for weeks 3 through 7.
 
-![regimen_medium_watering.png](regimen_medium_watering.png)
+![regimen_medium_watering.png](_images/regimen_medium_watering.png)
 
 After pressing the <span class="fb-button fb-green">+</span> button, our regimen is complete! Press <span class="fb-button fb-green">Save</span> to save the regimen.
 
-![regimens.png](regimens.png)
+![regimens.png](_images/regimens.png)
 
 
 

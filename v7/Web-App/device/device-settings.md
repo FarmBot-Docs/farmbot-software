@@ -7,7 +7,7 @@ slug: "device-settings"
 {:toc}
 
 
-![device_widget.png](device_widget.png)
+![device_widget.png](_images/device_widget.png)
 
 # Device
 ## Name
@@ -24,7 +24,7 @@ content="When you create your FarmBot web app account and login for the first ti
 %}
 
 ## Last Seen
-View when FarmBot was last connected to the cloud. Refresh the time by pressing the <i class="fa fa-refresh"></i> icon.
+View when FarmBot was last connected to the cloud. Refresh the time by pressing the <i class='fa fa-refresh'></i> icon.
 
 ## FarmBot OS
 View the version of FarmBot OS that you have installed on your device, that version's release notes, and install updates if they are available using the <span class="fb-button fb-green">UPDATE</span> button. Note that the update button will display as <span class="fb-button fb-gray">UP TO DATE</span> when there are no updates available.

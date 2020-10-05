@@ -1,7 +1,7 @@
 ---
 title: "Status LEDs"
 slug: "status-leds"
-excerpt: "The meaning behind the blinking"
+description: "The meaning behind the blinking"
 ---
 
 * toc
@@ -10,7 +10,7 @@ excerpt: "The meaning behind the blinking"
 # Raspberry Pi LEDs
 The Raspberry Pi has two LED lights that convey information about its status.
 
-![RASPBERRY_PI_LIGHTS.jpg](RASPBERRY_PI_LIGHTS.jpg)
+![RASPBERRY_PI_LIGHTS.jpg](_images/RASPBERRY_PI_LIGHTS.jpg)
 
 ## Red (power) LED
 Red (power) | Status
@@ -31,7 +31,7 @@ Red (power) | Status
 # Electronics box LEDs
 In addition to the LEDs located on the Raspberry Pi, Genesis v1.4+ kits feature LEDs mounted on top of the electronics box.
 
-![LEDs.png](LEDs.png)
+![LEDs.png](_images/LEDs.png)
 
 ## LED 1 (sync)
 This green LED indicates the **sync status** between FarmBot and the web app. It is connected to Raspberry Pi GPIO BCM pin 24.

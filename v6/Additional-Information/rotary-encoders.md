@@ -1,7 +1,7 @@
 ---
 title: "Rotary Encoders"
 slug: "rotary-encoders"
-excerpt: "These components provide FarmBot a closed-loop feedback control system"
+description: "These components provide FarmBot a closed-loop feedback control system"
 ---
 
 * toc

@@ -1,7 +1,7 @@
 ---
 title: "Device"
 slug: "device"
-excerpt: "Manage your FarmBot's settings: [my.farmbot.io/app/device](http://my.farmbot.io/app/device)"
+description: "Manage your FarmBot's settings: [my.farmbot.io/app/device](http://my.farmbot.io/app/device)"
 ---
 
 * toc
@@ -33,7 +33,7 @@ Widgets on this page:
 </style>
 
 <div class="nav-image">
-  <img class="nav-image" src="device_2.png" alt="Device" />
+  <img class="nav-image" src="_images/device_2.png" alt="Device" />
   <a href="https://software.farmbot.io/docs/device#device" style="top: 28.50%; left: 1.9%; width: 47.03%; height: 52.82%;"></a>
   <a href="https://software.farmbot.io/docs/device#hardware" style="top: 49.77%; left: 50.97%; width: 47.27%; height: 48.04%;"></a>
   <a href="https://software.farmbot.io/docs/device#farmware" style="top: 8.24%; left: 1.81%; width: 47.17%; height: 17.48%;"></a>
@@ -43,7 +43,7 @@ Widgets on this page:
 
 # Device
 
-![device_widget.png](device_widget.png)
+![device_widget.png](_images/device_widget.png)
 
  * Give your device a name
  * View the controller version and update it
@@ -54,7 +54,7 @@ Widgets on this page:
 
 # Hardware
 
-![hardware.png](hardware.png)
+![hardware.png](_images/hardware.png)
 
  * Steps per mm
  * Max speed
@@ -69,13 +69,13 @@ Widgets on this page:
 
 # Farmware
 
-![farmware.png](farmware.png)
+![farmware.png](_images/farmware.png)
 
 Run a Farmware by selecting it from the list and pressing `RUN`. For more information, see [Farmware](../Additional-Information/farmware-dev.md).
 
 # Weed Detector
 
-![weed_detection.png](weed_detection.png)
+![weed_detection.png](_images/weed_detection.png)
 
 Select hue, saturation, and value ranges to cover the colors you want to detect using the sliders. The color boxes will give an indication of the range selected.
 

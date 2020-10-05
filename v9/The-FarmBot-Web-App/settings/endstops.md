@@ -1,7 +1,7 @@
 ---
 title: "Endstops"
 slug: "endstops"
-excerpt: "[Open these settings in the app](https://my.farm.bot/app/device?highlight=endstops)"
+description: "[Open these settings in the app](https://my.farm.bot/app/device?highlight=endstops)"
 ---
 
 * toc
@@ -13,7 +13,7 @@ Because both rotary encoders and back-current sensing stepper drivers can [detec
 
 Nonetheless, our firmware and electronics boards do support the use of endstops for the DIY builders who need to be able to home their devices but do not want to pay for rotary encoders and the full stall detection and position tracking capabilities that they provide.
 
-![Screen Shot 2020-04-22 at 4.57.34 PM.png](Screen_Shot_2020-04-22_at_4.57.34_PM.png)
+![Screen Shot 2020-04-22 at 4.57.34 PM.png](_images/Screen_Shot_2020-04-22_at_4.57.34_PM.png)
 
 # Enable endstops
 If using endstops instead of rotary encoders, enable them here. If you do not have endstops hooked up, do not enable this setting.

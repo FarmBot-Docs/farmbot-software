@@ -1,7 +1,7 @@
 ---
 title: "Photos"
 slug: "photos"
-excerpt: "Take and view photos of your plants :camera:\n[Open this panel in the app](https://my.farm.bot/app/designer/photos)"
+description: "Take and view photos of your plants :camera:\n[Open this panel in the app](https://my.farm.bot/app/designer/photos)"
 ---
 
 * toc
@@ -27,7 +27,7 @@ To take a photo, press the <span class="fb-button fb-green">take photo</span> bu
 
 Once you have taken multiple photos, use the `PREV` and `NEXT` buttons to navigate through your images. To delete a photo, press the <span class="fb-button fb-red">delete photo</span> button.
 
-![Carousel.png](Carousel.png)
+![Carousel.png](_images/Carousel.png)
 
 
 

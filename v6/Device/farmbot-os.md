@@ -1,7 +1,7 @@
 ---
 title: "FarmBot OS"
 slug: "farmbot-os"
-excerpt: "Step-by-step instructions for installing FarmBot OS onto the Raspberry Pi.\nDownload the latest FarmBot OS `.img` file [here](http://os.farm.bot)."
+description: "Step-by-step instructions for installing FarmBot OS onto the Raspberry Pi.\nDownload the latest FarmBot OS `.img` file [here](http://os.farm.bot)."
 ---
 
 * toc
@@ -50,7 +50,7 @@ content="Using your typical file browser (Finder on Mac or File Explorer on Wind
 # Step 3. Insert the microSD card into the Raspberry Pi
 Insert the microSD card into the back side of the Raspberry Pi. *Note: you do not need to remove the Raspberry Pi from the electronics box for v1.4 kits - we have left enough room to the right of the Pi for you to insert the card.*
 
-![Screen Shot 2018-10-04 at 5.10.01 PM.png](Screen_Shot_2018-10-04_at_5.10.01_PM.png)
+![Screen Shot 2018-10-04 at 5.10.01 PM.png](_images/Screen_Shot_2018-10-04_at_5.10.01_PM.png)
 
 ## Step 4. Turn on the Raspberry Pi
 Plug in the power source to the Raspberry Pi. Depending on your setup, power will be coming from either a standard microUSB cable plugged into a standalone power supply (or the Farmduino), from a DC/DC buck converter coming from your RAMPS shield, or from a DC/DC buck converter coming straight from your FarmBot's power supply.

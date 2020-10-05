@@ -1,7 +1,7 @@
 ---
 title: "High Level Overview"
 slug: "overview"
-excerpt: "Description of the FarmBot software toolchain"
+description: "Description of the FarmBot software toolchain"
 ---
 
 * toc
@@ -114,7 +114,7 @@ content="Have a question or need help setting up some of the software? You can a
 ## The FarmBot Web Application
 The web app allows you to easily configure and control your FarmBot from a web browser on your laptop, tablet, or smartphone. The application features real-time manual controls and logging, a sequence builder for creating custom routines for FarmBot to execute, and a drag-and-drop farm designer so you can graphically design and manage your farm.
 
-![Farm Designer V7.png](Farm_Designer_V7.png)
+![Farm Designer V7.png](_images/Farm_Designer_V7.png)
 
 ## MQTT Gateway
 The MQTT Gateway is a cloud application that acts as an intermediary for all messages between the FarmBot web app and FarmBot devices. It handles socket connections, device identification, and authentication.

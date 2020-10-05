@@ -1,7 +1,7 @@
 ---
 title: "Sequences"
 slug: "sequences"
-excerpt: "Drag-and-drop programming for your FarmBot [my.farm.bot/app/sequences](https://my.farm.bot/app/sequences)"
+description: "Drag-and-drop programming for your FarmBot [my.farm.bot/app/sequences](https://my.farm.bot/app/sequences)"
 ---
 
 * toc
@@ -15,10 +15,10 @@ The web app is a platform designed to give you unlimited control over how you us
 
 You can create sequences using the sequence editor as shown below. On the left of the screen is a list of all the sequences in your account. In the middle is the currently opened sequence. And on the right are the available commands that you can add to the sequence.
 
-![Screen Shot 2019-07-10 at 4.27.31 PM.png](Screen_Shot_2019-07-10_at_4.27.31_PM.png)
+![Screen Shot 2019-07-10 at 4.27.31 PM.png](_images/Screen_Shot_2019-07-10_at_4.27.31_PM.png)
 
 # Sequence editor options
-You can customize how the sequence editor works with the options in the <i class="fa fa-cog"></i> menu located to the left of the <span class="fb-button fb-yellow">COPY</span> button when a sequence is loaded into the editor. Each option is described in the tooltip shown when the <i class="fa fa-question-circle"></i> icon is clicked.
+You can customize how the sequence editor works with the options in the <i class='fa fa-cog'></i> menu located to the left of the <span class="fb-button fb-yellow">COPY</span> button when a sequence is loaded into the editor. Each option is described in the tooltip shown when the <i class='fa fa-question-circle'></i> icon is clicked.
 
 # What's next?
 

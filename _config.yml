@@ -1,6 +1,17 @@
+title: FarmBot Software Documentation
+url: software.farm.bot
+logo: /assets/images/documentation.png
 theme: jekyll-theme-cayman
 baseurl: /farmbot-software
 color: '#316318'
-latest_version_number: 11
+latest_version_number: 12
 plugins:
   - jemoji
+include:
+  - _images
+  - _redirects
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock

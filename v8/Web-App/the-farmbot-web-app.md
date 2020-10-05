@@ -1,7 +1,7 @@
 ---
 title: "The FarmBot Web App"
 slug: "the-farmbot-web-app"
-excerpt: "Control and configure your FarmBot from anywhere"
+description: "Control and configure your FarmBot from anywhere"
 ---
 
 * toc

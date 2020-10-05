@@ -1,7 +1,7 @@
 ---
 title: "FarmBot OS"
 slug: "farmbot-os"
-excerpt: "Step-by-step instructions for installing FarmBot OS :movie-camera: [Video tutorial](https://youtu.be/AOsF17Yxoi4?t=9)\nDownload the latest FarmBot OS `.img` file at [os.farm.bot](http://os.farm.bot)."
+description: "Step-by-step instructions for installing FarmBot OS :movie-camera: [Video tutorial](https://youtu.be/AOsF17Yxoi4?t=9)\nDownload the latest FarmBot OS `.img` file at [os.farm.bot](http://os.farm.bot)."
 ---
 
 * toc
@@ -33,7 +33,7 @@ You must use a **`.img` writing tool** to write **FarmBot OS** onto the **microS
 
 Once you have Etcher installed, connect the microSD card to your computer using a **card reader**. You may need to use the **microSD card to SD card adapter** included with your kit. Select the FarmBot OS `.img` file you downloaded in Step 1, the microSD card drive as the **target** (it should show up as a `7.9 GB partition`) and then press **Flash!**  to write the file to the card.
 
-![Screen Shot 2020-01-30 at 1.55.04 PM.png](Screen_Shot_2020-01-30_at_1.55.04_PM.png)
+![Screen Shot 2020-01-30 at 1.55.04 PM.png](_images/Screen_Shot_2020-01-30_at_1.55.04_PM.png)
 
 
 

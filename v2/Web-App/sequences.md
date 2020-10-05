@@ -1,7 +1,7 @@
 ---
 title: "Sequences"
 slug: "sequences"
-excerpt: "Drag-and-drop programming for your FarmBot [my.farmbot.io/app/sequences](http://my.farmbot.io/app/sequences)"
+description: "Drag-and-drop programming for your FarmBot [my.farmbot.io/app/sequences](http://my.farmbot.io/app/sequences)"
 ---
 
 * toc
@@ -21,7 +21,7 @@ The sequence builder allows you to combine the most basic operations of FarmBot 
 
 The web app ships with several pre-made sequences like the one above. You can use, modify, or delete these sequences; and also make your own from scratch for completing any task you can imagine.
 
-![Sequence.png](Sequence.png)
+![Sequence.png](_images/Sequence.png)
 
 ### Supported operations
 These are the basic operations that FarmBot can execute.

@@ -9,11 +9,11 @@ slug: "camera-troubleshooting"
 Use this document to troubleshoot camera issues and determine if you need to replace the camera. Common camera issues include:
 1) When trying to take a photo, the USB Camera is not detected.
 
-![image8.png](image8.png)
+![image8.png](_images/image8.png)
 
 2) Photos are showing up as black images.
 
-![image1.png](image1.png)
+![image1.png](_images/image1.png)
 
 # Step 1: Reflash FarmBot OS
 
@@ -27,7 +27,7 @@ Before troubleshooting the camera itself, first [manually reflash FarmBot OS ont
 
 For Genesis models, also check to make sure that 90 Degree USB camera cable connector at the Raspberry Pi is plugged in sufficiently. Give both ends of the connector an extra push to ensure that everything is connected.
 
-![image9.png](image9.png)
+![image9.png](_images/image9.png)
 
 Once the issues with the intermediate connectors are resolved the “[take photo] - USB camera not detected” error will likely go away. If you are still having trouble with your camera, continue onto the next step.
 
@@ -36,7 +36,7 @@ Once the issues with the intermediate connectors are resolved the “[take photo
 ## FarmBot Genesis
 Test the camera in another device such as a laptop or desktop computer and see if the USB device is recognized. This borescope camera is a plug-and-play USB device and it should be instantly recognized by a PC or Mac. Check if you are able to generate an image using the camera. Once you know that the borescope camera works properly and is able to produce an image move on to the next step.
 
-![image3.png](image3.png)
+![image3.png](_images/image3.png)
 
 If your camera is not recognized by another device please contact us (contact@farm.bot) and we will send you a replacement camera. If your camera is recognized, please proceed to the next step.
 
@@ -55,11 +55,11 @@ content="The **use hardware decoder** setting needs to be turned OFF for the app
 
 
 
-![image6.png](image6.png)
+![image6.png](_images/image6.png)
 
 Once the app is installed and the camera is plugged into your device, you should be able to test the operation of the camera. If the camera is functional, the USB Camera web app will display an image similar to the one shown below. If the camera is not functioning properly the device will fail to recognize the camera.
 
-![image4.png](image4.png)
+![image4.png](_images/image4.png)
 
 ## Results of Camera Testing for both Genesis and Express Cameras
 
@@ -71,7 +71,7 @@ If you are still having trouble with your camera, continue onto the next step.
 
 The Raspberry Pi 3 computers sometimes have issues with their USB ports. Visually check the USB port for any debris or packaging material that may have gotten into the USB port. If one port does not function, test all 4 USB ports to see if a camera connection can be made.
 
-![image12.png](image12.png)
+![image12.png](_images/image12.png)
 
 If your camera is recognized by another device however your camera is not recognized by the Raspberry Pi 3, it is likely that your Raspberry Pi 3 has faulty USB ports. If this is your situation please [contact us](mailto:contact@farm.bot) and we will send you a replacement Raspberry Pi 3.
 
@@ -80,7 +80,7 @@ If your camera is recognized by another device however your camera is not recogn
 If you are getting blank or completely black images from your FarmBot camera, there is likely low voltage getting to your Raspberry Pi to power the camera. This means that the camera is being recognized by the USB port but there is not sufficient voltage to produce an image.
 This photo below is an example of Blank or Black photos produced from low voltage at the Raspberry Pi.
 
-![image1.png](image1.png)
+![image1.png](_images/image1.png)
 
 To confirm this issue, measure the voltage across the GPIO pins on the Raspberry Pi Adapter Board. We are looking to measure the voltage between Pin 2 and Pin 6 as shown in the diagram below.
 
@@ -93,11 +93,11 @@ content="While measuring the voltage across the GPIO pins, please take care to o
 
 
 
-![image10.png](image10.png)
+![image10.png](_images/image10.png)
 
 
 
-![image2.png](image2.png)
+![image2.png](_images/image2.png)
 
 ​If the voltage measures below 4.8V please request a new USB power cable at [contact@farm.bot](mailto:contact@farm.bot).
 

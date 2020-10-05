@@ -1,7 +1,7 @@
 ---
 title: "Status LEDs"
 slug: "status-leds"
-excerpt: "The meaning behind the blinking"
+description: "The meaning behind the blinking"
 ---
 
 * toc

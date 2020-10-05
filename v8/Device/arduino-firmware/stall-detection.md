@@ -1,7 +1,7 @@
 ---
 title: "Stall Detection"
 slug: "stall-detection"
-excerpt: "Hardware that allows FarmBot to detect stalls and find home and axis maximums"
+description: "Hardware that allows FarmBot to detect stalls and find home and axis maximums"
 ---
 
 * toc

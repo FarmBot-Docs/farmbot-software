@@ -1,7 +1,7 @@
 ---
 title: "MQTT Gateway"
 slug: "mqtt-broker"
-excerpt: "The intermediary for all messages between FarmBot devices and the web app"
+description: "The intermediary for all messages between FarmBot devices and the web app"
 ---
 
 * toc

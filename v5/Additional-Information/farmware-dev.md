@@ -1,7 +1,7 @@
 ---
 title: "Farmware Development"
 slug: "farmware-dev"
-excerpt: "Plug-Ins to expand FarmBot functionality"
+description: "Plug-Ins to expand FarmBot functionality"
 ---
 
 * toc
@@ -29,7 +29,7 @@ Some Farmware has been created by FarmBot.io and comes pre-installed:
 
 To install new Farmware, use the __Farmware__ widget, currently located on the __Device__ page of the FarmBot Web App. ([Link to web app device page](http://my.farmbot.io/app/device))
 
-![farmware_widget.png](farmware_widget.png)
+![farmware_widget.png](_images/farmware_widget.png)
 
 Installation is performed by entering the URL of the _manifest.json_ file for the Farmware.
 
@@ -208,7 +208,7 @@ __Form Building:__
 
 
 
-![example_farmware_form.png](example_farmware_form.png)
+![example_farmware_form.png](_images/example_farmware_form.png)
 
 Values are available to a Farmware via environment variables prefixed with the Farmware name, e.g. `farmware_name_key` for the above example. The default value in `config` is provided if no change has been made to the Web App Farmware input form.
 

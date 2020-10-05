@@ -1,7 +1,7 @@
 ---
 title: "Rotary Encoders"
 slug: "rotary-encoders"
-excerpt: "closed-loop feedback control system"
+description: "closed-loop feedback control system"
 ---
 
 * toc

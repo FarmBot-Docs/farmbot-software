@@ -1,7 +1,7 @@
 ---
 title: "Camera Calibration"
 slug: "camera-calibration"
-excerpt: "Calibrate your FarmBot's camera"
+description: "Calibrate your FarmBot's camera"
 ---
 
 * toc
@@ -17,11 +17,11 @@ content="This farmware comes pre-installed with FarmBot OS."
 
 Camera calibration works by using the distance between and orientation of calibration objects placed in the garden bed. Calibration only needs to be performed once.
 
-![Screen Shot 2019-05-02 at 6.15.25 PM.png](Screen_Shot_2019-05-02_at_6.15.25_PM.png)
+![Screen Shot 2019-05-02 at 6.15.25 PM.png](_images/Screen_Shot_2019-05-02_at_6.15.25_PM.png)
 
 
 
-![Screen Shot 2019-05-02 at 6.44.58 PM.png](Screen_Shot_2019-05-02_at_6.44.58_PM.png)
+![Screen Shot 2019-05-02 at 6.44.58 PM.png](_images/Screen_Shot_2019-05-02_at_6.44.58_PM.png)
 
 
 

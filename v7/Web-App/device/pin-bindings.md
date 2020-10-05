@@ -16,7 +16,7 @@ content="Binding to a pin without a physical button and pull-down resistor conne
 
 
 
-![pin_bindings.png](pin_bindings.png)
+![pin_bindings.png](_images/pin_bindings.png)
 
 _v1.4 stock bindings shown_
 
@@ -24,11 +24,11 @@ Set or remove Raspberry Pi GPIO pin bindings to allow start of a sequence or an 
 
 Select a Raspberry Pi GPIO pin number (open the GPIO diagram for assistance as shown below by pressing the <span class="fa fa-th-large"></span> icon) and select a sequence in the drop down menu.
 
-![pin_bindings_gpio.png](pin_bindings_gpio.png)
+![pin_bindings_gpio.png](_images/pin_bindings_gpio.png)
 
 Alternatively, select an action:
 
-![pin_bindings_action.png](pin_bindings_action.png)
+![pin_bindings_action.png](_images/pin_bindings_action.png)
 
 When done press <span class="fb-button fb-green">BIND</span> to save the binding.
 

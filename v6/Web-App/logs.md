@@ -1,14 +1,14 @@
 ---
 title: "Logs"
 slug: "logs"
-excerpt: "View and filter FarmBot OS log messages [my.farm.bot/app/logs](https://my.farm.bot/app/logs)"
+description: "View and filter FarmBot OS log messages [my.farm.bot/app/logs](https://my.farm.bot/app/logs)"
 ---
 
 * toc
 {:toc}
 
 
-![logs.png](logs.png)
+![logs.png](_images/logs.png)
 
 
 
@@ -24,7 +24,7 @@ Setting a verbosity slider to `0` means you will not see any logs of that type i
 
 The <span class="fb-button fb-gray">NORMAL</span> preset sets all log types to verbosity level `1`, while the <span class="fb-button fb-gray">MAX</span> sets all log types to verbosity level `3`, removing all filters.
 
-![logs_verbosity.png](logs_verbosity.png)
+![logs_verbosity.png](_images/logs_verbosity.png)
 
 
 
@@ -60,7 +60,7 @@ content="The firmware sends a high volume of messages during normal FarmBot OS c
 ### Debug
 Log misc firmware debug messages.
 
-![log_setttings.png](log_setttings.png)
+![log_setttings.png](_images/log_setttings.png)
 
 
 
@@ -76,7 +76,7 @@ In order to provide the best possible web application experience to all users, w
 
 If a log limit is reached, a cooldown period will begin where log storage and display is suspended until the next time period. For example, if the 1 minute limit is reached, logs will be suspended until the next minute. A warning log and toast notification will be displayed, indicating the suspension:
 
-![Screen Shot 2018-08-15 at 12.23.33 PM.png](Screen_Shot_2018-08-15_at_12.23.33_PM.png)
+![Screen Shot 2018-08-15 at 12.23.33 PM.png](_images/Screen_Shot_2018-08-15_at_12.23.33_PM.png)
 
 
 
@@ -89,7 +89,7 @@ content="Even when log storage and display is suspended, you can still control t
 
 Once the cooldown period has ended, logs will resume being stored and displayed in the web application. An informational log and toast notification will indicate this:
 
-![Screen Shot 2018-08-15 at 12.23.42 PM.png](Screen_Shot_2018-08-15_at_12.23.42_PM.png)
+![Screen Shot 2018-08-15 at 12.23.42 PM.png](_images/Screen_Shot_2018-08-15_at_12.23.42_PM.png)
 
 
 

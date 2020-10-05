@@ -1,7 +1,7 @@
 ---
 title: "Controls"
 slug: "controls"
-excerpt: "Manually control your FarmBot from anywhere! [my.farm.bot/app/controls](https://my.farm.bot/app/controls)"
+description: "Manually control your FarmBot from anywhere! [my.farm.bot/app/controls](https://my.farm.bot/app/controls)"
 ---
 
 * toc
@@ -15,7 +15,7 @@ You generally will not need to manually control FarmBot, since it acts automatic
  * [Webcam Feeds](#webcam-feeds)
 
 <div class="nav-image">
-  <img class="nav-image" src="controls.png" alt="Controls" />
+  <img class="nav-image" src="_images/controls.png" alt="Controls" />
   <a href="#move" style="top: 12.33%; left: 10.52%; width: 38.01%; height: 50.23%;"></a>
   <a href="#peripherals" style="top: 66.94%; left: 10.59%; width: 38.01%; height: 30.30%;"></a>
   <a href="#webcam-feeds" style="top: 12.33%; left: 51.40%; width: 46.03%; height: 55.41%;"></a>
@@ -32,7 +32,7 @@ You generally will not need to manually control FarmBot, since it acts automatic
 
 
 
-![move.png](move.png)
+![move.png](_images/move.png)
 
   * The current position of your FarmBot (Motor Coordinates (mm)) is shown in the grey fields directly below the X-AXIS, Y-AXIS, and Z-AXIS labels. This information is updated in real-time.
   * You can move the device a *relative distance* in any direction by using the arrow buttons. The default move amount is 100mm, though you can also select 1, 10, and 1000mm amounts. Depending on your settings in the **Hardware** configuration widget on the [Device](../Web-App/device.md)  page, you may not be able to move to negative coordinates or past the specified axis maximums.
@@ -50,7 +50,7 @@ content="Homing is the act of finding the home (zero) position by using endstops
   * If you ever need to immediately halt your FarmBot, press the <span class="fb-button fb-red">E-STOP</span> button.
   * You can switch the directions that the jog buttons move by toggling the axis inversion in the settings menu (gear icon (<span class="fa fa-gear"></span>) next to the e-stop button). Encoder data can be displayed in the settings menu as well.
 
-![move_settings.png](move_settings.png)
+![move_settings.png](_images/move_settings.png)
 
 
 
@@ -60,14 +60,14 @@ You can manually operate FarmBot's peripherals using the toggle switches in the 
 
 The pins can be changed to the pins used when plugging in the peripherals in [this step](https://genesis.farm.bot/docs/plug-everything-in#step-3-connect-the-peripherals) of the hardware documentation.
 
-![peripherals.png](peripherals.png)
+![peripherals.png](_images/peripherals.png)
 
 Press the toggle switch to turn a peripheral ON or OFF. Peripheral toggles will be disabled when FarmBot is busy moving.
 
 ## Edit
 To change the peripherals, press <span class="fb-button fb-gray">EDIT</span>.
 
-![edit_peripherals.png](edit_peripherals.png)
+![edit_peripherals.png](_images/edit_peripherals.png)
 
 Add a new peripheral by pressing the <span class="fb-button fb-green">+</span> button and filling out <span class="fb-input">Label</span> and <span class="fb-input">Pin #</span>. To delete a peripheral, press it's <span class="fb-button fb-red">-</span> button. When finished editing, press <span class="fb-button fb-green">SAVE</span>.
 
@@ -86,7 +86,7 @@ content="Note that pin numbers are required and must be unique."
 
 
 
-![webcam.png](webcam.png)
+![webcam.png](_images/webcam.png)
 
 The __Webcam Feeds__ widget can be used for viewing network webcam streams. You could use a video stream for a view of the entire bot to view movements while controlling it remotely, or you could set up multiple webcams at different angles for viewing plants, etc..
 
@@ -97,5 +97,5 @@ To add a webcam URL, press <span class="fb-button fb-gray">EDIT</span>. Press <s
 
 Multiple webcams can be inputted by pressing <span class="fb-button fb-green">+</span> for each new camera.
 
-![webcam_inputs.png](webcam_inputs.png)
+![webcam_inputs.png](_images/webcam_inputs.png)
 

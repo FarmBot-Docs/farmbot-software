@@ -1,7 +1,7 @@
 ---
 title: "Creating an Account"
 slug: "creating-an-account"
-excerpt: ":movie-camera: [Video tutorial](https://youtu.be/0EAcUbO6tqo?t=35)"
+description: ":movie-camera: [Video tutorial](https://youtu.be/0EAcUbO6tqo?t=35)"
 ---
 
 * toc
@@ -18,7 +18,7 @@ Clicking the email verification link will log you into the app and take you to t
 
 Once you let the app know which FarmBot model you have, it will add a set of resources (peripherals, sequences, etc) and apply a set of settings (map size, firmware version, etc) appropriate to your FarmBot model. This will allow you to get started working with your FarmBot more quickly. If you want to start completely from scratch, you can do so by selecting `Custom bot` in the dropdown, or simply dismissing the message center card.
 
-![Choose your FarmBot.png](Choose_your_FarmBot.png)
+![Choose your FarmBot.png](_images/Choose_your_FarmBot.png)
 
 # Connect FarmBot to your account
 1. [Install FarmBot OS](../../Device/farmbot-os.md)

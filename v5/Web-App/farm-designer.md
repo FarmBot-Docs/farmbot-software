@@ -1,7 +1,7 @@
 ---
 title: "Farm Designer"
 slug: "farm-designer"
-excerpt: "Drag-and-drop plant placement [my.farmbot.io/app/designer](http://my.farmbot.io/app/designer)"
+description: "Drag-and-drop plant placement [my.farmbot.io/app/designer](http://my.farmbot.io/app/designer)"
 ---
 
 * toc
@@ -10,7 +10,7 @@ excerpt: "Drag-and-drop plant placement [my.farmbot.io/app/designer](http://my.f
 View and layout your garden in a virtual representation of your FarmBot's bed on this page.
 
 <div class="nav-image">
-  <img class="nav-image" src="overview.png" alt="Farm Designer" />
+  <img class="nav-image" src="_images/overview.png" alt="Farm Designer" />
   <a href="https://software.farmbot.io/docs/farm-designer#add-plants" style="top: 12%; left: 0%; width: 30.75%; height: 87%;"></a>
   <a href="https://software.farmbot.io/docs/farm-designer#map" style="top: 12%; left: 30.75%; width: 69%; height: 87%;"></a>
 </div>
@@ -22,23 +22,23 @@ View and layout your garden in a virtual representation of your FarmBot's bed on
 
 Add plants for your FarmBot to grow by pressing the <span class="fb-circle-button fb-green">+</span> button and searching for a crop.
 
-![add.png](add.png)
+![add.png](_images/add.png)
 
 
 
-![tomato.png](tomato.png)
+![tomato.png](_images/tomato.png)
 
 Find the crop that you'd like in your garden and click it to bring up the crop information.
 
-![cherry_tomato.png](cherry_tomato.png)
+![cherry_tomato.png](_images/cherry_tomato.png)
 
 Drag the crop image into the [map](#map) to place the crop in your garden.
 
-![tomato_drag.png](tomato_drag.png)
+![tomato_drag.png](_images/tomato_drag.png)
 
 You now have a plant!
 
-![new_tomato.png](new_tomato.png)
+![new_tomato.png](_images/new_tomato.png)
 
 
 
@@ -50,11 +50,11 @@ To move a plant, simply drag the plant to a new location in the [map](#map).
 
 If you'd like to delete a plant, click on it to bring up the plant information and press the `EDIT` button.
 
-![edit.png](edit.png)
+![edit.png](_images/edit.png)
 
 Press the <span class="fb-button fb-red">DELETE</span> button to remove the plant.
 
-![editing.png](editing.png)
+![editing.png](_images/editing.png)
 
 
 
@@ -62,11 +62,11 @@ Press the <span class="fb-button fb-red">DELETE</span> button to remove the plan
 
 You can view all of your plants in the map, a virtual representation of the FarmBot bed. You can drag plants around to rearrange them by clicking on the plant and pressing `EDIT` in the plants panel.
 
-![overview.png](overview.png)
+![overview.png](_images/overview.png)
 
 You can open the map display options menu by pressing the white arrow icon in the upper right.
 
-![menu.png](menu.png)
+![menu.png](_images/menu.png)
 
 **Menu options include:**
 * Zoom (+/-)
@@ -76,7 +76,7 @@ You can open the map display options menu by pressing the white arrow icon in th
 * FarmBot toggle (enable/disable display of tools and the virtual FarmBot)
 * Origin selector (click on one of the four quadrants to adjust the map to your viewing angle)
 
-![spread.png](spread.png)
+![spread.png](_images/spread.png)
 
 
 # What's next?

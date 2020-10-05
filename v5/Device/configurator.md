@@ -1,7 +1,7 @@
 ---
 title: "Configurator"
 slug: "configurator"
-excerpt: "Step-by-step instructions for configuring FarmBot"
+description: "Step-by-step instructions for configuring FarmBot"
 ---
 
 * toc
@@ -34,7 +34,7 @@ content="If you are using a smartphone you may need to disable cellular data to 
 
 
 
-![config2.png](config2.png)
+![config2.png](_images/config2.png)
 
 4. From here, follow the on-screen form to enter:
  * The name of the WiFi network (SSID) you would like your FarmBot to normally connect to, and that network's password.

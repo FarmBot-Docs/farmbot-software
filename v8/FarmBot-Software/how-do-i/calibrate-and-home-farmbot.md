@@ -1,7 +1,7 @@
 ---
 title: "Calibrate and Home FarmBot"
 slug: "calibrate-and-home-farmbot"
-excerpt: "Manual and automatic approaches"
+description: "Manual and automatic approaches"
 ---
 
 * toc

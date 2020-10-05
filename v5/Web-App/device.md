@@ -1,7 +1,7 @@
 ---
 title: "Device"
 slug: "device"
-excerpt: "Manage your FarmBot's settings: [my.farmbot.io/app/device](http://my.farmbot.io/app/device)"
+description: "Manage your FarmBot's settings: [my.farmbot.io/app/device](http://my.farmbot.io/app/device)"
 ---
 
 * toc
@@ -13,7 +13,7 @@ Widgets on this page:
  * [Hardware](#hardware-widget)
 
 <div class="nav-image">
-  <img class="nav-image" src="device.png" alt="Device" />
+  <img class="nav-image" src="_images/device.png" alt="Device" />
   <a href="https://software.farmbot.io/docs/device#device-widget" style="top: 9.22%; left: 3.16%; width: 45.73%; height: 49.83%;"></a>
   <a href="https://software.farmbot.io/docs/device#connectivity-widget" style="top: 62.12%; left: 3.10%; width: 45.78%; height: 37.20%;"></a>
   <a href="https://software.farmbot.io/docs/device#hardware-widget" style="top: 9.13%; left: 51.00%; width: 45.84%; height: 23.81%;"></a>
@@ -26,7 +26,7 @@ Widgets on this page:
 
 # Device Widget
 
-![device.png](device.png)
+![device.png](_images/device.png)
 
  * Give your device a name
  * Set the device's timezone
@@ -46,7 +46,7 @@ Select the type of camera you are using in the camera selection dropdown. Choice
 
 
 
-![settings_collapsed.png](settings_collapsed.png)
+![settings_collapsed.png](_images/settings_collapsed.png)
 
 
 
@@ -59,7 +59,7 @@ content="Press the `+` (for example, in `Motors [+]`) to expand the settings sec
 
 ## Homing and Calibration
 
-![calibration.png](calibration.png)
+![calibration.png](_images/calibration.png)
 
 ### Homing
 Homing an axis instructs FarmBot to find the home (minimum) position by moving towards home until an endstop or encoder signals that the end of the axis has been reached. Homing can only be performed if endstops or encoders are enabled. See [Calibration and Homing](../Additional-Information/calibration-and-homing.md) for further details.
@@ -144,7 +144,7 @@ content="Do not set the timeout times to extremely high values (such as 20,000 s
 
 ## Motors
 
-![motors.png](motors.png)
+![motors.png](_images/motors.png)
 
 ### Max retries
 The number of times that FarmBot will try to move to a position before stopping and reporting that the movement has failed.
@@ -238,7 +238,7 @@ This setting changes the direction of the second x-axis motor in case you wired 
 
 ## Encoders and Endstops
 
-![encoders.png](encoders.png)
+![encoders.png](_images/encoders.png)
 
 ### Enable encoders
 Stock FarmBot kits have rotary encoders built-in. The rotary encoders should be enabled by using these toggles. If you are experiencing troubles with your movements you might try to disable encoders for testing purposes. If you do not have encoders hooked up, you must have encoders disabled here otherwise your FarmBot will think it is stalling with every movement. Note that Homing and Calibration can only be used if encoders (or endstops) are enabled. See [Rotary Encoders](../Additional-Information/rotary-encoders.md) for more information.
@@ -289,7 +289,7 @@ This switches the zero end of an axis to the other end of the axis. This allows 
 
 ## Danger Zone
 
-![reset.png](reset.png)
+![reset.png](_images/reset.png)
 
 ### Reset Hardware Parameter Defaults
 This will restore all settings to their default values.

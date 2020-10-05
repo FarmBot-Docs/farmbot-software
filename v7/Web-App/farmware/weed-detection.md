@@ -1,7 +1,7 @@
 ---
 title: "Weed Detection"
 slug: "weed-detection"
-excerpt: "Computer vision software to detect weeds"
+description: "Computer vision software to detect weeds"
 ---
 
 * toc
@@ -15,7 +15,7 @@ title="1st party farmware"
 content="This farmware comes pre-installed with FarmBot OS."
 %}
 
-FarmBot is designed to remove weeds early and often, so that the weeds are always small, young, and fragile, and therefore easily removed by the [weeding tool](https://genesis.farm.bot/v1.5/FarmBot-Genesis-V1-5/tools/weeder). FarmBot finds weeds by using computer vision software to detect all plants in the bed and then mark any detected plant that was not planted by FarmBot as a weed.
+FarmBot is designed to remove weeds early and often, so that the weeds are always small, young, and fragile, and therefore easily removed by the [weeding tool](https://genesis.farm.bot/docs/weeder). FarmBot finds weeds by using computer vision software to detect all plants in the bed and then mark any detected plant that was not planted by FarmBot as a weed.
 
 # Using the weed detector
 
@@ -30,7 +30,7 @@ content="To use the weed detection feature, you must first [calibrate the camera
 
 
 
-![Screen Shot 2019-05-02 at 6.15.16 PM.png](Screen_Shot_2019-05-02_at_6.15.16_PM.png)
+![Screen Shot 2019-05-02 at 6.15.16 PM.png](_images/Screen_Shot_2019-05-02_at_6.15.16_PM.png)
 
 ## Select a color range
 The weed detector software needs a range of color to look for when determining what is a plant and what is soil or other background. Use the sliders for **HUE**, **SATURATION**, and **VALUE** to select a range of colors you want to detect. The color boxes will give an indication of the range selected. For the hue slider, a green color range is approximately `30` to `90`.

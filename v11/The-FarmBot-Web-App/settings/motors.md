@@ -1,14 +1,14 @@
 ---
 title: "Motors"
 slug: "motors"
-excerpt: "[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=motors)"
+description: "[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=motors)"
 ---
 
 * toc
 {:toc}
 
 
-![Screen Shot 2020-04-22 at 4.58.03 PM.png](Screen_Shot_2020-04-22_at_4.58.03_PM.png)
+![Screen Shot 2020-04-22 at 4.58.03 PM.png](_images/Screen_Shot_2020-04-22_at_4.58.03_PM.png)
 
 # Max speed
 This setting controls the maximum speed in motor steps per second that FarmBot will reach after accelerating.

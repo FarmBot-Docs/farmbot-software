@@ -1,7 +1,7 @@
 ---
 title: "Sequences"
 slug: "sequences"
-excerpt: "Drag-and-drop programming for your FarmBot [my.farm.bot/app/sequences](https://my.farm.bot/app/sequences)"
+description: "Drag-and-drop programming for your FarmBot [my.farm.bot/app/sequences](https://my.farm.bot/app/sequences)"
 ---
 
 * toc
@@ -63,17 +63,17 @@ First, add the [watering tool](https://genesis.farm.bot/docs/watering-nozzle) to
 
 Navigate to the **Sequences** page of the web app, and press the <span class="fb-button fb-green">+</span> button in the left column (**Sequences**)  to add a new sequence.
 
-![empty_sequences.png](empty_sequences.png)
+![empty_sequences.png](_images/empty_sequences.png)
 
 You will see the new sequence appear in the sequence editor in the middle column.
 
 Give the sequence a descriptive name.
 
-![sequence_named.png](sequence_named.png)
+![sequence_named.png](_images/sequence_named.png)
 
 Begin the sequence with a movement to home. Add a <span class="fb-step fb-find-home">Find Home</span> command by clicking it or dragging it into the sequence from the commands (right) column.
 
-![sequence_home.png](sequence_home.png)
+![sequence_home.png](_images/sequence_home.png)
 
 
 
@@ -90,23 +90,23 @@ Select the `Watering Nozzle` (added in the tools page) in the `Import Coordinate
 
 We want to move to the location directly above the tool before descending down to connect to the tool, so we'll add a `100` mm Z-Offset.
 
-![sequence_above.png](sequence_above.png)
+![sequence_above.png](_images/sequence_above.png)
 
 Next we'll want FarmBot to descend directly down to make contact with the tool. Add another <span class="fb-step fb-move-absolute">Move Absolute</span> command as we did in the last step and select the `Watering Nozzle` in the `Import Coordinates From` dropdown as before. This time, there will not be an offset.
 
 *(Alternatively, press the copy icon (<span class="fa fa-copy"></span>) in the existing <span class="fb-step fb-move-absolute">Move Absolute</span> step (second icon from the right in the step's info bar) and clear the offset.)*
 
-![sequence_move_to_step.png](sequence_move_to_step.png)
+![sequence_move_to_step.png](_images/sequence_move_to_step.png)
 
 At this point, FarmBot's UTM would be attached to the tool in the toolbay. The next step will be to pull the tool out of the toolbay. Add another <span class="fb-step fb-move-absolute">Move Absolute</span> command and select the `Watering Nozzle` as the coordinates, this time adding a `100` mm X-Offset.
 
-![sequence_complete.png](sequence_complete.png)
+![sequence_complete.png](_images/sequence_complete.png)
 
 That's it! Now press the <span class="fb-button fb-green">SAVE</span> button.
 
 To recap, the steps are move to home, move directly above the tool, descend directly down to make contact with the tool, and move the tool out of the toolbay. Now you can use this sequence any time you would like to use the watering tool!
 
-![sequence_saved.png](sequence_saved.png)
+![sequence_saved.png](_images/sequence_saved.png)
 
 Don't forget to <span class="fb-button fb-yellow">SYNC</span> before pressing <span class="fb-button fb-orange">TEST</span> to test your new sequence!
 
@@ -139,7 +139,7 @@ Now that we've created a sequence to mount the watering tool, we can create a se
 4. **Wait** - Use the <span class="fb-step fb-wait">Wait</span> step to continue watering the Spinach plant for 4000 milliseconds (4 seconds).
 5. **Cose the solenoid valve** - Use another <span class="fb-step fb-write-pin">Write Pin</span> step to write `Pin 8` with a value of `OFF`, turning off the flow of water.
 
-![spinach_1.png](spinach_1.png)
+![spinach_1.png](_images/spinach_1.png)
 
 Press the <span class="fb-button fb-green">SAVE</span> button and then <span class="fb-button fb-yellow">SYNC NOW</span> at the top of the page to sync your new sequence with the device, and press <span class="fb-button fb-orange">TEST</span> to try out your new sequence!
 
@@ -147,11 +147,11 @@ Press the <span class="fb-button fb-green">SAVE</span> button and then <span cla
 
 The watering steps in the sequence shown above can be made into their own sequence, which increases re-usability and makes it easier to make changes to the watering action.
 
-![light_water.png](light_water.png)
+![light_water.png](_images/light_water.png)
 
 Then, the new water dispensing sequence can be added by using an <span class="fb-step fb-execute">Execute Sequence</span> step after movement to each plant location.
 
-![water_all_spinach.png](water_all_spinach.png)
+![water_all_spinach.png](_images/water_all_spinach.png)
 
 As you can see in this sequence, we have imported coordinates from plant locations in the <span class="fb-step fb-move-absolute">Move Absolute</span> step. These plant locations are defined in the [Farm Designer](../Web-App/farm-designer.md).
 

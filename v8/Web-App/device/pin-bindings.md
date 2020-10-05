@@ -1,7 +1,7 @@
 ---
 title: "Pin Bindings"
 slug: "pin-bindings"
-excerpt: "Trigger actions and sequences with physical buttons or additional sensors"
+description: "Trigger actions and sequences with physical buttons or additional sensors"
 ---
 
 * toc
@@ -9,7 +9,7 @@ excerpt: "Trigger actions and sequences with physical buttons or additional sens
 
 **Pin bindings** allow electrical signals from a button or sensor to trigger a FarmBot **action** or **sequence**. For example, a red button could be used to trigger the `E-stop` action as recommended with FarmBot Genesis v1.4+ kits. Another button could be used to toggle lights on and off.
 
-![pin_bindings.png](pin_bindings.png)
+![pin_bindings.png](_images/pin_bindings.png)
 
 _Genesis v1.4 stock bindings_
 
@@ -26,7 +26,7 @@ content="Upon saving a pin binding, the action or sequence you chose will be tri
 
 
 
-![pin_bindings_gpio.png](pin_bindings_gpio.png)
+![pin_bindings_gpio.png](_images/pin_bindings_gpio.png)
 
 
 
@@ -48,4 +48,4 @@ content="* Sequences must be synced to the device before use in a pin binding.
 %}
 
 # Deleting a pin binding
-To delete a pin binding, press the <span class="fb-button fb-red"><i class="fa fa-times"></i></span> button.
+To delete a pin binding, press the <span class="fb-button fb-red"><i class='fa fa-times'></i></span> button.

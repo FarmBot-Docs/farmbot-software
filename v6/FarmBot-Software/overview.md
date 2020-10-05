@@ -1,7 +1,7 @@
 ---
 title: "High Level Overview"
 slug: "overview"
-excerpt: "Description of the FarmBot software toolchain"
+description: "Description of the FarmBot software toolchain"
 ---
 
 * toc
@@ -118,7 +118,7 @@ content="Have a question or need help setting up some of the software? You can a
 ## The FarmBot Web Application
 The web app allows you to easily configure and control your FarmBot from a web browser on your laptop, tablet, or smartphone. The application features real-time manual controls and logging, a sequence builder for creating custom routines for FarmBot to execute, and a drag-and-drop farm designer so you can graphically design and manage your farm.
 
-![Web-App-on-Different-Devices.png](Web-App-on-Different-Devices.png)
+![Web-App-on-Different-Devices.png](_images/Web-App-on-Different-Devices.png)
 
 ## Message Broker
 The Message Broker is a cloud application that acts as an intermediary for all messages between the FarmBot web app and FarmBot devices. It handles socket connections, device identification, and authentication.

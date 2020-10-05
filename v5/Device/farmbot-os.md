@@ -1,7 +1,7 @@
 ---
 title: "FarmBot OS"
 slug: "farmbot-os"
-excerpt: "Step-by-step instructions for installing FarmBot OS onto the Raspberry Pi"
+description: "Step-by-step instructions for installing FarmBot OS onto the Raspberry Pi"
 ---
 
 * toc

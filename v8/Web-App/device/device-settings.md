@@ -7,7 +7,7 @@ slug: "device-settings"
 {:toc}
 
 
-![device_widget.png](device_widget.png)
+![device_widget.png](_images/device_widget.png)
 
 # Device
 ## Name

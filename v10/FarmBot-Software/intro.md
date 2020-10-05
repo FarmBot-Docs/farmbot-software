@@ -1,7 +1,7 @@
 ---
 title: "Intro to FarmBot's Software"
 slug: "intro"
-excerpt: "The powerful web app, custom operating system, and firmware that bring FarmBot to life"
+description: "The powerful web app, custom operating system, and firmware that bring FarmBot to life"
 ---
 
 * toc
@@ -13,7 +13,7 @@ There are many **software systems** contributing to FarmBot's functionality. The
 
 
 
-![FARMBOT_SOFTWARE_HIGH_LEVEL_OVERVIEW.jpg](FARMBOT_SOFTWARE_HIGH_LEVEL_OVERVIEW.jpg)
+![FARMBOT_SOFTWARE_HIGH_LEVEL_OVERVIEW.jpg](_images/FARMBOT_SOFTWARE_HIGH_LEVEL_OVERVIEW.jpg)
 
 _High Level Overview_
 
@@ -37,7 +37,7 @@ content="Have a question or need help setting up some of the software? Email us 
 
 The Raspberry Pi is the communications link to the FarmBot Web App. The Raspberry Pi communicates directly with the Farmduino board. The Farmduino is the central component of the FarmBot from a electronic systems perspective. This diagram shows how all of the FarmBot components interact with the Farmduino with the Raspberry Pi acting as the communications node between the Web App and the Farmduino.
 
-![FarmBot_System_Diagram.png](FarmBot_System_Diagram.png)
+![FarmBot_System_Diagram.png](_images/FarmBot_System_Diagram.png)
 
 _FarmBot Systems Diagram_
 
@@ -46,7 +46,7 @@ _FarmBot Systems Diagram_
 ## The FarmBot web app
 The **web app** allows you to easily control and configure your FarmBot from a web browser using your laptop, tablet, or smartphone. The application features real-time manual controls and logging, a sequence builder for creating custom routines for FarmBot to execute, and a drag-and-drop farm designer so you can graphically design your garden.
 
-![Web-App-on-Different-Devices.png](Web-App-on-Different-Devices.png)
+![Web-App-on-Different-Devices.png](_images/Web-App-on-Different-Devices.png)
 
 ## Message broker
 The **message broker** is a cloud application that acts as an intermediary for messages between the FarmBot web app, your web browser, and the FarmBot device. It handles socket connections, device identification, and authentication.

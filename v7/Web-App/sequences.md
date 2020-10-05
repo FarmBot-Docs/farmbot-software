@@ -1,7 +1,7 @@
 ---
 title: "Sequences"
 slug: "sequences"
-excerpt: "Drag-and-drop programming for your FarmBot [my.farm.bot/app/sequences](https://my.farm.bot/app/sequences)"
+description: "Drag-and-drop programming for your FarmBot [my.farm.bot/app/sequences](https://my.farm.bot/app/sequences)"
 ---
 
 * toc
@@ -15,7 +15,7 @@ The web app is a platform designed to give you unlimited control over how you us
 
 You can create sequences using the sequence editor as shown below. On the left of the screen is a list of all the sequences in your account. In the middle is the currently opened sequence. And on the right are the available commands that you can add to the sequence.
 
-![db260d9-spinach_1.png](spinach_1.png)
+![db260d9-spinach_1.png](_images/spinach_1.png)
 
 _An example sequence to water a spinach plant_
 

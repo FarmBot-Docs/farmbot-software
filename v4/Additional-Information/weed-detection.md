@@ -1,7 +1,7 @@
 ---
 title: "Weed Detection"
 slug: "weed-detection"
-excerpt: "Computer vision software to detect weeds"
+description: "Computer vision software to detect weeds"
 ---
 
 * toc

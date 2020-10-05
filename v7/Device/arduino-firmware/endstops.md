@@ -1,7 +1,7 @@
 ---
 title: "Endstops"
 slug: "endstops"
-excerpt: "Hardware for finding home and axis maximums"
+description: "Hardware for finding home and axis maximums"
 ---
 
 * toc

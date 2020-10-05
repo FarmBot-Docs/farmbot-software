@@ -17,7 +17,7 @@ content="Microstepping is hardware-controlled on the MS1, MS2, MS3 dip switches.
 
 
 
-![MICRO_STEP.jpg](MICRO_STEP.jpg)
+![MICRO_STEP.jpg](_images/MICRO_STEP.jpg)
 
 _Photo of the Microstepping switches locations (MS1, MS2, MS3) above the A4988 stepper drivers on the Farmduino v1.4_
 
@@ -25,7 +25,7 @@ Stock FarmBots are set to use full-steps by default (no microstepping), which me
 
 If you do use microstepping  you will need to make changes in the software settings match the hardware dip switch positions.
 
-![MICRO_STEP_SETTINGS.jpg](MICRO_STEP_SETTINGS.jpg)
+![MICRO_STEP_SETTINGS.jpg](_images/MICRO_STEP_SETTINGS.jpg)
 
 
 
@@ -61,7 +61,7 @@ content="If you decide to experiment with microstepping, then you will need to i
 
 
 
-![switches.jpeg](switches.jpeg)
+![switches.jpeg](_images/switches.jpeg)
 
 _microstepping switch locations on the Farmduino v1.4_
 

@@ -1,7 +1,7 @@
 ---
 title: "Calibration and Homing"
 slug: "calibration-and-homing"
-excerpt: "Manual and automatic approaches"
+description: "Manual and automatic approaches"
 ---
 
 * toc

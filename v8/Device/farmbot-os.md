@@ -1,7 +1,7 @@
 ---
 title: "FarmBot OS"
 slug: "farmbot-os"
-excerpt: "Step-by-step instructions for installing FarmBot OS :movie-camera: [Video tutorial](https://youtu.be/AOsF17Yxoi4?t=9)\nDownload the latest FarmBot OS `.img` file [here](http://os.farm.bot)."
+description: "Step-by-step instructions for installing FarmBot OS :movie-camera: [Video tutorial](https://youtu.be/AOsF17Yxoi4?t=9)\nDownload the latest FarmBot OS `.img` file [here](http://os.farm.bot)."
 ---
 
 * toc
@@ -59,7 +59,7 @@ content="You do not need to remove the Raspberry Pi from the electronics box for
 
 
 
-![Screen Shot 2018-10-04 at 5.10.01 PM.png](Screen_Shot_2018-10-04_at_5.10.01_PM.png)
+![Screen Shot 2018-10-04 at 5.10.01 PM.png](_images/Screen_Shot_2018-10-04_at_5.10.01_PM.png)
 
 ## Step 4. Turn on the Raspberry Pi
 Plug in the power source to the Raspberry Pi. Depending on your setup, power will be coming from either a standard microUSB cable plugged into the Farmduino (or a standalone power supply), from a DC/DC buck converter coming from your RAMPS shield, or from a DC/DC buck converter coming straight from your FarmBot's power supply.

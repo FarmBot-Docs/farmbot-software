@@ -1,7 +1,7 @@
 ---
 title: "Account Settings"
 slug: "account-settings"
-excerpt: "Manage your account and app settings [my.farm.bot/app/account](https://my.farm.bot/app/account)"
+description: "Manage your account and app settings [my.farm.bot/app/account](https://my.farm.bot/app/account)"
 ---
 
 * toc

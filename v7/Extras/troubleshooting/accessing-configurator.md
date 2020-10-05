@@ -1,7 +1,7 @@
 ---
 title: "Accessing Configurator"
 slug: "accessing-configurator"
-excerpt: "Problem description: I'm trying to configure my FarmBot but I do not see the `farmbot-xxxx` WiFi network."
+description: "Problem description: I'm trying to configure my FarmBot but I do not see the `farmbot-xxxx` WiFi network."
 ---
 
 * toc

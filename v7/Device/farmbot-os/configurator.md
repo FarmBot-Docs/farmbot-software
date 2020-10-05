@@ -1,7 +1,7 @@
 ---
 title: "Configurator"
 slug: "configurator"
-excerpt: "Step-by-step instructions for configuring FarmBot to connect to your home WiFi and web app account"
+description: "Step-by-step instructions for configuring FarmBot to connect to your home WiFi and web app account"
 ---
 
 * toc
@@ -38,7 +38,7 @@ content="If you are using a smartphone you may need to disable cellular data to 
 
 
 
-![v6.4.1_configurator.png](v6.4.1_configurator.png)
+![v6.4.1_configurator.png](_images/v6.4.1_configurator.png)
 
 ## Step 2: Enter credentials
 From here, follow the on-screen form to enter:

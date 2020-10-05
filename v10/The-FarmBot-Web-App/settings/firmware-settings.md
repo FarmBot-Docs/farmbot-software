@@ -1,14 +1,14 @@
 ---
 title: "Firmware Settings"
 slug: "firmware-settings"
-excerpt: "[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=firmware)"
+description: "[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=firmware)"
 ---
 
 * toc
 {:toc}
 
 
-![Screen Shot 2020-04-22 at 4.58.31 PM.png](Screen_Shot_2020-04-22_at_4.58.31_PM.png)
+![Screen Shot 2020-04-22 at 4.58.31 PM.png](_images/Screen_Shot_2020-04-22_at_4.58.31_PM.png)
 
 # Name
 Give your FarmBot a fun name. For example: `Broccoli Overlord` 🥦🤖

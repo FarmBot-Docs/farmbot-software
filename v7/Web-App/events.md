@@ -1,7 +1,7 @@
 ---
 title: "Events"
 slug: "events"
-excerpt: "Schedule FarmBot actions [my.farm.bot/app/designer/events](https://my.farm.bot/app/designer/events)"
+description: "Schedule FarmBot actions [my.farm.bot/app/designer/events](https://my.farm.bot/app/designer/events)"
 ---
 
 * toc
@@ -18,7 +18,7 @@ It would not be convenient for you to manually initiate your sequences every tim
 
 If you've ever used a calendar application before, you'll feel right at home with this. Simply choose the sequence or regimen you would like to execute, and schedule it to run on a one-off or repeating basis.
 
-![events_overview.png](events_overview.png)
+![events_overview.png](_images/events_overview.png)
 
 
 
@@ -26,11 +26,11 @@ If you've ever used a calendar application before, you'll feel right at home wit
 
 Press the <span class="fb-circle-button fb-purple">+</span> button to create a new **event**.
 
-![farm events.png](farm_events.png)
+![farm events.png](_images/farm_events.png)
 
 The **Add Event** screen will appear.
 
-![events_1.png](events_1.png)
+![events_1.png](_images/events_1.png)
 
 Select:
 * a sequence or regimen to run
@@ -38,11 +38,11 @@ Select:
 * a repeat interval (if desired)
 * a repeat end time and date (if repeating)
 
-![events_repeat.png](events_repeat.png)
+![events_repeat.png](_images/events_repeat.png)
 
 Press the <span class="fb-button fb-purple">SAVE</span> button to save the event. The event will now show up in the agenda.
 
-![agenda.png](agenda.png)
+![agenda.png](_images/agenda.png)
 
 Be sure to press the <span class="fb-button fb-yellow">SYNC NOW</span> button at the top of the page to sync the newly created event with the device so that it will be executed!
 
@@ -50,19 +50,19 @@ Be sure to press the <span class="fb-button fb-yellow">SYNC NOW</span> button at
 
 Let's say we have created a `Water` event that we'd like to make some changes to.
 
-![water.png](water.png)
+![water.png](_images/water.png)
 
 Press the **edit icon** to the right of the event name shown in the figure below.
 
-![edit_icon_cursor.png](edit_icon_cursor.png)
+![edit_icon_cursor.png](_images/edit_icon_cursor.png)
 
 Make the desired changes and press <span class="fb-button fb-purple">SAVE</span>.
 
-![editing.png](editing.png)
+![editing.png](_images/editing.png)
 
 The event will update in the agenda.
 
-![saved.png](saved.png)
+![saved.png](_images/saved.png)
 
 
 

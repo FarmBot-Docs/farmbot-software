@@ -1,7 +1,7 @@
 ---
 title: "Configurator"
 slug: "configurator"
-excerpt: "Step-by-step instructions for configuring FarmBot"
+description: "Step-by-step instructions for configuring FarmBot"
 ---
 
 * toc
@@ -40,7 +40,7 @@ If you experience a site connection error in the browser, try navigating to `192
 
 
 
-![v6.4.1_configurator.png](v6.4.1_configurator.png)
+![v6.4.1_configurator.png](_images/v6.4.1_configurator.png)
 
 ## Step 2: Enter credentials
 From here, follow the on-screen form to enter:

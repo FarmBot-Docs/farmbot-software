@@ -1,7 +1,7 @@
 ---
 title: "Farm Events"
 slug: "farm-events"
-excerpt: "Schedule FarmBot actions [my.farmbot.io/app/designer/farm_events](http://my.farmbot.io/app/designer/farm_events)"
+description: "Schedule FarmBot actions [my.farmbot.io/app/designer/farm_events](http://my.farmbot.io/app/designer/farm_events)"
 ---
 
 * toc
@@ -12,7 +12,7 @@ It would not be convenient for you to manually initiate your sequences every tim
 
 If you've ever used a calendar application before, you'll feel right at home with this. Simply choose the sequence you would like to execute, and schedule it to run on a one-off or repeating basis.
 
-![events.png](events.png)
+![events.png](_images/events.png)
 
 
 # What's next?

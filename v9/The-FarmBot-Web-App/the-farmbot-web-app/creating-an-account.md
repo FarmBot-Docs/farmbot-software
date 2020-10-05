@@ -1,7 +1,7 @@
 ---
 title: "Creating an Account"
 slug: "creating-an-account"
-excerpt: ":movie-camera: [Video tutorial](https://youtu.be/0EAcUbO6tqo?t=35)"
+description: ":movie-camera: [Video tutorial](https://youtu.be/0EAcUbO6tqo?t=35)"
 ---
 
 * toc
@@ -13,14 +13,14 @@ excerpt: ":movie-camera: [Video tutorial](https://youtu.be/0EAcUbO6tqo?t=35)"
 4. Click <span class="fb-button fb-green">Create account</span>
 5. Check your email and click the link to confirm your account
 
-![Screen Shot 2020-04-21 at 5.39.55 PM.png](Screen_Shot_2020-04-21_at_5.39.55_PM.png)
+![Screen Shot 2020-04-21 at 5.39.55 PM.png](_images/Screen_Shot_2020-04-21_at_5.39.55_PM.png)
 
 # Choose your FarmBot
 Clicking the email verification link will log you into the app and take you to the [message center](../the-farmbot-web-app/message-center.md). Here, you'll see a few messages to help you become familiar with the app, as well as one to **Choose your FarmBot**.
 
 Once you let the app know which FarmBot model you have, it will add a set of resources (peripherals, sequences, etc) and apply a set of settings (map size, firmware version, etc) appropriate to your FarmBot model. This will allow you to get started working with your FarmBot more quickly.
 
-![Choose your FarmBot.png](Choose_your_FarmBot.png)
+![Choose your FarmBot.png](_images/Choose_your_FarmBot.png)
 
 
 
