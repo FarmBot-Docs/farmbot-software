@@ -51,10 +51,10 @@ Next we'll add a `Light Watering` sequence to the regimen to run at `8PM` every 
 
 Last we'll add a `Medium Watering` sequence to run at `8PM` every other day for weeks 3 through 7, and then press <span class="fb-button fb-green">SAVE</span> to save the regimen.
 
-![Screen Shot 2019-07-15 at 2.22.03 PM.png](_images/Screen_Shot_2019-07-15_at_2.22.03_PM.png)
+![Screen Shot 2019-07-15 at 2.22.03 PM.png](_images/Screen_Shot_2019-07-15_at_2.22.03_02.png)
 
 # Running a regimen
-A regimen on its own will not execute because the regimen only has enough information to run sequences at a day and time _relative_ from a start date. Thus, to run a regimen, you will have to schedule it using an [event](events).
+A regimen on its own will not execute because the regimen only has enough information to run sequences at a day and time _relative_ from a start date. Thus, to run a regimen, you will have to schedule it using an [event](../The-FarmBot-Web-App/events.md).
 
 # What's next?
 

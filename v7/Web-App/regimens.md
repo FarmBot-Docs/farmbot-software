@@ -74,7 +74,7 @@ Next we will select the **Medium Watering** sequence and have it run every other
 
 After pressing the <span class="fb-button fb-green">+</span> button, our regimen is complete! Press <span class="fb-button fb-green">Save</span> to save the regimen.
 
-![regimens.png](_images/regimens.png)
+![regimens.png](_images/regimens_02.png)
 
 
 

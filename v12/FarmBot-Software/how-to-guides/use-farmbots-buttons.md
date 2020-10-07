@@ -13,7 +13,7 @@ FarmBot Genesis v1.4+ kits include five **push buttons** on top of the electroni
 
 [:sweat-drops: Wash your bounty and your hands](#example-2-wash-your-bounty-and-your-hands)
 
-[:arrow-double-up: Get FarmBot out of the way](#example-3-get-farm-bot-out-of-the-way)
+[:arrow-double-up: Get FarmBot out of the way](#example-3-get-farmbot-out-of-the-way)
 
 # Example 1: Toggle lights for nighttime harvesting
 

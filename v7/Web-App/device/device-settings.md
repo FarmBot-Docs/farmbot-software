@@ -40,7 +40,7 @@ content="This setting is enabled by default so that your FarmBot will stay updat
 %}
 
 ## Auto sync
-When enabled, device resources such as [sequences](dpoc:sequences), [regimens](../../Web-App/regimens.md), [events](../../Web-App/events.md), plant locations, and more will be synced with FarmBot automatically as soon as they are created, changed, or deleted. This setting is enabled by default to help make your FarmBot experience streamlined and efficient.
+When enabled, device resources such as [sequences](../../Web-App/sequences.md), [regimens](../../Web-App/regimens.md), [events](../../Web-App/events.md), plant locations, and more will be synced with FarmBot automatically as soon as they are created, changed, or deleted. This setting is enabled by default to help make your FarmBot experience streamlined and efficient.
 
 Disabling this setting may be useful when making many changes to your resources that are not ready to be executed by FarmBot immediately.
 

@@ -13,7 +13,7 @@ Widgets on this page:
  * [Hardware](#hardware-widget)
 
 <div class="nav-image">
-  <img class="nav-image" src="_images/device.png" alt="Device" />
+  <img class="nav-image" src="_images/device_02.png" alt="Device" />
   <a href="https://software.farmbot.io/docs/device#device-widget" style="top: 9.22%; left: 3.16%; width: 45.73%; height: 49.83%;"></a>
   <a href="https://software.farmbot.io/docs/device#connectivity-widget" style="top: 62.12%; left: 3.10%; width: 45.78%; height: 37.20%;"></a>
   <a href="https://software.farmbot.io/docs/device#hardware-widget" style="top: 9.13%; left: 51.00%; width: 45.84%; height: 23.81%;"></a>

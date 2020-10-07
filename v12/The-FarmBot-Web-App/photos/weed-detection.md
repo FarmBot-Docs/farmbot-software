@@ -16,7 +16,7 @@ FarmBot is designed to remove weeds early and often, so that the weeds are alway
 include callout.html
 type="info"
 title="Calibration required"
-content="To use the weed detection feature, you must first [calibrate the camera](#camera-calibration)."
+content="To use the weed detection feature, you must first [calibrate the camera](../photos/camera-calibration.md)."
 %}
 
 # Step 1: Select color range

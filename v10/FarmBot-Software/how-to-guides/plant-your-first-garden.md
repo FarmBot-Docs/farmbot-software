@@ -100,7 +100,7 @@ Below are all the commands for Sequence 1. Some values shown in the images may n
 
 **Step 4:** <span class="fb-step fb-move-absolute">MOVE TO</span> above the gantry-mounted seed trough by using a positive **Z-OFFSET**. A seed should be suction-held onto the needle at this point.
 
-![bfa3eb0-Screen_Shot_2020-04-22_at_11.52.47_PM.png](_images/Screen_Shot_2020-04-22_at_11.52.47_PM.png)
+![bfa3eb0-Screen_Shot_2020-04-22_at_11.52.47_PM.png](_images/Screen_Shot_2020-04-22_at_11.52.47_02.png)
 
 **Step 5:** <span class="fb-step fb-move-absolute">MOVE TO</span> an **externally defined location variable**. You can find this option by first choosing "Location Variable - Add new" in the command's dropdown. This will add a gray **LOCATION VARIABLE** form to the top of the sequence. There, choose "Externally defined" and provide a **DEFAULT VALUE** of (0, 0, 0) coordinates. In the next sequence we make, we'll pass specific plant locations into this variable.
 
@@ -124,7 +124,7 @@ Below are all the commands for Sequence 1. Some values shown in the images may n
 
 **Step 9:** <span class="fb-step fb-move-absolute">MOVE TO</span> the externally defined location variable to retract the needle out of the soil and raise the z-axis back to the maximum height.
 
-![59d2bb1-Screen_Shot_2020-04-23_at_12.00.53_AM.png](_images/Screen_Shot_2020-04-23_at_12.00.53_AM.png)
+![59d2bb1-Screen_Shot_2020-04-23_at_12.00.53_AM.png](_images/Screen_Shot_2020-04-23_at_12.00.53_02.png)
 
 
 

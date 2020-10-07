@@ -10,7 +10,7 @@ description: "Drag-and-drop plant placement [my.farmbot.io/app/designer](http://
 View and layout your garden in a virtual representation of your FarmBot's bed on this page.
 
 <div class="nav-image">
-  <img class="nav-image" src="_images/overview.png" alt="Farm Designer" />
+  <img class="nav-image" src="_images/overview_02.png" alt="Farm Designer" />
   <a href="https://software.farmbot.io/docs/farm-designer#add-plants" style="top: 12%; left: 0%; width: 30.75%; height: 87%;"></a>
   <a href="https://software.farmbot.io/docs/farm-designer#map" style="top: 12%; left: 30.75%; width: 69%; height: 87%;"></a>
 </div>

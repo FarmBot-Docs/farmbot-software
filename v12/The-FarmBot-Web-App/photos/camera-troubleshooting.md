@@ -80,7 +80,7 @@ If your camera is recognized by another device however your camera is not recogn
 If you are getting blank or completely black images from your FarmBot camera, there is likely low voltage getting to your Raspberry Pi to power the camera. This means that the camera is being recognized by the USB port but there is not sufficient voltage to produce an image.
 This photo below is an example of Blank or Black photos produced from low voltage at the Raspberry Pi.
 
-![image1.png](_images/image1.png)
+![image1.png](_images/image1_02.png)
 
 To confirm this issue, measure the voltage across the GPIO pins on the Raspberry Pi Adapter Board. We are looking to measure the voltage between Pin 2 and Pin 6 as shown in the diagram below.
 

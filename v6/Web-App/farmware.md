@@ -25,7 +25,7 @@ The following Farmware have been created by FarmBot Inc and are pre-installed:
 
 <!--
 _images/farmware_page.png
-_images/photo_widget.png
+_images/photo_widget_02.png
 -->
 
 

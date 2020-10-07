@@ -9,7 +9,7 @@ slug: "externally-defined-variables"
 There are five places that you can provide a value for an **externally defined variable**:
 1. When using the [run button](#run-button)
 2. In an [execute step](#execute-step)
-3. In a [parent sequence's header](#sequence-header)
+3. In a [parent sequence's header](#parent-sequence-header)
 4. In a [regimen header](#regimen-header)
 5. In an [event](#event)
 

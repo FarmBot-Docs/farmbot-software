@@ -18,7 +18,7 @@ content="After creating a web app account, you must also verify that you control
 %}
 
 # 2. Reconnect to the Internet and be patient
-Immediately after completing configuration, FarmBot will disable the `farmbot-xxxx` WiFi network. Check to make sure that your smartphone, tablet, or laptop reconnects to your normal WiFi network (with Internet access), as this might not happen automatically or quickly. Then use your web browser to load the web app ([my.farm.bot](my.farm.bot)). If you already had the web app loaded in a tab, refresh the tab.
+Immediately after completing configuration, FarmBot will disable the `farmbot-xxxx` WiFi network. Check to make sure that your smartphone, tablet, or laptop reconnects to your normal WiFi network (with Internet access), as this might not happen automatically or quickly. Then use your web browser to load the web app ([my.farm.bot](https://my.farm.bot)). If you already had the web app loaded in a tab, refresh the tab.
 
 It usually takes about 2 minutes after completing configuration for FarmBot to boot up, connect to the internet (over WiFi or Ethernet), connect to the web application, and finish the initialization process. If you have waited at least 2 minutes since completing configuration and do not see the FarmBot online in the web app, move on to the next step.
 

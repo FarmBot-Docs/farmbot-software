@@ -14,7 +14,7 @@ Widgets on this page:
  * [Camera Calibration](#camera-calibration)
 
 <div class="nav-image">
-  <img class="nav-image" src="_images/farmware.png" alt="Device" />
+  <img class="nav-image" src="_images/farmware_02.png" alt="Device" />
   <a href="https://software.farmbot.io/docs/farmware#farmware" style="top: 5.01%; left: 59.11%; width: 39.85%; height: 11.27%;"></a>
   <a href="https://software.farmbot.io/docs/farmware#take-photo" style="top: 5.17%; left: 0.64%; width: 56.61%; height: 39.71%;"></a>
   <a href="https://software.farmbot.io/docs/farmware#weed-detector" style="top: 46.90%; left: 50.81%; width: 48.03%; height: 52.45%;"></a>
@@ -26,7 +26,7 @@ Widgets on this page:
 
 <!--
 _images/farmware_page.png
-_images/photo_widget.png
+_images/photo_widget_02.png
 -->
 
 
