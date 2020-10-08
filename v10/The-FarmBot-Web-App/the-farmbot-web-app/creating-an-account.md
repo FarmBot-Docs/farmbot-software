@@ -1,7 +1,7 @@
 ---
 title: "Creating an Account"
 slug: "creating-an-account"
-description: ":movie-camera: [Video tutorial](https://youtu.be/0EAcUbO6tqo?t=35)"
+description: ":movie_camera: [Video tutorial](https://youtu.be/0EAcUbO6tqo?t=35)"
 ---
 
 * toc

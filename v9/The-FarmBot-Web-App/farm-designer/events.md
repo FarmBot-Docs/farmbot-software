@@ -1,7 +1,7 @@
 ---
 title: "Events"
 slug: "events"
-description: "Schedule FarmBot actions :calendar: :white-check-mark:\n[Open this panel in the app](https://my.farm.bot/app/designer/events)"
+description: "Schedule FarmBot actions :calendar: :white_check_mark:\n[Open this panel in the app](https://my.farm.bot/app/designer/events)"
 ---
 
 * toc

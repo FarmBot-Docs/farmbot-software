@@ -1,7 +1,7 @@
 ---
 title: "FarmBot OS"
 slug: "farmbot-os"
-description: "Step-by-step instructions for installing FarmBot OS :movie-camera: [Video tutorial](https://youtu.be/AOsF17Yxoi4?t=9)\nDownload the latest FarmBot OS `.img` file at [os.farm.bot](http://os.farm.bot)."
+description: "Step-by-step instructions for installing FarmBot OS :movie_camera: [Video tutorial](https://youtu.be/AOsF17Yxoi4?t=9)\nDownload the latest FarmBot OS `.img` file at [os.farm.bot](http://os.farm.bot)."
 ---
 
 * toc

@@ -13,15 +13,15 @@ The **FarmBot web app** is a web-based application that allows you to control an
 
 :calendar: [Event scheduler](../The-FarmBot-Web-App/farm-designer/events.md) for telling FarmBot when to water the garden and perform other operations
 
-:page-facing-up: [Sequence editor](../The-FarmBot-Web-App/sequences.md) allowing you to program how FarmBot operates without writing any code
+:page_facing_up: [Sequence editor](../The-FarmBot-Web-App/sequences.md) allowing you to program how FarmBot operates without writing any code
 
 :registered: [Regimen editor](../The-FarmBot-Web-App/regimens.md) for scheduling sequences based on plant age
 
-:video-game: [Controls](../The-FarmBot-Web-App/controls.md) for moving FarmBot in real-time and operating its peripherals and sensors
+:video_game: [Controls](../The-FarmBot-Web-App/controls.md) for moving FarmBot in real-time and operating its peripherals and sensors
 
 :wrench: Management of FarmBot's [tools and seed containers](../The-FarmBot-Web-App/farm-designer/tools.md)
 
-:electric-plug: Management and control of [farmware](../The-FarmBot-Web-App/farmware.md), FarmBot's 3rd-party plugin system
+:electric_plug: Management and control of [farmware](../The-FarmBot-Web-App/farmware.md), FarmBot's 3rd-party plugin system
 
 :1234: Management of [FarmBot's settings](../The-FarmBot-Web-App/settings/farmbot-settings.md)
 

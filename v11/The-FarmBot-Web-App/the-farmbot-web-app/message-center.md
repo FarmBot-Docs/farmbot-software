@@ -7,7 +7,7 @@ description: "News and important information about your account and FarmBot :ema
 * toc
 {:toc}
 
-The **message center** contains **messages** with important information about your user account, your FarmBot, and news such as new feature and product announcements. Look for the blue badge :large-blue-circle: in the main app menu to see when new messages are available.
+The **message center** contains **messages** with important information about your user account, your FarmBot, and news such as new feature and product announcements. Look for the blue badge :large_blue_circle: in the main app menu to see when new messages are available.
 
 ![Screen Shot 2020-08-24 at 11.32.38 AM.png](_images/Screen_Shot_2020-08-24_at_11.32.38_AM.png)
 

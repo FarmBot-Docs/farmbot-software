@@ -1,7 +1,7 @@
 ---
 title: "Farmware"
 slug: "farmware"
-description: "Plugin system for FarmBot OS :electric-plug:\n[Open this page in the app](https://my.farm.bot/app/farmware)"
+description: "Plugin system for FarmBot OS :electric_plug:\n[Open this page in the app](https://my.farm.bot/app/farmware)"
 ---
 
 * toc

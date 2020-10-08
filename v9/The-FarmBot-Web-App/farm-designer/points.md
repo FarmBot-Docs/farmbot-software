@@ -1,7 +1,7 @@
 ---
 title: "Points"
 slug: "points"
-description: "Create custom locations in your garden :round-pushpin:\n[Open this panel in the app](https://my.farm.bot/app/designer/points)"
+description: "Create custom locations in your garden :round_pushpin:\n[Open this panel in the app](https://my.farm.bot/app/designer/points)"
 ---
 
 * toc

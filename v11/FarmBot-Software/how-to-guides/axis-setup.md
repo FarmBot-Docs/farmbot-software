@@ -38,7 +38,7 @@ To **automatically find home**, FarmBot will:
 
 :boom: Using [special hardware](#how-it-works), FarmBot will **detect** when the home position has been reached.
 
-:white-check-mark: Once the home position is reached the first time, FarmBot will back up a short distance and then move forward again to **verify** that the home position is found a second time in the same location. If the verification fails, FarmBot will go back to step 1 of the process.
+:white_check_mark: Once the home position is reached the first time, FarmBot will back up a short distance and then move forward again to **verify** that the home position is found a second time in the same location. If the verification fails, FarmBot will go back to step 1 of the process.
 
 :house: Once the verification succeeds, FarmBot will **set** the current location as the home position. In other words, FarmBot's coordinates will be set to `(0, 0, 0)`.
 
@@ -82,11 +82,11 @@ To **automatically find an axis length**, FarmBot will:
 
 :boom: Using [special hardware](#how-it-works), FarmBot will **detect** when the maximum position has been reached.
 
-:straight-ruler: FarmBot will then move in the direction of the home position, **searching** for it, while also **measuring** the distance it has moved from the maximum position.
+:straight_ruler: FarmBot will then move in the direction of the home position, **searching** for it, while also **measuring** the distance it has moved from the maximum position.
 
 :boom: Using [special hardware](#how-it-works), FarmBot will **detect** when the home position has been reached.
 
-:white-check-mark: FarmBot will then **set** the **AXIS LENGTH** to the distance that was measured between the maximum and home positions. FarmBot will also set the current location as the home position.
+:white_check_mark: FarmBot will then **set** the **AXIS LENGTH** to the distance that was measured between the maximum and home positions. FarmBot will also set the current location as the home position.
 
 ![calibrate.gif](_images/calibrate.gif)
 
