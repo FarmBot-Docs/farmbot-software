@@ -51,7 +51,7 @@ Insert the **microSD card** into the **Raspberry Pi**. The card slot location wi
 
 For Genesis kits, the card slot is located on the back side of the Pi 3, on the right-hand edge. You do not need to remove the Raspberry Pi from the electronics box to insert the card; we have left enough access room.
 
-<img src="Screen_Shot_2018-10-04_at_5.10.01_PM.png" title="MicroSD card slot on the Raspberry Pi 3"></img>
+<img src="_images/Screen_Shot_2018-10-04_at_5.10.01_PM.png" title="MicroSD card slot on the Raspberry Pi 3"></img>
 
 </details>
 
@@ -59,7 +59,7 @@ For Genesis kits, the card slot is located on the back side of the Pi 3, on the 
 
 For Express kits, the card slot is located on the front side of the Pi Zero, on the left-hand edge.
 
-<img src="Card.jpeg" title="MicroSD card slot on the Raspberry Pi Zero W"></img>
+<img src="_images/Card.jpeg" title="MicroSD card slot on the Raspberry Pi Zero W"></img>
 
 </details>
 

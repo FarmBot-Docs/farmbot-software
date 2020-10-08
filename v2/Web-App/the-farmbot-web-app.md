@@ -2,6 +2,7 @@
 title: "The FarmBot Web App"
 slug: "the-farmbot-web-app"
 description: "Step-by-step instructions for setting up and using the FarmBot web app"
+redirect_from: /docs/v2/
 ---
 
 * toc

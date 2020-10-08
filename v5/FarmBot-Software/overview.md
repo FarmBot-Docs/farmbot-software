@@ -2,6 +2,7 @@
 title: "High Level Overview"
 slug: "overview"
 description: "Description of the FarmBot software toolchain"
+redirect_from: /docs/v5/
 ---
 
 * toc

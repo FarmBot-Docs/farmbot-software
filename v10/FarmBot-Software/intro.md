@@ -2,6 +2,7 @@
 title: "Intro to FarmBot's Software"
 slug: "intro"
 description: "The powerful web app, custom operating system, and firmware that bring FarmBot to life"
+redirect_from: /docs/v10/
 ---
 
 * toc
