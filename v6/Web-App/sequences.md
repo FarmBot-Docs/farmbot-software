@@ -30,8 +30,8 @@ These are the basic operations we can use in sequences that FarmBot can execute:
 * <span class="fb-step fb-find-home">Find Home</span> - Perform a homing operation to set zero for one axis or all axes.
 * <span class="fb-step fb-if-statement">If Statement</span> - Executes another sequence if a condition is true. This is useful for error detection and smarter, condition based farming.
 * <span class="fb-step fb-execute">Execute Sequence</span> - Use existing sequences as steps in a new, larger sequence. This technique allows you to re-use smaller sequences in different combinations to create far more complex sequences that are easier to modify, manage, and mashup. You can then use the individual sequences in other ways without having to recreate them each time.
-* <span class="fb-step fb-take-photo">Run Farmware</span> - Run a [Farmware](../Web-App/farmware.md). Input the name of a Farmware to run it, for example, `plant-detection`.
-* <span class="fb-step fb-wait">Take Photo</span> - Takes a picture with a USB webcam or the Raspberry Pi camera (select your camera in the [Device](../Web-App/device.md#device-widget) widget) and sends it to the web app.
+* <span class="fb-step fb-take-photo">Run Farmware</span> - Run a [Farmware](farmware.md). Input the name of a Farmware to run it, for example, `plant-detection`.
+* <span class="fb-step fb-wait">Take Photo</span> - Takes a picture with a USB webcam or the Raspberry Pi camera (select your camera in the [Device](device.md#device-widget) widget) and sends it to the web app.
 
 {%
 include callout.html
@@ -59,7 +59,7 @@ In the next sections, several sequences are built as examples.
 
 Let's create a sequence to mount the watering nozzle as an example.
 
-First, add the [watering tool](https://genesis.farm.bot/docs/watering-nozzle) to the toolbay and follow the [Tools](../Web-App/tools.md) instructions to add it to the web app.
+First, add the [watering tool](https://genesis.farm.bot/docs/watering-nozzle) to the toolbay and follow the [Tools](tools.md) instructions to add it to the web app.
 
 Navigate to the **Sequences** page of the web app, and press the <span class="fb-button fb-green">+</span> button in the left column (**Sequences**)  to add a new sequence.
 
@@ -153,7 +153,7 @@ Then, the new water dispensing sequence can be added by using an <span class="fb
 
 ![water_all_spinach.png](_images/water_all_spinach.png)
 
-As you can see in this sequence, we have imported coordinates from plant locations in the <span class="fb-step fb-move-absolute">Move Absolute</span> step. These plant locations are defined in the [Farm Designer](../Web-App/farm-designer.md).
+As you can see in this sequence, we have imported coordinates from plant locations in the <span class="fb-step fb-move-absolute">Move Absolute</span> step. These plant locations are defined in the [Farm Designer](farm-designer.md).
 
 As always, don't forget to <span class="fb-button fb-green">SAVE</span> and <span class="fb-button fb-yellow">SYNC NOW</span> before pressing <span class="fb-button fb-orange">TEST</span> to test the sequence!
 
@@ -170,4 +170,4 @@ Each step has a description and additional tips available by hovering over the <
 
 # What's next?
 
- * [Regimens](../Web-App/regimens.md)
+ * [Regimens](regimens.md)

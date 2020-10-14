@@ -54,4 +54,4 @@ content="You cannot change from executing a sequence to executing a regimen or v
 
 # What's next?
 
- * [Points](../farm-designer/points.md)
+ * [Points](points.md)

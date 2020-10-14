@@ -61,4 +61,4 @@ Now our sequence is built in a generic way that will allow it to mount any tool,
 
 # What's next?
 
- * [Externally Defined Variables](../sequences/externally-defined-variables.md)
+ * [Externally Defined Variables](externally-defined-variables.md)

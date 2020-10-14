@@ -43,7 +43,7 @@ Use the `PREV` and `NEXT` buttons to navigate through previously taken images.
 include callout.html
 type="info"
 title=""
-content="The default camera is a USB camera. If you would like to use a Raspberry Pi camera, use the camera selection dropdown menu in the **Device** widget on the [Device](../Web-App/device.md#device-widget) page."
+content="The default camera is a USB camera. If you would like to use a Raspberry Pi camera, use the camera selection dropdown menu in the **Device** widget on the [Device](device.md#device-widget) page."
 %}
 
 # Weed Detector
@@ -63,7 +63,7 @@ Select hue, saturation, and value ranges to cover the colors you want to detect 
 
 Change the blur, morph and iteration processing parameters if desired.
 
-Press <span class="fb-button fb-yellow">test</span> to detect weeds in FarmBot camera's current view. The weeds will appear in the [Farm Designer](../Web-App/farm-designer.md). Press <span class="fb-button fb-red">clear weeds</span> to delete them from the map.
+Press <span class="fb-button fb-yellow">test</span> to detect weeds in FarmBot camera's current view. The weeds will appear in the [Farm Designer](farm-designer.md). Press <span class="fb-button fb-red">clear weeds</span> to delete them from the map.
 
 Weed removal is performed by creating a weed removal sequence using the weeding tool and applying it to the weeds in the Farm Designer. For more information on the weed detection process, see [Weed Detection](../Additional-Information/weed-detection.md).
 

@@ -37,6 +37,6 @@ content="Please see our [developer documentation](https://developer.farm.bot/doc
 
 # What's next?
 
- * [Take Photo](../Web-App/farmware/take-photo.md)
- * [Camera Calibration](../Web-App/farmware/camera-calibration.md)
- * [Weed Detection](../Web-App/farmware/weed-detection.md)
+ * [Take Photo](farmware/take-photo.md)
+ * [Camera Calibration](farmware/camera-calibration.md)
+ * [Weed Detection](farmware/weed-detection.md)

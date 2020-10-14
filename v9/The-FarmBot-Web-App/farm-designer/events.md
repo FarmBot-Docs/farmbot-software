@@ -49,4 +49,4 @@ To delete an event, click on it to open up the edit event panel. Then press the 
 
 # What's next?
 
- * [Points](../farm-designer/points.md)
+ * [Points](points.md)

@@ -38,7 +38,7 @@ Name your sequences something descriptive, such as "Water for 2 seconds" and "Wa
 
 Start building a third sequence and name it "Measure soil moisture and water for 2 or 5 seconds". This sequence should have the following steps:
 
-**Step 1:** <span class="fb-step fb-execute">EXECUTE</span> a sequence to mount the soil moisture sensor. If you haven't built a sequence for this yet, refer to [this guide](../how-to-guides/mount-and-dismount-tools.md).
+**Step 1:** <span class="fb-step fb-execute">EXECUTE</span> a sequence to mount the soil moisture sensor. If you haven't built a sequence for this yet, refer to [this guide](mount-and-dismount-tools.md).
 
 ![Screen Shot 2020-04-27 at 7.19.18 PM.png](_images/Screen_Shot_2020-04-27_at_7.19.18_PM.png)
 

@@ -259,4 +259,4 @@ This will restore all settings to their default values, as shown in each setting
 
 # What's next?
 
- * [Pin Bindings](../device/pin-bindings.md)
+ * [Pin Bindings](pin-bindings.md)

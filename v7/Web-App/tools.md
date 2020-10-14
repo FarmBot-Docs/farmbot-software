@@ -34,4 +34,4 @@ content="Note: You cannot delete a tool or seed container if it is currently loa
 
 # What's next?
 
- * [Tool Slots](../Web-App/tools/tool-slots.md)
+ * [Tool Slots](tools/tool-slots.md)

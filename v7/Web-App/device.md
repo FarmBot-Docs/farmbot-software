@@ -14,7 +14,7 @@ The device page features several widgets with a bunch of settings that determine
 
 # What's next?
 
- * [Device Settings](../Web-App/device/device-settings.md)
- * [Hardware Settings](../Web-App/device/hardware-settings.md)
- * [Pin Bindings](../Web-App/device/pin-bindings.md)
- * [Diagnostic Reports](../Web-App/device/diagnostic-reports.md)
+ * [Device Settings](device/device-settings.md)
+ * [Hardware Settings](device/hardware-settings.md)
+ * [Pin Bindings](device/pin-bindings.md)
+ * [Diagnostic Reports](device/diagnostic-reports.md)

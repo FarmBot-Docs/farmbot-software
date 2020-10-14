@@ -24,7 +24,7 @@ When choosing the **custom coordinates** option, three input fields will be reve
 ![Screen Shot 2019-05-02 at 11.25.20 AM.png](_images/Screen_Shot_2019-05-02_at_11.25.20_AM.png)
 
 ## Location variables
-When choosing a **location variable**, a variable form will be added to the sequence header. Upon selecting a variable value in the sequence header, the dropdown selections in all <span class="fb-step fb-move-absolute">Move To</span> steps set to that variable will be updated. See the [variables](../sequences/variables.md) documentation for more information.
+When choosing a **location variable**, a variable form will be added to the sequence header. Upon selecting a variable value in the sequence header, the dropdown selections in all <span class="fb-step fb-move-absolute">Move To</span> steps set to that variable will be updated. See the [variables](variables.md) documentation for more information.
 
 ![2 Variable Form.png](_images/2_Variable_Form.png)
 
@@ -220,4 +220,4 @@ Assertions must be written in **Lua**, and will be evaluated against a Lua 5.2 i
 
 # What's next?
 
- * [Building a Sequence](../sequences/building-a-sequence.md)
+ * [Building a Sequence](building-a-sequence.md)

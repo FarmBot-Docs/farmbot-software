@@ -44,4 +44,4 @@ Once the current map is empty, navigate to the gardens panel, select a garden, a
 
 # What's next?
 
- * [Events](../farm-designer/events.md)
+ * [Events](events.md)

@@ -37,8 +37,8 @@ You can customize how the sequence editor works with the options in the <i class
 
 # What's next?
 
- * [Sequence Commands](../The-FarmBot-Web-App/sequences/sequence-commands.md)
- * [Building a Sequence](../The-FarmBot-Web-App/sequences/building-a-sequence.md)
- * [Example Sequences](../The-FarmBot-Web-App/sequences/example-sequences.md)
- * [Variables](../The-FarmBot-Web-App/sequences/variables.md)
- * [Externally Defined Variables](../The-FarmBot-Web-App/sequences/externally-defined-variables.md)
+ * [Sequence Commands](sequences/sequence-commands.md)
+ * [Building a Sequence](sequences/building-a-sequence.md)
+ * [Example Sequences](sequences/example-sequences.md)
+ * [Variables](sequences/variables.md)
+ * [Externally Defined Variables](sequences/externally-defined-variables.md)

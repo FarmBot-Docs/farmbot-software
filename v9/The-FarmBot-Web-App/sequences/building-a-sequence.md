@@ -67,4 +67,4 @@ Click <span class="fb-button fb-green">Save &ast;</span> to save the sequence.
 
 # What's next?
 
- * [Example Sequences](../sequences/example-sequences.md)
+ * [Example Sequences](example-sequences.md)

@@ -53,4 +53,4 @@ content="Applying a garden may take a moment depending on the number of plants."
 
 # What's next?
 
- * [Events](../farm-designer/events.md)
+ * [Events](events.md)

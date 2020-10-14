@@ -45,4 +45,4 @@ To delete a point, click on it to open up the edit point panel. Then press the <
 
 # What's next?
 
- * [Weeds](../farm-designer/weeds.md)
+ * [Weeds](weeds.md)

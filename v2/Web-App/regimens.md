@@ -69,5 +69,5 @@ Using this method, we created one Regimen and four Event Schedules instead of th
 
 # What's next?
 
- * [Farm Designer](../Web-App/farm-designer.md)
- * [Farm Events](../Web-App/farm-events.md)
+ * [Farm Designer](farm-designer.md)
+ * [Farm Events](farm-events.md)

@@ -35,7 +35,7 @@ You generally will not need to manually control FarmBot, since it acts automatic
 ![move.png](_images/move.png)
 
   * The current position of your FarmBot (Motor Coordinates (mm)) is shown in the grey fields directly below the X-AXIS, Y-AXIS, and Z-AXIS labels. This information is updated in real-time.
-  * You can move the device a *relative distance* in any direction by using the arrow buttons. The default move amount is 100mm, though you can also select 1, 10, and 1000mm amounts. Depending on your settings in the **Hardware** configuration widget on the [Device](../Web-App/device.md)  page, you may not be able to move to negative coordinates or past the specified axis maximums.
+  * You can move the device a *relative distance* in any direction by using the arrow buttons. The default move amount is 100mm, though you can also select 1, 10, and 1000mm amounts. Depending on your settings in the **Hardware** configuration widget on the [Device](device.md)  page, you may not be able to move to negative coordinates or past the specified axis maximums.
   * The home button will move FarmBot to zero for all axes by first moving the Z axis to zero, then the other axes to zero.
 
 {%
@@ -45,7 +45,7 @@ title="\"Homing\" is different than \"Going to Home\""
 content="Homing is the act of finding the home (zero) position by using endstops or encoders. Going to Home is the act of moving to (0, 0, 0). The button on the Controls widget with the home icon instructs FarmBot to Go to Home."
 %}
 
-  * The camera button will take a photo at FarmBot's current location using the camera selected in the **Device** widget on the [Device](../Web-App/device.md) page. Photos can be viewed on the [Farmware](../Web-App/farmware.md) page.
+  * The camera button will take a photo at FarmBot's current location using the camera selected in the **Device** widget on the [Device](device.md) page. Photos can be viewed on the [Farmware](farmware.md) page.
   * You can move the device to an *absolute position* by typing in new coordinates to the white input fields labeled X-AXIS, Y-AXIS, and Z-AXIS and pressing <span class="fb-button fb-green">GO</span>.
   * If you ever need to immediately halt your FarmBot, press the <span class="fb-button fb-red">E-STOP</span> button.
   * You can switch the directions that the jog buttons move by toggling the axis inversion in the settings menu (gear icon (<span class="fa fa-gear"></span>) next to the e-stop button). Encoder data can be displayed in the settings menu as well.

@@ -79,4 +79,4 @@ content="Whenever a sequence has unsaved changes, an **&ast;** will be shown nex
 
 # What's next?
 
- * [Example Sequences](../sequences/example-sequences.md)
+ * [Example Sequences](example-sequences.md)

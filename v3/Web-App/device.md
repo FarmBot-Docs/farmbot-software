@@ -32,7 +32,7 @@ Widgets on this page:
 
 ## Camera selection
 
-Select the type of camera you are using in the camera selection dropdown. Choices are `USB Camera` and `Raspberry Pi Camera`. Defaults to `USB camera`. Test by using the `Take Photo` button in the [Take Photo](../Web-App/farmware.md#take-photo) widget.
+Select the type of camera you are using in the camera selection dropdown. Choices are `USB Camera` and `Raspberry Pi Camera`. Defaults to `USB camera`. Test by using the `Take Photo` button in the [Take Photo](farmware.md#take-photo) widget.
 
 
 # Hardware Widget

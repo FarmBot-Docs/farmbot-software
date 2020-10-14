@@ -48,4 +48,4 @@ content="Points cannot be deleted if they are still in-use by any sequences."
 
 # What's next?
 
- * [Weeds](../farm-designer/weeds.md)
+ * [Weeds](weeds.md)

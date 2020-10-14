@@ -64,7 +64,7 @@ It can be helpful to add a <span class="fb-step fb-move-relative">Move Relative<
 You may consider omitting the <span class="fb-step fb-find-home">Find Home</span> command at the beginning of the sequence if the sequence is being used within a larger sequence that already has a <span class="fb-step fb-find-home">Find Home</span> at the beginning.
 
 ### Use a location variable
-This example sequence can only be used to mount the watering nozzle tool, meaning you will need to make additional sequences to mount other tools. Consider using a [location variable](../sequences/variables.md) to make this a generic _mount tool_ sequence that can be used to mount any of your tools.
+This example sequence can only be used to mount the watering nozzle tool, meaning you will need to make additional sequences to mount other tools. Consider using a [location variable](variables.md) to make this a generic _mount tool_ sequence that can be used to mount any of your tools.
 
 # Example 2: Watering sequence
 
@@ -84,7 +84,7 @@ Now that we've created a sequence to mount the watering nozzle, let's create a s
 Now that you've mounted the watering nozzle tool and used the tool to water a plant, use another <span class="fb-step fb-execute">Execute Sequence</span> step and a third sequence to put the watering nozzle tool away.
 
 ### Water any plant by using a variable
-This sequence can only be used to water the specific Spinach plant chosen. Instead of making watering sequences for every plant in your garden, make this sequence a generic _Water plant_ sequence that can be used on any plant by using a [location variable](../sequences/variables.md).
+This sequence can only be used to water the specific Spinach plant chosen. Instead of making watering sequences for every plant in your garden, make this sequence a generic _Water plant_ sequence that can be used on any plant by using a [location variable](variables.md).
 
 ### Take a photo
 While your FarmBot is located at the plant, consider using a <span class="fb-step fb-wait">Take Photo</span> step to track the growth of your plant each time it is watered.

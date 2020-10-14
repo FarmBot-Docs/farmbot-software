@@ -81,6 +81,6 @@ Select hue, saturation, and value ranges to cover the colors you want to detect 
 
 Change the blur, morph and iteration processing parameters if desired.
 
-Press `TEST` to detect weeds in FarmBot camera's current view. The weeds will appear in the [Farm Designer](../Web-App/farm-designer.md). Press `CLEAR WEEDS` to delete them from the map.
+Press `TEST` to detect weeds in FarmBot camera's current view. The weeds will appear in the [Farm Designer](farm-designer.md). Press `CLEAR WEEDS` to delete them from the map.
 
 Weed removal is performed by creating a weed removal sequence using the weeding tool and applying it to the weeds in the Farm Designer.

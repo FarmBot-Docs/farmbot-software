@@ -9,7 +9,7 @@ description: "[Open these settings in the app](https://my.farm.bot/app/designer/
 
 **Limit switches**, are small switches or sensors that are used to tell a machine if it has reached an end position (home or an axis maximum).
 
-Because both rotary encoders and stall detecting stepper drivers can [detect the home position and axis maximums](../settings/stall-detection.md) as well, they make the use of limit switches **largely unnecessary**. That's why limit switches are not included with our kits.
+Because both rotary encoders and stall detecting stepper drivers can [detect the home position and axis maximums](stall-detection.md) as well, they make the use of limit switches **largely unnecessary**. That's why limit switches are not included with our kits.
 
 Nonetheless, our firmware and electronics boards do support the use of limit switches for the DIY builders who need to be able to home their devices but do not want to pay for rotary encoders and the full stall detection and position tracking capabilities that they provide.
 

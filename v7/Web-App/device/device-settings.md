@@ -67,8 +67,8 @@ Automatically factory reset when the WiFi network cannot be detected. Useful for
 For use with automatic factory reset: set the time in minutes to attempt connecting to WiFi before a factory reset.
 
 # Diagnostic reports
-Please refer to the [diagnostic reports document](../device/diagnostic-reports.md) for more details.
+Please refer to the [diagnostic reports document](diagnostic-reports.md) for more details.
 
 # What's next?
 
- * [Hardware Settings](../device/hardware-settings.md)
+ * [Hardware Settings](hardware-settings.md)

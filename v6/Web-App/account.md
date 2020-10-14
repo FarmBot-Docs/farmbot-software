@@ -48,13 +48,13 @@ Show a confirmation dialog when the sequence delete step icon is pressed.
 If not using a webcam, use this setting to remove the widget from the Controls page.
 
 ## Dynamic map size
-Change the [Farm Designer](../Web-App/farm-designer.md)  map size based on axis length. A value must be input in `AXIS LENGTH` and `STOP AT MAX` must be enabled in the [Hardware](../Web-App/device.md#hardware-widget) widget.
+Change the [Farm Designer](farm-designer.md)  map size based on axis length. A value must be input in `AXIS LENGTH` and `STOP AT MAX` must be enabled in the [Hardware](device.md#hardware-widget) widget.
 
 ## Double default map dimensions
-Double the default dimensions of the [Farm Designer](../Web-App/farm-designer.md) map for a map with four times the area. ([FarmBot Genesis XL](https://farm.bot/))
+Double the default dimensions of the [Farm Designer](farm-designer.md) map for a map with four times the area. ([FarmBot Genesis XL](https://farm.bot/))
 
 ## Display plant animations
-Enable plant animations in the [Farm Designer](../Web-App/farm-designer.md).
+Enable plant animations in the [Farm Designer](farm-designer.md).
 
 {%
 include callout.html

@@ -136,4 +136,4 @@ You can view the photos taken on the farmware page and in the farm designer.
 
 # What's next?
 
- * [Building a Sequence](../sequences/building-a-sequence.md)
+ * [Building a Sequence](building-a-sequence.md)

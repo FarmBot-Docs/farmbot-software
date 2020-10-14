@@ -54,5 +54,5 @@ The <i class='fa fa-eye'></i> icon shows whether or not a photo is displayed in 
 
 # What's next?
 
- * [Camera Calibration](../The-FarmBot-Web-App/photos/camera-calibration.md)
- * [Weed Detection](../The-FarmBot-Web-App/photos/weed-detection.md)
+ * [Camera Calibration](photos/camera-calibration.md)
+ * [Weed Detection](photos/weed-detection.md)

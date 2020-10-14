@@ -26,7 +26,7 @@ Rotary encoders attach to the back of each motor to constantly monitor FarmBot's
 
 With rotary encoders, FarmBot can be aware that it has not reached the location intended instead of continuing on in the wrong position and accidentally destroying the whole garden.
 
-Rotary encoders can also be used for device [Calibration and Homing](../Additional-Information/calibration-and-homing.md).
+Rotary encoders can also be used for device [Calibration and Homing](calibration-and-homing.md).
 
 ### In the future, rotary encoders could be used to:
 

@@ -83,7 +83,7 @@ All accounts at my.farm.bot have the following limitations:
 |------------------------------|------------------------------|------------------------------|
 |Devices                       |1                             |While you technically *can* pair multiple devices to one account, we do not officially support this and it may result in unexpected behavior.
 |Points (Plants, Weeds, Tool Slots)|1,000                         |We expect to offer increased limits with paid plans in the future.
-|Logs (storage rate)           |See the [log rate limits section](../the-farmbot-web-app/logs.md#log-limits)|
+|Logs (storage rate)           |See the [log rate limits section](logs.md#log-limits)|
 |Logs (stored)                 |1,000                         |We expect to offer increased limits with paid plans in the future.
 |Logs (viewable)               |250                           |
 |Images (viewable)             |100                           |
@@ -103,4 +103,4 @@ If the user does not login to their account within 14 days of the warning email,
 
 # What's next?
 
- * [Logs](../the-farmbot-web-app/logs.md)
+ * [Logs](logs.md)

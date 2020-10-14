@@ -75,4 +75,4 @@ You can view all of your plants in the map, a virtual representation of the Farm
 
 # What's next?
 
- * [Farm Events](../Web-App/farm-events.md)
+ * [Farm Events](farm-events.md)

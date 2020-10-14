@@ -12,7 +12,7 @@ description: "[Open these settings in the app](https://my.farm.bot/app/designer/
 include callout.html
 type="info"
 title="For FarmBot Genesis bots only"
-content="Encoder settings are only available for FarmBot Genesis bots. FarmBot Express users should refer to the [stall detection](../settings/stall-detection.md) section."
+content="Encoder settings are only available for FarmBot Genesis bots. FarmBot Express users should refer to the [stall detection](stall-detection.md) section."
 %}
 
 

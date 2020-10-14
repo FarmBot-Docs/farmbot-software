@@ -78,4 +78,4 @@ content="[OpenFarm](https://openfarm.cc) was originally conceived as a small com
 
 # What's next?
 
- * [Getting Started](../FarmBot-Software/getting-started.md)
+ * [Getting Started](getting-started.md)

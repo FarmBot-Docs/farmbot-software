@@ -34,4 +34,4 @@ content="The default camera is a USB camera. If you would like to use a Raspberr
 
 # What's next?
 
- * [Camera Calibration](../farmware/camera-calibration.md)
+ * [Camera Calibration](camera-calibration.md)

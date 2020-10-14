@@ -45,7 +45,7 @@ Press the <span class="fb-button fb-green">SAVE</span> button to save.
 
 Press <span class="fb-button fb-gray">edit</span> to add your tools to the toolbay. Fill out the X, Y, and Z coordinates of the tool, select a tool that you added in the [tools](#tools) widget, and press the <span class="fb-button fb-green">+</span> button to add the tool to the toolbay.
 
-__Tip__: Use the [Move](../Web-App/controls.md#move) widget on the controls page to determine the location of your tool in the toolbay. The coordinates should correspond to where the UTM is making contact while directly above the tool in the toolbay. You may use the jog buttons to reach the location, and enter the coordinates displayed in the Move widget into the toolbay widget.
+__Tip__: Use the [Move](controls.md#move) widget on the controls page to determine the location of your tool in the toolbay. The coordinates should correspond to where the UTM is making contact while directly above the tool in the toolbay. You may use the jog buttons to reach the location, and enter the coordinates displayed in the Move widget into the toolbay widget.
 
 You can click the <img class="nav-image" src="_images/current_location_button.png" alt="Use Current Location" width="5%" height="5%" /> button to fill the tool slot coordinate inputs with FarmBot's current coordinates.
 
@@ -64,4 +64,4 @@ Press <span class="fb-button fb-green">save</span> when done to save your tool l
 
 # What's next?
 
- * [Sequences](../Web-App/sequences.md)
+ * [Sequences](sequences.md)

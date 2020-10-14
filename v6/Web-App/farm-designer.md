@@ -145,4 +145,4 @@ Click any spot within the map grid to mark it with an `X`, and press <span class
 
 # What's next?
 
- * [Farm Events](../Web-App/farm-events.md)
+ * [Farm Events](farm-events.md)

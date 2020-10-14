@@ -100,4 +100,4 @@ To view a graph of motor positions over time, toggle <span class="fb-peripheral-
 
 # What's next?
 
- * [Peripherals](../controls/peripherals.md)
+ * [Peripherals](peripherals.md)

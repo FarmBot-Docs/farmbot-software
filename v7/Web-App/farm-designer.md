@@ -145,4 +145,4 @@ Click any spot within the map grid to mark it with an `X`, and press <span class
 
 # What's next?
 
- * [Events](../Web-App/events.md)
+ * [Events](events.md)

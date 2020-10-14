@@ -7,7 +7,7 @@ description: "Manually control your FarmBot from anywhere! :calling:\n[Open this
 * toc
 {:toc}
 
-You generally will not need to manually control FarmBot, but in case you want to show off to your friends, you can do so from the **controls** panel. Here, you'll find buttons for [movement](../The-FarmBot-Web-App/controls/move.md), toggles and sliders for [controlling peripherals](../The-FarmBot-Web-App/controls/peripherals.md), and an area for [watching a livestream of your FarmBot](../The-FarmBot-Web-App/controls/webcam-feeds.md).
+You generally will not need to manually control FarmBot, but in case you want to show off to your friends, you can do so from the **controls** panel. Here, you'll find buttons for [movement](controls/move.md), toggles and sliders for [controlling peripherals](controls/peripherals.md), and an area for [watching a livestream of your FarmBot](controls/webcam-feeds.md).
 
 {%
 include callout.html
@@ -23,6 +23,6 @@ content="Note that the video below shows an outdated interface, though many of t
 
 # What's next?
 
- * [Move](../The-FarmBot-Web-App/controls/move.md)
- * [Peripherals](../The-FarmBot-Web-App/controls/peripherals.md)
- * [Webcam Feeds](../The-FarmBot-Web-App/controls/webcam-feeds.md)
+ * [Move](controls/move.md)
+ * [Peripherals](controls/peripherals.md)
+ * [Webcam Feeds](controls/webcam-feeds.md)

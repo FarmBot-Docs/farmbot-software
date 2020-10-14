@@ -25,7 +25,7 @@ Use the <span class="fb-button fb-gray">HOME X</span>, <span class="fb-button fb
 
 ## Process with rotary encoders (included in FarmBot Genesis kits)
 
-FarmBot moves in the zero direction of the axis until the [rotary encoders](../Additional-Information/rotary-encoders.md) detects missed motor steps when the axis reaches the end. This location is recorded as zero for the axis. If performing calibration in addition to homing, FarmBot will move the opposite direction from zero and record the distance traveled (length of axis) when the other end is reached.
+FarmBot moves in the zero direction of the axis until the [rotary encoders](rotary-encoders.md) detects missed motor steps when the axis reaches the end. This location is recorded as zero for the axis. If performing calibration in addition to homing, FarmBot will move the opposite direction from zero and record the distance traveled (length of axis) when the other end is reached.
 
 ## Process with end-stops (DIY option if not using rotary encoders)
 

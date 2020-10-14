@@ -33,7 +33,7 @@ content="Genesis v1.5+ and Express v1.0+ kits come with FarmBot OS pre-installed
 
 # Step 4: Calibrate FarmBot
 1. Send FarmBot to all corners of your raised bed to ensure it can successfully move throughout the entire working area. Make adjustments to belt tension, eccentric spacers, and track alignment as needed, as well as [hardware settings](../Web-App/device/hardware-settings.md) such as **MAX SPEED**.
-2. Once you're sure everything operates as expected, [calibrate](../FarmBot-Software/how-do-i/calibrate-and-home-farmbot.md) the device. This will automatically set the exact **AXIS LENGTHS** of your FarmBot.
+2. Once you're sure everything operates as expected, [calibrate](how-do-i/calibrate-and-home-farmbot.md) the device. This will automatically set the exact **AXIS LENGTHS** of your FarmBot.
 
 # Step 5: Add tools, seed containers, slots, peripherals, and sensors
 

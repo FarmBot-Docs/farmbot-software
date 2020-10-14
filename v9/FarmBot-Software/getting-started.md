@@ -25,7 +25,7 @@ If you just finished your FarmBot hardware assembly, you should be ready to set 
 
 # Step 4: Calibrate FarmBot
 1. Send FarmBot to all corners of your raised bed to ensure it can successfully move throughout the entire working area. Make adjustments to belt tension, eccentric spacers, and track alignment as needed, as well as [hardware settings](../The-FarmBot-Web-App/settings/firmware-settings.md) such as **MAX SPEED**.
-2. Once you're sure everything operates as expected, [calibrate](../FarmBot-Software/how-to-guides/calibrate-and-home-farmbot.md) the device. This will automatically set the exact **AXIS LENGTHS** of your FarmBot.
+2. Once you're sure everything operates as expected, [calibrate](how-to-guides/calibrate-and-home-farmbot.md) the device. This will automatically set the exact **AXIS LENGTHS** of your FarmBot.
 
 # Step 5: Add tools, seed containers, slots, peripherals, and sensors
 

@@ -18,8 +18,8 @@ content="Still having issues? Please email support@farm.bot or consider posting 
 
 # What's next?
 
- * [Accessing Configurator](../FarmBot-Software/troubleshooting/accessing-configurator.md)
- * [Connecting FarmBot to the Internet](../FarmBot-Software/troubleshooting/connecting-farmbot-to-the-internet.md)
- * [Connecting FarmBot to the Web App](../FarmBot-Software/troubleshooting/connecting-farmbot-to-the-web-app.md)
- * [Connectivity Diagnosis Codes](../FarmBot-Software/troubleshooting/connectivity-codes.md)
- * [For IT Security Professionals](../FarmBot-Software/troubleshooting/for-it-security-professionals.md)
+ * [Accessing Configurator](troubleshooting/accessing-configurator.md)
+ * [Connecting FarmBot to the Internet](troubleshooting/connecting-farmbot-to-the-internet.md)
+ * [Connecting FarmBot to the Web App](troubleshooting/connecting-farmbot-to-the-web-app.md)
+ * [Connectivity Diagnosis Codes](troubleshooting/connectivity-codes.md)
+ * [For IT Security Professionals](troubleshooting/for-it-security-professionals.md)

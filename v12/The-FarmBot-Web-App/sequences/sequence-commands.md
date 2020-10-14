@@ -31,7 +31,7 @@ When choosing the **offset from current location** option, three input fields wi
 ![Screen Shot 2020-08-24 at 8.41.23 AM.png](_images/Screen_Shot_2020-08-24_at_8.41.23_AM.png)
 
 ## Location variables
-When choosing **variable - add new**, a variable form will be added to the sequence header. Upon selecting a variable value in the sequence header, the dropdown selections in all <span class="fb-step fb-move-absolute">Move</span> steps set to that variable will be updated. See the [variables](../sequences/variables.md) documentation for more information.
+When choosing **variable - add new**, a variable form will be added to the sequence header. Upon selecting a variable value in the sequence header, the dropdown selections in all <span class="fb-step fb-move-absolute">Move</span> steps set to that variable will be updated. See the [variables](variables.md) documentation for more information.
 
 ![Screen Shot 2020-08-24 at 8.43.16 AM.png](_images/Screen_Shot_2020-08-24_at_8.43.16_AM.png)
 
@@ -284,4 +284,4 @@ Assertions must be written in **Lua**, and will be evaluated against a Lua 5.2 i
 
 # What's next?
 
- * [Building a Sequence](../sequences/building-a-sequence.md)
+ * [Building a Sequence](building-a-sequence.md)

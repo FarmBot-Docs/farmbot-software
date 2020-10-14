@@ -22,8 +22,8 @@ You can customize how the sequence editor works with the options in the <i class
 
 # What's next?
 
- * [Sequence Commands](../Web-App/sequences/sequence-commands.md)
- * [Building a Sequence](../Web-App/sequences/building-a-sequence.md)
- * [Example Sequences](../Web-App/sequences/example-sequences.md)
- * [Variables](../Web-App/sequences/variables.md)
- * [Externally Defined Variables](../Web-App/sequences/externally-defined-variables.md)
+ * [Sequence Commands](sequences/sequence-commands.md)
+ * [Building a Sequence](sequences/building-a-sequence.md)
+ * [Example Sequences](sequences/example-sequences.md)
+ * [Variables](sequences/variables.md)
+ * [Externally Defined Variables](sequences/externally-defined-variables.md)

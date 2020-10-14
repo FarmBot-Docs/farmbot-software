@@ -72,4 +72,4 @@ content="[OpenFarm.cc](https://openfarm.cc) was originally conceived as a small 
 
 # What's next?
 
- * [Getting Started](../FarmBot-Software/getting-started.md)
+ * [Getting Started](getting-started.md)

@@ -8,15 +8,15 @@ description: "Step-by-step instructions for setting up and using the FarmBot web
 {:toc}
 
 The Farmbot Web App is a cloud based web service that performs the following functions:
- * [Farm Designer](../Web-App/farm-designer.md) - Drag and drop interface for farm/garden design
- * [Farm Events](../Web-App/farm-events.md) - Scheduling of recurring sequences of events (irrigation, seeding, etc...)
- * [Controls](../Web-App/controls.md) - Real time manual control of a FarmBot from a web browser
- * [Device](../Web-App/device.md)  - Storage of device info and calibration settings
- * [Sequences](../Web-App/sequences.md) - Creation of sequences of commands
- * [Regimens](../Web-App/regimens.md) - Creation of regimens (plant-age-based scheduling of sequences)
- * [Tools](../Web-App/tools.md) - Management of FarmBot's Tools and Tool Slots
- * [Farmware](../Web-App/farmware.md) - Photos and Weed Detection
- * [Logs](../Web-App/logs.md) - View and filter FarmBot OS log messages
+ * [Farm Designer](farm-designer.md) - Drag and drop interface for farm/garden design
+ * [Farm Events](farm-events.md) - Scheduling of recurring sequences of events (irrigation, seeding, etc...)
+ * [Controls](controls.md) - Real time manual control of a FarmBot from a web browser
+ * [Device](device.md)  - Storage of device info and calibration settings
+ * [Sequences](sequences.md) - Creation of sequences of commands
+ * [Regimens](regimens.md) - Creation of regimens (plant-age-based scheduling of sequences)
+ * [Tools](tools.md) - Management of FarmBot's Tools and Tool Slots
+ * [Farmware](farmware.md) - Photos and Weed Detection
+ * [Logs](logs.md) - View and filter FarmBot OS log messages
  * Coming soon: crop and sensor data storage and management
 
 <iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fvideoseries%3Flist%3DPLMhsMRlKjcNIYlDKDdKvPQuHqBjjS1ZGc&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DUFjDyfRool8&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FUFjDyfRool8%2Fhqdefault.jpg&key=f2aa6fc3595946d0afc3d76cbbd25dc3&type=text%2Fhtml&schema=youtube" width="854" height="480" scrolling="no" frameborder="0" allowfullscreen></iframe>
@@ -69,12 +69,12 @@ content="The web application should now be in communication with your FarmBot. Y
 # Web App workflow
 
 The recommended workflow for using the web app is:
-1. **Add plants** in the [Farm Designer](../Web-App/farm-designer.md): [my.farm.bot/app/designer/plants](https://my.farm.bot/app/designer/plants)
-2. **Add [Tools](../Web-App/tools.md)**: [my.farm.bot/app/tools](https://my.farm.bot/app/tools)
-3. **Create [Sequences](../Web-App/sequences.md)** for using those tools: [my.farm.bot/app/sequences](https://my.farm.bot/app/sequences)
-4. **Create [Regimens](../Web-App/regimens.md)** to repeat sequences at specific times in the days of a plant's life: [my.farm.bot/app/regimens](https://my.farm.bot/app/regimens)
-5. **Schedule [Farm Events](../Web-App/farm-events.md)** to execute Regimens (or sequences): [my.farm.bot/app/designer/farm_events](https://my.farm.bot/app/designer/farm_events)
-6. **[Watch](../Web-App/controls.md#webcam-feeds) your FarmBot work!** [my.farm.bot/app/controls](https://my.farm.bot/app/controls) (Also [my.farm.bot/app/designer](https://my.farm.bot/app/designer))
+1. **Add plants** in the [Farm Designer](farm-designer.md): [my.farm.bot/app/designer/plants](https://my.farm.bot/app/designer/plants)
+2. **Add [Tools](tools.md)**: [my.farm.bot/app/tools](https://my.farm.bot/app/tools)
+3. **Create [Sequences](sequences.md)** for using those tools: [my.farm.bot/app/sequences](https://my.farm.bot/app/sequences)
+4. **Create [Regimens](regimens.md)** to repeat sequences at specific times in the days of a plant's life: [my.farm.bot/app/regimens](https://my.farm.bot/app/regimens)
+5. **Schedule [Farm Events](farm-events.md)** to execute Regimens (or sequences): [my.farm.bot/app/designer/farm_events](https://my.farm.bot/app/designer/farm_events)
+6. **[Watch](controls.md#webcam-feeds) your FarmBot work!** [my.farm.bot/app/controls](https://my.farm.bot/app/controls) (Also [my.farm.bot/app/designer](https://my.farm.bot/app/designer))
 
 # Provisioning the Web App
 
@@ -91,4 +91,4 @@ Please see the official README for the web app source code [here](https://github
 
 # What's next?
 
- * [Tools](../Web-App/tools.md)
+ * [Tools](tools.md)

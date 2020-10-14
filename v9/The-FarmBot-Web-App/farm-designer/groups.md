@@ -88,4 +88,4 @@ To delete a group, click the <span class="fb-button fb-red">DELETE GROUP</span> 
 
 # What's next?
 
- * [Gardens](../farm-designer/gardens.md)
+ * [Gardens](gardens.md)

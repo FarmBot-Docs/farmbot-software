@@ -41,5 +41,5 @@ content="The default camera used is a **USB camera**. If you would like to use a
 
 # What's next?
 
- * [Camera Calibration](../The-FarmBot-Web-App/photos/camera-calibration.md)
- * [Weed Detection](../The-FarmBot-Web-App/photos/weed-detection.md)
+ * [Camera Calibration](photos/camera-calibration.md)
+ * [Weed Detection](photos/weed-detection.md)

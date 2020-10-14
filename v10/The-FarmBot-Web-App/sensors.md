@@ -39,7 +39,7 @@ To manually read a sensor, press its <span class="fb-button fb-gray">READ SENSOR
 
 ![Screen Shot 2020-06-30 at 12.35.58 PM.png](_images/Screen_Shot_2020-06-30_at_12.35.58_PM.png)
 
-You can also read sensors from [sequences](../The-FarmBot-Web-App/sequences.md) by using the <span class="fb-step fb-read-pin">READ SENSOR</span> command. For more information, see the [read sensor command documentation](../The-FarmBot-Web-App/sequences/sequence-commands.md#read-sensor).
+You can also read sensors from [sequences](sequences.md) by using the <span class="fb-step fb-read-pin">READ SENSOR</span> command. For more information, see the [read sensor command documentation](sequences/sequence-commands.md#read-sensor).
 
 ## Historical readings
 Use the **SENSOR HISTORY** section of the panel to view sensor readings from the past. Optionally, you can filter by **SENSOR**, **TIME PERIOD**, and/or **X**, **Y**, and **Z** coordinates. The **DEVIATION** field can be used to filter within a range of locations around the specified coordinates. To remove all current filters, press <span class="fb-button fb-gray">CLEAR FILTERS</span>.
@@ -57,4 +57,4 @@ content="You cannot delete a sensor that is in-use by a sequence."
 %}
 
 # Hiding sensors
-If you do not plan to use any sensors, use the **HIDE SENSORS** toggle in the [app settings panel](../The-FarmBot-Web-App/settings/account-settings.md) to remove the sensors panel.
+If you do not plan to use any sensors, use the **HIDE SENSORS** toggle in the [app settings panel](settings/account-settings.md) to remove the sensors panel.

@@ -17,12 +17,12 @@ Click the white <i class='fa fa-arrow-left'></i> button in the top right of the 
 |Layer                         |Description                   |
 |------------------------------|------------------------------|
 |**PLANTS**                    |The plant icons (not including weeds or spread)
-|**POINTS**                    |Points created in the [points panel](../The-FarmBot-Web-App/points.md)
+|**POINTS**                    |Points created in the [points panel](points.md)
 |**WEEDS**                     |Weed icons and their spread
 |**SPREAD**                    |The spread of plants and weeds
 |**FARMBOT**                   |The FarmBot gantry, UTM or tool head, slots, tools, seed containers, peripheral state visualizations, and axis limit lines
-|**PHOTOS**                    |Photos taken by FarmBot's onboard camera. See [camera calibration](../The-FarmBot-Web-App/photos/camera-calibration.md) if photos are not positioned, scaled, or rotated correctly.
-|**AREAS**                     |Areas defined by [group filters](../The-FarmBot-Web-App/groups.md#filtering-by-location).
+|**PHOTOS**                    |Photos taken by FarmBot's onboard camera. See [camera calibration](photos/camera-calibration.md) if photos are not positioned, scaled, or rotated correctly.
+|**AREAS**                     |Areas defined by [group filters](groups.md#filtering-by-location).
 
 
 
@@ -45,15 +45,15 @@ You may also change the **SELECTION TYPE** to allow for selecting other objects 
 
 # What's next?
 
- * [Plants](../The-FarmBot-Web-App/plants.md)
- * [Groups](../The-FarmBot-Web-App/groups.md)
- * [Gardens](../The-FarmBot-Web-App/gardens.md)
- * [Events](../The-FarmBot-Web-App/events.md)
- * [Points](../The-FarmBot-Web-App/points.md)
- * [Weeds](../The-FarmBot-Web-App/weeds.md)
- * [Controls](../The-FarmBot-Web-App/controls.md)
- * [Sensors](../The-FarmBot-Web-App/sensors.md)
- * [Photos](../The-FarmBot-Web-App/photos.md)
- * [Farmware](../The-FarmBot-Web-App/farmware.md)
- * [Tools](../The-FarmBot-Web-App/tools.md)
- * [Settings](../The-FarmBot-Web-App/settings.md)
+ * [Plants](plants.md)
+ * [Groups](groups.md)
+ * [Gardens](gardens.md)
+ * [Events](events.md)
+ * [Points](points.md)
+ * [Weeds](weeds.md)
+ * [Controls](controls.md)
+ * [Sensors](sensors.md)
+ * [Photos](photos.md)
+ * [Farmware](farmware.md)
+ * [Tools](tools.md)
+ * [Settings](settings.md)

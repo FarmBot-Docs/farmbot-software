@@ -15,7 +15,7 @@ description: "Plant care recipes for your FarmBot to follow :seedling:\n[Open th
 2. `Light Watering`
 3. `Medium Watering`
 
-You decide to grow 10 tomato plants with these sequences starting on **March 1st**. To do this using the [event scheduler](../The-FarmBot-Web-App/events.md), you might create three events:
+You decide to grow 10 tomato plants with these sequences starting on **March 1st**. To do this using the [event scheduler](events.md), you might create three events:
 1. `Seed Injection` to run on **March 1st**
 2. `Light Watering` to run every other day from **March 1st to March 13th**
 3. `Medium Watering` to run every other day from **March 15th to April 22nd**
@@ -54,8 +54,8 @@ Last we'll add a `Medium Watering` sequence to run at `8PM` every other day for 
 ![Screen Shot 2019-07-15 at 2.22.03 PM.png](_images/Screen_Shot_2019-07-15_at_2.22.03_02.png)
 
 # Running a regimen
-A regimen on its own will not execute because the regimen only has enough information to run sequences at a day and time _relative_ from a start date. Thus, to run a regimen, you will have to schedule it using an [event](../The-FarmBot-Web-App/events.md).
+A regimen on its own will not execute because the regimen only has enough information to run sequences at a day and time _relative_ from a start date. Thus, to run a regimen, you will have to schedule it using an [event](events.md).
 
 # What's next?
 
- * [Events](../The-FarmBot-Web-App/events.md)
+ * [Events](events.md)

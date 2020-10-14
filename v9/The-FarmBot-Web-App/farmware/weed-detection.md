@@ -23,7 +23,7 @@ FarmBot is designed to remove weeds early and often, so that the weeds are alway
 
 > 📘Calibration required
 >
-> To use the weed detection feature, you must first [calibrate the camera](../farmware/camera-calibration.md).
+> To use the weed detection feature, you must first [calibrate the camera](camera-calibration.md).
 
 ![Screen Shot 2019-05-02 at 6.15.16 PM.png](_images/Screen_Shot_2019-05-02_at_6.15.16_PM.png)
 

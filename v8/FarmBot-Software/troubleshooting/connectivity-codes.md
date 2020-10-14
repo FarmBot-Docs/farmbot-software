@@ -127,9 +127,9 @@ FarmBot and the browser are both connected to the internet (or have been recentl
 
 **Corrective Action**:
 1. Try rebooting FarmBot and refreshing the browser.
-2. A firewall may be blocking port 5672 check this port so see if it is blocked. If you are a company or a school please have your IT professional review [this document](../troubleshooting/for-it-security-professionals.md).
+2. A firewall may be blocking port 5672 check this port so see if it is blocked. If you are a company or a school please have your IT professional review [this document](for-it-security-professionals.md).
 3. On FarmBot Genesis 1.4 check the Blue LED communication light. You have blocked ports if the Blue LED is OFF and the Green LED is on. (Only FarmBot Genesis v1.4 models have this diagnostic Green and Blue LEDs)
-Please review our [troubleshooting document](../troubleshooting/connecting-farmbot-to-the-internet.md).
+Please review our [troubleshooting document](connecting-farmbot-to-the-internet.md).
 
 # Code 11
 ```

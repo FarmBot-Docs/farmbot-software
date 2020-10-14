@@ -54,4 +54,4 @@ For example, you could make an **Inject Seed** sequence, a **Measure Moisture** 
 
 # What's next?
 
- * [Regimens](../Web-App/regimens.md)
+ * [Regimens](regimens.md)

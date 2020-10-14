@@ -8,14 +8,14 @@ description: "Step-by-step instructions for setting up and using the FarmBot web
 {:toc}
 
 The Farmbot Web App is a cloud based web service that performs the following functions:
- * [Farm Designer](../Web-App/farm-designer.md) - Drag and drop interface for farm/garden design
- * [Farm Events](../Web-App/farm-events.md) - Scheduling of recurring sequences of events (irrigation, seeding, etc...)
- * [Controls](../Web-App/controls.md) - Real time manual control of a FarmBot from a web browser
- * [Device](../Web-App/device.md)  - Storage of device info and calibration settings
- * [Sequences](../Web-App/sequences.md) - Creation of sequences of events
- * [Regimens](../Web-App/regimens.md) - Creation of regimens (plant-age-based scheduling of sequences of events)
- * [Tools](../Web-App/tools.md) - Management of the Universal Tool Mount's tools
- * [Farmware](../Web-App/farmware.md) - Photos and Weed Detection
+ * [Farm Designer](farm-designer.md) - Drag and drop interface for farm/garden design
+ * [Farm Events](farm-events.md) - Scheduling of recurring sequences of events (irrigation, seeding, etc...)
+ * [Controls](controls.md) - Real time manual control of a FarmBot from a web browser
+ * [Device](device.md)  - Storage of device info and calibration settings
+ * [Sequences](sequences.md) - Creation of sequences of events
+ * [Regimens](regimens.md) - Creation of regimens (plant-age-based scheduling of sequences of events)
+ * [Tools](tools.md) - Management of the Universal Tool Mount's tools
+ * [Farmware](farmware.md) - Photos and Weed Detection
  * Coming soon: crop and sensor data storage and management
 
 {%
@@ -76,12 +76,12 @@ content="Still having trouble? Ask a question and find answers in our [forum](ht
 # Web App workflow
 
 The recommended workflow for using the web app is:
-1. **Add [Tools](../Web-App/tools.md)**: [my.farmbot.io/app/tools](http://my.farmbot.io/app/tools)
-2. **Create [Sequences](../Web-App/sequences.md)** for using those tools: [my.farmbot.io/app/sequences](http://my.farmbot.io/app/sequences)
-3. **Create [Regimens](../Web-App/regimens.md)** for scheduling sequences to run at specific times: [my.farmbot.io/app/regimens](http://my.farmbot.io/app/regimens)
-4. **Add plants** in the [Farm Designer](../Web-App/farm-designer.md): [my.farmbot.io/app/designer/plants](http://my.farmbot.io/app/designer/plants)
-5. **Schedule [Farm Events](../Web-App/farm-events.md)**: [my.farmbot.io/app/designer/farm_events](http://my.farmbot.io/app/designer/farm_events)
-6. **[Watch](../Web-App/controls.md#webcam-feeds) your FarmBot work!** [my.farmbot.io/app/controls](http://my.farmbot.io/app/controls)
+1. **Add [Tools](tools.md)**: [my.farmbot.io/app/tools](http://my.farmbot.io/app/tools)
+2. **Create [Sequences](sequences.md)** for using those tools: [my.farmbot.io/app/sequences](http://my.farmbot.io/app/sequences)
+3. **Create [Regimens](regimens.md)** for scheduling sequences to run at specific times: [my.farmbot.io/app/regimens](http://my.farmbot.io/app/regimens)
+4. **Add plants** in the [Farm Designer](farm-designer.md): [my.farmbot.io/app/designer/plants](http://my.farmbot.io/app/designer/plants)
+5. **Schedule [Farm Events](farm-events.md)**: [my.farmbot.io/app/designer/farm_events](http://my.farmbot.io/app/designer/farm_events)
+6. **[Watch](controls.md#webcam-feeds) your FarmBot work!** [my.farmbot.io/app/controls](http://my.farmbot.io/app/controls)
 
 # Provisioning the Web App
 
@@ -98,4 +98,4 @@ Please see the official README for the web app source code [here](https://github
 
 # What's next?
 
- * [Tools](../Web-App/tools.md)
+ * [Tools](tools.md)

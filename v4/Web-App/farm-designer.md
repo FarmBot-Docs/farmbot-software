@@ -81,4 +81,4 @@ You can open the map display options menu by pressing the white arrow icon in th
 
 # What's next?
 
- * [Farm Events](../Web-App/farm-events.md)
+ * [Farm Events](farm-events.md)

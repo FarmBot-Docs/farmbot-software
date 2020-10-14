@@ -68,4 +68,4 @@ You can also take photos from [sequences](../../Web-App/sequences.md) by using t
 
 # What's next?
 
- * [Peripherals](../controls/peripherals.md)
+ * [Peripherals](peripherals.md)

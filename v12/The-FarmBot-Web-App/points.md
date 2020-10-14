@@ -59,4 +59,4 @@ content="Points cannot be deleted if they are in-use by any sequences, regimens,
 
 # What's next?
 
- * [Weeds](../The-FarmBot-Web-App/weeds.md)
+ * [Weeds](weeds.md)

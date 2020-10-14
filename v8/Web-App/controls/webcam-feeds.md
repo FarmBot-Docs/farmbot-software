@@ -33,4 +33,4 @@ If you do not plan to use any webcams to monitor your FarmBot, use the **HIDE WE
 
 # What's next?
 
- * [Sensors](../controls/sensors.md)
+ * [Sensors](sensors.md)

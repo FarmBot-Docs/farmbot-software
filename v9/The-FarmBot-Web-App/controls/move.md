@@ -68,4 +68,4 @@ You can also take photos from [sequences](../../The-FarmBot-Web-App/sequences.md
 
 # What's next?
 
- * [Peripherals](../controls/peripherals.md)
+ * [Peripherals](peripherals.md)

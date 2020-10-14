@@ -21,7 +21,7 @@ Click the white <i class='fa fa-arrow-left'></i> button in the top right of the 
 * **POINTS?** will toggle the display of points, such as weeds
 * **SPREAD?** will toggle the display of gray spread indicators (spread is an estimate of how much space a plant will need)
 * **FARMBOT?** will toggle the display of the virtual FarmBot gantry and tool head, tools, slots, and some tool/peripheral animations
-* **PHOTOS?** will toggle the display of photos taken by FarmBot's onboard camera. See [camera calibration](../Web-App/farmware/camera-calibration.md) if photos are not positioned, scaled, or rotated correctly.
+* **PHOTOS?** will toggle the display of photos taken by FarmBot's onboard camera. See [camera calibration](farmware/camera-calibration.md) if photos are not positioned, scaled, or rotated correctly.
 
 ![Screen Shot 2019-07-15 at 6.32.19 PM.png](_images/Screen_Shot_2019-07-15_at_6.32.19_PM.png)
 
@@ -52,9 +52,9 @@ There are a handful of options in the **settings panel** that you can use to cus
 
 # What's next?
 
- * [Plants](../Web-App/farm-designer/plants.md)
- * [Groups](../Web-App/farm-designer/groups.md)
- * [Gardens](../Web-App/farm-designer/gardens.md)
- * [Events](../Web-App/farm-designer/events.md)
- * [Points](../Web-App/farm-designer/points.md)
- * [Weeds](../Web-App/farm-designer/weeds.md)
+ * [Plants](farm-designer/plants.md)
+ * [Groups](farm-designer/groups.md)
+ * [Gardens](farm-designer/gardens.md)
+ * [Events](farm-designer/events.md)
+ * [Points](farm-designer/points.md)
+ * [Weeds](farm-designer/weeds.md)

@@ -10,15 +10,15 @@ description: "Control and configure your FarmBot from anywhere"
 The **FarmBot web app** is a web-based application that allows you to control and configure your FarmBot from any desktop computer, laptop, tablet, or smartphone. Because the app is web-based, you will never need to install it, and every time you load the app, you will have the latest features and security updates.
 
 The core functions of the app include:
- * A drag and drop [farm designer](../Web-App/farm-designer.md) allowing you to graphically design your garden layout
- * An [event scheduler](../Web-App/farm-designer/events.md) for telling FarmBot when to water the garden and perform other operations
- * A [sequence editor](../Web-App/sequences.md) allowing you to have complete control over how FarmBot operates without writing any code
- * A [regimen editor](../Web-App/regimens.md) for scheduling sequences based on plant age
- * Management of FarmBot's [tools and seed containers](../Web-App/tools.md), and [slots](../Web-App/tools/tool-slots.md)
- * Management and control of [farmware](../Web-App/farmware.md), FarmBot's 3rd-party plugin system
- * [Controls](../Web-App/controls.md) for moving FarmBot in real-time and operating its peripherals and sensors
- * Management of [FarmBot's settings](../Web-App/device.md)
- * Storage and viewing of [logs](../Web-App/the-farmbot-web-app/logs.md) and sensor readings
+ * A drag and drop [farm designer](farm-designer.md) allowing you to graphically design your garden layout
+ * An [event scheduler](farm-designer/events.md) for telling FarmBot when to water the garden and perform other operations
+ * A [sequence editor](sequences.md) allowing you to have complete control over how FarmBot operates without writing any code
+ * A [regimen editor](regimens.md) for scheduling sequences based on plant age
+ * Management of FarmBot's [tools and seed containers](tools.md), and [slots](tools/tool-slots.md)
+ * Management and control of [farmware](farmware.md), FarmBot's 3rd-party plugin system
+ * [Controls](controls.md) for moving FarmBot in real-time and operating its peripherals and sensors
+ * Management of [FarmBot's settings](device.md)
+ * Storage and viewing of [logs](the-farmbot-web-app/logs.md) and sensor readings
 
 <div class="laptop" style="perspective: 1000px;">
   <div class="laptop-screen">
@@ -94,7 +94,7 @@ The core functions of the app include:
 
 # What's next?
 
- * [Creating an Account](../Web-App/the-farmbot-web-app/creating-an-account.md)
- * [Message Center](../Web-App/the-farmbot-web-app/message-center.md)
- * [Account Settings](../Web-App/the-farmbot-web-app/account-settings.md)
- * [Logs](../Web-App/the-farmbot-web-app/logs.md)
+ * [Creating an Account](the-farmbot-web-app/creating-an-account.md)
+ * [Message Center](the-farmbot-web-app/message-center.md)
+ * [Account Settings](the-farmbot-web-app/account-settings.md)
+ * [Logs](the-farmbot-web-app/logs.md)

@@ -12,7 +12,7 @@ Your FarmBot needs to be connected to the internet and your device through the W
 ![0c09c78-Connectivity_1024x1024.png](_images/Connectivity_1024x1024.png)
 
 # 1. Use the connectivity tool
-The connectivity tool is used to diagnose the communications within the FarmBot. To learn more about the Connectivity tool and to get access to the full list of connectivity codes check out this page: [Connectivity Diagnosis Codes](../troubleshooting/connectivity-codes.md)
+The connectivity tool is used to diagnose the communications within the FarmBot. To learn more about the Connectivity tool and to get access to the full list of connectivity codes check out this page: [Connectivity Diagnosis Codes](connectivity-codes.md)
 
 ![51d4009-Connectivity_diagnosis_code_.jpg](_images/Connectivity_diagnosis_code_.jpg)
 
@@ -20,7 +20,7 @@ The connectivity tool is used to diagnose the communications within the FarmBot.
 
 The most common issue preventing FarmBot communication is blocked ports.
 
-For schools and corporate networks it is very common for the IT department to block ports that are not commonly used. Just because the FarmBot is connected to the internet doesn't mean the FarmBot will connect to the Web App because of these blocked ports. We have [specific instructions for your IT department](../troubleshooting/for-it-security-professionals.md) to help you connect your FarmBot to the internet if you suspect any ports are blocked.
+For schools and corporate networks it is very common for the IT department to block ports that are not commonly used. Just because the FarmBot is connected to the internet doesn't mean the FarmBot will connect to the Web App because of these blocked ports. We have [specific instructions for your IT department](for-it-security-professionals.md) to help you connect your FarmBot to the internet if you suspect any ports are blocked.
 
 FarmBot requires the following ports to be open on your network:
 

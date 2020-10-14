@@ -53,7 +53,7 @@ Enable FarmBot OS auto-update
 Option to enable auto-syncing between the Web App (cloud) and FarmBot OS, instead of choosing when to manually sync data. This feature is useful for getting small stable changes to FarmBot quickly, but it is recommended to use manual sync when making large changes that are not yet ready to be executed by FarmBot.
 
 ## Camera
-Select the type of camera you are using in the camera selection dropdown. Choices are `USB Camera` and `Raspberry Pi Camera`. Defaults to `USB camera`. Test by using the `Take Photo` button in the [Take Photo](../Web-App/farmware.md#take-photo) widget.
+Select the type of camera you are using in the camera selection dropdown. Choices are `USB Camera` and `Raspberry Pi Camera`. Defaults to `USB camera`. Test by using the `Take Photo` button in the [Take Photo](farmware.md#take-photo) widget.
 
 ## Firmware
 Select firmware board type: `Arduino/RAMPS (Genesis v1.2)` or `Farmduino (Genesis v1.3)`

@@ -281,4 +281,4 @@ All Pin Guard settings will be set to Pin 0, 60 seconds, Low.
 
 # What's next?
 
- * [Pin Bindings](../device/pin-bindings.md)
+ * [Pin Bindings](pin-bindings.md)

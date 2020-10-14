@@ -18,7 +18,7 @@ To create a group, click the <span class="fb-button fb-blue"><i class='fa fa-plu
 
 ![Screen Shot 2020-04-13 at 4.14.53 PM.png](_images/Screen_Shot_2020-04-13_at_4.14.53_PM.png)
 
-Alternatively you can use the [multi-select mode](../The-FarmBot-Web-App/farm-designer.md#select-mode) in the farm designer and then click <span class="fb-button fb-blue">CREATE GROUP</span> to create a new group with your selection.
+Alternatively you can use the [multi-select mode](farm-designer.md#select-mode) in the farm designer and then click <span class="fb-button fb-blue">CREATE GROUP</span> to create a new group with your selection.
 
 ![Screen Shot 2020-04-13 at 4.57.56 PM.png](_images/Screen_Shot_2020-04-13_at_4.57.56_PM.png)
 
@@ -71,7 +71,7 @@ To manually add additional group members that aren't already selected by filters
 To remove manually added group members, click their icon again in the farm designer map or in the **GROUP MEMBERS** list. When mousing over icons in the list, the corresponding icon in the map will be highlighted, allowing you to ensure you're removing the correct item. To remove all manually added group members at once, click the <span class="fb-button fb-red">CLEAR</span> button next to "manually selected".
 
 # Using groups
-Once you're happy with your group, try it in a sequence! Simply create a sequence with an [externally defined location variable](../The-FarmBot-Web-App/sequences/externally-defined-variables.md):
+Once you're happy with your group, try it in a sequence! Simply create a sequence with an [externally defined location variable](sequences/externally-defined-variables.md):
 
 ![Groups 4.png](_images/Groups_4.png)
 
@@ -88,4 +88,4 @@ To delete a group, click the <span class="fb-button fb-red">DELETE GROUP</span> 
 
 # What's next?
 
- * [Gardens](../The-FarmBot-Web-App/gardens.md)
+ * [Gardens](gardens.md)

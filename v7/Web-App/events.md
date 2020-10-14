@@ -76,4 +76,4 @@ content="Before your FarmBot can start executing the events you have created, yo
 
 # What's next?
 
- * [Controls](../Web-App/controls.md)
+ * [Controls](controls.md)

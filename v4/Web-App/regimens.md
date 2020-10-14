@@ -86,5 +86,5 @@ content="Notice that Regimens only include information about days (from zero), n
 
 # What's next?
 
- * [Farm Designer](../Web-App/farm-designer.md)
- * [Farm Events](../Web-App/farm-events.md)
+ * [Farm Designer](farm-designer.md)
+ * [Farm Events](farm-events.md)

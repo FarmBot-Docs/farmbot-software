@@ -32,4 +32,4 @@ Once you have taken multiple photos, use the `PREV` and `NEXT` buttons to naviga
 
 # What's next?
 
- * [Camera Calibration](../farmware/camera-calibration.md)
+ * [Camera Calibration](camera-calibration.md)

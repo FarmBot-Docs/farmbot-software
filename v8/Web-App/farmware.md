@@ -38,6 +38,6 @@ Press the <span class="fa fa-gear"></span> icon to open the Farmware advanced me
 
 # What's next?
 
- * [Take Photo](../Web-App/farmware/take-photo.md)
- * [Camera Calibration](../Web-App/farmware/camera-calibration.md)
- * [Weed Detection](../Web-App/farmware/weed-detection.md)
+ * [Take Photo](farmware/take-photo.md)
+ * [Camera Calibration](farmware/camera-calibration.md)
+ * [Weed Detection](farmware/weed-detection.md)

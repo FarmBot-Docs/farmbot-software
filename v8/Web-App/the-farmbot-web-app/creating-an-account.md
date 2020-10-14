@@ -14,7 +14,7 @@ description: ":movie_camera: [Video tutorial](https://youtu.be/0EAcUbO6tqo?t=35)
 5. Check your email and click the link to confirm your account
 
 # Choose your FarmBot
-Clicking the email verification link will log you into the app and take you to the [message center](../the-farmbot-web-app/message-center.md). Here, you'll see a few messages to help you become familiar with the app, as well as one to **Choose your FarmBot**.
+Clicking the email verification link will log you into the app and take you to the [message center](message-center.md). Here, you'll see a few messages to help you become familiar with the app, as well as one to **Choose your FarmBot**.
 
 Once you let the app know which FarmBot model you have, it will add a set of resources (peripherals, sequences, etc) and apply a set of settings (map size, firmware version, etc) appropriate to your FarmBot model. This will allow you to get started working with your FarmBot more quickly. If you want to start completely from scratch, you can do so by selecting `Custom bot` in the dropdown, or simply dismissing the message center card.
 
@@ -114,4 +114,4 @@ content="Not all features of the app will work in demo mode because there will n
 
 # What's next?
 
- * [Message Center](../the-farmbot-web-app/message-center.md)
+ * [Message Center](message-center.md)

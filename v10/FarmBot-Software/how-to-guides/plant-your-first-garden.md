@@ -139,7 +139,7 @@ content="Sequence 1 is now complete. Give it a descriptive name such as \"Plant 
 
 Sequence 2 will have far fewer commands than Sequence 1. All Sequence 2 needs to do is mount the seeder tool (Genesis kits only), execute Sequence 1 for every plant in our group, and then dismount the seeder tool (Genesis kits only).
 
-**Step 1:** <span class="fb-step fb-execute">EXECUTE</span> a sequence to mount the seeder tool. If you haven't built a sequence for this yet, refer to [this guide](../how-to-guides/mount-and-dismount-tools.md).
+**Step 1:** <span class="fb-step fb-execute">EXECUTE</span> a sequence to mount the seeder tool. If you haven't built a sequence for this yet, refer to [this guide](mount-and-dismount-tools.md).
 
 {%
 include callout.html
@@ -156,7 +156,7 @@ content="This step is only applicable for Genesis kits with a UTM and interchang
 
 ![Screen Shot 2020-04-23 at 12.30.42 AM.png](_images/Screen_Shot_2020-04-23_at_12.30.42_AM.png)
 
-**Step 3:** <span class="fb-step fb-execute">EXECUTE</span> a sequence to dismount the seeder tool. If you haven't built a sequence for this yet, refer to [this guide](../how-to-guides/mount-and-dismount-tools.md).
+**Step 3:** <span class="fb-step fb-execute">EXECUTE</span> a sequence to dismount the seeder tool. If you haven't built a sequence for this yet, refer to [this guide](mount-and-dismount-tools.md).
 
 {%
 include callout.html

@@ -34,7 +34,7 @@ _Raspberry Pi Zero W, included with Express kits_
 |------------------------------|------------------------------|
 |<span class="fa fa-circle green"></span> (solid green)|Busy working/booting
 |<span class="fa fa-sun-o green"></span> (blinking randomly)|Busy working/booting
-|<span class="fa fa-sun-o green"></span> (blinking consistently)|Network disconnected or emergency stopped - [Configure FarmBot](../farmbot-os/configurator.md), press <span class="fb-button fb-yellow">UNLOCK</span> in the Web App, or check that the network FarmBot is connected to is online.
+|<span class="fa fa-sun-o green"></span> (blinking consistently)|Network disconnected or emergency stopped - [Configure FarmBot](configurator.md), press <span class="fb-button fb-yellow">UNLOCK</span> in the Web App, or check that the network FarmBot is connected to is online.
 |<span class="fa fa-circle-thin green"></span> (off)|Ready and waiting for the next task
 
 # Electronics box LEDs
@@ -66,7 +66,7 @@ This blue LED indicates the **connection status** between FarmBot and the intern
 |Blue (connection)             |Status                        |
 |------------------------------|------------------------------|
 |<span class="fa fa-circle blue"></span> (solid blue)|Connected and working
-|<span class="fa fa-sun-o blue"></span> (blinking slowly)|Needs configuration - [Configure FarmBot](../farmbot-os/configurator.md), press <span class="fb-button fb-yellow">UNLOCK</span> in the Web App, or check that the network FarmBot is connected to is online.
+|<span class="fa fa-sun-o blue"></span> (blinking slowly)|Needs configuration - [Configure FarmBot](configurator.md), press <span class="fb-button fb-yellow">UNLOCK</span> in the Web App, or check that the network FarmBot is connected to is online.
 |<span class="fa fa-circle-thin blue"></span> (off)|Offline - Check your internet connection.<br><br>If you are connected to the internet but the Blue LED is off, one or more of your ports may be blocked. Get your network administrator to check the ports listed in the [Firewall is blocking network traffic](../../Extras/troubleshooting/connecting-farmbot-to-the-web-app.md#6-firewall-is-blocking-network-traffic) troubleshooting section.
 
 ## LED 3 (custom)

@@ -84,4 +84,4 @@ The Farm Event will update in the agenda.
 
 # What's next?
 
- * [Controls](../Web-App/controls.md)
+ * [Controls](controls.md)

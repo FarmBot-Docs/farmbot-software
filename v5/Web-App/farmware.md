@@ -56,7 +56,7 @@ Use the `PREV` and `NEXT` buttons to navigate through previously taken images.
 include callout.html
 type="info"
 title=""
-content="The default camera is a USB camera. If you would like to use a Raspberry Pi camera, use the camera selection dropdown menu in the **Device** widget on the [Device](../Web-App/device.md#device-widget) page."
+content="The default camera is a USB camera. If you would like to use a Raspberry Pi camera, use the camera selection dropdown menu in the **Device** widget on the [Device](device.md#device-widget) page."
 %}
 
 
@@ -137,13 +137,13 @@ Select hue, saturation, and value ranges to cover the colors you want to detect 
 
 *Blur, morph and iteration processing parameters*: It is recommended to use the defaults, run a test, and then experiment with the values to test the results.
 
-Move the FarmBot over a section of soil. Press <span class="fb-button fb-yellow">test</span> to detect weeds in FarmBot camera's current view. The weeds will appear in the [Farm Designer](../Web-App/farm-designer.md). Press <span class="fb-button fb-red">clear weeds</span> to delete them from the map.
+Move the FarmBot over a section of soil. Press <span class="fb-button fb-yellow">test</span> to detect weeds in FarmBot camera's current view. The weeds will appear in the [Farm Designer](farm-designer.md). Press <span class="fb-button fb-red">clear weeds</span> to delete them from the map.
 
 <span class="fb-button fb-green">scan image</span> can be used to run weed detection on an image already taken instead of taking a new photo.
 
 Detect weeds across FarmBot's entire bed by creating a sequence of movements in a grid pattern with a <span class="fb-step fb-take-photo">run farmware</span> step at each grid point.
 
-Weed removal can be performed by creating a weed removal sequence that uses the weeding tool on weeds (points) in the Farm Designer. For more information on the weed detection process, see [Weed Detection](../Additional-Information/weed-detection.md). For more information on creating sequences, see [Sequences](../Web-App/sequences.md).
+Weed removal can be performed by creating a weed removal sequence that uses the weeding tool on weeds (points) in the Farm Designer. For more information on the weed detection process, see [Weed Detection](../Additional-Information/weed-detection.md). For more information on creating sequences, see [Sequences](sequences.md).
 
 ![both.png](_images/both.png)
 
