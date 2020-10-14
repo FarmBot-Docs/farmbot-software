@@ -48,7 +48,7 @@ content="In the future we plan to offer slider controls for analog peripherals."
 %}
 
 ## Sequence based control
-You can also control peripherals from [sequences](../../Web-App/sequences.md) by using the <span class="fb-step fb-write-pin">Control Peripheral</span> command. For more information, see the [control peripheral command documentation](../../Web-App/sequences/sequence-commands.md#control-peripheral).
+You can also control peripherals from [sequences](../sequences.md) by using the <span class="fb-step fb-write-pin">Control Peripheral</span> command. For more information, see the [control peripheral command documentation](../sequences/sequence-commands.md#control-peripheral).
 
 # Deleting peripherals
 To delete a peripheral, press <span class="fb-button fb-gray">edit</span> and then the peripheral's <span class="fb-button fb-red"><i class='fa fa-times'></i></span> button. Finish editing by pressing <span class="fb-button fb-gray">back</span>.

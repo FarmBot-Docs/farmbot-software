@@ -47,7 +47,7 @@ When enabled, resources such as sequences, regimens, events, plant locations, an
 Disabling this setting may be useful when making many changes to your resources that are not ready to be executed by FarmBot immediately.
 
 ## Camera
-Select the type of camera you are using in the camera selection dropdown. Choices are `USB Camera` and `Raspberry Pi Camera`. Defaults to `USB camera`. Test by using the <span class="fb-button fb-green">take photo</span> button in the [take photo](../../Web-App/farmware/take-photo.md) farmware.
+Select the type of camera you are using in the camera selection dropdown. Choices are `USB Camera` and `Raspberry Pi Camera`. Defaults to `USB camera`. Test by using the <span class="fb-button fb-green">take photo</span> button in the [take photo](../farmware/take-photo.md) farmware.
 
 ## Firmware
 Select the firmware to be used with your electronics board.

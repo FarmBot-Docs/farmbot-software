@@ -24,7 +24,7 @@ There are three types of movements you can perform in this panel: **relative mov
 ## Relative movements
 Move FarmBot a **relative distance** from the current location in any direction by using the <span class="fb-button fb-gray"><i class='fa fa-arrow-left'></i></span> <span class="fb-button fb-gray"><i class='fa fa-arrow-down'></i></span> <span class="fb-button fb-gray"><i class='fa fa-arrow-up'></i></span> <span class="fb-button fb-gray"><i class='fa fa-arrow-right'></i></span> arrow buttons. The default **MOVE AMOUNT** is `100mm`, though you can also select `1`, `10`, `1000`, and `10000mm` amounts.
 
-Depending on your [hardware settings](../../The-FarmBot-Web-App/settings.md), you may not be able to move to negative coordinates or past the specified axis maximums. When this is true, some arrow buttons may be disabled. In the example below, because FarmBot is at the home position (0, 0, 0), half of the arrow buttons are disabled to allow only movements *away* from the home position and not *through* it.
+Depending on your [hardware settings](../settings.md), you may not be able to move to negative coordinates or past the specified axis maximums. When this is true, some arrow buttons may be disabled. In the example below, because FarmBot is at the home position (0, 0, 0), half of the arrow buttons are disabled to allow only movements *away* from the home position and not *through* it.
 
 ![Screen Shot 2019-05-06 at 3.29.57 PM.png](_images/Screen_Shot_2019-05-06_at_3.29.57_PM.png)
 
@@ -36,7 +36,7 @@ You can change the direction along each axis that the arrow buttons send your Fa
 ![Screen Shot 2020-06-30 at 11.18.21 AM.png](_images/Screen_Shot_2020-06-30_at_11.18.21_AM.png)
 
 ### Sequence based relative movements
-You can also perform relative movements from [sequences](../../The-FarmBot-Web-App/sequences.md) by using the <span class="fb-step fb-move">Move</span> command and selecting **offset from current location** in the **LOCATION** dropdown. For more information, see the [move command documentation](../../The-FarmBot-Web-App/sequences/sequence-commands.md#move).
+You can also perform relative movements from [sequences](../sequences.md) by using the <span class="fb-step fb-move">Move</span> command and selecting **offset from current location** in the **LOCATION** dropdown. For more information, see the [move command documentation](../sequences/sequence-commands.md#move).
 
 ## Absolute movements
 Move FarmBot to an **absolute position** by typing in new coordinates to the white input fields for the **X-AXIS**, **Y-AXIS**, and **Z-AXIS** and then pressing <span class="fb-button fb-green">GO</span>.
@@ -55,7 +55,7 @@ content="FarmBot will operate all axes at once to get to the new position as fas
 If you do not type in a new value for any of the axes, then FarmBot will maintain its current position along that axis and only move the needed axis or axes.
 
 ### Sequence based absolute movements
-You can also perform absolute movements from [sequences](../../The-FarmBot-Web-App/sequences.md) by using the <span class="fb-step fb-move">Move</span> command. For more information, see the [move command documentation](../../The-FarmBot-Web-App/sequences/sequence-commands.md#move).
+You can also perform absolute movements from [sequences](../sequences.md) by using the <span class="fb-step fb-move">Move</span> command. For more information, see the [move command documentation](../sequences/sequence-commands.md#move).
 
 ## Finding home
 The <span class="fb-button fb-gray"><i class='fa fa-home'></i></span> button will instruct FarmBot to **automatically find the home position** for all axes in the order Z, Y, X.
@@ -64,19 +64,19 @@ The <span class="fb-button fb-gray"><i class='fa fa-home'></i></span> button wil
 include callout.html
 type="info"
 title=""
-content="FarmBot must have [home-finding hardware](../../The-FarmBot-Web-App/settings/stall-detection.md) such as encoders, stall-detecting stepper drivers, or limit switches in order to automatically find the home position."
+content="FarmBot must have [home-finding hardware](../settings/stall-detection.md) such as encoders, stall-detecting stepper drivers, or limit switches in order to automatically find the home position."
 %}
 
 If you do not have home-finding hardware, you can change the behavior of the <span class="fb-button fb-gray"><i class='fa fa-home'></i></span> button to instead instruct FarmBot to **go to the home position**. This will instruct FarmBot to go to `(0, 0, 0)` as though you had used the move absolute input fields. Change the home button behavior by setting the **PERFORM HOMING (FIND HOME)** setting to <span class="fb-peripheral-off">OFF</span> in the <i class='fa fa-gear'></i> menu of the panel. Note that the _go to home_ behavior will move all three axes at once.
 
 ### Sequence based homing
-You can also perform homing from [sequences](../../The-FarmBot-Web-App/sequences.md) by using the <span class="fb-step fb-find-home">Find Home</span> command. For more information, see the [find home command documentation](../../The-FarmBot-Web-App/sequences/sequence-commands.md#find-home).
+You can also perform homing from [sequences](../sequences.md) by using the <span class="fb-step fb-find-home">Find Home</span> command. For more information, see the [find home command documentation](../sequences/sequence-commands.md#find-home).
 
 # Taking photos
-The <span class="fb-button fb-gray"><i class='fa fa-camera'></i></span> button will take a photo at FarmBot's current location. Photos can be viewed in the [photos panel](../../The-FarmBot-Web-App/photos.md).
+The <span class="fb-button fb-gray"><i class='fa fa-camera'></i></span> button will take a photo at FarmBot's current location. Photos can be viewed in the [photos panel](../photos.md).
 
 ### Sequence based photo taking
-You can also take photos from [sequences](../../The-FarmBot-Web-App/sequences.md) by using the <span class="fb-step fb-take-photo">Take Photo</span> command. For more information, see the [take photo command documentation](../../The-FarmBot-Web-App/sequences/sequence-commands.md#take-photo).
+You can also take photos from [sequences](../sequences.md) by using the <span class="fb-step fb-take-photo">Take Photo</span> command. For more information, see the [take photo command documentation](../sequences/sequence-commands.md#take-photo).
 
 # Motor load
 View the latest, recent maximum, and recent average **MOTOR LOAD** for each each axis by clicking the load indicator bars below each axis label.
@@ -85,7 +85,7 @@ View the latest, recent maximum, and recent average **MOTOR LOAD** for each each
 include callout.html
 type="info"
 title=""
-content="Motor load indicators are only available for FarmBot Express bots with **[STALL DETECTION](../../The-FarmBot-Web-App/settings/stall-detection.md)** enabled."
+content="Motor load indicators are only available for FarmBot Express bots with **[STALL DETECTION](../settings/stall-detection.md)** enabled."
 %}
 
 

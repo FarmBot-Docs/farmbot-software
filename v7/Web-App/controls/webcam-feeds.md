@@ -29,7 +29,7 @@ The webcam widget will display one webcam feed at a time. If you have added mult
 To delete a webcam feed, press <span class="fb-button fb-gray">edit</span> and then the feed's <span class="fb-button fb-red"><i class='fa fa-times'></i></span> button. Finish editing by pressing <span class="fb-button fb-gray">back</span>.
 
 # Hiding the widget
-If you do not plan to use any webcams to monitor your FarmBot, use the **HIDE WEBCAM WIDGET** toggle in the [app settings area](../../Web-App/account.md) to remove the widget from the controls page.
+If you do not plan to use any webcams to monitor your FarmBot, use the **HIDE WEBCAM WIDGET** toggle in the [app settings area](../account.md) to remove the widget from the controls page.
 
 # What's next?
 

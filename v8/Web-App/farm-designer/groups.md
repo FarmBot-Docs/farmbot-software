@@ -11,7 +11,7 @@ slug: "groups"
 ![Screen Shot 2019-08-15 at 3.13.39 PM.png](_images/Screen_Shot_2019-08-15_at_3.13.39_PM.png)
 
 # Creating a group
-To create a group, click the <span class="fb-button fb-blue"><i class='fa fa-plus'></i></span> button on the groups panel. This will open up the [multi-select mode](../../Web-App/farm-designer.md#select-mode) in the farm designer. Click and hold anywhere in the map and then drag the mouse cursor to create a **box selection** of the plants you wish to add to the group. Then click <span class="fb-button fb-blue">CREATE GROUP</span>.
+To create a group, click the <span class="fb-button fb-blue"><i class='fa fa-plus'></i></span> button on the groups panel. This will open up the [multi-select mode](../farm-designer.md#select-mode) in the farm designer. Click and hold anywhere in the map and then drag the mouse cursor to create a **box selection** of the plants you wish to add to the group. Then click <span class="fb-button fb-blue">CREATE GROUP</span>.
 
 ![Groups 2.png](_images/Groups_2.png)
 
@@ -39,7 +39,7 @@ To add a plant to the group, click its icon in the farm designer map.
 To remove a plant from the group, click its icon in the **GROUP MEMBERS** list. When mousing over icons in this list, the corresponding icon in the map will be highlighted, allowing you to ensure you're removing the correct plant.
 
 # Using groups
-Once you're happy with your group, try it in a sequence! Simply create a sequence with an [externally defined location variable](../../Web-App/sequences/externally-defined-variables.md):
+Once you're happy with your group, try it in a sequence! Simply create a sequence with an [externally defined location variable](../sequences/externally-defined-variables.md):
 
 ![Groups 4.png](_images/Groups_4.png)
 

@@ -36,7 +36,7 @@ To clear out all current filters, press <span class="fb-button fb-gray">CLEAR FI
 ![Screen Shot 2019-05-06 at 9.48.09 PM.png](_images/Screen_Shot_2019-05-06_at_9.48.09_PM.png)
 
 ## Sequence based readings
-You can also read sensors from [sequences](../../The-FarmBot-Web-App/sequences.md) by using the <span class="fb-step fb-read-pin">READ SENSOR</span> command. For more information, see the [read sensor command documentation](../../The-FarmBot-Web-App/sequences/sequence-commands.md#read-sensor).
+You can also read sensors from [sequences](../sequences.md) by using the <span class="fb-step fb-read-pin">READ SENSOR</span> command. For more information, see the [read sensor command documentation](../sequences/sequence-commands.md#read-sensor).
 
 # Deleting sensors
 To delete a sensor, press <span class="fb-button fb-gray">edit</span> and then the sensor's <span class="fb-button fb-red"><i class='fa fa-minus'></i></span> button. Finish editing by pressing <span class="fb-button fb-gray">back</span>.
@@ -46,4 +46,4 @@ To delete a sensor, press <span class="fb-button fb-gray">edit</span> and then t
 > You cannot delete a sensor that is in-use by a sequence.
 
 # Hiding the widgets
-If you do not plan to use any sensors, use the **HIDE SENSORS** toggle in the [app settings area](../../The-FarmBot-Web-App/settings/account-settings.md) to remove the widgets from the controls page.
+If you do not plan to use any sensors, use the **HIDE SENSORS** toggle in the [app settings area](../settings/account-settings.md) to remove the widgets from the controls page.

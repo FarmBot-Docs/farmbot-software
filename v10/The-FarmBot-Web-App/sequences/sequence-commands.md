@@ -61,7 +61,7 @@ You can move relative along multiple axes at once, and in both negative and posi
 # Control peripheral
 The <span class="fb-step fb-write-pin">Control Peripheral</span> command allows you to control **peripherals** such as the vacuum pump, solenoid valve, and lights. To use this command, first select a peripheral from the **PERIPHERAL** dropdown. Options include:
 
-  * All of the peripherals you have defined in the [peripherals widget on the controls page](../../The-FarmBot-Web-App/controls/peripherals.md)
+  * All of the peripherals you have defined in the [peripherals widget on the controls page](../controls/peripherals.md)
   * The Box LEDs, if you have any included with your FarmBot version
 
 Next, select the **MODE** which you would like to control the peripheral with. You can choose either `Digital` or `Analog`.
@@ -85,7 +85,7 @@ The <span class="fb-step fb-write-pin">Toggle Peripheral</span> command allows y
 
 To use this command, select a peripheral from the **PERIPHERAL** dropdown. Options include:
 
-  * All of the peripherals you have defined in the [peripherals widget on the controls page](../../The-FarmBot-Web-App/controls/peripherals.md)
+  * All of the peripherals you have defined in the [peripherals widget on the controls page](../controls/peripherals.md)
   * The Box LEDs, if you have any included with your FarmBot version
 
 ![Screen Shot 2020-01-06 at 12.24.47 PM.png](_images/Screen_Shot_2020-01-06_at_12.24.47_PM.png)
@@ -93,8 +93,8 @@ To use this command, select a peripheral from the **PERIPHERAL** dropdown. Optio
 # Read sensor
 The <span class="fb-step fb-read-pin">Read Sensor</span> command instructs FarmBot to read the value of a **sensor**. For example, you would use this command to measure the soil moisture content with the soil moisture sensor. To use this command, first select a sensor from the **SENSOR** dropdown. Options include:
 
-  * All of the sensors you have defined in the [sensors widget on the controls page](../../The-FarmBot-Web-App/sensors.md)
-  * All of the peripherals you have defined in the [peripherals widget on the controls page](../../The-FarmBot-Web-App/controls/peripherals.md)
+  * All of the sensors you have defined in the [sensors widget on the controls page](../sensors.md)
+  * All of the peripherals you have defined in the [peripherals widget on the controls page](../controls/peripherals.md)
 
 Next, select the **MODE** which you would like to read the sensor with. You can choose either `Digital` or `Analog`. Use digital for a `0` (LOW) or `1` (HIGH) response, and analog for a reading between `0` and `1023` for 0-5V.
 
@@ -182,12 +182,12 @@ content="You can drag and drop existing sequences from the **sequences list** in
 %}
 
 # Run farmware
-The <span class="fb-step fb-run-farmware">Run Farmware</span> command instructs FarmBot to run a [farmware](../../The-FarmBot-Web-App/farmware.md). To use the command, select which farmware you would like to run from the **PACKAGE NAME** dropdown. Or, select `Manual Input` and type in the name of the package, for example, `plant-detection`.
+The <span class="fb-step fb-run-farmware">Run Farmware</span> command instructs FarmBot to run a [farmware](../farmware.md). To use the command, select which farmware you would like to run from the **PACKAGE NAME** dropdown. Or, select `Manual Input` and type in the name of the package, for example, `plant-detection`.
 
 ![Screen Shot 2019-05-02 at 11.26.53 AM.png](_images/Screen_Shot_2019-05-02_at_11.26.53_AM.png)
 
 # Take photo
-The <span class="fb-step fb-take-photo">Take Photo</span> command instructs FarmBot to take a photo with the USB camera or the Raspberry Pi camera (whichever is selected in [device settings](../../The-FarmBot-Web-App/settings/farmbot-settings.md)). After taking the photo, FarmBot will upload it to the web app, along with the coordinates from where the photo was taken, and the date and time.
+The <span class="fb-step fb-take-photo">Take Photo</span> command instructs FarmBot to take a photo with the USB camera or the Raspberry Pi camera (whichever is selected in [device settings](../settings/farmbot-settings.md)). After taking the photo, FarmBot will upload it to the web app, along with the coordinates from where the photo was taken, and the date and time.
 
 You can view the photos taken on the farmware page and in the farm designer.
 

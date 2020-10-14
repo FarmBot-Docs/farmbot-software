@@ -22,7 +22,7 @@ Optionally, sequence events can be set to **REPEAT EVERY** custom interval **UNT
 
 ![Screen Shot 2019-07-05 at 9.00.37 PM.png](_images/Screen_Shot_2019-07-05_at_9.00.37_PM.png)
 
-If the sequence or regimen you selected has an [externally defined variable](../../The-FarmBot-Web-App/sequences/externally-defined-variables.md), you will need to provide a value for that variable in the event creation panel.
+If the sequence or regimen you selected has an [externally defined variable](../sequences/externally-defined-variables.md), you will need to provide a value for that variable in the event creation panel.
 
 ![Screen Shot 2020-04-22 at 12.21.29 AM.png](_images/Screen_Shot_2020-04-22_at_12.21.29_AM.png)
 

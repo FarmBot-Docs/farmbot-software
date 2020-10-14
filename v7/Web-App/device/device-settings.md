@@ -40,12 +40,12 @@ content="This setting is enabled by default so that your FarmBot will stay updat
 %}
 
 ## Auto sync
-When enabled, device resources such as [sequences](../../Web-App/sequences.md), [regimens](../../Web-App/regimens.md), [events](../../Web-App/events.md), plant locations, and more will be synced with FarmBot automatically as soon as they are created, changed, or deleted. This setting is enabled by default to help make your FarmBot experience streamlined and efficient.
+When enabled, device resources such as [sequences](../sequences.md), [regimens](../regimens.md), [events](../events.md), plant locations, and more will be synced with FarmBot automatically as soon as they are created, changed, or deleted. This setting is enabled by default to help make your FarmBot experience streamlined and efficient.
 
 Disabling this setting may be useful when making many changes to your resources that are not ready to be executed by FarmBot immediately.
 
 ## Camera
-Select the type of camera you are using in the camera selection dropdown. Choices are `USB Camera` and `Raspberry Pi Camera`. Defaults to `USB camera`. Test by using the <span class="fb-button fb-green">take photo</span> button in the [take photo](../../Web-App/farmware/take-photo.md) farmware.
+Select the type of camera you are using in the camera selection dropdown. Choices are `USB Camera` and `Raspberry Pi Camera`. Defaults to `USB camera`. Test by using the <span class="fb-button fb-green">take photo</span> button in the [take photo](../farmware/take-photo.md) farmware.
 
 ## Firmware
 Select the firmware to be used with your electronics board. Refer to [this table](../../Device/farmbot-os/configurator.md#hardware-board-kit-version) for more information on making a selection.

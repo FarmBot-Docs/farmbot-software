@@ -21,7 +21,7 @@ In the next sections, several sequences are built as examples.
 
 Let's create a sequence to mount the watering nozzle as an example.
 
-First, add the [watering tool](https://genesis.farm.bot/docs/watering-nozzle) to the toolbay and follow the [Tools](../../Web-App/tools.md) instructions to add it to the web app.
+First, add the [watering tool](https://genesis.farm.bot/docs/watering-nozzle) to the toolbay and follow the [Tools](../tools.md) instructions to add it to the web app.
 
 Navigate to the **Sequences** page of the web app, and press the <span class="fb-button fb-green">+</span> button in the left column (**Sequences**)  to add a new sequence.
 
@@ -115,7 +115,7 @@ Then, the new water dispensing sequence can be added by using an <span class="fb
 
 ![water_all_spinach.png](_images/water_all_spinach.png)
 
-As you can see in this sequence, we have imported coordinates from plant locations in the <span class="fb-step fb-move-absolute">Move Absolute</span> step. These plant locations are defined in the [Farm Designer](../../Web-App/farm-designer.md).
+As you can see in this sequence, we have imported coordinates from plant locations in the <span class="fb-step fb-move-absolute">Move Absolute</span> step. These plant locations are defined in the [Farm Designer](../farm-designer.md).
 
 As always, don't forget to <span class="fb-button fb-green">SAVE</span> and <span class="fb-button fb-yellow">SYNC NOW</span> before pressing <span class="fb-button fb-orange">TEST</span> to test the sequence!
 

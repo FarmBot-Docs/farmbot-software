@@ -15,7 +15,7 @@ In this example we'll create a sequence to mount the watering nozzle tool.
 > This example sequence is only applicable to FarmBot Genesis kits, which have a universal tool mounting system and interchangeable tools.
 
 ## Step 1: Add the tool to a slot
-If you haven't already, [create the watering nozzle tool in the web app and add it to a slot](../../The-FarmBot-Web-App/farm-designer/tools.md). Then place the real tool in the physical slot to ensure your real-life configuration matches the web app.
+If you haven't already, [create the watering nozzle tool in the web app and add it to a slot](../farm-designer/tools.md). Then place the real tool in the physical slot to ensure your real-life configuration matches the web app.
 
 ## Step 2: Create the sequence
 Navigate to the **Sequences** page of the web app and press the <span class="fb-button fb-green"><i class='fa fa-plus'></i></span> button to add a new sequence. The new sequence will appear in the sequence editor in the middle column. Give the sequence a descriptive name and optionally assign it a color.
