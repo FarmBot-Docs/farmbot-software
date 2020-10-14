@@ -10,7 +10,7 @@ description: "Descriptions of all the commands you can use in a sequence"
 Below are descriptions of all the commands you can use in a sequence. When using the web app, hover over the <i class='fa fa-question-circle'></i> icon in the top right of any sequence step to view usage information.
 
 # Move
-The <span class="fb-step fb-move-absolute">Move</span> command instructs FarmBot to move to a new location. To use this command, first choose a **LOCATION**  from the dropdown. Options include:
+The <span class="fb-step fb-move">Move</span> command instructs FarmBot to move to a new location. To use this command, first choose a **LOCATION**  from the dropdown. Options include:
 
   * Custom coordinates
   * Offset from current location
@@ -31,7 +31,7 @@ When choosing the **offset from current location** option, three input fields wi
 ![Screen Shot 2020-08-24 at 8.41.23 AM.png](_images/Screen_Shot_2020-08-24_at_8.41.23_AM.png)
 
 ## Location variables
-When choosing **variable - add new**, a variable form will be added to the sequence header. Upon selecting a variable value in the sequence header, the dropdown selections in all <span class="fb-step fb-move-absolute">Move</span> steps set to that variable will be updated. See the [variables](variables.md) documentation for more information.
+When choosing **variable - add new**, a variable form will be added to the sequence header. Upon selecting a variable value in the sequence header, the dropdown selections in all <span class="fb-step fb-move">Move</span> steps set to that variable will be updated. See the [variables](variables.md) documentation for more information.
 
 ![Screen Shot 2020-08-24 at 8.43.16 AM.png](_images/Screen_Shot_2020-08-24_at_8.43.16_AM.png)
 
@@ -154,7 +154,7 @@ content="Remember on the controls page how you defined your sensors with a **nam
 %}
 
 # Control servo
-The <span class="fb-step fb-move-absolute">Control servo</span> command instructs FarmBot to move a servo to the provided **ANGLE**.
+The <span class="fb-step fb-set-servo-angle">Control servo</span> command instructs FarmBot to move a servo to the provided **ANGLE**.
 
 ![Screen Shot 2020-08-27 at 1.11.47 PM.png](_images/Screen_Shot_2020-08-27_at_1.11.47_PM.png)
 
@@ -166,7 +166,7 @@ The maximum time allowed is 3 minutes (`180,000` milliseconds). If you need to h
 ![Screen Shot 2020-08-27 at 1.12.15 PM.png](_images/Screen_Shot_2020-08-27_at_1.12.15_PM.png)
 
 # Send message
-The <span class="fb-step fb-wait">Send Message</span> command instructs FarmBot to send a message. This is useful for error and success notifications and debugging. To use this command, simply type in the **MESSAGE** you would like FarmBot to send, choose a **TYPE**, and select the channels you would like the message to be sent to.
+The <span class="fb-step fb-send-message">Send Message</span> command instructs FarmBot to send a message. This is useful for error and success notifications and debugging. To use this command, simply type in the **MESSAGE** you would like FarmBot to send, choose a **TYPE**, and select the channels you would like the message to be sent to.
 
 `{{ x }}` can be used as a text variable for FarmBot's current x-axis position (`y` and `z` can also be used). `{{ pin13 }}` can be used to write the current value of pin 13 (pins 0 through 69 can also be used).
 
@@ -178,7 +178,7 @@ The <span class="fb-step fb-e-stop">E-stop</span> command instructs FarmBot to s
 ![Screen Shot 2020-08-27 at 1.13.20 PM.png](_images/Screen_Shot_2020-08-27_at_1.13.20_PM.png)
 
 # Reboot
-The <span class="fb-step fb-wait">Reboot</span> command instructs FarmBot to power cycle the onboard computer.
+The <span class="fb-step fb-reboot">Reboot</span> command instructs FarmBot to power cycle the onboard computer.
 
 ![Screen Shot 2020-08-27 at 1.19.10 PM.png](_images/Screen_Shot_2020-08-27_at_1.19.10_PM.png)
 
@@ -197,12 +197,12 @@ content="**ENCODERS**, **STALL DETECTION**, or **LIMIT SWITCHES** must be <span 
 %}
 
 # Set home
-The <span class="fb-step fb-find-home">Set home</span> command instructs FarmBot to set the current location along an axis to `0`, also known as the `Home` position for that axis. If you choose **ALL**, FarmBot will set all axes to zero.
+The <span class="fb-step fb-set-zero">Set home</span> command instructs FarmBot to set the current location along an axis to `0`, also known as the `Home` position for that axis. If you choose **ALL**, FarmBot will set all axes to zero.
 
 ![Screen Shot 2020-08-27 at 1.14.19 PM.png](_images/Screen_Shot_2020-08-27_at_1.14.19_PM.png)
 
 # Find axis length
-The <span class="fb-step fb-find-home">FIND AXIS LENGTH</span> command instructs FarmBot to automatically find the length of the chosen axis. If you choose **ALL**, FarmBot will find the length of each axis one at a time in the order: z-axis, y-axis, x-axis.
+The <span class="fb-step fb-calibrate">FIND AXIS LENGTH</span> command instructs FarmBot to automatically find the length of the chosen axis. If you choose **ALL**, FarmBot will find the length of each axis one at a time in the order: z-axis, y-axis, x-axis.
 
 ![Screen Shot 2020-08-27 at 1.19.25 PM.png](_images/Screen_Shot_2020-08-27_at_1.19.25_PM.png)
 
@@ -241,24 +241,24 @@ content="You can drag and drop existing sequences from the **sequences list** in
 %}
 
 # Run farmware
-The <span class="fb-step fb-take-photo">Run Farmware</span> command instructs FarmBot to run a [farmware](../../The-FarmBot-Web-App/farmware.md). To use the command, select which farmware you would like to run from the **PACKAGE NAME** dropdown. Or, select `Manual Input` and type in the name of the package, for example, `plant-detection`.
+The <span class="fb-step fb-run-farmware">Run Farmware</span> command instructs FarmBot to run a [farmware](../../The-FarmBot-Web-App/farmware.md). To use the command, select which farmware you would like to run from the **PACKAGE NAME** dropdown. Or, select `Manual Input` and type in the name of the package, for example, `plant-detection`.
 
 ![Screen Shot 2020-08-27 at 1.20.44 PM.png](_images/Screen_Shot_2020-08-27_at_1.20.44_PM.png)
 
 # Detect weeds
-The <span class="fb-step fb-take-photo">Detect Weeds</span> command instructs FarmBot to take a photo and run the weed detection software. After taking the photo and processing it, FarmBot will upload it to the web app, along with the coordinates from where the photo was taken, the date and time. FarmBot will also add any weeds that it identified to the **PENDING** category in the weeds panel.
+The <span class="fb-step fb-run-farmware">Detect Weeds</span> command instructs FarmBot to take a photo and run the weed detection software. After taking the photo and processing it, FarmBot will upload it to the web app, along with the coordinates from where the photo was taken, the date and time. FarmBot will also add any weeds that it identified to the **PENDING** category in the weeds panel.
 
 ![Screen Shot 2020-08-27 at 1.21.07 PM.png](_images/Screen_Shot_2020-08-27_at_1.21.07_PM.png)
 
 # Take photo
-The <span class="fb-step fb-wait">Take Photo</span> command instructs FarmBot to take a photo with the USB camera or the Raspberry Pi camera (whichever is selected in [camera settings](../../The-FarmBot-Web-App/photos/camera-settings.md)). After taking the photo, FarmBot will upload it to the web app, along with the coordinates from where the photo was taken, and the date and time.
+The <span class="fb-step fb-take-photo">Take Photo</span> command instructs FarmBot to take a photo with the USB camera or the Raspberry Pi camera (whichever is selected in [camera settings](../../The-FarmBot-Web-App/photos/camera-settings.md)). After taking the photo, FarmBot will upload it to the web app, along with the coordinates from where the photo was taken, and the date and time.
 
 You can view the photos taken on the photos panel and in the farm designer.
 
 ![Screen Shot 2020-08-27 at 1.23.58 PM.png](_images/Screen_Shot_2020-08-27_at_1.23.58_PM.png)
 
 # Mark as
-The <span class="fb-step fb-wait">Mark as</span> command instructs FarmBot to **MARK** an item's **PROPERTY**  **AS** the value of your choice. For example, you could mark a Spinach plant's `Plant stage` property as `Planted`. Using this command allows FarmBot to systematically update an item's properties as it works with that item. This step also accepts a Location Variable as an input, which can be used when running a sequence over a group of items.
+The <span class="fb-step fb-mark-as">Mark as</span> command instructs FarmBot to **MARK** an item's **PROPERTY**  **AS** the value of your choice. For example, you could mark a Spinach plant's `Plant stage` property as `Planted`. Using this command allows FarmBot to systematically update an item's properties as it works with that item. This step also accepts a Location Variable as an input, which can be used when running a sequence over a group of items.
 
 ![Screen Shot 2020-08-27 at 1.24.27 PM.png](_images/Screen_Shot_2020-08-27_at_1.24.27_PM.png)
 
@@ -275,7 +275,7 @@ title="Advanced feature"
 content="The assertion command is intended for power users and software developers only. See the [developer documentation](https://developer.farm.bot/docs/assertions) for a list of the available functions."
 %}
 
-The <span class="fb-step fb-if-statement">Assertion</span> command allows FarmBot to test if a condition is true or false for automated testing purposes. For example, you could set up a FarmBot to move back and forth repeatedly along an axis, and check the position after each movement. This type of test is useful for high-cycle hardware testing, and for continuous integration testing of software changes.
+The <span class="fb-step fb-assertion">Assertion</span> command allows FarmBot to test if a condition is true or false for automated testing purposes. For example, you could set up a FarmBot to move back and forth repeatedly along an axis, and check the position after each movement. This type of test is useful for high-cycle hardware testing, and for continuous integration testing of software changes.
 
 Assertions must be written in **Lua**, and will be evaluated against a Lua 5.2 interpreter. In the event that a **TEST FAILS**, FarmBot can either `Continue` execution, `Recover and continue`, `Abort and recover`, or just `Abort` execution altogether. The **RECOVERY SEQUENCE** allows you to reset FarmBot to a known state after a failure, send a message, or perform any other desired operations.
 

@@ -73,7 +73,7 @@ Whether you're adding transplants to your garden, harvesting, or repairing your 
 
 Create two sequences, one to <span class="fb-step fb-move-absolute">MOVE TO</span> the home (0, 0, 0) position and one to <span class="fb-step fb-move-absolute">MOVE TO</span> the max X/Y position. In this example our max position is (2800, 1200, 0), but yours will be different.
 
-Both sequences should start with a <span class="fb-step fb-move-absolute">FIND HOME</span> command set to **FIND Z**. This will raise the Z-axis before the X and Y axes begin moving so FarmBot does not run into any plants.
+Both sequences should start with a <span class="fb-step fb-find-home">FIND HOME</span> command set to **FIND Z**. This will raise the Z-axis before the X and Y axes begin moving so FarmBot does not run into any plants.
 
 ![Screen Shot 2020-04-30 at 4.44.18 PM.png](_images/Screen_Shot_2020-04-30_at_4.44.18_PM.png)
 

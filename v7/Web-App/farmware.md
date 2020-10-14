@@ -21,7 +21,7 @@ To install new Farmware, use the **INSTALL NEW FARMWARE** form in the left colum
 
 Run a Farmware by selecting it from the list and using the buttons provided.
 
-You can also run Farmware systematically by using the <span class="fb-step fb-take-photo">Run Farmware</span> sequence command in your sequences.
+You can also run Farmware systematically by using the <span class="fb-step fb-run-farmware">Run Farmware</span> sequence command in your sequences.
 
 # Advanced options
 

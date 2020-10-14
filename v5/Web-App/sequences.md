@@ -26,8 +26,8 @@ These are the basic operations we can use in sequences that FarmBot can execute:
 * <span class="fb-step fb-find-home">Find Home</span> - Perform a homing operation to set zero for one axis or all axes.
 * <span class="fb-step fb-if-statement">If Statement</span> - Executes another sequence if a condition is true. This is useful for error detection and smarter, condition based farming.
 * <span class="fb-step fb-execute">Execute Sequence</span> - Use existing sequences as steps in a new, larger sequence. This technique allows you to re-use smaller sequences in different combinations to create far more complex sequences that are easier to modify, manage, and mashup. You can then use the individual sequences in other ways without having to recreate them each time.
-* <span class="fb-step fb-take-photo">Run Farmware</span> - Run the `plant-detection` farmware. Support for other farmwares coming soon.
-* <span class="fb-step fb-wait">Take Photo</span> - Takes a picture with a USB webcam or the Raspberry Pi camera (select your camera in the [Device](device.md#device-widget) widget) and sends it to the web app.
+* <span class="fb-step fb-run-farmware">Run Farmware</span> - Run the `plant-detection` farmware. Support for other farmwares coming soon.
+* <span class="fb-step fb-take-photo">Take Photo</span> - Takes a picture with a USB webcam or the Raspberry Pi camera (select your camera in the [Device](device.md#device-widget) widget) and sends it to the web app.
 
 {%
 include callout.html

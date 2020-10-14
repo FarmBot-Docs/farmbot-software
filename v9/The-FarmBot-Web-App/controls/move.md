@@ -64,7 +64,7 @@ If you ever need to immediately halt your FarmBot, press the <span class="fb-but
 The <span class="fb-button fb-gray"><i class='fa fa-camera'></i></span> button will take a photo at FarmBot's current location. Photos can be viewed on the [take photo farmware](../../The-FarmBot-Web-App/farmware/take-photo.md) page.
 
 ### Sequence based photo taking
-You can also take photos from [sequences](../../The-FarmBot-Web-App/sequences.md) by using the <span class="fb-step fb-wait">Take Photo</span> command. For more information, see the [take photo command documentation](../../The-FarmBot-Web-App/sequences/sequence-commands.md#take-photo).
+You can also take photos from [sequences](../../The-FarmBot-Web-App/sequences.md) by using the <span class="fb-step fb-take-photo">Take Photo</span> command. For more information, see the [take photo command documentation](../../The-FarmBot-Web-App/sequences/sequence-commands.md#take-photo).
 
 # What's next?
 

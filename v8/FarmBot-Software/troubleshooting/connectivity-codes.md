@@ -15,9 +15,9 @@ The connectivity tool is used to diagnose the status of communications between t
 
 |Color                         |Meaning                       |
 |------------------------------|------------------------------|
-|<span class="fa fa-circle" style="color: #65aa48;opacity: 1"></span> Green|Status OK
-|<span class="fa fa-circle" style="color: #ffd500;opacity: 1"></span> Yellow|The status is unknown. There is no data available about the status of communication.
-|<span class="fa fa-circle" style="color: #ed6765;opacity: 1"></span> Red|Status NOT OK. Take corrective action to resolve this communication disconnect
+|<span class="fa fa-circle green"></span> Green|Status OK
+|<span class="fa fa-circle yellow"></span> Yellow|The status is unknown. There is no data available about the status of communication.
+|<span class="fa fa-circle red"></span> Red|Status NOT OK. Take corrective action to resolve this communication disconnect
 
 This is the list of the 32 possible diagnosis codes that will help you to troubleshoot the communications of your FarmBot:
 

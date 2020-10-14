@@ -20,7 +20,7 @@ An update will usually take between 15 seconds and 5 minutes to download, depend
 If you're experiencing update issues, remove the microSD card from your FarmBot and [manually flash](../../FarmBot-OS/farmbot-os.md#installing-farmbot-os) the latest `.img` file.
 
 # Release notes
-Major releases of FarmBot OS may have **breaking changes** that allow the greater platform to move forward at the cost of older features no longer working. Breaking changes are usually **internal** and have no effect on everyday users. However, action is occasionally required on the user's end. For example, with the release of FarmBot OS v10, users were required to manually update some sequences using an old version of the <span class="fb-step fb-wait">MARK AS</span> command. Furthermore, if you are using Farmware that has been developed by a 3rd party, those plugins may need to be updated by the developer to stay compatible.
+Major releases of FarmBot OS may have **breaking changes** that allow the greater platform to move forward at the cost of older features no longer working. Breaking changes are usually **internal** and have no effect on everyday users. However, action is occasionally required on the user's end. For example, with the release of FarmBot OS v10, users were required to manually update some sequences using an old version of the <span class="fb-step fb-mark-as">MARK AS</span> command. Furthermore, if you are using Farmware that has been developed by a 3rd party, those plugins may need to be updated by the developer to stay compatible.
 
 To view a summarized change of what's new in FarmBot OS, click the **Release Notes** popup.
 

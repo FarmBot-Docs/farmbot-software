@@ -64,7 +64,7 @@ For Express kits, the card slot is located on the front side of the Pi Zero, on 
 </details>
 
 ## Step 4. Plug in the power source
-Plug your FarmBot's power supply into a wall outlet. You should now see a solid red <span class="fa fa-circle red"></span> LED and a steadily flashing green <span class="fa fa-circle green"></span> LED on the Raspberry Pi, indicating that the Pi has adequate power and is busy booting up. Refer to the [status LEDs](farmbot-os/status-leds.md) page for more information, especially if your LEDs are not lit up as described above.
+Plug your FarmBot's power supply into a wall outlet. You should now see a solid red <span class="fa fa-circle red"></span> LED and a steadily flashing green <span class="fa fa-circle led green"></span> LED on the Raspberry Pi, indicating that the Pi has adequate power and is busy booting up. Refer to the [status LEDs](farmbot-os/status-leds.md) page for more information, especially if your LEDs are not lit up as described above.
 
 # What's next?
 

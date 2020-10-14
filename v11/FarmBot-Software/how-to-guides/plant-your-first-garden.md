@@ -118,7 +118,7 @@ Below are all the commands for Sequence 1. Some values shown in the images may n
 
 ![Screen Shot 2020-04-23 at 12.12.27 AM.png](_images/Screen_Shot_2020-04-23_at_12.12.27_AM.png)
 
-**Step 8:** <span class="fb-step fb-wait">MARK AS</span> to **MARK** the location variable (the plant) **AS** `Planted`.
+**Step 8:** <span class="fb-step fb-mark-as">MARK AS</span> to **MARK** the location variable (the plant) **AS** `Planted`.
 
 ![Screen Shot 2020-05-19 at 5.00.43 PM.png](_images/Screen_Shot_2020-05-19_at_5.00.43_PM.png)
 

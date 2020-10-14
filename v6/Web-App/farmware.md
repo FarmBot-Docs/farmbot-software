@@ -144,7 +144,7 @@ Move the FarmBot over a section of soil. Press <span class="fb-button fb-yellow"
 
 <span class="fb-button fb-green">scan image</span> can be used to run weed detection on an image already taken instead of taking a new photo.
 
-Detect weeds across FarmBot's entire bed by creating a sequence of movements in a grid pattern with a <span class="fb-step fb-take-photo">run farmware</span> step at each grid point.
+Detect weeds across FarmBot's entire bed by creating a sequence of movements in a grid pattern with a <span class="fb-step fb-run-farmware">Run Farmware</span> step at each grid point.
 
 Weed removal can be performed by creating a weed removal sequence that uses the weeding tool on weeds (points) in the Farm Designer. For more information on the weed detection process, see [Weed Detection](../Additional-Information/weed-detection.md). For more information on creating sequences, see [Sequences](sequences.md).
 

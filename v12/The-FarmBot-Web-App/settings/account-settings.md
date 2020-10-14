@@ -28,7 +28,7 @@ Enabling this setting will display times using the 24-hour notation, i.e., 23:00
 If you're not using an external webcam to monitor your FarmBot, you can remove the **webcams** widget from the controls page to save space. If your FarmBot does not have any sensors (such as FarmBot Express), you can hide the **sensors** and **sensor history** widgets as well.
 
 ## Read speak logs in browser
-<span class="fb-step fb-wait">SEND MESSAGE</span> commands can optionally speak the message aloud. The audio can be heard from the Raspberry Pi's 3.5mm audio jack, and using this setting, output using your computer speakers as well.
+<span class="fb-step fb-send-message">SEND MESSAGE</span> commands can optionally speak the message aloud. The audio can be heard from the Raspberry Pi's 3.5mm audio jack, and using this setting, output using your computer speakers as well.
 
 {%
 include callout.html

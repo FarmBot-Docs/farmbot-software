@@ -34,7 +34,7 @@ title=""
 content="**ENCODERS**, **STALL DETECTION**, or **ENDSTOPS** must be enabled for FarmBot to automatically find the home position. See the [how it works](#how-it-works) section below for more information."
 %}
 
-Instruct FarmBot to automatically find the home position on a regular basis by using the <span class="fb-step fb-move-absolute">FIND HOME</span> command in a sequence. This is recommended at the start of long-running sequences and sequences that require a high degree of precision.
+Instruct FarmBot to automatically find the home position on a regular basis by using the <span class="fb-step fb-find-home">FIND HOME</span> command in a sequence. This is recommended at the start of long-running sequences and sequences that require a high degree of precision.
 
 Alternatively you can use the <span class="fb-button fb-yellow">FIND HOME X</span>, <span class="fb-button fb-yellow">FIND HOME Y</span>, and <span class="fb-button fb-yellow">FIND HOME Z</span> buttons in the settings panel to have FarmBot find home whenever you wish, or the <span class="fb-button fb-gray"><i class='fa fa-home'></i></span> button on the controls page to perform homing for all three axes in the order Z, Y, X. This is recommended after powering up FarmBot, any kind of movement error, or after moving FarmBot by hand.
 

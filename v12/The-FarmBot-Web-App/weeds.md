@@ -30,7 +30,7 @@ There are two ways to move FarmBot to a weed. The first way is by clicking <span
 
 ![Screen Shot 2020-08-24 at 12.13.11 PM.png](_images/Screen_Shot_2020-08-24_at_12.13.11_PM.png)
 
-The second way is from sequences. Simply select the weed from the **LOCATION** dropdown in a <span class="fb-step fb-move-absolute">Move</span> command or location variable.
+The second way is from sequences. Simply select the weed from the **LOCATION** dropdown in a <span class="fb-step fb-move">Move</span> command or location variable.
 
 ![Screen Shot 2020-08-24 at 12.21.40 PM.png](_images/Screen_Shot_2020-08-24_at_12.21.40_PM.png)
 

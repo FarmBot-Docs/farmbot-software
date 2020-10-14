@@ -87,7 +87,7 @@ Now that you've mounted the watering nozzle tool and used the tool to water a pl
 This sequence can only be used to water the specific Spinach plant chosen. Instead of making watering sequences for every plant in your garden, make this sequence a generic _Water plant_ sequence that can be used on any plant by using a [location variable](variables.md).
 
 ### Take a photo
-While your FarmBot is located at the plant, consider using a <span class="fb-step fb-wait">Take Photo</span> step to track the growth of your plant each time it is watered.
+While your FarmBot is located at the plant, consider using a <span class="fb-step fb-take-photo">Take Photo</span> step to track the growth of your plant each time it is watered.
 
 ### Modularize the watering action
 Consider making a sequence that only contains the steps required for dispensing water: <span class="fb-step fb-write-pin">Control Peripheral</span>, <span class="fb-step fb-wait">Wait</span>, and <span class="fb-step fb-write-pin">Control Peripheral</span>. This can then be changed more easily and re-used in different ways with <span class="fb-step fb-execute">Execute Sequence</span> steps in other sequences.

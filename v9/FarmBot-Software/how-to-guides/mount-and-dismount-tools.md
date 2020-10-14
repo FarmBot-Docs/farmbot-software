@@ -30,7 +30,7 @@ Ensure you have loaded your **tools** into **slots** by checking the **tools pan
 
 Our tool mounting sequence will not only instruct FarmBot to mount a tool and pull it out of the slot, it will also use the tool verification sensor to verify that the tool has been correctly mounted. The sequence should have the following steps:
 
-**Step 1:** Start the sequence off with a <span class="fb-step fb-move-absolute">FIND HOME</span> command. This will ensure your FarmBot mounts the tool with the greatest level of precision.
+**Step 1:** Start the sequence off with a <span class="fb-step fb-find-home">FIND HOME</span> command. This will ensure your FarmBot mounts the tool with the greatest level of precision.
 
 ![Screen Shot 2020-04-28 at 10.10.36 PM.png](_images/Screen_Shot_2020-04-28_at_10.10.36_PM.png)
 
@@ -65,7 +65,7 @@ If the tool verification is `1` (the tool is not connected) then FarmBot will ex
 
 ![Screen Shot 2020-04-28 at 10.28.54 PM.png](_images/Screen_Shot_2020-04-28_at_10.28.54_PM.png)
 
-**Step 7:** Now that the tool has been successfully mounted to the UTM, use a <span class="fb-step fb-wait">MARK AS</span> command to **MARK** the `Tool Mount` **AS** `Mounted to: the tool`. This will make FarmBot understand what the previous steps in the sequence accomplished, and allow the user interface in the web app to show the correct tool mounted to the UTM as it moves throughout the map.
+**Step 7:** Now that the tool has been successfully mounted to the UTM, use a <span class="fb-step fb-mark-as">MARK AS</span> command to **MARK** the `Tool Mount` **AS** `Mounted to: the tool`. This will make FarmBot understand what the previous steps in the sequence accomplished, and allow the user interface in the web app to show the correct tool mounted to the UTM as it moves throughout the map.
 
 ![Screen Shot 2020-04-29 at 9.02.36 AM.png](_images/Screen_Shot_2020-04-29_at_9.02.36_AM.png)
 
@@ -73,7 +73,7 @@ If the tool verification is `1` (the tool is not connected) then FarmBot will ex
 
 Now that you've built a tool mounting sequence, you can probably guess that a tool _dismounting_ sequence will be very similar, but mostly reversed:
 
-**Step 1:** Start the sequence off with a <span class="fb-step fb-move-absolute">FIND HOME</span> command. This will ensure your FarmBot dismounts the tool with the greatest level of precision.
+**Step 1:** Start the sequence off with a <span class="fb-step fb-find-home">FIND HOME</span> command. This will ensure your FarmBot dismounts the tool with the greatest level of precision.
 
 **Step 2:** <span class="fb-step fb-move-absolute">MOVE TO</span> in front of the slot you wish to return the tool to by using an **X-OFFSET**.
 
@@ -81,7 +81,7 @@ Now that you've built a tool mounting sequence, you can probably guess that a to
 
 **Step 4:** <span class="fb-step fb-move-relative">MOVE RELATIVE</span> in the positive **Z** direction to fully dismount the tool.
 
-**Step 5:** Use <span class="fb-step fb-wait">MARK AS</span> to let FarmBot know the `Tool Mount` is `Not Mounted` to anything.
+**Step 5:** Use <span class="fb-step fb-mark-as">MARK AS</span> to let FarmBot know the `Tool Mount` is `Not Mounted` to anything.
 
 **Step 6:** <span class="fb-step fb-move-absolute">MOVE TO</span> the home position (0, 0, 0) to prepare FarmBot for the next task.
 

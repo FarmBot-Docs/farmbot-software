@@ -10,7 +10,7 @@ description: "Make your sequences and regimens dynamic"
 **Variables** allow you to create *dynamic* sequences that execute differently depending on the **variable value** provided. This allows one sequence to be used more generally (in multiple ways), rather than for one specific purpose. To see how variables are used, let's go through a practical example.
 
 # Start with a static sequence
-We'll start with a *static* sequence (a sequence without any variables). Static sequences are executed the same way every time and can only be used for one specific purpose. For example, the sequence below can only be used to mount the Watering Nozzle tool because the **LOCATION** inputs in the <span class="fb-step fb-move-absolute">Move</span> commands are _hard coded_ to one location.
+We'll start with a *static* sequence (a sequence without any variables). Static sequences are executed the same way every time and can only be used for one specific purpose. For example, the sequence below can only be used to mount the Watering Nozzle tool because the **LOCATION** inputs in the <span class="fb-step fb-move">Move</span> commands are _hard coded_ to one location.
 
 If you wanted to mount the Seeder tool, you would need to make a second sequence with all of the **LOCATION** inputs set to the Seeder tool. You can imagine that if you had many tools, creating a bunch of variations of basically the same sequence would be tedious and cumbersome.
 
@@ -21,19 +21,19 @@ _A static sequence that can only be used for one specific purpose_
 # Add a variable
 Let's change the static sequence above into a *dynamic* sequence that can be used to mount any of our tools (assuming they all need to be mounted using the same general method).
 
-Select `Location Variable - Add new` for the **LOCATION** input in the first <span class="fb-step fb-move-absolute">Move</span> command.
+Select `Location Variable - Add new` for the **LOCATION** input in the first <span class="fb-step fb-move">Move</span> command.
 
 ![Screen Shot 2019-07-04 at 12.27.56 PM.png](_images/Screen_Shot_2019-07-04_at_12.27.56_PM.png)
 
-This will create a **location variable** in the sequence header and update the **LOCATION** input in the <span class="fb-step fb-move-absolute">Move</span> command to display as <span class="fb-dropdown">Location Variable - Select a location <i class='fa fa-caret-down'></i></span>.
+This will create a **location variable** in the sequence header and update the **LOCATION** input in the <span class="fb-step fb-move">Move</span> command to display as <span class="fb-dropdown">Location Variable - Select a location <i class='fa fa-caret-down'></i></span>.
 
 ![Screen Shot 2019-07-04 at 12.29.57 PM.png](_images/Screen_Shot_2019-07-04_at_12.29.57_PM.png)
 
-Now select `Location Variable - Select a location` for the **LOCATION** inputs in the other two <span class="fb-step fb-move-absolute">Move</span> commands.
+Now select `Location Variable - Select a location` for the **LOCATION** inputs in the other two <span class="fb-step fb-move">Move</span> commands.
 
 ![Screen Shot 2019-07-04 at 12.32.12 PM.png](_images/Screen_Shot_2019-07-04_at_12.32.12_PM.png)
 
-Then set the **variable value** (in the sequence header) to the `Watering Nozzle` tool from before and notice that all of the **LOCATION** inputs in the <span class="fb-step fb-move-absolute">Move</span> commands will update to <span class="fb-dropdown">Location Variable - Watering Nozzle (x, y, z) <i class='fa fa-caret-down'></i></span>.
+Then set the **variable value** (in the sequence header) to the `Watering Nozzle` tool from before and notice that all of the **LOCATION** inputs in the <span class="fb-step fb-move">Move</span> commands will update to <span class="fb-dropdown">Location Variable - Watering Nozzle (x, y, z) <i class='fa fa-caret-down'></i></span>.
 
 ![Screen Shot 2019-07-04 at 12.35.29 PM.png](_images/Screen_Shot_2019-07-04_at_12.35.29_PM.png)
 
@@ -42,7 +42,7 @@ At this point, while we've added a variable, the sequence is still *static* and 
 ## Make the variable externally defined
 To make our sequence *dynamic* and re-usable for different purposes, we need to make the variable **externally defined**. This will allow us to provide the variable value from another sequence, a regimen, or an event, which will dictate how the sequence is run each time.
 
-To do this, change the variable value (in the sequence header) to `Externally defined`. This selection will then get reflected in all of the **LOCATION** inputs in the <span class="fb-step fb-move-absolute">Move</span> commands as they update to <span class="fb-dropdown">Location Variable - Externally defined <i class='fa fa-caret-down'></i></span>.
+To do this, change the variable value (in the sequence header) to `Externally defined`. This selection will then get reflected in all of the **LOCATION** inputs in the <span class="fb-step fb-move">Move</span> commands as they update to <span class="fb-dropdown">Location Variable - Externally defined <i class='fa fa-caret-down'></i></span>.
 
 {%
 include callout.html

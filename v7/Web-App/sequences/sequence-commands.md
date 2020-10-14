@@ -7,7 +7,7 @@ description: "Descriptions of all the commands you can use in a sequence"
 * toc
 {:toc}
 
-Below are descriptions of all the commands you can use in a sequence. When using the web app, hover over the <span class="fb-tooltip">?</span> icon in the top right of any sequence step to view usage information.
+Below are descriptions of all the commands you can use in a sequence. When using the web app, hover over the <span class="fb-tooltip"><i class='fa fa-question'></i></span> icon in the top right of any sequence step to view usage information.
 
 # Move to
 The <span class="fb-step fb-move-absolute">Move To</span> command moves FarmBot to an absolute coordinate position. To use this command, first choose a location from the **LOCATION** dropdown. Options include:
@@ -122,12 +122,12 @@ content="You can drag and drop existing sequences from the **sequences list** in
 %}
 
 # Run farmware
-The <span class="fb-step fb-take-photo">Run Farmware</span> command instructs FarmBot to run a [farmware](../../Web-App/farmware.md). To use the command, select which farmware you would like to run from the **PACKAGE NAME** dropdown. Or, select `Manual Input` and type in the name of the package, for example, `plant-detection`.
+The <span class="fb-step fb-run-farmware">Run Farmware</span> command instructs FarmBot to run a [farmware](../../Web-App/farmware.md). To use the command, select which farmware you would like to run from the **PACKAGE NAME** dropdown. Or, select `Manual Input` and type in the name of the package, for example, `plant-detection`.
 
 ![Screen Shot 2019-05-02 at 11.26.53 AM.png](_images/Screen_Shot_2019-05-02_at_11.26.53_AM.png)
 
 # Take photo
-The <span class="fb-step fb-wait">Take Photo</span> command instructs FarmBot to take a photo with the USB camera or the Raspberry Pi camera (whichever is selected in the [device widget](../../Web-App/device.md#device)). After taking the photo, FarmBot will upload it to the web app, along with the coordinates from where the photo was taken, and the date and time.
+The <span class="fb-step fb-take-photo">Take Photo</span> command instructs FarmBot to take a photo with the USB camera or the Raspberry Pi camera (whichever is selected in the [device widget](../../Web-App/device.md#device)). After taking the photo, FarmBot will upload it to the web app, along with the coordinates from where the photo was taken, and the date and time.
 
 You can view the photos taken on the farmware page and in the farm designer.
 

@@ -35,7 +35,7 @@ Create a **group** with all of the points in the point grid by first **Selecting
 ![Screen Shot 2020-06-30 at 4.31.13 PM.png](_images/Screen_Shot_2020-06-30_at_4.31.13_PM.png)
 
 # Step 3: Create sequences
-You will need to create two sequences to scan the whole garden. The first sequence will simply <span class="fb-step fb-move-absolute">MOVE TO</span> one of the points (via a location variable) and then <span class="fb-step fb-take-photo">DETECT WEEDS</span>. We'll call this sequence `Detect weeds at one point`.
+You will need to create two sequences to scan the whole garden. The first sequence will simply <span class="fb-step fb-move-absolute">MOVE TO</span> one of the points (via a location variable) and then <span class="fb-step fb-run-farmware">DETECT WEEDS</span>. We'll call this sequence `Detect weeds at one point`.
 
 ![Screen Shot 2020-06-30 at 4.36.11 PM.png](_images/Screen_Shot_2020-06-30_at_4.36.11_PM.png)
 

@@ -23,7 +23,7 @@ There are several **log types**, each with their own color, that indicate the ty
 |<span class="light-blue"><i class='fa fa-circle'></i></span> **INFO**|General information about what FarmBot is doing.<br>**Example:** *Starting Water All Plants Sequence*
 |<span class="blue"><i class='fa fa-circle'></i></span> **FUN**|Logs that are just for fun :rabbit:
 |<span class="gray"><i class='fa fa-circle'></i></span> **DEBUG**|Verbose information relevant to software development and troubleshooting.<br>**Example:** *Network interface needs configuration: wlan0*
-|<span class="gray"><i class='fa fa-circle'></i></span> **ASSERTION**|Results of <span class="fb-step fb-wait">ASSERTION</span> commands. (advanced)
+|<span class="gray"><i class='fa fa-circle'></i></span> **ASSERTION**|Results of <span class="fb-step fb-assertion">ASSERTION</span> commands. (advanced)
 
 # Verbosity and filtering
 FarmBot sends logs for nearly every action it takes. Sometimes seeing all of the logs can be helpful, for example when trying out new features or when debugging your system. Other times seeing only the most important "high level" logs is desirable, such as when you leave your FarmBot to work for a few weeks and you just periodically check in.

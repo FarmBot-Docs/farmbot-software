@@ -41,7 +41,7 @@ Once you have Etcher installed, connect the microSD card to your computer using 
 include callout.html
 type="danger"
 title="Etcher (balenaEtcher) may have issues on MacOS devices."
-content="Some users have experienced difficulty flashing SD cards on MacOS devices. A common error experienced is \"Attention: The writer process has ended unexpectedly.\"   Other users on MacOS computers report Etcher freeze ups and crashes during the SD card flashing process. 
+content="Some users have experienced difficulty flashing SD cards on MacOS devices. A common error experienced is \"Attention: The writer process has ended unexpectedly.\"   Other users on MacOS computers report Etcher freeze ups and crashes during the SD card flashing process.
 
 If you encounter this error, or other problems please re-flash your SD card using a PC or Linux computer."
 %}
@@ -81,7 +81,7 @@ For Express kits, the card slot is located on the front side of the Pi Zero, on 
 </details>
 
 ## Step 4. Plug in the power source
-Plug your FarmBot's power supply into a wall outlet. You should now see a solid red <span class="fa fa-circle red"></span> LED and a steadily flashing green <span class="fa fa-circle green"></span> LED on the Raspberry Pi, indicating that the Pi has adequate power and is busy booting up. Refer to the [status LEDs](farmbot-os/status-leds.md) page for more information, especially if your LEDs are not lit up as described above.
+Plug your FarmBot's power supply into a wall outlet. You should now see a solid red <span class="fa fa-circle red"></span> LED and a steadily flashing green <span class="fa fa-circle led green"></span> LED on the Raspberry Pi, indicating that the Pi has adequate power and is busy booting up. Refer to the [status LEDs](farmbot-os/status-leds.md) page for more information, especially if your LEDs are not lit up as described above.
 
 # What's next?
 

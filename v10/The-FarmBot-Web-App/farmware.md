@@ -39,7 +39,7 @@ You can run a Farmware *manually* by selecting it in the Farmware panel and pres
 
 ![Screen Shot 2020-06-29 at 9.55.17 PM.png](_images/Screen_Shot_2020-06-29_at_9.55.17_PM.png)
 
-You can also run Farmware *systematically* by using the <span class="fb-step fb-take-photo">Run Farmware</span> command in sequences. By default, the Farmware will use values for all **PARAMETERS** as listed in the Farmware panel, but you can override those values on a per-command basis using the checkboxes and input fields in the sequence command.
+You can also run Farmware *systematically* by using the <span class="fb-step fb-run-farmware">Run Farmware</span> command in sequences. By default, the Farmware will use values for all **PARAMETERS** as listed in the Farmware panel, but you can override those values on a per-command basis using the checkboxes and input fields in the sequence command.
 
 ![Screen Shot 2020-06-29 at 9.53.16 PM.png](_images/Screen_Shot_2020-06-29_at_9.53.16_PM.png)
 

@@ -127,7 +127,7 @@ Select hue, saturation, and value ranges to cover the colors you want to detect 
 
 Move the FarmBot over a section of soil. Press <span class="fb-button fb-yellow">test</span> to detect weeds in FarmBot camera's current view. The weeds will appear in the [Farm Designer](farm-designer.md). Press <span class="fb-button fb-red">clear weeds</span> to delete them from the map.
 
-Detect weeds across FarmBot's entire bed by creating a sequence of movements in a grid pattern with a <span class="fb-step fb-take-photo">run farmware</span> step at each grid point.
+Detect weeds across FarmBot's entire bed by creating a sequence of movements in a grid pattern with a <span class="fb-step fb-run-farmware">Run Farmware</span> step at each grid point.
 
 Weed removal can be performed by creating a weed removal sequence that uses the weeding tool on weeds (points) in the Farm Designer. For more information on the weed detection process, see [Weed Detection](../Additional-Information/weed-detection.md). For more information on creating sequences, see [Sequences](sequences.md).
 

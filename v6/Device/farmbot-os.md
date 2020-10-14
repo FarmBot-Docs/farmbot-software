@@ -63,7 +63,7 @@ Plug in the power source to the Raspberry Pi. Depending on your setup, power wil
 include callout.html
 type="success"
 title="Raspberry Pi LED status"
-content="At this point you should see a solid red <span class=\"fa fa-circle\" style=\"color: red;opacity: 1\"></span>LED and a steadily flashing green <span class=\"fa fa-circle\" style=\"color: green;opacity: 1\"></span>LED on the Raspberry Pi."
+content="At this point you should see a solid red <span class=\"fa fa-circle led red\"></span>LED and a steadily flashing green <span class=\"fa fa-circle led green\"></span>LED on the Raspberry Pi."
 %}
 
 
@@ -72,25 +72,25 @@ content="At this point you should see a solid red <span class=\"fa fa-circle\" s
 include callout.html
 type="danger"
 title="Low power"
-content="If the red <span class=\"fa fa-circle\" style=\"color: red;opacity: 1\"></span>LED on the Raspberry Pi does not light up or blinks, the power supply may not be adequate. **The power supplied must be rated to 5V and at least 2A, though 3A is recommended.**"
+content="If the red <span class=\"fa fa-circle led red\"></span>LED on the Raspberry Pi does not light up or blinks, the power supply may not be adequate. **The power supplied must be rated to 5V and at least 2A, though 3A is recommended.**"
 %}
 
 
 
 |RED (power)                   |STATUS                        |TIPS                          |
 |------------------------------|------------------------------|------------------------------|
-|<span class="fa fa-circle" style="color: red;opacity: 1"></span> (solid red)|OK                            |Good to go!
-|<span class="fa fa-sun-o" style="color: red;opacity: 1"></span> (blinking red)|Low power                     |Try a more powerful power supply or a different cable.
-|<span class="fa fa-circle-thin" style="color: red;opacity: 1"></span>  (off)|No power / low power          |Plug in to a 3A power supply.
+|<span class="fa fa-circle led red"></span> (solid red)|OK                            |Good to go!
+|<span class="fa fa-sun-o led red"></span> (blinking red)|Low power                     |Try a more powerful power supply or a different cable.
+|<span class="fa fa-circle-thin led red"></span>  (off)|No power / low power          |Plug in to a 3A power supply.
 
 
 
 |GREEN (activity)              |STATUS                        |TIPS                          |
 |------------------------------|------------------------------|------------------------------|
-|<span class="fa fa-circle" style="color: green;opacity: 1"></span> (solid green)|Busy                          |Working/booting
-|<span class="fa fa-sun-o" style="color: green;opacity: 1"></span> (blinking randomly)|Busy                          |Working/booting
-|<span class="fa fa-sun-o" style="color: green;opacity: 1"></span> (blinking consistently)|Network disconnected or emergency stopped|[Configure FarmBot](configurator.md), press <span class="fb-button fb-yellow">UNLOCK</span> in the Web App, or check that the network FarmBot is connected to is online.
-|<span class="fa fa-circle-thin" style="color: green;opacity: 1"></span> (off)|Ready                         |Waiting for the next task
+|<span class="fa fa-circle led green"></span> (solid green)|Busy                          |Working/booting
+|<span class="fa fa-sun-o led green"></span> (blinking randomly)|Busy                          |Working/booting
+|<span class="fa fa-sun-o led green"></span> (blinking consistently)|Network disconnected or emergency stopped|[Configure FarmBot](configurator.md), press <span class="fb-button fb-yellow">UNLOCK</span> in the Web App, or check that the network FarmBot is connected to is online.
+|<span class="fa fa-circle-thin led green"></span> (off)|Ready                         |Waiting for the next task
 
 
 
@@ -112,33 +112,33 @@ See [pinout.xyz](https://pinout.xyz/) for a Raspberry Pi GPIO reference diagram.
 
 |RED (E-STOP)                  |STATUS                        |TIPS                          |
 |------------------------------|------------------------------|------------------------------|
-|<span class="fa fa-circle" style="color: red;opacity: 1"></span> (solid red)|unlocked                      |Ready
-|<span class="fa fa-circle-thin" style="color: red;opacity: 1"></span> (off)|locked                        |check the button 2 LED status
+|<span class="fa fa-circle led red"></span> (solid red)|unlocked                      |Ready
+|<span class="fa fa-circle-thin led red"></span> (off)|locked                        |check the button 2 LED status
 
 ## Button 2 LED: UNLOCK [yellow] (Raspberry Pi GPIO BCM pin 23)
 
 
 |YELLOW (UNLOCK)               |STATUS                        |TIPS                          |
 |------------------------------|------------------------------|------------------------------|
-|<span class="fa fa-sun-o" style="color: orange;opacity: 1"></span> (blinking)|locked                        |When safe to do so, press this button to unlock FarmBot.
-|<span class="fa fa-circle-thin" style="color: orange;opacity: 1"></span> (off)|unlocked                      |Ready
+|<span class="fa fa-sun-o led orange"></span> (blinking)|locked                        |When safe to do so, press this button to unlock FarmBot.
+|<span class="fa fa-circle-thin led orange"></span> (off)|unlocked                      |Ready
 
 ## LED 1: Sync status [Green] (Raspberry Pi GPIO BCM pin 24)
 
 |GREEN (sync)                  |STATUS                        |TIPS                          |
 |------------------------------|------------------------------|------------------------------|
-|<span class="fa fa-circle" style="color: green;opacity: 1"></span> (solid green)|Synced                        |Ready
-|<span class="fa fa-sun-o" style="color: green;opacity: 1"></span> (blinking slowly)|Needs sync                    |Will not execute any unsynced events or sequences
-|<span class="fa fa-sun-o" style="color: green;opacity: 1"></span> (blinking quickly)|Syncing                       |
-|<span class="fa fa-circle-thin" style="color: green;opacity: 1"></span> (off)|Offline                       |Check the connection status LED
+|<span class="fa fa-circle led green"></span> (solid green)|Synced                        |Ready
+|<span class="fa fa-sun-o led green"></span> (blinking slowly)|Needs sync                    |Will not execute any unsynced events or sequences
+|<span class="fa fa-sun-o led green"></span> (blinking quickly)|Syncing                       |
+|<span class="fa fa-circle-thin led green"></span> (off)|Offline                       |Check the connection status LED
 
 ## LED 2: Connection status [Blue] (Raspberry Pi GPIO BCM pin 25)
 
 |BLUE (connection)             |STATUS                        |TIPS                          |
 |------------------------------|------------------------------|------------------------------|
-|<span class="fa fa-circle" style="color: blue;opacity: 1"></span> (solid blue)|Connected                     |Working
-|<span class="fa fa-sun-o" style="color: blue;opacity: 1"></span> (blinking slowly)|Needs configuration           |[Configure FarmBot](configurator.md), press <span class="fb-button fb-yellow">UNLOCK</span> in the Web App, or check that the network FarmBot is connected to is online.
-|<span class="fa fa-circle-thin" style="color: blue;opacity: 1"></span> (off)|Offline                       |Check your internet connection.
+|<span class="fa fa-circle saucer blue"></span> (solid blue)|Connected                     |Working
+|<span class="fa fa-sun-o led blue"></span> (blinking slowly)|Needs configuration           |[Configure FarmBot](configurator.md), press <span class="fb-button fb-yellow">UNLOCK</span> in the Web App, or check that the network FarmBot is connected to is online.
+|<span class="fa fa-circle-thin led blue"></span> (off)|Offline                       |Check your internet connection.
 
 ## LED 3: Controllable [white] (Raspberry Pi GPIO BCM pin 12)
 Control this LED via the <span class="fb-step fb-write-pin">Write Pin</span> Sequence step command.

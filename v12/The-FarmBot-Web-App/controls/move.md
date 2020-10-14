@@ -36,7 +36,7 @@ You can change the direction along each axis that the arrow buttons send your Fa
 ![Screen Shot 2020-06-30 at 11.18.21 AM.png](_images/Screen_Shot_2020-06-30_at_11.18.21_AM.png)
 
 ### Sequence based relative movements
-You can also perform relative movements from [sequences](../../The-FarmBot-Web-App/sequences.md) by using the <span class="fb-step fb-move-absolute">Move</span> command and selecting **offset from current location** in the **LOCATION** dropdown. For more information, see the [move command documentation](../../The-FarmBot-Web-App/sequences/sequence-commands.md#move).
+You can also perform relative movements from [sequences](../../The-FarmBot-Web-App/sequences.md) by using the <span class="fb-step fb-move">Move</span> command and selecting **offset from current location** in the **LOCATION** dropdown. For more information, see the [move command documentation](../../The-FarmBot-Web-App/sequences/sequence-commands.md#move).
 
 ## Absolute movements
 Move FarmBot to an **absolute position** by typing in new coordinates to the white input fields for the **X-AXIS**, **Y-AXIS**, and **Z-AXIS** and then pressing <span class="fb-button fb-green">GO</span>.
@@ -55,7 +55,7 @@ content="FarmBot will operate all axes at once to get to the new position as fas
 If you do not type in a new value for any of the axes, then FarmBot will maintain its current position along that axis and only move the needed axis or axes.
 
 ### Sequence based absolute movements
-You can also perform absolute movements from [sequences](../../The-FarmBot-Web-App/sequences.md) by using the <span class="fb-step fb-move-absolute">Move</span> command. For more information, see the [move command documentation](../../The-FarmBot-Web-App/sequences/sequence-commands.md#move).
+You can also perform absolute movements from [sequences](../../The-FarmBot-Web-App/sequences.md) by using the <span class="fb-step fb-move">Move</span> command. For more information, see the [move command documentation](../../The-FarmBot-Web-App/sequences/sequence-commands.md#move).
 
 ## Finding home
 The <span class="fb-button fb-gray"><i class='fa fa-home'></i></span> button will instruct FarmBot to **automatically find the home position** for all axes in the order Z, Y, X.
@@ -76,7 +76,7 @@ You can also perform homing from [sequences](../../The-FarmBot-Web-App/sequences
 The <span class="fb-button fb-gray"><i class='fa fa-camera'></i></span> button will take a photo at FarmBot's current location. Photos can be viewed in the [photos panel](../../The-FarmBot-Web-App/photos.md).
 
 ### Sequence based photo taking
-You can also take photos from [sequences](../../The-FarmBot-Web-App/sequences.md) by using the <span class="fb-step fb-wait">Take Photo</span> command. For more information, see the [take photo command documentation](../../The-FarmBot-Web-App/sequences/sequence-commands.md#take-photo).
+You can also take photos from [sequences](../../The-FarmBot-Web-App/sequences.md) by using the <span class="fb-step fb-take-photo">Take Photo</span> command. For more information, see the [take photo command documentation](../../The-FarmBot-Web-App/sequences/sequence-commands.md#take-photo).
 
 # Motor load
 View the latest, recent maximum, and recent average **MOTOR LOAD** for each each axis by clicking the load indicator bars below each axis label.

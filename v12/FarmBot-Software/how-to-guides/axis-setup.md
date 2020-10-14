@@ -46,7 +46,7 @@ To **automatically find home**, FarmBot will:
 
 _Note that the graphic above omits step 3 of the process_
 
-To instruct FarmBot to automatically find home on a regular basis, use the <span class="fb-step fb-move-absolute">FIND HOME</span> command in your sequences. This is recommended at the start of long-running sequences and sequences that require a high degree of precision.
+To instruct FarmBot to automatically find home on a regular basis, use the <span class="fb-step fb-find-home">FIND HOME</span> command in your sequences. This is recommended at the start of long-running sequences and sequences that require a high degree of precision.
 
 To instruct FarmBot to automatically find home right now, use the <span class="fb-button fb-yellow">FIND HOME X</span>, <span class="fb-button fb-yellow">FIND HOME Y</span>, and <span class="fb-button fb-yellow">FIND HOME Z</span> buttons in the settings panel, or the <span class="fb-button fb-gray"><i class='fa fa-home'></i></span> button on the controls page to find home for all three axes in the order Z, Y, X. This is recommended after moving FarmBot by hand or a movement error.
 
@@ -55,7 +55,7 @@ To instruct FarmBot to automatically find home every time it boots up, turn the 
 ## Manually set home
 If you do not have **ENCODERS**, **STALL DETECTION**, or **LIMIT SWITCHES** enabled, you can move FarmBot to the desired home position with the manual controls or by hand. Then use the <span class="fb-button fb-yellow">SET HOME X</span>, <span class="fb-button fb-yellow">SET HOME Y</span>, and <span class="fb-button fb-yellow">SET HOME Z</span> buttons in the settings panel to manually set the current location as the home position for each axis. In other words, manually set FarmBot's coordinates to `(0, 0, 0)`.
 
-You may also instruct FarmBot to set the home position on a regular basis by using the <span class="fb-step fb-move-absolute">SET HOME</span> command in a sequence.
+You may also instruct FarmBot to set the home position on a regular basis by using the <span class="fb-step fb-set-zero">SET HOME</span> command in a sequence.
 
 ## Stop at home
 Most FarmBot setups physically restrict movements beyond the home position via hardware such as hardstops. If this is true for your setup, you should also turn **STOP AT HOME** <span class="fb-peripheral-on">ON</span> for each applicable axis. This will further restrict FarmBot (via software) from even *attempting* to move beyond the home position.
@@ -92,7 +92,7 @@ To **automatically find an axis length**, FarmBot will:
 
 To instruct FarmBot to automatically find an axis length right now, use the <span class="fb-button fb-yellow">FIND LENGTH X</span>, <span class="fb-button fb-yellow">FIND LENGTH Y</span>, and <span class="fb-button fb-yellow">FIND LENGTH Z</span> buttons in the settings panel. This is recommended after first assembling your FarmBot or making any changes to the hardware that may affect the distance FarmBot can travel.
 
-You may also instruct FarmBot to automatically find an axis length on a regular basis by using the <span class="fb-step fb-move-absolute">FIND AXIS LENGTH</span> command in a sequence. However, this is generally not necessary because axis lengths do not change on a regular basis.
+You may also instruct FarmBot to automatically find an axis length on a regular basis by using the <span class="fb-step fb-calibrate">FIND AXIS LENGTH</span> command in a sequence. However, this is generally not necessary because axis lengths do not change on a regular basis.
 
 ## Manually set axis length
 

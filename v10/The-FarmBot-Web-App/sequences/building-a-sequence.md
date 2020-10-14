@@ -14,7 +14,7 @@ Once a sequence has been created or selected, it will be loaded into the **Seque
 ![Screen Shot 2020-01-02 at 12.55.37 PM.png](_images/Screen_Shot_2020-01-02_at_12.55.37_PM.png)
 
 # Step 2: Provide a name and color
-In the **Sequence Editor** panel, enter a <span class="fb-input">Sequence name</span> and optionally assign it a color <span class="fa fa-circle" style="color: #c68ed2;opacity: 1"></span>. The color will not affect FarmBot's execution of the sequence, it is only for helping you organize and recognize your own sequences.
+In the **Sequence Editor** panel, enter a <span class="fb-input">Sequence name</span> and optionally assign it a color <span class="fa fa-circle saucer pink"></span>. The color will not affect FarmBot's execution of the sequence, it is only for helping you organize and recognize your own sequences.
 
 > 📘
 >

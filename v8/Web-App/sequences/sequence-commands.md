@@ -146,19 +146,19 @@ content="You can drag and drop existing sequences from the **sequences list** in
 %}
 
 # Run farmware
-The <span class="fb-step fb-take-photo">Run Farmware</span> command instructs FarmBot to run a [farmware](../../Web-App/farmware.md). To use the command, select which farmware you would like to run from the **PACKAGE NAME** dropdown. Or, select `Manual Input` and type in the name of the package, for example, `plant-detection`.
+The <span class="fb-step fb-run-farmware">Run Farmware</span> command instructs FarmBot to run a [farmware](../../Web-App/farmware.md). To use the command, select which farmware you would like to run from the **PACKAGE NAME** dropdown. Or, select `Manual Input` and type in the name of the package, for example, `plant-detection`.
 
 ![Screen Shot 2019-05-02 at 11.26.53 AM.png](_images/Screen_Shot_2019-05-02_at_11.26.53_AM.png)
 
 # Take photo
-The <span class="fb-step fb-wait">Take Photo</span> command instructs FarmBot to take a photo with the USB camera or the Raspberry Pi camera (whichever is selected in [device settings](../../Web-App/device/device-settings.md)). After taking the photo, FarmBot will upload it to the web app, along with the coordinates from where the photo was taken, and the date and time.
+The <span class="fb-step fb-take-photo">Take Photo</span> command instructs FarmBot to take a photo with the USB camera or the Raspberry Pi camera (whichever is selected in [device settings](../../Web-App/device/device-settings.md)). After taking the photo, FarmBot will upload it to the web app, along with the coordinates from where the photo was taken, and the date and time.
 
 You can view the photos taken on the farmware page and in the farm designer.
 
 ![Screen Shot 2019-05-02 at 11.27.01 AM.png](_images/Screen_Shot_2019-05-02_at_11.27.01_AM.png)
 
 # Mark as
-The <span class="fb-step fb-wait">Mark as</span> command instructs FarmBot to **MARK** an object (such as a plant) **AS** having some property (for example, being `Planted`). Using this command allows FarmBot to systematically update resources as it works with them.
+The <span class="fb-step fb-mark-as">Mark as</span> command instructs FarmBot to **MARK** an object (such as a plant) **AS** having some property (for example, being `Planted`). Using this command allows FarmBot to systematically update resources as it works with them.
 
 ![Screen Shot 2019-07-12 at 3.43.33 PM.png](_images/Screen_Shot_2019-07-12_at_3.43.33_PM.png)
 
@@ -171,7 +171,7 @@ title="Advanced feature"
 content="The assertion command is intended for power users and software developers only. See the [developer documentation](https://developer.farm.bot/docs/assertions) for a list of the available functions."
 %}
 
-The <span class="fb-step fb-if-statement">Assertion</span> command allows FarmBot to test if a condition is true or false for automated testing purposes. For example, you could set up a FarmBot to move back and forth repeatedly along an axis, and check the position after each movement. This type of test is useful for high-cycle hardware testing, and for continuous integration testing of software changes.
+The <span class="fb-step fb-assertion">Assertion</span> command allows FarmBot to test if a condition is true or false for automated testing purposes. For example, you could set up a FarmBot to move back and forth repeatedly along an axis, and check the position after each movement. This type of test is useful for high-cycle hardware testing, and for continuous integration testing of software changes.
 
 Assertions must be written in **Lua**, and will be evaluated against a Lua 5.2 interpreter. In the event that a **TEST FAILS**, FarmBot can either `Continue` execution, `Recover and continue`, `Abort and recover`, or just `Abort` execution altogether. The **RECOVERY SEQUENCE** allows you to reset FarmBot to a known state after a failure, send a message, or perform any other desired operations.
 
