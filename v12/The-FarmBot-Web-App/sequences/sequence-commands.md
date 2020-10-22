@@ -23,22 +23,22 @@ The <span class="fb-step fb-move">Move</span> command instructs FarmBot to move 
 ## Custom coordinates
 When choosing the **custom coordinates** option, three input fields will be revealed allowing you to specify the exact **X, Y, Z** coordinates you want FarmBot to move to.
 
-![Screen Shot 2020-08-24 at 8.39.41 AM.png](_images/Screen_Shot_2020-08-24_at_8.39.41_AM.png)
+![move to custom coordinates](_images/move_to_custom_coordinates.png)
 
 ## Offset from current location
 When choosing the **offset from current location** option, three input fields will be revealed allowing you to specify the **OFFSET** amount you want FarmBot to move to.
 
-![Screen Shot 2020-08-24 at 8.41.23 AM.png](_images/Screen_Shot_2020-08-24_at_8.41.23_AM.png)
+![move to offset](_images/move_to_offset.png)
 
 ## Location variables
 When choosing **variable - add new**, a variable form will be added to the sequence header. Upon selecting a variable value in the sequence header, the dropdown selections in all <span class="fb-step fb-move">Move</span> steps set to that variable will be updated. See the [variables](variables.md) documentation for more information.
 
-![Screen Shot 2020-08-24 at 8.43.16 AM.png](_images/Screen_Shot_2020-08-24_at_8.43.16_AM.png)
+![location variable](_images/location_variable.png)
 
 ## Other locations
 When choosing a **tool or seed container location**, a **plant location**, a **map point**, or a **weed location**, those resources will then become _in-use_, meaning that they cannot be deleted until you remove them from your sequence. If you update their coordinates, your sequence steps will be automatically updated.
 
-![Screen Shot 2020-08-24 at 8.47.50 AM.png](_images/Screen_Shot_2020-08-24_at_8.47.50_AM.png)
+![move to location](_images/move_to_location.png)
 
 
 
@@ -54,7 +54,7 @@ If you try to move to a location to mount a tool or pick up a seed in one step, 
 ## Advanced options
 Within the **[+]** dropdown, you will find several options to modify the base **LOCATION** and several options for changing how FarmBot performs the movement. By default, the app will only load the **[+]** options in an open state if you've changed any of options from the default values. If you would like the **[+]** options to always load in an open state, set **OPEN OPTIONS BY DEFAULT** to <span class="fb-peripheral-on">YES</span> from the <i class='fa fa-gear'></i> menu in the sequence header.
 
-![Screen Shot 2020-08-24 at 8.50.33 AM.png](_images/Screen_Shot_2020-08-24_at_8.50.33_AM.png)
+![move to advanced options](_images/move_to_advanced_options.png)
 
 **OVERRIDE** allows you to override the X, Y, and/or Z values from the **LOCATION** field with new values. You may type in a custom coordinate, a formula, or disable an axis entirely. The Z axis override dropdown also includes a special **Safe Height** value. Currently the Safe Height is set to Z = 0, though this will be customizable in the settings panel in the future. Coming soon is a Soil Height option.
 
@@ -67,19 +67,19 @@ content="If you choose custom coordinates for the **LOCATION** field, **OVERRIDE
 
 
 
-![Screen Shot 2020-08-24 at 8.55.31 AM.png](_images/Screen_Shot_2020-08-24_at_8.55.31_AM.png)
+![move to axis override dropdown](_images/move_to_axis_override_dropdown.png)
 
 **OFFSET** allows you to add positive or negative offsets to the base **LOCATION**. This is useful when pulling tools out of slots, or when watering around or above a plant.
 
-![Screen Shot 2020-08-24 at 9.13.41 AM.png](_images/Screen_Shot_2020-08-24_at_9.13.41_AM.png)
+![move to location offset](_images/move_to_location_offset.png)
 
 **VARIANCE** allows you to add randomness to a movement, in case you want to perform an action repeatedly (such as suppressing a weed) but with small variations between repetitions. In the example below FarmBot will move to 288 +/- a random variance between 0 and 4 on the X axis. Thus, the final X location will be a random value between 284 and 292.
 
-![Screen Shot 2020-08-24 at 9.33.14 AM.png](_images/Screen_Shot_2020-08-24_at_9.33.14_AM.png)
+![move to location variance](_images/move_to_location_variance.png)
 
 **SPEED (%)** allows you to slow down movement along an axis for greater precision, for example when mounting and dismounting tools. Speed is a percentage of the **MAX SPEED** for each axis.
 
-![Screen Shot 2020-08-24 at 9.21.45 AM.png](_images/Screen_Shot_2020-08-24_at_9.21.45_AM.png)
+![move to location speed](_images/move_to_location_speed.png)
 
 **SAFE Z** allows you to instruct FarmBot to perform a MOVE command as three distinct movements:
 
@@ -89,7 +89,7 @@ content="If you choose custom coordinates for the **LOCATION** field, **OVERRIDE
 
 This is useful when you need FarmBot to move across the garden but want to ensure it does not run into any plants or other objects.
 
-![Screen Shot 2020-08-24 at 9.24.22 AM.png](_images/Screen_Shot_2020-08-24_at_9.24.22_AM.png)
+![move to location safe z](_images/move_to_location_safe_z.png)
 
 # Control peripheral
 The <span class="fb-step fb-write-pin">Control Peripheral</span> command allows you to control **peripherals** such as the vacuum pump, solenoid valve, and lights. To use this command, first select a peripheral from the **PERIPHERAL** dropdown. Options include:
@@ -101,7 +101,7 @@ Next, select the **MODE** which you would like to control the peripheral with. Y
 
 Last, specify what value you would like the peripheral to be **SET TO**. The digital mode allows for turning the peripheral **ON** and **OFF**, while the analog mode allows for controlling the peripheral with PWM (pulse width modulation) to any value between `0` and `255`.
 
-![Screen Shot 2020-08-27 at 1.10.16 PM.png](_images/Screen_Shot_2020-08-27_at_1.10.16_PM.png)
+![control peripheral](_images/control_peripheral.png)
 
 ## Advanced options
 In the **sequence editor options menu** (<span class="fa fa-gear"></span> icon next to the copy sequence button), there is an option to **SHOW PINS**. Enabling this setting will show additional options in the **PERIPHERAL** dropdown for all of the Arduino's raw **pins**. If you have hooked up custom peripherals to any of the Digital Out or Analog Out pins on your electronics board, this is one way you can control them from a sequence like any other peripheral.
@@ -129,7 +129,7 @@ To use this command, select a peripheral from the **PERIPHERAL** dropdown. Optio
   * All of the peripherals you have defined in the [peripherals widget on the controls page](../controls/peripherals.md)
   * The Box LEDs, if you have any included with your FarmBot version
 
-![Screen Shot 2020-01-06 at 12.24.47 PM.png](_images/Screen_Shot_2020-01-06_at_12.24.47_PM.png)
+![toggle peripheral](_images/toggle_peripheral.png)
 
 # Read sensor
 The <span class="fb-step fb-read-pin">Read Sensor</span> command instructs FarmBot to read the value of a **sensor**. For example, you would use this command to measure the soil moisture content with the soil moisture sensor. To use this command, first select a sensor from the **SENSOR** dropdown. Options include:
@@ -141,7 +141,7 @@ Next, select the **MODE** which you would like to read the sensor with. You can 
 
 Last, optionally provide a **DATA LABEL** to allow your recorded sensor reading to be more searchable at a later date.
 
-![Screen Shot 2020-08-27 at 1.10.53 PM.png](_images/Screen_Shot_2020-08-27_at_1.10.53_PM.png)
+![read sensor](_images/read_sensor.png)
 
 ## Advanced options
 In the **sequence editor options menu** (<span class="fa fa-gear"></span> icon next to the copy sequence button), there is an option to **SHOW PINS**. Enabling this setting will show additional options in the **SENSOR OR PERIPHERAL** dropdown for all of the Arduino's raw **pins**. If you have hooked up custom sensors to any of the Digital In or Analog In pins on your electronics board, this is one way you can read them from a sequence like any other sensor.
@@ -156,36 +156,36 @@ content="Remember on the controls page how you defined your sensors with a **nam
 # Control servo
 The <span class="fb-step fb-set-servo-angle">Control servo</span> command instructs FarmBot to move a servo to the provided **ANGLE**.
 
-![Screen Shot 2020-08-27 at 1.11.47 PM.png](_images/Screen_Shot_2020-08-27_at_1.11.47_PM.png)
+![control servo](_images/control_servo.png)
 
 # Wait
 The <span class="fb-step fb-wait">Wait</span> command causes a delay before executing the next step in the sequence. This could be used to hold the solenoid valve open for FarmBot to water a plant for `2000` milliseconds (2 seconds), for example.
 
 The maximum time allowed is 3 minutes (`180,000` milliseconds). If you need to have FarmBot wait for longer, use multiple steps.
 
-![Screen Shot 2020-08-27 at 1.12.15 PM.png](_images/Screen_Shot_2020-08-27_at_1.12.15_PM.png)
+![wait](_images/wait.png)
 
 # Send message
 The <span class="fb-step fb-send-message">Send Message</span> command instructs FarmBot to send a message. This is useful for error and success notifications and debugging. To use this command, simply type in the **MESSAGE** you would like FarmBot to send, choose a **TYPE**, and select the channels you would like the message to be sent to.
 
 `{{ x }}` can be used as a text variable for FarmBot's current x-axis position (`y` and `z` can also be used). `{{ pin13 }}` can be used to write the current value of pin 13 (pins 0 through 69 can also be used).
 
-![Screen Shot 2020-08-27 at 1.12.36 PM.png](_images/Screen_Shot_2020-08-27_at_1.12.36_PM.png)
+![send message](_images/send_message.png)
 
 # E-stop
 The <span class="fb-step fb-e-stop">E-stop</span> command instructs FarmBot to stop operations (halt motor movements and turn off peripherals). To continue operations, you will need to manually unlock the device.
 
-![Screen Shot 2020-08-27 at 1.13.20 PM.png](_images/Screen_Shot_2020-08-27_at_1.13.20_PM.png)
+![e-stop](_images/e-stop.png)
 
 # Reboot
 The <span class="fb-step fb-reboot">Reboot</span> command instructs FarmBot to power cycle the onboard computer.
 
-![Screen Shot 2020-08-27 at 1.19.10 PM.png](_images/Screen_Shot_2020-08-27_at_1.19.10_PM.png)
+![reboot](_images/reboot.png)
 
 # Find home
 The <span class="fb-step fb-find-home">Find Home</span> command instructs FarmBot to automatically find the home position for the chosen axis. If you choose **ALL**, FarmBot will find home for each axis one at a time in the order: z-axis, y-axis, x-axis.
 
-![Screen Shot 2020-08-27 at 1.13.39 PM.png](_images/Screen_Shot_2020-08-27_at_1.13.39_PM.png)
+![find home](_images/find_home.png)
 
 
 
@@ -199,12 +199,12 @@ content="**ENCODERS**, **STALL DETECTION**, or **LIMIT SWITCHES** must be <span 
 # Set home
 The <span class="fb-step fb-set-zero">Set home</span> command instructs FarmBot to set the current location along an axis to `0`, also known as the `Home` position for that axis. If you choose **ALL**, FarmBot will set all axes to zero.
 
-![Screen Shot 2020-08-27 at 1.14.19 PM.png](_images/Screen_Shot_2020-08-27_at_1.14.19_PM.png)
+![set home](_images/set_home.png)
 
 # Find axis length
 The <span class="fb-step fb-calibrate">FIND AXIS LENGTH</span> command instructs FarmBot to automatically find the length of the chosen axis. If you choose **ALL**, FarmBot will find the length of each axis one at a time in the order: z-axis, y-axis, x-axis.
 
-![Screen Shot 2020-08-27 at 1.19.25 PM.png](_images/Screen_Shot_2020-08-27_at_1.19.25_PM.png)
+![find axis length](_images/find_axis_length.png)
 
 
 
@@ -222,14 +222,14 @@ If the condition that FarmBot checks is true, you can instruct FarmBot to execut
 
 In the example below, FarmBot will check **_IF..._** the **VARIABLE** (`Soil moisture`) `is less than` the **VALUE** (`500`). If that condition is true, **_THEN..._** FarmBot will execute a sequence to `Water the plant`. **_ELSE..._** (if the condition is not true), FarmBot will do nothing (ie: continue to the next step in the current sequence).
 
-![Screen Shot 2020-08-27 at 1.16.40 PM.png](_images/Screen_Shot_2020-08-27_at_1.16.40_PM.png)
+![if statement](_images/if_statement.png)
 
 # Execute sequence
 The <span class="fb-step fb-execute">Execute Sequence</span> command uses *existing sequences* as *steps* in a *new, larger sequence*. This allows you to re-use smaller, simpler sequences in different combinations to create far more complex sequences that are easier to modify, manage, and mashup later because of their modularity.
 
 For example, you could make a sequence to `Mount the watering nozzle`, another sequence to `Water the plant`, and a third sequence to `Unmount the watering nozzle`. Then, in a new sequence, you could use three <span class="fb-step fb-execute">Execute Sequence</span> commands (one for each of the smaller sequences) to execute all the steps needed to water the plant.
 
-![Screen Shot 2020-08-27 at 1.18.31 PM.png](_images/Screen_Shot_2020-08-27_at_1.18.31_PM.png)
+![execute sequence steps](_images/execute_sequence_steps.png)
 
 
 
@@ -243,28 +243,28 @@ content="You can drag and drop existing sequences from the **sequences list** in
 # Run farmware
 The <span class="fb-step fb-run-farmware">Run Farmware</span> command instructs FarmBot to run a [farmware](../farmware.md). To use the command, select which farmware you would like to run from the **PACKAGE NAME** dropdown. Or, select `Manual Input` and type in the name of the package, for example, `plant-detection`.
 
-![Screen Shot 2020-08-27 at 1.20.44 PM.png](_images/Screen_Shot_2020-08-27_at_1.20.44_PM.png)
+![run farmware](_images/run_farmware.png)
 
 # Detect weeds
 The <span class="fb-step fb-run-farmware">Detect Weeds</span> command instructs FarmBot to take a photo and run the weed detection software. After taking the photo and processing it, FarmBot will upload it to the web app, along with the coordinates from where the photo was taken, the date and time. FarmBot will also add any weeds that it identified to the **PENDING** category in the weeds panel.
 
-![Screen Shot 2020-08-27 at 1.21.07 PM.png](_images/Screen_Shot_2020-08-27_at_1.21.07_PM.png)
+![detect weeds](_images/detect_weeds.png)
 
 # Take photo
 The <span class="fb-step fb-take-photo">Take Photo</span> command instructs FarmBot to take a photo with the USB camera or the Raspberry Pi camera (whichever is selected in [camera settings](../photos/camera-settings.md)). After taking the photo, FarmBot will upload it to the web app, along with the coordinates from where the photo was taken, and the date and time.
 
 You can view the photos taken on the photos panel and in the farm designer.
 
-![Screen Shot 2020-08-27 at 1.23.58 PM.png](_images/Screen_Shot_2020-08-27_at_1.23.58_PM.png)
+![take a photo](_images/take_a_photo.png)
 
 # Mark as
 The <span class="fb-step fb-mark-as">Mark as</span> command instructs FarmBot to **MARK** an item's **PROPERTY**  **AS** the value of your choice. For example, you could mark a Spinach plant's `Plant stage` property as `Planted`. Using this command allows FarmBot to systematically update an item's properties as it works with that item. This step also accepts a Location Variable as an input, which can be used when running a sequence over a group of items.
 
-![Screen Shot 2020-08-27 at 1.24.27 PM.png](_images/Screen_Shot_2020-08-27_at_1.24.27_PM.png)
+![mark as](_images/mark_as.png)
 
 While a variety of properties are available for each item type such as `X`, `Y`, `Z`, `Radius`, and `Color`, you can also set custom properties in the format `meta.custom-property`. These properties can then be viewed on the item's details panel in the farm designer, and you can also select items with these properties using advanced groups filters.
 
-![Screen Shot 2020-08-27 at 1.24.58 PM.png](_images/Screen_Shot_2020-08-27_at_1.24.58_PM.png)
+![mark as custom property](_images/mark_as_custom_property.png)
 
 # Assertion
 
@@ -279,7 +279,7 @@ The <span class="fb-step fb-assertion">Assertion</span> command allows FarmBot t
 
 Assertions must be written in **Lua**, and will be evaluated against a Lua 5.2 interpreter. In the event that a **TEST FAILS**, FarmBot can either `Continue` execution, `Recover and continue`, `Abort and recover`, or just `Abort` execution altogether. The **RECOVERY SEQUENCE** allows you to reset FarmBot to a known state after a failure, send a message, or perform any other desired operations.
 
-![Screen Shot 2020-08-27 at 1.26.00 PM.png](_images/Screen_Shot_2020-08-27_at_1.26.00_PM.png)
+![assertion](_images/assertion.png)
 
 
 # What's next?

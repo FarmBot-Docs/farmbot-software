@@ -8,7 +8,7 @@ description: "[Open these settings in the app](https://my.farm.bot/app/designer/
 {:toc}
 
 
-![Screen Shot 2020-08-20 at 3.14.20 PM.png](_images/Screen_Shot_2020-08-20_at_3.14.20_PM.png)
+![farmbot settings](_images/farmbot_settings.png)
 
 # Name
 Give your FarmBot a fun name. For example: `Broccoli Overlord` 🥦 🤖

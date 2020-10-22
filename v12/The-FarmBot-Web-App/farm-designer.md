@@ -26,12 +26,12 @@ Click the white <i class='fa fa-arrow-left'></i> button in the top right of the 
 
 
 
-![Screen Shot 2020-04-21 at 11.44.19 PM.png](_images/Screen_Shot_2020-04-21_at_11.44.19_PM.png)
+![farm designer with tools panel open](_images/farm_designer_with_tools_panel_open.png)
 
 # Move mode
 Pressing the <span class="fb-button fb-gray">MOVE MODE</span> button in the map menu will open the **move to location** panel. Click any spot within the map grid to mark it with an <i class='fa fa-times'></i>. Then press <span class="fb-button fb-gray">MOVE TO THIS COORDINATE</span> to send FarmBot to the selected position. You can optionally enter a new coordinate for the **Z-AXIS**.
 
-![Screen Shot 2020-04-21 at 11.42.19 PM.png](_images/Screen_Shot_2020-04-21_at_11.42.19_PM.png)
+![farm designer move mode](_images/farm_designer_move_mode.png)
 
 # Select mode
 To select multiple plants, click anywhere in the map and drag the mouse cursor to create a **box selection**. All plants located within the box will be displayed in the **select** panel. Alternatively, you may press the <span class="fb-button fb-gray">SELECT</span> button located in the map menu, and then use the box-selection technique.
@@ -40,7 +40,7 @@ Once the select panel is open, you can click-to-add additional plants to the sel
 
 You may also change the **SELECTION TYPE** to allow for selecting other objects in the map, such as weeds or points.
 
-![Screen Shot 2020-04-21 at 11.55.36 PM.png](_images/Screen_Shot_2020-04-21_at_11.55.36_PM.png)
+![farm designer select mode](_images/farm_designer_select_mode.png)
 
 
 # What's next?

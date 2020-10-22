@@ -27,26 +27,26 @@ content="Use a unique color for these points - it will come in handy in the next
 
 
 
-![Screen Shot 2020-07-08 at 12.58.39 PM.png](_images/Screen_Shot_2020-07-08_at_12.58.39_PM.png)
+![point grid creation](_images/point_grid_creation.png)
 
 # Step 2: Group the points
 Create a **group** with all of the points in the point grid by first **Selecting all** `Points` and then checking the **Color** that you used in the previous step. Give the group a unique name such as `Photo Scan Point Grid`.
 
-![Screen Shot 2020-06-30 at 4.31.13 PM.png](_images/Screen_Shot_2020-06-30_at_4.31.13_PM.png)
+![point group creation](_images/point_group_creation.png)
 
 # Step 3: Create sequences
 You will need to create two sequences to scan the whole garden. The first sequence will simply <span class="fb-step fb-move-absolute">MOVE TO</span> one of the points (via a location variable) and then <span class="fb-step fb-run-farmware">DETECT WEEDS</span>. We'll call this sequence `Detect weeds at one point`.
 
-![Screen Shot 2020-06-30 at 4.36.11 PM.png](_images/Screen_Shot_2020-06-30_at_4.36.11_PM.png)
+![detect weeds at point sequence](_images/detect_weeds_at_point_sequence.png)
 
 The second sequence will <span class="fb-step fb-execute">EXECUTE</span> the `Detect weeds at one point` sequence for every point in the `Photo Scan Point Grid` group. We'll call this sequence `Scan entire garden for weeds`.
 
-![Screen Shot 2020-06-30 at 4.36.47 PM.png](_images/Screen_Shot_2020-06-30_at_4.36.47_PM.png)
+![scan entire garden for weeds sequence](_images/scan_entire_garden_for_weeds_sequence.png)
 
 # Step 4: Scan the garden
 You're now ready to <span class="fb-button fb-orange">RUN</span> the `Scan entire garden for weeds` sequence and view the results in the farm designer.
 
-![Garden scan.gif](_images/Garden_scan.gif)
+![garden scan](_images/garden_scan.gif)
 
 After the first test run, you may need to:
 

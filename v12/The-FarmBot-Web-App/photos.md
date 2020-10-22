@@ -35,7 +35,7 @@ Press the <span class="fb-button fb-yellow"><i class='fa fa-scissors'></i></span
 
 Press the <span class="fb-button fb-blue"><i class='fa fa-download'></i></span> button to download the photo taken by the camera. Note: the photo downloaded will be the image captured by the camera without rotation or cropping.
 
-![Carousel.png](_images/Carousel.png)
+![photos panel](_images/photos_panel.png)
 
 
 
@@ -48,7 +48,7 @@ content="The default camera used is a **USB camera**. If you would like to use a
 
 
 
-![photo-view-info.png](_images/photo-view-info.png)
+![photo view info](_images/photo_view_info.png)
 
 The <i class='fa fa-eye'></i> icon shows whether or not a photo is displayed in the map. Press the icon to open the **SHOWN IN MAP** info pop-up to see why a specific photo is or isn't displayed. Press the <span class="fb-button fb-yellow">HIDE</span> button to temporarily hide a photo from the map.
 

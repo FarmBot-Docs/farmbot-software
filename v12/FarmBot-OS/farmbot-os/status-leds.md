@@ -10,13 +10,13 @@ description: "The meaning behind the blinking"
 # Raspberry Pi LEDs
 The Raspberry Pi has two LED lights that convey information about its status.
 
-![RASPBERRY_PI_LIGHTS.jpg](_images/RASPBERRY_PI_LIGHTS.jpg)
+![RASPBERRY PI LIGHTS](_images/raspberry_pi_lights.jpg)
 
 _Raspberry Pi 3, included with Genesis kits_
 
 
 
-![Pi Zero.jpg](_images/Pi_Zero.jpg)
+![Pi Zero](_images/pi_zero.jpg)
 
 _Raspberry Pi Zero W, included with Express kits_
 
@@ -40,13 +40,13 @@ _Raspberry Pi Zero W, included with Express kits_
 # Electronics box LEDs
 In addition to the LEDs located on the Raspberry Pi, Genesis v1.4+ kits feature LEDs mounted on top of the electronics box, and Express v1.0+ kits feature LEDs on the Farmduino Express circuit board.
 
-![LEDs.png](_images/LEDs.png)
+![Box LEDs on Genesis kit](_images/Box_LEDs_on_Genesis_kit.png)
 
 _Box LEDs on Genesis kit_
 
 
 
-![IMG_20200618_144126.jpg](_images/IMG_20200618_144126.jpg)
+![LEDs on Farmduino express board](_images/leds_on_farmduino_express_board.jpg)
 
 _Farmduino Express LEDs on Express kits_
 

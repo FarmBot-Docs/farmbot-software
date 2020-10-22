@@ -22,7 +22,7 @@ content="To use the weed detection feature, you must first [calibrate the camera
 # Step 1: Select color range
 The weed detector software needs a range of color to look for when determining what is a plant and what is soil or other background. Use the sliders for **HUE**, **SATURATION**, and **VALUE** to select a range of colors you want to detect. The color boxes will give an indication of the range selected. For the hue slider, a green color range is approximately `30` to `90`.
 
-![Screen Shot 2020-06-29 at 8.07.32 PM.png](_images/Screen_Shot_2020-06-29_at_8.07.32_PM.png)
+![weed detection color range inputs](_images/weed_detection_color_range_inputs.png)
 
 # Step 2: Tune processing parameters
 Once an image has been taken with the camera, the weed detector software will process it. There are several processing parameters available (**BLUR**, **MORPH**, and **ITERATION**) that can help you fine tune the system to perform the best in your environment. It is recommended to use the default values at first, run a test, and then experiment with the processing parameter values to see how the results change.
@@ -30,7 +30,7 @@ Once an image has been taken with the camera, the weed detector software will pr
 # Step 3: Detect weeds
 Move the FarmBot over a section of soil. Press <span class="fb-button fb-green">detect weeds</span> to instruct FarmBot to take a photo and then process that image with the weed detection software. Any weeds found in the image will appear in the map, and be listed in the weeds panel.
 
-![Screen Shot 2020-06-29 at 8.13.50 PM.png](_images/Screen_Shot_2020-06-29_at_8.13.50_PM.png)
+![weeds panel and weeds in map](_images/weeds_panel_and_weeds_in_map.png)
 
 <span class="fb-button fb-green">scan current image</span> can be used to run weed detection on an image already taken, instead of taking a new photo.
 
@@ -44,7 +44,7 @@ Weed removal can be performed by creating a weed removal sequence that uses the 
 
 If we process a photo of our garden bed without providing any information, we would detect all the plants in the image:
 
-![1](https://cloud.githubusercontent.com/assets/12681652/23282676/1e3a6786-f9d7-11e6-8996-c1b1f3914d8a.jpg)
+![all plants detected as weeds](_images/all_plants_detected_as_weeds.jpg)
 
 However, we want to determine what is a weed, and the locations of those weeds.
 
@@ -52,19 +52,19 @@ So we feed the plant detection software some calibration parameters, letting it 
 
 Known (desired) plants are marked with a green circle, the detected plants that match the desired plants are marked with a blue circle, and the detected plants that do not match desired plants are marked with a red circle (those are weeds):
 
-![2](https://cloud.githubusercontent.com/assets/12681652/23282677/1e4de202-f9d7-11e6-8fa5-8c18e9b8f763.jpg)
+![known plants detected plants and detected weeds](_images/known_plants_detected_plants_and_detected_weeds.jpg)
 You can see a grid overlay showing the coordinate system and that the image has been rotated slightly to adjust for camera rotation.
 
 _But wait!_ Our weeding tool is a certain size, and disrupts the soil within a certain area, its region of influence. We can represent that disrupted region with a grey circle:
 
-![3](https://cloud.githubusercontent.com/assets/12681652/23282511/54ca2c92-f9d6-11e6-82f5-e63d5e831bb4.jpg)
+![detected plants and weeder disruption circle](_images/detected_plants_and_weeder_disruption_circle.jpg)
 We see that the weeder might affect the lower left plant when weeding weed number `1`, since its region of influence is intersecting the desired plant's circle. We also see that we wouldn't be able to weed `2` without significantly disrupting the upper right plant. We can weed `3` safely.
 
 The software takes the weeding tool size into consideration with a feature called __Safe Remove__.
 
 It adjusts the location to be weeded for weed `1` away from the lower left plant, removes weed `2` from the list since it can't be removed safely, and keeps `3` on the list of weeds to remove since there are no conflicts. You can see the weeds to remove and the weeder location represented with the red and grey circles as before, and cyan circles drawn for weeds that may not be removed completely (or at all) because the action might harm a desired plant:
 
-![4](https://cloud.githubusercontent.com/assets/12681652/23282510/54c85e8a-f9d6-11e6-9b46-3dcd304c4e3d.jpg)
+![detected plants and save remove weeds](_images/detected_plants_and_save_remove_weeds.jpg)
 
 You may now instruct the machine to remove the weeds marked in red, and remove the weeds marked in cyan by hand.
 

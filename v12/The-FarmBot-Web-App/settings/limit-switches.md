@@ -13,7 +13,7 @@ Because both rotary encoders and stall detecting stepper drivers can [detect the
 
 Nonetheless, our firmware and electronics boards do support the use of limit switches for the DIY builders who need to be able to home their devices but do not want to pay for rotary encoders and the full stall detection and position tracking capabilities that they provide.
 
-![Screen Shot 2020-06-12 at 11.33.49 AM.png](_images/Screen_Shot_2020-06-12_at_11.33.49_AM.png)
+![limit switch settings](_images/limit_switch_settings.png)
 
 # Enable limit switches
 If using limit switches instead of rotary encoders, enable them here. If you do not have limit switches hooked up, do not enable this setting.

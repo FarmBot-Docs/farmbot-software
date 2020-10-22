@@ -8,7 +8,7 @@ description: "[Open these settings in the app](https://my.farm.bot/app/designer/
 {:toc}
 
 
-![Screen Shot 2020-08-24 at 12.31.36 PM.png](_images/Screen_Shot_2020-08-24_at_12.31.36_PM.png)
+![axis settings](_images/axis_settings.png)
 
 # Find home
 Finding home instructs FarmBot to find the home (minimum) position by moving towards home until an endstop, rotary encoder, or stepper driver signals that the end of the axis has been reached. Note that **ENCODERS**, **STALL DETECTION**, or **LIMIT SWITCHES** must be <span class="fb-peripheral-on">ON</span> for FarmBot to automatically find home.
@@ -17,7 +17,7 @@ Please note that **LIMIT SWITCHES** are not part of the standard FarmBot kit har
 
 
 
-![LIMIT_SWITCH.jpg](_images/LIMIT_SWITCH.jpg)
+![limit switch](_images/limit_switch.jpg)
 
 _Example of Limit Switch for CNC devices.  [Model SS-5GL13T  Omeron Electronics]_
 

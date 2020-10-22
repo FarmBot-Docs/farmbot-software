@@ -7,7 +7,7 @@ slug: "camera-settings"
 {:toc}
 
 
-![camera-settings.png](_images/camera-settings.png)
+![camera settings](_images/camera_settings.png)
 
 
 

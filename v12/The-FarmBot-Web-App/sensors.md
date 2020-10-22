@@ -18,7 +18,7 @@ content="If your FarmBot kit did not include any sensors (Express v1.0 kits), th
 
 
 
-![Screen Shot 2020-06-30 at 12.28.34 PM.png](_images/Screen_Shot_2020-06-30_at_12.28.34_PM.png)
+![sensors panel](_images/sensors_panel.png)
 
 # Creating sensors
 To create a new sensor, press <span class="fb-button fb-gray">EDIT</span>, and then the <span class="fb-button fb-green"><i class='fa fa-plus'></i></span> button. To define the sensor, provide a <span class="fb-input">Name</span>, choose a <span class="fb-dropdown">Pin #</span>, and specify if the sensor is `Digital` or `Analog`. Pressing <span class="fb-button fb-green"><i class='fa fa-plus'></i> STOCK SENSORS</span> will add all of the standard sensors included with your FarmBot kit.
@@ -32,19 +32,19 @@ content="Pin numbers are required and must be unique."
 
 When finished editing, press <span class="fb-button fb-green">SAVE</span>.
 
-![Screen Shot 2020-06-30 at 12.30.24 PM.png](_images/Screen_Shot_2020-06-30_at_12.30.24_PM.png)
+![edit sensors](_images/edit_sensors.png)
 
 # Reading sensors
 To manually read a sensor, press its <span class="fb-button fb-gray">READ SENSOR</span> button. FarmBot will then read the sensor and display the value in the widget. Digital sensors will provide a value of either `0` or `1`, while analog sensors will provide a value between `0` and `1023`.
 
-![Screen Shot 2020-06-30 at 12.35.58 PM.png](_images/Screen_Shot_2020-06-30_at_12.35.58_PM.png)
+![read sensors](_images/read_sensors.png)
 
 You can also read sensors from [sequences](sequences.md) by using the <span class="fb-step fb-read-pin">READ SENSOR</span> command. For more information, see the [read sensor command documentation](sequences/sequence-commands.md#read-sensor).
 
 ## Historical readings
 Use the **SENSOR HISTORY** section of the panel to view sensor readings from the past. Optionally, you can filter by **SENSOR**, **TIME PERIOD**, and/or **X**, **Y**, and **Z** coordinates. The **DEVIATION** field can be used to filter within a range of locations around the specified coordinates. To remove all current filters, press <span class="fb-button fb-gray">CLEAR FILTERS</span>.
 
-![Screen Shot 2020-06-30 at 12.39.50 PM.png](_images/Screen_Shot_2020-06-30_at_12.39.50_PM.png)
+![sensor reading history](_images/sensor_reading_history.png)
 
 # Deleting sensors
 To delete a sensor, press <span class="fb-button fb-gray">edit</span> and then the sensor's <span class="fb-button fb-red"><i class='fa fa-times'></i></span> button. Finish editing by pressing <span class="fb-button fb-gray">back</span>.

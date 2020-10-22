@@ -9,7 +9,7 @@ description: "Manually operate FarmBot's peripherals <i class='fa fa-toggle-on'>
 
 The **PERIPHERALS** section of the controls panel allows you to manage FarmBot's peripherals and control them in real-time with toggle switches and sliders.
 
-![Screen Shot 2020-06-30 at 11.33.14 AM.png](_images/Screen_Shot_2020-06-30_at_11.33.14_AM.png)
+![peripherals list](_images/peripherals_list.png)
 
 # Creating peripherals
 To create a new peripheral, press <span class="fb-button fb-gray">EDIT</span>, and then the <span class="fb-button fb-green"><i class='fa fa-plus'></i></span> button. Provide a <span class="fb-input">Name</span>, <span class="fb-input fb-dropdown">Select a pin <i class='fa fa-caret-down'></i></span>, and choose `Digital` or `Analog` to define the peripheral. Pressing <span class="fb-button fb-green"><i class='fa fa-plus'></i> STOCK</span> will add all of the standard peripherals included with your FarmBot kit.
@@ -23,7 +23,7 @@ content="Pin numbers are required and must be unique."
 
 When finished editing, press <span class="fb-button fb-green">SAVE</span>.
 
-![Screen Shot 2020-06-30 at 11.34.39 AM.png](_images/Screen_Shot_2020-06-30_at_11.34.39_AM.png)
+![edit peripherals](_images/edit_peripherals.png)
 
 # Controlling peripherals
 ## Manual control
@@ -40,7 +40,7 @@ You can press a toggle switch to manually control digital peripherals when FarmB
 
 Analog peripherals can be controlled with the sliders when FarmBot is connected and idle.
 
-![Screen Shot 2020-06-30 at 11.39.07 AM.png](_images/Screen_Shot_2020-06-30_at_11.39.07_AM.png)
+![analog peripheral control](_images/analog_peripheral_control.png)
 
 ## Sequence based control
 You can also control peripherals from [sequences](../sequences.md) by using the <span class="fb-step fb-write-pin">Control Peripheral</span> command. For more information, see the [control peripheral command documentation](../sequences/sequence-commands.md#control-peripheral).

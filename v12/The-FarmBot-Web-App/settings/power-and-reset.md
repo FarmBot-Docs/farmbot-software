@@ -8,7 +8,7 @@ description: "[Open these settings in the app](https://my.farm.bot/app/designer/
 {:toc}
 
 
-![Screen Shot 2020-08-25 at 10.38.08 AM.png](_images/Screen_Shot_2020-08-25_at_10.38.08_AM.png)
+![power and reset](_images/power_and_reset.png)
 
 # Restart FarmBot
 This will restart FarmBot's Raspberry Pi and FarmBot OS.

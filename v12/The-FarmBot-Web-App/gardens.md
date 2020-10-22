@@ -12,7 +12,7 @@ The **gardens** feature allows you to save a garden (all of the plants and their
 # Save a garden
 To save the current garden, first navigate to the **gardens** panel and click the <span class="fb-button fb-blue"><i class='fa fa-plus'></i></span> button.
 
-![Screen Shot 2019-12-02 at 4.03.37 PM.png](_images/Screen_Shot_2019-12-02_at_4.03.37_PM.png)
+![gardens panel](_images/gardens_panel.png)
 
 Enter a **NAME** and click <span class="fb-button fb-gray">Snapshot current garden</span>. A copy of the garden will then be saved and shown in the list of gardens.
 
@@ -20,16 +20,16 @@ Enter a **NAME** and click <span class="fb-button fb-gray">Snapshot current gard
 >
 > Saving a garden may take a moment depending on the number of plants.
 
-![Screen Shot 2019-12-02 at 4.05.31 PM.png](_images/Screen_Shot_2019-12-02_at_4.05.31_PM.png)
+![add new garden](_images/add_new_garden.png)
 
 # View and edit gardens
 Navigate to the **gardens** panel and select a garden.
 
-![Screen Shot 2019-12-02 at 4.07.55 PM.png](_images/Screen_Shot_2019-12-02_at_4.07.55_PM.png)
+![gardens in gardens panel](_images/gardens_in_gardens_panel.png)
 
 This will load the garden into the map allowing you to view it, as well as add, re-locate, and delete plants from the garden. The map background will be displayed gray to indicate a saved garden (rather than the current garden) is being displayed and edited.
 
-![Screen Shot 2019-12-02 at 4.10.24 PM.png](_images/Screen_Shot_2019-12-02_at_4.10.24_PM.png)
+![edit garden](_images/edit_garden.png)
 
 Once you are finished viewing and editing, click the <span class="fb-button fb-gray">Exit</span> button located in the saved gardens panel, or the <span class="fb-button fb-red">Exit</span> button located in the **VIEWING SAVED GARDEN** menu at the top of the map area.
 

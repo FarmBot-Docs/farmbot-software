@@ -7,7 +7,7 @@ slug: "filter-map-photos"
 {:toc}
 
 
-![filter-map-photos.png](_images/filter-map-photos.png)
+![filter map photos](_images/filter_map_photos.png)
 
 Filter map photos by using the **DATE** arrows, date and time inputs, or the date slider.
 

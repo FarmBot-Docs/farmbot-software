@@ -29,7 +29,7 @@ Let's look at our tomatoes example again, this time using a regimen to reach the
 2. `Light Watering` will run every other day from **Day 2 to 13**
 3. `Medium Watering` will run every other day from **Day 15 to 49**
 
-![Screen Shot 2019-07-15 at 2.22.03 PM.png](_images/Screen_Shot_2019-07-15_at_2.22.03_PM.png)
+![regimen](_images/regimen.png)
 
 We can then use events to schedule this regimen to start on March 1st, March 9th, March 25th, and April 19th. Using this method, we created one regimen and four events, instead of the 12 events from before. Plus, we can continue to re-use the regimen each time we want to re-plant tomatoes to save even more time. We can also make changes to the regimen and all of the scheduled instances will be updated automatically.
 
@@ -37,21 +37,21 @@ We can then use events to schedule this regimen to start on March 1st, March 9th
 
 In the left panel of the **Regimens** page, press the <span class="fb-button fb-green"><i class='fa fa-plus'></i></span> button to create a new regimen. The new regimen will be loaded into the middle **Regimen Editor** panel, and the **Scheduler** will appear in the column on the right. Give your regimen a descriptive name and optionally assign it a color.
 
-![Screen Shot 2019-07-15 at 2.13.04 PM.png](_images/Screen_Shot_2019-07-15_at_2.13.04_PM.png)
+![create a new regimen](_images/create_a_new_regimen.png)
 
 In the scheduler panel, select the **SEQUENCE** you wish to add to the regimen. Pick a **TIME** and the **DAYS** for it to run. For this example, we will run the `Seed Injection` sequence at `10am` on `Day 1`. Press the <span class="fb-button fb-green"><i class='fa fa-plus'></i></span> button in the scheduler panel to add the sequence to the regimen.
 
 If you make a mistake, remove items from the regimen by clicking the <i class='fa fa-trash'></i> icon.
 
-![Screen Shot 2019-07-15 at 2.11.27 PM.png](_images/Screen_Shot_2019-07-15_at_2.11.27_PM.png)
+![add items to regimen](_images/add_items_to_regimen.png)
 
 Next we'll add a `Light Watering` sequence to the regimen to run at `8PM` every other day for the first two weeks.
 
-![Screen Shot 2019-07-15 at 2.17.38 PM.png](_images/Screen_Shot_2019-07-15_at_2.17.38_PM.png)
+![regimen with light watering sequence added](_images/regimen_with_light_watering_sequence_added.png)
 
 Last we'll add a `Medium Watering` sequence to run at `8PM` every other day for weeks 3 through 7, and then press <span class="fb-button fb-green">SAVE</span> to save the regimen.
 
-![Screen Shot 2019-07-15 at 2.22.03 PM.png](_images/Screen_Shot_2019-07-15_at_2.22.03_02.png)
+![regimen with medium watering items added](_images/regimen_with_medium_watering_items_added.png)
 
 # Running a regimen
 A regimen on its own will not execute because the regimen only has enough information to run sequences at a day and time _relative_ from a start date. Thus, to run a regimen, you will have to schedule it using an [event](events.md).

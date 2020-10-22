@@ -8,7 +8,7 @@ description: "Let FarmBot know what to do when something goes wrong\n[Open these
 {:toc}
 
 
-![Screen Shot 2020-04-22 at 4.57.22 PM.png](_images/Screen_Shot_2020-04-22_at_4.57.22_PM.png)
+![error handling](_images/error_handling.png)
 
 # Timeout after
 This is the amount of time in seconds that the firmware will wait until a movement command times out, or stops executing. The default value for each axis is 120 seconds.

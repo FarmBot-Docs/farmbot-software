@@ -23,7 +23,7 @@ If you haven't already, [create the watering nozzle tool in the web app and add 
 ## Step 2: Create the sequence
 Navigate to the **Sequences** page of the web app and press the <span class="fb-button fb-green"><i class='fa fa-plus'></i></span> button to add a new sequence. The new sequence will appear in the sequence editor in the middle column. Give the sequence a descriptive name and optionally assign it a color.
 
-![Screen Shot 2019-07-15 at 12.38.36 PM.png](_images/Screen_Shot_2019-07-15_at_12.38.36_PM.png)
+![mount nozzle sequence empty](_images/mount_nozzle_sequence_empty.png)
 
 ## Step 3: Start from home
 Begin the sequence with a movement to the home position. Add a <span class="fb-step fb-find-home">Find Home</span> command by clicking it or dragging it into the sequence from the **Commands** column.
@@ -37,22 +37,22 @@ content="You may use a <span class=\"fb-step fb-move-absolute\">Move</span> step
 
 
 
-![Screen Shot 2019-07-15 at 12.39.52 PM.png](_images/Screen_Shot_2019-07-15_at_12.39.52_PM.png)
+![mount nozzle sequence find home](_images/mount_nozzle_sequence_find_home.png)
 
 ## Step 4: Move above the tool
 Next, we want to move FarmBot to a position directly above the tool to prepare it for descending and mounting the tool. Add a <span class="fb-step fb-move">Move</span> command by clicking it or dragging it into the sequence. Select the `Watering Nozzle` tool in the **LOCATION** dropdown and add a `100` mm **Z-OFFSET**.
 
-![Screen Shot 2019-07-15 at 12.44.14 PM.png](_images/Screen_Shot_2019-07-15_at_12.44.14_PM.png)
+![mount nozzle sequence move above](_images/mount_nozzle_sequence_move_above.png)
 
 ## Step 5: Mount the tool
 Now we want FarmBot to descend directly down to mount the tool. Add another <span class="fb-step fb-move">Move</span> command and select the `Watering Nozzle` in the **LOCATION** dropdown as before. This time, we will not add any offsets.
 
-![Screen Shot 2019-07-15 at 12.47.07 PM.png](_images/Screen_Shot_2019-07-15_at_12.47.07_PM.png)
+![mount nozzle sequence move to](_images/mount_nozzle_sequence_move_to.png)
 
 ## Step 6: Pull the tool out of the slot
 At this point, FarmBot's UTM would be mounted to the watering nozzle tool in the slot. The next step will be to pull the tool out of the slot. Add another <span class="fb-step fb-move">Move</span> command and select the `Watering Nozzle` as before. Then add a `100` mm **X-OFFSET**.
 
-![Screen Shot 2019-07-15 at 12.49.18 PM.png](_images/Screen_Shot_2019-07-15_at_12.49.18_PM.png)
+![mount nozzle sequence move out](_images/mount_nozzle_sequence_move_out.png)
 
 ## Step 7: Save and test the sequence
 Press the <span class="fb-button fb-green">SAVE</span> button to save the sequence. Then use the <span class="fb-button fb-orange">RUN</span> button to try out your new sequence.
@@ -85,7 +85,7 @@ Now that we've created a sequence to mount the watering nozzle, let's create a s
 5. **Close the solenoid valve** - Use another <span class="fb-step fb-write-pin">Control Peripheral</span> step to set the `Water` peripheral to `OFF`, stopping the flow of water.
 6. **Save and test** - Press the <span class="fb-button fb-green">SAVE</span> button and then <span class="fb-button fb-orange">RUN</span> to try out your new sequence!
 
-![Screen Shot 2019-07-15 at 1.30.27 PM.png](_images/Screen_Shot_2019-07-15_at_1.30.27_PM.png)
+![water plant sequence](_images/water_plant_sequence.png)
 
 ## Additional considerations
 ### Put the watering nozzle tool away

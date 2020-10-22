@@ -20,15 +20,15 @@ Optionally, sequence events can be set to **REPEAT EVERY** custom interval **UNT
 >
 > New events must be scheduled at least one minute into the future.
 
-![Screen Shot 2019-07-05 at 9.00.37 PM.png](_images/Screen_Shot_2019-07-05_at_9.00.37_PM.png)
+![events panel](_images/events_panel.png)
 
 If the sequence or regimen you selected has an [externally defined variable](sequences/externally-defined-variables.md), you will need to provide a value for that variable in the event creation panel.
 
-![Screen Shot 2020-04-22 at 12.21.29 AM.png](_images/Screen_Shot_2020-04-22_at_12.21.29_AM.png)
+![add new event panel](_images/add_new_event_panel.png)
 
 Once you are finished, press the <span class="fb-button fb-green">SAVE</span> button to save the event. The event will now show up in the agenda.
 
-![Screen Shot 2020-04-22 at 12.23.54 AM.png](_images/Screen_Shot_2020-04-22_at_12.23.54_AM.png)
+![events panel with events](_images/events_panel_with_events.png)
 
 # Editing events
 To edit an event, hover over an event in the agenda view and press the <i class='fa fa-edit'></i> icon. Make the desired changes and press <span class="fb-button fb-green">SAVE</span>.
@@ -42,7 +42,7 @@ content="You cannot change from executing a sequence to executing a regimen or v
 
 
 
-![Screen Shot 2020-04-22 at 12.24.13 AM.png](_images/Screen_Shot_2020-04-22_at_12.24.13_AM.png)
+![edit event button](_images/edit_event_button.png)
 
 # Deleting events
 To delete an event, click on it to open up the edit event panel. Then press the <span class="fb-button fb-red">DELETE</span> button.

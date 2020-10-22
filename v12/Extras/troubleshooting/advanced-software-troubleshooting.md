@@ -14,7 +14,7 @@ When your device has software problems, it's best to perform a software reset be
 
 **Hard reset:** A hard reset will cleanly re-write FarmBot OS to an SD card. It will overwrite corrupt data and is the preferred method to perform a reset when a device is having software problems.
 
-![SD_CARD.jpg](_images/SD_CARD.jpg)
+![SD CARD](_images/sd_card.jpg)
 
 _A hard reset will cleanly re-write FarmBot OS to an SD card._
 
@@ -47,7 +47,7 @@ An unstable network connection is the most common support request that FarmBot r
 
 
 
-![NON-STANDARD_NETWORK_CONFIGURATIONS.jpg](_images/NON-STANDARD_NETWORK_CONFIGURATIONS.jpg)
+![NON-STANDARD NETWORK CONFIGURATIONS](_images/non-standard_network_configurations.jpg)
 
 The most common reasons for an unstable device connection are:
 

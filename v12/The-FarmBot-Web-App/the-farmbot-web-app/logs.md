@@ -36,12 +36,12 @@ Setting a verbosity slider to `0` means you will not see any logs of that type i
 
 The **PRESETS** for <span class="fb-button fb-gray">NORMAL</span> and <span class="fb-button fb-gray">MAX</span> set all log types to verbosity level `1` and `3` respectively.
 
-![Screen Shot 2019-07-10 at 4.06.29 PM.png](_images/Screen_Shot_2019-07-10_at_4.06.29_PM.png)
+![log verbosity menu](_images/log_verbosity_menu.png)
 
 # Logs settings menu
 You can customize whether or not FarmBot sends some types of logs or not by using the options in the <i class='fa fa-cog'></i> menu. Each option is described in the tooltip shown when the <span class="fb-tooltip"><i class='fa fa-question'></i></span> icon is clicked.
 
-![Screen Shot 2019-07-10 at 4.05.39 PM.png](_images/Screen_Shot_2019-07-10_at_4.05.39_PM.png)
+![log settings menu](_images/log_settings_menu.png)
 
 
 
@@ -63,7 +63,7 @@ Time Period | Max Number of Logs
 
 If a log limit is reached, a **cooldown period** will begin where log storage and display is suspended until the next time period. For example, if the 1 minute limit is reached, logs will be suspended until the next minute. A warning log and toast notification will be displayed, indicating the suspension:
 
-![Screen Shot 2018-08-15 at 12.23.33 PM.png](_images/Screen_Shot_2018-08-15_at_12.23.33_PM.png)
+![device sending too many logs warning log message](_images/device_sending_too_many_logs_warning_log_message.png)
 
 
 
@@ -76,7 +76,7 @@ content="Even when log storage and display is suspended, you can still control t
 
 Once the cooldown period has ended, logs will resume being stored and displayed in the web application. An informational log and toast notification will indicate this:
 
-![Screen Shot 2018-08-15 at 12.23.42 PM.png](_images/Screen_Shot_2018-08-15_at_12.23.42_PM.png)
+![cooldown period ended log message](_images/cooldown_period_ended_log_message.png)
 
 
 

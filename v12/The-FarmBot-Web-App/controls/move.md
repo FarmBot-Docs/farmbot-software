@@ -9,14 +9,14 @@ description: "Manually move your FarmBot <i class='fa fa-arrows'></i>\n[Open thi
 
 The controls at the top of the panel allow you to view FarmBot's current position, manually move it in real-time, take photos, and go to home or find home.
 
-![Screen Shot 2020-06-30 at 10.51.06 AM.png](_images/Screen_Shot_2020-06-30_at_10.51.06_AM.png)
+![move controls panel](_images/move_controls_panel.png)
 
 # Viewing the current position
 The current position of your FarmBot (**MOTOR COORDINATES (MM)**) is shown in the gray fields directly below the **X-AXIS**, **Y-AXIS**, and **Z-AXIS** labels. This information is updated in real-time.
 
 If your FarmBot has encoders (Genesis kits only), you can also view **SCALED ENCODER (MM)** data, as well as **RAW ENCODER DATA** for each axis. Toggle the display of this additional information from the <i class='fa fa-gear'></i> menu in the top right of the panel.
 
-![Screen Shot 2019-05-06 at 3.20.00 PM.png](_images/Screen_Shot_2019-05-06_at_3.20.00_PM.png)
+![current position display](_images/current_position_display.png)
 
 # Movements
 There are three types of movements you can perform in this panel: **relative movements**, **absolute movements**, and **finding home**.
@@ -26,14 +26,14 @@ Move FarmBot a **relative distance** from the current location in any direction 
 
 Depending on your [hardware settings](../settings.md), you may not be able to move to negative coordinates or past the specified axis maximums. When this is true, some arrow buttons may be disabled. In the example below, because FarmBot is at the home position (0, 0, 0), half of the arrow buttons are disabled to allow only movements *away* from the home position and not *through* it.
 
-![Screen Shot 2019-05-06 at 3.29.57 PM.png](_images/Screen_Shot_2019-05-06_at_3.29.57_PM.png)
+![jog buttons](_images/jog_buttons.png)
 
 ### Matching the virtual controls to your real-life perspective
 Depending on how you usually view your FarmBot, you may need to change which direction each arrow button sends your FarmBot so that the virtual controls match your real-life perspective. For example, if you usually view your FarmBot from the front (looking at the FarmBot logo on the tool head), you would want the <span class="fb-button fb-gray"><i class='fa fa-arrow-left'></i></span> button to send FarmBot in the `negative Y` direction. If you usually view your FarmBot from the side with the electronics box, you would want the <span class="fb-button fb-gray"><i class='fa fa-arrow-left'></i></span> button to send FarmBot in the `negative X` direction.
 
 You can change the direction along each axis that the arrow buttons send your FarmBot by using the Invert Jog Button toggles in the <i class='fa fa-gear'></i> menu in the top right of the panel. You can also swap the X and Y axis buttons, which will also rotate the map in the farm designer by 90 degrees.
 
-![Screen Shot 2020-06-30 at 11.18.21 AM.png](_images/Screen_Shot_2020-06-30_at_11.18.21_AM.png)
+![move settings menu](_images/move_settings_menu.png)
 
 ### Sequence based relative movements
 You can also perform relative movements from [sequences](../sequences.md) by using the <span class="fb-step fb-move">Move</span> command and selecting **offset from current location** in the **LOCATION** dropdown. For more information, see the [move command documentation](../sequences/sequence-commands.md#move).
@@ -50,7 +50,7 @@ content="FarmBot will operate all axes at once to get to the new position as fas
 
 
 
-![Screen Shot 2019-05-06 at 4.00.10 PM.png](_images/Screen_Shot_2019-05-06_at_4.00.10_PM.png)
+![absolute movements](_images/absolute_movements.png)
 
 If you do not type in a new value for any of the axes, then FarmBot will maintain its current position along that axis and only move the needed axis or axes.
 
@@ -90,12 +90,12 @@ content="Motor load indicators are only available for FarmBot Express bots with 
 
 
 
-![ba9682a-Screen_Shot_2020-08-24_at_10.45.21_AM.png](_images/Screen_Shot_2020-08-24_at_10.45.21_AM.png)
+![motor load](_images/motor_load.png)
 
 # Motor position plot
 To view a graph of motor positions over time, toggle <span class="fb-peripheral-on">ON</span> the motor position plot in the <i class='fa fa-gear'></i> menu of the panel.
 
-![Screen Shot 2020-06-30 at 11.53.25 AM.png](_images/Screen_Shot_2020-06-30_at_11.53.25_AM.png)
+![motor position plot](_images/motor_position_plot.png)
 
 
 # What's next?

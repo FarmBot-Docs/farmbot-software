@@ -18,13 +18,13 @@ Before we get started, make sure you and your FarmBot meet the following prerequ
 
 Ensure you have added the **TOOL VERIFICATION** sensor by checking the SENSORS widget on the Controls page. If you do not see the sensor, add it using [these instructions](../../The-FarmBot-Web-App/sensors.md#creating-sensors).
 
-![c39c2f1-Sensor.png](_images/Sensor.png)
+![sensor list](_images/sensor_list.png)
 
 # Step 2: Load tools into slots
 
 Ensure you have loaded your **tools** into **slots** by checking the **tools panel** on the Farm Designer page. If you do not see any tools in slots, add them using [these instructions](../../The-FarmBot-Web-App/tools.md). Then check to make sure your **real-life** configuration matches your **virtual** configuration.
 
-![Screen Shot 2020-04-28 at 10.51.32 PM.png](_images/Screen_Shot_2020-04-28_at_10.51.32_PM.png)
+![tools panel](_images/tools_panel.png)
 
 # Step 3: Build a tool mounting sequence
 
@@ -32,23 +32,23 @@ Our tool mounting sequence will not only instruct FarmBot to mount a tool and pu
 
 **Step 1:** Start the sequence off with a <span class="fb-step fb-find-home">FIND HOME</span> command. This will ensure your FarmBot mounts the tool with the greatest level of precision.
 
-![Screen Shot 2020-04-28 at 10.10.36 PM.png](_images/Screen_Shot_2020-04-28_at_10.10.36_PM.png)
+![find home all step](_images/find_home_all_step.png)
 
 **Step 2:** <span class="fb-step fb-move-absolute">MOVE TO</span> above the location of the tool you wish to mount by selecting the tool in the dropdown and using a positive **Z-OFFSET**.
 
-![Screen Shot 2020-04-28 at 10.08.00 PM.png](_images/Screen_Shot_2020-04-28_at_10.08.00_PM.png)
+![move to above seeder step](_images/move_to_above_seeder_step.png)
 
 **Step 3:** <span class="fb-step fb-move-absolute">MOVE TO</span> the exact tool location to mount it. We recommend slowing down the **SPEED** of this movement to about 50%.
 
-![Screen Shot 2020-04-28 at 10.12.47 PM.png](_images/Screen_Shot_2020-04-28_at_10.12.47_PM.png)
+![move to seeder step](_images/move_to_seeder_step.png)
 
 **Step 4:** <span class="fb-step fb-move-relative">MOVE RELATIVE</span> 150mm in the **DIRECTION** of the slot's opening to pull the tool out of the slot. This will likely be in the `Positive X` or `Negative X` direction. As with the previous movement, we recommend setting the **SPEED** of this command to 50%.
 
-![Screen Shot 2020-04-28 at 10.14.05 PM.png](_images/Screen_Shot_2020-04-28_at_10.14.05_PM.png)
+![move seeder out of tool slot step](_images/move_seeder_out_of_tool_slot_step.png)
 
 **Step 5:** Use a <span class="fb-step fb-read-pin">READ SENSOR</span> command to read the Tool Verification sensor using the Digital **MODE**. This will allow FarmBot to check if the tool has been successfully mounted.
 
-![Screen Shot 2020-04-28 at 10.23.40 PM.png](_images/Screen_Shot_2020-04-28_at_10.23.40_PM.png)
+![read tool verification pin step](_images/read_tool_verification_pin_step.png)
 
 
 
@@ -63,11 +63,11 @@ content="When this command is executed, FarmBot will send a log message with the
 
 If the tool verification is `1` (the tool is not connected) then FarmBot will execute a sequence to send a message that it failed to pick up the tool, and then it will go home. What you instruct FarmBot to do in both scenarios is up to you!
 
-![Screen Shot 2020-04-28 at 10.28.54 PM.png](_images/Screen_Shot_2020-04-28_at_10.28.54_PM.png)
+![tool verification error step](_images/tool_verification_error_step.png)
 
 **Step 7:** Now that the tool has been successfully mounted to the UTM, use a <span class="fb-step fb-mark-as">MARK AS</span> command to **MARK** the `Tool Mount` **AS** `Mounted to: the tool`. This will make FarmBot understand what the previous steps in the sequence accomplished, and allow the user interface in the web app to show the correct tool mounted to the UTM as it moves throughout the map.
 
-![Screen Shot 2020-05-19 at 4.55.22 PM.png](_images/Screen_Shot_2020-05-19_at_4.55.22_PM.png)
+![mark tool as mounted step](_images/mark_tool_as_mounted_step.png)
 
 # Step 4: Build a tool dismounting sequence
 

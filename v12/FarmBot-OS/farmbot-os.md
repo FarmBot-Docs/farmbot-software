@@ -33,7 +33,7 @@ You must use a **`.img` writing tool** to write **FarmBot OS** onto the **microS
 
 Once you have Etcher installed, connect the microSD card to your computer using a **card reader**. You may need to use the **microSD card to SD card adapter** included with your kit. Select the FarmBot OS `.img` file you downloaded in Step 1, the microSD card drive as the **target** (it should show up as a `7.9 GB partition`) and then press **Flash!**  to write the file to the card.
 
-![Screen Shot 2020-01-30 at 1.55.04 PM.png](_images/Screen_Shot_2020-01-30_at_1.55.04_PM.png)
+![flash sd card etcher screenshot](_images/flash_sd_card_etcher_screenshot.png)
 
 
 
@@ -48,7 +48,7 @@ If you encounter this error, or other problems please re-flash your SD card usin
 
 
 
-![Etcher_Error_MacOS.jpg](_images/Etcher_Error_MacOS.jpg)
+![Etcher Error MacOS](_images/etcher_error_macos.jpg)
 
 _Etcher: Common MacOS Error_
 
@@ -68,7 +68,7 @@ Insert the **microSD card** into the **Raspberry Pi**. The card slot location wi
 
 For Genesis kits, the card slot is located on the back side of the Pi 3, on the right-hand edge. You do not need to remove the Raspberry Pi from the electronics box to insert the card; we have left enough access room.
 
-<img src="_images/Screen_Shot_2018-10-04_at_5.10.01_PM.png" title="MicroSD card slot on the Raspberry Pi 3">
+<img src="_images/microsd_card_slot_on_the_raspberry_pi_3.png" title="MicroSD card slot on the Raspberry Pi 3">
 
 </details>
 
@@ -76,7 +76,7 @@ For Genesis kits, the card slot is located on the back side of the Pi 3, on the 
 
 For Express kits, the card slot is located on the front side of the Pi Zero, on the left-hand edge.
 
-<img src="_images/Card.jpeg" title="MicroSD card slot on the Raspberry Pi Zero W">
+<img src="_images/microsd_card_slot_on_the_raspberry_pi_0.jpeg" title="MicroSD card slot on the Raspberry Pi Zero W">
 
 </details>
 

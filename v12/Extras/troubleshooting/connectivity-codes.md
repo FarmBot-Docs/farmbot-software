@@ -9,7 +9,7 @@ description: "These are the codes that will tell you how to get communication to
 
 The connectivity tool is used to diagnose the status of communications between the nodes within the FarmBot. Communication must be established between the Browser, the Web App, Message Broker and the FarmBot. This tool will tell you where the communications are breaking down within the FarmBot system. In order for the FarmBot to operate properly all the points of communication need to be functioning.
 
-![Connectivity_diagnosis_code_.jpg](_images/Connectivity_diagnosis_code_.jpg)
+![Connectivity diagnosis code](_images/connectivity_diagnosis_code.jpg)
 
 
 
@@ -110,7 +110,7 @@ Your browser is connected correctly, but we have no recent record of FarmBot con
  In this step of the configurator we expect that there was likely an error with the E-mail and/or Password. Please see the graphic below.
 
 
-![CODE_24_CONFIGURATOR.png](_images/CODE_24_CONFIGURATOR.png)
+![CODE 24 CONFIGURATOR](_images/code_24_configurator.png)
 
 _CODE 8 AND CODE 24 BAD E-MAIL AND/OR PASSWORD IN CONFIGURATOR_
 
@@ -159,7 +159,7 @@ Farmduino firmware is missing or is possibly unplugged. Verify FIRMWARE selectio
 1. For Genesis models, ensure the square USB cable between the Raspberry Pi and the Arduino is properly connected by unplugging and repluging the cable. It may have come loose during operation.
 2. Next, ensure your firmware setting matches the FarmBot model you purchased. For example, if you purchased a FarmBot Express v1.0, ensure that the firmware selection dropdown says `Farmduino (Express v1.0)` on the [firmware selection dropdown](https://my.farm.bot/app/designer/settings?highlight=firmware). Selecting the wrong firmware version is one of the most common causes of code 12 / code 30 errors.
 
-![image.png](_images/image.png)
+![firmware selection dropdown](_images/firmware_selection_dropdown.png)
 
 3. Re-apply the firmware by hitting the <span class="fb-button fb-yellow">FLASH FIRMWARE</span> button located [here](https://my.farm.bot/app/designer/settings?highlight=firmware). Wait until the device says the firmware was successfully flash before proceeding (will appear in the logs menu area).
 4. Perform a "hard reboot" of the device by unplugging the power, waiting for 10 seconds and re-applying power to the device.
@@ -289,7 +289,7 @@ FarmBot and the browser both have internet connectivity, but we haven't seen any
 1. Press the refresh button on your browser
 
 
-![Refresh_Google_Chrome.bmp](_images/Refresh_Google_Chrome.bmp)
+![Refresh button in Google Chrome](_images/Refresh_button_in_Google_Chrome.bmp)
 
 _Refresh button in Google Chrome_
 
@@ -312,5 +312,5 @@ All systems nominal.
 
 **No corrective action required.** All the points of communication are functioning.
 
-![Connectivity_diagnosis_code31.jpg](_images/Connectivity_diagnosis_code31.jpg)
+![Connectivity diagnosis code31](_images/connectivity_diagnosis_code31.jpg)
 

@@ -53,12 +53,12 @@ content="If you need to know the **network interface name** and/or **MAC address
 
 
 
-![Network.png](_images/Network.png)
+![Network](_images/network.png)
 
 ## WiFi connections
 If you're connecting FarmBot with WiFi, select the **WIFI NETWORK NAME** of the WiFi network you would like your FarmBot to normally connect to (for example, your home WiFi network). Alternatively, enter the name of the WiFi network into the **MANUAL INPUT** box. Then press <span class="fb-button fb-green">NEXT</span>. If you don't see your network right away, press <span class="fb-button fb-green">SCAN</span> to refresh the list of networks.
 
-![Screen Shot 2020-07-30 at 7.47.40 PM.png](_images/Screen_Shot_2020-07-30_at_7.47.40_PM.png)
+![wifi](_images/wifi.png)
 
 
 
@@ -73,7 +73,7 @@ See our guide, [connecting FarmBot to the internet](../../Extras/troubleshooting
 
 Now enter the <span class="fb-input">Password</span> for the WiFi network and press <span class="fb-button fb-green">NEXT</span>. For other network settings such as DNS or IP assignment, press **ADVANCED SETTINGS** <i class='fa fa-caret-down'></i>
 
-![PSK.png](_images/PSK.png)
+![wifi credentials](_images/wifi_credentials.png)
 
 ## Ethernet connections
 There are not any required settings for ethernet connections, though if you need to input additional network configuration such as DNS or IP assignment, press **ADVANCED SETTINGS** <i class='fa fa-caret-down'></i>. Otherwise, press <span class="fb-button fb-green">NEXT</span>.
@@ -83,7 +83,7 @@ Enter the <span class="fb-input">Email</span> and <span class="fb-input">Passwor
 
 Remember: you must already have a **verified web app account** in order for the FarmBot to connect to the web app. See instructions for creating and verifying an account [here](../../The-FarmBot-Web-App/the-farmbot-web-app/creating-an-account.md).
 
-![Web app.png](_images/Web_app.png)
+![web app credentials](_images/web_app_credentials.png)
 
 
 

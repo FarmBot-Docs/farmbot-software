@@ -9,7 +9,7 @@ description: "Trigger actions and sequences with physical buttons or additional 
 
 **Pin bindings** allow electrical signals from a button or sensor to trigger a FarmBot **action** or **sequence**. For example, a red button could be used to trigger the <span class="fb-button fb-red">E-STOP</span> action as recommended with FarmBot Genesis v1.4+ kits. For practical examples, see our [use FarmBot's buttons](../../FarmBot-Software/how-to-guides/use-farmbots-buttons.md) how-to guide.
 
-![Screen Shot 2020-04-22 at 4.57.08 PM.png](_images/Screen_Shot_2020-04-22_at_4.57.08_PM.png)
+![pin bindings](_images/pin_bindings.png)
 
 # Adding a pin binding
 
