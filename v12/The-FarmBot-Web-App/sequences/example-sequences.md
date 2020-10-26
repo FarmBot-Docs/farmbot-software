@@ -66,7 +66,7 @@ content="Now that you've created a tool mounting sequence, try creating a sequen
 
 ## Additional considerations
 ### Prepare for subsequent movements
-It can be helpful to add a <span class="fb-step fb-move-relative">Move Relative</span> command at the end of the sequence to move FarmBot in the positive Z direction. This will help reduce the likelihood of subsequent movements impacting any nearby objects (such as plants).
+It can be helpful to add a <span class="fb-step fb-move">Move</span> command with **offset from current location** selected in the **LOCATION** dropdown at the end of the sequence to move FarmBot in the positive Z direction. This will help reduce the likelihood of subsequent movements impacting any nearby objects (such as plants).
 
 ### Omit the homing step
 You may consider omitting the <span class="fb-step fb-find-home">Find Home</span> command at the beginning of the sequence if the sequence is being used within a larger sequence that already has a <span class="fb-step fb-find-home">Find Home</span> at the beginning.

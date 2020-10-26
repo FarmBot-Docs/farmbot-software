@@ -46,7 +46,7 @@ Start building a third sequence and name it "Measure soil moisture and water for
 
 ![move to location step](_images/move_to_location_step.png)
 
-**Step 3:** <span class="fb-step fb-move-relative">MOVE RELATIVE</span> in the negative **Z** direction to have FarmBot move the sensor straight down into the soil. The value you enter for the **Z** field should be the distance (in the negative direction) that FarmBot needs to descend to insert the soil moisture sensor approximately 40mm into the soil.
+**Step 3:** <span class="fb-step fb-move">MOVE</span> in the negative **Z** direction to have FarmBot move the sensor straight down into the soil. The value you enter for the **Z** field should be the distance (in the negative direction) that FarmBot needs to descend to insert the soil moisture sensor approximately 40mm into the soil.
 
 ![move into soil step](_images/move_into_soil_step.png)
 

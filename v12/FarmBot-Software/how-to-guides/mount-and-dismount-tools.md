@@ -42,7 +42,7 @@ Our tool mounting sequence will not only instruct FarmBot to mount a tool and pu
 
 ![move to seeder step](_images/move_to_seeder_step.png)
 
-**Step 4:** <span class="fb-step fb-move-relative">MOVE RELATIVE</span> 150mm in the **DIRECTION** of the slot's opening to pull the tool out of the slot. This will likely be in the `Positive X` or `Negative X` direction. As with the previous movement, we recommend setting the **SPEED** of this command to 50%.
+**Step 4:** <span class="fb-step fb-move">MOVE</span> 150mm in the **DIRECTION** of the slot's opening to pull the tool out of the slot. This will likely be in the `Positive X` or `Negative X` direction. As with the previous movement, we recommend setting the **SPEED** of this command to 50%.
 
 ![move seeder out of tool slot step](_images/move_seeder_out_of_tool_slot_step.png)
 
@@ -79,7 +79,7 @@ Now that you've built a tool mounting sequence, you can probably guess that a to
 
 **Step 3:** <span class="fb-step fb-move-absolute">MOVE TO</span> the tool's location (without offsets) with a **SPEED** of 50% to put the tool back in the slot.
 
-**Step 4:** <span class="fb-step fb-move-relative">MOVE RELATIVE</span> in the positive **Z** direction to fully dismount the tool.
+**Step 4:** <span class="fb-step fb-move">MOVE</span> in the positive **Z** direction to fully dismount the tool.
 
 **Step 5:** Use <span class="fb-step fb-mark-as">MARK AS</span> to let FarmBot know the `Tool Mount` is `Not Mounted` to anything.
 

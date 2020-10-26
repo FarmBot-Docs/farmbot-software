@@ -62,6 +62,6 @@ Create a new sequence with an <span class="fb-step fb-execute">EXECUTE</span> co
 
 When FarmBot runs this "Water all Spinach plants" sequence, it will execute the "Water one plant" sequence over and over for every plant in the "All Spinach Plants" group. Press the <span class="fb-button fb-orange">RUN</span> button to try it out!
 
-If things don't work as you expected, go back and make changes to the first sequence. You might consider adding a <span class="fb-step fb-move-relative">MOVE RELATIVE</span> command after the <span class="fb-step fb-move-absolute">MOVE TO</span> command or using **OFFSET** values to better position FarmBot relative to each plant before performing the action.
+If things don't work as you expected, go back and make changes to the first sequence. You might consider adding a <span class="fb-step fb-move">MOVE</span> command with **offset from current location** selected after the <span class="fb-step fb-move">MOVE</span> command or using **OFFSET** values to better position FarmBot relative to each plant before performing the action.
 
 If FarmBot doesn't perform the action on all the plants you wanted, go back and make changes to the group.
