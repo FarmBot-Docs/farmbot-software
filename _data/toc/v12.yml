@@ -125,7 +125,7 @@ contents:
           - title: Pin Guard
             url: pin-guard
           - title: Parameter Management
-            url: danger-zone
+            url: parameter-management
           - title: Farm Designer Settings
             url: farm-designer-settings
   - title: FarmBot OS
