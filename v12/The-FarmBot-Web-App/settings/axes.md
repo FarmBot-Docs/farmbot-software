@@ -84,4 +84,4 @@ content="The length values of each axis are measured and auto-filled whenever yo
 Z axis coordinate (millimeters) to which the z axis should be retracted during Safe Z moves. It is recommended to choose a value at which the z axis is all of the way up to provide as much clearance as possible. This value can be used by <span class="fb-step fb-move">Move</span> sequence commands by enabling _Safe Z_ or selecting _Safe Height_ as the z-axis override.
 
 # Soil Height
-Z axis coordinate (millimeters) of the soil. This value can be used by <span class="fb-step fb-move">Move</span> sequence commands by selecting _Soil Height_ as the x-axis override.
+Z axis coordinate (millimeters) of the soil. This value can be used by <span class="fb-step fb-move">Move</span> sequence commands by selecting _Soil Height_ as the z-axis override.
