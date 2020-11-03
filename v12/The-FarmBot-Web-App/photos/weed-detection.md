@@ -68,7 +68,7 @@ It adjusts the location to be weeded for weed `1` away from the lower left plant
 
 You may now instruct the machine to remove the weeds marked in red, and remove the weeds marked in cyan by hand.
 
-<details><summary>Program text output</summary>
+Program text output
 
 ```
 7 plants detected in image.
@@ -97,8 +97,6 @@ Plants at the following machine coordinates ( X Y ) with R = radius have been sa
     (   698   485 ) R = 29
     (   600   499 ) R = 42
 ```
-
-</details>
 
 # Troubleshooting
 These are some common errors that can occur when doing weed detection.

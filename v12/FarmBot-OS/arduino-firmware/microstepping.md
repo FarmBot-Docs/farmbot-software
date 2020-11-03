@@ -15,17 +15,13 @@ title=""
 content="On Farmduino boards, microstepping is controlled by the `MS1`, `MS2`, and `MS3` **DIP switches** located just above the **A4988 stepper drivers**."
 %}
 
-
-
 ![microstepping dip switches](_images/microstepping_dip_switches.jpg)
 
 Stock FarmBots are set to use full-steps by default (no microstepping), which means that one step pulse from the microcontroller will move the motor shaft one full step. With the stock 200 step/revolution motors, this equates to 1/200th of a rotation. If you set the drivers to 1/2 step microstepping, then each step pulse from the microcontroller will move the motor 1/2 of a step, or 1/400th of a revolution. This means that a full motor step would require two step pulses from the Arduino.
 
-## If you use microstepping, you will need to make changes in the [motor settings](../../The-FarmBot-Web-App/settings/motors.md#steps-per-mm) section of the web app match the hardware DIP switch positions.
+If you use microstepping, you will need to make changes in the [motor settings](../../The-FarmBot-Web-App/settings/motors.md#steps-per-mm) section of the web app match the hardware DIP switch positions.
 
 ![MICROSTEP SETTINGS](_images/MICROSTEP_SETTINGS.jpg)
-
-
 
 {%
 include callout.html
@@ -36,8 +32,7 @@ content="When you change the **MICROSTEPS PER STEP** settings, **STEPS PER MM** 
 
 The tables below show the available microstepping settings for both the A4988 and DRV8825 stepper drivers.
 
-<details>
-<summary>A4988 stepper drivers</summary>
+## A4988 stepper drivers
 
 MS1 | MS2 | MS3 | Microstepping
 --- | --- | --- | -------------
@@ -47,11 +42,7 @@ Low (no jumper) | High (jumper) | Low (no jumper) | 1/4 step
 High (jumper) | High (jumper) | Low (no jumper) | 1/8 step
 High (jumper) | High (jumper) | High (jumper) | 1/16 step
 
-
-</details>
-
-<details>
-<summary>DRV8825 stepper drivers</summary>
+## DRV8825 stepper drivers
 
 MODE 0 | MODE 1 | MODE 2 | Microstepping
 ------ | ------ | ------ | -------------
@@ -61,6 +52,3 @@ Low (no jumper) | High (jumper) | Low (no jumper) | 1/4 step
 High (jumper) | High (jumper) | Low (no jumper) | 1/8 step
 Low (no jumper) | Low (no jumper) | High (jumper) | 1/16 step
 High (jumper) | Low (no jumper) | High (jumper) | 1/32 step
-
-
-</details>
