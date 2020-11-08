@@ -52,3 +52,7 @@ After the first test run, you may need to:
 
   * Adjust the locations, spacing, and number of points in the grid
   * Adjust the color range or other weed detection parameters
+
+# What's next?
+
+ * [Weeds](../../The-FarmBot-Web-App/weeds.md)

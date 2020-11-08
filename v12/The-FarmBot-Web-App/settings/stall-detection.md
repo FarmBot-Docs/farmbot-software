@@ -1,7 +1,7 @@
 ---
 title: "Stall Detection"
 slug: "stall-detection"
-description: "[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=stall_detection)"
+description: "FarmBot Express motor load detection settings.\n[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=stall_detection)"
 ---
 
 * toc

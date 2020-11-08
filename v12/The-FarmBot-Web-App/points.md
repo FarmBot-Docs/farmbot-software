@@ -19,9 +19,14 @@ To add points, click the <span class="fb-button fb-teal"><i class='fa fa-plus'><
 ![empty points panel](_images/empty_points_panel.png)
 
 ## Individual points
-To add an individual point to the map, provide a **name**, **color**, **X and Y coordinates**, and **radius**. Alternatively you can click and drag in the map to define the coordinates and radius. Then click <span class="fb-button fb-green">SAVE</span> to save the point.
+To add an individual point to the map, provide a **name**, **color**, **X and Y coordinates**, and **radius**. Alternatively you can click and drag in the map to define the coordinates and radius. The <span class="fb-button fb-blue">USE FARMBOT'S CURRENT POSITION</span> button can be used if FarmBot is already positioned at a location of interest. Then click <span class="fb-button fb-green">SAVE</span> to save the point.
 
 ![add new point](_images/add_new_point.png)
+
+## Soil height points
+Check the **AT SOIL LEVEL** checkbox to add a special soil height point. Soil height points are automatically added to an expandable item in the points panel where they are sorted by height. Toggling soil height <span class="fb-peripheral-on">ON</span> will show the soil height values in the map.
+
+![soil height points](_images/soil_height_points.png)
 
 ## Grid of points
 To add a grid of points to the map, provide the **name**, **color**, and **radius** for all of the points in the upper portion of the panel. Then provide the grid's **STARTING X and Y** coordinates and the **# OF POINTS** and **SPACING** in each direction. Press **PREVIEW** to preview the grid in the map. If you are satisfied, then press **SAVE**.

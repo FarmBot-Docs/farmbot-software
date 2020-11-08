@@ -1,7 +1,7 @@
 ---
 title: "Firmware Settings"
 slug: "firmware-settings"
-description: "[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=firmware)"
+description: "FarmBot model and firmware management.\n[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=firmware)"
 ---
 
 * toc

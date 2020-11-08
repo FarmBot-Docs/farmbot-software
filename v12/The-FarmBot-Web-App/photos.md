@@ -27,7 +27,7 @@ To take a photo, press the <span class="fb-button fb-green">take photo</span> bu
 
 Once you have taken multiple photos, use the `PREV` and `NEXT` buttons to navigate through your images. To delete a photo, press the <span class="fb-button fb-red"><i class='fa fa-trash'></i></span> button.
 
-Press the <span class="fb-button fb-gray"><i class='fa fa-expand'></i></span> button to open the full screen image viewer.
+Press the <span class="fb-button fb-gray"><i class='fa fa-arrows-alt'></i></span> button to open the full screen image viewer.
 
 Press the <span class="fb-button fb-yellow"><i class='fa fa-repeat'></i></span> button to toggle photo crop and rotation. When enabled, the photo will appear as it does in the map. When disabled, the photo will appear as it was taken by the camera without any adjustments applied.
 
@@ -54,5 +54,8 @@ The <i class='fa fa-eye'></i> icon shows whether or not a photo is displayed in 
 
 # What's next?
 
+ * [Filter map photos](photos/filter-map-photos.md)
+ * [Camera settings](photos/camera-settings.md)
  * [Camera Calibration](photos/camera-calibration.md)
  * [Weed Detection](photos/weed-detection.md)
+ * [Camera Troubleshooting](photos/camera-troubleshooting.md)

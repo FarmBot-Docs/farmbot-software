@@ -23,10 +23,12 @@ Click the white <i class='fa fa-arrow-left'></i> button in the top right of the 
 |**FARMBOT**                   |The FarmBot gantry, UTM or tool head, slots, tools, seed containers, peripheral state visualizations, and axis limit lines
 |**PHOTOS**                    |Photos taken by FarmBot's onboard camera. See [camera calibration](photos/camera-calibration.md) if photos are not positioned, scaled, or rotated correctly.
 |**AREAS**                     |Areas defined by [group filters](groups.md#filtering-by-location).
-
+|**Z**                         |Graphical display of FarmBot's current z-axis position and relevant garden levels.
 
 
 ![farm designer with tools panel open](_images/farm_designer_with_tools_panel_open.png)
+
+![map z-axis display](_images/map_z_display.png)
 
 # Move mode
 Pressing the <span class="fb-button fb-gray">MOVE MODE</span> button in the map menu will open the **move to location** panel. Click any spot within the map grid to mark it with an <i class='fa fa-times'></i>. Then press <span class="fb-button fb-gray">MOVE TO THIS COORDINATE</span> to send FarmBot to the selected position. You can optionally enter a new coordinate for the **Z-AXIS**.

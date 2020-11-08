@@ -1,7 +1,7 @@
 ---
 title: "Axes"
 slug: "axes"
-description: "[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=axes)"
+description: "Axis home, length, and position presets.\n[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=axes)"
 ---
 
 * toc

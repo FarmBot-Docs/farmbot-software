@@ -47,3 +47,7 @@ If you make an event for a sequence or a regimen with a variable set to `Defined
 
 ![event variable form](_images/event_variable_form.png)
 
+# What's next?
+
+ * [Regimens](../regimens.md)
+ * [Events](../events.md)

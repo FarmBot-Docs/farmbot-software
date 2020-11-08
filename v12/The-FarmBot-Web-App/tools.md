@@ -95,3 +95,6 @@ title=""
 content="You cannot delete slots with tools or seed containers that are used in sequences."
 %}
 
+# What's next?
+
+ * [Sequences](sequences.md)

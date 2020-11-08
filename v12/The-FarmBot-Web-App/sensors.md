@@ -58,3 +58,8 @@ content="You cannot delete a sensor that is in-use by a sequence."
 
 # Hiding sensors
 If you do not plan to use any sensors, use the **HIDE SENSORS** toggle in the [app settings panel](settings/account-settings.md) to remove the sensors panel.
+
+
+# What's next?
+
+ * [Photos](photos.md)

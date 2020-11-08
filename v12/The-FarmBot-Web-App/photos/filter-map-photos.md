@@ -1,6 +1,7 @@
 ---
 title: "Filter map photos"
 slug: "filter-map-photos"
+description: "Choose a time period to display or highlight in the Farm Designer map."
 ---
 
 * toc
@@ -22,3 +23,7 @@ When on, the photo currently displayed in the photos panel image viewer will be 
 # Only show current photo in map
 
 When on, all map photos except the photo currently displayed in the photos panel image viewer will be hidden.
+
+# What's next?
+
+ * [Camera settings](camera-settings.md)

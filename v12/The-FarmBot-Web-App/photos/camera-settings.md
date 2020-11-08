@@ -1,6 +1,7 @@
 ---
 title: "Camera settings"
 slug: "camera-settings"
+description: "Select a camera and capture resolution."
 ---
 
 * toc
@@ -26,3 +27,7 @@ Perform camera rotation compensation when image is captured instead of in garden
 # Software
 
 Camera photo capture software can be updated by pressing the **UPDATE** button.
+
+# What's next?
+
+ * [Camera calibration](camera-calibration.md)

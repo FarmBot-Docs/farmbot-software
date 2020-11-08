@@ -9,7 +9,7 @@ description: "Manage the weeds found in your garden\n[Open this panel in the app
 
 The **weeds panel** allows you to manage the weeds in your garden. Weeds are divided into three categories:
 
-  * **PENDING** weeds have been detected by FarmBot's camera and are awaiting manual triage. The <span class="fb-button fb-green"><i class='fa fa-check'></i></span> and <span class="fb-button fb-green"><i class='fa fa-check'></i> ALL</span> buttons will move weeds to the **ACTIVE** category while the <span class="fb-button fb-red"><i class='fa fa-times'></i></span> and <span class="fb-button fb-red"><i class='fa fa-times'></i> ALL</span> buttons will delete the weeds.
+  * **PENDING** weeds have been [detected by FarmBot's camera](photos/weed-detection.md) and are awaiting manual triage. The <span class="fb-button fb-green"><i class='fa fa-check'></i></span> and <span class="fb-button fb-green"><i class='fa fa-check'></i> ALL</span> buttons will move weeds to the **ACTIVE** category while the <span class="fb-button fb-red"><i class='fa fa-times'></i></span> and <span class="fb-button fb-red"><i class='fa fa-times'></i> ALL</span> buttons will delete the weeds.
   * **ACTIVE** weeds are weeds currently active in the garden. These weeds were either identified by FarmBot's camera and then triaged into this category, or they were manually added with the <span class="fb-button fb-red"><i class='fa fa-plus'></i></span> button.
   * **REMOVED** weeds are weeds that are no longer a concern. This category should include weeds that have been removed by FarmBot or by hand.
 
@@ -44,3 +44,6 @@ title=""
 content="Weeds cannot be deleted if they are still in-use by any sequences."
 %}
 
+# What's next?
+
+ * [Controls](controls.md)

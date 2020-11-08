@@ -1,7 +1,7 @@
 ---
 title: "FarmBot Settings"
 slug: "farmbot-settings"
-description: "[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=farmbot)"
+description: "Device name and software updates.\n[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=farmbot)"
 ---
 
 * toc
@@ -40,3 +40,7 @@ content="This setting is enabled by default so that your FarmBot will stay updat
 
 # FarmBot OS
 View the version of FarmBot OS that you have installed on your device, that version's release notes, and install updates if they are available using the <span class="fb-button fb-green">UPDATE</span> button. Note that the update button will display as <span class="fb-button fb-gray">UP TO DATE</span> when there are no updates available.
+
+# What's next?
+
+ * [Auto Updates](../../FarmBot-OS/farmbot-os/auto-updates.md)

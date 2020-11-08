@@ -1,6 +1,7 @@
 ---
 title: "Weed Detection"
 slug: "weed-detection"
+description: "Detect weeds with FarmBot's camera."
 ---
 
 * toc
@@ -28,14 +29,14 @@ The weed detector software needs a range of color to look for when determining w
 Once an image has been taken with the camera, the weed detector software will process it. There are several processing parameters available (**BLUR**, **MORPH**, and **ITERATION**) that can help you fine tune the system to perform the best in your environment. It is recommended to use the default values at first, run a test, and then experiment with the processing parameter values to see how the results change.
 
 # Step 3: Detect weeds
-Move the FarmBot over a section of soil. Press <span class="fb-button fb-green">detect weeds</span> to instruct FarmBot to take a photo and then process that image with the weed detection software. Any weeds found in the image will appear in the map, and be listed in the weeds panel.
+Move the FarmBot over a section of soil. Press <span class="fb-button fb-green">detect weeds</span> to instruct FarmBot to take a photo and then process that image with the weed detection software. Any weeds found in the image will appear in the map, and be listed as **PENDING** in the weeds panel. See [Weeds](../weeds.md) for additional information.
 
 ![weeds panel and weeds in map](_images/weeds_panel_and_weeds_in_map.png)
 
 <span class="fb-button fb-green">scan current image</span> can be used to run weed detection on an image already taken, instead of taking a new photo.
 
 # Scan the entire garden
-Detect weeds across FarmBot's entire bed by creating a sequence of movements in a grid pattern with a <span class="fb-step fb-run-farmware">detect weeds</span> command at each grid point.
+Detect weeds across FarmBot's entire bed by creating a sequence of movements in a grid pattern with a <span class="fb-step fb-run-farmware">detect weeds</span> command at each grid point. For step-by-step instructions, see the [Scan the Garden for Weeds How-to guide](../../FarmBot-Software/how-to-guides/scan-the-garden-for-weeds.md).
 
 # Remove weeds with FarmBot
 Weed removal can be performed by creating a weed removal sequence that uses the weeding tool on weeds (points) in the farm designer.
@@ -106,3 +107,8 @@ These are some common errors that can occur when doing weed detection.
 **<span class="fa fa-circle red"></span> [plant-detection] ERROR: Coordinate conversion calibration values invalid for provided image.**
 
 This error occurs because the camera was calibrated at a different z-axis height than the current z height. This error can also happen if the camera rotation value was changed significantly after camera calibration. The solution is to move to the calibrated height (usually 0) or re-calibrate the camera.
+
+# What's next?
+
+ * [Scan the Garden for Weeds](../../FarmBot-Software/how-to-guides/scan-the-garden-for-weeds.md)
+ * [Weeds](../weeds.md)

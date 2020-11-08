@@ -1,7 +1,7 @@
 ---
 title: "Motors"
 slug: "motors"
-description: "[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=motors)"
+description: "Adjust motor speed, acceleration, and power.\n[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=motors)"
 ---
 
 * toc
