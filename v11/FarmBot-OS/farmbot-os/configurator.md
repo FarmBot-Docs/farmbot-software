@@ -91,7 +91,7 @@ Remember: you must already have a **verified web app account** in order for the 
 include callout.html
 type="info"
 title=""
-content="If you are self-hosting the web application on your own servers, replace <span class=\"fb-input\" style=\"background: white;\">https://my.farm.bot</span> with your custom server URL (advanced)."
+content="If you are self-hosting the web application on your own servers, replace <span class=\"fb-input\">https://my.farm.bot</span> with your custom server URL (advanced)."
 %}
 
 # Step 4: Submit configuration
