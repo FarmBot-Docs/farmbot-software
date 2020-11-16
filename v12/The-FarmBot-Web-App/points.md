@@ -51,6 +51,11 @@ The second way is from sequences. Simply select the point from the dropdown in a
 
 ![move to point sequence step](_images/move_to_point_sequence_step.png)
 
+# Sorting points
+Click the <i class='fa fa-search'></i> icon to change the order of points in the panel, where <i class='fa fa-calendar'></i>: age, <i class='fa fa-font'></i>: name, <i class='fa fa-sort-amount-desc'></i>: size, and <b><i>z</i></b>: height.
+
+![point sort menu](_images/point_sort_menu.png)
+
 # Deleting points
 To delete a point, click on it to open up the edit point panel. Then press the <span class="fb-button fb-red">DELETE</span> button.
 

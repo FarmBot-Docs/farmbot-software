@@ -44,6 +44,23 @@ You may also change the **SELECTION TYPE** to allow for selecting other objects 
 
 ![farm designer select mode](_images/farm_designer_select_mode.png)
 
+# Profile viewer
+Press the <span style="color: white; background: #a64d79; border-radius: 50%; font-size: 0.75rem; padding: 3px 5px"><i class='fa fa-area-chart'></i></span> icon at the bottom of the screen to open the profile viewer.
+
+![profile viewer choose a location](_images/profile_viewer_choose_a_location.png)
+
+Click anywhere in the farm designer map to view a profile of that location.
+A shaded area will appear across the map to indicate the region the profile represents: any items within the region will appear in the profile.
+
+![profile viewer](_images/profile_viewer.png)
+
+The selected **SAFE HEIGHT** (from [axis settings](settings/axes.md#safe-height)) is shown as a horizontal <span style="color: #3377dd">blue</span> line, and the selected **SOIL HEIGHT** is shown as a horizontal <span style="color: #ccaa88">brown</span> line.
+Points and soil height points are shown as dots with lines connecting them according to their color.
+
+Use the **AXIS** toggle to switch between X and Y axis profiles.
+Input a different **WIDTH** to narrow or broaden the profile search area.
+Enable **FOLLOW** to use FarmBot's current location as the profile position.
+Click the <i class='fa fa-chevron-up'></i> icon to switch between quick and full profile views.
 
 # What's next?
 
