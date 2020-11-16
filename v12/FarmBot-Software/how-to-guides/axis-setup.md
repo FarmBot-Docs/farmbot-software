@@ -48,7 +48,7 @@ _Note that the graphic above omits step 3 of the process_
 
 To instruct FarmBot to automatically find home on a regular basis, use the <span class="fb-step fb-find-home">FIND HOME</span> command in your sequences. This is recommended at the start of long-running sequences and sequences that require a high degree of precision.
 
-To instruct FarmBot to automatically find home right now, use the <span class="fb-button fb-yellow">FIND HOME X</span>, <span class="fb-button fb-yellow">FIND HOME Y</span>, and <span class="fb-button fb-yellow">FIND HOME Z</span> buttons in the settings panel, or the <span class="fb-button fb-gray"><i class='fa fa-home'></i></span> button on the controls page to find home for all three axes in the order Z, Y, X. This is recommended after moving FarmBot by hand or a movement error.
+To instruct FarmBot to automatically find home right now, use the <span class="fb-button fb-yellow">FIND HOME X</span>, <span class="fb-button fb-yellow">FIND HOME Y</span>, and <span class="fb-button fb-yellow">FIND HOME Z</span> buttons in the settings panel, or the <span class="fb-button fb-gray"><i class='fa fa-home'></i></span> button in the controls panel to find home for all three axes in the order Z, Y, X. This is recommended after moving FarmBot by hand or a movement error.
 
 To instruct FarmBot to automatically find home every time it boots up, turn the **FIND HOME ON BOOT** setting <span class="fb-peripheral-on">ON</span>. This may be useful for recovering from a power outage, or in classrooms where one FarmBot is shared by many students and regularly turned on and off.
 

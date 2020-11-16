@@ -21,7 +21,7 @@ Please note that **LIMIT SWITCHES** are not part of the standard FarmBot kit har
 
 _Example of Limit Switch for CNC devices.  [Model SS-5GL13T  Omeron Electronics]_
 
-To home an axis, click the <span class="fb-button fb-yellow">FIND HOME X</span>, <span class="fb-button fb-yellow">FIND HOME Y</span>, or <span class="fb-button fb-yellow">FIND HOME Z</span> buttons. To home all three axes, you can use the <span class="fb-button fb-gray"><i class='fa fa-home'></i></span> button in the controls widget (assuming that that button is set to its default behavior).
+To home an axis, click the <span class="fb-button fb-yellow">FIND HOME X</span>, <span class="fb-button fb-yellow">FIND HOME Y</span>, or <span class="fb-button fb-yellow">FIND HOME Z</span> buttons. To home all three axes, you can use the <span class="fb-button fb-gray"><i class='fa fa-home'></i></span> button in the controls panel (assuming that that button is set to its default behavior).
 
 {%
 include callout.html

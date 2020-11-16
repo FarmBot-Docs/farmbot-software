@@ -16,7 +16,7 @@ Before we get started, make sure you and your FarmBot meet the following prerequ
 
 # Step 1: Add the soil moisture sensor
 
-Ensure you have added the **SOIL MOISTURE** sensor by checking the SENSORS widget on the Controls page. If you do not see the sensor, add it using [these instructions](../../The-FarmBot-Web-App/sensors.md#creating-sensors).
+Ensure you have added the **SOIL MOISTURE** sensor by checking the SENSORS list in the Sensors panel. If you do not see the sensor, add it using [these instructions](../../The-FarmBot-Web-App/sensors.md#creating-sensors).
 
 ![sensor list](_images/sensor_list.png)
 

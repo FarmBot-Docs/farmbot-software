@@ -35,7 +35,7 @@ There is no access to FarmBot or the message broker. This is usually caused by o
 Note 1: Please note that we have experienced several difficulties with School firewalls.
 In one particular school firewall, the IT department opened port 3002 for FarmBot operation but the port was automatically blocked again after a set timeout.
 
-Note 2: This code will not show up on the blue communications LED. Blocked access to port 3002 will affect the browser rather than the device, so in this case, the "browser <=> broker" leg of the connectivity widget will be RED.
+Note 2: This code will not show up on the blue communications LED. Blocked access to port 3002 will affect the browser rather than the device, so in this case, the "browser <=> broker" leg of the connectivity pop-up will be RED.
 
 The tricky part is identifying root cause. A red "browser <=> broker" leg is almost always caused by blocked websocket access, but it is also possible that our broker is down.
 

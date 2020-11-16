@@ -1,13 +1,13 @@
 ---
 title: "Account Settings"
 slug: "account-settings"
-description: "Manage your account and app settings :computer:\n[Open this page in the app](https://my.farm.bot/app/account)"
+description: "Manage your account and app settings :computer:\n[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=account)"
 ---
 
 * toc
 {:toc}
 
-On this page you can change your name (displayed in the top right of the app), email (used for login, emailed log messages), and account password. There are also additional app settings, reset controls, and data export tools, as described below.
+In this section you can change your name (displayed in the top right of the app), email (used for login, emailed log messages), and account password. There are also additional app settings, reset controls, and data export tools, as described below.
 
 # App settings
 
@@ -24,8 +24,8 @@ content="Interested in helping out? See the [instructions for submitting correct
 ## Use 24-hour time format
 Enabling this setting will display times using the 24-hour notation, i.e., 23:00 instead of 11:00pm.
 
-## Hide widgets
-If you're not using an external webcam to monitor your FarmBot, you can remove the **webcams** widget from the controls page to save space. If your FarmBot does not have any sensors (such as FarmBot Express), you can hide the **sensors** and **sensor history** widgets as well.
+## Hide sections
+If you're not using an external webcam to monitor your FarmBot, you can remove the **webcams** section from the controls panel to save space. If your FarmBot does not have any sensors (such as FarmBot Express), you can hide the **sensors** panel as well.
 
 ## Read speak logs in browser
 <span class="fb-step fb-send-message">SEND MESSAGE</span> commands can optionally speak the message aloud. The audio can be heard from the Raspberry Pi's 3.5mm audio jack, and using this setting, output using your computer speakers as well.

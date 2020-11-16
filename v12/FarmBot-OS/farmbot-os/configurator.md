@@ -106,7 +106,7 @@ Press <span class="fb-button fb-green">FINISH</span>. FarmBot OS will now attemp
 include callout.html
 type="success"
 title="Make sure you've chosen your FarmBot model"
-content="If you haven't yet [selected a FarmBot model](../../The-FarmBot-Web-App/the-farmbot-web-app/creating-an-account.md#choose-your-farmbot) from the message center, then FarmBot will not know which firmware version to flash to the microcontroller. This will result in all movement commands failing. If this happens, make sure you choose a FarmBot model, or manually select a firmware option from the Device page and it will be flashed to the microcontroller."
+content="If you haven't yet [selected a FarmBot model](../../The-FarmBot-Web-App/the-farmbot-web-app/creating-an-account.md#choose-your-farmbot) from the message center, then FarmBot will not know which firmware version to flash to the microcontroller. This will result in all movement commands failing. If this happens, make sure you choose a FarmBot model, or manually select a firmware option from the settings panel **Firmware** section and it will be flashed to the microcontroller."
 %}
 
 If there is a problem with the configuration, such as an incorrect password, then the Configurator program will restart and you will see the `farmbot-xxxx` WiFi network again. If this happens, try configuring again or consult the [troubleshooting guides](../../Extras/troubleshooting.md).

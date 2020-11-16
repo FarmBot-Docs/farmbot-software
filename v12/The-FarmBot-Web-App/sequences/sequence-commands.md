@@ -94,7 +94,7 @@ This is useful when you need FarmBot to move across the garden but want to ensur
 # Control peripheral
 The <span class="fb-step fb-write-pin">Control Peripheral</span> command allows you to control **peripherals** such as the vacuum pump, solenoid valve, and lights. To use this command, first select a peripheral from the **PERIPHERAL** dropdown. Options include:
 
-  * All of the peripherals you have defined in the [peripherals widget on the controls page](../controls/peripherals.md)
+  * All of the peripherals you have defined in the [peripherals section of the controls panel](../controls/peripherals.md)
   * The Box LEDs, if you have any included with your FarmBot version
 
 Next, select the **MODE** which you would like to control the peripheral with. You can choose either `Digital` or `Analog`.
@@ -110,7 +110,7 @@ In the **sequence editor options menu** (<span class="fa fa-gear"></span> icon n
 include callout.html
 type="info"
 title="Under the hood, most peripherals are just pins"
-content="Remember on the controls page how you defined your peripherals with a **name** and **pin number**? That's because at the microcontroller level, those peripherals (vacuum pump, etc) are hooked up to a specific pin on the Arduino. Giving them a name just makes them much easier to work with here in the sequence editor."
+content="Remember in the controls panel how you defined your peripherals with a **name** and **pin number**? That's because at the microcontroller level, those peripherals (vacuum pump, etc) are hooked up to a specific pin on the Arduino. Giving them a name just makes them much easier to work with here in the sequence editor."
 %}
 
 # Toggle peripheral
@@ -126,7 +126,7 @@ The <span class="fb-step fb-write-pin">Toggle Peripheral</span> command allows y
 
 To use this command, select a peripheral from the **PERIPHERAL** dropdown. Options include:
 
-  * All of the peripherals you have defined in the [peripherals widget on the controls page](../controls/peripherals.md)
+  * All of the peripherals you have defined in the [peripherals section of the controls panel](../controls/peripherals.md)
   * The Box LEDs, if you have any included with your FarmBot version
 
 ![toggle peripheral](_images/toggle_peripheral.png)
@@ -134,8 +134,8 @@ To use this command, select a peripheral from the **PERIPHERAL** dropdown. Optio
 # Read sensor
 The <span class="fb-step fb-read-pin">Read Sensor</span> command instructs FarmBot to read the value of a **sensor**. For example, you would use this command to measure the soil moisture content with the soil moisture sensor. To use this command, first select a sensor from the **SENSOR** dropdown. Options include:
 
-  * All of the sensors you have defined in the [sensors widget on the controls page](../sensors.md)
-  * All of the peripherals you have defined in the [peripherals widget on the controls page](../controls/peripherals.md)
+  * All of the sensors you have defined in the [sensors panel](../sensors.md)
+  * All of the peripherals you have defined in the [peripherals section of the controls panel](../controls/peripherals.md)
 
 Next, select the **MODE** which you would like to read the sensor with. You can choose either `Digital` or `Analog`. Use digital for a `0` (LOW) or `1` (HIGH) response, and analog for a reading between `0` and `1023` for 0-5V.
 
@@ -150,7 +150,7 @@ In the **sequence editor options menu** (<span class="fa fa-gear"></span> icon n
 include callout.html
 type="info"
 title="Under the hood, most sensors are just pins"
-content="Remember on the controls page how you defined your sensors with a **name** and **pin number**? That's because at the microcontroller level, those sensors (soil moisture, etc) are hooked up to a specific pin on the Arduino. Giving them a name just makes them much easier to work with here in the sequence editor."
+content="Remember in the sensors panel how you defined your sensors with a **name** and **pin number**? That's because at the microcontroller level, those sensors (soil moisture, etc) are hooked up to a specific pin on the Arduino. Giving them a name just makes them much easier to work with here in the sequence editor."
 %}
 
 # Control servo

@@ -35,7 +35,7 @@ When finished editing, press <span class="fb-button fb-green">SAVE</span>.
 ![edit sensors](_images/edit_sensors.png)
 
 # Reading sensors
-To manually read a sensor, press its <span class="fb-button fb-gray">READ SENSOR</span> button. FarmBot will then read the sensor and display the value in the widget. Digital sensors will provide a value of either `0` or `1`, while analog sensors will provide a value between `0` and `1023`.
+To manually read a sensor, press its <span class="fb-button fb-gray">READ SENSOR</span> button. FarmBot will then read the sensor and display the value next to the sensor name. Digital sensors will provide a value of either `0` or `1`, while analog sensors will provide a value between `0` and `1023`.
 
 ![read sensors](_images/read_sensors.png)
 

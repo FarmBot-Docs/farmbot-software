@@ -26,7 +26,7 @@ content="Some webcam services do not allow webcam feeds to be embedded in other 
 %}
 
 # Viewing webcam feeds
-The webcam feed area will display one webcam feed at a time. If you have added multiple webcam feeds, you can cycle through them using the `PREV` and `NEXT` buttons on the left and right sides of the widget.
+The webcam feed area will display one webcam feed at a time. If you have added multiple webcam feeds, you can cycle through them using the `PREV` and `NEXT` buttons on the left and right sides of the viewer.
 
 ![view multiple webcam feeds](_images/view_multiple_webcam_feeds.png)
 

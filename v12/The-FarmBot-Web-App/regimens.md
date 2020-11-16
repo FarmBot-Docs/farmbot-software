@@ -1,7 +1,7 @@
 ---
 title: "Regimens"
 slug: "regimens"
-description: "Plant care recipes for your FarmBot to follow :seedling:\n[Open this page in the app](https://my.farm.bot/app/regimens)"
+description: "Plant care recipes for your FarmBot to follow :seedling:\n[Open this panel in the app](https://my.farm.bot/app/designer/regimens)"
 ---
 
 * toc
@@ -35,23 +35,33 @@ We can then use events to schedule this regimen to start on March 1st, March 9th
 
 # Creating a regimen
 
-In the left panel of the **Regimens** page, press the <span class="fb-button fb-green"><i class='fa fa-plus'></i></span> button to create a new regimen. The new regimen will be loaded into the middle **Regimen Editor** panel, and the **Scheduler** will appear in the column on the right. Give your regimen a descriptive name and optionally assign it a color.
+![no regimens yet](_images/no_regimems_yet.png)
 
-![create a new regimen](_images/create_a_new_regimen.png)
+In the **Regimens** panel, press the <span class="fb-button fb-gray"><i class='fa fa-plus'></i></span> button to create a new regimen. The new regimen will be loaded into the panel. Give your regimen a descriptive name and optionally assign it a color.
 
-In the scheduler panel, select the **SEQUENCE** you wish to add to the regimen. Pick a **TIME** and the **DAYS** for it to run. For this example, we will run the `Seed Injection` sequence at `10am` on `Day 1`. Press the <span class="fb-button fb-green"><i class='fa fa-plus'></i></span> button in the scheduler panel to add the sequence to the regimen.
+![a new regimen](_images/new_regimen.png)
 
-If you make a mistake, remove items from the regimen by clicking the <i class='fa fa-trash'></i> icon.
+To add a sequence to the regimen, press the <span class="fb-button fb-gray">SCHEDULE ITEM</span> button then select the **SEQUENCE** you wish to add to the regimen. Pick a **TIME** and the **DAYS** for it to run. For this example, we will run the `Seed Injection` sequence at `10am` on `Day 1`. Press the <span class="fb-button fb-green"><i class='fa fa-plus'></i></span> button to add the sequence to the regimen.
 
-![add items to regimen](_images/add_items_to_regimen.png)
+![regimen scheduler with seed injection added](_images/regimen_scheduler_seed_injection_added.png)
+
+To view the added items, click <i class='fa fa-arrow-left'></i> to leave the scheduler.
+
+![regimen with seed injection item](_images/regimen_with_seed_injection_item.png)
+
+If you make a mistake, remove items from the regimen by clicking the <i class='fa fa-trash'></i> icon next to the item you wish to remove.
 
 Next we'll add a `Light Watering` sequence to the regimen to run at `8PM` every other day for the first two weeks.
 
-![regimen with light watering sequence added](_images/regimen_with_light_watering_sequence_added.png)
+![regimen scheduler with light watering sequence added](_images/regimen_scheduler_light_watering_added.png)
 
-Last we'll add a `Medium Watering` sequence to run at `8PM` every other day for weeks 3 through 7, and then press <span class="fb-button fb-green">SAVE</span> to save the regimen.
+Last we'll add a `Medium Watering` sequence to run at `8PM` every other day for weeks 3 through 7.
 
-![regimen with medium watering items added](_images/regimen_with_medium_watering_items_added.png)
+![regimen scheduler with medium watering items added](_images/regimen_scheduler_medium_watering_added.png)
+
+Click <i class='fa fa-arrow-left'></i> to leave the scheduler and view the items you've added. Press <span class="fb-button fb-green">SAVE</span> to save the regimen.
+
+![regimen saved](_images/regimen_saved.png)
 
 # Running a regimen
 A regimen on its own will not execute because the regimen only has enough information to run sequences at a day and time _relative_ from a start date. Thus, to run a regimen, you will have to schedule it using an [event](events.md).

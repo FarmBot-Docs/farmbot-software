@@ -23,13 +23,13 @@ Any time FarmBot OS updates, it will flash the latest version of the firmware au
 
 # Changing firmware
 
-If you need to change your firmware because you chose the wrong one during setup, or you just upgraded your electronics, you can manually change it. Navigate to the [Device page](https://my.farm.bot/app/device). Under the Device widget, select the correct electronics board/hardware version from the dropdown menu labelled **FIRMWARE**. This will instruct FarmBot to flash the new firmware. After flashing is complete, you will need to <span class="fb-button fb-yellow">UNLOCK</span> FarmBot to complete the initialization.
+If you need to change your firmware because you chose the wrong one during setup, or you just upgraded your electronics, you can manually change it. Navigate to the [firmware section of the settings panel](https://my.farm.bot/app/designer/settings?highlight=firmware) and select the correct electronics board/hardware version from the dropdown menu labelled **FIRMWARE**. This will instruct FarmBot to flash the new firmware. After flashing is complete, you will need to <span class="fb-button fb-yellow">UNLOCK</span> FarmBot to complete the initialization.
 
 ![firmware selection menu genesis v1.4](_images/firmware_selection_menu_genesis_v1.4.png)
 
 # Reflashing firmware
 
-If you are experiencing issues with your firmware, or just installed replacement electronics without firmware installed, you may manually reflash the firmware. Navigate to the [Device page](https://my.farm.bot/app/device). Under the Device widget, find the **FLASH FIRMWARE** setting and click <span class="fb-button fb-yellow">FLASH FIRMWARE</span>. After flashing is complete, you will need to <span class="fb-button fb-yellow">UNLOCK</span> FarmBot to complete the initialization.
+If you are experiencing issues with your firmware, or just installed replacement electronics without firmware installed, you may manually reflash the firmware. Navigate to the [firmware section of the settings panel](https://my.farm.bot/app/designer/settings?highlight=firmware) and click <span class="fb-button fb-yellow">FLASH FIRMWARE</span>. After flashing is complete, you will need to <span class="fb-button fb-yellow">UNLOCK</span> FarmBot to complete the initialization.
 
 ![flash firmware button](_images/flash_firmware_button.png)
 
