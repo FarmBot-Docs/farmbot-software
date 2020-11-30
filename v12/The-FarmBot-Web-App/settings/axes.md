@@ -85,3 +85,7 @@ Z axis coordinate (millimeters) to which the z axis should be retracted during S
 
 # Soil Height
 Z axis coordinate (millimeters) of the soil. This value can be used by <span class="fb-step fb-move">Move</span> sequence commands by selecting _Soil Height_ as the z-axis override.
+
+![profile view with safe and soil heights](_images/profile_view_with_safe_and_soil_heights.png)
+
+_Safe and soil heights as shown in the [profile viewer](../farm-designer.md#profile-viewer)_
