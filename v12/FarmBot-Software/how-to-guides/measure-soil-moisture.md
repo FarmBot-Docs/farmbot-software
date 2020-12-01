@@ -7,6 +7,8 @@ description: "**In this guide:** Learn how to measure soil moisture and then use
 * toc
 {:toc}
 
+![profile view soil sensor in soil](_images/profile_view_soil_sensor_in_soil.png)
+
 Before we get started, make sure you and your FarmBot meet the following prerequisites:
 
 * Your FarmBot has a **soil moisture sensor**. This is included with all FarmBot Genesis kits, but not with FarmBot Express kits.

@@ -35,9 +35,17 @@ If you just finished your FarmBot hardware assembly, you should be ready to set 
 
 # Step 4: Set up FarmBot's axes
 
-1. Send FarmBot to all corners of your raised bed to ensure it can successfully move throughout the entire working area. Make adjustments to belt tension, eccentric spacers, and track alignment as needed, as well as [hardware settings](../The-FarmBot-Web-App/settings.md) such as **MAX SPEED**.
+1. Using the [manual controls](../The-FarmBot-Web-App/controls.md), send FarmBot to all corners of your raised bed to ensure it can successfully move throughout the entire working area in both directions along each axis.
 
-2. Once you're sure everything operates as expected, finish the rest of [axis setup](how-to-guides/axis-setup.md).
+2. Double check belt tension and make adjustments if needed. You also may need to "break in" the cable carriers as they may be stiff and resistant to smooth movements at first.
+
+3. Sand down any bumps along the raised bed (Express), or at the joint between track extrusions (Genesis) to facilitate smooth movements. Genesis kits may need to have their [eccentric spacers adjusted](https://genesis.farm.bot/v1.5/Extras/reference/eccentric-spacer-adjustment.html), or the track alignment improved.
+
+4. If necessary, make small adjustments from the default values for the **MAX SPEED**, **MIN SPEED**, **ACCELERATE FOR**, and **MOTOR CURRENT** settings found in the [Motors](../The-FarmBot-Web-App/settings/motors.md) section of the settings panel.
+
+5. Once FarmBot can smoothly move throughout the bed, finish the rest of [axis setup](how-to-guides/axis-setup.md).
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/HGuoD23s30A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Step 5: Add tools, seed containers, slots, peripherals, and sensors
 

@@ -54,6 +54,8 @@ A shaded area will appear across the map to indicate the region the profile repr
 
 ![profile viewer](_images/profile_viewer.png)
 
+![profile viewer (x-axis profile)](_images/profile_viewer_x.png)
+
 The selected **SAFE HEIGHT** (from [axis settings](settings/axes.md#safe-height)) is shown as a horizontal <span style="color: #3377dd">blue</span> line, and the selected **SOIL HEIGHT** is shown as a horizontal <span style="color: #ccaa88">brown</span> line.
 Points and soil height points are shown as dots with lines connecting them according to their color.
 

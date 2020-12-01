@@ -85,6 +85,8 @@ title="IMPORTANT: The virtual configuration must match real life"
 content="Now that you have **virtually** loaded your slots, you must also load the **real** tools and/or seed containers into the **real** slots to match your **virtual** configuration. If you do not do this, FarmBot may perform undesirably. And don't forget: if you change things up in real life (remove a seed bin, for example), you must update the virtual configuration to match."
 %}
 
+![profile view of tools in toolbays](_images/profile_view_of_tools_in_toolbays.png)
+
 ## Deleting slots
 To delete a slot, select it from the **SLOTS** list in the main tools panel and then press the <span class="fb-button fb-red">DELETE</span> button.
 
