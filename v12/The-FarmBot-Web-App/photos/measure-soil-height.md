@@ -70,16 +70,16 @@ After checking the detected soil points and removing or adjusting any outliers, 
 # Troubleshooting
 
 ## Capture
-_Error message:_ `Problem getting image`:
+_Error message:_ `Problem getting image`<br>
 _Troubleshooting steps:_ Verify camera is working by taking a photo.
 
 ## Calibration
-_Error message:_ `Calibration measured distance input required`:
+_Error message:_ `Calibration measured distance input required`<br>
 _Solution:_ Provide a distance measurement (see the [calibration steps](#calibrate)).
 
-_Error message:_ `Image size must match calibration`:
+_Error message:_ `Image size must match calibration`<br>
 _Solution:_ Recalibrate or revert change to image capture size or rotation.
 
 ## Detection
-All other error messages:
+All other error messages<br>
 _Troubleshooting steps:_ Verify the soil is clearly visible in photos or try recalibrating at a different location..
