@@ -7,7 +7,7 @@ description: "Map your garden's soil surface using FarmBot's camera."
 * toc
 {:toc}
 
-FarmBot uses computer vision software to detect the average z-axis coordinate of the soil in an image.
+FarmBot uses computer vision software to detect the average z-axis coordinate of the soil in an image. See [how it works](https://developer.farm.bot/docs/measure-soil-height).
 
 {%
 include callout.html
@@ -27,7 +27,7 @@ content="Once the feature moves out of alpha, **Measure Soil Height** will be pr
 Navigate to the [Farmware panel](https://my.farm.bot/app/designer/farmware) and press the <span class="fb-button fb-gray"><i class='fa fa-plus'></i></span> button. Paste the following URL into the input box:
 
 ```
-https://raw.githubusercontent.com/FarmBot-Labs/farmware_manifests/main/packages/measure-soil-height/manifest.json
+https://raw.githubusercontent.com/FarmBot-Labs/measure-soil-height/main/manifest.json
 ```
 
 and press <span class="fb-button fb-green">INSTALL</span>.
