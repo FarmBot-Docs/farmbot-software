@@ -41,17 +41,25 @@ Data in transit is encrypted via SSL and HTTPS (WSS:// in the case of WebSockets
 
 FarmBot does not require a fixed IP address. DHCP is the preferred method of assigning an IP to a device. Due to internal network configuration variation, some organizations may need to assign a static IP to a device, although this is less common.
 
-# Proxy Servers
+# Proxy servers
 
 As of November 2019, **FarmBot does not support the use of proxy servers**, although we do plan to support the use of proxies in a future version of FarmBot OS. Please see this [discussion on Github](https://github.com/FarmBot/farmbot_os/issues/909) for more information.
 
-# "Rogue" Access Points
+# Rogue access points
 
 Some users, particularly schools and larger organizations, have reported their devices as being blacklisted by their security software because the security software categorizes it as a ["rogue access point"](https://en.wikipedia.org/wiki/Rogue_access_point). Please ensure that your security software does not identify FarmBot's WiFi configurator as a rogue access point.
 
-# Enterprise WiFi Support
+# Enterprise WiFi
 
 FarmBot does not support enterprise WiFi at this time.
+
+# SSH
+
+If provided an SSH key during configuration (in the "Advanced" panel), it is possible to SSH into a device. There are some caveats, however:
+
+ * The SSH session exposes an [IEX](https://hexdocs.pm/iex/IEx.html) shell, not bash.
+ * The Linux distribution that FarmBot uses does not offer any useful utilities for an end user. (IE there is no `apt-get`, `bash`, `top`, `init`, etc)
+ * SSH access is used for debugging only. It is not intended to be used for software development or hosting.
 
 # Other security concerns
 
