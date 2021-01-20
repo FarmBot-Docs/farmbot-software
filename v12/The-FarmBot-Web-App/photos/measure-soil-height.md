@@ -63,9 +63,19 @@ Before using the detected soil height values, compare the results to your garden
 
 If the detected values are consistently offset from the actual soil surface, try adjusting the _Measured distance from camera to soil_ input in the **Measure Soil Height** section of the [Photos panel](https://my.farm.bot/app/designer/photos) or re-calibrate by pressing the <span class="fb-button fb-red">RESET CALIBRATION VALUES</span> button and following the [calibration steps](#calibrate).
 
+To choose a different output image, click __Advanced__ in the **Measure Soil Height** section of the Photos panel and select an __IMAGE OUTPUT__ option.
+
 # Use soil height
 
 After checking the detected soil points and removing or adjusting any outliers, open the [soil height points list](../points.md#soil-height-points) and press the <span class="fb-button fb-blue">USE AVERAGE Z</span> button to apply the average detected soil height to the [soil height](../settings/axes.md#soil-height) value used by <span class="fb-step fb-move">Move</span> sequence commands.
+
+# Tips
+ * Ensure the Y and Z axes move smoothly without errors before attempting calibration.
+ * Tune the weed detector parameters to detect plants before attempting soil height measurements.
+ * Calibrate and measure soil height from a medium to maximum camera to soil distance.
+ * Take measurements and update the soil height value over time to account for soil settlement.
+ * Prepare the garden bed soil surface by smoothing and flattening as much as reasonably possible.
+ * If high precision is required, consider an alternative approach such as manual measurements. **Measure Soil Height** is a simple camera-based solution and will not be as accurate or available over a large range of conditions as other methods.
 
 # Troubleshooting
 
@@ -82,4 +92,7 @@ _Solution:_ Recalibrate or revert change to image capture size or rotation.
 
 ## Detection
 All other error messages<br>
-_Troubleshooting steps:_ Verify the soil is clearly visible in photos or try recalibrating at a different location..
+_Troubleshooting steps:_
+ * Verify the soil is clearly visible in photos.
+ * Try recalibrating at a different location.
+ * Try moving the camera as far away from the soil as possible. If a closer measurement distance is desired, increase the __DISPARITY SEARCH DEPTH__ value in __Advanced__ settings.
