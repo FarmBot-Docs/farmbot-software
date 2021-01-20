@@ -1,11 +1,18 @@
 ---
 title: "Farmware"
 slug: "farmware"
-description: "Plugin system for FarmBot OS <i class='fa fa-puzzle-piece'></i>\n[Open this panel in the app](https://my.farm.bot/app/designer/farmware)"
+description: "DEPRECATED plugin system for FarmBot OS <i class='fa fa-puzzle-piece'></i>"
 ---
 
 * toc
 {:toc}
+
+{%
+include callout.html
+type="warning"
+title="Farmware is being phased out"
+content="As of January 2021 the farmware panel has been hidden from the app for all FarmBot users that did not have any 3rd party farmware installed. The panel remains accessible for now for users with pre-existing 3rd party farmware installed, though we will no longer be maintaining this capability moving forwards. Farmware users are suggested to find alternatives now."
+%}
 
 **Farmware** is FarmBot's plugin system allowing 3rd party developers to add custom functionality to FarmBot OS. Once a Farmware has been installed onto your FarmBot, it will show up in the **Farmware panel**. Selecting a Farmware from this list will show its options and controls.
 
