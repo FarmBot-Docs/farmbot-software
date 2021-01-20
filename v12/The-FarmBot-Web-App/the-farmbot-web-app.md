@@ -21,8 +21,6 @@ The **FarmBot web app** is a web-based application that allows you to control an
 
 :wrench: Management of FarmBot's [tools and seed containers](tools.md)
 
-:electric_plug: Management and control of [farmware](farmware.md), FarmBot's 3rd-party plugin system
-
 :1234: Management of [FarmBot's settings](settings.md)
 
 :pager: Storage and viewing of [logs](the-farmbot-web-app/logs.md) and sensor readings

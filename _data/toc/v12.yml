@@ -78,8 +78,6 @@ contents:
             url: weed-detection
           - title: Camera Troubleshooting
             url: camera-troubleshooting
-      - title: Farmware
-        url: farmware
       - title: Tools
         url: tools
       - title: Sequences
