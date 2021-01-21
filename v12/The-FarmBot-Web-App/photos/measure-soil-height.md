@@ -15,23 +15,6 @@ type="info"
 content="While the **Measure Soil Height** feature provides an automated method for mapping the soil surface, you may also manually add soil surface points through the [Points panel](https://my.farm.bot/app/designer/points). It is recommended to add at least several points manually (even if using the automatic method) for comparison."
 %}
 
-# Install
-
-{%
-include callout.html
-type="info"
-title="Only required while in alpha"
-content="Once the feature moves out of alpha, **Measure Soil Height** will be preinstalled."
-%}
-
-Navigate to the [Farmware panel](https://my.farm.bot/app/designer/farmware) and press the <span class="fb-button fb-gray"><i class='fa fa-plus'></i></span> button. Paste the following URL into the input box:
-
-```
-https://raw.githubusercontent.com/FarmBot-Labs/measure-soil-height/main/manifest.json
-```
-
-and press <span class="fb-button fb-green">INSTALL</span>.
-
 # Calibrate
 1. Move FarmBot to a location where the camera has a clear view of a wide area of soil.
 Ensure the Y and Z axes have room to move away from home/zero.

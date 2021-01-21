@@ -76,6 +76,8 @@ contents:
             url: camera-calibration
           - title: Weed Detection
             url: weed-detection
+          - title: Measure Soil Height
+            url: measure-soil-height
           - title: Camera Troubleshooting
             url: camera-troubleshooting
       - title: Tools
