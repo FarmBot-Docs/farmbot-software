@@ -11,13 +11,14 @@ The web app is a platform designed to give you unlimited control over how you us
 
 **Sequences** allow you to combine the most basic **commands** of FarmBot (such as moving or controlling a peripheral) into more complex actions requiring multiple **steps** (for example: picking up the watering nozzle, watering a plant, and then putting the tool away). When a sequence is initiated, FarmBot will execute all of the commands in the sequence (the steps) one after the other until the sequence is finished.
 
-<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D8tw6Qmu-WdI&src=http%3A%2F%2Fwww.youtube.com%2Fembed%2F8tw6Qmu-WdI&type=text%2Fhtml&key=f2aa6fc3595946d0afc3d76cbbd25dc3&schema=youtube" width="854" height="480" scrolling="no" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
+<iframe width="100%" height="450" src="https://www.youtube.com/embed/8tw6Qmu-WdI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 You can create sequences using the sequence editor as shown below. On the left of the screen is a list of all your sequences, which can be organized into folders. In the middle is the currently opened sequence. And on the right are the available commands that you can add to sequences.
 
 ![sequences page](_images/sequences_page.png)
 
 # Organizing sequences into folders
+
 Add a new folder in the top level by pressing the <span class="fb-button fb-green"><i class='fa fa-folder'></i></span> button next to the sequence search bar. To change the color of the folder, click the folder icon.
 
 ![folder color selection](_images/folder_color_selection.png)
@@ -33,11 +34,13 @@ To move sequences between folders, click or click and drag the <i class='fa fa-b
 ![sequence move icon](_images/sequence_move_icon.png)
 
 # Sequence editor options
+
 You can customize how the sequence editor works with the options in the <i class='fa fa-cog'></i> menu located to the left of the <span class="fb-button fb-yellow">COPY</span> button when a sequence is loaded into the editor. Each option is described in the tooltip shown when the <i class='fa fa-question-circle'></i> icon is clicked.
 
 # What's next?
 
  * [Sequence Commands](sequences/sequence-commands.md)
+ * [Advanced Sequence Commands](sequences/advanced-sequence-commands.md)
  * [Building a Sequence](sequences/building-a-sequence.md)
  * [Example Sequences](sequences/example-sequences.md)
  * [Variables](sequences/variables.md)

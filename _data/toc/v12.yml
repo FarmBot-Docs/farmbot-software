@@ -87,6 +87,8 @@ contents:
         pages:
           - title: Sequence Commands
             url: sequence-commands
+          - title: Advanced Sequence Commands
+            url: advanced-sequence-commands
           - title: Building a Sequence
             url: building-a-sequence
           - title: Example Sequences
