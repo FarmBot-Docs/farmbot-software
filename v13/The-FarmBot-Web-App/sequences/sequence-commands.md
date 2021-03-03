@@ -165,6 +165,13 @@ The <span class="fb-step fb-set-servo-angle">Control servo</span> command instru
 
 ![control servo](_images/control_servo.png)
 
+{%
+include callout.html
+type="pause"
+title="Pause for a moment"
+content='Because the microcontroller will not know when the servo has reached the desired **ANGLE**, you may need to use a <span class="fb-step fb-wait">Wait</span> command directly after the <span class="fb-step fb-set-servo-angle">Control servo</span> command to ensure the servo reaches its destination before FarmBot moves onto the next step in your sequence.'
+%}
+
 # Wait
 
 The <span class="fb-step fb-wait">Wait</span> command causes a delay before executing the next step in the sequence. This could be used to hold the solenoid valve open for FarmBot to water a plant for `2000` milliseconds (2 seconds), for example.
