@@ -15,11 +15,10 @@ title="For FarmBot Genesis bots only"
 content="Encoder settings are only available for FarmBot Genesis bots. FarmBot Express users should refer to the [stall detection](stall-detection.md) section."
 %}
 
-
-
 ![encoder settings](_images/encoder_settings.png)
 
 # Enable encoders
+
 FarmBot Genesis kits have rotary encoders built-in. The rotary encoders should be enabled by using these toggles. If you are experiencing troubles with your movements you might try to disable encoders for testing purposes. If you do not have encoders hooked up, you must have encoders disabled here otherwise your FarmBot will think it is stalling with every movement. Note that Homing and Calibration can only be used if encoders (or endstops) are enabled.
 
 {%
@@ -30,12 +29,15 @@ content="See [Rotary Encoders](../../FarmBot-OS/arduino-firmware/stall-detection
 %}
 
 # Use encoders for positioning
+
 Use the encoders for calculating movements in addition to using encoders for stall detection.
 
 # Invert encoders
+
 This setting will reverse the direction of encoder position reading. This can be used as a software fix in the event that you wired up an encoder or motor backwards, which causes FarmBot to think it is stalling with every movement because the encoder appears to be going the opposite direction of the motor. This setting is also used in combination with **INVERT MOTOR** if you want to invert a motor's movements using software.
 
 # Max missed steps
+
 Rotary encoders allow your FarmBot to know when an axis has stalled either due to the FarmBot reaching its physical end point or if it hits an obstruction such as a vine, toolbay, or your hand.
 
 The Max Missed Steps setting tells your FarmBot how many motor steps it needs to miss (as determined by the encoder feedback) before the motor is considered to have become stalled. A lower value will allow your FarmBot to stop the motors sooner when it stalls, which is desirable. However, setting the value too low could cause false alarms where FarmBot thinks it is stuck on something even though it is not.
@@ -43,6 +45,13 @@ The Max Missed Steps setting tells your FarmBot how many motor steps it needs to
 The default value for Max Missed Steps is 5 for each axis. While we have seen successful results with values as low as 2, 1, and the fabled 0, we recommend starting with 10 and slowly bringing the values down. If you start to see false stall alarms (where FarmBot thinks it is stuck on something but it isn't) then increase the value until there are no false alarms.
 
 # Missed step decay
+
+{%
+include callout.html
+type="info"
+content="This [advanced setting](../settings/parameter-management#show-advanced-settings) is not shown by default."
+%}
+
 FarmBot Genesis v1.2 and v1.3 utilized the Arduino MEGA 2560 chip to read and process encoder signals. When moving these FarmBots at high speeds (greater than 400 steps/s), it was possible to not detect every single encoder pulse due to limitations in the clock speed of the microprocessor. Because FarmBot counts the undetected encoder pulses as missed steps, the total number of missed steps could add up over long movements and cause a false stall alarm, even if no steps were actually missed.
 
 The Missed Step Decay value accounts for this shortcoming of the Arduino when moving the v1.2 and v1.3 FarmBots at high speeds. It works by reducing (decaying) the total count of missed steps by the Missed Step Decay value every time there is an encoder pulse detected. This allows FarmBot to dismiss the periodic encoder pulses that go undetected (and the corresponding false missed steps) and therefore prevent false stall alarms.
@@ -59,6 +68,13 @@ content="Starting with FarmBot Genesis v1.4, our custom Farmduino boards feature
 %}
 
 # Encoder scaling
+
+{%
+include callout.html
+type="info"
+content="This [advanced setting](../settings/parameter-management#show-advanced-settings) is not shown by default."
+%}
+
 The encoder scaling factor is used to match the encoder resolution with the motor resolution. The rotary encoders included with the stock FarmBots are 360 line/revolution. The stock motors are 200 step/revolution and used with full-step microstepping (a value of 1 in the equation below). For more information on microstepping, see [Microstepping](../../FarmBot-OS/arduino-firmware/microstepping.md).
 
 The encoder scaling factor is calculated as follows, and rounded to the nearest integer.

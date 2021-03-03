@@ -12,6 +12,7 @@ In this section you can change your name (displayed in the top right of the app)
 # App settings
 
 ## Internationalize web app
+
 Disable use of language files to translate web app text.
 
 {%
@@ -22,12 +23,19 @@ content="Interested in helping out? See the [instructions for submitting correct
 %}
 
 ## Use 24-hour time format
+
 Enabling this setting will display times using the 24-hour notation, i.e., 23:00 instead of 11:00pm.
 
+## Show seconds in time
+
+Enabling this setting will display times with seconds, i.e., 6:22:58pm instead of 6:22pm.
+
 ## Hide sections
+
 If you're not using an external webcam to monitor your FarmBot, you can remove the **webcams** section from the controls panel to save space. If your FarmBot does not have any sensors (such as FarmBot Express), you can hide the **sensors** panel as well.
 
 ## Read speak logs in browser
+
 <span class="fb-step fb-send-message">SEND MESSAGE</span> commands can optionally speak the message aloud. The audio can be heard from the Raspberry Pi's 3.5mm audio jack, and using this setting, output using your computer speakers as well.
 
 {%
@@ -38,12 +46,15 @@ content="This feature may not be available in some web browsers. We're sorry for
 %}
 
 ## Discard unsaved changes
+
 Enabling this setting will prevent a browser dialog from asking about unsaved work before closing the browser tab. Warning: may cause loss of data.
 
 ## Confirm emergency unlock
+
 Disabling this setting will prevent a browser dialog from asking for confirmation when using the <span class="fb-button fb-yellow">UNLOCK</span> button after an emergency stop.
 
 ## User interface read-only mode
+
 Enabling this setting will prevent data changes to your account, such as modifying or deleting sequences or garden layouts. This setting does not prevent Farmwares or FarmBot OS from changing settings, or the manual control buttons from working.
 
 This setting may be useful when setting up a demonstration computer for members of the public to control a FarmBot, or in a school setting where an instructor wishes to protect the account from accidental changes from students.
@@ -62,6 +73,7 @@ content="Resetting an account is irreversible."
 %}
 
 # Delete your account
+
 Permanently delete your account and all of its data. If you have a FarmBot connected to this account, it should be factory reset before the account is deleted. Otherwise you may need to reflash the microSD card to reconnect it to a new account.
 
 {%
@@ -72,9 +84,11 @@ content="Deleting an account is irreversible. If you have a FarmBot connected to
 %}
 
 # Exporting data
+
 Download all of your web app account data. Exported data is delivered in JSON format to your email address as a file attachment.
 
 # Account limitations
+
 All accounts at my.farm.bot have the following limitations:
 
 |Resource                      |Limit                         |Notes                         |
@@ -87,6 +101,7 @@ All accounts at my.farm.bot have the following limitations:
 |Images (viewable)             |450                           |
 
 # Automatic account deletion
+
 As a matter of security, web app accounts that are not being used are subject to **automatic deletion** with the following process:
 
 **1) Checking for eligibility**

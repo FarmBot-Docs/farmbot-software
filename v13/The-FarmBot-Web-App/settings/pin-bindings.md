@@ -22,16 +22,12 @@ title=""
 content="Upon saving a pin binding, the action or sequence you chose will be triggered once automatically so that you can verify the result."
 %}
 
-
-
 {%
 include callout.html
 type="warning"
 title="Warning"
 content="Binding to a pin without a physical button and pull-down resistor connected may put FarmBot into an unstable state."
 %}
-
-
 
 {%
 include callout.html
@@ -42,4 +38,5 @@ content="* Sequences must be synced to the device before use in a pin binding.
 %}
 
 # Deleting a pin binding
+
 To delete a pin binding, press the <span class="fb-button fb-red"><i class='fa fa-times'></i></span> button.

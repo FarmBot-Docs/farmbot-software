@@ -11,9 +11,11 @@ description: "Device name and software updates.\n[Open these settings in the app
 ![farmbot settings](_images/farmbot_settings.png)
 
 # Name
+
 Give your FarmBot a fun name. For example: `Broccoli Overlord` 🥦 🤖
 
 # Timezone
+
 Set the device's timezone.
 
 {%
@@ -24,11 +26,13 @@ content="When you create your FarmBot web app account and login for the first ti
 %}
 
 # Update time
+
 With this dropdown you can choose the hour of the day when FarmBot will apply software updates so that updates occur at a convenient time (such as the middle of the night) when you do not have any events scheduled and do not plan to be working with your FarmBot.
 
 You may also choose the `As soon as possible` option, in which case FarmBot will install updates immediately as they become available. Note that selecting this option may cause unexpected disruptions and event execution failures.
 
 # Auto update
+
 When enabled, FarmBot OS will automatically download and install software updates at the chosen time.
 
 {%
@@ -39,6 +43,7 @@ content="This setting is enabled by default so that your FarmBot will stay updat
 %}
 
 # FarmBot OS
+
 View the version of FarmBot OS that you have installed on your device, that version's release notes, and install updates if they are available using the <span class="fb-button fb-green">UPDATE</span> button. Note that the update button will display as <span class="fb-button fb-gray">UP TO DATE</span> when there are no updates available.
 
 # What's next?

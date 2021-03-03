@@ -49,7 +49,7 @@ Some settings are not shown by default because they are only useful in very spec
 {%
 include callout.html
 type="info"
-content="This [advanced setting](../parameter-management#show-advanced-settings) is not shown by default."
+content="This [advanced setting](../settings/parameter-management#show-advanced-settings) is not shown by default."
 %}
 
 Disable this toggle to hide the high-visibility border around every parameter
