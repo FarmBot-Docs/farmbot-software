@@ -17,31 +17,18 @@ content="Stall detection settings are only available for FarmBot Express bots. F
 
 The **stall detection** feature for FarmBot Express bots utilizes the Trinamic TMC2130 stepper drivers’ capability of measuring back-current as a way of determining motor load, and thus when a stall has occurred. For more details, see the [stall detection hardware page](../../FarmBot-OS/arduino-firmware/stall-detection-hardware.md).
 
-{%
-include callout.html
-type="warning"
-title="BETA"
-content="Stall detection for FarmBot Express bots is now available as a public beta. While you may enable stall detection for all three axes, you may not achieve desirable or consistent results for some or any of the axes. If you experience any issues, we advise you to wait until there are further updates. We are working hard to improve this system and thank you for your patience. Feedback is appreciated and may be provided on the community forum."
-%}
+When tuning stall detection, here are some tips:
 
-Thus far we recommend a **STALL SENSITIVITY** of 63 (least sensitive), a **MAX MOTOR LOAD** of 60 (out of 100), and a **GRACE PERIOD** of 100 steps to ignore during acceleration. We may change, add, or remove tuning parameters based on additional testing and feedback, but here’s what you may be able to expect today:
-
-  * Stall detection is very sensitive to speed. I am running my motors quickly (~180mm/s on X and Y) to achieve good results. Going slower usually makes the driver think it is under heavier load; which we’re still investigating. Because speed is low and load is high during acceleration, you can increase GRACE PERIOD to ignore the accelerating portion of a movement. You may also shorten the distance the bot accelerates for.
+  * Stall detection is very sensitive to speed. In general, you will need to run the motors quickly to achieve good results. Going slower usually makes the stepper driver think it is under heavier load. Because speed is low and load is high during acceleration, you can increase **GRACE PERIOD** to ignore the accelerating portion of a movement. You may also shorten the distance the bot accelerates for.
   * Stall detection is very sensitive to motor current. Play around!
-  * Changing sensitivity seems to have little effect in most scenarios, but we’re curious what your results are.
 
-The bot considers that it has stalled when the motor load goes over the **MAX MOTOR LOAD**.
-Each axis will need different settings, and you may not find settings that give good results yet for some or all of the axes. If so, just disable stall detection for now until the next update.
+The bot considers that it has stalled when the motor load goes over the **MAX MOTOR LOAD**. Each axis will need different settings, and you may not find settings that give good results for all of the axes. If so, just disable stall detection for now until the next software update that includes improvements to the stall detection system.
 
 ![stall detection settings](_images/stall_detection_settings.png)
 
 # Enable stall detection
 
 Enable use of motor stall detection for detecting missed steps, finding axis length, and finding home.
-
-# Stall sensitivity
-
-These values change how sensitive the stepper driver is when determining if a motor has stalled. Changing the value currently has only a small effect on performance. It is recommended to keep the value set to 63, which is the least sensitive. Changing this to a more sensitive value will likely cause increased false stall detection.
 
 # Max motor load
 
