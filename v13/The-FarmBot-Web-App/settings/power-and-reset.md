@@ -56,7 +56,7 @@ content="Hard resetting your FarmBot will not affect any of your data or setting
 {%
 include callout.html
 type="info"
-content="This [advanced setting](../settings/parameter-management#show-advanced-settings) is not shown by default."
+content="This [advanced setting](../settings/parameter-management.md#show-advanced-settings) is not shown by default."
 %}
 
 Automatically soft reset when the WiFi network cannot be detected. Useful for network changes. Keep this setting disabled to allow FarmBot to wait indefinitely for the configured WiFi network to come back online if it disconnects.
@@ -66,7 +66,7 @@ Automatically soft reset when the WiFi network cannot be detected. Useful for ne
 {%
 include callout.html
 type="info"
-content="This [advanced setting](../settings/parameter-management#show-advanced-settings) is not shown by default."
+content="This [advanced setting](../settings/parameter-management.md#show-advanced-settings) is not shown by default."
 %}
 
 For use with **AUTOMATIC SOFT RESET**: set the time in minutes to attempt connecting to WiFi before a soft reset.

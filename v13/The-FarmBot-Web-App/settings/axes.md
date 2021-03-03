@@ -63,7 +63,7 @@ If values are inputted using the **AXIS LENGTH** setting, FarmBot will stop at t
 {%
 include callout.html
 type="info"
-content="This [advanced setting](../settings/parameter-management#show-advanced-settings) is not shown by default."
+content="This [advanced setting](../settings/parameter-management.md#show-advanced-settings) is not shown by default."
 %}
 
 This setting will allow movements to only occur in negative coordinates for the chosen axis. This is most useful for the z-axis if you want your home position to be at the highest point and for FarmBot to move down into negative coordinates.

@@ -10,7 +10,7 @@ description: "[Open these settings in the app](https://my.farm.bot/app/designer/
 {%
 include callout.html
 type="info"
-content="These [advanced settings](../settings/parameter-management#show-advanced-settings) are not shown by default."
+content="These [advanced settings](../settings/parameter-management.md#show-advanced-settings) are not shown by default."
 %}
 
 **Limit switches**, are small switches or sensors that are used to tell a machine if it has reached an end position (home or an axis maximum).

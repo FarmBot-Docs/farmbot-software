@@ -79,7 +79,7 @@ This setting changes the direction of the second x-axis motor in case it is wire
 {%
 include callout.html
 type="info"
-content="This [advanced setting](../settings/parameter-management#show-advanced-settings) is not shown by default."
+content="This [advanced setting](../settings/parameter-management.md#show-advanced-settings) is not shown by default."
 %}
 
 This setting tells FarmBot how many motor steps it takes to move 1mm along an axis. The default value is 5 steps/mm for the belt-driven (X and Y) axes, and 25 steps/mm for the leadscrew-driven (Z) axis, but may be changed for custom setups.

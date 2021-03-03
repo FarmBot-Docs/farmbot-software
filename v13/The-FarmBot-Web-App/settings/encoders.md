@@ -49,7 +49,7 @@ The default value for Max Missed Steps is 5 for each axis. While we have seen su
 {%
 include callout.html
 type="info"
-content="This [advanced setting](../settings/parameter-management#show-advanced-settings) is not shown by default."
+content="This [advanced setting](../settings/parameter-management.md#show-advanced-settings) is not shown by default."
 %}
 
 FarmBot Genesis v1.2 and v1.3 utilized the Arduino MEGA 2560 chip to read and process encoder signals. When moving these FarmBots at high speeds (greater than 400 steps/s), it was possible to not detect every single encoder pulse due to limitations in the clock speed of the microprocessor. Because FarmBot counts the undetected encoder pulses as missed steps, the total number of missed steps could add up over long movements and cause a false stall alarm, even if no steps were actually missed.
@@ -72,7 +72,7 @@ content="Starting with FarmBot Genesis v1.4, our custom Farmduino boards feature
 {%
 include callout.html
 type="info"
-content="This [advanced setting](../settings/parameter-management#show-advanced-settings) is not shown by default."
+content="This [advanced setting](../settings/parameter-management.md#show-advanced-settings) is not shown by default."
 %}
 
 The encoder scaling factor is used to match the encoder resolution with the motor resolution. The rotary encoders included with the stock FarmBots are 360 line/revolution. The stock motors are 200 step/revolution and used with full-step microstepping (a value of 1 in the equation below). For more information on microstepping, see [Microstepping](../../FarmBot-OS/arduino-firmware/microstepping.md).
