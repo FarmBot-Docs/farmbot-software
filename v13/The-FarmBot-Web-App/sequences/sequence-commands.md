@@ -188,17 +188,23 @@ The <span class="fb-step fb-send-message">Send Message</span> command instructs 
 
 ![send message](_images/send_message.png)
 
-# E-stop
-
-The <span class="fb-step fb-e-stop">E-stop</span> command instructs FarmBot to stop operations (halt motor movements and turn off peripherals). To continue operations, you will need to manually unlock the device.
-
-![e-stop](_images/e-stop.png)
-
 # Reboot
 
 The <span class="fb-step fb-reboot">Reboot</span> command instructs FarmBot to power cycle the onboard computer.
 
 ![reboot](_images/reboot.png)
+
+# Shutdown
+
+The <span class="fb-step fb-shutdown">Shutdown</span> command instructs FarmBot to shut down the onboard computer. To turn it back on, unplug FarmBot and plug it back in.
+
+![shutdown](_images/shutdown.png)
+
+# E-stop
+
+The <span class="fb-step fb-e-stop">E-stop</span> command instructs FarmBot to stop operations (halt motor movements and turn off peripherals). To continue operations, you will need to manually unlock the device.
+
+![e-stop](_images/e-stop.png)
 
 # Find home
 
@@ -232,9 +238,9 @@ title=""
 content="**ENCODERS**, **STALL DETECTION**, or **LIMIT SWITCHES** must be <span class=\"fb-peripheral-on\">ON</span> for FarmBot to automatically find axis lengths."
 %}
 
-# If
+# If statement
 
-The <span class="fb-step fb-if-statement">If...</span> command allows FarmBot to check if a condition is true or false and take an action based on the results. This allows for smarter, condition based farming, and for gracefully handling errors and failures.
+The <span class="fb-step fb-if-statement">If Statement</span> command allows FarmBot to check if a condition is true or false and take an action based on the results. This allows for smarter, condition based farming, and for gracefully handling errors and failures.
 
 If the condition that FarmBot checks is true, you can instruct FarmBot to execute another sequence or do nothing, in which case FarmBot will continue to the next step in the current sequence. If the condition that FarmBot checks is false, you can also instruct FarmBot to execute another sequence or do nothing.
 
@@ -257,17 +263,17 @@ title="Pro tip"
 content="You can drag and drop existing sequences from the **sequences list** into an open sequence in the **full sequence editor** to add an <span class=\"fb-step fb-execute\">Execute Sequence</span> step with that sequence selected."
 %}
 
-# Run farmware
-
-The <span class="fb-step fb-run-farmware">Run Farmware</span> command instructs FarmBot to run a [farmware](../farmware.md). To use the command, select which farmware you would like to run from the **PACKAGE NAME** dropdown. Or, select `Manual Input` and type in the name of the package, for example, `plant-detection`.
-
-![run farmware](_images/run_farmware.png)
-
 # Detect weeds
 
 The <span class="fb-step fb-run-farmware">Detect Weeds</span> command instructs FarmBot to take a photo and run the weed detection software. After taking the photo and processing it, FarmBot will upload it to the web app, along with the coordinates from where the photo was taken, the date and time. FarmBot will also add any weeds that it identified to the **PENDING** category in the weeds panel.
 
 ![detect weeds](_images/detect_weeds.png)
+
+# Measure soil height
+
+The <span class="fb-step fb-run-farmware">Measure Soil Height</span> command instructs FarmBot to take two photos from slightly different locations to simulate using a stereoscopic camera and then determine the average height of the soil viewable in the photos. See the [measure soil height page](../photos/measure-soil-height.md) for more information.
+
+![measure soil height](_images/measure_soil_height.png)
 
 # Take photo
 
