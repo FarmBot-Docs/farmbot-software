@@ -33,6 +33,20 @@ To move sequences between folders, click or click and drag the <i class='fa fa-b
 
 ![sequence move icon](_images/sequence_move_icon.png)
 
+# Pinned sequences
+
+You can **pin** frequently used sequences by pressing the <i class='fa fa-thumb-tack'></i> icon in the edit sequence header.
+
+![pinned sequence](_images/pinned_sequence.png)
+
+Pinned sequences will appear at the bottom of the Add Command panel so that you may quickly add them to other sequences.
+
+![pinned sequences in add command panel](_images/pinned_sequences_in_add_command_panel.png)
+
+Pinned sequences are also listed in a section on the controls panel with associated <span class="fb-button fb-orange">RUN</span> buttons so that you may quickly manually execute these sequences.
+
+![pinned sequences in add controls panel](_images/pinned_sequences_in_controls_panel.png)
+
 # Sequence editor options
 
 You can customize how the sequence editor works with the options in the <i class='fa fa-cog'></i> menu located in the edit sequence header.
