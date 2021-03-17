@@ -33,9 +33,32 @@ To move sequences between folders, click or click and drag the <i class='fa fa-b
 
 ![sequence move icon](_images/sequence_move_icon.png)
 
+# Pinned sequences
+
+You can **pin** frequently used sequences by pressing the <i class='fa fa-thumb-tack'></i> icon in the edit sequence header.
+
+![pinned sequence](_images/pinned_sequence.png)
+
+Pinned sequences will appear at the bottom of the Add Command panel so that you may quickly add them to other sequences.
+
+![pinned sequences in add command panel](_images/pinned_sequences_in_add_command_panel.png)
+
+Pinned sequences are also listed in a section on the controls panel with associated <span class="fb-button fb-orange">RUN</span> buttons so that you may quickly manually execute these sequences.
+
+![pinned sequences in add controls panel](_images/pinned_sequences_in_controls_panel.png)
+
 # Sequence editor options
 
-You can customize how the sequence editor works with the options in the <i class='fa fa-cog'></i> menu located to the left of the <span class="fb-button fb-yellow">COPY</span> button when a sequence is loaded into the editor. Each option is described in the tooltip shown when the <i class='fa fa-question-circle'></i> icon is clicked.
+You can customize how the sequence editor works with the options in the <i class='fa fa-cog'></i> menu located in the edit sequence header.
+
+![sequence editor options](_images/sequence_editor_options.png)
+
+* **CONFIRM STEP DELETION** - Show a confirmation dialog when deleting a sequence step.
+* **CONFIRM SEQUENCE DELETION**- Show a confirmation dialog when deleting a sequence.
+* **SHOW PINS** - Show raw pin lists (eg: `Pin 13`) in <span class="fb-step fb-read-pin">Read Sensor</span>, <span class="fb-step fb-write-pin">Control Peripheral</span>, and <span class="fb-step fb-if-statement">If Statement</span> steps.
+* **OPEN OPTIONS BY DEFAULT** - Choose whether advanced step options are open or closed by default.
+* **DISCARD UNSAVED SEQUENCE CHANGES** - Don't ask about saving sequence work before closing browser tab. Warning: may cause loss of data.
+* **VIEW CELERYSCRIPT** - View raw data representation of sequence steps or the entire sequence. Useful for software developers. Once this toggle is set to <span class="fb-peripheral-on">YES</span>, you may switch between the raw celerysript and normal views of individual sequence steps or the entire sequence by clicking the <i class='fa fa-code'></i> buttons in the sequence or step headers.
 
 # What's next?
 

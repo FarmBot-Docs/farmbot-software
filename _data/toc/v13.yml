@@ -68,9 +68,9 @@ contents:
       - title: Photos
         url: photos
         pages:
-          - title: Filter map photos
+          - title: Filter Map Photos
             url: filter-map-photos
-          - title: Camera settings
+          - title: Camera Settings
             url: camera-settings
           - title: Camera Calibration
             url: camera-calibration
