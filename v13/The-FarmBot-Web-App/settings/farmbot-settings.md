@@ -14,6 +14,17 @@ description: "Device name and software updates.\n[Open these settings in the app
 
 Give your FarmBot a fun name. For example: `Broccoli Overlord` 🥦 🤖
 
+# Order number
+
+By registering your original FarmBot **ORDER NUMBER** with your web app account you will receive prioritized help should you run into any issues.
+
+{%
+include callout.html
+type="warning"
+title=""
+content="We have limited capacity to help users of the app that did not purchase hardware from [farm.bot](https://farm.bot)."
+%}
+
 # Timezone
 
 Set the device's timezone.
