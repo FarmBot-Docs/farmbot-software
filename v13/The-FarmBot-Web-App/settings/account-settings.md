@@ -74,13 +74,13 @@ content="Resetting an account is irreversible."
 
 # Delete your account
 
-Permanently delete your account and all of its data. If you have a FarmBot connected to this account, it should be factory reset before the account is deleted. Otherwise you may need to reflash the microSD card to reconnect it to a new account.
+Permanently delete your account and all of its data. If you have a FarmBot connected to this account, it should be soft reset before the account is deleted. Otherwise you may need to reflash the microSD card to reconnect it to a new account.
 
 {%
 include callout.html
 type="danger"
 title=""
-content="Deleting an account is irreversible. If you have a FarmBot connected to this account, it should be factory reset before the account is deleted. Otherwise you may need to reflash the microSD card to reconnect it to a new account."
+content="Deleting an account is irreversible. If you have a FarmBot connected to this account, it should be soft reset before the account is deleted. Otherwise you may need to reflash the microSD card to reconnect it to a new account."
 %}
 
 # Exporting data

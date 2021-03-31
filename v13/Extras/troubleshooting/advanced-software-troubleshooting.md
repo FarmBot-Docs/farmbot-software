@@ -10,7 +10,7 @@ slug: "advanced-software-troubleshooting"
 
 When your device has software problems, it's best to perform a software reset before investigating. There are two ways to perform a reset of FarmBot's software, **but only one way is recommended when investigating software problems**.
 
-**Soft reset:** A soft reset is performed by clicking the <span class="fb-button fb-red">FACTORY RESET</span> button in the web app. It is only useful for simple tasks like changing WiFi passwords. It is not appropriate for diagnosing software problems or starting a device from a "clean slate" because it will not remove all configuration data from an SD card. **Do not use the FACTORY RESET button if you are troubleshooting a software problem.** You should instead perform a "hard reset".
+**Soft reset:** A soft reset is performed by clicking the <span class="fb-button fb-red">SOFT RESET</span> button in the web app. It is only useful for simple tasks like changing WiFi passwords. It is not appropriate for diagnosing software problems or starting a device from a "clean slate" because it will not remove all configuration data from an SD card. **Do not use the SOFT RESET button if you are troubleshooting a software problem.** You should instead perform a "hard reset".
 
 **Hard reset:** A hard reset will cleanly re-write FarmBot OS to an SD card. It will overwrite corrupt data and is the preferred method to perform a reset when a device is having software problems.
 
