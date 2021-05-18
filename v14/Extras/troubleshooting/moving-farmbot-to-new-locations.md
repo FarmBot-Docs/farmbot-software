@@ -31,6 +31,6 @@ Once you have finished configuration, you should be able to log in to your FarmB
 
 If your device does not come online after configuration, this may be a sign that the WiFi is not suitable for use with FarmBot. There are two means of rectifying the situation:
 
- * Contact IT staff and ask about security software that blocks outbound access to internet protocols such as HTTP, DNS, NTP, MQTT and AMQP. FarmBot has prepared a document to assist IT professionals [here](for-it-security-professionals.md).
+ * Contact IT staff and ask about security software that blocks outbound access to internet protocols such as HTTP, DNS, NTP, and MQTT. FarmBot has prepared a document to assist IT professionals [here](for-it-security-professionals.md).
  * Purchase a commercial wireless hotspot that exposes a WiFi network which FarmBot can reliably use. Please note that FarmBot does not currently support USB tethering - the hotspot must expose a WiFi network.
  * Use a phone to create a wireless hotspot using your cellular data connection. Note that you may want to disable automatic software updates during the event to avoid increased data usage.

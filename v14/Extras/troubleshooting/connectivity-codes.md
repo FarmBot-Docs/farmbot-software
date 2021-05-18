@@ -115,9 +115,9 @@ Your browser is connected correctly, but we have no recent record of FarmBot con
 
    If you entered a wrong E-mail and/or Password in this step you will need to re-flash your SD card and start the configurator process again.
 
-   Also there is a chance that your local network does not allow access to AMQP, MQTT, NTP and/or https://my.farm.bot.
+   Also there is a chance that your local network does not allow access to MQTT, NTP and/or https://my.farm.bot.
 
-   1. AMQP (PORT: 5672) or MQTT (PORT: 8883) is a blocked port. Unblock this port to resolve this issue. This may require help from your IT professionals.
+   1. MQTT (PORT: 8883) is a blocked port. Unblock this port to resolve this issue. This may require help from your IT professionals.
 
    2. For NTP issues the FarmBot users will see log entries that say "expired certificate" and the logs coming from the device will not have the correct time. If you have this issue contact FarmBot technical support.
 
@@ -135,19 +135,19 @@ Your browser is connected correctly, but we have no recent record of FarmBot con
 
 # Code 10
 ```
-FarmBot and the browser are both connected to the internet (or have been recently). Try rebooting FarmBot and refreshing the browser. If the issue persists, something may be preventing FarmBot from accessing the message broker (used to communicate with your web browser in real-time). If you are on a company or school network, a firewall may be blocking port 5672 or 8883.
+FarmBot and the browser are both connected to the internet (or have been recently). Try rebooting FarmBot and refreshing the browser. If the issue persists, something may be preventing FarmBot from accessing the message broker (used to communicate with your web browser in real-time). If you are on a company or school network, a firewall may be blocking port 8883.
 ```
 
 **Corrective Action**:
 1. Try rebooting FarmBot and refreshing the browser.
-2. A firewall may be blocking port 5672 or 8883. Check these ports to see if they are blocked. If you are a company or a school please have your IT professional review [this document](for-it-security-professionals.md).
+2. A firewall may be blocking port 8883. Check these ports to see if they are blocked. If you are a company or a school please have your IT professional review [this document](for-it-security-professionals.md).
 3. On FarmBot Genesis 1.4+ or FarmBot Express check the blue LED communication light. You have blocked ports if the blue LED is OFF <span class="fa fa-circle-thin led blue"></span> and the green LED is on <span class="fa fa-circle led green"></span>. (Only FarmBot Genesis v1.4+ and FarmBot Express models have this diagnostic green and blue LEDs.)
 
 Please review our [troubleshooting document](connecting-farmbot-to-the-internet.md).
 
 # Code 11
 ```
-FarmBot and the browser are both connected to the internet (or have been recently). Try rebooting FarmBot and refreshing the browser. If the issue persists, something may be preventing FarmBot from accessing the message broker (used to communicate with your web browser in real-time). If you are on a company or school network, a firewall may be blocking port 5672 or 8883.
+FarmBot and the browser are both connected to the internet (or have been recently). Try rebooting FarmBot and refreshing the browser. If the issue persists, something may be preventing FarmBot from accessing the message broker (used to communicate with your web browser in real-time). If you are on a company or school network, a firewall may be blocking port 8883.
 ```
 
 **Corrective Action**: See [Code 10](#code-10)
@@ -264,14 +264,14 @@ Your browser is connected correctly, but we have no recent record of FarmBot con
 
 # Code 26
 ```
-FarmBot and the browser are both connected to the internet (or have been recently). Try rebooting FarmBot and refreshing the browser. If the issue persists, something may be preventing FarmBot from accessing the message broker (used to communicate with your web browser in real-time). If you are on a company or school network, a firewall may be blocking port 5672 or 8883.
+FarmBot and the browser are both connected to the internet (or have been recently). Try rebooting FarmBot and refreshing the browser. If the issue persists, something may be preventing FarmBot from accessing the message broker (used to communicate with your web browser in real-time). If you are on a company or school network, a firewall may be blocking port 8883.
 ```
 
 **Corrective Action**: See [Code 10](#code-10)
 
 # Code 27
 ```
-FarmBot and the browser are both connected to the internet (or have been recently). Try rebooting FarmBot and refreshing the browser. If the issue persists, something may be preventing FarmBot from accessing the message broker (used to communicate with your web browser in real-time). If you are on a company or school network, a firewall may be blocking port 5672 or 8883.
+FarmBot and the browser are both connected to the internet (or have been recently). Try rebooting FarmBot and refreshing the browser. If the issue persists, something may be preventing FarmBot from accessing the message broker (used to communicate with your web browser in real-time). If you are on a company or school network, a firewall may be blocking port 8883.
 ```
 
 **Corrective Action**: See [Code 10](#code-10)

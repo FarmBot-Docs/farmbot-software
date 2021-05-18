@@ -58,22 +58,6 @@ This setting controls the number of steps used for the acceleration and decelera
 
 For the Z-axis, you can also set the **ACCELERATE FOR TOWARD HOME** independently from the accleration for travelling away from the home position. This is especially useful for the Z-axis because the motor will either be fighting against or working with gravity depending on the direction of movement.
 
-# Always power motors
-
-Enabling this setting will keep power applied to the motors at all times. This is most useful to prevent the z-axis from slipping down due to the force of gravity when FarmBot is idle. It can also be used to help prevent animals or children from moving one of FarmBot's axes when it is idle.
-
-# Invert motors
-
-This inverts the direction that the motors move for the chosen axis. Changing this setting will usually require you to change the setting of **INVERT ENCODERS** as well. You also might need to use this setting in combination with **INVERT ENDPOINTS** and **NEGATIVE COORDINATES ONLY** to set your FarmBot coordinate system exactly how you want it.
-
-# Enable second x-axis motor
-
-This should be enabled for standard FarmBots that use two motors to drive the x-axis (gantry).
-
-# Invert the second x-axis motor
-
-This setting changes the direction of the second x-axis motor in case it is wired backwards.
-
 # Steps per mm
 
 {%
@@ -107,3 +91,27 @@ For the stock belt-driven (X and Y) axes, the equation works out to:
 For the stock leadscrew-driven (Z) axis:
 **Steps per mm** = 200 x 1 / 8 = **25 steps/mm**"
 %}
+
+# Always power motors
+
+Enabling this setting will keep power applied to the motors at all times. This is most useful to prevent the z-axis from slipping down due to the force of gravity when FarmBot is idle. It can also be used to help prevent animals or children from moving one of FarmBot's axes when it is idle.
+
+# Invert motors
+
+This inverts the direction that the motors move for the chosen axis. Changing this setting will usually require you to change the setting of **INVERT ENCODERS** as well. You also might need to use this setting in combination with **INVERT ENDPOINTS** and **NEGATIVE COORDINATES ONLY** to set your FarmBot coordinate system exactly how you want it.
+
+# Motor current
+
+Motor current in milliamps. (Only available for Genesis v1.4+ and Express v1.0+ kits)
+
+# Quiet mode
+
+Enable quiet motors. (Only available for Genesis v1.4+ and Express v1.0+ kits)
+
+# Enable second x-axis motor
+
+This should be enabled for standard FarmBots that use two motors to drive the x-axis (gantry).
+
+# Invert the second x-axis motor
+
+This setting changes the direction of the second x-axis motor in case it is wired backwards.

@@ -43,15 +43,6 @@ You can customize whether or not FarmBot sends some types of logs or not by usin
 
 ![log settings menu](_images/log_settings_menu.png)
 
-
-
-{%
-include callout.html
-type="warning"
-title="Warning"
-content="The firmware sends a high volume of messages during normal FarmBot OS communication. Logging these messages may slow down the web app considerably. It is recommended to use this toggle sparingly and disable `Received` logs when you are done."
-%}
-
 # Log limits
 In order to provide the best possible web application experience to all users, we have implemented the following limitations to the number of logs a FarmBot can store to the web app within a given time period.
 

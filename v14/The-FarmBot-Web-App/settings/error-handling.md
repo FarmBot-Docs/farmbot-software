@@ -25,6 +25,14 @@ content="Do not set the timeout times to extremely high values (such as 20,000 s
 
 The number of times that FarmBot will try to move to a position before stopping and reporting that the movement has failed.
 
+# Calibration retries
+
+Number of times to retry calibration.
+
+# Calibration retry reset distance
+
+Distance in millimeters to group calibration retries. If the distance travelled while detecting the axis end location exceeds this value, the calibration retry counter is reset.
+
 # E-stop on movement error
 
 Emergency stop if movement is not complete after the maximum number of retries. If enabled and the retries are exhausted, you will need to unlock the device by pressing the <span class="fb-button fb-yellow">UNLOCK</span> button in the main navbar.
