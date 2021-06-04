@@ -75,6 +75,5 @@ Click the <i class='fa fa-chevron-up'></i> icon to switch between quick and full
  * [Controls](controls.md)
  * [Sensors](sensors.md)
  * [Photos](photos.md)
- * [Farmware](farmware.md)
  * [Tools](tools.md)
  * [Settings](settings.md)

@@ -55,7 +55,7 @@ Disabling this setting will prevent a browser dialog from asking for confirmatio
 
 ## User interface read-only mode
 
-Enabling this setting will prevent data changes to your account, such as modifying or deleting sequences or garden layouts. This setting does not prevent Farmwares or FarmBot OS from changing settings, or the manual control buttons from working.
+Enabling this setting will prevent data changes to your account, such as modifying or deleting sequences or garden layouts. This setting does not prevent FarmBot OS from changing settings, or the manual control buttons from working.
 
 This setting may be useful when setting up a demonstration computer for members of the public to control a FarmBot, or in a school setting where an instructor wishes to protect the account from accidental changes from students.
 
