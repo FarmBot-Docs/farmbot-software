@@ -50,23 +50,3 @@ type="success"
 title="Your web app data is safe"
 content="Hard resetting your FarmBot will not affect any of your data or settings from your web app account, allowing you to do a complete restore to your device once it is back online and paired with your web app account."
 %}
-
-# Automatic soft reset
-
-{%
-include callout.html
-type="info"
-content="This [advanced setting](../settings/parameter-management.md#show-advanced-settings) is not shown by default."
-%}
-
-Automatically soft reset when the WiFi network cannot be detected. Useful for network changes. Keep this setting disabled to allow FarmBot to wait indefinitely for the configured WiFi network to come back online if it disconnects.
-
-# Connection attempt period
-
-{%
-include callout.html
-type="info"
-content="This [advanced setting](../settings/parameter-management.md#show-advanced-settings) is not shown by default."
-%}
-
-For use with **AUTOMATIC SOFT RESET**: set the time in minutes to attempt connecting to WiFi before a soft reset.
