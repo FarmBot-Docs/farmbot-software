@@ -44,7 +44,7 @@ title="For advanced users only"
 
 Some settings are not shown by default because they are only useful in very special circumstances and can cause problems for non-advanced users. To show advanced settings, turn <span class="fb-peripheral-on">ON</span> the **SHOW ADVANCED SETTINGS** toggle.
 
-# Highlight settings modified from default
+# Highlight modified settings
 
 {%
 include callout.html

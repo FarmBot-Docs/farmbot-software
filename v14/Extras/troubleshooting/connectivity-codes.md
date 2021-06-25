@@ -105,7 +105,7 @@ Your browser is connected correctly, but we have no recent record of FarmBot con
 
 **Corrective Action**:
 1. Check the WiFi signal to the FarmBot. If you are having trouble with your internet connection please connect using an Ethernet cable or see our troubleshooting document for more information: https://software.farm.bot/docs/connecting-farmbot-to-the-internet
-2. Judging by your network error code you entered a bad email or password while configuring and the device cannot connect to the server. Check to make sure that you have not entered a bad password during configuration.
+2. Judging by your network connectivity code you entered a bad email or password while configuring and the device cannot connect to the server. Check to make sure that you have not entered a bad password during configuration.
 
    In this step of the configurator we expect that there was likely an error with the E-mail and/or Password. Please see the graphic below.
 
