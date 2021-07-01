@@ -70,7 +70,7 @@ You may also open the [profile viewer](../farm-designer.md#profile-viewer) and c
 
 # Use soil height
 
-After checking the detected soil points and removing or adjusting any outliers, open the [soil height points list](../points.md#soil-height-points) and press the <span class="fb-button fb-blue">USE AVERAGE Z</span> button to apply the average detected soil height to the [**SOIL HEIGHT**](../settings/axes.md#soil-height) value in the settings panel.
+After checking the detected soil points and removing or adjusting any outliers, open the [soil height points list](../points.md#soil-height-points) and press the <span class="fb-button fb-blue">USE AVERAGE Z</span> button to apply the average detected soil height to the [**FALLBACK SOIL HEIGHT**](../settings/axes.md#fallback-soil-height) value in the settings panel.
 
 Then, from any <span class="fb-step fb-move">Move</span> command in your sequences, select Soil height in the z-coordinate **OVERRIDE** dropdown.
 
