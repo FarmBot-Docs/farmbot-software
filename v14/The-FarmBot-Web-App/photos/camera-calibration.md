@@ -30,7 +30,7 @@ Place the **camera calibration card** on the surface of the soil in your garden 
 ![camera calibration card in bed](_images/camera_calibration_card_in_bed.jpg)
 
 ## Step 2: Calibrate
-From the [controls panel](../controls/move.md), move FarmBot directly over the camera calibration card and raise the z-axis as high as it will go. Now open the [photos panel](https://my.farm.bot/app/designer/photos) and scroll down to the **camera calibration** section. Expand the section and press the <span class="fb-button fb-green">calibrate</span> button. FarmBot will take a photo, then move 100mm in the +Y direction, take another photo, move 100mm in the +X direction, take a 3rd photo, and then move back to where it started.
+From the [controls panel](../controls/move.md), move FarmBot directly over the camera calibration card and raise the z-axis as high as it will go. Now open the [photos panel](https://my.farm.bot/app/designer/photos) and scroll down to the **camera calibration** section. Expand the section and press the <span class="fb-button fb-green">calibrate</span> button. FarmBot will take a photo, then move 50mm in the +Y direction, take another photo, move 50mm in the +X direction, take a 3rd photo, and then move back to where it started.
 
 {%
 include callout.html
@@ -46,10 +46,10 @@ Once calibration is finished, FarmBot will upload the resulting calibrated image
 If FarmBot is unable to detect the dot grid in any of the images, it will upload the problematic image and then move back to where it started. Inspect the image and make adjustments before retrying calibration. There are two main reasons FarmBot will not find the dot grid:
 
 ### Dot grid is outside the camera's field of view
-If the camera calibration card was outside of the camera's field of view, or too far from the center of the image, then FarmBot may not detect it. Try moving the card a small amount (25mm) towards the center of the camera's field of view and retrying calibration.
+If the camera calibration card was outside of the camera's field of view, or too far from the center of the image, then FarmBot may not detect it. Try moving the card a small amount (25mm) towards the center of the camera's field of view and retrying calibration. Also ensure the card is not obstructed or bent--the entire pattern should be clearly visible to the camera.
 
 ### Poor lighting
-If the lighting in the image is too bright or too dim, FarmBot will have trouble detecting the dot grid. To increase lighting, you may try toggling <span class="fb-peripheral-on">ON</span> FarmBot's LED light strip, or waiting for another time of the day. To decrease lighting, you may try waiting until another time of the day when the garden is shaded.
+If the lighting in the image is too bright or too dim, FarmBot will have trouble detecting the dot grid. To increase lighting, you may try toggling <span class="fb-peripheral-on">ON</span> FarmBot's LED light strip, or waiting for another time of the day. To decrease lighting, you may try waiting until another time of the day when the garden is shaded. There must be good contrast between the white dot pattern and black calibration card background for calibration to complete successfully. Trying calibration in a different location with fewer distractions in the area surrounding the card (or by blanketing the background with a solid color) may also help.
 
 ## Step 3: Check results
 After camera calibration, photos taken of the garden should line up with the grid when shown in the farm designer. If locations such as plants appear offset in photos when compared to the corresponding map locations, **CAMERA OFFSET X** and **CAMERA OFFSET Y** can be adjusted until they match.
