@@ -1,7 +1,7 @@
 ---
 title: "Account Settings"
 slug: "account-settings"
-description: "Manage your account and app settings :computer:\n[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=account)"
+description: ":computer: Manage your account and app settings.\n[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=account)"
 ---
 
 * toc

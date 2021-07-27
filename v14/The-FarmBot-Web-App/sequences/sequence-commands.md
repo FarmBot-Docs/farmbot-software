@@ -60,7 +60,9 @@ Within the **[+]** dropdown, you will find several options to modify the base **
 
 ![move to advanced options](_images/move_to_advanced_options.png)
 
-**OVERRIDE** allows you to override the X, Y, and/or Z values from the **LOCATION** field with new values. You may type in a custom coordinate, a formula, or disable an axis entirely. The Z axis override dropdown also includes a special **Safe Height** value. Currently the Safe Height is set to Z = 0, though this will be customizable in the settings panel in the future. Coming soon is a Soil Height option.
+### Override
+
+**OVERRIDE** allows you to override the X, Y, and/or Z values from the **LOCATION** field with new values. You may type in a custom coordinate, a formula, or disable an axis entirely. The Z axis override dropdown also includes special **[Safe height](../settings/axes.md#safe-height)** and [Soil height](../settings/axes.md#fallback-soil-height) options.
 
 {%
 include callout.html
@@ -71,21 +73,29 @@ content="If you choose custom coordinates for the **LOCATION** field, **OVERRIDE
 
 ![move to axis override dropdown](_images/move_to_axis_override_dropdown.png)
 
+### Offset
+
 **OFFSET** allows you to add positive or negative offsets to the base **LOCATION**. This is useful when pulling tools out of slots, or when watering around or above a plant.
 
 ![move to location offset](_images/move_to_location_offset.png)
+
+### Variance
 
 **VARIANCE** allows you to add randomness to a movement, in case you want to perform an action repeatedly (such as suppressing a weed) but with small variations between repetitions. In the example below FarmBot will move to 288 +/- a random variance between 0 and 4 on the X axis. Thus, the final X location will be a random value between 284 and 292.
 
 ![move to location variance](_images/move_to_location_variance.png)
 
+### Speed
+
 **SPEED (%)** allows you to slow down movement along an axis for greater precision, for example when mounting and dismounting tools. Speed is a percentage of the **MAX SPEED** for each axis.
 
 ![move to location speed](_images/move_to_location_speed.png)
 
+### Safe Z
+
 **SAFE Z** allows you to instruct FarmBot to perform a MOVE command as three distinct movements:
 
-  1. Move Z to the Safe Z height
+  1. Move Z to the [Safe Z height](../settings/axes.md#safe-height)
   2. Move X and Y to the new location
   3. Move Z to the new location
 

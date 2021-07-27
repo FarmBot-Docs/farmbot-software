@@ -1,7 +1,7 @@
 ---
 title: "Pin Bindings"
 slug: "pin-bindings"
-description: "Trigger actions and sequences with physical buttons or additional sensors\n[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=pin_bindings)"
+description: ":radio_button: Trigger actions and sequences with physical buttons or additional sensors.\n[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=pin_bindings)"
 ---
 
 * toc
