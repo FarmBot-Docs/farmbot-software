@@ -1,7 +1,7 @@
 ---
 title: "Motors"
 slug: "motors"
-description: "Adjust motor speed, acceleration, and power.\n[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=motors)"
+description: ":zap: Adjust motor speed, acceleration, and power.\n[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=motors)"
 ---
 
 * toc
@@ -21,7 +21,7 @@ For the Z-axis, you can also set the **MAX SPEED TOWARD HOME** independently fro
 {%
 include callout.html
 type="info"
-title="Convert Motor Speed into Linear Speed with the following equations"
+title="Convert motor speed into linear speed with the following equations"
 content="For belt-driven axes (X and Y)
 **Linear Speed** = **Motor Speed** / **Motor Resolution** x **Microstepping** x **Pulley Size** x **Belt Pitch**
 
@@ -42,13 +42,9 @@ For a Motor Speed of 500 steps/second on the stock leadscrew-driven (Z) axis:
 **Linear Speed (mm/second)** = 500 / 200 x 1 x 8 = **20 mm/s**"
 %}
 
-# Homing speed
-
-This setting controls the speed in steps per second at which FarmBot will move for coordinates past home during homing and calibration. The recommended default value for each axis is 50 steps/s.
-
 # Minimum speed
 
-This setting controls the minimum speed in steps per second that FarmBot will move. The recommended default value for each axis is 50 steps/s.
+This setting controls the minimum speed in steps per second that FarmBot will move.
 
 For the Z-axis, you can also set the **MINIMUM SPEED TOWARD HOME** independently from the minimum speed travelling away from the home position. This is especially useful for the Z-axis because the motor will either be fighting against or working with gravity depending on the direction of movement.
 
@@ -58,13 +54,27 @@ This setting controls the number of steps used for the acceleration and decelera
 
 For the Z-axis, you can also set the **ACCELERATE FOR TOWARD HOME** independently from the accleration for travelling away from the home position. This is especially useful for the Z-axis because the motor will either be fighting against or working with gravity depending on the direction of movement.
 
-# Steps per mm
+# Always power motors
+
+Enabling this setting will keep power applied to the motors at all times. This is most useful to prevent the z-axis from slipping down due to the force of gravity when FarmBot is idle. It can also be used to help prevent animals or children from moving one of FarmBot's axes when it is idle.
+
+# Invert motors
+
+This inverts the direction that the motors move for the chosen axis. Changing this setting will usually require you to change the setting of **INVERT ENCODERS** as well. You also might need to use this setting in combination with **INVERT ENDPOINTS** and **NEGATIVE COORDINATES ONLY** to set your FarmBot coordinate system exactly how you want it.
+
+# Motor current
+
+Motor current in milliamps. (Only available for Genesis v1.5+ and Express v1.0+ kits)
+
+# Advanced settings
 
 {%
 include callout.html
 type="info"
-content="This [advanced setting](../settings/parameter-management.md#show-advanced-settings) is not shown by default."
+content="These [advanced settings](../settings/parameter-management.md#show-advanced-settings) are not shown by default."
 %}
+
+## Steps per mm
 
 This setting tells FarmBot how many motor steps it takes to move 1mm along an axis. The default value is 5 steps/mm for the belt-driven (X and Y) axes, and 25 steps/mm for the leadscrew-driven (Z) axis, but may be changed for custom setups.
 
@@ -92,26 +102,18 @@ For the stock leadscrew-driven (Z) axis:
 **Steps per mm** = 200 x 1 / 8 = **25 steps/mm**"
 %}
 
-# Always power motors
+## Homing speed
 
-Enabling this setting will keep power applied to the motors at all times. This is most useful to prevent the z-axis from slipping down due to the force of gravity when FarmBot is idle. It can also be used to help prevent animals or children from moving one of FarmBot's axes when it is idle.
+This setting controls the speed in steps per second at which FarmBot will move for coordinates past home during homing and calibration.
 
-# Invert motors
+## Quiet mode
 
-This inverts the direction that the motors move for the chosen axis. Changing this setting will usually require you to change the setting of **INVERT ENCODERS** as well. You also might need to use this setting in combination with **INVERT ENDPOINTS** and **NEGATIVE COORDINATES ONLY** to set your FarmBot coordinate system exactly how you want it.
+Toggles to enable or disable quiet motor operation. Note that quiet mode is only available for Genesis v1.5+ and Express v1.0+ kits featuring Trinamic TMC2130 stepper drivers. Quiet mode is enabled by default for new FarmBot accounts as of July, 2021.
 
-# Motor current
-
-Motor current in milliamps. (Only available for Genesis v1.4+ and Express v1.0+ kits)
-
-# Quiet mode
-
-Enable quiet motors. (Only available for Genesis v1.4+ and Express v1.0+ kits)
-
-# Enable second x-axis motor
+## Enable 2nd X motor
 
 This should be enabled for standard FarmBots that use two motors to drive the x-axis (gantry).
 
-# Invert the second x-axis motor
+## Invert 2nd X motor
 
 This setting changes the direction of the second x-axis motor in case it is wired backwards.

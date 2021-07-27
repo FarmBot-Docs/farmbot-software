@@ -1,7 +1,7 @@
 ---
 title: "Power and Reset"
 slug: "power-and-reset"
-description: "[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=power_and_reset)"
+description: ":electric_plug: Reboot, reconfigure, and shutdown FarmBot.\n[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=power_and_reset)"
 ---
 
 * toc

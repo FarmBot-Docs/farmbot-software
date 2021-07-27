@@ -1,7 +1,7 @@
 ---
 title: "Axes"
 slug: "axes"
-description: "Axis home, length, and position presets.\n[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=axes)"
+description: ":triangular_ruler: Axis home, length, and position presets.\n[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=axes)"
 ---
 
 * toc
@@ -12,36 +12,36 @@ description: "Axis home, length, and position presets.\n[Open these settings in 
 
 # Find home
 
-Finding home instructs FarmBot to find the home (minimum) position by moving towards home until an endstop, rotary encoder, or stepper driver signals that the end of the axis has been reached. Note that **ENCODERS**, **STALL DETECTION**, or **LIMIT SWITCHES** must be <span class="fb-peripheral-on">ON</span> for FarmBot to automatically find home.
+Finding home instructs FarmBot to find the home (minimum) position by moving towards home until a rotary encoder, stepper driver, or limit switch signals that the end of the axis has been reached. Note that **ENCODERS**, **STALL DETECTION**, or **LIMIT SWITCHES** must be <span class="fb-peripheral-on">ON</span> for FarmBot to automatically find home.
 
-Please note that **LIMIT SWITCHES** are not part of the standard FarmBot kit hardware and they typically only used by expert users.  **LIMIT SWITCHES** for CNC devices are switches that are triggered when the CNC device reaches the limit of the track. Please do not enable the  **LIMIT SWITCHES** for your device if you have not specifically installed them on your FarmBot.
-
-![limit switch](_images/limit_switch.jpg)
-
-_Example of Limit Switch for CNC devices.  [Model SS-5GL13T  Omeron Electronics]_
-
-To home an axis, click the <span class="fb-button fb-yellow">FIND HOME X</span>, <span class="fb-button fb-yellow">FIND HOME Y</span>, or <span class="fb-button fb-yellow">FIND HOME Z</span> buttons. To home all three axes, you can use the <span class="fb-button fb-gray"><i class='fa fa-home'></i></span> button in the controls panel (assuming that that button is set to its default behavior).
+To find home for an axis, click the <span class="fb-button fb-yellow">FIND HOME X</span>, <span class="fb-button fb-yellow">FIND HOME Y</span>, or <span class="fb-button fb-yellow">FIND HOME Z</span> buttons. To home all three axes, you can use the <span class="fb-button fb-gray"><i class='fa fa-home'></i></span> button in the controls panel (assuming that that button is set to its default behavior).
 
 {%
 include callout.html
 type="info"
-title="\"Homing\" is different than \"Going to Home\""
-content="Homing is the act of _finding_ the home (zero) position by using endstops or encoders. _Going to Home_ is the act of moving to (0, 0, 0)."
+title="\"Finding Home\" is different than \"Going to Home\""
+content="Finding Home is the act of _finding_ the home (zero) position by using rotary encoders, stall-detecting stepper drivers, or limit switches. _Going to Home_ is the act of moving to (0, 0, 0)."
 %}
 
 # Set home
 
 Pressing the <span class="fb-button fb-yellow">SET HOME X</span>, <span class="fb-button fb-yellow">SET HOME Y</span>, and <span class="fb-button fb-yellow">SET HOME Z</span> buttons allows you to *manually* set FarmBot's current location as the home position for that axis. This is used for *manually* setting the Home position when **ENCODERS**, **STALL DETECTION**, or **LIMIT SWITCHES** are <span class="fb-peripheral-off">OFF</span>.
 
-However, because stock FarmBots have encoders and stall detecting, it is recommended to instead use the [Homing](#find-home) function for *automatically* finding the Home position of each axis and setting that position to zero.
+However, because stock FarmBots have encoders and stall detecting, it is recommended to instead use the [find home](#find-home) function for *automatically* finding the Home position of each axis and setting that position to zero.
 
-So in general, the Set Zero buttons should not be regularly used because it does not make sense to change your zero position once you have your garden growing, and because all FarmBots should have either encoders or endstops enabled which allows for automatically finding and setting the Home position.
+In general, the **set zero** buttons should not be regularly used because it does not make sense to change your zero position once you have your garden growing, and because all FarmBots should have either encoders or stall detection enabled which allows for automatically finding and setting the Home position.
 
 These buttons may come in handy though when playing around with experimental sequences or exploring alternate coordinate system configurations for your FarmBot.
 
 # Find home on boot
 
-Enabling this setting will run a homing command for each axis upon boot. This is most useful for allowing FarmBot to recover and resume operations after a power outage. Note that this requires encoders or endstops to be enabled.
+{%
+include callout.html
+type="info"
+content="This [advanced setting](../settings/parameter-management.md#show-advanced-settings) is not shown by default."
+%}
+
+Enabling this setting will run a homing command for each axis upon boot. This is most useful for allowing FarmBot to recover and resume operations after a power outage. Note that **ENCODERS**, **STALL DETECTION**, or **LIMIT SWITCHES** must be <span class="fb-peripheral-on">ON</span> for this feature.
 
 # Stop at home
 
@@ -56,7 +56,7 @@ content="We recommend turning software limits on for all axes so that FarmBot wi
 
 # Stop at max
 
-If values are inputted using the **AXIS LENGTH** setting, FarmBot will stop at the axis maximum.
+If the **SET AXIS LENGTH** setting for an axis is non-zero, FarmBot will stop at the axis maximum.
 
 # Negative coordinates only
 
@@ -92,11 +92,11 @@ title="Reminder"
 content="The length values of each axis are measured and auto-filled whenever your use the [find axis length](#find-axis-length) function."
 %}
 
-# Safe Height
+# Safe height
 
-Z axis coordinate (millimeters) to which the z axis should be retracted during Safe Z moves. It is recommended to choose a value at which the z axis is all of the way up to provide as much clearance as possible. This value can be used by <span class="fb-step fb-move">Move</span> sequence commands by enabling _Safe Z_ or selecting _Safe Height_ as the z-axis override.
+**SAFE HEIGHT** is the Z axis coordinate (in millimeters) to which the Z axis should be retracted during **[SAFE Z](../sequences/sequence-commands.md#safe-z)** movements or when _Safe Height_ has been selected as the Z axis [override](../sequences/sequence-commands.md#override) in a <span class="fb-step fb-move">Move</span> command. It is recommended to choose a value at which the Z axis is all of the way up to provide as much clearance as possible.
 
-# Fallback Soil Height
+# Fallback soil height
 
 Z axis coordinate (millimeters) of the soil. This value will be used by <span class="fb-step fb-move">Move</span> sequence commands when _Soil Height_ is selected as the z-axis override and no soil height measurements are available. After soil height measurements have been added [automatically](../photos/measure-soil-height.md) or [manually](../points.md#soil-height-points), a matching or interpolated soil height value will be used based on the selected location.
 
