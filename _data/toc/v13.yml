@@ -99,6 +99,8 @@ contents:
             url: externally-defined-variables
       - title: Regimens
         url: regimens
+      - title: Help
+        url: help
       - title: Settings
         url: settings
         pages:

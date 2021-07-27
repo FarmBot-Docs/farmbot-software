@@ -13,11 +13,11 @@ The connectivity tool is used to diagnose the status of communications between t
 
 
 
-|Color                         |Meaning                       |
-|------------------------------|------------------------------|
-|<span class="fa fa-circle green"></span> Green|Status OK
-|<span class="fa fa-circle yellow"></span> Yellow|The status is unknown. There is no data available about the status of communication.
-|<span class="fa fa-circle red"></span> Red|Status NOT OK. Take corrective action to resolve this communication disconnect
+|Color                                            |Meaning                       |
+|-------------------------------------------------|------------------------------|
+|<span class="fa fa-circle green"></span> Green   |Status OK
+|<span class="fa fa-circle yellow"></span> Yellow |The status is unknown. There is no data available about the status of communication.
+|<span class="fa fa-circle red"></span> Red       |Status NOT OK. Take corrective action to resolve this communication disconnect
 
 This is the list of the 32 possible diagnosis codes that will help you to troubleshoot the communications of your FarmBot:
 
@@ -32,14 +32,14 @@ There is no access to FarmBot or the message broker. This is usually caused by o
 2. Check for blocked WebSockets in your firewall on port 3002.
 3. Test your WebSockets using this website: https://www.websocket.org/echo.html
 
-Note 1: Please note that we have experienced several difficulties with School firewalls.
+_Note 1:_ Please note that we have experienced several difficulties with School firewalls.
 In one particular school firewall, the IT department opened port 3002 for FarmBot operation but the port was automatically blocked again after a set timeout.
 
-Note 2: This code will not show up on the blue communications LED. Blocked access to port 3002 will affect the browser rather than the device, so in this case, the "browser <=> broker" leg of the connectivity pop-up will be RED.
+_Note 2:_ This code will not show up on the blue communications LED. Blocked access to port 3002 will affect the browser rather than the device, so in this case, the "browser <=> broker" leg of the connectivity pop-up will be RED.
 
 The tricky part is identifying root cause. A red "browser <=> broker" leg is almost always caused by blocked websocket access, but it is also possible that our broker is down.
 
-So to summarize: A red browser<=>broker leg almost always means a port is blocked (if you discount the possibility of a broker outage, which is extremely rare), but different school networks block the port in different ways.
+So to summarize: A red "browser <=> broker" leg almost always means a port is blocked (if you discount the possibility of a broker outage, which is extremely rare), but different school networks block the port in different ways.
 
 # Code 1
 ```
@@ -53,7 +53,7 @@ You are either offline, using a web browser that does not support WebSockets, or
 3. Check for blocked WebSockets in your firewall on port 3002.
 Test your websockets using this website: https://www.websocket.org/echo.html
 
-Note: Please note that we have experienced several difficulties with School firewalls.
+_Note:_ Please note that we have experienced several difficulties with School firewalls.
 In one particular school firewall, the IT department opened port 3002 for FarmBot operation but the port was automatically blocked again after a set timeout.
 
 # Code 2
@@ -105,24 +105,26 @@ Your browser is connected correctly, but we have no recent record of FarmBot con
 
 **Corrective Action**:
 1. Check the WiFi signal to the FarmBot. If you are having trouble with your internet connection please connect using an Ethernet cable or see our troubleshooting document for more information: https://software.farm.bot/docs/connecting-farmbot-to-the-internet
-2. Judging by your network error code you entered a bad email or password while configurating and the device cannot connect to the server. Check to make sure that you have not entered a bad password during configuration.
+2. Judging by your network error code you entered a bad email or password while configuring and the device cannot connect to the server. Check to make sure that you have not entered a bad password during configuration.
 
- In this step of the configurator we expect that there was likely an error with the E-mail and/or Password. Please see the graphic below.
+   In this step of the configurator we expect that there was likely an error with the E-mail and/or Password. Please see the graphic below.
 
+   ![CODE 24 CONFIGURATOR](_images/code_24_configurator.png)
 
-![CODE 24 CONFIGURATOR](_images/code_24_configurator.png)
+   _CODE 8 AND CODE 24 BAD E-MAIL AND/OR PASSWORD IN CONFIGURATOR_
 
-_CODE 8 AND CODE 24 BAD E-MAIL AND/OR PASSWORD IN CONFIGURATOR_
+   If you entered a wrong E-mail and/or Password in this step you will need to re-flash your SD card and start the configurator process again.
 
-If you entered a wrong E-mail and/or Password in this step you will need to re-flash your SD card and start the configurator process again.
+   Also there is a chance that your local network does not allow access to AMQP, MQTT, NTP and/or https://my.farm.bot.
 
-Also there is a chance that your local network does not allow access to AMQP, NTP and/or https://my.farm.bot.
-2.1 AMQP is a blocked port issue (PORT: 5672). Unblock this port to resolve this issue. This may require help from your IT professionals.
-2.2 For NTP issues the FarmBot users will see log entries that say "expired certificate" and the logs coming from the device will not have the correct time. If you have this issue contact FarmBot technical support.
-2.3 For A user being able to access my.farm.bot from a desktop computer is not the same thing as a FarmBot being able to access my.farm.bot (this is a common error). Also, the WiFi could cut out after the Web App loads. Since it's a single page Web App, it is possible to navigate the site during network outages.
+   1. AMQP (PORT: 5672) or MQTT (PORT: 8883) is a blocked port. Unblock this port to resolve this issue. This may require help from your IT professionals.
+
+   2. For NTP issues the FarmBot users will see log entries that say "expired certificate" and the logs coming from the device will not have the correct time. If you have this issue contact FarmBot technical support.
+
+   3. For A user being able to access my.farm.bot from a desktop computer is not the same thing as a FarmBot being able to access my.farm.bot (this is a common error). Also, the WiFi could cut out after the Web App loads. Since it's a single page Web App, it is possible to navigate the site during network outages.
 
 3. Check to make sure that your FarmBot has not been powered off due to a long power outage.
-Note: Some older FBOS versions and specific FBOS config settings may result in a factory reset that the user did not anticipate.
+_Note:_ Some older FBOS versions and specific FBOS config settings may result in a soft reset that the user did not anticipate.
 
 # Code 9
 ```
@@ -133,18 +135,19 @@ Your browser is connected correctly, but we have no recent record of FarmBot con
 
 # Code 10
 ```
-FarmBot and the browser are both connected to the internet (or have been recently). Try rebooting FarmBot and refreshing the browser. If the issue persists, something may be preventing FarmBot from accessing the message broker (used to communicate with your web browser in real-time). If you are on a company or school network, a firewall may be blocking port 5672.
+FarmBot and the browser are both connected to the internet (or have been recently). Try rebooting FarmBot and refreshing the browser. If the issue persists, something may be preventing FarmBot from accessing the message broker (used to communicate with your web browser in real-time). If you are on a company or school network, a firewall may be blocking port 5672 or 8883.
 ```
 
 **Corrective Action**:
 1. Try rebooting FarmBot and refreshing the browser.
-2. A firewall may be blocking port 5672 check this port so see if it is blocked. If you are a company or a school please have your IT professional review [this document](for-it-security-professionals.md).
-3. On FarmBot Genesis 1.4 check the Blue LED communication light. You have blocked ports if the Blue LED is OFF and the Green LED is on. (Only FarmBot Genesis v1.4 models have this diagnostic Green and Blue LEDs)
+2. A firewall may be blocking port 5672 or 8883. Check these ports to see if they are blocked. If you are a company or a school please have your IT professional review [this document](for-it-security-professionals.md).
+3. On FarmBot Genesis 1.4+ or FarmBot Express check the blue LED communication light. You have blocked ports if the blue LED is OFF <span class="fa fa-circle-thin led blue"></span> and the green LED is on <span class="fa fa-circle led green"></span>. (Only FarmBot Genesis v1.4+ and FarmBot Express models have this diagnostic green and blue LEDs.)
+
 Please review our [troubleshooting document](connecting-farmbot-to-the-internet.md).
 
 # Code 11
 ```
-FarmBot and the browser are both connected to the internet (or have been recently). Try rebooting FarmBot and refreshing the browser. If the issue persists, something may be preventing FarmBot from accessing the message broker (used to communicate with your web browser in real-time). If you are on a company or school network, a firewall may be blocking port 5672.
+FarmBot and the browser are both connected to the internet (or have been recently). Try rebooting FarmBot and refreshing the browser. If the issue persists, something may be preventing FarmBot from accessing the message broker (used to communicate with your web browser in real-time). If you are on a company or school network, a firewall may be blocking port 5672 or 8883.
 ```
 
 **Corrective Action**: See [Code 10](#code-10)
@@ -156,14 +159,14 @@ Farmduino firmware is missing or is possibly unplugged. Verify FIRMWARE selectio
 ```
 
 **Corrective Action**:
-1. For Genesis models, ensure the square USB cable between the Raspberry Pi and the Arduino is properly connected by unplugging and repluging the cable. It may have come loose during operation.
+1. For Genesis models, ensure the square USB cable between the Raspberry Pi and the Arduino is properly connected by unplugging and re-plugging the cable. It may have come loose during operation.
 2. Next, ensure your firmware setting matches the FarmBot model you purchased. For example, if you purchased a FarmBot Express v1.0, ensure that the firmware selection dropdown says `Farmduino (Express v1.0)` on the [firmware selection dropdown](https://my.farm.bot/app/designer/settings?highlight=firmware). Selecting the wrong firmware version is one of the most common causes of code 12 / code 30 errors.
 
-![firmware selection dropdown](_images/firmware_selection_dropdown.png)
+   ![firmware selection dropdown](_images/firmware_selection_dropdown.png)
 
 3. Re-apply the firmware by hitting the <span class="fb-button fb-yellow">FLASH FIRMWARE</span> button located [here](https://my.farm.bot/app/designer/settings?highlight=firmware). Wait until the device says the firmware was successfully flash before proceeding (will appear in the logs menu area).
 4. Perform a "hard reboot" of the device by unplugging the power, waiting for 10 seconds and re-applying power to the device.
-5. If you still get this code reconfiguration of FarmBot OS may be necessary. This would mean the user needs to hit the <span class="fb-button fb-red">FACTORY RESET</span> button located [here](https://my.farm.bot/app/designer/settings?highlight=factory_reset).
+5. If you still get this code reconfiguration of FarmBot OS may be necessary. This would mean the user needs to hit the <span class="fb-button fb-red">SOFT RESET</span> button located [here](https://my.farm.bot/app/designer/settings?highlight=soft_reset).
 6. If the firmware is still not connected to the device after a power cycle and re-configuration, contact customer support for further remediation steps.
 
 # Code 13
@@ -173,7 +176,7 @@ FarmBot and the browser both have internet connectivity, but we haven't seen any
 
 **Corrective Action**:
 1. Check for HTTP blockage on port 80 HTTP(S) and port 443 HTTP(S).
-2. On FarmBot Genesis 1.4 check the Blue LED communication light. You have blocked ports if the Blue LED is OFF and the Green LED is on. (Only FarmBot Genesis v1.4 models have this diagnostic Green and Blue LEDs)
+2. On FarmBot Genesis 1.4+ or FarmBot Express check the blue LED communication light. You have blocked ports if the blue LED is OFF <span class="fa fa-circle-thin led blue"></span> and the green LED is on <span class="fa fa-circle led green"></span>. (Only FarmBot Genesis v1.4+ and FarmBot Express models have this diagnostic green and blue LEDs.)
 
 # Code 14
 ```
@@ -261,14 +264,14 @@ Your browser is connected correctly, but we have no recent record of FarmBot con
 
 # Code 26
 ```
-FarmBot and the browser are both connected to the internet (or have been recently). Try rebooting FarmBot and refreshing the browser. If the issue persists, something may be preventing FarmBot from accessing the message broker (used to communicate with your web browser in real-time). If you are on a company or school network, a firewall may be blocking port 5672.
+FarmBot and the browser are both connected to the internet (or have been recently). Try rebooting FarmBot and refreshing the browser. If the issue persists, something may be preventing FarmBot from accessing the message broker (used to communicate with your web browser in real-time). If you are on a company or school network, a firewall may be blocking port 5672 or 8883.
 ```
 
 **Corrective Action**: See [Code 10](#code-10)
 
 # Code 27
 ```
-FarmBot and the browser are both connected to the internet (or have been recently). Try rebooting FarmBot and refreshing the browser. If the issue persists, something may be preventing FarmBot from accessing the message broker (used to communicate with your web browser in real-time). If you are on a company or school network, a firewall may be blocking port 5672.
+FarmBot and the browser are both connected to the internet (or have been recently). Try rebooting FarmBot and refreshing the browser. If the issue persists, something may be preventing FarmBot from accessing the message broker (used to communicate with your web browser in real-time). If you are on a company or school network, a firewall may be blocking port 5672 or 8883.
 ```
 
 **Corrective Action**: See [Code 10](#code-10)
@@ -288,14 +291,12 @@ FarmBot and the browser both have internet connectivity, but we haven't seen any
 **Corrective Action**:
 1. Press the refresh button on your browser
 
-
-![Refresh button in Google Chrome](_images/Refresh_button_in_Google_Chrome.bmp)
-
-_Refresh button in Google Chrome_
+   ![Refresh button in Google Chrome](_images/Refresh_button_in_Google_Chrome.bmp)
+   _Refresh button in Google Chrome_
 
 2. Try Syncing the FarmBot
 3. Check for HTTP blockage on FarmBot's local internet connection
-4.On FarmBot Genesis 1.4 check the Blue LED communication light. You have blocked ports if the Blue LED is OFF and the Green LED is on. (Only FarmBot Genesis v1.4 models have this diagnostic Green and Blue LEDs)
+4. On FarmBot Genesis 1.4+ or FarmBot Express check the blue LED communication light. You have blocked ports if the blue LED is OFF <span class="fa fa-circle-thin led blue"></span> and the green LED is on <span class="fa fa-circle led green"></span>. (Only FarmBot Genesis v1.4+ and FarmBot Express models have this diagnostic green and blue LEDs.)
 
 # Code 30
 
@@ -313,4 +314,3 @@ All systems nominal.
 **No corrective action required.** All the points of communication are functioning.
 
 ![Connectivity diagnosis code31](_images/connectivity_diagnosis_code31.jpg)
-

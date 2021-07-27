@@ -47,6 +47,7 @@ It is very common for the IT department of schools and corporate networks to **b
 FarmBot requires the following ports to be open on your network:
 
   * Port 5672 - AMQP
+  * Port 8883 - MQTT
   * Port 80 - HTTP(S)
   * Port 443 - HTTP(S)
   * Port 3002 - WebSockets

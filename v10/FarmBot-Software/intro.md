@@ -33,7 +33,7 @@ content="All of our software is [licensed](https://meta.farm.bot/docs/licensing)
 include callout.html
 type="success"
 title="We're here to help"
-content="Have a question or need help setting up some of the software? Email us at  [contact@farmbot.io](mailto:contact@farmbot.io)"
+content="Have a question or need help setting up some of the software? Email us at  [contact@farm.bot](mailto:contact@farm.bot)"
 %}
 
 The Raspberry Pi is the communications link to the FarmBot Web App. The Raspberry Pi communicates directly with the Farmduino board. The Farmduino is the central component of the FarmBot from a electronic systems perspective. This diagram shows how all of the FarmBot components interact with the Farmduino with the Raspberry Pi acting as the communications node between the Web App and the Farmduino.

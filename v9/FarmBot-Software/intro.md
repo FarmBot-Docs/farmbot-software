@@ -33,7 +33,7 @@ content="All of our software is [licensed](https://meta.farm.bot/docs/licensing)
 include callout.html
 type="success"
 title="We're here to help"
-content="Have a question or need help setting up some of the software? Email us at mailto:support@farm.bot."
+content="Have a question or need help setting up some of the software? Email us at [support@farm.bot](mailto:support@farm.bot)."
 %}
 
 # FarmBot cloud services
