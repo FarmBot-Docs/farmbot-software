@@ -2,7 +2,6 @@ title: FarmBot Software Documentation
 url: https://software.farm.bot
 description: Learn how to set up, use, and modify FarmBot software
 logo: /assets/images/documentation.png
-theme: jekyll-theme-cayman
 remote_theme: FarmBot-Docs/farmbot-theme@main
 baseurl: /
 color: '#316318'
@@ -11,6 +10,7 @@ plugins:
   - jemoji
   - jekyll-redirect-from
   - jekyll-remote-theme
+  - jekyll-seo-tag
 include:
   - _images
   - _redirects
