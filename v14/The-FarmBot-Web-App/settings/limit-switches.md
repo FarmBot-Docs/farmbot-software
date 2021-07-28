@@ -1,7 +1,7 @@
 ---
 title: "Limit Switches"
 slug: "limit-switches"
-description: "[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=limit_switches)"
+description: ":left_right_arrow: Settings to support DIY axis end detection.\n[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=limit_switches)"
 ---
 
 * toc
@@ -13,7 +13,17 @@ type="info"
 content="These [advanced settings](../settings/parameter-management.md#show-advanced-settings) are not shown by default."
 %}
 
+{%
+include callout.html
+type="warning"
+content="**LIMIT SWITCHES** are not part of the standard FarmBot kit hardware and are typically only used by expert users. Please do not enable **LIMIT SWITCHES** for your device if you have not specifically installed them on your FarmBot."
+%}
+
 **Limit switches**, are small switches or sensors that are used to tell a machine if it has reached an end position (home or an axis maximum).
+
+![limit switch](_images/limit_switch.jpg)
+
+_Example of Limit Switch for CNC devices.  [Model SS-5GL13T  Omeron Electronics]_
 
 Because both rotary encoders and stall detecting stepper drivers can [detect the home position and axis maximums](stall-detection.md) as well, they make the use of limit switches **largely unnecessary**. That's why limit switches are not included with our kits.
 

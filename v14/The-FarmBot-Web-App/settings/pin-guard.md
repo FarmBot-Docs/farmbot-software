@@ -1,7 +1,7 @@
 ---
 title: "Pin Guard"
 slug: "pin-guard"
-description: "Automatically turn off peripherals.\n[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=pin_guard)"
+description: ":non-potable_water: Automatically turn off peripherals.\n[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=pin_guard)"
 ---
 
 * toc

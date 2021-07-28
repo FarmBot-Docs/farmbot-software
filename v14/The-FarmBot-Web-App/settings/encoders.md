@@ -1,7 +1,7 @@
 ---
 title: "Encoders"
 slug: "encoders"
-description: "FarmBot Genesis rotary encoder settings.\n[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=encoders)"
+description: ":chart_with_upwards_trend: FarmBot Genesis rotary encoder settings.\n[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=encoders)"
 ---
 
 * toc
