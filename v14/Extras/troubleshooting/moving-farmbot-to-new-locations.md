@@ -23,9 +23,9 @@ Before moving equipment to the new location, it is best to do a test run of the 
  * An SD Card with the [latest version of FarmBot OS](https://my.farm.bot/os) installed.
  * A Windows or Mac laptop for running configurator.
 
-Once you have the required materials, you are ready to perform a network test. Power on the RasperryPi with the SD card inserted and [follow the configurator instructions](../../FarmBot-OS/farmbot-os/configurator.md) as usual.
+Once you have the required materials, you are ready to perform a network test. Power on the Raspberry Pi with the SD card inserted and [follow the configurator instructions](../../FarmBot-OS/farmbot-os/configurator.md) as usual.
 
-Once you have finished configuration, you should be able to log in to your FarmBot account and see the device listed as being connected. **The Arduino (device Firmware) will be listed as offline, since the RaspberryPi has no peripherals attached.** All other systems should show as green in the [connectivity panel](connectivity-codes.md).
+Once you have finished configuration, you should be able to log in to your FarmBot account and see the device listed as being connected. **The Arduino (device Firmware) will be listed as offline, since the Raspberry Pi has no peripherals attached.** All other systems should show as green in the [connectivity panel](connectivity-codes.md).
 
 ## Identifying network problems
 
@@ -34,3 +34,18 @@ If your device does not come online after configuration, this may be a sign that
  * Contact IT staff and ask about security software that blocks outbound access to internet protocols such as HTTP, DNS, NTP, and MQTT. FarmBot has prepared a document to assist IT professionals [here](for-it-security-professionals.md).
  * Purchase a commercial wireless hotspot that exposes a WiFi network which FarmBot can reliably use. Please note that FarmBot does not currently support USB tethering - the hotspot must expose a WiFi network.
  * Use a phone to create a wireless hotspot using your cellular data connection. Note that you may want to disable automatic software updates during the event to avoid increased data usage.
+
+# Prepare FarmBot for the new network
+
+If FarmBot will be moved to a new location with a different network or the network FarmBot is connected to needs to change, choose one of the following options to reset FarmBot into configuration mode:
+
+## Option 1: soft reset
+
+If FarmBot is still online and connected to a working WiFi network, you may perform a [soft reset](../../The-FarmBot-Web-App/settings/power-and-reset.md#soft-reset) by clicking the <span class="fb-button fb-red">SOFT RESET</span> button [in the settings panel](https://my.farm.bot/app/designer/settings?highlight=soft_reset).
+
+## Option 2: hard reset
+
+If the network has already been changed and FarmBot is not connected, you will need to perform a [hard reset](../../The-FarmBot-Web-App/settings/power-and-reset.md#hard-reset) by removing the microSD card and [re-flashing it with the latest version of FarmBot OS](../../FarmBot-OS/farmbot-os.md#installation).
+
+## Connect to the new network
+Once FarmBot is in configuration mode and in range of the new network, [follow the configurator instructions](../../FarmBot-OS/farmbot-os/configurator.md) to connect FarmBot to the new network.
