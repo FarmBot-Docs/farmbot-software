@@ -87,8 +87,17 @@ contents:
         pages:
           - title: Sequence Commands
             url: sequence-commands
-          - title: Advanced Sequence Commands
-            url: advanced-sequence-commands
+            pages:
+              - title: Movements
+                url: movements
+              - title: Peripherals and Sensors
+                url: peripherals-and-sensors
+              - title: Image processing
+                url: image-processing
+              - title: Logic
+                url: logic
+              - title: Advanced
+                url: advanced
           - title: Building a Sequence
             url: building-a-sequence
           - title: Example Sequences
