@@ -10,7 +10,7 @@ description: "Specify tools for FarmBot's Universal Tool Mount to use [my.farm.b
 On this page you can specify the location of the tools in the tool bay so that FarmBot can use them with its Universal Tool Mount.
 
 <div class="nav-image">
-  <img class="nav-image" src="_images/Tools.png" alt="Tools" />
+  <img class="nav-image" src="_images/tools_page.png" alt="Tools page" />
   <a href="#toolbay" style="top: 16.56%; left: 3.9%; width: 52.77%; height: 33.38%;"></a>
   <a href="#tools" style="top: 16.7%; left: 59.4%; width: 37%; height: 43.5%;"></a>
 </div>
@@ -26,7 +26,7 @@ On this page you can specify the location of the tools in the tool bay so that F
 
 Press the <span class="fb-button fb-gray">EDIT</span> button to add a tool.
 
-![tools.png](_images/tools.png)
+![tools_widget.png](_images/tools_widget.png)
 
 Press the Press the <span class="fb-button fb-green">+</span> button to add a tool, or the Press the <span class="fb-button fb-green">+ STOCK TOOLS</span> button to add all of the standard tools.
 

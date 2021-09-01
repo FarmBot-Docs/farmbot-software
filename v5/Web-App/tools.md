@@ -10,19 +10,17 @@ description: "Specify tools for FarmBot's Universal Tool Mount to use [my.farmbo
 On this page you can specify the location of the tools in the tool bay so that FarmBot can use them with its Universal Tool Mount.
 
 <div class="nav-image">
-  <img class="nav-image" src="_images/Tools.png" alt="Tools" />
+  <img class="nav-image" src="_images/tools_page.png" alt="Tools page" />
   <a href="https://software.farmbot.io/docs/tools#toolbay" style="top: 16.56%; left: 3.9%; width: 52.77%; height: 33.38%;"></a>
   <a href="https://software.farmbot.io/docs/tools#tools" style="top: 16.7%; left: 59.4%; width: 37%; height: 43.5%;"></a>
 </div>
 <figcaption class="caption">Click a widget in the image to learn more!</figcaption>
 
-
-
 <iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fvideoseries%3Flist%3DPLMhsMRlKjcNIYlDKDdKvPQuHqBjjS1ZGc&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DIcOyf28YJNk&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FIcOyf28YJNk%2Fhqdefault.jpg&key=f2aa6fc3595946d0afc3d76cbbd25dc3&type=text%2Fhtml&schema=youtube" width="854" height="480" scrolling="no" frameborder="0" allowfullscreen></iframe>
 
 # Tools
 
-![tools.png](_images/tools.png)
+![tools_widget.png](_images/tools_widget.png)
 
 Press <span class="fb-button fb-gray">edit</span> to add your tools. Fill in the tool name and press the <span class="fb-button fb-green">+</span> button to add the tool.
 
