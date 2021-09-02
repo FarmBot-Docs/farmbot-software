@@ -33,20 +33,7 @@ content="The drag and drop functionality of the full editor does not work on lar
 
 ![phone with add command panel open](_images/phone_with_add_command_panel_open.jpeg)
 
-# Step 3: Delete, copy, and reorder steps
-
-Each step in a sequence has a cluster of icons in the top right: <i class='fa fa-question-circle'></i> <i class='fa fa-trash'></i> <i class='fa fa-copy'></i> <i class='fa fa-arrows-v'></i>.
-
-|Icon|Function|
-|----|--------|
-|<i class='fa fa-question-circle'></i>|Clicking or hovering will bring up a tooltip with information about how to use the command.
-|<i class='fa fa-trash'></i>|Clicking will delete the step from the sequence.
-|<i class='fa fa-copy'></i>|Clicking will duplicate the step and all of its parameter values. The copy will be inserted directly below the original.
-|<i class='fa fa-arrows-v'></i>|Clicking and dragging will allow you to drag and drop the step to another location in the sequence. Just clicking will show a popup with <i class='fa fa-arrow-circle-up'></i> and <i class='fa fa-arrow-circle-down'></i> icons. Clicking one of these will move the step up or down one position in the sequence. These controls are especially useful when using a touchscreen that doesn't work with drag-and-drop functionality.
-
-![reorder step arrows](_images/reorder_step_arrows.png)
-
-# Step 4: Define step parameters
+# Step 3: Define step parameters
 
 For each step (command) in the sequence, enter in your desired parameter values. Some parameters such as **SPEED** will have default values and do not need to be entered in every time. Other parameters require a value to be added or chosen every time.
 
@@ -56,6 +43,19 @@ type="success"
 title="We check your work"
 content="If you try to save a sequence without values for all of the required parameters for each step, an error will be shown. You can then go back and provide values and try to save again."
 %}
+
+# Step 4: Use the step control icons
+
+Each step in a sequence has a cluster of control icons in the top right:
+
+|Icon|Function|
+|----|--------|
+|<i class='fa fa-question-circle'></i>|Clicking or hovering will bring up a tooltip with information about how to use the command.
+|<i class='fa fa-trash'></i>|Clicking will delete the step from the sequence.
+|<i class='fa fa-clone'></i>|Clicking will duplicate the step and all of its parameter values. The copy will be inserted directly below the original.
+|<i class='fa fa-arrows-v'></i>|Clicking and dragging will allow you to drag and drop the step to another location in the sequence. Just clicking will show a popup with <i class='fa fa-arrow-circle-up'></i> and <i class='fa fa-arrow-circle-down'></i> icons. Clicking one of these will move the step up or down one position in the sequence. These controls are especially useful when using a touchscreen that doesn't work with drag-and-drop functionality.
+|<i class='fa fa-font'></i>|Clicking toggles between the fancy and basic text editors for certain fields.
+|<i class='fa fa-code'></i>|Clicking toggles between the default view of the command and the raw code version of the command. Only available if the **VIEW CELERSCRIPT** sequence editor option is set to <span class="fb-peripheral-on">YES</span>.
 
 # Step 5: Name each step
 
