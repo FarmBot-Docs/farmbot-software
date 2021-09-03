@@ -102,6 +102,11 @@ contents:
             url: building-a-sequence
           - title: Example Sequences
             url: example-sequences
+            pages:
+              - title: Tool Mounting
+                url: tool-mounting
+              - title: Watering
+                url: watering
           - title: Variables
             url: variables
           - title: Externally Defined Variables
