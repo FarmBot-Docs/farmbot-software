@@ -94,7 +94,7 @@ content="The length values of each axis are measured and auto-filled whenever yo
 
 # Safe height
 
-**SAFE HEIGHT** is the Z axis coordinate (in millimeters) to which the Z axis should be retracted during **[SAFE Z](../sequences/sequence-commands.md#safe-z)** movements or when _Safe Height_ has been selected as the Z axis [override](../sequences/sequence-commands.md#override) in a <span class="fb-step fb-move">Move</span> command. It is recommended to choose a value at which the Z axis is all of the way up to provide as much clearance as possible.
+**SAFE HEIGHT** is the Z axis coordinate (in millimeters) to which the Z axis should be retracted during **[SAFE Z](../sequences/sequence-commands/movements.md#safe-z)** movements or when _Safe Height_ has been selected as the Z axis [override](../sequences/sequence-commands/movements.md#override) in a <span class="fb-step fb-move">Move</span> command. It is recommended to choose a value at which the Z axis is all of the way up to provide as much clearance as possible.
 
 # Fallback soil height
 

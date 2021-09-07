@@ -33,7 +33,7 @@ When choosing the **offset from current location** option, three input fields wi
 
 ## Location variables
 
-When choosing **variable - add new**, a variable form will be added to the sequence header. Upon selecting a variable value in the sequence header, the dropdown selections in all <span class="fb-step fb-move">Move</span> steps set to that variable will be updated. See the [variables](variables.md) documentation for more information.
+When choosing **variable - add new**, a variable form will be added to the sequence header. Upon selecting a variable value in the sequence header, the dropdown selections in all <span class="fb-step fb-move">Move</span> steps set to that variable will be updated. See the [variables](../variables.md) documentation for more information.
 
 ![location variable](_images/location_variable.png)
 
@@ -60,7 +60,7 @@ Within the **[+]** dropdown, you will find several options to modify the base **
 
 ### Override
 
-**OVERRIDE** allows you to override the X, Y, and/or Z values from the **LOCATION** field with new values. You may type in a custom coordinate, a formula, or disable an axis entirely. The Z axis override dropdown also includes special **[Safe height](../settings/axes.md#safe-height)** and [Soil height](../settings/axes.md#fallback-soil-height) options.
+**OVERRIDE** allows you to override the X, Y, and/or Z values from the **LOCATION** field with new values. You may type in a custom coordinate, a formula, or disable an axis entirely. The Z axis override dropdown also includes special **[Safe height](../../settings/axes.md#safe-height)** and [Soil height](../../settings/axes.md#fallback-soil-height) options.
 
 {%
 include callout.html
@@ -93,7 +93,7 @@ content="If you choose custom coordinates for the **LOCATION** field, **OVERRIDE
 
 **SAFE Z** allows you to instruct FarmBot to perform a MOVE command as three distinct movements:
 
-  1. Move Z to the [Safe Z height](../settings/axes.md#safe-height)
+  1. Move Z to the [Safe Z height](../../settings/axes.md#safe-height)
   2. Move X and Y to the new location
   3. Move Z to the new location
 

@@ -11,7 +11,7 @@ description: "Control peripherals and sensors"
 
 The <span class="fb-step fb-write-pin">Control Peripheral</span> command allows you to control **peripherals** such as the vacuum pump, solenoid valve, and lights. To use this command, first select a peripheral from the **PERIPHERAL** dropdown. Options include:
 
-  * All of the peripherals you have defined in the [peripherals section of the controls panel](../controls/peripherals.md)
+  * All of the peripherals you have defined in the [peripherals section of the controls panel](../../controls/peripherals.md)
   * The Box LEDs, if you have any included with your FarmBot version
 
 Next, select the **MODE** which you would like to control the peripheral with. You can choose either `Digital` or `Analog`.
@@ -44,7 +44,7 @@ The <span class="fb-step fb-write-pin">Toggle Peripheral</span> command allows y
 
 To use this command, select a peripheral from the **PERIPHERAL** dropdown. Options include:
 
-  * All of the peripherals you have defined in the [peripherals section of the controls panel](../controls/peripherals.md)
+  * All of the peripherals you have defined in the [peripherals section of the controls panel](../../controls/peripherals.md)
   * The Box LEDs, if you have any included with your FarmBot version
 
 ![toggle peripheral](_images/toggle_peripheral.png)
@@ -53,8 +53,8 @@ To use this command, select a peripheral from the **PERIPHERAL** dropdown. Optio
 
 The <span class="fb-step fb-read-pin">Read Sensor</span> command instructs FarmBot to read the value of a **sensor**. For example, you would use this command to measure the soil moisture content with the soil moisture sensor. To use this command, first select a sensor from the **SENSOR** dropdown. Options include:
 
-  * All of the sensors you have defined in the [sensors panel](../sensors.md)
-  * All of the peripherals you have defined in the [peripherals section of the controls panel](../controls/peripherals.md)
+  * All of the sensors you have defined in the [sensors panel](../../sensors.md)
+  * All of the peripherals you have defined in the [peripherals section of the controls panel](../../controls/peripherals.md)
 
 Next, select the **MODE** which you would like to read the sensor with. You can choose either `Digital` or `Analog`. Use digital for a `0` (LOW) or `1` (HIGH) response, and analog for a reading between `0` and `1023` for 0-5V.
 

@@ -16,7 +16,7 @@ content="This example sequence is only applicable to FarmBot Genesis kits, which
 
 ## Step 1: Add the tool to a slot
 
-If you haven't already, [create the watering nozzle tool in the web app and add it to a slot](../tools.md). Then place the real tool in the physical slot to ensure your real-life configuration matches the web app.
+If you haven't already, [create the watering nozzle tool in the web app and add it to a slot](../../tools.md). Then place the real tool in the physical slot to ensure your real-life configuration matches the web app.
 
 ## Step 2: Create the sequence
 
@@ -78,7 +78,7 @@ You may consider omitting the <span class="fb-step fb-find-home">Find Home</span
 
 ### Use a location variable
 
-This example sequence can only be used to mount the watering nozzle tool, meaning you will need to make additional sequences to mount other tools. Consider using a [location variable](variables.md) to make this a generic _mount tool_ sequence that can be used to mount any of your tools.
+This example sequence can only be used to mount the watering nozzle tool, meaning you will need to make additional sequences to mount other tools. Consider using a [location variable](../variables.md) to make this a generic _mount tool_ sequence that can be used to mount any of your tools.
 
 # What's next?
 

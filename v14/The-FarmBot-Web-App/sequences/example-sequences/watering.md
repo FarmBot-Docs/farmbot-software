@@ -26,7 +26,7 @@ Now that you've mounted the watering nozzle tool and used the tool to water a pl
 
 ### Water any plant by using a variable
 
-This sequence can only be used to water the specific Spinach plant chosen. Instead of making watering sequences for every plant in your garden, make this sequence a generic _Water plant_ sequence that can be used on any plant by using a [location variable](variables.md).
+This sequence can only be used to water the specific Spinach plant chosen. Instead of making watering sequences for every plant in your garden, make this sequence a generic _Water plant_ sequence that can be used on any plant by using a [location variable](../variables.md).
 
 ### Take a photo
 
