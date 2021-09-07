@@ -63,7 +63,6 @@ You can customize how the sequence editor works with the options in the <i class
 # What's next?
 
  * [Sequence Commands](sequences/sequence-commands.md)
- * [Advanced Sequence Commands](sequences/advanced-sequence-commands.md)
  * [Building a Sequence](sequences/building-a-sequence.md)
  * [Example Sequences](sequences/example-sequences.md)
  * [Variables](sequences/variables.md)
