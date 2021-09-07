@@ -111,6 +111,8 @@ contents:
             url: variables
           - title: Externally Defined Variables
             url: externally-defined-variables
+          - title: Multiple Variables
+            url: multiple-variables
       - title: Regimens
         url: regimens
       - title: Help

@@ -13,6 +13,8 @@ There are five places that you can provide a value for an **externally defined v
 4. In a [regimen header](#regimen-header)
 5. In an [event](#event)
 
+When providing the variable value in any of these places, you will be initially presented with the variable's **DEFAULT VALUE**, which may serve as a shortcut when set to a frequently used value.
+
 # Run button
 
 If you want to test run your sequence, you will need to provide a value for the variable to be used during the run. Simply click the <span class="fb-button fb-orange">RUN</span> button and provide a variable value in the popup form. Then click <span class="fb-button fb-orange">RUN</span> again and FarmBot will execute the sequence with the variable value provided. You can test run your sequence as many times as you want with the same or different variable values each time.
@@ -23,17 +25,17 @@ If you want to test run your sequence, you will need to provide a value for the 
 
 If you add your sequence to another sequence using an <span class="fb-step fb-execute">EXECUTE</span> command, then a variable form will be shown in the step.
 
-![mount tool step](_images/mount_tool_step.png)
+![execute subsequence with variable](_images/execute_subsequence_with_variable.png)
 
 # Parent sequence header
 
-If you add your sequence to another sequence using an <span class="fb-step fb-execute">EXECUTE</span> command and choose `Location Variable - Add new`, then a *new variable* will be created that belongs to the parent sequence. You can then provide a value for that variable in the sequence header, and it will be passed into the subsequence(s). Notice that the value you choose will be displayed in each <span class="fb-step fb-execute">EXECUTE</span> command that the value will be passed into.
+If you add your sequence to another sequence using an <span class="fb-step fb-execute">EXECUTE</span> command, you may select **Variables** - `Add new` to add a *new variable* that belongs to the parent sequence. You can then provide a value for that variable in the sequence header, and it will be passed into the subsequence(s). Notice that the value you choose will be displayed in each <span class="fb-step fb-execute">EXECUTE</span> command that the value will be passed into.
 
-![tool testing sequence](_images/tool_testing_sequence.png)
+![pass variable value from parent to subsequences](_images/pass_variables.png)
 
 {%
 include callout.html
-type="info"
+type="sort-amount-desc"
 title="Russian doll sequences"
 content="By setting the new variable in the parent sequence to `Externally defined`, you can create a set of \"Russian doll\" sequences that keep passing values from variable to variable further and further into their child sequences until ultimately, the value finds its way to a <span class='fb-step fb-move-absolute'>MOVE</span> step."
 %}
@@ -52,5 +54,4 @@ If you make an event for a sequence or a regimen with a variable set to `Externa
 
 # What's next?
 
- * [Regimens](../regimens.md)
- * [Events](../events.md)
+ * [Multiple Variables](multiple-variables.md)
