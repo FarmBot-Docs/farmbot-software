@@ -1,4 +1,4 @@
-d---
+---
 title: "Connecting FarmBot to the Internet"
 slug: "connecting-farmbot-to-the-internet"
 description: "**Problem description:** FarmBot is having trouble connecting to the Internet or staying connected consistently."
@@ -67,7 +67,7 @@ For Genesis kits, simply connect an Ethernet cable between the Raspberry Pi and 
 
 ## Express
 
-For Express kits, you will need to purchase and install a **USB Ethernet hub** from a third party vendor. We recommend USB Ethernet hubs based on the `AX88179` chipset such as this one from [Adafruit](https://www.adafruit.com/product/2992). Note that depending on the hub you purchase, you may also need a [USB to microUSB adapter](https://www.amazon.com/dp/B07SDB7XY1/) to be able to plug the camera into the hub, as there is only one available microUSB port on the Raspberry Pi Zero which will be occupied by the Ethernet hub.
+For Express kits, you will need to purchase and install a **USB Ethernet hub** from a third party vendor. We recommend USB Ethernet hubs based on the `AX88179` chipset such as [this one from Adafruit](https://www.adafruit.com/product/2992). Note that depending on the hub you purchase, you may also need a [USB to microUSB adapter](https://www.amazon.com/dp/B07SDB7XY1/) to be able to plug the camera into the hub, as there is only one available microUSB port on the Raspberry Pi Zero which will be occupied by the Ethernet hub.
 
 Please keep the following points in mind if you decide to use Ethernet on an Express device:
 
