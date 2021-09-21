@@ -168,6 +168,8 @@ contents:
         pages:
           - title: Stall Detection Hardware
             url: stall-detection-hardware
+          - title: Kinematic Equations
+            url: kinematic-equations
           - title: Microstepping
             url: microstepping
   - title: Extras

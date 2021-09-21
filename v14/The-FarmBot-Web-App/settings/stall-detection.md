@@ -24,8 +24,6 @@ When tuning stall detection, here are some tips:
 
 The bot considers that it has stalled when the motor load goes over the **MAX MOTOR LOAD**. Each axis will need different settings, and you may not find settings that give good results for all of the axes. If so, just disable stall detection for now until the next software update that includes improvements to the stall detection system.
 
-![stall detection settings](_images/stall_detection_settings.png)
-
 # Enable stall detection
 
 Enable use of motor stall detection for detecting missed steps, finding axis length, and finding home.

@@ -11,6 +11,7 @@ The settings panel contains a bunch of settings that determine how FarmBot moves
 
 # What's next?
 
+ * [Account Settings](settings/account-settings.md)
  * [FarmBot Settings](settings/farmbot-settings.md)
  * [Firmware Settings](settings/firmware-settings.md)
  * [Power and Reset](settings/power-and-reset.md)
@@ -24,4 +25,3 @@ The settings panel contains a bunch of settings that determine how FarmBot moves
  * [Pin Guard](settings/pin-guard.md)
  * [Parameter Management](settings/parameter-management.md)
  * [Farm Designer Settings](settings/farm-designer-settings.md)
- * [Account Settings](settings/account-settings.md)

@@ -8,8 +8,6 @@ description: ":robot: Device name and software updates.\n[Open these settings in
 {:toc}
 
 
-![farmbot settings](_images/farmbot_settings.png)
-
 # Name
 
 Give your FarmBot a fun name. For example: `Broccoli Overlord` 🥦 🤖
@@ -31,7 +29,7 @@ Set the device's timezone.
 
 {%
 include callout.html
-type="info"
+type="clock-o"
 title="Automatically set"
 content="When you create your FarmBot web app account and login for the first time, we will automatically set your device's timezone to match your computer or phone's timezone (whichever was used to login to the account). If your FarmBot is located somewhere else, you can change the timezone setting here."
 %}

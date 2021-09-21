@@ -40,4 +40,5 @@ Using custom firmware is only recommended for software developers. For more info
 # What's next?
 
  * [Stall Detection Hardware](arduino-firmware/stall-detection-hardware.md)
+ * [Kinematic Equations](arduino-firmware/kinematic-equations.md)
  * [Microstepping](arduino-firmware/microstepping.md)

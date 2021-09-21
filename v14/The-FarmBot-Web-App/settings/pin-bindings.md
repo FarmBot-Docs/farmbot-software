@@ -9,11 +9,11 @@ description: ":radio_button: Trigger actions and sequences with physical buttons
 
 **Pin bindings** allow electrical signals from a button or sensor to trigger a FarmBot **action** or **sequence**. For example, a red button could be used to trigger the <span class="fb-button fb-red">E-STOP</span> action as recommended with FarmBot Genesis v1.4+ kits. For practical examples, see our [use FarmBot's buttons](../../FarmBot-Software/how-to-guides/use-farmbots-buttons.md) how-to guide.
 
-![pin bindings](_images/pin_bindings.png)
-
 # Adding a pin binding
 
-To add a pin binding, first select the Raspberry Pi GPIO **PIN NUMBER** that your button or sensor is connected to (open the GPIO diagram for assistance by pressing the <span class="fa fa-th-large"></span> icon). Next, choose the type of **BINDING** (either `Sequence` or `Action`) and then select the **TARGET** (the sequence or action desired). Press <span class="fb-button fb-green">BIND</span> to save the pin binding.
+To add a pin binding, first select the Raspberry Pi GPIO **PIN NUMBER** that your button or sensor is connected to (for assistance, open the GPIO diagram by pressing the <span class="fa fa-th-large"></span> icon or the Push Button diagram by pressing <span class="fa fa-circle-o-notch"></span>). Next, choose the type of **BINDING** (either `Sequence` or `Action`) and then select the **TARGET** (the sequence or action desired). Press <span class="fb-button fb-green">SAVE</span> to save the pin binding.
+
+![pin bindings](_images/pin_bindings.png)
 
 {%
 include callout.html
