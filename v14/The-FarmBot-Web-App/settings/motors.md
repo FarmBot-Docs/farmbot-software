@@ -23,23 +23,22 @@ include callout.html
 type="info"
 title="Convert motor speed into linear speed with the following equations"
 content="For belt-driven axes (X and Y)
-**Linear Speed** = **Motor Speed** / **Motor Resolution** x **Microstepping** x **Pulley Size** x **Belt Pitch**
+**Linear Speed** = **Motor Speed** / **Motor Resolution** x **Pulley Size** x **Belt Pitch**
 
 For leadscrew-driven axes (Z)
-**Linear Speed** = **Motor Speed** / **Motor Resolution** x **Microstepping** x **Leadscrew Lead**
+**Linear Speed** = **Motor Speed** / **Motor Resolution** x **Leadscrew Lead**
 
 For stock FarmBot kits,
 **Motor Resolution** = 200 steps/revolution
-**Microstepping** = 1 (full steps)
 **Pulley Size** = 20 teeth/revolution
 **Belt Pitch** = 2mm/tooth
 **Leadscrew Lead** = 8mm/revolution
 
 For a Motor Speed of 500 steps/second on the stock belt-driven (X and Y) axes, the equation works out to:
-**Linear Speed (mm/second)** = 500 / 200 x 1 x 20 x 2 = **100 mm/s**
+**Linear Speed (mm/second)** = 500 / 200 x 20 x 2 = **100 mm/s**
 
 For a Motor Speed of 500 steps/second on the stock leadscrew-driven (Z) axis:
-**Linear Speed (mm/second)** = 500 / 200 x 1 x 8 = **20 mm/s**"
+**Linear Speed (mm/second)** = 500 / 200 x 8 = **20 mm/s**"
 %}
 
 # Minimum speed
@@ -83,23 +82,22 @@ include callout.html
 type="info"
 title="Steps per mm is calculated with the following equations"
 content="For belt-driven axes (X and Y)
-**Steps per mm** = **Motor Resolution** x **Microstepping** / **Pulley Size** / **Belt Pitch**
+**Steps per mm** = **Motor Resolution** / **Pulley Size** / **Belt Pitch**
 
 For leadscrew-driven axes (Z)
-**Linear Distance** = **Motor Resolution** x **Microstepping** / **Leadscrew Lead**
+**Linear Distance** = **Motor Resolution** / **Leadscrew Lead**
 
 For stock FarmBot kits,
 **Motor Resolution** = 200 steps/revolution
-**Microstepping** = 1 (full steps)
 **Pulley Size** = 20 teeth/revolution
 **Belt Pitch** = 2mm/tooth
 **Leadscrew Lead** = 8mm/revolution
 
 For the stock belt-driven (X and Y) axes, the equation works out to:
-**Steps per mm** = 200 x 1 / 20 / 2 = **5 steps/mm**
+**Steps per mm** = 200 / 20 / 2 = **5 steps/mm**
 
 For the stock leadscrew-driven (Z) axis:
-**Steps per mm** = 200 x 1 / 8 = **25 steps/mm**"
+**Steps per mm** = 200 / 8 = **25 steps/mm**"
 %}
 
 ## Homing speed
