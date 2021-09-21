@@ -8,8 +8,6 @@ description: ":electric_plug: Reboot, reconfigure, and shutdown FarmBot.\n[Open 
 {:toc}
 
 
-![power and reset](_images/power_and_reset.png)
-
 # Restart FarmBot
 
 This will restart FarmBot's Raspberry Pi and FarmBot OS.

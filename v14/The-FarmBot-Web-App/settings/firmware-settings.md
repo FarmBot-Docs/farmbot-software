@@ -8,8 +8,6 @@ description: ":floppy_disk: FarmBot model and firmware management.\n[Open these 
 {:toc}
 
 
-![firmware settings](_images/firmware_settings.png)
-
 # Firmware
 
 Select the firmware to be used with your electronics board. This will flash the selected firmware to the microcontroller. Pressing <span class="fb-button fb-yellow">FLASH FIRMWARE</span> will manually flash the firmware, which may be required when installing a new electronics board.

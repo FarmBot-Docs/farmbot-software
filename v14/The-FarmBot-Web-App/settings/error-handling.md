@@ -8,8 +8,6 @@ description: ":stop_sign: Let FarmBot know what to do when something goes wrong.
 {:toc}
 
 
-![error handling](_images/error_handling.png)
-
 # Max retries
 
 The number of times that FarmBot will try to move to a position before stopping and reporting that the movement has failed.

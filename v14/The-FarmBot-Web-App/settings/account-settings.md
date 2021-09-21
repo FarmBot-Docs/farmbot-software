@@ -9,9 +9,7 @@ description: ":computer: Manage your account and app settings.\n[Open these sett
 
 In this section you can change your name (displayed in the top right of the app), email (used for login, emailed log messages), and account password. There are also additional app settings, reset controls, and data export tools, as described below.
 
-# App settings
-
-## Internationalize web app
+# Internationalize web app
 
 Disable use of language files to translate web app text.
 
@@ -22,19 +20,19 @@ title="Translations may be incomplete"
 content="Interested in helping out? See the [instructions for submitting corrections or new languages](https://github.com/FarmBot/Farmbot-Web-App#translating-the-web-app-into-your-language)."
 %}
 
-## Use 24-hour time format
+# Use 24-hour time format
 
-Enabling this setting will display times using the 24-hour notation, i.e., 23:00 instead of 11:00pm.
+Enabling this setting will display times using the 24-hour notation, i.e., `23:00` instead of `11:00pm`.
 
-## Show seconds in time
+# Show seconds in time
 
-Enabling this setting will display times with seconds, i.e., 6:22:58pm instead of 6:22pm.
+Enabling this setting will display times with seconds, i.e., `6:22:58pm` instead of `6:22pm`.
 
-## Hide sections
+# Hide sections
 
 If you're not using an external webcam to monitor your FarmBot, you can remove the **webcams** section from the controls panel to save space. If your FarmBot does not have any sensors (such as FarmBot Express), you can hide the **sensors** panel as well.
 
-## Read speak logs in browser
+# Read speak logs in browser
 
 <span class="fb-step fb-send-message">SEND MESSAGE</span> commands can optionally speak the message aloud. The audio can be heard from the Raspberry Pi's 3.5mm audio jack, and using this setting, output using your computer speakers as well.
 
@@ -45,15 +43,15 @@ title=""
 content="This feature may not be available in some web browsers. We're sorry for the inconvenience."
 %}
 
-## Discard unsaved changes
+# Discard unsaved changes
 
 Enabling this setting will prevent a browser dialog from asking about unsaved work before closing the browser tab. Warning: may cause loss of data.
 
-## Confirm emergency unlock
+# Confirm emergency unlock
 
 Disabling this setting will prevent a browser dialog from asking for confirmation when using the <span class="fb-button fb-yellow">UNLOCK</span> button after an emergency stop.
 
-## User interface read-only mode
+# User interface read-only mode
 
 Enabling this setting will prevent data changes to your account, such as modifying or deleting sequences or garden layouts. This setting does not prevent FarmBot OS from changing settings, or the manual control buttons from working.
 

@@ -7,7 +7,6 @@ description: ":gear: Parameter import, export, and reset options.\n[Open these s
 * toc
 {:toc}
 
-![parameter management](_images/parameter_management.png)
 
 # Parameter load progress
 

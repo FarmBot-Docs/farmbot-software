@@ -8,8 +8,6 @@ description: ":triangular_ruler: Axis home, length, and position presets.\n[Open
 {:toc}
 
 
-![axis settings](_images/axis_settings.png)
-
 # Find home
 
 Finding home instructs FarmBot to find the home (minimum) position by moving towards home until a rotary encoder, stepper driver, or limit switch signals that the end of the axis has been reached. Note that **ENCODERS**, **STALL DETECTION**, or **LIMIT SWITCHES** must be <span class="fb-peripheral-on">ON</span> for FarmBot to automatically find home.
