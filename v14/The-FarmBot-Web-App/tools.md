@@ -57,7 +57,7 @@ Next, provide **coordinates** for the tool slot.
   * If you plan to load an **interchangeable tool** into the slot (Genesis kits only), use coordinates for when FarmBot's UTM will fully mount the tool while it is still in the slot.
   * If you plan to load a **seed container** into the slot, use coordinates for when FarmBot's seed injector needle will be positioned to pick up a seed from the container.
 
-To input accurate coordinates, use the manual controls to move FarmBot into the desired position (mounting the tool or picking up a seed). Then click the **USE CURRENT LOCATION** <span class="fb-button fb-light-blue"><i class='fa fa-crosshairs'></i></span> button to copy FarmBot's current coordinates into the **X**, **Y**, and **Z** input fields.
+To input accurate coordinates, use the manual controls to move FarmBot into the desired position (mounting the tool or picking up a seed). Then click the **USE CURRENT LOCATION** <span class="fb-button fb-blue"><i class='fa fa-crosshairs'></i></span> button to copy FarmBot's current coordinates into the **X**, **Y**, and **Z** input fields.
 
 ![add new slot](_images/add_new_slot.png)
 
