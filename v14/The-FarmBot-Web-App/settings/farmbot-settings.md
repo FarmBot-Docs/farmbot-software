@@ -34,6 +34,16 @@ title="Automatically set"
 content="When you create your FarmBot web app account and login for the first time, we will automatically set your device's timezone to match your computer or phone's timezone (whichever was used to login to the account). If your FarmBot is located somewhere else, you can change the timezone setting here."
 %}
 
+# Location
+
+Specify where FarmBot is located in the world with latitude and longitude coordinates. This information may be used by advanced sequence commands to provide smarter FarmBot operation, such as a watering command that uses local weather data.
+
+To set the location, press the <span class="fb-button fb-blue"><i class='fa fa-crosshairs'></i></span> button and grant your web browser permission to provide location information to the web app. This will automatically set the coordinates using two decimal precision (neighborhood level). If you would like to provide more or less precision, you may edit the coordinates manually. Clicking the <i class='fa fa-map'></i> icon will open [openstreetmap.org](https://www.openstreetmap.org) to the current coordinates so that you may double check accuracy.
+
+# Indoor
+
+Specify whether or not your FarmBot is located indoors. This information may be used by advanced sequence commands to provide smarter FarmBot operation based on an indoor vs outdoor environment.
+
 # Update time
 
 With this dropdown you can choose the hour of the day when FarmBot will apply software updates so that updates occur at a convenient time (such as the middle of the night) when you do not have any events scheduled and do not plan to be working with your FarmBot.
