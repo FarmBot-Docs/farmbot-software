@@ -7,14 +7,7 @@ description: "Using more than one variable in a sequence"
 * toc
 {:toc}
 
-{%
-include callout.html
-type="info"
-title="Coming soon"
-content="Multi-variable support is coming soon"
-%}
-
-# Adding variables
+# Adding multiple variables
 
 Sequences are not limited to a single variable. To add additional variables click <span class="fb-add-variable">ADD VARIABLE</span> in the sequence header as many times as needed or select `Add new` in a sequence step dropdown.
 
@@ -36,7 +29,17 @@ content="Only unused variables can be removed."
 
 # Name each variable
 
-To keep track of what each variable is used for, click the variable's title to add a custom name. As variables are added, updated, and removed, their corresponding listing in sequence step dropdowns will be updated.
+To keep track of what each variable is used for, click the variable's title to add a custom name.
+
+{%
+include callout.html
+type="pencil"
+content="Variables cannot be renamed once in-use by sequence commands, so do the naming up-front."
+%}
+
+![rename variable](_images/rename_variables.png)
+
+As variables are added, updated, and removed, their corresponding listing in sequence step dropdowns will be updated.
 
 ![variables with custom names](_images/variables_with_custom_names.png)
 
@@ -57,5 +60,4 @@ content="When FarmBot runs a sequence with a group variable, it will actually ex
 
 # What's next?
 
- * [Regimens](../regimens.md)
- * [Events](../events.md)
+ * [Shared Sequences](shared-sequences.md)

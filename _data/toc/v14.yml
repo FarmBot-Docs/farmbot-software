@@ -113,6 +113,8 @@ contents:
             url: externally-defined-variables
           - title: Multiple Variables
             url: multiple-variables
+          - title: Shared Sequences
+            url: shared-sequences
       - title: Regimens
         url: regimens
       - title: Help
