@@ -42,7 +42,7 @@ content="By setting the new variable in the parent sequence to `Externally defin
 
 # Regimen header
 
-If you add your sequence to a regimen, then a variable form will be shown in the regimen's header. You can provide a value right there, or choose `Externally defined`, in which case you will need to provide a value in the event that runs the regimen (see below). Notice that the value you choose will be displayed in each regimen item that the value will be passed into.
+If you add your sequence to a regimen, then a variable form will be shown in the regimen's header. You can provide a value right there, or choose `Externally defined`, in which case you will need to provide a value in the event that runs the regimen (see below). All regimen items will show the variables and the values that will be used when the sequence is run (either the explicitly set values in the regimen, or the variable’s default values).
 
 ![regimen variable form](_images/regimen_variable_form.png)
 
@@ -51,6 +51,10 @@ If you add your sequence to a regimen, then a variable form will be shown in the
 If you make an event for a sequence or a regimen with a variable set to `Externally defined`, then a variable form will appear in the add event panel.
 
 ![event variable form](_images/event_variable_form.png)
+
+Once the event has been scheduled, all event instances will show the variables and the values that will be used when the event runs (either the explicitly set values in the event or the variable’s default values).
+
+![variable values in event instance](_images/variable_values_in_event.png)
 
 # What's next?
 

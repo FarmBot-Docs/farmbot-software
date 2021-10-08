@@ -67,3 +67,5 @@ You can customize how the sequence editor works with the options in the <i class
  * [Example Sequences](sequences/example-sequences.md)
  * [Variables](sequences/variables.md)
  * [Externally Defined Variables](sequences/externally-defined-variables.md)
+ * [Multiple Variable](sequences/multiple-variables.md)
+ * [Shared Sequences](sequences/shared-sequences.md)
