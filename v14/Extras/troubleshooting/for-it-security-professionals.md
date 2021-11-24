@@ -29,9 +29,8 @@ Web content is delivered by the following third parties. All content is transfer
 * `openfarm.cc` - Crop knowledge database
 * `maxcdn.bootstrapcdn.com` - Visual stylesheet assets for UI.
 * `fonts.googleapis.com` and `fonts.gstatic.com` - UI font files.
-* `device.nerveshub.org` - FarmBotOS software release information.
 * `api.github.com` - FarmBot OS software release information.
-* `raw.githubusercontent.com` - Hosting of device plugins, such as the weed detector
+* `raw.githubusercontent.com` - Hosting of plugin metadata used by the Web App.
 
 The servers in the list above do not require long-running access. They simply open a connection and close it upon completion, which should not take more than a few seconds.
 
