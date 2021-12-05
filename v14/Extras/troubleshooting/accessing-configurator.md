@@ -30,7 +30,8 @@ Once you find the `farmbot-xxxx` WiFi network, connect to it and follow the deta
 If you do not see the `farmbot-xxxx` WiFi network, try again with a different smartphone, tablet, or laptop. If you still cannot find the network, move on to the next troubleshooting step.
 
 # 4. Try a different microSD card
-It is possible for the microSD card to become corrupted and unusable. If you have tried the steps above and did not ever find the `farmbot-xxxx` WiFi network, try installing FarmBot OS onto a different microSD card and attempting to connect again.
+
+It is possible for the microSD card to become corrupted and unusable. If you have tried the steps above and did not ever find the `farmbot-xxxx` WiFi network, try installing FarmBot OS onto a different microSD card and attempting to connect again. **Some users have reported problems with SD cards that have a storage capacity over 32 gigabytes.** If you have problems with a large SD card, consider using an SD card with a smaller capacity.
 
 If this does not work or you do not have an extra microSD card to try with, please contact us at [support@farm.bot](mailto:support@farm.bot).
 

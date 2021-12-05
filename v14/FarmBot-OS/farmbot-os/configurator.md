@@ -22,7 +22,7 @@ When FarmBot boots up, it will automatically start up Configurator. Configurator
 
 # Step 1: Connect to configurator
 
-1. Using your phone or laptop, connect to the `farmbot-xxxx` WiFi network.
+1. After installing FarmBot OS to the device SD card, connect to the `farmbot-xxxx` WiFi network from your phone or laptop. Configurator will not load if you do not flash the SD card.
 2. Once connected, a laptop computer should automatically open up a **captive portal** with the configuration utility. You might be familiar with this experience from using WiFi at an airport, hotel, or cafe. If you're using a smartphone, you may need to click a notification once you're connected to the FarmBot network to open up the captive portal.
 
 {%
