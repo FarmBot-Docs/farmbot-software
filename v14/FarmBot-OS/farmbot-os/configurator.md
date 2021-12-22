@@ -20,6 +20,12 @@ We also recommend [choosing a FarmBot model](../../FarmBot-Software/getting-star
 
 When FarmBot boots up, it will automatically start up Configurator. Configurator will check for configuration data. Initially, there will not be any configuration data, so FarmBot will not be able to connect to your home WiFi network or your web app account. In this case, Configurator will create its own WiFi network named `farmbot-xxxx`. Use this WiFi network to provide FarmBot with the information it needs by using the step-by-step instructions below.
 
+{%
+include callout.html
+type="warning"
+content="Configurator will not run if you have not flashed the microSD card with [FarmBot OS](../farmbot-os.md)."
+%}
+
 # Step 1: Connect to configurator
 
 1. After installing FarmBot OS to the device SD card, connect to the `farmbot-xxxx` WiFi network from your phone or laptop. Configurator will not load if you do not flash the SD card.
