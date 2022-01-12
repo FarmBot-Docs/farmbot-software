@@ -62,6 +62,19 @@ If provided an SSH key during configuration (in the "Advanced" panel), it is pos
  * The Linux distribution that FarmBot uses does not offer any useful utilities for an end user. (IE there is no `apt-get`, `bash`, `top`, `init`, etc)
  * SSH access is used for debugging only. It is not intended to be used for software development or hosting.
 
+# System Requirements
+
+Controlling a FarmBot requires only modest hardware and is not particularly demanding for most modern desktop computers. As a general rule, a desktop system capable of word processing and video streaming should be adequately capable of running the FarmBot Web App.
+
+FarmBot is known to work on systems that have:
+
+ * The latest 64-bit version of Mac OS, Windows, and Ubuntu
+ * The latest version of Mozilla Firefox or Google Chrome
+ * 4GB of memory
+ * A reasonably performant processor, such as an Intel Core i3.
+
+The FarmBot Web App may run on other systems, though FarmBot, Inc. may not support such systems if performance problems arise.
+
 # Other security concerns
 
 Please let us know if you have any other security concerns by emailing security@farm.bot, or opening an issue on GitHub.
