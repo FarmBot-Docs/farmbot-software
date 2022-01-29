@@ -55,3 +55,4 @@ The <i class='fa fa-eye'></i> icon shows whether or not a photo is displayed in 
  * [Weed Detection](photos/weed-detection.md)
  * [Measure Soil Height](photos/measure-soil-height.md)
  * [Camera Troubleshooting](photos/camera-troubleshooting.md)
+ * [Plug and Play Cameras](photos/plug-and-play-cameras.md)
