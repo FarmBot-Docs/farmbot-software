@@ -80,6 +80,8 @@ contents:
             url: measure-soil-height
           - title: Camera Troubleshooting
             url: camera-troubleshooting
+          - title: Plug and Play Cameras
+            url: plug-and-play-cameras
       - title: Tools
         url: tools
       - title: Sequences
