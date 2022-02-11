@@ -1,5 +1,5 @@
 ---
 permalink: /docs/controls
-page_path: /The-FarmBot-Web-App/controls
+page_path: /app/controls
 layout: redirect
 ---

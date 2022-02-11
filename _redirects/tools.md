@@ -1,5 +1,5 @@
 ---
 permalink: /docs/tools
-page_path: /The-FarmBot-Web-App/tools
+page_path: /app/tools
 layout: redirect
 ---

@@ -1,5 +1,5 @@
 ---
 permalink: /docs/sequence-commands
-page_path: /The-FarmBot-Web-App/sequences/sequence-commands
+page_path: /app/sequences/sequence-commands
 layout: redirect
 ---

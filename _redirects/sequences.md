@@ -1,5 +1,5 @@
 ---
 permalink: /docs/sequences
-page_path: /The-FarmBot-Web-App/sequences
+page_path: /app/sequences
 layout: redirect
 ---

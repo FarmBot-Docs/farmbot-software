@@ -1,5 +1,5 @@
 ---
 permalink: /docs/regimens
-page_path: /The-FarmBot-Web-App/regimens
+page_path: /app/regimens
 layout: redirect
 ---

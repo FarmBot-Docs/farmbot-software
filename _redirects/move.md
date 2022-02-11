@@ -1,5 +1,5 @@
 ---
 permalink: /docs/move
-page_path: /The-FarmBot-Web-App/controls/move
+page_path: /app/controls/move
 layout: redirect
 ---

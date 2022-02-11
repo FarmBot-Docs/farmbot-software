@@ -1,5 +1,5 @@
 ---
 permalink: /docs/plants
-page_path: /The-FarmBot-Web-App/plants
+page_path: /app/plants
 layout: redirect
 ---

@@ -1,5 +1,5 @@
 ---
 permalink: /docs/points
-page_path: /The-FarmBot-Web-App/points
+page_path: /app/points
 layout: redirect
 ---

@@ -1,5 +1,5 @@
 ---
 permalink: /docs/pin-bindings
-page_path: /The-FarmBot-Web-App/settings/pin-bindings
+page_path: /app/settings/pin-bindings
 layout: redirect
 ---
