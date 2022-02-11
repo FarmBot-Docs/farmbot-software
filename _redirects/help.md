@@ -1,5 +1,5 @@
 ---
 permalink: /docs/help
-page_path: /The-FarmBot-Web-App/help
+page_path: /app/help
 layout: redirect
 ---

@@ -1,5 +1,5 @@
 ---
 permalink: /docs/pin-guard
-page_path: /The-FarmBot-Web-App/settings/pin-guard
+page_path: /app/settings/pin-guard
 layout: redirect
 ---

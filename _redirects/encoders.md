@@ -1,5 +1,5 @@
 ---
 permalink: /docs/encoders
-page_path: /The-FarmBot-Web-App/settings/encoders
+page_path: /app/settings/encoders
 layout: redirect
 ---

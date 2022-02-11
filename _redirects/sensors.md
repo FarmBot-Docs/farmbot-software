@@ -1,5 +1,5 @@
 ---
 permalink: /docs/sensors
-page_path: /The-FarmBot-Web-App/sensors
+page_path: /app/sensors
 layout: redirect
 ---

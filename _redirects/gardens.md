@@ -1,5 +1,5 @@
 ---
 permalink: /docs/gardens
-page_path: /The-FarmBot-Web-App/gardens
+page_path: /app/gardens
 layout: redirect
 ---

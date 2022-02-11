@@ -1,5 +1,5 @@
 ---
 permalink: /docs/weeds
-page_path: /The-FarmBot-Web-App/weeds
+page_path: /app/weeds
 layout: redirect
 ---

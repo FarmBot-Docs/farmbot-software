@@ -1,5 +1,5 @@
 ---
 permalink: /docs/peripherals
-page_path: /The-FarmBot-Web-App/controls/peripherals
+page_path: /app/controls/peripherals
 layout: redirect
 ---

@@ -1,5 +1,5 @@
 ---
 permalink: /docs/data-usage
-page_path: /FarmBot-OS/farmbot-os/data-usage
+page_path: /farmbot-os/intro/data-usage
 layout: redirect
 ---

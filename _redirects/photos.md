@@ -1,5 +1,5 @@
 ---
 permalink: /docs/photos
-page_path: /The-FarmBot-Web-App/photos
+page_path: /app/photos
 layout: redirect
 ---

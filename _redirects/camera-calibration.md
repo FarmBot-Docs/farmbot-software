@@ -1,5 +1,5 @@
 ---
 permalink: /docs/camera-calibration
-page_path: /The-FarmBot-Web-App/photos/camera-calibration
+page_path: /app/photos/camera-calibration
 layout: redirect
 ---

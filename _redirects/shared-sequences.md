@@ -1,5 +1,5 @@
 ---
 permalink: /docs/shared-sequences
-page_path: /The-FarmBot-Web-App/sequences/shared-sequences
+page_path: /app/sequences/shared-sequences
 layout: redirect
 ---

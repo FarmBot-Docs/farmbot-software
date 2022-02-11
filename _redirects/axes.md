@@ -1,5 +1,5 @@
 ---
 permalink: /docs/axes
-page_path: /The-FarmBot-Web-App/settings/axes
+page_path: /app/settings/axes
 layout: redirect
 ---

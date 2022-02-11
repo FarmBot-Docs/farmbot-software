@@ -1,5 +1,5 @@
 ---
 permalink: /docs/example-sequences
-page_path: /The-FarmBot-Web-App/sequences/example-sequences
+page_path: /app/sequences/example-sequences
 layout: redirect
 ---

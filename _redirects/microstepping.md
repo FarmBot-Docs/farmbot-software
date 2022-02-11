@@ -1,5 +1,5 @@
 ---
 permalink: /docs/microstepping
-page_path: /FarmBot-OS/arduino-firmware/microstepping
+page_path: /farmbot-os/arduino-firmware/microstepping
 layout: redirect
 ---

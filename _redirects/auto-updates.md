@@ -1,5 +1,5 @@
 ---
 permalink: /docs/auto-updates
-page_path: /FarmBot-OS/farmbot-os/auto-updates
+page_path: /farmbot-os/intro/auto-updates
 layout: redirect
 ---
