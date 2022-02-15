@@ -7,30 +7,21 @@ description: "Scale, rotate, and position images accurately in the map :camera:"
 * toc
 {:toc}
 
-FarmBot's camera must be **calibrated** so that images can be **scaled**, **rotated**, and **positioned** such that the pixels in the images match up with the FarmBot coordinate system. This allows images to be displayed in the correct location in the farm designer map and also allows FarmBot to detect and locate objects in the garden, such as weeds.
+FarmBot's camera must be **calibrated** so that images can be **scaled**, **rotated**, and **positioned** such that the pixels in the images match up with the FarmBot coordinate system. This allows images to be displayed in the farm designer map with the correct location, size, and rotation. Calibration also allows FarmBot to detect and locate objects in the garden, such as weeds.
 
-There are two methods for camera calibration. [Method 1 - Calibration via dot grid](#method-1-calibration-via-dot-grid), is the preferred method because it is the most accurate and easiest to perform. Method 1 requires a printed **[camera calibration card](https://farm.bot/products/camera-calibration-card)** featuring a dot grid (shown below), which is included with all Genesis v1.5+ and Express v1.0+ kits.
+Genesis v1.5+ and Express v1.0+ kits include a **camera calibration card** (show below) which is used for the preferred camera calibration process outlined on this page. If this card was not included with your kit (Genesis v1.2, v1.3, or v1.4) you can use the [alternative camera calibration method](../photos/alternative-camera-calibration-method.md).
 
 ![camera calibration card](_images/camera_calibration_card.jpg)
 
-[Method 2 - Calibration via two objects](#method-2-calibration-via-two-objects), is the less preferred method because it is more difficult. Method 2 should only be used if you do not have a printed camera calibration card featuring a dot grid.
+# Step 1: Place the card in the bed
 
-# Method 1: Calibration via dot grid
+Place a thin, large, and solid-colored surface (such as a piece of cardboard or cloth) on top of the soil away from the edges of the FarmBot bed. Then place the **camera calibration card** in the center of the solid-colored surface with the **dot grid** facing up. Orient the card square with FarmBot's axes and ensure that it is flat and facing perpindicular to the camera.
 
-{%
-include callout.html
-type="info"
-title=""
-content="This camera calibration method requires a printed camera calibration card featuring a dot grid, which is included with all Genesis v1.5+ and Express v1.0+ kits."
-%}
+![camera calibration setup](_images/camera_calibration_setup.png)
 
-## Step 1: Place the calibration card in the bed
-Place the **camera calibration card** on the surface of the soil in your garden bed with the **dot grid** facing up. The rotation of the card does not matter, though it will help to orient the card square with FarmBot's axes in case you need to troubleshoot the calibration process.
+# Step 2: Calibrate
 
-![camera calibration card in bed](_images/camera_calibration_card_in_bed.jpg)
-
-## Step 2: Calibrate
-From the [controls panel](../controls/move.md), move FarmBot directly over the camera calibration card and raise the z-axis as high as it will go. Now open the [photos panel](https://my.farm.bot/app/designer/photos) and scroll down to the **camera calibration** section. Expand the section and press the <span class="fb-button fb-green">calibrate</span> button. FarmBot will take a photo, then move 50mm in the +Y direction, take another photo, move 50mm in the +X direction, take a 3rd photo, and then move back to where it started.
+From the [controls panel](../controls/move.md), move FarmBot so that the camera is positioned directly over the camera calibration card and raise the z-axis as high as it will go. Now open the [photos panel](https://my.farm.bot/app/designer/photos) and scroll down to the **camera calibration** section. Expand the section and press the <span class="fb-button fb-green">calibrate</span> button. FarmBot will take a photo, then move 50mm in the +Y direction, take another photo, move 50mm in the +X direction, take a 3rd photo, and then move back to where it started.
 
 {%
 include callout.html
@@ -41,84 +32,30 @@ content="This process may take up to 3 minutes to complete on FarmBot Express de
 
 Once calibration is finished, FarmBot will upload the resulting calibrated image as well as calculated values for **ORIGIN LOCATION IN IMAGE**, **PIXEL COORDINATE SCALE**, and **CAMERA ROTATION**.
 
-![laptop with photos panel open and card in bed](_images/laptop_with_photos_panel_open_and_card_in_bed.jpg)
+If FarmBot is unable to detect the dot grid in any of the images, it will upload the problematic image and then move back to where it started. Inspect the image and make adjustments before retrying calibration. There are several common reasons FarmBot will not find the dot grid:
 
-If FarmBot is unable to detect the dot grid in any of the images, it will upload the problematic image and then move back to where it started. Inspect the image and make adjustments before retrying calibration. There are two main reasons FarmBot will not find the dot grid:
+## Outside the field of view
 
-### Dot grid is outside the camera's field of view
-If the camera calibration card was outside of the camera's field of view, or too far from the center of the image, then FarmBot may not detect it. Try moving the card a small amount (25mm) towards the center of the camera's field of view and retrying calibration. Also ensure the card is not obstructed or bent--the entire pattern should be clearly visible to the camera.
+If the camera calibration card was outside of the camera's field of view, or too far from the center of any of the images, then FarmBot may not detect it. Try moving the card a small amount (25mm) towards the center of the camera's field of view and retrying calibration. Also ensure the card is not obstructed or bent. The entire pattern of white dots and black background should be clearly visible to the camera.
 
-### Poor lighting
-If the lighting in the image is too bright or too dim, FarmBot will have trouble detecting the dot grid. To increase lighting, you may try toggling <span class="fb-peripheral-on">ON</span> FarmBot's LED light strip, or waiting for another time of the day. To decrease lighting, you may try waiting until another time of the day when the garden is shaded. There must be good contrast between the white dot pattern and black calibration card background for calibration to complete successfully. Trying calibration in a different location with fewer distractions in the area surrounding the card (or by blanketing the background with a solid color) may also help.
+## Poor lighting
 
-## Step 3: Check results
-After camera calibration, photos taken of the garden should line up with the grid when shown in the farm designer. If locations such as plants appear offset in photos when compared to the corresponding map locations, **CAMERA OFFSET X** and **CAMERA OFFSET Y** can be adjusted until they match.
+There must be good contrast between the white dot pattern and black calibration card background for calibration to complete successfully. If the lighting in the image is too bright, too dim, or nearby trees are casting shadows in some areas of the card but not others, then FarmBot will have trouble detecting the dot grid.
 
-{%
-include callout.html
-type="info"
-title=""
-content="Once camera calibration is run, you must always detect weeds with the camera at the same height (z-axis coordinate). Running calibration with the z-axis all the way up is recommended to maximize the camera's field of view."
-%}
+To increase lighting, try toggling <span class="fb-peripheral-on">ON</span> FarmBot's LED light strip or waiting for another time of the day to try calibration.
 
-# Method 2: Calibration via two objects
+To decrease lighting and ensure there are no interupting shadows, try waiting until another time of the day when the garden is fully shaded. You may also try in a different location in the garden bed.
 
-{%
-include callout.html
-type="warning"
-title=""
-content="This camera calibration method should only be used if you do not have a printed camera calibration card featuring a dot grid."
-%}
+## Damaged calibration card
 
-To use this method, check **USE ALTERNATIVE METHOD** in the camera calibration panel.
+If the calibration card is bent or has a crease in it, has been damaged by water, or is otherwise in poor condition then calibration may not complete successfully. If your calibration card is damaged you may:
 
-![alternate camera calibration method](_images/alternate_camera_calibration_method.png)
+* Try printing out the [calibration card pattern](camera_calibration_card.pdf) on a sheet of paper (note that it must be printed the exact scale as the original).
+* Try the [alternative camera calibration method](../photos/alternative-camera-calibration-method.md).
+* Purchase a replacement [camera calibration card](https://farm.bot/products/camera-calibration-card).
 
-## Step 1: Place the calibration objects in the bed
-Place two red calibration objects on the surface of the soil in your garden bed. The objects should be bright red, and preferably round. FarmBot kits over the years have included different calibration objects according to the table below:
+# Step 3: Check results
 
-|Kit                           |Calibration Object            |
-|------------------------------|------------------------------|
-|Genesis v1.2                  |[Red rubber caps](https://genesis.farm.bot/v1.2/extras/bom/miscellaneous#red-markers)
-|Genesis v1.3                  |[Red rubber caps](https://genesis.farm.bot/v1.3/extras/bom/miscellaneous#red-markers)
-|Genesis v1.4                  |[Red plastic golf tees](https://genesis.farm.bot/v1.4/extras/bom/miscellaneous#red-markers)
-|Genesis v1.5 and Express v1.0 |[Calibration card with red dots](https://genesis.farm.bot/v1.5/extras/bom/electronics-and-wiring#camera-calibration-card)
-
-The objects can be placed anywhere in the bed, but they need to be placed *square* with FarmBot's coordinate system and in a location where FarmBot's camera can be moved directly overhead. The objects should be separated about 100mm or more apart, but they must both be within the field of view of the camera.
-
-## Step 2: Enter distance and orientation
-Measure the distance from the center of one calibration object to the center of the next and input this distance in millimeters into the **CALIBRATION OBJECT SEPARATION** field.
-
-{%
-include callout.html
-type="success"
-title=""
-content="The distance between the two red dots on the Genesis v1.5 and Express v1.0 camera calibration card is exactly 100mm."
-%}
-
-
-
-![calibration object separation input](_images/calibration_object_separation_input.png)
-
-Select the axis along which the calibration objects are placed. If you placed them in the direction of the tracks, select `X` in the **CALIBRATION OBJECT SEPARATION ALONG AXIS** drop down menu. If you placed them in the direction of the gantry, select `Y`.
-
-![calibration object separation axis input](_images/calibration_object_separation_axis_input.png)
-
-For the **ORIGIN LOCATION IN IMAGE** setting, look at a photo you have taken with FarmBot's camera (take one using the <span class="fb-button fb-green">take photo</span> button if you haven't already). Determine which direction home is in the image, and select the corner of the image that corresponds to that direction. It can help to view a photo taken when FarmBot was at home `(0, 0, 0)`. If a corner of the image does not correspond to the origin, try rotating the camera until one does.
-
-## Step 3: Select color range
-For FarmBot to find the red calibration objects, it needs to know which shades of red to look for. The **HUE** color range slider should be set to approximately `20` to `160`, with the **INVERT HUE RANGE SELECTION** checkbox marked. This will select a hue range that includes various shades of red.
-
-![calibration color range input](_images/calibration_color_range_input.png)
-
-## Step 4: Calibrate
-Move FarmBot directly over the calibration objects and raise the z-axis as high as it will go. Press the <span class="fb-button fb-green">calibrate</span> button and watch the status ticker. Once calibration is finished, FarmBot will upload the resulting image as well as calculated values for **PIXEL COORDINATE SCALE** and **CAMERA ROTATION**.
-
-If more than the two red objects are detected in the image, adjust the **HUE**, **SATURATION**, and **VALUE** parameters until the two red objects are the only objects detected in the image. Detected regions of the image are outlined in green and circled in blue. Each new calibration will replace the previous calibration values.
-
-The <span class="fb-button fb-green">scan current image</span> button can be used to run camera calibration on an image already taken instead of taking a new photo.
-
-## Step 5: Check results
 After camera calibration, photos taken of the garden should line up with the grid when shown in the farm designer. If locations such as plants appear offset in photos when compared to the corresponding map locations, **CAMERA OFFSET X** and **CAMERA OFFSET Y** can be adjusted until they match.
 
 {%
