@@ -22,12 +22,12 @@ To use this method, check **USE ALTERNATIVE METHOD** in the camera calibration p
 
 Place two red calibration objects on the surface of the soil in your garden bed. The objects should be bright red, and preferably round. FarmBot kits over the years have included different calibration objects according to the table below:
 
-|Kit                           |Calibration Object            |
-|------------------------------|------------------------------|
-|Genesis v1.2                  |[Red rubber caps](https://genesis.farm.bot/v1.2/extras/bom/miscellaneous#red-markers)
-|Genesis v1.3                  |[Red rubber caps](https://genesis.farm.bot/v1.3/extras/bom/miscellaneous#red-markers)
-|Genesis v1.4                  |[Red plastic golf tees](https://genesis.farm.bot/v1.4/extras/bom/miscellaneous#red-markers)
-|Genesis v1.5 and Express v1.0 |[Calibration card with red dots](https://genesis.farm.bot/v1.5/extras/bom/electronics-and-wiring#camera-calibration-card)
+|Kit                             |Calibration Object            |
+|--------------------------------|------------------------------|
+|Genesis v1.2                    |[Red rubber caps](https://genesis.farm.bot/v1.2/Extras/bom/miscellaneous#red-markers)
+|Genesis v1.3                    |[Red rubber caps](https://genesis.farm.bot/v1.3/Extras/bom/miscellaneous#red-markers)
+|Genesis v1.4                    |[Red plastic golf tees](https://genesis.farm.bot/v1.4/Extras/bom/miscellaneous#red-markers)
+|Genesis v1.5+ and Express v1.0+ |[Calibration card with red dots](https://genesis.farm.bot/docs/camera-calibration-card)
 
 The objects can be placed anywhere in the bed, but they need to be placed *square* with FarmBot's coordinate system and in a location where FarmBot's camera can be moved directly overhead. The objects should be separated about 100mm or more apart, but they must both be within the field of view of the camera.
 
@@ -39,7 +39,7 @@ Measure the distance from the center of one calibration object to the center of 
 include callout.html
 type="success"
 title=""
-content="The distance between the two red dots on the Genesis v1.5 and Express v1.0 camera calibration card is exactly 100mm."
+content="The distance between the two red dots on the Genesis v1.5+ and Express v1.0+ camera calibration card is exactly 100mm."
 %}
 
 ![calibration object separation input](_images/calibration_object_separation_input.png)
