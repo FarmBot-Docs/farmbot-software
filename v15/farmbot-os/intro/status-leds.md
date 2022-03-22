@@ -9,7 +9,7 @@ description: "The meaning behind the blinking"
 
 # Raspberry Pi LEDs
 
-The Raspberry Pi has two LED lights that convey information about its status.
+The Raspberry Pi has LED lights that convey information about its status.
 
 ![RASPBERRY PI LIGHTS](_images/raspberry_pi_lights.jpg)
 
@@ -20,6 +20,8 @@ _Raspberry Pi 3, included with Genesis kits_
 _Raspberry Pi Zero W, included with Express kits_
 
 ## Red (power) LED
+
+_Genesis kits only_
 
 |Red (power)                   |Status                        |
 |------------------------------|------------------------------|
@@ -92,7 +94,7 @@ The **E-Stop Button** (included with all Genesis v1.4+ and Express v1.0+ kits) h
 
 ## Unlock Button
 
-The **Unlock Button** (included with all Genesis v1.4+) has a yellow LED that indicates if FarmBot is <span class="fb-button fb-yellow">UNLOCKED</span> or not. It is connected to Raspberry Pi GPIO BCM pin 23.
+The **Unlock Button** (included on the top of the electronics box with all Genesis v1.4+ and on the Farmduino Express circuit board with all Express v1.0+) has a yellow LED that indicates if FarmBot is <span class="fb-button fb-yellow">UNLOCKED</span> or not. It is connected to Raspberry Pi GPIO BCM pin 23.
 
 |Yellow (unlock)               |Status                        |
 |------------------------------|------------------------------|
