@@ -3,9 +3,6 @@ title: "Verify a Tool Has Been Mounted"
 slug: "verify-a-tool-has-been-mounted"
 ---
 
-* toc
-{:toc}
-
 
 {%
 include callout.html

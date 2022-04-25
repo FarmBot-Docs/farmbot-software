@@ -4,9 +4,6 @@ slug: "stall-detection"
 description: "[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=stall_detection)"
 ---
 
-* toc
-{:toc}
-
 
 {%
 include callout.html

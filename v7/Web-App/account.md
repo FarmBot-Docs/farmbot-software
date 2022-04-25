@@ -4,9 +4,6 @@ slug: "account"
 description: "Manage your account and app settings [my.farm.bot/app/account](https://my.farm.bot/app/account)"
 ---
 
-* toc
-{:toc}
-
 
 <div class="nav-image">
   <img class="nav-image" src="_images/account.png" alt="Account" />

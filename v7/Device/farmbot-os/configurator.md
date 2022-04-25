@@ -4,9 +4,6 @@ slug: "configurator"
 description: "Step-by-step instructions for configuring FarmBot to connect to your home WiFi and web app account"
 ---
 
-* toc
-{:toc}
-
 
 {%
 include callout.html

@@ -4,9 +4,6 @@ slug: "groups"
 description: "Organize your plants, weeds, points, and more\n[Open this panel in the app](https://my.farm.bot/app/designer/groups)"
 ---
 
-* toc
-{:toc}
-
 **Groups** allow you to group plants, weeds, or points in your garden so you can easily run sequences on all members of the group. For example, with a group of all your plants, you could instruct FarmBot to run a watering sequence on all of them.
 
 # Creating a group

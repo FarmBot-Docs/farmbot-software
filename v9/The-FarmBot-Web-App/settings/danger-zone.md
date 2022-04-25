@@ -4,9 +4,6 @@ slug: "danger-zone"
 description: "[Open these settings in the app](https://my.farm.bot/app/device?highlight=danger_zone)"
 ---
 
-* toc
-{:toc}
-
 # Reset hardware parameter defaults
 This will restore all settings to their default values, as shown in each setting's tooltip.
 

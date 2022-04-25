@@ -4,9 +4,6 @@ slug: "cheatsheet"
 description: "The shortlist of commands, nomenclature, and locations to get all the FarmBot software up and running"
 ---
 
-* toc
-{:toc}
-
 
 {%
 include callout.html

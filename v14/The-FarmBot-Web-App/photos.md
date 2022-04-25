@@ -4,9 +4,6 @@ slug: "photos"
 description: "Take and view photos of your plants :camera:\n[Open this panel in the app](https://my.farm.bot/app/designer/photos)"
 ---
 
-* toc
-{:toc}
-
 The **photos panel** offers a carousel for you to view all of the photos you've taken with your FarmBot, as well as controls for taking photos, deleting photos, calibrating the camera, and performing weed detection.
 
 {%

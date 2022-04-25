@@ -4,9 +4,6 @@ slug: "peripherals-and-sensors"
 description: "Control peripherals and sensors"
 ---
 
-* toc
-{:toc}
-
 # Control peripheral
 
 The <span class="fb-step fb-write-pin">Control Peripheral</span> command allows you to control **peripherals** such as the vacuum pump, solenoid valve, and lights. To use this command, first select a peripheral from the **PERIPHERAL** dropdown. Options include:

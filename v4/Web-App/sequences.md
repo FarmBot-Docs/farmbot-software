@@ -4,9 +4,6 @@ slug: "sequences"
 description: "Drag-and-drop programming for your FarmBot [my.farmbot.io/app/sequences](http://my.farmbot.io/app/sequences)"
 ---
 
-* toc
-{:toc}
-
 
 # Sequence building
 

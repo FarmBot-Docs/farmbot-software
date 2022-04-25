@@ -4,9 +4,6 @@ slug: "power-and-reset"
 description: "[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=power_and_reset)"
 ---
 
-* toc
-{:toc}
-
 
 ![Screen Shot 2020-08-25 at 10.38.08 AM.png](_images/Screen_Shot_2020-08-25_at_10.38.08_AM.png)
 

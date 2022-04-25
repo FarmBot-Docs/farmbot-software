@@ -4,9 +4,6 @@ slug: "measure-soil-moisture"
 description: "**In this guide:** Learn how to measure soil moisture and then use that data to dose more or less water"
 ---
 
-* toc
-{:toc}
-
 Before we get started, make sure you and your FarmBot meet the following prerequisites:
 
 * Your FarmBot has a **soil moisture sensor**. This is included with all FarmBot Genesis kits, but not with FarmBot Express kits.

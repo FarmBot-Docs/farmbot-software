@@ -4,9 +4,6 @@ slug: "limit-switches"
 description: "[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=limit_switches)"
 ---
 
-* toc
-{:toc}
-
 {%
 include callout.html
 type="info"

@@ -4,9 +4,6 @@ slug: "sequence-commands"
 description: "Categories of commands you can use in a sequence"
 ---
 
-* toc
-{:toc}
-
 The next pages include detailed information for all of the commands you can use in a sequence, organized by category. When using the web app, hover over the <i class='fa fa-question-circle'></i> icon in the top right of any sequence step to view quick-access usage information.
 
 |Movements|   |

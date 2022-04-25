@@ -4,9 +4,6 @@ slug: "kinematic-equations"
 description: "Equations relating linear speeds to motor speeds"
 ---
 
-* toc
-{:toc}
-
 
 The equations on this page are affected by the following specs of your FarmBot hardware:
 

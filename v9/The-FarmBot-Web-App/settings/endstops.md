@@ -4,9 +4,6 @@ slug: "endstops"
 description: "[Open these settings in the app](https://my.farm.bot/app/device?highlight=endstops)"
 ---
 
-* toc
-{:toc}
-
 **Endstops**, sometimes called **limit switches**, are small switches or sensors that are used to tell a machine if it has reached an end position (home or an axis maximum).
 
 Because both rotary encoders and back-current sensing stepper drivers can [detect the home position and axis maximums](../../FarmBot-OS/arduino-firmware/stall-detection.md) as well, they make the use of endstops **largely unnecessary**. That's why endstops are not included with our kits.

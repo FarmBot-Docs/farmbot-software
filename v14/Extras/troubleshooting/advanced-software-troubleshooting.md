@@ -3,9 +3,6 @@ title: "Advanced Software Troubleshooting"
 slug: "advanced-software-troubleshooting"
 ---
 
-* toc
-{:toc}
-
 # Perform a hard reset
 
 When your device has software problems, it's best to perform a software reset before investigating. There are two ways to perform a reset of FarmBot's software, **but only one way is recommended when investigating software problems**.

@@ -4,9 +4,6 @@ slug: "points"
 description: "Create custom locations in your garden :round_pushpin:\n[Open this panel in the app](https://my.farm.bot/app/designer/points)"
 ---
 
-* toc
-{:toc}
-
 If you would like to create custom locations in your garden for FarmBot to travel to that are _not_ plants, tool slots, or the home location, you can use **points**. Example uses of the points feature include:
 
 * Points for FarmBot to move to that are out of the way when you're harvesting

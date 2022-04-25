@@ -4,9 +4,6 @@ slug: "watering"
 description: "An example sequence to water a plant"
 ---
 
-* toc
-{:toc}
-
 Now that we've created a sequence to mount the watering nozzle, let's create a sequence to water a plant. In this example we'll water a Spinach plant at coordinates `(200, 960, 0)`.
 
 1. **Mount the watering nozzle** - Mount the watering nozzle by using the <span class="fb-step fb-execute">Execute</span> step and selecting the `Mount Watering Nozzle` sequence created in the previous example.

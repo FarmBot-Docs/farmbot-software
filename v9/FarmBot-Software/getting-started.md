@@ -4,9 +4,6 @@ slug: "getting-started"
 description: "Suggested steps for getting started with FarmBot"
 ---
 
-* toc
-{:toc}
-
 If you just finished your FarmBot hardware assembly, you should be ready to set up FarmBot's software. We suggest proceeding in the following order:
 
 # Step 1: Create a web app account

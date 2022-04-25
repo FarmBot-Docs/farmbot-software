@@ -3,9 +3,6 @@ title: "Pin Bindings"
 slug: "pin-bindings"
 ---
 
-* toc
-{:toc}
-
 
 {%
 include callout.html

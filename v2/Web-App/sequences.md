@@ -4,9 +4,6 @@ slug: "sequences"
 description: "Drag-and-drop programming for your FarmBot [my.farmbot.io/app/sequences](http://my.farmbot.io/app/sequences)"
 ---
 
-* toc
-{:toc}
-
 ## Sequence building
 The web app is a platform designed to give you unlimited control over how you use your FarmBot and therefore how you grow your food. Because nobody wants to sit on their computer all day controlling their FarmBot manually, we have designed several features to help you automate your farming operation.
 

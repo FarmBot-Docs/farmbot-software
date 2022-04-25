@@ -3,9 +3,6 @@ title: "Building a Sequence"
 slug: "building-a-sequence"
 ---
 
-* toc
-{:toc}
-
 # Step 1: Create or select a sequence
 In the **Sequences** panel, click the <span class="fb-button fb-green"><i class='fa fa-server'></i></span> button to create a new sequence. Or, select an existing sequence if you would like to edit it. If you have many sequences, use the search box to find one more quickly.
 

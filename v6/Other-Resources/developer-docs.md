@@ -5,9 +5,6 @@ type: "link"
 link_url: "http://developer.farm.bot"
 ---
 
-* toc
-{:toc}
-
 
 # What's next?
 

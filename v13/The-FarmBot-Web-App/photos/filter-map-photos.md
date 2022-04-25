@@ -4,9 +4,6 @@ slug: "filter-map-photos"
 description: "Choose a time period to display or highlight in the Farm Designer map."
 ---
 
-* toc
-{:toc}
-
 
 ![filter map photos](_images/filter_map_photos.png)
 

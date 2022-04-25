@@ -3,9 +3,6 @@ title: "Microstepping"
 slug: "microstepping"
 ---
 
-* toc
-{:toc}
-
 Microstepping allows the stepper drivers to position the stepper motor shaft *in between* full steps, which can allow for smoother and quieter movements. The RAMPS shield and A4988 stepper drivers that come with stock FarmBots allow for full-step, 1/2 step, 1/4 step, 1/8 step, and 1/16 step settings. The microstepping setting for each stepper driver is set with jumper pins positioned below each driver. The tables below shows the available microstepping settings for both the A4988 and DRV8825 stepper drivers.
 
 Stock FarmBots are set to use full-steps by default (no microstepping), which means that one step pulse from the Arduino will move the motor shaft one full step. With the stock 200 step/revolution motors, this equates to 1/200 of a rotation. If you set the drivers to 1/2 step microstepping, then each step pulse from the Arduino will move the motor 1/2 of a step, or 1/400 of a revolution. This means that a full motor step would require two step pulses from the Arduino.

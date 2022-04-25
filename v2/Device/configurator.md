@@ -4,9 +4,6 @@ slug: "configurator"
 description: "Step-by-step instructions for configuring FarmBot"
 ---
 
-* toc
-{:toc}
-
 FarmBot Configurator is a piece of software built into FarmBot OS that makes it easy to connect your FarmBot's Raspberry Pi to a WiFi network and to your FarmBot web app account. You will not ever need to connect a keyboard and screen to the device or SSH into the device over an ethernet connection.
 
 {%

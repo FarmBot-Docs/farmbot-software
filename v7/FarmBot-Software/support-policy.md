@@ -4,9 +4,6 @@ slug: "support-policy"
 description: "60 days after a version is released, all previous releases will be considered \"deprecated\"."
 ---
 
-* toc
-{:toc}
-
 When a new version of a software package is released, users are expected to upgrade as soon as possible.
 
 **60 days after a version is released, all previous releases will be considered "deprecated".** Devices running deprecated software may experience breaking changes that result in a loss of access to FarmBot servers. Bug reports for deprecated releases will not be investigated unless the issue is reproducible on non-deprecated releases.

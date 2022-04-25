@@ -4,9 +4,6 @@ slug: "farmbot-settings"
 description: "Device name and software updates.\n[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=farmbot)"
 ---
 
-* toc
-{:toc}
-
 
 ![farmbot settings](_images/farmbot_settings.png)
 

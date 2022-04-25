@@ -5,9 +5,6 @@ description: "Description of the FarmBot software toolchain"
 redirect_from: /docs/v4/
 ---
 
-* toc
-{:toc}
-
 There are many software systems contributing to FarmBot's functionality. The diagram below shows the different components and how data flows between them. Read the brief descriptions of each component in the following sections to understand the system as a whole, and then dive into setting up the needed components for your FarmBot.
 
 <div class="software-overview-image">

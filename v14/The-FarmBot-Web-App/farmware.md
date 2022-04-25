@@ -4,9 +4,6 @@ slug: "farmware"
 description: "DEPRECATED plugin system for FarmBot OS <i class='fa fa-puzzle-piece'></i>"
 ---
 
-* toc
-{:toc}
-
 {%
 include callout.html
 type="warning"

@@ -4,9 +4,6 @@ slug: "tool-slots"
 description: "Allow FarmBot to find the tools and seed containers [my.farm.bot/app/tools](https://my.farm.bot/app/tools)"
 ---
 
-* toc
-{:toc}
-
 Once you've added all of your tools and seed containers, its time to load some or all of them into **tool slots**. Tool slots are locations within FarmBot's coordinate system that can hold a **tool** or **seed container**.
 
 ![toolbay.png](_images/toolbay.png)

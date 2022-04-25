@@ -4,9 +4,6 @@ slug: "calibrate-and-home-farmbot"
 description: "Manual and automatic approaches"
 ---
 
-* toc
-{:toc}
-
 
 # Manual calibration
 

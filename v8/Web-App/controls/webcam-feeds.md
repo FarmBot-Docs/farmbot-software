@@ -4,9 +4,6 @@ slug: "webcam-feeds"
 description: "Monitor your FarmBot from a distance"
 ---
 
-* toc
-{:toc}
-
 The **WEBCAM FEEDS** widget allows you to monitor your FarmBot from a distance with the use of an external camera system such as a Nest brand home security camera. Using a single camera, you could monitor the entire FarmBot bed while controlling it remotely, or, you could set up multiple webcams at different angles for viewing plants, etc.
 
 ![Screen Shot 2019-05-06 at 8.31.06 PM.png](_images/Screen_Shot_2019-05-06_at_8.31.06_PM.png)

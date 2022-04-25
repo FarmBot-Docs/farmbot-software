@@ -3,9 +3,6 @@ title: "Troubleshooting"
 slug: "troubleshooting"
 ---
 
-* toc
-{:toc}
-
 Having trouble with the FamBot software? Browse through the troubleshooting guides below for help. Also make sure to check out the hardware troubleshooting guides for [Farmot Genesis](https://genesis.farm.bot/docs/troubleshooting) and [Expres](https://express.farm.bot/docs/troubleshooting).
 
 {%

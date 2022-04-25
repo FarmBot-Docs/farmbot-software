@@ -4,9 +4,6 @@ slug: "weed-detection"
 description: "Computer vision software to detect weeds"
 ---
 
-* toc
-{:toc}
-
 
 {%
 include callout.html

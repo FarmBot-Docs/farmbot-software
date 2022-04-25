@@ -3,9 +3,6 @@ title: "Example Sequences"
 slug: "example-sequences"
 ---
 
-* toc
-{:toc}
-
 
 # Example 1: Tool mounting sequence
 

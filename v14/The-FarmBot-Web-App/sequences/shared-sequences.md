@@ -4,9 +4,6 @@ slug: "shared-sequences"
 description: "Sharing, importing, and upgrading sequences with the FarmBot community"
 ---
 
-* toc
-{:toc}
-
 {%
 include callout.html
 type="warning"

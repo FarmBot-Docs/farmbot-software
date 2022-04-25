@@ -3,9 +3,6 @@ title: "Reading Pins"
 slug: "reading-pins"
 ---
 
-* toc
-{:toc}
-
 This section assumes you have wired up your UTM using the [pin mapping](https://genesis.farm.bot/docs/wire-up-the-utm#pin-mapping) table in the [Hardware Docs](../Other-Resources/genesis-hardware-docs.md), and your soil sensor according to the [wiring instructions](https://genesis.farm.bot/docs/soil-sensor#step-5-wire-it-up).
 
 This section also assumes you are familiar with [Sequences](../Web-App/sequences.md).

@@ -4,9 +4,6 @@ slug: "farm-designer"
 description: "Drag-and-drop plant placement :seedling:\n[Open this page in the app](https://my.farm.bot/app/designer)"
 ---
 
-* toc
-{:toc}
-
 The **farm designer** allows you to graphically design the layout of your garden, monitor your FarmBot's position, and visualize data such as photos, plant spread, and points.
 
 {% include youtube.html id="GVb4fYaqy2M" %}

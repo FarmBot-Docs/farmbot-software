@@ -4,9 +4,6 @@ slug: "farmware"
 description: "Photos and Weed Detection [my.farm.bot/app/farmware](https://my.farm.bot/app/farmware)"
 ---
 
-* toc
-{:toc}
-
 The following Farmware have been created by FarmBot Inc and are pre-installed:
 * __[Take Photo](#take-photo)__ - take a photo and upload it to the web app
 * __[Weed Detector](#weed-detector)__ - detect weeds

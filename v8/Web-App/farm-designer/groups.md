@@ -3,9 +3,6 @@ title: "Groups"
 slug: "groups"
 ---
 
-* toc
-{:toc}
-
 **Groups** allow you to organize the plants in your garden so you can easily run sequences to perform farming operations on many plants, rather than just individual plants. To create and edit groups, navigate to the **groups panel** on the farm designer page.
 
 ![Screen Shot 2019-08-15 at 3.13.39 PM.png](_images/Screen_Shot_2019-08-15_at_3.13.39_PM.png)

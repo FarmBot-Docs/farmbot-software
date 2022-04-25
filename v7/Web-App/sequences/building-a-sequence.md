@@ -3,9 +3,6 @@ title: "Building a Sequence"
 slug: "building-a-sequence"
 ---
 
-* toc
-{:toc}
-
 The general overview of creating a sequence is:
 
 1. In the **Sequences** panel, click <span class="fb-button fb-green">+</span>

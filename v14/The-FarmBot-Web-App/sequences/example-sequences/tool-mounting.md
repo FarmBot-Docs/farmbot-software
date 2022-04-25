@@ -4,9 +4,6 @@ slug: "tool-mounting"
 description: "An example sequence to mount the watering nozzle tool"
 ---
 
-* toc
-{:toc}
-
 {%
 include callout.html
 type="info"

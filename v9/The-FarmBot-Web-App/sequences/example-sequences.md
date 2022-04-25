@@ -3,9 +3,6 @@ title: "Example Sequences"
 slug: "example-sequences"
 ---
 
-* toc
-{:toc}
-
 # Example 1: Tool mounting sequence
 
 In this example we'll create a sequence to mount the watering nozzle tool.

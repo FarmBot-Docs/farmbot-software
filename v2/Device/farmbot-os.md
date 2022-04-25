@@ -4,9 +4,6 @@ slug: "farmbot-os"
 description: "Step-by-step instructions for installing FarmBot OS onto the Raspberry Pi"
 ---
 
-* toc
-{:toc}
-
 The Raspberry Pi is the brain of your FarmBot and has software installed on it that allows it to:
 
 * Communicate with the web application via MQTT over WiFi or ethernet in order to synchronize (download) the latest schedules and sequences, and upload the latest logs and sensor data.

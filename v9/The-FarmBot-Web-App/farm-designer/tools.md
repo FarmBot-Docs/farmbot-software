@@ -4,9 +4,6 @@ slug: "tools"
 description: "Manage tools and seed containers :hammer: \n[Open this panel in the app](https://my.farm.bot/app/designer/tools)"
 ---
 
-* toc
-{:toc}
-
 On the **tools panel** you can manage all of your FarmBot's **tools**, **seed containers**, and **slots**.
 
 > 📘

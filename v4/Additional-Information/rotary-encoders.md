@@ -4,9 +4,6 @@ slug: "rotary-encoders"
 description: "closed-loop feedback control system"
 ---
 
-* toc
-{:toc}
-
 
 {%
 include callout.html

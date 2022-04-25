@@ -4,9 +4,6 @@ slug: "parameter-management"
 description: ":gear: Parameter import, export, and reset options.\n[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=parameter_management)"
 ---
 
-* toc
-{:toc}
-
 
 # Parameter load progress
 

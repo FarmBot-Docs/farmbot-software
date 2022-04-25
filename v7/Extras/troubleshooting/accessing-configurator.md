@@ -4,9 +4,6 @@ slug: "accessing-configurator"
 description: "Problem description: I'm trying to configure my FarmBot but I do not see the `farmbot-xxxx` WiFi network."
 ---
 
-* toc
-{:toc}
-
 # 1. Install FarmBot OS
 [Flash the latest version of FarmBot OS](../../Device/farmbot-os.md#installation) onto the microSD card and then insert the microSD card into the Raspberry Pi. *Note that FarmBot kits do not come with an OS pre-installed.*
 

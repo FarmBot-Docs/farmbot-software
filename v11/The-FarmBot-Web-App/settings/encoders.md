@@ -4,9 +4,6 @@ slug: "encoders"
 description: "[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=encoders)"
 ---
 
-* toc
-{:toc}
-
 
 {%
 include callout.html

@@ -4,9 +4,6 @@ slug: "variable-types"
 description: "Location, Number, Text, Peripheral, Sensor, and Sequence Variables"
 ---
 
-* toc
-{:toc}
-
 FarmBot supports six variable types:
 
 * [Location](#location-variables)

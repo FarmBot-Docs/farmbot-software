@@ -4,9 +4,6 @@ slug: "pin-bindings"
 description: "Trigger actions and sequences with physical buttons or additional sensors"
 ---
 
-* toc
-{:toc}
-
 **Pin bindings** allow electrical signals from a button or sensor to trigger a FarmBot **action** or **sequence**. For example, a red button could be used to trigger the `E-stop` action as recommended with FarmBot Genesis v1.4+ kits. Another button could be used to toggle lights on and off.
 
 ![pin_bindings.png](_images/pin_bindings.png)

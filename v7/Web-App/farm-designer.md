@@ -4,9 +4,6 @@ slug: "farm-designer"
 description: "Drag-and-drop plant placement [my.farm.bot/app/designer](https://my.farm.bot/app/designer)"
 ---
 
-* toc
-{:toc}
-
 View and layout your garden in a virtual representation of your FarmBot's bed on this page.
 
 <div class="nav-image">

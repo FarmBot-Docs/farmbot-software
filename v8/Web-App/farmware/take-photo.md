@@ -4,9 +4,6 @@ slug: "take-photo"
 description: "Farmware for taking photos with your FarmBot's camera"
 ---
 
-* toc
-{:toc}
-
 
 {%
 include callout.html

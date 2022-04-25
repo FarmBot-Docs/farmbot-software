@@ -4,9 +4,6 @@ slug: "farm-designer-settings"
 description: ":carrot: Customize your Farm Designer experience.\n[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=farm_designer)"
 ---
 
-* toc
-{:toc}
-
 
 # Plant animations
 

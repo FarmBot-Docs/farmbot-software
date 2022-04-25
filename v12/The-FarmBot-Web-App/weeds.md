@@ -4,9 +4,6 @@ slug: "weeds"
 description: "Manage the weeds found in your garden\n[Open this panel in the app](https://my.farm.bot/app/designer/weeds)"
 ---
 
-* toc
-{:toc}
-
 The **weeds panel** allows you to manage the weeds in your garden. Weeds are divided into three categories:
 
   * **PENDING** weeds have been [detected by FarmBot's camera](photos/weed-detection.md) and are awaiting manual triage. The <span class="fb-button fb-green"><i class='fa fa-check'></i></span> and <span class="fb-button fb-green"><i class='fa fa-check'></i> ALL</span> buttons will move weeds to the **ACTIVE** category while the <span class="fb-button fb-red"><i class='fa fa-times'></i></span> and <span class="fb-button fb-red"><i class='fa fa-times'></i> ALL</span> buttons will delete the weeds.

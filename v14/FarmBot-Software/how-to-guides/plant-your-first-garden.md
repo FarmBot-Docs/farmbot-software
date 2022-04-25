@@ -4,9 +4,6 @@ slug: "plant-your-first-garden"
 description: "**In this guide:** Add plants to the map, group them, build planting sequences, and sow your first seeds"
 ---
 
-* toc
-{:toc}
-
 **Planting your first garden** is an exciting time for every FarmBot owner. In this how-to guide, we'll walk you through everything you'll need to do to get seeds in the ground with FarmBot. Before we get started though, please make sure you have completed the following prerequisites:
 
   * FarmBot must be completely assembled, powered up, and connected to the web app

@@ -3,9 +3,6 @@ title: "Account Limitations"
 slug: "account-limitations"
 ---
 
-* toc
-{:toc}
-
 All accounts at my.farm.bot have the following limitations:
 
 |Resource                      |Limit                         |Notes                         |

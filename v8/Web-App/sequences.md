@@ -4,9 +4,6 @@ slug: "sequences"
 description: "Drag-and-drop programming for your FarmBot [my.farm.bot/app/sequences](https://my.farm.bot/app/sequences)"
 ---
 
-* toc
-{:toc}
-
 The web app is a platform designed to give you unlimited control over how you use your FarmBot and therefore how you grow your food. Because nobody wants to sit on their computer all day controlling their FarmBot manually, we have designed several features to help you automate your farming operation.
 
 **Sequences** allow you to combine the most basic **commands** of FarmBot (such as moving or controlling a peripheral) into more complex actions requiring multiple **steps** (for example: picking up the watering nozzle, watering a plant, and then putting the tool away). When a sequence is initiated, FarmBot will execute all of the commands in the sequence (the steps) one after the other until the sequence is finished.

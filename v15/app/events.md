@@ -4,9 +4,6 @@ slug: "events"
 description: "Schedule FarmBot actions :calendar: :white_check_mark:\n[Open this panel in the app](https://my.farm.bot/app/designer/events)"
 ---
 
-* toc
-{:toc}
-
 It would not be convenient for you to manually initiate sequences every time you want them to execute. This is where **events** come in to help. If you've ever used a calendar application before, you'll feel right at home with this. Let's get started
 
 {% include youtube.html id="vwnsr8zelaY" %}

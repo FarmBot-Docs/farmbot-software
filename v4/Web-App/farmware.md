@@ -4,9 +4,6 @@ slug: "farmware"
 description: "Photos and Weed Detection [my.farmbot.io/app/farmware](http://my.farmbot.io/app/farmware)"
 ---
 
-* toc
-{:toc}
-
 Widgets on this page:
  * [Farmware](#farmware)
  * [Take Photo](#take-photo)

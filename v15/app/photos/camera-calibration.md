@@ -4,9 +4,6 @@ slug: "camera-calibration"
 description: "Scale, rotate, and position images accurately in the map :camera:"
 ---
 
-* toc
-{:toc}
-
 FarmBot's camera must be **calibrated** so that images can be **scaled**, **rotated**, and **positioned** such that the pixels in the images match up with the FarmBot coordinate system. This allows images to be displayed in the farm designer map with the correct location, size, and rotation. Calibration also allows FarmBot to detect and locate objects in the garden, such as weeds.
 
 Genesis v1.5+ and Express v1.0+ kits include a **camera calibration card** (show below) which is used for the preferred camera calibration process outlined on this page. If this card was not included with your kit (Genesis v1.2, v1.3, or v1.4) you can use the [alternative camera calibration method](../photos/alternative-camera-calibration-method.md).

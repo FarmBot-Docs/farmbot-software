@@ -4,9 +4,6 @@ slug: "farm-events"
 description: "Schedule FarmBot actions [my.farmbot.io/app/designer/farm_events](http://my.farmbot.io/app/designer/farm_events)"
 ---
 
-* toc
-{:toc}
-
 
 # Event scheduling
 

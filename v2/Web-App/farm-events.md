@@ -4,9 +4,6 @@ slug: "farm-events"
 description: "Schedule FarmBot actions [my.farmbot.io/app/designer/farm_events](http://my.farmbot.io/app/designer/farm_events)"
 ---
 
-* toc
-{:toc}
-
 ## Event scheduling
 It would not be convenient for you to manually initiate your sequences every time you want them to execute. This is where event scheduling comes in to help.
 

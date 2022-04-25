@@ -4,9 +4,6 @@ slug: "mqtt-broker"
 description: "The intermediary for all messages between FarmBot devices and the web app"
 ---
 
-* toc
-{:toc}
-
 The **MQTT Gateway** is a cloud application that acts as an intermediary for all messages between the FarmBot web app and FarmBot devices. It handles socket connections, device identification, and authentication.
 
 {%

@@ -3,9 +3,6 @@ title: "Hardware Settings"
 slug: "hardware-settings"
 ---
 
-* toc
-{:toc}
-
 
 ![hardware_widget.png](_images/hardware_widget.png)
 

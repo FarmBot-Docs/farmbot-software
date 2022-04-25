@@ -4,9 +4,6 @@ slug: "controls"
 description: "Manually control your FarmBot from anywhere! [my.farm.bot/app/controls](https://my.farm.bot/app/controls)"
 ---
 
-* toc
-{:toc}
-
 You generally will not need to manually control FarmBot, since it acts automatically from instructions provided by Farm Events. But in case you want to show off to your friends, you can do that from this page!
 
 ## Widgets on this page:

@@ -4,9 +4,6 @@ slug: "stall-detection"
 description: "Hardware that allows FarmBot to detect stalls and find home and axis maximums"
 ---
 
-* toc
-{:toc}
-
 To move around the garden, FarmBot sends electronic pulses to its motors. **Under normal circumstances**, these pulses cause the motors to rotate an exact amount and move FarmBot to exactly where it needs to be.
 
 However, the garden environment is **unpredictable**, and FarmBot cannot always rely on circumstances being normal. For example, if a tomato plant :tomato: grows across the tracks, FarmBot might get stuck on its vines, causing one or more motors to **stall**.

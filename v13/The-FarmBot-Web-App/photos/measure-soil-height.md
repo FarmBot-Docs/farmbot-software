@@ -4,9 +4,6 @@ slug: "measure-soil-height"
 description: "Map your garden's soil surface using FarmBot's camera."
 ---
 
-* toc
-{:toc}
-
 FarmBot uses computer vision software to detect the average z-axis coordinate of the soil in an image. See [how it works](https://developer.farm.bot/docs/measure-soil-height).
 
 {%

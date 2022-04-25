@@ -4,9 +4,6 @@ slug: "axes"
 description: ":triangular_ruler: Axis home, length, and position presets.\n[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=axes)"
 ---
 
-* toc
-{:toc}
-
 
 # Find home
 

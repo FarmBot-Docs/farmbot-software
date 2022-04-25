@@ -4,9 +4,6 @@ slug: "mount-and-dismount-tools"
 description: "**In this guide:** Learn how to mount and dismount tools"
 ---
 
-* toc
-{:toc}
-
 Before we get started, make sure you and your FarmBot meet the following prerequisites:
 
 * Your FarmBot has a **UTM** and **interchangeable tooling**. This is included with all FarmBot Genesis kits, but not with FarmBot Express kits.

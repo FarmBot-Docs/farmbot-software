@@ -4,9 +4,6 @@ slug: "peripherals"
 description: "Manually operate FarmBot's peripherals"
 ---
 
-* toc
-{:toc}
-
 The **PERIPHERALS** widget allows you to manage FarmBot's peripherals and control them in real-time with toggle switches.
 
 ![Screen Shot 2019-07-10 at 4.16.20 PM.png](_images/Screen_Shot_2019-07-10_at_4.16.20_PM.png)

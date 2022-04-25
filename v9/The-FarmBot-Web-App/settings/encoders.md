@@ -4,9 +4,6 @@ slug: "encoders"
 description: "[Open these settings in the app](https://my.farm.bot/app/device?highlight=encoders)"
 ---
 
-* toc
-{:toc}
-
 
 ![Screen Shot 2020-04-22 at 4.57.44 PM.png](_images/Screen_Shot_2020-04-22_at_4.57.44_PM.png)
 

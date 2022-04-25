@@ -4,9 +4,6 @@ slug: "tools"
 description: "Manage tools and seed containers [my.farm.bot/app/tools](https://my.farm.bot/app/tools)"
 ---
 
-* toc
-{:toc}
-
 On the **tools page** you can manage all of your FarmBot's **tools**, **seed containers**, and **tool slots**.
 
 <iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fvideoseries%3Flist%3DPLMhsMRlKjcNIYlDKDdKvPQuHqBjjS1ZGc&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DIcOyf28YJNk&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FIcOyf28YJNk%2Fhqdefault.jpg&key=f2aa6fc3595946d0afc3d76cbbd25dc3&type=text%2Fhtml&schema=youtube" width="854" height="480" scrolling="no" frameborder="0" allowfullscreen></iframe>

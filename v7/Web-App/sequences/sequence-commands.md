@@ -4,9 +4,6 @@ slug: "sequence-commands"
 description: "Descriptions of all the commands you can use in a sequence"
 ---
 
-* toc
-{:toc}
-
 Below are descriptions of all the commands you can use in a sequence. When using the web app, hover over the <span class="fb-tooltip"><i class='fa fa-question'></i></span> icon in the top right of any sequence step to view usage information.
 
 # Move to

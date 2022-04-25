@@ -4,9 +4,6 @@ slug: "device"
 description: "Manage your FarmBot's settings: [my.farmbot.io/app/device](http://my.farmbot.io/app/device)"
 ---
 
-* toc
-{:toc}
-
 Widgets on this page:
  * [Device](#device)
  * [Hardware](#hardware)

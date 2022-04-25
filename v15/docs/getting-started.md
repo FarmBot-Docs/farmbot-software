@@ -4,9 +4,6 @@ slug: "getting-started"
 description: "Suggested steps for getting started with FarmBot"
 ---
 
-* toc
-{:toc}
-
 If you just finished your FarmBot hardware assembly, you're now ready to set up FarmBot's software. Let's get started! :rocket:
 
 # Step 1: Create a web app account
