@@ -78,7 +78,7 @@ content="If you want to build up your FarmBot account completely from scratch, y
 
 2. Double check belt tension and make adjustments if needed. You also may need to "break in" the cable carriers as they may be stiff and resistant to smooth movements at first.
 
-3. Sand down any bumps along the raised bed (Express), or at the joint between track extrusions (Genesis) to facilitate smooth movements. Genesis kits may need to have their [eccentric spacers adjusted](https://genesis.farm.bot/v1.5/extras/reference/eccentric-spacer-adjustment.html), or the track alignment improved.
+3. Sand down any bumps along the raised bed (Express), or at the joint between track extrusions (Genesis) to facilitate smooth movements. Genesis kits may need to have their [eccentric spacers adjusted](https://genesis.farm.bot/docs/eccentric-spacer-adjustment), or the track alignment improved.
 
 4. If necessary, make small adjustments from the default values for the **MAX SPEED**, **MIN SPEED**, **ACCELERATE FOR**, and **MOTOR CURRENT** settings found in the [Motors](../app/settings/motors.md) section of the settings panel.
 

@@ -12,7 +12,7 @@ Genesis v1.5+ and Express v1.0+ kits include a **camera calibration card** (show
 
 # Step 1: Place the card in the bed
 
-Place a thin, large, and solid-colored surface (such as a piece of cardboard or cloth) on top of the soil away from the edges of the FarmBot bed. Then place the **camera calibration card** in the center of the solid-colored surface with the **dot grid** facing up. Orient the card square with FarmBot's axes and ensure that it is flat and facing perpindicular to the camera.
+Place a thin, large, and solid-colored surface (such as a piece of cardboard or cloth) on top of the soil away from the edges of the FarmBot bed. Then place the **camera calibration card** in the center of the solid-colored surface with the **dot grid** facing up. Orient the card square with FarmBot's axes and ensure that it is flat and facing perpendicular to the camera.
 
 ![camera calibration setup](_images/camera_calibration_setup.png)
 
@@ -41,7 +41,7 @@ There must be good contrast between the white dot pattern and black calibration 
 
 To increase lighting, try toggling <span class="fb-peripheral-on">ON</span> FarmBot's LED light strip or waiting for another time of the day to try calibration.
 
-To decrease lighting and ensure there are no interupting shadows, try waiting until another time of the day when the garden is fully shaded. You may also try in a different location in the garden bed.
+To decrease lighting and ensure there are no interrupting shadows, try waiting until another time of the day when the garden is fully shaded. You may also try in a different location in the garden bed.
 
 ## Damaged calibration card
 
