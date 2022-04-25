@@ -17,7 +17,7 @@ Use this document to troubleshoot camera issues and determine if you need to rep
 
 # Step 1: Reflash FarmBot OS
 
-Before troubleshooting the camera itself, first [manually reflash FarmBot OS onto the microSD card](../../farmbot-os/intro.md#installation). Reflashing the microSD card may solve camera related software problems.
+Before troubleshooting the camera itself, first [manually reflash FarmBot OS onto the microSD card](../../farmbot-os/intro.md). Reflashing the microSD card may solve camera related software problems.
 
 # Step 2: Check the intermediate connectors
 

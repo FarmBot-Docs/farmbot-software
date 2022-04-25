@@ -40,7 +40,7 @@ content="If you are experiencing problems with your setup, we do not recommend p
 
 Hard resetting your FarmBot will erase all data from the device, allowing you to start from a clean slate. **This is recommended if you are experiencing problems with your setup.**
 
-Perform a hard reset by [reflashing the latest version of FarmBot OS onto the microSD card](../../farmbot-os/intro.md#installation). Upon hard resetting, you will need to [reconfigure FarmBot](http://configure.farm.bot) to connect it to internet and your web app account.
+Perform a hard reset by [reflashing the latest version of FarmBot OS onto the microSD card](../../farmbot-os/intro.md). Upon hard resetting, you will need to [reconfigure FarmBot](http://configure.farm.bot) to connect it to internet and your web app account.
 
 {%
 include callout.html
