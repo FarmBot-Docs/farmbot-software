@@ -131,6 +131,8 @@ contents:
             url: camera-troubleshooting
           - title: Plug and Play Cameras
             url: plug-and-play-cameras
+          - title: Alternative Calibration Method
+            url: alternative-camera-calibration-method
       - title: Tools
         url: tools
       - title: Message Center

@@ -13,7 +13,7 @@ The **FarmBot Arduino Firmware** performs the following tasks:
 include callout.html
 type="success"
 title="Installed automatically"
-content="If you just [installed](intro.md#installation) and [configured](intro/configurator.md) FarmBot OS, then the Arduino firmware has already been flashed to the microcontroller and you can skip ahead to using the [web app](../app/intro.md).
+content="If you just [installed](intro.md) and [configured](intro/configurator.md) FarmBot OS, then the Arduino firmware has already been flashed to the microcontroller and you can skip ahead to using the [web app](../app/intro.md).
 
 Any time FarmBot OS updates, it will flash the latest version of the firmware automatically as well."
 %}

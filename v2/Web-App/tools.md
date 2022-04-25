@@ -7,7 +7,7 @@ description: "Specify tools for FarmBot's Universal Tool Mount to use [my.farmbo
 You will need to specify the location of the tools in the tool bay in order for FarmBot to use them with its Universal Tool Mount.
 
 <div class="nav-image">
-  <img class="nav-image" src="_images/Tools.png" alt="Tools" />
+  <img class="nav-image" src="_images/tools.png" alt="Tools" />
   <a href="https://software.farmbot.io/docs/tools#toolbay" style="top: 16.56%; left: 3.9%; width: 52.77%; height: 33.38%;"></a>
   <a href="https://software.farmbot.io/docs/tools#tools" style="top: 16.7%; left: 59.4%; width: 37%; height: 43.5%;"></a>
 </div>
