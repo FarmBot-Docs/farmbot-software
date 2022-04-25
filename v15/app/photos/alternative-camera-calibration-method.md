@@ -4,9 +4,6 @@ slug: "alternative-camera-calibration-method"
 description: "An alternative method for camera calibration"
 ---
 
-* toc
-{:toc}
-
 {%
 include callout.html
 type="warning"

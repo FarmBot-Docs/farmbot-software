@@ -4,9 +4,6 @@ slug: "sensors"
 description: "Manually read FarmBot's sensors"
 ---
 
-* toc
-{:toc}
-
 The **SENSORS** widget allows you to manage FarmBot's sensors and read them in real-time.
 
 ![Screen Shot 2019-05-06 at 9.25.03 PM.png](_images/Screen_Shot_2019-05-06_at_9.25.03_PM.png)

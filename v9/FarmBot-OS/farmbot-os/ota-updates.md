@@ -3,9 +3,6 @@ title: "OTA Updates"
 slug: "ota-updates"
 ---
 
-* toc
-{:toc}
-
 FarmBot OS is regularly improved to include new features, security enhancements, and bug fixes. It is recommended that you keep your FarmBot updated with the latest version of FarmBot OS at all times so that you can enjoy the best that FarmBot has to offer.
 
 By default, all FarmBots are configured to update automatically at 3AM local time, meaning you don't have to worry about manually staying up-to-date. You can change the **UPDATE TIME** from the settings panel if you wish. You can also turn off **AUTO UPDATE** from the device settings panel, though this is not recommended.

@@ -4,9 +4,6 @@ slug: "multiple-variables"
 description: "Using more than one variable in a sequence"
 ---
 
-* toc
-{:toc}
-
 # Adding multiple variables
 
 Sequences are not limited to a single variable. To add additional variables click <span class="fb-add-variable">ADD VARIABLE</span> in the sequence header as many times as needed or select `Add new` in a sequence step dropdown.

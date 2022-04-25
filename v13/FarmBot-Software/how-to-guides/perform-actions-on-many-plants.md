@@ -4,9 +4,6 @@ slug: "perform-actions-on-many-plants"
 description: "**In this guide:** Use groups, variables, and sequences to perform the same action on many plants"
 ---
 
-* toc
-{:toc}
-
 When setting up FarmBot to take care of your whole garden, you will frequently need to **perform the same action on many plants**. For example, you may need to water all of your Spinach plants, or you may wish to take a photo of every plant to track growth. In this guide we'll show you how to accomplish this quickly by:
 
   * **Creating a group** of plants you wish to perform the same action on.

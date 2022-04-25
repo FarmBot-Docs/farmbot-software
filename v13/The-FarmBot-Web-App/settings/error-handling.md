@@ -4,9 +4,6 @@ slug: "error-handling"
 description: "Let FarmBot know what to do when something goes wrong\n[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=error_handling)"
 ---
 
-* toc
-{:toc}
-
 
 ![error handling](_images/error_handling.png)
 

@@ -4,9 +4,6 @@ slug: "advanced-sequence-commands"
 description: "Sequence commands suitable for power users and software developers"
 ---
 
-* toc
-{:toc}
-
 {%
 include callout.html
 type="warning"

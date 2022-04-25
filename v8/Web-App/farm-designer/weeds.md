@@ -3,9 +3,6 @@ title: "Weeds"
 slug: "weeds"
 ---
 
-* toc
-{:toc}
-
 The **weeds panel** allows you to keep track of the weeds in your garden that your FarmBot has detected or that you have manually entered.
 
 # Adding weeds

@@ -4,9 +4,6 @@ slug: "firmware-settings"
 description: ":floppy_disk: FarmBot model and firmware management.\n[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=firmware)"
 ---
 
-* toc
-{:toc}
-
 
 # Firmware
 

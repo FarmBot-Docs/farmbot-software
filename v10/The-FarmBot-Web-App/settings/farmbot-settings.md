@@ -4,9 +4,6 @@ slug: "farmbot-settings"
 description: "[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=farmbot)"
 ---
 
-* toc
-{:toc}
-
 
 ![Screen Shot 2020-04-22 at 4.58.42 PM.png](_images/Screen_Shot_2020-04-22_at_4.58.42_PM.png)
 

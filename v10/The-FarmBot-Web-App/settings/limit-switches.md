@@ -4,9 +4,6 @@ slug: "limit-switches"
 description: "[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=limit_switches)"
 ---
 
-* toc
-{:toc}
-
 **Limit switches**, are small switches or sensors that are used to tell a machine if it has reached an end position (home or an axis maximum).
 
 Because both rotary encoders and stall detecting stepper drivers can [detect the home position and axis maximums](../../FarmBot-OS/arduino-firmware/stall-detection.md) as well, they make the use of limit switches **largely unnecessary**. That's why limit switches are not included with our kits.

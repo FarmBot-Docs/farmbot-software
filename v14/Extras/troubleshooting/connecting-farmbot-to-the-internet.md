@@ -4,9 +4,6 @@ slug: "connecting-farmbot-to-the-internet"
 description: "**Problem description:** FarmBot is having trouble connecting to the Internet or staying connected consistently."
 ---
 
-* toc
-{:toc}
-
 Your FarmBot needs to be connected to the internet and the Web App. When everything is connected and functioning, the **connectivity popup** should show a `code 31` diagnosis code and the points on the graphic should show green. Follow this troubleshooting guide if you are having trouble getting full connectivity to your FarmBot.
 
 ![Connectivity pop-up](_images/connectivity_pop-up.png)

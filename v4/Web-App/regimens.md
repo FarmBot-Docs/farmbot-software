@@ -4,9 +4,6 @@ slug: "regimens"
 description: "Plant care recipes for your FarmBot to follow [my.farmbot.io/app/regimens](http://my.farmbot.io/app/regimens)"
 ---
 
-* toc
-{:toc}
-
 
 # Regimen Building
 

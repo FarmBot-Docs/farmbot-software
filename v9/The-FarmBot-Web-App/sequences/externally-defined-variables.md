@@ -3,9 +3,6 @@ title: "Externally Defined Variables"
 slug: "externally-defined-variables"
 ---
 
-* toc
-{:toc}
-
 There are five places that you can provide a value for an **externally defined variable**:
 1. When using the [test button](#test-button)
 2. In an [execute step](#execute-step)

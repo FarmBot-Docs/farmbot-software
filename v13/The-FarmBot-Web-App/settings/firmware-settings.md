@@ -4,9 +4,6 @@ slug: "firmware-settings"
 description: "FarmBot model and firmware management.\n[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=firmware)"
 ---
 
-* toc
-{:toc}
-
 
 ![firmware settings](_images/firmware_settings.png)
 

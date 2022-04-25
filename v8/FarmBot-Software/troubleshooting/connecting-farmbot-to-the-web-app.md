@@ -4,9 +4,6 @@ slug: "connecting-farmbot-to-the-web-app"
 description: "Problem description: I completed all steps of the [configuration process](../../Device/farmbot-os/configurator.md) and now I'm waiting for FarmBot to connect to the web application."
 ---
 
-* toc
-{:toc}
-
 # 1. Ensure you have created a web app account
 You must create a web app account at [my.farm.bot](http://my.farm.bot) prior to completing the configuration process. Otherwise your FarmBot will try to connect with account credentials that do not yet exist.
 

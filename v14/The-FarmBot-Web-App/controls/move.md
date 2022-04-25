@@ -4,9 +4,6 @@ slug: "move"
 description: "Manually move your FarmBot <i class='fa fa-arrows'></i>\n[Open this panel in the app](https://my.farm.bot/app/designer/controls)"
 ---
 
-* toc
-{:toc}
-
 The controls at the top of the panel allow you to view FarmBot's current position, manually move it in real-time, take photos, and go to home or find home.
 
 ![move controls panel](_images/move_controls_panel.png)

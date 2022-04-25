@@ -4,9 +4,6 @@ slug: "farmbot-os"
 description: "Step-by-step instructions for installing FarmBot OS onto the Raspberry Pi.\nDownload the latest FarmBot OS `.img` file [here](http://os.farm.bot)."
 ---
 
-* toc
-{:toc}
-
 The Raspberry Pi runs a custom operating system named **FarmBot OS**, allowing FarmBot to:
 
 * Communicate with the web application over WiFi or ethernet in order to synchronize (download) sequences, regimens, farm designs, events, and more; upload logs and sensor data; and accept real-time commands.

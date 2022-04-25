@@ -4,9 +4,6 @@ slug: "regimens"
 description: "Plant care recipes for your FarmBot to follow :seedling:\n[Open this panel in the app](https://my.farm.bot/app/designer/regimens)"
 ---
 
-* toc
-{:toc}
-
 
 {% include youtube.html id="LMUPc8XfxI0" %}
 

@@ -4,9 +4,6 @@ slug: "gardens"
 description: "Replant the same garden season after season :seedling: :tomato: :eggplant: :strawberry:"
 ---
 
-* toc
-{:toc}
-
 The **gardens** feature allows you to save a garden (all of the plants and their locations) for re-use at a later time. This can be especially useful if you want to have different gardens for each season.
 
 # Save a garden

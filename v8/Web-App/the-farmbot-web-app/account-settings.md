@@ -4,9 +4,6 @@ slug: "account-settings"
 description: "Manage your account and app settings [my.farm.bot/app/account](https://my.farm.bot/app/account)"
 ---
 
-* toc
-{:toc}
-
 On this page you can change your name (displayed in the top right of the app), email (used for login, emailed log messages), and account password. There are also additional app settings, reset controls, and data export tools, as described below.
 
 # App settings

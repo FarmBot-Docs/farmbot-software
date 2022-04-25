@@ -4,9 +4,6 @@ slug: "parameter-management"
 description: "Hardware setting sync, import, export, and reset.\n[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=parameter_management)"
 ---
 
-* toc
-{:toc}
-
 ![parameter management](_images/parameter_management.png)
 
 # Parameter load progress

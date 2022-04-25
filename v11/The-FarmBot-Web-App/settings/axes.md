@@ -4,9 +4,6 @@ slug: "axes"
 description: "[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=axes)"
 ---
 
-* toc
-{:toc}
-
 
 ![Screen Shot 2020-08-24 at 12.31.36 PM.png](_images/Screen_Shot_2020-08-24_at_12.31.36_PM.png)
 

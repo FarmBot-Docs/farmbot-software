@@ -4,9 +4,6 @@ slug: "camera-calibration"
 description: "Calibrate your FarmBot's camera"
 ---
 
-* toc
-{:toc}
-
 
 {%
 include callout.html

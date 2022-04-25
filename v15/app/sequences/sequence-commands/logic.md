@@ -4,9 +4,6 @@ slug: "logic"
 description: "Control execution and other system-level actions"
 ---
 
-* toc
-{:toc}
-
 # Wait
 
 The <span class="fb-step fb-wait">Wait</span> command causes a delay before executing the next step in the sequence. This could be used to hold the solenoid valve open for FarmBot to water a plant for `2000` milliseconds (2 seconds), for example.

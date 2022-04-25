@@ -4,9 +4,6 @@ slug: "help"
 description: "Get help with setting up and using the web app \n[Open in the app](https://my.farm.bot/app/designer/help)"
 ---
 
-* toc
-{:toc}
-
 The **help panel** is full of resources for you to learn how to use the web app, troubleshoot issues with your FarmBot, and get help. To navigate between the various resources, click the dropdown menu at the top of the panel.
 
 ![help menu](_images/help_menu.png)

@@ -4,9 +4,6 @@ slug: "plants"
 description: "Add and manage the plants in your garden\n[Open this panel in the app](https://my.farm.bot/app/designer/plants)"
 ---
 
-* toc
-{:toc}
-
 You can view all of your plants in the **plants panel** list, as well as in the map as a virtual representation of your FarmBot bed.
 
 # Adding plants

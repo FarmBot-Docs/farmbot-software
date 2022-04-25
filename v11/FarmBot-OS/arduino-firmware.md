@@ -3,9 +3,6 @@ title: "Arduino Firmware"
 slug: "arduino-firmware"
 ---
 
-* toc
-{:toc}
-
 The **FarmBot Arduino Firmware** performs the following tasks:
 
  * Physically controls the FarmBot hardware by sending electrical pulses to the stepper motor drivers, reading voltages from pins, and outputting voltages and data to the Universal Tool Mount and peripherals.

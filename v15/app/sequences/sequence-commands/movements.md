@@ -4,9 +4,6 @@ slug: "movements"
 description: "Move FarmBot's motors"
 ---
 
-* toc
-{:toc}
-
 # Move
 
 The <span class="fb-step fb-move">Move</span> command instructs FarmBot to move to a new location. To use this command, first choose a **LOCATION**  from the dropdown. Options include:

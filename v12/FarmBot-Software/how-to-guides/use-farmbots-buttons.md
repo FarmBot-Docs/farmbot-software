@@ -4,9 +4,6 @@ slug: "use-farmbots-buttons"
 description: "**In this guide:** See examples for how to use FarmBot's buttons"
 ---
 
-* toc
-{:toc}
-
 FarmBot Genesis v1.4+ kits include five **push buttons** on top of the electronics box. Two of these buttons are reserved for triggering <span class="fb-button fb-red">E-STOP</span> and <span class="fb-button fb-yellow">UNLOCK</span> actions while the other three buttons are user customizable. In this guide we'll show you how you can configure your buttons to:
 
 [:flashlight: Toggle lights for nighttime harvesting](#example-1-toggle-lights-for-nighttime-harvesting)

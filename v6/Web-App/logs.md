@@ -4,9 +4,6 @@ slug: "logs"
 description: "View and filter FarmBot OS log messages [my.farm.bot/app/logs](https://my.farm.bot/app/logs)"
 ---
 
-* toc
-{:toc}
-
 
 ![logs.png](_images/logs.png)
 

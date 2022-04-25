@@ -3,9 +3,6 @@ title: "For IT Security Professionals"
 slug: "for-it-security-professionals"
 ---
 
-* toc
-{:toc}
-
 FarmBot requires access to various servers to operate properly.
 
 The first server is the web server (HTTPS). The servers are operated in the United States by Heroku, a Salesforce subsidiary. Heroku subcontracts their infrastructure services to Amazon Web Services (AWS). The servers reside in Amazon's `us-east-1` region, which is located in Virginia. The server uses the domains `my.farm.bot` and `my.farmbot.io`. Both domains point to the same server. Services are provided on TCP port 443 (HTTPS and WSS). Heroku does not provide lists of IP ranges, but they should mirror Amazon's us-east-1 IP ranges. We do not have control over IP allocation, but the most up-to-date list can be found [here](https://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html). Our DNS server is `herokudns.com`.

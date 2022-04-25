@@ -4,9 +4,6 @@ slug: "rotary-encoders"
 description: "These components provide FarmBot a closed-loop feedback control system"
 ---
 
-* toc
-{:toc}
-
 Rotary encoders attached to the back of each motor constantly monitor FarmBot's position. This enables FarmBot to know when:
 
 * a motor is not moving due to incorrect speed settings or lack of power.

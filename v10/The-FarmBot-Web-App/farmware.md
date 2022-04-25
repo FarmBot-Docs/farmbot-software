@@ -4,9 +4,6 @@ slug: "farmware"
 description: "Plugin system for FarmBot OS <i class='fa fa-puzzle-piece'></i>\n[Open this panel in the app](https://my.farm.bot/app/designer/farmware)"
 ---
 
-* toc
-{:toc}
-
 **Farmware** is FarmBot's plugin system allowing 3rd party developers to add custom functionality to FarmBot OS. Once a Farmware has been installed onto your FarmBot, it will show up in the **Farmware panel**. Selecting a Farmware from this list will show its options and controls.
 
 ![Screen Shot 2020-06-29 at 10.08.06 PM.png](_images/Screen_Shot_2020-06-29_at_10.08.06_PM.png)

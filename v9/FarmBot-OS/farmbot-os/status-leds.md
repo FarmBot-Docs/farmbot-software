@@ -4,9 +4,6 @@ slug: "status-leds"
 description: "The meaning behind the blinking"
 ---
 
-* toc
-{:toc}
-
 # Raspberry Pi LEDs
 The Raspberry Pi has two LED lights that convey information about its status.
 

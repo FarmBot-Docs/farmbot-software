@@ -4,9 +4,6 @@ slug: "message-center"
 description: "News and important information about your account and FarmBot :email:"
 ---
 
-* toc
-{:toc}
-
 The **message center** contains **messages** with important information about your user account, your FarmBot, and news such as new feature and product announcements. Look for the blue badge :large_blue_circle: in the main app menu to see when new messages are available.
 
 ![message center](_images/message_center.png)

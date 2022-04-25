@@ -4,9 +4,6 @@ slug: "camera-settings"
 description: "Select a camera and capture resolution."
 ---
 
-* toc
-{:toc}
-
 
 ![camera settings](_images/camera_settings.png)
 

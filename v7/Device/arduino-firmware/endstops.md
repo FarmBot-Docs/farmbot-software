@@ -4,9 +4,6 @@ slug: "endstops"
 description: "Hardware for finding home and axis maximums"
 ---
 
-* toc
-{:toc}
-
 **Endstops**, sometimes called **limit switches**, are small switches or sensors that are used to tell a machine if it has reached an end position (home or an axis maximum).
 
 Because rotary encoders can [detect the home position and axis maximums](stall-detection.md) as well, they make the use of endstops **largely unnecessary**. That's why endstops are not included with our kits.

@@ -4,9 +4,6 @@ slug: "sensors"
 description: "Manually read FarmBot's sensors 🌡️\n[Open this panel in the app](https://my.farm.bot/app/designer/sensors)"
 ---
 
-* toc
-{:toc}
-
 The **sensors panel** allows you to manage FarmBot's sensors, take measurements, and view historical sensor readings.
 
 {%

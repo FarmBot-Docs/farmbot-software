@@ -4,9 +4,6 @@ slug: "events"
 description: "Schedule FarmBot actions [my.farm.bot/app/designer/events](https://my.farm.bot/app/designer/events)"
 ---
 
-* toc
-{:toc}
-
 It would not be convenient for you to manually initiate sequences every time you want them to execute. This is where **events** come in to help. If you've ever used a calendar application before, you'll feel right at home with this. Let's get started
 
 <iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dvwnsr8zelaY&src=http%3A%2F%2Fwww.youtube.com%2Fembed%2Fvwnsr8zelaY&type=text%2Fhtml&key=f2aa6fc3595946d0afc3d76cbbd25dc3&schema=youtube" width="854" height="480" scrolling="no" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe>

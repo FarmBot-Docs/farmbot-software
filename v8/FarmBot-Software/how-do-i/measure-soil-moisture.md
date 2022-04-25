@@ -3,9 +3,6 @@ title: "Measure Soil Moisture"
 slug: "measure-soil-moisture"
 ---
 
-* toc
-{:toc}
-
 
 {%
 include callout.html

@@ -4,9 +4,6 @@ slug: "variables"
 description: "Make your sequences dynamic"
 ---
 
-* toc
-{:toc}
-
 **Variables** allow you to create *dynamic* sequences that execute differently depending on the **variable value** provided. This allows one sequence to be used more generally (in multiple ways), rather than for one specific purpose. To see how variables are used, let's go through a practical example.
 
 # Start with a static sequence

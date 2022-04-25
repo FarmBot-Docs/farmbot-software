@@ -3,9 +3,6 @@ title: "Microstepping"
 slug: "microstepping"
 ---
 
-* toc
-{:toc}
-
 {%
 include callout.html
 type="warning"

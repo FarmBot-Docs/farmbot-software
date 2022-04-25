@@ -4,9 +4,6 @@ slug: "filter-map-photos"
 description: "Choose a time period to display or highlight photos in the map :framed_picture:"
 ---
 
-* toc
-{:toc}
-
 
 ![filter map photos](_images/filter_map_photos.png)
 

@@ -4,9 +4,6 @@ slug: "axis-setup"
 description: "**In this guide:** Learn how to find and set FarmBot's home position and axis lengths, and restrict FarmBot from moving beyond those boundaries"
 ---
 
-* toc
-{:toc}
-
 Accurate position tracking is imperative for FarmBot to sow seeds one day and return to water the plants week after week. To keep track of its location within the garden coordinate system, FarmBot must:
 
   * Base all movements off a fixed **home position**, also known as the **origin**, **zero**, or `(0, 0, 0)`.

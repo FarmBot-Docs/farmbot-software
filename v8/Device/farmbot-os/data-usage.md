@@ -3,9 +3,6 @@ title: "Data Usage"
 slug: "data-usage"
 ---
 
-* toc
-{:toc}
-
 Depending on how you setup your FarmBot, the device will send and receive different amounts of data. For users who are connecting the device to the internet with a cellular or other metered data connection plan, the amount of data transmitted may be of concern.
 
 {%

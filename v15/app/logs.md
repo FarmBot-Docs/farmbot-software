@@ -4,9 +4,6 @@ slug: "logs"
 description: "View and filter FarmBot OS log messages :email:\n[Open this page in the app](https://my.farm.bot/app/logs)"
 ---
 
-* toc
-{:toc}
-
 During operation, FarmBot will generate **logs**. Logs are short messages that FarmBot will send to the web app server and your web browser so you can monitor operation and investigate when things have gone wrong.
 
 {% include youtube.html id="46VgOoTvx4o" %}

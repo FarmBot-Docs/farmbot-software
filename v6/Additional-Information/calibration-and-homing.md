@@ -4,9 +4,6 @@ slug: "calibration-and-homing"
 description: "Manual and automatic approaches"
 ---
 
-* toc
-{:toc}
-
 
 # Manual Calibration
 

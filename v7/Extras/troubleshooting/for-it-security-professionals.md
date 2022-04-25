@@ -3,9 +3,6 @@ title: "For IT Security Professionals"
 slug: "for-it-security-professionals"
 ---
 
-* toc
-{:toc}
-
 # Requirements, Ports, Hosts
 
 FarmBot requires access to various servers to operate properly.

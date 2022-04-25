@@ -4,9 +4,6 @@ slug: "weed-detection"
 description: "Detect weeds with FarmBot's camera."
 ---
 
-* toc
-{:toc}
-
 FarmBot is designed to remove weeds early and often, so that the weeds are always small, young, and fragile, and therefore easily removed by the [weeding tool](https://genesis.farm.bot/docs/weeder). FarmBot finds weeds by using computer vision software to detect all plants in the bed and then mark any detected plant that was not planted by FarmBot as a weed.
 
 <iframe width="850" height="495" src="https://www.youtube.com/embed/_Qko08YBP2o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

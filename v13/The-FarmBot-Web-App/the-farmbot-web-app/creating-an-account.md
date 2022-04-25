@@ -4,9 +4,6 @@ slug: "creating-an-account"
 description: ":movie_camera: [Video tutorial](https://youtu.be/0EAcUbO6tqo?t=35)"
 ---
 
-* toc
-{:toc}
-
 1. Go to [my.farm.bot](https://my.farm.bot)
 
 2. Enter an <span class="fb-input">Email</span>, <span class="fb-input">Name</span>, and <span class="fb-input">Password</span> in the **CREATE AN ACCOUNT** widget

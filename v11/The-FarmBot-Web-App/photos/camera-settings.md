@@ -3,9 +3,6 @@ title: "Camera settings"
 slug: "camera-settings"
 ---
 
-* toc
-{:toc}
-
 
 ![camera-settings.png](_images/camera-settings.png)
 

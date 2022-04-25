@@ -4,9 +4,6 @@ slug: "move"
 description: "Manually move your FarmBot"
 ---
 
-* toc
-{:toc}
-
 The **MOVE** widget allows you to view FarmBot's current position and manually move it in real-time.
 
 ![Screen Shot 2019-05-06 at 3.57.41 PM.png](_images/Screen_Shot_2019-05-06_at_3.57.41_PM.png)

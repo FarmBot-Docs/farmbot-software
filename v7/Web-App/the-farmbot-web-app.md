@@ -4,9 +4,6 @@ slug: "the-farmbot-web-app"
 description: "Step-by-step instructions for setting up and using the FarmBot web app"
 ---
 
-* toc
-{:toc}
-
 The Farmbot Web App is a cloud based web service that performs the following functions:
  * [Farm Designer](farm-designer.md) - Drag and drop interface for farm/garden design
  * [Events](events.md) - Scheduling sequences and regimens

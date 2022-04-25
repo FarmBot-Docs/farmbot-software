@@ -3,9 +3,6 @@ title: "Filter map photos"
 slug: "filter-map-photos"
 ---
 
-* toc
-{:toc}
-
 
 ![filter-map-photos.png](_images/filter-map-photos.png)
 

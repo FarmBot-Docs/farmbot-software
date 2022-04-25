@@ -4,9 +4,6 @@ slug: "calibrate-and-home-farmbot"
 description: "**In this guide:** Learn how to home and calibrate FarmBot"
 ---
 
-* toc
-{:toc}
-
 Accurate position tracking is imperative for FarmBot to sow seeds one day and return to water the plants week after week. To keep track of its location within the garden coordinate system, FarmBot must:
 
   * Base all movements off a fixed **home position**, also known as the **origin**, or **(0, 0, 0)**.

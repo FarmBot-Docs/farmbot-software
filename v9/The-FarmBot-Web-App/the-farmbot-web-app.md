@@ -4,9 +4,6 @@ slug: "the-farmbot-web-app"
 description: "Control and configure FarmBot from anywhere"
 ---
 
-* toc
-{:toc}
-
 The **FarmBot web app** is a web-based application that allows you to control and configure your FarmBot from any desktop computer, laptop, tablet, or smartphone. Because the app is web-based, you will never need to install it, and every time you load the app, you will have the latest features and security updates. The core features include the:
 
 :seedling: [Farm designer](farm-designer.md) for drag and drop designing of your garden layout

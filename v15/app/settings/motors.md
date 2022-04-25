@@ -4,9 +4,6 @@ slug: "motors"
 description: ":zap: Adjust motor speed, acceleration, and power.\n[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=motors)"
 ---
 
-* toc
-{:toc}
-
 
 # Max speed
 

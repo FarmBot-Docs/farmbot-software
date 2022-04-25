@@ -4,9 +4,6 @@ slug: "tools"
 description: "Specify tools for FarmBot's Universal Tool Mount to use [my.farmbot.io/app/tools](http://my.farmbot.io/app/tools)"
 ---
 
-* toc
-{:toc}
-
 On this page you can specify the location of the tools in the tool bay so that FarmBot can use them with its Universal Tool Mount.
 
 <div class="nav-image">

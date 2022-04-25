@@ -4,9 +4,6 @@ slug: "configurator"
 description: "Step-by-step instructions for configuring FarmBot"
 ---
 
-* toc
-{:toc}
-
 
 {%
 include callout.html

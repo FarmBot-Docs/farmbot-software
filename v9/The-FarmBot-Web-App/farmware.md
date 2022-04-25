@@ -4,9 +4,6 @@ slug: "farmware"
 description: "Plugin system for FarmBot OS :electric_plug:\n[Open this page in the app](https://my.farm.bot/app/farmware)"
 ---
 
-* toc
-{:toc}
-
 **Farmware** is our plugin system that allows for 3rd party developers to add custom functionality to FarmBot OS. Once a Farmware has been installed onto the FarmBot, it will show up in the list on the left side of the **Farmware page**. Selecting a Farmware from this list will load its options and controls into the middle column, as well as additional information in the right side column when available.
 
 {%

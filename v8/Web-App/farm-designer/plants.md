@@ -3,9 +3,6 @@ title: "Plants"
 slug: "plants"
 ---
 
-* toc
-{:toc}
-
 You can view all of your plants in the **plants panel** list, as well as in the map as a virtual representation of your FarmBot bed.
 
 # Adding plants

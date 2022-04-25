@@ -3,9 +3,6 @@ title: "Diagnostic Reports"
 slug: "diagnostic-reports"
 ---
 
-* toc
-{:toc}
-
 If you have been requested by a FarmBot staff person to create a **diagnostic report**, here is how to do it:
 
 1. Navigate to the **[device page](https://my.farm.bot/app/device)** of the web app.

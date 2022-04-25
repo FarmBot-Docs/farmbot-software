@@ -4,9 +4,6 @@ slug: "webcam-feeds"
 description: "Monitor your FarmBot from a distance <i class='fa fa-video-camera'></i>\n[Open this panel in the app](https://my.farm.bot/app/designer/controls)"
 ---
 
-* toc
-{:toc}
-
 The **WEBCAM FEEDS** section of the controls panel allows you to monitor your FarmBot from a distance with the use of an external camera system such as a Nest brand home security camera. Using a single camera, you could monitor the entire FarmBot bed while controlling it remotely, or, you could set up multiple webcams at different angles for viewing plants, etc.
 
 ![webcam feeds](_images/webcam_feeds.png)

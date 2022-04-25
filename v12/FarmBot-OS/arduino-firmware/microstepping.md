@@ -3,9 +3,6 @@ title: "Microstepping"
 slug: "microstepping"
 ---
 
-* toc
-{:toc}
-
 **Microstepping** allows the stepper drivers to position the stepper motor shaft *in between* full steps, which can allow for smoother and quieter movements. The RAMPS shield, Farmduino, and A4988 stepper drivers that come with FarmBot Genesis v1.2, v1.3, and v1.4 kits allow for full-step, 1/2 step, 1/4 step, 1/8 step, and 1/16 step settings. The microstepping setting for each stepper driver is set with **jumper pins** or **DIP switches**.
 
 {%

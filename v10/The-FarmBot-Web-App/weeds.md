@@ -4,9 +4,6 @@ slug: "weeds"
 description: "Manage the weeds found in your garden\n[Open this panel in the app](https://my.farm.bot/app/designer/weeds)"
 ---
 
-* toc
-{:toc}
-
 The **weeds panel** allows you to keep track of the weeds in your garden that your FarmBot has detected or that you have manually entered.
 
 # Adding weeds

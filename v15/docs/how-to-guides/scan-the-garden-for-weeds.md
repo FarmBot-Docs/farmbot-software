@@ -4,9 +4,6 @@ slug: "scan-the-garden-for-weeds"
 description: "**In this guide:** Learn how to scan the whole garden for weeds using a group of points."
 ---
 
-* toc
-{:toc}
-
 
 {%
 include callout.html

@@ -4,9 +4,6 @@ slug: "shared-sequences"
 description: "Sharing, importing, and upgrading sequences with the FarmBot community"
 ---
 
-* toc
-{:toc}
-
 Publishing a sequence will create a **public version** released under the [MIT License](https://choosealicense.com/licenses/mit/). Once published, anyone may find and use the sequence free of charge for tasks including but not limited to:
 
 - Importing the sequence into their FarmBot account to view and use it as they deem fit

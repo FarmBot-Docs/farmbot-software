@@ -4,9 +4,6 @@ slug: "regimens"
 description: "Plant care recipes for your FarmBot to follow :seedling:\n[Open this panel in the app](https://my.farm.bot/app/designer/regimens)"
 ---
 
-* toc
-{:toc}
-
 
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/LMUPc8XfxI0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

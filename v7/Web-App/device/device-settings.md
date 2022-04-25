@@ -3,9 +3,6 @@ title: "Device Settings"
 slug: "device-settings"
 ---
 
-* toc
-{:toc}
-
 
 ![device_widget.png](_images/device_widget.png)
 

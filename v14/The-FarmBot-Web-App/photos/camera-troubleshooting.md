@@ -3,9 +3,6 @@ title: "Camera Troubleshooting"
 slug: "camera-troubleshooting"
 ---
 
-* toc
-{:toc}
-
 Use this document to troubleshoot camera issues and determine if you need to replace the camera. Common camera issues include:
 1) When trying to take a photo, the USB Camera is not detected.
 

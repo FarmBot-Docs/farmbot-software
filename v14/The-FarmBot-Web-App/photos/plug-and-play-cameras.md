@@ -4,9 +4,6 @@ slug: "plug-and-play-cameras"
 description: "Using 3rd party cameras with FarmBot"
 ---
 
-* toc
-{:toc}
-
 FarmBot OS only supports **plug-and-play USB cameras** and the official **Raspberry Pi camera**. If you would like to use a 3rd party plug-and-play USB camera, simply plug it into a spare USB port on the Raspberry Pi. If you would like to use the Raspberry Pi camera, plug the ribbon cable into the Pi's `CAMERA` CSI port.
 
 ![pi camera](_images/pi_camera.jpeg)
