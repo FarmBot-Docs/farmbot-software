@@ -45,7 +45,7 @@ If FarmBot is still online and connected to a working WiFi network, you may perf
 
 ## Option 2: hard reset
 
-If the network has already been changed and FarmBot is not connected, you will need to perform a [hard reset](../../app/settings/power-and-reset.md#hard-reset) by removing the microSD card and [re-flashing it with the latest version of FarmBot OS](../../farmbot-os/intro.md#installation).
+If the network has already been changed and FarmBot is not connected, you will need to perform a [hard reset](../../app/settings/power-and-reset.md#hard-reset) by removing the microSD card and [re-flashing it with the latest version of FarmBot OS](../../farmbot-os/intro.md).
 
 ## Connect to the new network
 Once FarmBot is in configuration mode and in range of the new network, [follow the configurator instructions](../../farmbot-os/intro/configurator.md) to connect FarmBot to the new network.

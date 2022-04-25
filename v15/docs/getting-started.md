@@ -61,7 +61,7 @@ content="If you want to build up your FarmBot account completely from scratch, y
 
 ## Connecting your FarmBot
 
-1. [Install FarmBot OS](../farmbot-os/intro.md#installation) onto the microSD card and power on the device.
+1. [Install FarmBot OS](../farmbot-os/intro.md) onto the microSD card and power on the device.
 
 2. [Configure FarmBot](../farmbot-os/intro/configurator.md) to connect to your home WiFi network and your web app account.
 
