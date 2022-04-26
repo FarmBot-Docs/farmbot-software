@@ -3,7 +3,7 @@ title: "Troubleshooting"
 slug: "troubleshooting"
 ---
 
-Having trouble with the FamBot software? Browse through the troubleshooting guides below for help. Also make sure to check out the hardware troubleshooting guides for [Farmot Genesis](https://genesis.farm.bot/docs/troubleshooting) and [Express](https://express.farm.bot/docs/troubleshooting).
+Having trouble with the FarmBot software? Browse through the troubleshooting guides below for help. Also make sure to check out the hardware troubleshooting guides for [Farmbot Genesis](https://genesis.farm.bot/docs/troubleshooting) and [Express](https://express.farm.bot/docs/troubleshooting).
 
 {%
 include callout.html
