@@ -27,6 +27,8 @@ contents:
             url: use-farmbots-buttons
           - title: Scan the Garden for Weeds
             url: scan-the-garden-for-weeds
+          - title: Share FarmBot with Many Users
+            url: share-farmbot-with-many-users
       - title: Troubleshooting
         url: troubleshooting
         pages:
@@ -56,8 +58,9 @@ contents:
         url: farm-designer
       - title: Plants
         url: plants
-      - title: Gardens
-        url: gardens
+        pages:
+        - title: Gardens
+          url: gardens
       - title: Weeds
         url: weeds
       - title: Points
@@ -99,6 +102,8 @@ contents:
             url: variable-types
           - title: Shared Sequences
             url: shared-sequences
+          - title: Featured Sequences
+            url: featured-sequences
       - title: Regimens
         url: regimens
       - title: Events
@@ -170,8 +175,12 @@ contents:
             url: pin-guard
           - title: Parameter Management
             url: parameter-management
+          - title: Custom Settings
+            url: custom-settings
           - title: Farm Designer Settings
             url: farm-designer-settings
+      - title: Jobs
+        url: jobs
   - title: FarmBot OS
     url: farmbot-os
     top: true

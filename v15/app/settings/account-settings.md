@@ -54,6 +54,10 @@ Enabling this setting will prevent data changes to your account, such as modifyi
 
 This setting may be useful when setting up a demonstration computer for members of the public to control a FarmBot, or in a school setting where an instructor wishes to protect the account from accidental changes from students.
 
+# Landing page
+
+Choose the starting page/panel that loads after logging into the app.
+
 # Reset your account
 
 Resetting your account will permanently delete all of your sequences, regimens, events, tools, logs, and farm designer data. All app settings and device settings will be reset to default values. This is useful if you want to delete all data to start from scratch while avoiding having to fully delete your account, re-signup, and re-configure your FarmBot.

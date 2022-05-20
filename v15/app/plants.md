@@ -61,4 +61,4 @@ To delete a plant, click on it to bring up the plant details panel. Then press t
 
 # What's next?
 
- * [Gardens](gardens.md)
+ * [Gardens](plants/gardens.md)

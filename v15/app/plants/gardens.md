@@ -1,7 +1,7 @@
 ---
 title: "Gardens"
 slug: "gardens"
-description: "Replant the same garden season after season :seedling: :tomato: :eggplant: :strawberry:\n[Open this panel in the app](https://my.farm.bot/app/designer/gardens)"
+description: "Replant the same garden season after season :seedling: :tomato: :eggplant: :strawberry:\n[Open this panel in the app](https://my.farm.bot/app/designer/plants)"
 ---
 
 The **gardens** feature allows you to save a garden (all of the plants and their locations) for re-use at a later time. This can be especially useful if you want to have different gardens for each season.
@@ -12,7 +12,7 @@ To save the current garden, click the <span class="fb-button fb-green"><i class=
 
 ![add garden](_images/add_garden.png)
 
-Enter a **NAME** and click <span class="fb-button fb-gray">Snapshot current garden</span>. A copy of the garden will then be saved and shown in the list of gardens.
+Enter a **NAME** and optional **NOTES** about the garden. Then click <span class="fb-button fb-gray">Snapshot current garden</span>. A copy of the garden will then be saved and shown in the list of gardens.
 
 {%
 include callout.html
@@ -47,7 +47,3 @@ type="info"
 title=""
 content="Applying a garden may take a while depending on the number of plants."
 %}
-
-# What's next?
-
- * [Weeds](weeds.md)
