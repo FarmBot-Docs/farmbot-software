@@ -36,11 +36,7 @@ You can **pin** frequently used sequences by pressing the <i class='fa fa-thumb-
 
 ![pinned sequence](_images/pinned_sequence.png)
 
-Pinned sequences will appear at the bottom of the Add Command panel so that you may quickly add them to other sequences.
-
-![pinned sequences in add command panel](_images/pinned_sequences_in_add_command_panel.png)
-
-Pinned sequences are also listed in a section on the controls panel with associated <span class="fb-button fb-orange">RUN</span> buttons so that you may quickly manually execute these sequences.
+Pinned sequences are listed in a section on the controls panel with associated <span class="fb-button fb-orange">RUN</span> buttons so that you may quickly manually execute these sequences.
 
 ![pinned sequences in add controls panel](_images/pinned_sequences_in_controls_panel.png)
 
@@ -67,3 +63,4 @@ You can customize how the sequence editor works with the options in the <i class
  * [Multiple Variable](sequences/multiple-variables.md)
  * [Variable Types](sequences/variable-types.md)
  * [Shared Sequences](sequences/shared-sequences.md)
+ * [Featured Sequences](sequences/featured-sequences.md)

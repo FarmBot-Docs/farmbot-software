@@ -78,5 +78,4 @@ If you would like to revert to using an older version, you can select an older v
 
 # What's next?
 
- * [Regimens](../regimens.md)
- * [Events](../events.md)
+ * [Featured Sequences](featured-sequences.md)

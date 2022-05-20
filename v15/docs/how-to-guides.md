@@ -15,3 +15,4 @@ Check out the guides below for step-by-step instructions, pro-tips, and new idea
  * [Perform Actions on Many Plants](how-to-guides/perform-actions-on-many-plants.md)
  * [Use FarmBot's Buttons](how-to-guides/use-farmbots-buttons.md)
  * [Scan the Garden for Weeds](how-to-guides/scan-the-garden-for-weeds.md)
+ * [Share FarmBot with Many Users](how-to-guides/share-farmbot-with-many-users.md)

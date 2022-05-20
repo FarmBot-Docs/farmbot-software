@@ -65,7 +65,6 @@ Click the <i class='fa fa-chevron-up'></i> icon to switch between quick and full
 
  * [Plants](plants.md)
  * [Groups](groups.md)
- * [Gardens](gardens.md)
  * [Events](events.md)
  * [Points](points.md)
  * [Weeds](weeds.md)

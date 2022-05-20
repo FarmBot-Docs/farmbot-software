@@ -62,6 +62,12 @@ content="This setting is enabled by default so that your FarmBot will stay updat
 
 View the version of FarmBot OS that you have installed on your device, that version's release notes, and install updates if they are available using the <span class="fb-button fb-green">UPDATE</span> button. Note that the update button will display as <span class="fb-button fb-gray">UP TO DATE</span> when there are no updates available.
 
+# Boot sequence
+
+The **BOOT SEQUENCE** is a customizable sequence that FarmBot will execute as the final step of the boot up process. This can be especially useful for recovering from a power outage, or to just simply prepare your FarmBot automatically for it's scheduled tasks after every power cycle.
+
+We recommend getting started with a boot sequence that finds home and sends a message via email so you stay informed about when FarmBot has rebooted. More advanced users may wish to perform additional actions such as operating external peripherals or reading sensors, turning on the lights, mounting a tool, etc.
+
 # What's next?
 
  * [Auto Updates](../../farmbot-os/intro/auto-updates.md)

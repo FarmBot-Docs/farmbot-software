@@ -21,4 +21,5 @@ The settings panel contains a bunch of settings that determine how FarmBot moves
  * [Pin Bindings](settings/pin-bindings.md)
  * [Pin Guard](settings/pin-guard.md)
  * [Parameter Management](settings/parameter-management.md)
+ * [Custom Settings](settings/custom-settings.md)
  * [Farm Designer Settings](settings/farm-designer-settings.md)
