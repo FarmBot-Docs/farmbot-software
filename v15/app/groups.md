@@ -20,16 +20,9 @@ Alternatively you can use the [multi-select mode](farm-designer.md#select-mode) 
 
 From the edit group panel, you can change the **GROUP NAME**, **SORT BY** order, add **FILTERS** to narrow down your selection, and manually add additional members. When you are finished editing, press the <i class='fa fa-arrow-left'></i> to save the group and go back to the plants, weeds, or points panel.
 
-The **SORT BY** method will change the ordering that FarmBot uses when traveling to each group member when the group is used in a sequence. A dashed line will be shown in the map visualizing the chosen path. We encourage you to play around with this option to find the most efficient path FarmBot can take.
+The **SORT BY** method will change the ordering that FarmBot uses when traveling to each group member when the group is used in a sequence. A dashed line will be shown in the map visualizing the chosen path. We encourage you to play around with the options to find the most efficient path FarmBot can take.
 
 ![spinach plants group](_images/spinach_plants_group.png)
-
-{%
-include callout.html
-type="info"
-title=""
-content="In the future we plan to offer additional sorting options for more efficient FarmBot operation, such as a [Traveling Salesman](https://en.wikipedia.org/wiki/Travelling_salesman_problem) option."
-%}
 
 # Using filters
 
