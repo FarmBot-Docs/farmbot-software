@@ -17,32 +17,11 @@ Last, specify what value you would like the peripheral to be **SET TO**. The dig
 
 ![control peripheral](_images/control_peripheral.png)
 
-## Advanced options
-
-In the **sequence editor options menu** (<span class="fa fa-gear"></span> icon next to the copy sequence button), there is an option to **SHOW PINS**. Enabling this setting will show additional options in the **PERIPHERAL** dropdown for all of the Arduino's raw **pins**. If you have hooked up custom peripherals to any of the Digital Out or Analog Out pins on your electronics board, this is one way you can control them from a sequence like any other peripheral.
-
-{%
-include callout.html
-type="info"
-title="Under the hood, most peripherals are just pins"
-content="Remember in the controls panel how you defined your peripherals with a **name** and **pin number**? That's because at the microcontroller level, those peripherals (vacuum pump, etc) are hooked up to a specific pin on the Arduino. Giving them a name just makes them much easier to work with here in the sequence editor."
-%}
-
 # Toggle peripheral
-
-{%
-include callout.html
-type="info"
-title="Coming soon"
-content=""
-%}
 
 The <span class="fb-step fb-write-pin">Toggle Peripheral</span> command allows you to toggle the state of a **digital peripheral**. For example, if a peripheral is currently ON, and then FarmBot _toggles_ that peripheral, it will get turned OFF.
 
-To use this command, select a peripheral from the **PERIPHERAL** dropdown. Options include:
-
-  * All of the peripherals you have defined in the [peripherals section of the controls panel](../../controls/peripherals.md)
-  * The Box LEDs, if you have any included with your FarmBot version
+To use this command, select a peripheral from the **PERIPHERAL** dropdown.
 
 ![toggle peripheral](_images/toggle_peripheral.png)
 
@@ -59,15 +38,15 @@ Last, optionally provide a **DATA LABEL** to allow your recorded sensor reading 
 
 ![read sensor](_images/read_sensor.png)
 
-## Advanced options
+# Advanced options
 
-In the **sequence editor options menu** (<span class="fa fa-gear"></span> icon next to the copy sequence button), there is an option to **SHOW PINS**. Enabling this setting will show additional options in the **SENSOR OR PERIPHERAL** dropdown for all of the Arduino's raw **pins**. If you have hooked up custom sensors to any of the Digital In or Analog In pins on your electronics board, this is one way you can read them from a sequence like any other sensor.
+In the **sequence editor options menu** (<span class="fa fa-gear"></span> icon), there is an option to **SHOW PINS**. Enabling this setting will show additional options in **SENSOR** and **PERIPHERAL** dropdowns for all of the Arduino's raw **pins**. If you have hooked up custom peripherals or sensors to any of the Digital In or Analog In pins on your electronics board, this is one way you can interact with them from a sequence.
 
 {%
 include callout.html
 type="info"
-title="Under the hood, most sensors are just pins"
-content="Remember in the sensors panel how you defined your sensors with a **name** and **pin number**? That's because at the microcontroller level, those sensors (soil moisture, etc) are hooked up to a specific pin on the Arduino. Giving them a name just makes them much easier to work with here in the sequence editor."
+title="Under the hood, most sensors and peripherals are just pins"
+content="Remember in the controls and sensors panels how you defined your peripherals and sensors with a **name** and **pin number**? That's because at the microcontroller level, those peripherals and sensors (LED strip, vacuum pump, soil moisture sensor, etc) are all hooked up to a specific input/output pin on the Arduino. Giving them a name just makes them much easier to work with here in the sequence editor."
 %}
 
 # What's next?
