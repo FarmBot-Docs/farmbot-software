@@ -40,13 +40,13 @@ Last, optionally provide a **DATA LABEL** to allow your recorded sensor reading 
 
 # Advanced options
 
-In the **sequence editor options menu** (<span class="fa fa-gear"></span> icon), there is an option to **SHOW PINS**. Enabling this setting will show additional options in **SENSOR** and **PERIPHERAL** dropdowns for all of the Arduino's raw **pins**. If you have hooked up custom peripherals or sensors to any of the Digital In or Analog In pins on your electronics board, this is one way you can interact with them from a sequence.
+In the **sequence editor options menu** (<span class="fa fa-gear"></span> icon), there is an option to **SHOW PINS**. Enabling this setting will show additional options in **SENSOR** and **PERIPHERAL** dropdowns for all of the Arduino's raw **pins**. If you have hooked up custom peripherals or sensors to any of the Digital Analog I/O pins on your electronics board, this is one way you can interact with them from a sequence.
 
 {%
 include callout.html
 type="info"
 title="Under the hood, most sensors and peripherals are just pins"
-content="Remember in the controls and sensors panels how you defined your peripherals and sensors with a **name** and **pin number**? That's because at the microcontroller level, those peripherals and sensors (LED strip, vacuum pump, soil moisture sensor, etc) are all hooked up to a specific input/output pin on the Arduino. Giving them a name just makes them much easier to work with here in the sequence editor."
+content="Remember in the controls and sensors panels how you defined your peripherals and sensors with a **name** and **pin number**? That's because at the microcontroller level, those peripherals and sensors (LED strip, vacuum pump, soil moisture sensor, etc) are all hooked up to a specific input/output pin on the Arduino. Giving them a name just makes them much easier to work with in the sequence editor."
 %}
 
 # What's next?
