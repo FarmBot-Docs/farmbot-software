@@ -27,7 +27,7 @@ The <span class="fb-button fb-gray">NORMAL</span> preset sets all log types to v
 
 # Logs settings menu
 
-You can customize whether or not FarmBot sends some types of logs or not by using the options in the <i class='fa fa-cog'></i> menu. Each option is described in the tooltip shown when the <span class="fb-tooltip"><i class='fa fa-question'></i></span> icon is clicked.
+You can customize whether or not FarmBot sends some types of logs or not by using the options in the (cog) menu. Each option is described in the tooltip shown when the (?) icon is clicked.
 
 ![Screen Shot 2019-07-10 at 4.05.39 PM.png](_images/Screen_Shot_2019-07-10_at_4.05.39_PM.png)
 

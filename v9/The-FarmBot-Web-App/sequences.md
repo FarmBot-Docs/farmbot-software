@@ -30,7 +30,7 @@ To move sequences between folders, click or click and drag the <i class='fa fa-b
 ![Screen Shot 2020-01-01 at 12.52.50 PM.png](_images/Screen_Shot_2020-01-01_at_12.52.50_PM.png)
 
 # Sequence editor options
-You can customize how the sequence editor works with the options in the <i class='fa fa-cog'></i> menu located to the left of the <span class="fb-button fb-yellow">COPY</span> button when a sequence is loaded into the editor. Each option is described in the tooltip shown when the <i class='fa fa-question-circle'></i> icon is clicked.
+You can customize how the sequence editor works with the options in the (cog) menu located to the left of the <span class="fb-button fb-yellow">COPY</span> button when a sequence is loaded into the editor. Each option is described in the tooltip shown when the <i class='fa fa-question-circle'></i> icon is clicked.
 
 # What's next?
 
