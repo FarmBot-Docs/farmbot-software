@@ -36,7 +36,7 @@ The **PRESETS** for <span class="fb-button fb-gray">NORMAL</span> and <span clas
 ![log verbosity menu](_images/log_verbosity_menu.png)
 
 # Logs settings menu
-You can customize whether or not FarmBot sends some types of logs or not by using the options in the <i class='fa fa-cog'></i> menu. Each option is described in the tooltip shown when the <span class="fb-tooltip"><i class='fa fa-question'></i></span> icon is clicked.
+You can customize whether or not FarmBot sends some types of logs or not by using the options in the (cog) menu. Each option is described in the tooltip shown when the (?) icon is clicked.
 
 ![log settings menu](_images/log_settings_menu.png)
 

@@ -4,7 +4,7 @@ slug: "sequence-commands"
 description: "Descriptions of all the commands you can use in a sequence"
 ---
 
-Below are descriptions of all the commands you can use in a sequence. When using the web app, hover over the <span class="fb-tooltip"><i class='fa fa-question'></i></span> icon in the top right of any sequence step to view usage information.
+Below are descriptions of all the commands you can use in a sequence. When using the web app, hover over the (?) icon in the top right of any sequence step to view usage information.
 
 # Move to
 The <span class="fb-step fb-move-absolute">Move To</span> command moves FarmBot to an absolute coordinate position. To use this command, first choose a location from the **LOCATION** dropdown. Options include:

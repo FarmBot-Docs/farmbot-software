@@ -26,7 +26,7 @@ If you just finished your FarmBot hardware assembly, you should be ready to set 
 
 1. If needed, use the **MAP ORIGIN** and **ROTATE MAP** settings so that the farm designer matches your real-life perspective.
 
-2. Using the [manual controls](../The-FarmBot-Web-App/controls.md), try moving FarmBot along each axis in both directions. If needed, use the **INVERT JOG BUTTONS** and **SWAP JOG BUTTONS** settings (in the move widget's <i class='fa fa-cog'></i> menu) so that the <span class="fb-button fb-gray"><i class='fa fa-arrow-left'></i></span> <span class="fb-button fb-gray"><i class='fa fa-arrow-right'></i></span> <span class="fb-button fb-gray"><i class='fa fa-arrow-up'></i></span> <span class="fb-button fb-gray"><i class='fa fa-arrow-down'></i></span> buttons send FarmBot moving in the direction that the arrow indicates, according to your real-life perspective.
+2. Using the [manual controls](../The-FarmBot-Web-App/controls.md), try moving FarmBot along each axis in both directions. If needed, use the **INVERT JOG BUTTONS** and **SWAP JOG BUTTONS** settings (in the move widget's (cog) menu) so that the <span class="fb-button fb-gray"><i class='fa fa-arrow-left'></i></span> <span class="fb-button fb-gray"><i class='fa fa-arrow-right'></i></span> <span class="fb-button fb-gray"><i class='fa fa-arrow-up'></i></span> <span class="fb-button fb-gray"><i class='fa fa-arrow-down'></i></span> buttons send FarmBot moving in the direction that the arrow indicates, according to your real-life perspective.
 
 <iframe width="854" height="480" src="https://www.youtube.com/embed/koIVQTDEgXM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

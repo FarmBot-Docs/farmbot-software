@@ -17,7 +17,7 @@ If you just finished your FarmBot hardware assembly, you should be ready to set 
 3. Log in to the web app and verify that FarmBot has connected.
 
 # Step 3: Match the virtual FarmBot to real-life
-1. Using the [manual controls](../The-FarmBot-Web-App/controls.md), try moving FarmBot along each axis in both directions. If needed, use the **INVERT JOG BUTTONS** and **SWAP JOG BUTTONS** settings (in the move widget's <i class='fa fa-cog'></i> menu) so that the <span class="fb-button fb-gray"><i class='fa fa-arrow-left'></i></span> <span class="fb-button fb-gray"><i class='fa fa-arrow-right'></i></span> <span class="fb-button fb-gray"><i class='fa fa-arrow-up'></i></span> <span class="fb-button fb-gray"><i class='fa fa-arrow-down'></i></span> buttons send FarmBot moving in the direction that the arrow indicates, according to your real-life perspective.
+1. Using the [manual controls](../The-FarmBot-Web-App/controls.md), try moving FarmBot along each axis in both directions. If needed, use the **INVERT JOG BUTTONS** and **SWAP JOG BUTTONS** settings (in the move widget's (cog) menu) so that the <span class="fb-button fb-gray"><i class='fa fa-arrow-left'></i></span> <span class="fb-button fb-gray"><i class='fa fa-arrow-right'></i></span> <span class="fb-button fb-gray"><i class='fa fa-arrow-up'></i></span> <span class="fb-button fb-gray"><i class='fa fa-arrow-down'></i></span> buttons send FarmBot moving in the direction that the arrow indicates, according to your real-life perspective.
 2. If needed, use the **MAP ORIGIN** and **ROTATE MAP** settings so that the farm designer matches your real-life perspective.
 
 # Step 4: Set up FarmBot's axes

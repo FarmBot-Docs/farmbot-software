@@ -15,7 +15,7 @@ You can create sequences using the sequence editor as shown below. On the left o
 ![Screen Shot 2019-07-10 at 4.27.31 PM.png](_images/Screen_Shot_2019-07-10_at_4.27.31_PM.png)
 
 # Sequence editor options
-You can customize how the sequence editor works with the options in the <i class='fa fa-cog'></i> menu located to the left of the <span class="fb-button fb-yellow">COPY</span> button when a sequence is loaded into the editor. Each option is described in the tooltip shown when the <i class='fa fa-question-circle'></i> icon is clicked.
+You can customize how the sequence editor works with the options in the (cog) menu located to the left of the <span class="fb-button fb-yellow">COPY</span> button when a sequence is loaded into the editor. Each option is described in the tooltip shown when the <i class='fa fa-question-circle'></i> icon is clicked.
 
 # What's next?
 

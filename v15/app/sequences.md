@@ -42,7 +42,7 @@ Pinned sequences are listed in a section on the controls panel with associated <
 
 # Sequence editor options
 
-You can customize how the sequence editor works with the options in the <i class='fa fa-cog'></i> menu located in the edit sequence header.
+You can customize how the sequence editor works with the options in the (cog) menu located in the edit sequence header.
 
 ![sequence editor options](_images/sequence_editor_options.png)
 
