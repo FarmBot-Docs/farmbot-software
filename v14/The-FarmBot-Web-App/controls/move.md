@@ -12,7 +12,7 @@ The controls at the top of the panel allow you to view FarmBot's current positio
 
 The current position of your FarmBot (**MOTOR COORDINATES (MM)**) is shown in the gray fields directly below the **X-AXIS**, **Y-AXIS**, and **Z-AXIS** labels. This information is updated in real-time.
 
-If your FarmBot has encoders (Genesis kits only), you can also view **SCALED ENCODER (MM)** data, as well as **RAW ENCODER DATA** for each axis. Toggle the display of this additional information from the <i class='fa fa-gear'></i> menu in the top right of the panel.
+If your FarmBot has encoders (Genesis kits only), you can also view **SCALED ENCODER (MM)** data, as well as **RAW ENCODER DATA** for each axis. Toggle the display of this additional information from the (cog) menu in the top right of the panel.
 
 ![current position display](_images/current_position_display.png)
 
@@ -32,7 +32,7 @@ Depending on your [hardware settings](../settings.md), you may not be able to mo
 
 Depending on how you usually view your FarmBot, you may need to change which direction each arrow button sends your FarmBot so that the virtual controls match your real-life perspective. For example, if you usually view your FarmBot from the front (looking at the FarmBot logo on the tool head), you would want the <span class="fb-button fb-gray"><i class='fa fa-arrow-left'></i></span> button to send FarmBot in the `negative Y` direction. If you usually view your FarmBot from the side with the electronics box, you would want the <span class="fb-button fb-gray"><i class='fa fa-arrow-left'></i></span> button to send FarmBot in the `negative X` direction.
 
-You can change the direction along each axis that the arrow buttons send your FarmBot by using the Invert Jog Button toggles in the <i class='fa fa-gear'></i> menu in the top right of the panel. You can also swap the X and Y axis buttons, which will also rotate the map in the farm designer by 90 degrees.
+You can change the direction along each axis that the arrow buttons send your FarmBot by using the Invert Jog Button toggles in the (cog) menu in the top right of the panel. You can also swap the X and Y axis buttons, which will also rotate the map in the farm designer by 90 degrees.
 
 ![move settings menu](_images/move_settings_menu.png)
 
@@ -70,7 +70,7 @@ title=""
 content="FarmBot must have [home-finding hardware](../settings/stall-detection.md) such as encoders, stall-detecting stepper drivers, or limit switches in order to automatically find the home position."
 %}
 
-If you do not have home-finding hardware, you can change the behavior of the <span class="fb-button fb-gray"><i class='fa fa-home'></i></span> button to instead instruct FarmBot to **go to the home position**. This will instruct FarmBot to go to `(0, 0, 0)` as though you had used the move absolute input fields. Change the home button behavior by setting the **PERFORM HOMING (FIND HOME)** setting to <span class="fb-peripheral-off">OFF</span> in the <i class='fa fa-gear'></i> menu of the panel. Note that the _go to home_ behavior will move all three axes at once.
+If you do not have home-finding hardware, you can change the behavior of the <span class="fb-button fb-gray"><i class='fa fa-home'></i></span> button to instead instruct FarmBot to **go to the home position**. This will instruct FarmBot to go to `(0, 0, 0)` as though you had used the move absolute input fields. Change the home button behavior by setting the **PERFORM HOMING (FIND HOME)** setting to <span class="fb-peripheral-off">OFF</span> in the (cog) menu of the panel. Note that the _go to home_ behavior will move all three axes at once.
 
 ### Sequence based homing
 
@@ -99,7 +99,7 @@ content="Motor load indicators are only available for FarmBot Express bots with 
 
 # Motor position plot
 
-To view a graph of motor positions over time, toggle <span class="fb-peripheral-on">ON</span> the motor position plot in the <i class='fa fa-gear'></i> menu of the panel.
+To view a graph of motor positions over time, toggle <span class="fb-peripheral-on">ON</span> the motor position plot in the (cog) menu of the panel.
 
 ![motor position plot](_images/motor_position_plot.png)
 

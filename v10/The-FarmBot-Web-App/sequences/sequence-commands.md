@@ -44,7 +44,7 @@ If you try to move to a location to mount a tool or pick up a seed in one step, 
 ## Advanced options
 Within the **More [+]** dropdown, you will find options for adding **offsets** to the location and changing the **speed** at which FarmBot performs this movement. In the example below, an **X-OFFSET** of `100` will pull the Watering Nozzle tool out of the tool slot by 100mm. Meanwhile, the **SPEED (%)** option has been set to `50`, meaning FarmBot will perform this movement at 50% of the maximum speed it normally moves at.
 
-You can add offsets for multiple axes at once, and also use negative offsets. The default values for all offsets are `0`, while the default speed is `100%`. By default, the app will only load the **More [+]** dropdowns in an open state if you've changed any of the offset or speed values from the defaults. If you would like the **More [+]** dropdowns to always load in an open state, enable **OPEN OPTIONS BY DEFAULT** from the <i class='fa fa-gear'></i> menu in the sequence header.
+You can add offsets for multiple axes at once, and also use negative offsets. The default values for all offsets are `0`, while the default speed is `100%`. By default, the app will only load the **More [+]** dropdowns in an open state if you've changed any of the offset or speed values from the defaults. If you would like the **More [+]** dropdowns to always load in an open state, enable **OPEN OPTIONS BY DEFAULT** from the (cog) menu in the sequence header.
 
 ![Screen Shot 2019-07-05 at 11.32.24 PM.png](_images/Screen_Shot_2019-07-05_at_11.32.24_PM.png)
 
