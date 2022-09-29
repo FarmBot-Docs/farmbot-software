@@ -9,7 +9,7 @@ description: "Select a camera and capture resolution."
 
 # Camera
 
-The default camera used is a **USB camera**. If you would like to use a **Raspberry Pi camera**, select it in the **CAMERA** dropdown.
+The default camera used is a **USB camera**. If you would like to use a **Raspberry Pi camera**, use the [**CAMERA**](https://my.farm.bot/app/designer/settings?highlight=camera) dropdown.
 
 # Resolution
 
