@@ -1,7 +1,7 @@
 ---
 title: "Settings"
 slug: "settings"
-description: "Manage app and FarmBot settings <i class='fa fa-cog'></i>\n[Open this page in the app](https://my.farm.bot/app/device)"
+description: "Manage app and FarmBot settings (cog)\n[Open this page in the app](https://my.farm.bot/app/device)"
 ---
 
 The device page features several widgets with a bunch of settings that determine how your FarmBot moves, syncs, updates, and more. All of the settings on this page are stored in your web app account and then get synchronized to the FarmBot. This means that if you ever need to reset your FarmBot, your settings will not be lost.

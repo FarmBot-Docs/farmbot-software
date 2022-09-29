@@ -49,7 +49,7 @@ If you try to move to a location to mount a tool or pick up a seed in one step, 
 %}
 
 ## Advanced options
-Within the **[+]** dropdown, you will find several options to modify the base **LOCATION** and several options for changing how FarmBot performs the movement. By default, the app will only load the **[+]** options in an open state if you've changed any of options from the default values. If you would like the **[+]** options to always load in an open state, set **OPEN OPTIONS BY DEFAULT** to <span class="fb-peripheral-on">YES</span> from the <i class='fa fa-gear'></i> menu in the sequence header.
+Within the **[+]** dropdown, you will find several options to modify the base **LOCATION** and several options for changing how FarmBot performs the movement. By default, the app will only load the **[+]** options in an open state if you've changed any of options from the default values. If you would like the **[+]** options to always load in an open state, set **OPEN OPTIONS BY DEFAULT** to <span class="fb-peripheral-on">YES</span> from the (cog) menu in the sequence header.
 
 ![Screen Shot 2020-08-24 at 8.50.33 AM.png](_images/Screen_Shot_2020-08-24_at_8.50.33_AM.png)
 
