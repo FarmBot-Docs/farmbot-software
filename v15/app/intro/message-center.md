@@ -19,6 +19,9 @@ When you are finished reading a message, click the <i class='fa fa-times'></i> i
 {%
 include callout.html
 type="info"
-title=""
 content="Some cards will dismiss themselves after you have taken the requested action and any issues are resolved."
 %}
+
+# What's next?
+
+ * [Help](help.md)

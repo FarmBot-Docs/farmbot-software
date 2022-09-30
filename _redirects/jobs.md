@@ -1,5 +1,5 @@
 ---
 permalink: /docs/jobs
-page_path: /app/jobs
+page_path: /app/intro/jobs
 layout: redirect
 ---
