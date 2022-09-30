@@ -8,6 +8,10 @@ contents:
     pages:
       - title: Intro to FarmBot's Software
         url: intro
+      - title: Demo the App
+        url: demo
+        tags:
+          - try me!
       - title: Getting Started
         url: getting-started
       - title: How-to Guides
@@ -54,6 +58,19 @@ contents:
     pages:
       - title: The FarmBot Web App
         url: intro
+        pages:
+          - title: Creating an Account
+            url: creating-an-account
+          - title: Connectivity
+            url: connectivity
+          - title: Logs
+            url: logs
+          - title: Jobs
+            url: jobs
+          - title: Message Center
+            url: message-center
+          - title: Help
+            url: help
       - title: Farm Designer
         url: farm-designer
       - title: Plants
@@ -140,12 +157,6 @@ contents:
             url: alternative-camera-calibration-method
       - title: Tools
         url: tools
-      - title: Message Center
-        url: message-center
-      - title: Logs
-        url: logs
-      - title: Help
-        url: help
       - title: Settings
         url: settings
         pages:
@@ -179,8 +190,6 @@ contents:
             url: custom-settings
           - title: Farm Designer Settings
             url: farm-designer-settings
-      - title: Jobs
-        url: jobs
   - title: FarmBot OS
     url: farmbot-os
     top: true

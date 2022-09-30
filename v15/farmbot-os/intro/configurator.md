@@ -8,7 +8,7 @@ description: "Configure FarmBot to connect to your home WiFi network and web app
 include callout.html
 type="info"
 title="Configuration requires a web app account"
-content="To complete configuration, you must have a **verified web app account**. See instructions for creating and verifying an account [here](../../app/intro.md#creating-an-account).
+content="To complete configuration, you must have a **verified web app account**. See instructions for creating and verifying an account [here](../../app/intro/creating-an-account.md).
 
 We also recommend [choosing a FarmBot model](../../docs/getting-started.md#farmbot-model) from the setup process before starting configuration. This will set the correct firmware version in your web app account, allowing FarmBot to fully initialize when it connects."
 %}
@@ -81,7 +81,7 @@ There are not any required settings for ethernet connections, though if you need
 # Step 3: Enter your web app credentials
 Enter the <span class="fb-input">Email</span> and <span class="fb-input">Password</span> you used when creating your web app account. Then press <span class="fb-button fb-green">NEXT</span>.
 
-Remember: you must already have a **verified web app account** in order for the FarmBot to connect to the web app. See instructions for creating and verifying an account [here](../../app/intro.md#creating-an-account).
+Remember: you must already have a **verified web app account** in order for the FarmBot to connect to the web app. See instructions for creating and verifying an account [here](../../app/intro/creating-an-account.md).
 
 ![web app credentials](_images/web_app_credentials.png)
 

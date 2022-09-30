@@ -8,9 +8,9 @@ If you just finished your FarmBot hardware assembly, you're now ready to set up 
 
 # Step 1: Create a web app account
 
-1. Follow our instructions to [create a web app account](../app/intro.md#creating-an-account) at [my.farm.bot](https://my.farm.bot). Make sure you verify your account by clicking the verification link emailed to you upon sign up.
+1. Follow our instructions to [create a web app account](../app/intro/creating-an-account.md) at [my.farm.bot](https://my.farm.bot). Make sure you verify your account by clicking the verification link emailed to you upon sign up.
 
-2. Once logged in, read the cards in the [message center](../app/message-center.md) to become acquainted with the app. Dismiss cards you are finished with using the <i class='fa fa-times'></i> button in the top right of each card.
+2. Once logged in, read the cards in the [message center](../app/intro/message-center.md) to become acquainted with the app. Dismiss cards you are finished with using the <i class='fa fa-times'></i> button in the top right of each card.
 
 # Step 2: Complete setup
 

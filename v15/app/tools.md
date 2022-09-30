@@ -100,4 +100,4 @@ content="You cannot delete slots with tools or seed containers that are used in 
 
 # What's next?
 
- * [Message Center](message-center.md)
+ * [Message Center](intro/message-center.md)

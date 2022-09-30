@@ -1,5 +1,5 @@
 ---
 permalink: /docs/logs
-page_path: /app/logs
+page_path: /app/intro/logs
 layout: redirect
 ---

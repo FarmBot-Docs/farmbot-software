@@ -86,7 +86,7 @@ The **E-Stop Button** (included with all Genesis v1.4+ and Express v1.0+ kits) h
 |Red (E-stop)                  |Status                        |
 |------------------------------|------------------------------|
 |<span class="fa fa-circle led red"></span> (solid red)|Unlocked and ready
-|<span class="fa fa-sun-o led red"></span> (blinking red)|FarmBot is missing firmware. This is normal during configuration. If you have completed configuration, selected your FarmBot model in the [Message Center](../../app/message-center.md) and still see blinking, you may need to flash the [Arduino Firmware](../arduino-firmware.md).
+|<span class="fa fa-sun-o led red"></span> (blinking red)|FarmBot is missing firmware. This is normal during configuration. If you have completed configuration, selected your FarmBot model in the [Message Center](../../app/intro/message-center.md) and still see blinking, you may need to flash the [Arduino Firmware](../arduino-firmware.md).
 |<span class="fa fa-circle-thin led red"></span> (off)|Locked - Check the Unlock Button LED status
 
 ## Unlock Button

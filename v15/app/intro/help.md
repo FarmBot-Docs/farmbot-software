@@ -24,7 +24,7 @@ If you're having problems with your FarmBot or the web app, we're here to help. 
 include callout.html
 type="success"
 title="Register your product"
-content="We prioritize supporting users who have [registered their original **ORDER NUMBER**](settings/farmbot-settings.md#order-number) with their app account.
+content="We prioritize supporting users who have [registered their original **ORDER NUMBER**](../settings/farmbot-settings.md#order-number) with their app account.
 
 If you did not purchase hardware from [farm.bot](https://farm.bot) then official support may be limited."
 %}
