@@ -32,33 +32,46 @@ These buttons may come in handy though when playing around with experimental seq
 
 {%
 include callout.html
+type="warning"
+content="This setting has been deprecated in favor of the [BOOT SEQUENCE](../settings/farmbot-settings.md#boot-sequence) setting, which allows for siginifcantly more customization to the boot process."
+%}
+
+{%
+include callout.html
 type="info"
-content="This [advanced setting](../settings/parameter-management.md#show-advanced-settings) is not shown by default."
+content="This [advanced setting](../settings.md#show-advanced-settings) is not shown by default."
 %}
 
 Enabling this setting will run a homing command for each axis upon boot. This is most useful for allowing FarmBot to recover and resume operations after a power outage. Note that **ENCODERS**, **STALL DETECTION**, or **LIMIT SWITCHES** must be <span class="fb-peripheral-on">ON</span> for this feature.
 
 # Stop at home
 
-Enabling software limits for an axis will prevent FarmBot from moving through zero. For example, if an axis is normally moving in positive coordinates, then the software limit will prevent it from moving through zero into negative coordinates. If an axis has **NEGATIVE COORDINATES ONLY** enabled, then it normally moves in negative coordinates and the software limit will prevent it from moving through zero into positive coordinates.
-
 {%
 include callout.html
-type="success"
-title="Recommended"
-content="We recommend turning software limits on for all axes so that FarmBot will never try to move through the home (0, 0, 0) position."
+type="info"
+content="This [advanced setting](../settings.md#show-advanced-settings) is not shown by default."
 %}
+
+The **stop at home** software limits prevent FarmBot from moving through the zero coordinate of each axis. For example, if an axis is normally moving in positive coordinates, then the software limit will prevent it from moving through zero into negative coordinates. If an axis has **NEGATIVE COORDINATES ONLY** enabled, then it normally moves in negative coordinates and the software limit will prevent it from moving through zero into positive coordinates.
+
+These settings are enabled by default for all three axes, so that FarmBot will never try to move through the home (0, 0, 0) position. These should only be disabled under certain custom installation circumstances.
 
 # Stop at max
 
-If the **SET AXIS LENGTH** setting for an axis is non-zero, FarmBot will stop at the axis maximum.
+{%
+include callout.html
+type="info"
+content="This [advanced setting](../settings.md#show-advanced-settings) is not shown by default."
+%}
+
+If the **SET AXIS LENGTH** setting for an axis is non-zero, FarmBot will stop at the axis maximum. These settings are enabled by default for all three axes and should only be disabled under certain custom installation circumstances.
 
 # Negative coordinates only
 
 {%
 include callout.html
 type="info"
-content="This [advanced setting](../settings/parameter-management.md#show-advanced-settings) is not shown by default."
+content="This [advanced setting](../settings.md#show-advanced-settings) is not shown by default."
 %}
 
 This setting will allow movements to only occur in negative coordinates for the chosen axis. This is most useful for the z-axis if you want your home position to be at the highest point and for FarmBot to move down into negative coordinates.
@@ -86,6 +99,12 @@ type="info"
 title="Reminder"
 content="The length values of each axis are measured and auto-filled whenever your use the [find axis length](#find-axis-length) function."
 %}
+
+# Gantry height
+
+The **GANTRY HEIGHT** is the distance in millimeters between the bottom of FarmBot’s tool head and the bottom of the gantry main beam when the Z-axis is fully raised. It is used to determine if a plant is too tall for the gantry to pass over it.
+
+This setting should be updated after any hardware modification that will affect the maximum height the Z-axis can raise to, for example, changing the location of the lower Z-axis hardstop.
 
 # Safe height
 

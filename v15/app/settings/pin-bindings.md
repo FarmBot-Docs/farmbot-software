@@ -4,6 +4,12 @@ slug: "pin-bindings"
 description: ":radio_button: Trigger actions and sequences with physical buttons or additional sensors.\n[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=pin_bindings)"
 ---
 
+{%
+include callout.html
+type="warning"
+content="It is no longer recommended to create and manage pin bindings from the settings panel. Instead, use the [push button interface](../../app/controls/peripherals.md#push-buttons) found in the peripherals section of the controls panel."
+%}
+
 **Pin bindings** allow electrical signals from a button or sensor to trigger a FarmBot **action** or **sequence**. For example, a red button could be used to trigger the <span class="fb-button fb-red">E-STOP</span> action as recommended with FarmBot Genesis v1.4+ and Express v1.0+ kits. For practical examples, see our [use FarmBot's buttons](../../docs/how-to-guides/use-farmbots-buttons.md) how-to guide.
 
 # Add a pin binding for a stock button

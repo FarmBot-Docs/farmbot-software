@@ -7,7 +7,7 @@ description: ":left_right_arrow: Settings to support DIY axis end detection.\n[O
 {%
 include callout.html
 type="info"
-content="These [advanced settings](../settings/parameter-management.md#show-advanced-settings) are not shown by default."
+content="These [advanced settings](../settings.md#show-advanced-settings) are not shown by default."
 %}
 
 {%

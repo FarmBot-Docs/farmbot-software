@@ -4,7 +4,7 @@ slug: "tools"
 description: "Manage tools and seed containers :hammer: \n[Open this panel in the app](https://my.farm.bot/app/designer/tools)"
 ---
 
-On the **tools panel** you can manage all of your FarmBot's **tools**, **seed containers**, and **slots**.
+On the **tools panel** you can manage all of your FarmBot's **slots**, **tools**, and **seed containers** as well as view the currently mounted tool.
 
 {%
 include callout.html
@@ -13,38 +13,11 @@ title=""
 content="Only Genesis kits have interchangeable tools, and the user interface may look slightly different depending on which kit you have."
 %}
 
-![empty tools panel](_images/empty_tools_panel.png)
-
-# Tools and seed containers
-
-## Creating tools and seed containers
-
-To create a new **tool** or **seed container**, press the <span class="fb-button fb-gray"><i class='fa fa-plus'></i></span> button. Provide a <span class="fb-input">Name</span> to define the tool or seed container and then press <span class="fb-button fb-green">SAVE</span>. Alternatively, press <span class="fb-button fb-green"><i class='fa fa-plus'></i> STOCK NAMES</span> to add all of the standard tools and seed containers included with your FarmBot kit.
-
-![add new tool](_images/add_new_tool.png)
-
-## Editing tools and seed containers
-
-To edit a tool or seed container, click it from the **TOOLS AND SEED CONTAINERS** list (Genesis), or the **SEED CONTAINERS** list (Express) located at the bottom of the main tools panel. Make your desired edits and then press the <span class="fb-button fb-green">SAVE</span> button.
-
-![edit tool](_images/edit_tool.png)
-
-## Deleting tools and seed containers
-
-To delete a tool or seed container, click it from the **TOOLS AND SEED CONTAINERS** list (Genesis), or the **SEED CONTAINERS** list (Express) located at the bottom of the main tools panel. Then click the <span class="fb-button fb-red">DELETE</span> button.
-
-{%
-include callout.html
-type="info"
-title=""
-content="You cannot delete a tool or seed container if it is currently loaded into a tool slot."
-%}
-
-![delete tool](_images/delete_tool.png)
+![tools panel](_images/tools_panel.png)
 
 # Slots
 
-Once you've added all of your tools and seed containers, its time to load some or all of them into **slots**. Slots are locations within FarmBot's coordinate system that can hold a **tool** or **seed container** and correspond to physical hardware such as a toolbay (Genesis kits) or the gantry-mounted seed trough holder (all kits).
+**Slots** are locations within FarmBot's coordinate system that can hold a **tool** or **seed container** and correspond to physical hardware such as a toolbay (Genesis kits) or the gantry-mounted seed trough holder (all kits).
 
 ![slot in map](_images/slot_in_map.png)
 
@@ -62,21 +35,15 @@ To input accurate coordinates, use the manual controls to move FarmBot into the 
 
 ### Changing slot direction
 
-Some slots (such as the toolbays included with Genesis kits) have a **slot direction**, which is the direction that the tool must be loaded and unloaded from. To specify a slot's direction, use the **CHANGE SLOT DIRECTION** dropdown.
-
-![change slot direction](_images/change_slot_direction.png)
+Some slots (such as the toolbays included with Genesis kits) have a **slot direction**, which is the direction that the tool must be loaded and unloaded from. To specify a slot's direction, use the **SLOT DIRECTION** dropdown.
 
 ### Gantry-mounted slots
 
 Some slots (such as those provided by the seed trough holder) are **gantry-mounted** and move with the FarmBot along the x-axis. To account for this and properly render these types of slots in the farm designer, you can specify that a slot is **GANTRY-MOUNTED** with a checkbox. Doing so will display the **X** coordinate as <span class="fb-input fb-disabled-input">Gantry</span>.
 
-![gantry-mounted slot](_images/gantry-mounted_slot.png)
-
 ## Loading slots
 
 To load a tool or seed container into the slot, select one from the **TOOL OR SEED CONTAINER** dropdown and then press <span class="fb-button fb-green">save</span>.
-
-![add a tool to a slot](_images/add_a_tool_to_a_slot.png)
 
 {%
 include callout.html
@@ -96,6 +63,29 @@ include callout.html
 type="info"
 title=""
 content="You cannot delete slots with tools or seed containers that are used in sequences."
+%}
+
+# Tools and seed containers
+
+## Creating tools and seed containers
+
+To create a new **tool** or **seed container**, press the <span class="fb-button fb-gray"><i class='fa fa-plus'></i></span> button. Provide a **NAME** to define the tool or seed container and then press <span class="fb-button fb-green">SAVE</span>. Alternatively, you can select from the available **STOCK NAMES** to add one or more of the standard tools and seed containers included with your FarmBot kit.
+
+![add new tool](_images/add_new_tool.png)
+
+## Editing tools and seed containers
+
+To edit a tool or seed container, click it from the **TOOLS AND SEED CONTAINERS** list (Genesis), or the **SEED CONTAINERS** list (Express) located at the bottom of the main tools panel. Make your desired edits and then press the <span class="fb-button fb-green">SAVE</span> button.
+
+## Deleting tools and seed containers
+
+To delete a tool or seed container, click it from the **TOOLS AND SEED CONTAINERS** list (Genesis), or the **SEED CONTAINERS** list (Express) located at the bottom of the main tools panel. Then click the <span class="fb-button fb-red">DELETE</span> button.
+
+{%
+include callout.html
+type="info"
+title=""
+content="You cannot delete a tool or seed container if it is currently loaded into a tool slot."
 %}
 
 # What's next?

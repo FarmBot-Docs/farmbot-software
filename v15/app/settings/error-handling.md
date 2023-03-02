@@ -22,7 +22,7 @@ Emergency stop if movement is not complete after the maximum number of retries. 
 {%
 include callout.html
 type="info"
-content="These [advanced settings](../settings/parameter-management.md#show-advanced-settings) are not shown by default."
+content="These [advanced settings](../settings.md#show-advanced-settings) are not shown by default."
 %}
 
 ## Timeout after
