@@ -49,16 +49,27 @@ You may also choose the `As soon as possible` option, in which case FarmBot will
 
 # Auto update
 
-When enabled, FarmBot OS will automatically download and install software updates at the chosen time.
+{%
+include callout.html
+type="info"
+content="This [advanced setting](../settings.md#show-advanced-settings) is not shown by default."
+%}
+
+By default, FarmBot OS will automatically download and install software updates at **3AM**. The update process may take up to 1 hour to complete. If you need your FarmBot to perform updates at a different time, you can choose the desired time with this setting, or disable auto updates entirely.
 
 {%
 include callout.html
-type="success"
-title="Enabled by default"
-content="This setting is enabled by default so that your FarmBot will stay updated automatically with the latest features and security patches. If you decide to disable auto updates, please make sure you regularly manually update your device so that it stays within our [support policy](../../docs/troubleshooting/support-policy.md)."
+type="warning"
+content="If you decide to disable auto updates, please make sure you regularly manually update your device so that it stays within our [support policy](../../docs/troubleshooting/support-policy.md)."
 %}
 
 # FarmBot OS
+
+{%
+include callout.html
+type="info"
+content="This [advanced setting](../settings.md#show-advanced-settings) is not shown by default."
+%}
 
 View the version of FarmBot OS that you have installed on your device, that version's release notes, and install updates if they are available using the <span class="fb-button fb-green">UPDATE</span> button. Note that the update button will display as <span class="fb-button fb-gray">UP TO DATE</span> when there are no updates available.
 
@@ -67,6 +78,27 @@ View the version of FarmBot OS that you have installed on your device, that vers
 The **BOOT SEQUENCE** is a customizable sequence that FarmBot will execute as the final step of the boot up process. This can be especially useful for recovering from a power outage, or to just simply prepare your FarmBot automatically for it's scheduled tasks after every power cycle.
 
 We recommend getting started with a boot sequence that finds home and sends a message via email so you stay informed about when FarmBot has rebooted. More advanced users may wish to perform additional actions such as operating external peripherals or reading sensors, turning on the lights, mounting a tool, etc.
+
+# Firmware
+
+Select the firmware to be used with your electronics board and then press <span class="fb-button fb-yellow">FLASH FIRMWARE</span> to manually flash the firmware to the microcontroller. This may be required when installing a new electronics board.
+
+{%
+include callout.html
+type="info"
+title="Just upgraded?"
+content="If you are upgrading your FarmBot's electronics board, you may need to manually add any new peripherals, sensors, and tools that your new electronics board supports."
+%}
+
+# Firmware path
+
+{%
+include callout.html
+type="info"
+content="This [advanced setting](../settings.md#show-advanced-settings) is not shown by default."
+%}
+
+View and change the firmware device path. Select `ttyACM0` for Genesis, `ttyAMA0` for Express, or choose `Manual input` to select a custom device path. This value is automatically set based on FarmBot model for most users, but can be configured for custom setups with multiple serial devices connected.
 
 # What's next?
 

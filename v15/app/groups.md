@@ -1,7 +1,7 @@
 ---
 title: "Groups"
 slug: "groups"
-description: "Organize your plants, weeds, points, and more\n[Open this panel in the app](https://my.farm.bot/app/designer/groups)"
+description: "Organize your plants, weeds, and points"
 ---
 
 **Groups** allow you to group plants, weeds, or points in your garden so you can easily run sequences on all members of the group. For example, with a group of all your plants, you could instruct FarmBot to run a watering sequence on all of them.
@@ -18,11 +18,11 @@ Alternatively you can use the [multi-select mode](farm-designer.md#select-mode) 
 
 # Editing a group
 
-From the edit group panel, you can change the **GROUP NAME**, **SORT BY** order, add **FILTERS** to narrow down your selection, and manually add additional members. When you are finished editing, press the <i class='fa fa-arrow-left'></i> to save the group and go back to the plants, weeds, or points panel.
+From the edit group panel, you can change the name, **SORT BY** order, add **FILTERS** to narrow down your selection, and manually add additional members. When you are finished editing, press the <i class='fa fa-arrow-left'></i> to save the group and go back to the plants, weeds, or points panel.
 
-The **SORT BY** method will change the ordering that FarmBot uses when traveling to each group member when the group is used in a sequence. A dashed line will be shown in the map visualizing the chosen path. We encourage you to play around with the options to find the most efficient path FarmBot can take.
+The **SORT BY** method will change the ordering that FarmBot uses when traveling to each group member when the group is used in a sequence. A dashed line will be shown in the map visualizing the chosen path, along with numbers next to each group member indicating its order within the group. We encourage you to play around with the options to find the most efficient path FarmBot can take, or keep the selection at the default **Optimized** option.
 
-![spinach plants group](_images/spinach_plants_group.png)
+![group sort by](_images/group_sort_by.png)
 
 # Using filters
 
@@ -60,21 +60,17 @@ To remove manually added group members, click their icon again in the farm desig
 
 # Using groups
 
-Once you're happy with your group, try it in a sequence! Simply create a sequence with an [externally defined location variable](sequences/externally-defined-variables.md):
+Once you're happy with your group, try it in a sequence! First, create a sequence with an [externally defined location variable](sequences/externally-defined-variables.md).
 
 ![using a group in a sequence](_images/using_a_group_in_a_sequence.png)
 
-Then use the <span class="fb-button fb-orange">TEST</span> button, making sure to select your group:
-
-![running a sequence over a group](_images/running_a_sequence_over_a_group.png)
-
-Once you've verified that FarmBot is operating how you intend, you can run this sequence over your group of plants with an <span class="fb-step fb-execute">EXECUTE SEQUENCE</span> command in another sequence, or in a regimen, or an event!
+Then run this sequence from another sequence, a regimen, or an event, with the location variable set to your group.
 
 ![execute sequence over group step](_images/execute_sequence_over_group_step.png)
 
 # Deleting a group
 
-To delete a group, click the <span class="fb-button fb-red">DELETE GROUP</span> button. Note that you cannot delete a group that is in-use by a sequence, regimen, or event.
+To delete a group, click the <i class='fa fa-trash'></i> button. Note that you cannot delete a group that is in-use by a sequence, regimen, or event.
 
 # What's next?
 

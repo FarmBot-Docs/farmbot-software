@@ -164,10 +164,6 @@ contents:
             url: account-settings
           - title: FarmBot Settings
             url: farmbot-settings
-          - title: Firmware Settings
-            url: firmware-settings
-          - title: Power and Reset
-            url: power-and-reset
           - title: Axes
             url: axes
           - title: Motors
@@ -188,8 +184,6 @@ contents:
             url: parameter-management
           - title: Custom Settings
             url: custom-settings
-          - title: Farm Designer Settings
-            url: farm-designer-settings
   - title: FarmBot OS
     url: farmbot-os
     top: true

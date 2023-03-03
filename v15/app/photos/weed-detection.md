@@ -112,7 +112,7 @@ This error occurs because the camera was calibrated at a different z-axis height
 {%
 include callout.html
 type="info"
-content="These [advanced settings](../settings/parameter-management.md#show-advanced-settings) are not shown by default."
+content="These [advanced settings](../settings.md#show-advanced-settings) are not shown by default."
 %}
 
 Once an image has been taken with the camera, the weed detector software will process it. There are several advanced processing parameters (**BLUR**, **MORPH**, and **ITERATION**) that can help you fine tune the system to perform the best in your environment. The default values should work in most circumstances, though if you are seeing poor results or working in a non-standard environment, you may adjust these settings to further tune your system.

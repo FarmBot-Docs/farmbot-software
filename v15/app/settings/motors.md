@@ -63,7 +63,7 @@ Motor current in milliamps. (Only available for Genesis v1.5+ and Express v1.0+ 
 {%
 include callout.html
 type="info"
-content="These [advanced settings](../settings/parameter-management.md#show-advanced-settings) are not shown by default."
+content="These [advanced settings](../settings.md#show-advanced-settings) are not shown by default."
 %}
 
 ## Steps per mm

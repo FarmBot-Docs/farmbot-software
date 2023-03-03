@@ -101,9 +101,50 @@ To view a graph of motor positions over time, toggle <span class="fb-peripheral-
 
 # Power button
 
-The <span class="fb-button fb-gray"><i class='fa fa-power-off'></i></span> button shows a popup with options to <span class="fb-button fb-yellow">RESTART</span>, <span class="fb-button fb-red">SHUTDOWN</span>, <span class="fb-button fb-red">SOFT RESET</span>, and <span class="fb-button fb-red">HARD RESET</span> FarmBot. More information can be viewed about each action by clicking the (?) icon.
+The <span class="fb-button fb-gray"><i class='fa fa-power-off'></i></span> button shows a popup with options to <span class="fb-button fb-yellow">RESTART</span>, <span class="fb-button fb-red">SHUTDOWN</span>, <span class="fb-button fb-red">SOFT RESET</span>, and <span class="fb-button fb-red">HARD RESET</span> FarmBot.
 
 ![power button](_images/power_button.png)
+
+## Restart FarmBot
+
+This will restart FarmBot's Raspberry Pi and FarmBot OS.
+
+## Shutdown FarmBot
+
+This will shutdown FarmBot's Raspberry Pi. To turn it back on, unplug FarmBot and plug it back in.
+
+## Soft reset
+
+Soft resetting your FarmBot will revoke your FarmBot's ability to connect to your web app account and your home WiFi network. **This is useful before moving FarmBot to a new location with a different WiFi network, or when switching FarmBot from one web app account to another.**
+
+Upon soft resetting, you will need to [reconfigure FarmBot](http://configure.farm.bot) to connect it to internet and your web app account.
+
+{%
+include callout.html
+type="success"
+title="Your web app data is safe"
+content="Soft resetting your FarmBot will not affect any of your data or settings from your web app account, allowing you to do a complete restore to your device once it is back online and paired with your web app account."
+%}
+
+{%
+include callout.html
+type="info"
+title=""
+content="If you are experiencing problems with your setup, we do not recommend performing a soft reset. Instead, perform a [hard reset](#hard-reset)."
+%}
+
+## Hard reset
+
+Hard resetting your FarmBot will erase all data from the device, allowing you to start from a clean slate. **This is recommended if you are experiencing problems with your setup.**
+
+Perform a hard reset by [reflashing the latest version of FarmBot OS onto the microSD card](../../farmbot-os/intro.md). Upon hard resetting, you will need to [reconfigure FarmBot](http://configure.farm.bot) to connect it to internet and your web app account.
+
+{%
+include callout.html
+type="success"
+title="Your web app data is safe"
+content="Hard resetting your FarmBot will not affect any of your data or settings from your web app account, allowing you to do a complete restore to your device once it is back online and paired with your web app account."
+%}
 
 
 # What's next?

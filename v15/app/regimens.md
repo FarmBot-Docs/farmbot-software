@@ -40,6 +40,13 @@ In the **Regimens** panel, press the <span class="fb-button fb-gray"><i class='f
 
 To add a sequence to the regimen, press the <span class="fb-button fb-gray">SCHEDULE ITEM</span> button then select the **SEQUENCE** you wish to add to the regimen. Pick a **TIME** and the **DAYS** for it to run. For this example, we will run the `Seed Injection` sequence at `10am` on `Day 1`. Press the <span class="fb-button fb-green"><i class='fa fa-plus'></i></span> button to add the sequence to the regimen.
 
+{%
+include callout.html
+type="warning"
+title="FarmBot performs updates at 3AM"
+content="Avoid adding any regimen items between 2AM and 4AM."
+%}
+
 ![regimen scheduler with seed injection added](_images/regimen_scheduler_seed_injection_added.png)
 
 To view the added items, click <i class='fa fa-arrow-left'></i> to leave the scheduler. If you make a mistake, remove items from the regimen by clicking the <i class='fa fa-trash'></i> icon next to the item you wish to remove. If you need to edit or review a sequence, click the <i class='fa fa-external-link'></i> icon to navigate to that sequence.

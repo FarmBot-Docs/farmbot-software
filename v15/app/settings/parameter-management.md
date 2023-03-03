@@ -4,6 +4,11 @@ slug: "parameter-management"
 description: ":gear: Parameter import, export, and reset options.\n[Open these settings in the app](https://my.farm.bot/app/designer/settings?highlight=parameter_management)"
 ---
 
+{%
+include callout.html
+type="info"
+content="These [advanced settings](../settings.md#show-advanced-settings) are not shown by default."
+%}
 
 # Parameter load progress
 
@@ -30,22 +35,12 @@ Parameter data from the __EXPORT PARAMETERS__ button can be imported into your a
 by pasting it into the input field and pressing <span class="fb-button fb-yellow">IMPORT</span>.
 Imported data will replace all parameters in your account.
 
-# Show advanced settings
-
-{%
-include callout.html
-type="warning"
-title="For advanced users only"
-%}
-
-Some settings are not shown by default because they are only useful in very special circumstances and can cause problems for non-advanced users. To show advanced settings, turn <span class="fb-peripheral-on">ON</span> the **SHOW ADVANCED SETTINGS** toggle.
-
 # Highlight modified settings
 
 {%
 include callout.html
 type="info"
-content="This [advanced setting](../settings/parameter-management.md#show-advanced-settings) is not shown by default."
+content="This [advanced setting](../settings.md#show-advanced-settings) is not shown by default."
 %}
 
 Disable this toggle to hide the high-visibility border around every parameter
