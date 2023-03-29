@@ -82,6 +82,10 @@ contents:
         url: weeds
       - title: Points
         url: points
+      - title: Curves
+        url: curves
+        tags:
+          - New!
       - title: Groups
         url: groups
       - title: Sequences
