@@ -99,7 +99,7 @@ Press <span class="fb-button fb-green">FINISH</span>. FarmBot OS will now attemp
 # Step 5: Check to see if FarmBot is online
 
 * Use your phone, tablet, or laptop to connect to your home WiFi network.
-* Navigate to [my.farm.bot](https://my.farm.bot) and watch the status ticker to see when FarmBot comes online and begins sending messages. This should happen within 2 minutes of completing configuration.
+* Navigate to [my.farm.bot](https://my.farm.bot) and watch the status ticker to see when FarmBot comes online and begins sending messages. This should happen **within 5 minutes** of completing configuration.
 * Once FarmBot is initialized, try pressing one of the manual movement arrow buttons. You should see FarmBot responding to your commands and sending back messages.
 
 {%
@@ -109,4 +109,4 @@ title="Make sure you've chosen your FarmBot model"
 content="If you haven't yet [selected a FarmBot model](../../docs/getting-started.md#farmbot-model) from the setup process, then FarmBot will not know which firmware version to flash to the microcontroller. This will result in all movement commands failing. If this happens, make sure you choose a FarmBot model, or manually select a firmware option from the settings panel **Firmware** section and it will be flashed to the microcontroller."
 %}
 
-If there is a problem with the configuration, such as an incorrect password, then the Configurator program will restart and you will see the `farmbot-xxxx` WiFi network again. If this happens, try configuring again or consult the [troubleshooting guides](../../docs/troubleshooting.md).
+If there is a problem with the configuration, such as an incorrect password, then the Configurator program will restart within 5 minutes and you will see the `farmbot-xxxx` WiFi network again. If this happens, try configuring again or consult the [troubleshooting guides](../../docs/troubleshooting.md).
