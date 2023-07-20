@@ -1,10 +1,10 @@
 ---
 title: "Webcam Feeds"
 slug: "webcam-feeds"
-description: "Monitor your FarmBot from a distance <i class='fa fa-video-camera'></i>\n[Open this panel in the app](https://my.farm.bot/app/designer/controls)"
+description: "Monitor your FarmBot from a distance <i class='fa fa-video-camera'></i>\n[Open this popup in the app](https://my.farm.bot/app/designer/controls)"
 ---
 
-The **WEBCAM FEEDS** section of the controls panel allows you to monitor your FarmBot from a distance with the use of an external camera system such as a Nest brand home security camera. Using a single camera, you could monitor the entire FarmBot bed while controlling it remotely, or, you could set up multiple webcams at different angles for viewing plants, etc.
+The **WEBCAM FEEDS** tab of the controls popup allows you to monitor your FarmBot from a distance with the use of an external camera system such as a Nest brand home security camera. Using a single camera, you could monitor the entire FarmBot bed while controlling it remotely, or, you could set up multiple webcams at different angles for viewing plants, etc.
 
 ![webcam feeds](_images/webcam_feeds.png)
 
@@ -12,8 +12,6 @@ The **WEBCAM FEEDS** section of the controls panel allows you to monitor your Fa
 To add a webcam feed, press <span class="fb-button fb-gray">EDIT</span>, and then the <span class="fb-button fb-green"><i class='fa fa-plus'></i></span> button. Provide a <span class="fb-input">Name</span> and a publicly accessible <span class="fb-input">URL</span> (with `http://`) or IP address for your webcam stream. Multiple webcam feeds can be added by pressing <span class="fb-button fb-green"><i class='fa fa-plus'></i></span> for each camera. When finished editing, press <span class="fb-button fb-green">SAVE</span>.
 
 ![edit webcam feeds](_images/edit_webcam_feeds.png)
-
-
 
 {%
 include callout.html
@@ -29,9 +27,6 @@ The webcam feed area will display one webcam feed at a time. If you have added m
 
 # Deleting webcam feeds
 To delete a webcam feed, press <span class="fb-button fb-gray">edit</span> and then the feed's <span class="fb-button fb-red"><i class='fa fa-times'></i></span> button. Finish editing by pressing <span class="fb-button fb-gray">back</span>.
-
-# Hiding webcams
-If you do not plan to use any webcams to monitor your FarmBot, use the **HIDE WEBCAM WIDGET** toggle in the [app settings panel](../settings/account-settings.md) to remove webcams from the controls panel.
 
 # What's next?
 

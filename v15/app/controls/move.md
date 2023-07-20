@@ -1,24 +1,24 @@
 ---
 title: "Move"
 slug: "move"
-description: "Manually move your FarmBot <i class='fa fa-arrows'></i>\n[Open this panel in the app](https://my.farm.bot/app/designer/controls)"
+description: "Manually move your FarmBot <i class='fa fa-arrows'></i>\n[Open this popup in the app](https://my.farm.bot/app/designer/controls)"
 ---
 
-The controls at the top of the panel allow you to view FarmBot's current position, manually move it in real-time, take photos, go to home or find home, and shutdown or reboot FarmBot.
+The move tab of the controls popup allows you to manually move FarmBot in real-time, take photos, go to home or find home, and shutdown or reboot FarmBot.
 
-![move controls panel](_images/move_controls_panel.png)
+![controls popup move tab](_images/controls_popup_move_tab.png)
 
 # Viewing the current position
 
-The **CURRENT POSITION (MM)** of your FarmBot is shown in the gray fields directly below the **X AXIS**, **Y AXIS**, and **Z AXIS** labels. This information is updated in real-time.
+The current position in millimeters of your FarmBot is shown in the controls popup button in the main navbar of the app. This information is updated in real-time.
 
-If your FarmBot has encoders (Genesis kits only), you can also view **SCALED ENCODER (MM)** data, as well as **RAW ENCODER DATA** for each axis. Toggle the display of this additional information from the (cog) menu in the top right of the panel.
+If your FarmBot has encoders (Genesis kits only), you can also view **SCALED ENCODER (MM)** data, as well as **RAW ENCODER DATA** for each axis. Toggle the display of this additional information from the (cog) menu in the popup.
 
 ![current position display](_images/current_position_display.png)
 
 # Movements
 
-There are four types of movements you can perform in this panel: **relative movements**, **absolute movements**, **finding home**, and **going to home**.
+There are four types of movements you can perform: **relative movements**, **absolute movements**, **finding home**, and **going to home**.
 
 ## Relative movements
 
@@ -34,7 +34,7 @@ In the example below, because FarmBot is at the home position `(0, 0, 0)`, half 
 
 Depending on how you usually view your FarmBot, you may need to change which direction each arrow button sends your FarmBot so that the virtual controls match your real-life perspective. For example, if you usually view your FarmBot from the front (looking at the FarmBot logo on the tool head), you would want the <span class="fb-button fb-gray"><i class='fa fa-arrow-left'></i></span> button to send FarmBot in the `negative Y` direction. If you usually view your FarmBot from the side with the electronics box, you would want the <span class="fb-button fb-gray"><i class='fa fa-arrow-left'></i></span> button to send FarmBot in the `negative X` direction.
 
-You can change the direction along each axis that the arrow buttons send your FarmBot by using the Invert Jog Button toggles in the (cog) menu in the top right of the panel. You can also swap the X and Y axis buttons, which will also rotate the map in the farm designer by 90 degrees.
+You can change the direction along each axis that the arrow buttons send your FarmBot by using the Invert Jog Button toggles in the (cog) menu in the popup. You can also swap the X and Y axis buttons, which will also rotate the map in the farm designer by 90 degrees.
 
 ![move settings menu](_images/move_settings_menu.png)
 
@@ -93,9 +93,13 @@ content="Motor load indicators are only available for FarmBot Express bots with 
 
 ![motor load](_images/motor_load.png)
 
+To view a plot of the motor load over time, toggle <span class="fb-peripheral-on">ON</span> the **MOTOR LOAD** plot from the (cog) menu of the popup. The horizontal dashed lines represent the **MAX MOTOR LOAD** for each axis, allowing you to visually see when the realtime motor load has exceeded the max threshold.
+
+![motor load plot](_images/motor_load_plot.png)
+
 # Motor position plot
 
-To view a graph of motor positions over time, toggle <span class="fb-peripheral-on">ON</span> the motor position plot in the (cog) menu of the panel.
+To view a plot of motor positions over time, toggle <span class="fb-peripheral-on">ON</span> the motor position plot in the (cog) menu of the popup.
 
 ![motor position plot](_images/motor_position_plot.png)
 

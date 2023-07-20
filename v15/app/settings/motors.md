@@ -54,16 +54,22 @@ Enabling this setting will keep power applied to the motors at all times. This i
 
 This inverts the direction that the motors move for the chosen axis. Changing this setting will usually require you to change the setting of **INVERT ENCODERS** as well. You also might need to use this setting in combination with **INVERT ENDPOINTS** and **NEGATIVE COORDINATES ONLY** to set your FarmBot coordinate system exactly how you want it.
 
-# Motor current
-
-Motor current in milliamps. (Only available for Genesis v1.5+ and Express v1.0+ kits)
-
 # Advanced settings
 
 {%
 include callout.html
 type="info"
 content="These [advanced settings](../settings.md#show-advanced-settings) are not shown by default."
+%}
+
+## Motor current
+
+Motor current as a percentage of the maximum. (Only available for Genesis v1.5+ and Express v1.0+ kits).
+
+{%
+include callout.html
+type="warning"
+content="While the frontend will allow you to set the motor current as a percentage, under the hood this percentage is converted into milliamps. Setting motor current via Lua, farmbot-js, or farmbot-py will need to be set in milliamps directly."
 %}
 
 ## Steps per mm

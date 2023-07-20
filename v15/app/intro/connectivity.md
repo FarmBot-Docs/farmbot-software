@@ -50,4 +50,4 @@ The image below shows a healthy FarmBot that rebooted about 14 hours ago.
 
 # What's next?
 
- * [Logs](logs.md)
+ * [Jobs and Logs](jobs-and-logs.md)
