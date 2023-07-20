@@ -63,10 +63,8 @@ contents:
             url: creating-an-account
           - title: Connectivity
             url: connectivity
-          - title: Logs
-            url: logs
-          - title: Jobs
-            url: jobs
+          - title: Jobs and Logs
+            url: jobs-and-logs
           - title: Message Center
             url: message-center
           - title: Help
