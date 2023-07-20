@@ -1,12 +1,12 @@
 ---
 title: "Peripherals"
 slug: "peripherals"
-description: "Manually operate FarmBot's peripherals <i class='fa fa-toggle-on'></i>\n[Open this panel in the app](https://my.farm.bot/app/designer/controls)"
+description: "Manually operate FarmBot's peripherals <i class='fa fa-toggle-on'></i>\n[Open this popup in the app](https://my.farm.bot/app/designer/controls)"
 ---
 
-The **PERIPHERALS** section of the controls panel allows you to manage FarmBot's peripherals and control them in real-time with toggle switches and sliders. Here you can also manage the actions associated with the electronics box push buttons, and interact with a virtual representation of the buttons and LED indicators.
+The **PERIPHERALS** tab of the controls popup allows you to manage FarmBot's peripherals and control them in real-time with toggle switches and sliders. Here you can also manage the actions associated with the electronics box push buttons, and interact with a virtual representation of the buttons and LED indicators.
 
-![peripherals list](_images/peripherals_list.png)
+![controls popup peripherals tab](_images/controls_popup_peripherals_tab.png)
 
 # Editing peripherals
 

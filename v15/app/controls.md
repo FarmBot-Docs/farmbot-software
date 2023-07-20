@@ -1,19 +1,16 @@
 ---
 title: "Controls"
 slug: "controls"
-description: "Manually control your FarmBot from anywhere! :calling:\n[Open this panel in the app](https://my.farm.bot/app/designer/controls)"
+description: "Manually control your FarmBot from anywhere! :calling:\n[Open this popup in the app](https://my.farm.bot/app/designer/controls)"
 ---
 
-You generally will not need to manually control FarmBot, but in case you want to show off to your friends, you can do so from the **controls** panel. Here, you'll find buttons for [movement](controls/move.md), toggles and sliders for [controlling peripherals](controls/peripherals.md), and an area for [watching a livestream of your FarmBot](controls/webcam-feeds.md).
+You generally will not need to manually control FarmBot, but in case you want to show off to your friends, you can do so from the **controls** popup. Here, you'll find three tabs:
 
-{%
-include callout.html
-type="info"
-title=""
-content="Note that the video below shows an outdated interface, though many of the controls still operate the same with the new interface."
-%}
+1. **[MOVE](controls/move.md)** has buttons and fields for moving FarmBot to a new location, plots for monitoring the position and motor load, and options for taking photos and powering down.
+2. **[PERIPHERALS](controls/peripherals.md)** features a virtual representation of the electronics box buttons as well as toggles and sliders for all of the peripherals.
+3. **[WEBCAMS](controls/webcam-feeds.md)** allows you to add and view a livestream of your FarmBot using a 3rd party webcam or security camera.
 
-{% include youtube.html id="Qb_acc0wdJU" %}
+![controls popup](_images/controls_popup.png)
 
 
 # What's next?

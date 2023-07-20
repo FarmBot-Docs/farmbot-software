@@ -24,7 +24,7 @@ Because the app is web-based, you will never need to install it, and every time 
 
 :1234: Management of [FarmBot's settings](settings.md)
 
-:pager: Storage and viewing of [logs](intro/logs.md) and sensor readings
+:pager: Storage and viewing of [logs](intro/jobs-and-logs.md) and sensor readings
 
 # Forever free
 
@@ -46,8 +46,7 @@ Because the web app software is [100% open-source](http://licensing.farm.bot) (p
 
  * [Creating an Account](intro/creating-an-account.md)
  * [Connectivity](intro/connectivity.md)
- * [Logs](intro/logs.md)
- * [Jobs](intro/jobs.md)
+ * [Jobs and Logs](intro/jobs-and-logs.md)
  * [Message Center](intro/message-center.md)
  * [Help](intro/help.md)
  * [Farm Designer](farm-designer.md)

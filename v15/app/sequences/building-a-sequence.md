@@ -62,7 +62,20 @@ You can rename each sequence step by clicking on its name and typing in somethin
 
 ![custom step name](_images/custom_step_name.png)
 
-# Step 6: Save
+# Step 6: Use AI to write the sequence name and description
+
+If you've got writer’s block giving your sequence a name and useful description, click the magic wand buttons <i class='fa fa-magic'></i> to have an AI write these for you as well as choose a fitting color for your sequence. Colors will be chosen based on the primary interpreted concern of the sequence:
+
+* Red for removing weeds or error conditions
+* Green for taking care of plants
+* Yellow for lights
+* Blue for watering
+* Orange for warnings
+* Purple for logic, data manipulation, or using 3rd party APIs
+* Pink for taking photos, detecting weeds, or measuring soil height
+* Gray if the sequence is neutral in its action or there is not a clear primary concern
+
+# Step 7: Save
 
 Whenever a sequence has unsaved changes, an asterisk (**\***) will be shown next to the sequence name in the sequence list, and in the <span class='fb-button fb-green'>Save \*</span> button. When you are finished editing, click <span class="fb-button fb-green">Save \*</span> to save the sequence. Once saving is complete, the button will show as <span class="fb-button fb-gray">Saved <i class='fa fa-check'></i></span>.
 

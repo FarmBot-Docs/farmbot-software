@@ -46,7 +46,7 @@ Enabling this setting will prevent a browser dialog from asking about unsaved wo
 
 # Confirm emergency unlock
 
-Disabling this setting will prevent a browser dialog from asking for confirmation when using the <span class="fb-button fb-yellow">UNLOCK</span> button after an emergency stop.
+Enabling this setting will show a browser dialog asking for confirmation when using the <span class="fb-button fb-yellow">UNLOCK</span> button after an emergency stop.
 
 # User interface read-only mode
 
@@ -57,6 +57,10 @@ This setting may be useful when setting up a demonstration computer for members 
 # Landing page
 
 Choose the starting page/panel that loads after logging into the app.
+
+# Language
+
+Your preferred language. Used to write comments in AI generated Lua code.
 
 # Reset your account
 
@@ -94,7 +98,7 @@ All accounts at my.farm.bot have the following limitations:
 |------------------------------|------------------------------|------------------------------|
 |Devices                       |1                             |While you technically *can* pair multiple devices to one account, we do not officially support this and it may result in unexpected behavior.
 |Points (Plants, Weeds, Tool Slots)|1,000                         |We expect to offer increased limits with paid plans in the future.
-|Logs (storage rate)           |See the [log rate limits section](../intro/logs.md#log-limits)|
+|Logs (storage rate)           |See the [log rate limits section](../intro/jobs-and-logs.md#log-limits)|
 |Logs (stored)                 |1,000                         |We expect to offer increased limits with paid plans in the future.
 |Logs (viewable)               |250                           |
 |Images (viewable)             |450                           |
@@ -115,4 +119,4 @@ If the user does not login to their account within 14 days of the warning email,
 
 # What's next?
 
- * [Logs](../intro/logs.md)
+ * [Logs](../intro/jobs-and-logs.md)
