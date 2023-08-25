@@ -33,6 +33,8 @@ contents:
             url: scan-the-garden-for-weeds
           - title: Share FarmBot with Many Users
             url: share-farmbot-with-many-users
+          - title: Use the Rotary Tool
+            url: use-the-rotary-tool
       - title: Troubleshooting
         url: troubleshooting
         pages:

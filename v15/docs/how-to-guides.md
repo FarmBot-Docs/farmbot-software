@@ -16,3 +16,4 @@ Check out the guides below for step-by-step instructions, pro-tips, and new idea
  * [Use FarmBot's Buttons](how-to-guides/use-farmbots-buttons.md)
  * [Scan the Garden for Weeds](how-to-guides/scan-the-garden-for-weeds.md)
  * [Share FarmBot with Many Users](how-to-guides/share-farmbot-with-many-users.md)
+ * [Use the Rotary Tool](how-to-guides/use-the-rotary-tool.md)
