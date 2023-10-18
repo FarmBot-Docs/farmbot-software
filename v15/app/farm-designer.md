@@ -10,33 +10,85 @@ The **farm designer** allows you to graphically design the layout of your garden
 
 # Map menu
 
-Click the white <i class='fa fa-arrow-left'></i> button in the top right of the map to open up the **map menu**. Here you will find <span class="fb-button fb-gray"><i class='fa fa-minus'></i></span> and <span class="fb-button fb-gray"><i class='fa fa-plus'></i></span> buttons to zoom in and out of the map, as well as a toggles to turn on and off map layers. Some map layers have <i class='fa fa-caret-down'></i> submenus with additional options.
-
-|Layer/Submenu item            |Description                   |
-|------------------------------|------------------------------|
-|**PLANTS**                    |Display plant icons (not including weeds or spread).
-|Plant animations              |Enable or disable plant animations in the garden map. This may be useful to turn off when using the app on a lower powered device such as a smartphone or chromebook.
-|Confirm plant deletion        |Show a confirmation dialog when deleting a plant.
-|**POINTS**                    |Display points created in the [points panel](points.md)
-|**SOIL**                      |Display an interpolated map of soil levels based on soil height measurements.
-|**WEEDS**                     |Display weed icons and their spread.
-|Show removed                  |Display weeds with a status of `Removed`.
-|**SPREAD**                    |Display the spread of plants and weeds.
-|**FARMBOT**                   |Display the FarmBot gantry, UTM or tool head, slots, tools, seed containers, peripheral state visualizations, and axis limit lines.
-|Trail                         |Display a virtual trail for FarmBot in the garden map to show movement and watering history while the map is open. Toggling this setting will clear data for the current trail.
-|FarmBot motor load            |Display high motor load warning indicators in the map. Requires **TRAIL** and **STALL DETECTION** to be enabled.
-|**PHOTOS**                    |Photos taken by FarmBot's onboard camera. See [camera calibration](photos/camera-calibration.md) if photos are not positioned, scaled, or rotated correctly.
-|Newer than/Older than         |Filter the display of photos by date and time.
-|Crop map images               |Crop images displayed in the garden map to align rotation-corrected image edges with the coordinate system. Crop amount determined by **CAMERA ROTATION** value.
-|Clip photos out of bounds     |Remove portions of images that extend beyond the garden map boundaries.
-|Camera view                   |Display the camera's field of view in the garden map. This is useful when manually positioning the FarmBot's camera directly over an object for photographing.
-|Uncropped camera view         |Display the camera's uncropped and unrotated field of view in the garden map when **CROP MAP IMAGES** is enabled.
-|**AREAS**                     |Display areas defined by [group filters](groups.md#filtering-by-location).
-|**READINGS**                  |Display sensor readings.
-|**MOISTURE**                  |Display an interpolated map of soil moisture based on recent soil moisture readings.
-|**Z**                         |Graphical display of FarmBot's current z-axis position and relevant garden levels.
+Click the white <i class='fa fa-arrow-left'></i> button in the top right of the map to open up the **map menu**. Here you will find <span class="fb-button fb-gray"><i class='fa fa-minus'></i></span> and <span class="fb-button fb-gray"><i class='fa fa-plus'></i></span> buttons to zoom in and out of the map, as well as toggles to turn on and off map layers. Some map layers have <i class='fa fa-caret-down'></i> submenus with additional options.
 
 ![farm designer with tools panel open](_images/farm_designer_with_tools_panel_open.png)
+
+## Plants
+
+The **PLANTS** toggle displays or hides plant icons and their current size shadow. Within the plants submenu:
+
+- **PLANT ANIMATIONS** enables or disables plant animations in the garden map. This may be useful to turn off when using the app on a lower powered device such as a smartphone or chromebook, or if experiencing performance issues.
+- **CONFIRM PLANT DELTION** shows a confirmation dialog when deleting a plant.
+
+## Points
+
+The **POINTS** toggle displays or hides all points created from the [points panel](points.md).
+
+## Soil
+
+The **SOIL** toggle displays an interpolated map of soil levels based on [soil height measurements](../app/photos/measure-soil-height.md).
+
+![soil interpolation](_images/soil_interpolation.png)
+
+## Weeds
+
+The **WEEDS** toggle displays weed icons and their current size shadow. Within the weeds submenu:
+
+- **SHOW REMOVED** displays weeds with a status of `Removed`.
+
+## Spread
+
+The **SPREAD** toggle displays the spread of plants as a ring around the plant. This ring represents the space that the plant will occupy once fully grown. Plants with a spread value provided by OpenFarm will have a green spread ring. If a spread value from OpenFarm was not available when the plant was created, the spread ring will be white and have a fallback diameter of 250mm.
+
+{%
+include callout.html
+type="info"
+content="Once a plant is created in the app, the spread value will not be updated if the plant's spread value changes in OpenFarm."
+%}
+
+If a plant has an assigned [spread curve](../app/curves.md), then the expected spread of the plant at a certain age can be visualized by hovering over the spread curve.
+
+![spread curve](_images/spread_curve.png)
+
+## FarmBot
+
+The **FARMBOT** toggle displays the FarmBot gantry, UTM or tool head, slots, tools, seed containers, peripheral state visualizations, and axis limit lines. Within the FarmBot submenu:
+
+- **TRAIL** displays a virtual trail for FarmBot in the garden map to show movement and watering history while the map is open. Toggling this setting will clear data for the current trail.
+- **FARMBOT MOTOR LOAD** displays high motor load warning indicators in the map. Requires **TRAIL** and **STALL DETECTION** to be enabled.
+
+## Photos
+
+The **PHOTOS** toggle displays photos taken by FarmBot's onboard camera. Within the photos submenu:
+
+- **NEWER THAN/OLDER THAN** filters the display of photos by date and time.
+- **CROP MAP IMAGES** crops images displayed in the garden map to align rotation-corrected image edges with the coordinate system. Crop amount determined by **CAMERA ROTATION** value.
+- **CLIP PHOTOS OUT OF BOUNDS** removes portions of images that extend beyond the garden map boundaries.
+- **CAMERA VIEW** displays the camera's field of view in the garden map. This is useful when manually positioning the FarmBot's camera directly over an object for photographing.
+- **UNCROPPED CAMERA VIEW** displays the camera's uncropped and unrotated field of view in the garden map when **CROP MAP IMAGES** is enabled.
+
+{%
+include callout.html
+type="info"
+content="See [camera calibration](photos/camera-calibration.md) if photos are not positioned, scaled, or rotated correctly."
+%}
+
+## Areas
+
+The **AREAS** toggle displays areas defined by [group filters](groups.md#filtering-by-location).
+
+## Readings
+
+The **READINGS** toggle displays sensor readings.
+
+## Moisture
+
+The **MOISTURE** toggle displays an interpolated map of soil moisture based on recent [soil moisture readings](../docs/how-to-guides/measure-soil-moisture.md).
+
+## Z
+
+The **Z** toggle shows FarmBot's current z-axis position and relevant garden levels in a graphical display next to the map menu.
 
 ![map z-axis display](_images/map_z_display.png)
 
