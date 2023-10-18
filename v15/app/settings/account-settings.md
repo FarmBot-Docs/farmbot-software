@@ -109,7 +109,7 @@ As a matter of security, web app accounts that are not being used are subject to
 
 **1) Checking for eligibility**
 * If the account has never had a FarmBot connected to it, the account becomes eligible to be deleted 3 months after the last login.
-* If the account has had a FarmBot connected to it at least once, the account becomes eligible to be deleted 11 months after the last login.
+* If the account has had a FarmBot connected to it at least once, the account becomes eligible to be deleted 30 months after the last login.
 
 **2) Grace period**
 Once the account becomes eligible for deletion, an email will be sent with the subject `[ACTION REQUIRED] Your FarmBot account will be deleted due to inactivity unless you login`. To halt the automatic deletion process, the user must login.
