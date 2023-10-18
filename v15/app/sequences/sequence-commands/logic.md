@@ -51,7 +51,7 @@ While a variety of properties are available for each item type such as `X`, `Y`,
 
 The <span class="fb-step fb-send-message">Send Message</span> command instructs FarmBot to send a message. This is useful for error and success notifications and debugging. To use this command, simply type in the **MESSAGE** you would like FarmBot to send, choose a **TYPE**, and select the channels you would like the message to be sent to.
 
-`{{ x }}` can be used as a text variable for FarmBot's current x-axis position (`y` and `z` can also be used). `{{ pin13 }}` can be used to write the current value of pin 13 (pins 0 through 69 can also be used).
+{% raw %}`{{ x }}`{% endraw %} can be used as a text variable for FarmBot's current x-axis position (`y` and `z` can also be used). {% raw %}`{{ pin13 }}`{% endraw %} can be used to write the current value of pin 13 (pins 0 through 69 can also be used).
 
 ![send message](_images/send_message.png)
 
