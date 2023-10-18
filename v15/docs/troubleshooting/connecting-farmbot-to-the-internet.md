@@ -11,26 +11,33 @@ Your FarmBot needs to be connected to the internet and the Web App. When everyth
 |Suggested steps               |Applies to                    |
 |------------------------------|------------------------------|
 |Step 1: [Check the connectivity popup](#step-1-check-the-connectivity-popup)|All FarmBots
-|Step 2: [Try a Wi-Fi hotspot with a cellular network](#step-2-try-a-wi-fi-hotspot-with-a-cellular-network)|All FarmBots
-|Step 3: [Check for blocked ports](#step-3-check-for-blocked-ports)|All FarmBots connecting to school or corporate networks
-|Step 4: [Try a wired Ethernet connection](#step-4-try-a-wired-ethernet-connection)|All kits
-|Step 5: [Improve Wi-Fi signal strength](#step-5-improve-wi-fi-signal-strength)|All FarmBots
+|Step 2: [Check your internet connection](#step-2-check-your-internet-connection)|All FarmBots
+|Step 3: [Try a Wi-Fi hotspot with a cellular network](#step-3-try-a-wi-fi-hotspot-with-a-cellular-network)|All FarmBots
+|Step 4: [Check for blocked ports](#step-4-check-for-blocked-ports)|All FarmBots connecting to school or corporate networks
+|Step 5: [Try a wired Ethernet connection](#step-5-try-a-wired-ethernet-connection)|All FarmBot
+|Step 6: [Improve Wi-Fi signal strength](#step-6-improve-wi-fi-signal-strength)|All FarmBots
 
 # Step 1: Check the connectivity popup
 
 The **connectivity popup** is used to diagnose communications between the various FarmBot systems. To learn more about the connectivity popup and to get access to the full list of connectivity codes check out this page: [Connectivity Diagnosis Codes](connectivity-codes.md).
 
-![Connectivity diagnosis code](_images/connectivity_diagnosis_code.jpg)
+![Connectivity diagnosis code](_images/connectivity_diagnosis_code.png)
 
-# Step 2: Try a Wi-Fi hotspot with a cellular network
+# Step 2: Check your internet connection
 
-Use your smartphone or a dedicated hotspot device from a provider like Verizon or AT&T to create a **WiFi hotspot** in very close proximity to your FarmBot (within 10 feet). Ensure the hotspot device has a working cellular connection by connecting to it with a laptop or other device and loading a few webpages, such as the FarmBot web app. Once you are certain the hotspot is up and functional, configure FarmBot to connect to the hotspot.
+The first step in troubleshooting connectivity issues is to ensure that the internet connection you plan to use with FarmBot is working properly.
 
-If you are able to complete configuration and get your FarmBot online using the hotspot, then you can either continue to use the hotspot with your FarmBot or further troubleshoot your normal WiFi network. Most likely the issue with your normal network is a [blocked port](#step-3-check-for-blocked-ports) or a [weak WiFi signal](#step-5-improve-wi-fi-signal-strength).
+With cellular data (4G LTE, 5G, etc) turned **OFF**, try loading [my.farm.bot](https://my.farm.bot) on your phone or computer when connected to the internet connection you plan to use with your FarmBot. If you are not able to load webpages, then you will need to troubleshoot your internet connection before proceeding.
+
+# Step 3: Try a Wi-Fi hotspot with a cellular network
+
+Use your smartphone or a dedicated hotspot device from a provider like Verizon or AT&T to create a **Wi-Fi hotspot** in very close proximity to your FarmBot (within 3m or 10 feet). Ensure the hotspot device has a working cellular connection by connecting to it with a laptop or other device and loading [my.farm.bot](https://my.farm.bot). Once you are certain the hotspot is up and functional, configure FarmBot to connect to the hotspot.
+
+If you are able to complete configuration and get your FarmBot online using the hotspot, then you can either continue to use the hotspot with your FarmBot or further troubleshoot your normal Wi-Fi network. Most likely the issue with your normal network is a [blocked port](#step-4-check-for-blocked-ports) or a [weak Wi-Fi signal](#step-6-improve-wi-fi-signal-strength).
 
 If your FarmBot does not connect with the hotspot, there may be an issue with your hardware. However, this is an extremely rare circumstance (less than 1/1,000 FarmBots have hardware issues of this type). Almost certainly there is usually another issue at play.
 
-# Step 3: Check for blocked ports
+# Step 4: Check for blocked ports
 
 {%
 include callout.html
@@ -52,26 +59,40 @@ On FarmBot Genesis v1.4+ check the Blue LED communication light. You have blocke
 
 ![FarmBot Lights](_images/farmbot_lights.png)
 
-# Step 4: Try a wired Ethernet connection
+# Step 5: Try a wired Ethernet connection
 
-The most reliable way to connect FarmBot to the internet is with a **wired Ethernet connection**. This will elminiate any possibility of wireless signal interference, or weak signals causing the connection to be intermittent.
+The most reliable way to connect FarmBot to the internet is with a **wired Ethernet connection**. This will eliminate any possibility of wireless signal interference, or weak signals causing the connection to be intermittent.
 
 ## Genesis
 
-For Genesis kits, simply connect an Ethernet cable between the Raspberry Pi and your router.
+For Genesis kits, simply connect an Ethernet cable between the Raspberry Pi and your router. Then proceed through the configuration process and select the **Ethernet** option when prompted.
 
-![pi with ethernet port labeled](_images/pi_with_ethernet_port_labeled.jpg)
+{%
+include gallery.html images='
+![pi 3B+ with ethernet port labeled](_images/raspberry_pi_3_b_plus_ethernet.jpeg)
+![pi 4B with ethernet port labeled](_images/raspberry_pi_4_b_ethernet.jpeg)
+' %}
 
-## Express
+<center><i>The Ethernet port location on the Raspberry Pi can vary.</i></center>
 
-For Express kits, you will need to purchase and install a **USB Ethernet hub** from a third party vendor. We recommend USB Ethernet hubs based on the `AX88179` chipset such as [this one from Adafruit](https://www.adafruit.com/product/2992). Note that depending on the hub you purchase, you may also need a [USB to microUSB adapter](https://www.amazon.com/dp/B07SDB7XY1/) to be able to plug the camera into the hub, as there is only one available microUSB port on the Raspberry Pi Zero which will be occupied by the Ethernet hub.
+## Express v1.1+
+
+For Express v1.1+ kits, simply connect an Ethernet cable between the Ethenet port on the Farmduino Express and your router. Then proceed through the configuration process and select the **Ethernet** option when prompted.
+
+![farmduino express v1.1 with ethernet port labeled](_images/farmduino_express_ethernet.jpeg)
+
+## Express v1.0
+
+For Express v1.0 kits, you will need to purchase and install a **USB Ethernet hub** from a third party vendor. We recommend USB Ethernet hubs based on the `AX88179` chipset such as [this one from Adafruit](https://www.adafruit.com/product/2992). Note that depending on the hub you purchase, you may also need a [USB to microUSB adapter](https://www.amazon.com/dp/B07SDB7XY1/) to be able to plug the camera into the hub, as there is only one available microUSB port on the Raspberry Pi Zero which will be occupied by the Ethernet hub.
 
 Please keep the following points in mind if you decide to use Ethernet on an Express device:
 
  * FarmBot Inc can only provide support for official, first-party hardware and we cannot guarantee that your USB Ethernet hub will operate correctly.
  * We have not tested other chipsets and do not officially support USB Ethernet installations.
 
-# Step 5: Improve Wi-Fi signal strength
+Once you have connected the additional hardware, proceed through the configuration process and select the **Ethernet** option when prompted.
+
+# Step 6: Improve Wi-Fi signal strength
 
 The most common enemies of the Raspberry Pi Wi-Fi are other Wi-Fi networks and other electronic devices. If you are in an area with lots of other heavy duty electrical equipment such as power lines, transformers, microwaves, fridges, other appliances, radio equipment like baby monitors, or mobile phone towers, it may disrupt the Raspberry Pi Wi-Fi radio.
 
@@ -85,10 +106,17 @@ There are multiple ways users can use a **Wi-Fi range extender** and these are a
 
 2) Use both the range extender and an Ethernet cord to plug into the Raspberry Pi on the FarmBot. This will work in case it is infeasible to run an Ethernet cord from the primary router all the way to the FarmBot.
 
-There are many range extender’s and repeaters on the market and this one is just an example:
+{%
+include callout.html
+type="warning"
+title="Test the Wi-Fi range extender"
+content="If you decide to try a Wi-Fi range extender, make sure you test it first to ensure it works with your network and provides adequate signal where your FarmBot is located. Test the Wi-Fi range extender by connecting to it with a laptop or other device and loading [my.farm.bot](https://my.farm.bot)."
+%}
+
+There are many range extenders and repeaters on the market and this one is just an example:
 
 ![Dell Range Extender](_images/dell_range_extender.bmp)
 
-_Netgear Universal Wi-Fi Range Extender (WN3000RP)_
+<center><i>Netgear Universal Wi-Fi Range Extender (WN3000RP)</i></center>
 
 There are other resources, documentation and diagnostic Wi-Fi Apps available online to help with poor Wi-Fi signal. Check out this page by Netgear on [Wi-Fi range extenders](https://www.netgear.co.uk/home/discover/wifi-range-extender/).
