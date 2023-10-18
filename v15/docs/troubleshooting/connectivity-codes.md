@@ -6,9 +6,7 @@ description: "These are the codes that will tell you how to get communication to
 
 The connectivity tool is used to diagnose the status of communications between the nodes within the FarmBot. Communication must be established between the Browser, the Web App, Message Broker and the FarmBot. This tool will tell you where the communications are breaking down within the FarmBot system. In order for the FarmBot to operate properly all the points of communication need to be functioning.
 
-![Connectivity diagnosis code](_images/connectivity_diagnosis_code.jpg)
-
-
+![Connectivity diagnosis code](_images/connectivity_diagnosis_code.png)
 
 |Color                                            |Meaning                       |
 |-------------------------------------------------|------------------------------|

@@ -11,10 +11,11 @@ Your FarmBot needs to be connected to the internet and the Web App. When everyth
 |Suggested steps               |Applies to                    |
 |------------------------------|------------------------------|
 |Step 1: [Check the connectivity popup](#step-1-check-the-connectivity-popup)|All FarmBots
-|Step 2: [Try a Wi-Fi hotspot with a cellular network](#step-2-try-a-wi-fi-hotspot-with-a-cellular-network)|All FarmBots
-|Step 3: [Check for blocked ports](#step-3-check-for-blocked-ports)|All FarmBots connecting to school or corporate networks
-|Step 4: [Try a wired Ethernet connection](#step-4-try-a-wired-ethernet-connection)|All kits
-|Step 5: [Improve Wi-Fi signal strength](#step-5-improve-wi-fi-signal-strength)|All FarmBots
+|Step 2: [Check your internet connection](#step-2-check-your-internet-connection)|All FarmBots
+|Step 3: [Try a Wi-Fi hotspot with a cellular network](#step-3-try-a-wi-fi-hotspot-with-a-cellular-network)|All FarmBots
+|Step 4: [Check for blocked ports](#step-4-check-for-blocked-ports)|All FarmBots connecting to school or corporate networks
+|Step 5: [Try a wired Ethernet connection](#step-5-try-a-wired-ethernet-connection)|All FarmBot
+|Step 6: [Improve Wi-Fi signal strength](#step-6-improve-wi-fi-signal-strength)|All FarmBots
 
 # Step 1: Check the connectivity popup
 
@@ -72,7 +73,7 @@ include gallery.html images='
 ![pi 4B with ethernet port labeled](_images/raspberry_pi_4_b_ethernet.jpeg)
 ' %}
 
-<center><i>The Ethernet port location on the Raspberry Pi can vary</i></center>
+<center><i>The Ethernet port location on the Raspberry Pi can vary.</i></center>
 
 ## Express v1.1+
 
