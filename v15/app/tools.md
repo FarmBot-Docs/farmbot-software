@@ -25,13 +25,16 @@ content="Only Genesis kits have interchangeable tools, and the user interface ma
 
 To create a new slot, press the <span class="fb-button fb-gray"><i class='fa fa-plus'></i></span> button next to the **SLOTS** label in the tools panel.
 
-Next, provide **coordinates** for the tool slot.
-  * If you plan to load an **interchangeable tool** into the slot (Genesis kits only), use coordinates for when FarmBot's UTM will fully mount the tool while it is still in the slot.
-  * If you plan to load a **seed container** into the slot, use coordinates for when FarmBot's seed injector needle will be positioned to pick up a seed from the container.
-
-To input accurate coordinates, use the manual controls to move FarmBot into the desired position (mounting the tool or picking up a seed). Then click the **USE CURRENT LOCATION** <span class="fb-button fb-blue"><i class='fa fa-crosshairs'></i></span> button to copy FarmBot's current coordinates into the **X**, **Y**, and **Z** input fields.
-
 ![add new slot](_images/add_new_slot.png)
+
+Next, provide **coordinates** for the tool slot. To input accurate coordinates, use the manual controls to move FarmBot into the target position and then click the **USE CURRENT LOCATION** <span class="fb-button fb-blue"><i class='fa fa-crosshairs'></i></span> button to copy FarmBot's current coordinates into the **X**, **Y**, and **Z** input fields.
+
+Different tools and seed containers will require different coordinates for the slot:
+
+  * **Interchangeable tools** (Genesis kits only) - Use coordinates for when FarmBot's UTM will fully mount the tool while it is still in the slot.
+  * **Seed bins** and **seed troughs** - Use coordinates for when FarmBot's seed injector needle will be positioned to pick up a seed from the container.
+  * **Seed trays** (with 16 individual cells) - Use coordinates for when FarmBot's seed injector needle is positioned between cells **A2** and **A3**, approximately 1mm above the top of the seed tray. If your tool slot’s pullout direction is in the Negative X direction, position the needle exactly between cells **D2** and **D3**. In either case, the UTM’s main cylindrical section should be aligned with the outer cylindrical face of the seed tray as in the example image below. Then use the [Pick from Seed Tray](https://my.farm.bot/app/shared/sequence/32) featured sequence for picking up seeds from a specific cell in the tray.
+  ![seed tray setup](_images/seed_tray_setup.png)
 
 ### Changing slot direction
 
