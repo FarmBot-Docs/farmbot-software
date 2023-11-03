@@ -84,23 +84,14 @@ Then, from any <span class="fb-step fb-move">Move</span> command in your sequenc
 
 # Troubleshooting
 
-## Capture
+| Error message | Solution |
+| --- | --- |
+| `Problem getting image` | Verify camera is working by taking a photo. Check USB connection to Raspberry Pi and itermediate connection at Y/Z cable carriers. |
+| `Calibration measured distance input required` | Provide a distance measurement (see the [calibration steps](#calibrate)). |
+| `Image size must match calibration` | Recalibrate the camera. If any changes were made to the [camera settings](../photos/camera-settings.md), such as the **RESOLUTION** or **ROTATE DURING CAPTURE**, revert the changes to the default values. |
 
-_Error message:_ `Problem getting image`<br>
-_Troubleshooting steps:_ Verify camera is working by taking a photo.
+For all other error messages, follow these troubleshooting steps:
 
-## Calibration
-
-_Error message:_ `Calibration measured distance input required`<br>
-_Solution:_ Provide a distance measurement (see the [calibration steps](#calibrate)).
-
-_Error message:_ `Image size must match calibration`<br>
-_Solution:_ Recalibrate or revert change to image capture size or rotation.
-
-## Detection
-
-All other error messages<br>
-_Troubleshooting steps:_
  * Verify the soil is clearly visible in photos.
  * Try recalibrating at a different location.
  * Try moving the camera as far away from the soil as possible. If a closer measurement distance is desired, increase the __DISPARITY SEARCH DEPTH__ value in __Advanced__ settings.

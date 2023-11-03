@@ -38,10 +38,9 @@ Open up the Raspberry Pi Imager program and make the following selections:
 
 1. **Raspberry Pi Device** - You do not need to click the `CHOOSE DEVICE` button nor make a selection. Your device has already been determined by the version of FarmBot OS you downloaded.
 2. **Operating System** - Click `CHOOSE OS` and then scroll to the bottom of the popup and select **Use custom** _Select a custom .img file from your computer._ Then select the FarmBot OS `.img` file you downloaded in Step 1.
-
 ![select the use custom .img file in raspberry pi imager](_images/rpi_imager_use_custom_os.png)
-
 3. **Storage** - Click `CHOOSE STORAGE` and then select the microSD card (it should show up as a `7.9 GB` option).
+![choose the microSD card storage](_images/rpi_imager_choose_storage.png)
 
 {%
 include callout.html
@@ -49,8 +48,6 @@ type="warning"
 title="Do not use large capacity microSD cards"
 content="FarmBot OS will not work with microSD cards larger than 32GB in capacity. Please use the microSD card provided with your FarmBot kit."
 %}
-
-![choose the microSD card storage](_images/rpi_imager_choose_storage.png)
 
 Click `NEXT`. You will then be prompted if you would like to use OS customization settings. Select `NO`.
 
