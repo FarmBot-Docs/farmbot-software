@@ -86,9 +86,9 @@ Then, from any <span class="fb-step fb-move">Move</span> command in your sequenc
 
 | Error message | Solution |
 | --- | --- |
-| `Problem getting image` | Verify camera is working by taking a photo. Check USB connection to Raspberry Pi and itermediate connection at Y/Z cable carriers. |
+| `Problem getting image` | Verify camera is working by taking a photo. Check USB connection to Raspberry Pi and intermediate connection at Y/Z cable carriers. |
 | `Calibration measured distance input required` | Provide a distance measurement (see the [calibration steps](#calibrate)). |
-| `Image size must match calibration` | Recalibrate the camera. If any changes were made to the [camera settings](../photos/camera-settings.md), such as the **RESOLUTION** or **ROTATE DURING CAPTURE**, revert the changes to the default values. |
+| `Image size must match calibration` | Recalibrate the camera. If any changes were made to the [camera settings](../photos/camera-settings.md) after calibration, such as the **RESOLUTION** or **CAMERA ROTATION**, revert the changes to the values set at calibration. |
 
 For all other error messages, follow these troubleshooting steps:
 
