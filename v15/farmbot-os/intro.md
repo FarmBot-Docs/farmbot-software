@@ -1,7 +1,7 @@
 ---
 title: "FarmBot OS"
 slug: "intro"
-description: "Step-by-step instructions for installing FarmBot OS :movie_camera: [Video tutorial](https://youtu.be/AOsF17Yxoi4?t=9)\nDownload the latest FarmBot OS `.img` file at [os.farm.bot](http://os.farm.bot)."
+description: "Step-by-step instructions for installing FarmBot OS. Download the latest FarmBot OS `.img` file at [os.farm.bot](http://os.farm.bot)."
 ---
 
 The Raspberry Pi runs a custom operating system named **FarmBot OS**, allowing FarmBot to:
@@ -11,6 +11,8 @@ The Raspberry Pi runs a custom operating system named **FarmBot OS**, allowing F
   * Take photos with a USB or Raspberry Pi camera, and upload the photos to the web application.
   * Get configured over WiFi, mitigating the need to plug in a mouse, keyboard, or screen.
 
+{% include youtube.html id="76ZwipJ3Dpw" %}
+
 # Step 1: Download FarmBot OS
 
 Using a desktop computer or laptop, go to [os.farm.bot](http://os.farm.bot) to download the latest FarmBot OS `.img` file according to your **FarmBot kit** and it's **internal computer**.
@@ -19,24 +21,26 @@ Using a desktop computer or laptop, go to [os.farm.bot](http://os.farm.bot) to d
 
 # Step 2. Write FarmBot OS onto the microSD card
 
-To write FarmBot OS onto the microSD card, you must use a special **`.img` writing tool**. We recommend downloading and installing **[Raspberry Pi Imager](https://www.raspberrypi.com/software/)** for this purpose.
+To write FarmBot OS onto the microSD card, you must use a special **`.img` writing tool** called **[Raspberry Pi Imager](https://www.raspberrypi.com/software/)**.
 
 {%
 include callout.html
 type="danger"
 title="Drag and drop will not work"
-content="Using your computer's default file browser to drag and drop or copy and paste the FarmBot OS `.img` file onto the microSD card **will not work**. You *must* use a special writing tool as described above."
+content="Using your computer's default file browser to drag and drop or copy and paste the FarmBot OS `.img` file onto the microSD card **will not work**. You *must* use Raspberry Pi Imager."
 %}
 
 ![raspberry pi imager](_images/rpi_imager.png)
 
 Once you have Raspberry Pi Imager installed, connect the microSD card to your computer using a **card reader**. You may need to use the **microSD card to SD card adapter** included with your kit.
 
-Open up the Raspberry Pi Imager program and click `CHOOSE OS`. Then scroll to the bottom of the popup and select **Use custom** _Select a custom .img file from your computer._ Then select the FarmBot OS `.img` file you downloaded in Step 1.
+Open up the Raspberry Pi Imager program and make the following selections:
 
+1. **Raspberry Pi Device** - You do not need to click the `CHOOSE DEVICE` button nor make a selection. Your device has already been determined by the version of FarmBot OS you downloaded.
+2. **Operating System** - Click `CHOOSE OS` and then scroll to the bottom of the popup and select **Use custom** _Select a custom .img file from your computer._ Then select the FarmBot OS `.img` file you downloaded in Step 1.
 ![select the use custom .img file in raspberry pi imager](_images/rpi_imager_use_custom_os.png)
-
-Click the `CHOOSE STORAGE` button and then select the microSD card (it should show up as a `7.9 GB` option).
+3. **Storage** - Click `CHOOSE STORAGE` and then select the microSD card (it should show up as a `7.9 GB` option).
+![choose the microSD card storage](_images/rpi_imager_choose_storage.png)
 
 {%
 include callout.html
@@ -45,9 +49,11 @@ title="Do not use large capacity microSD cards"
 content="FarmBot OS will not work with microSD cards larger than 32GB in capacity. Please use the microSD card provided with your FarmBot kit."
 %}
 
-![choose the microSD card storage](_images/rpi_imager_choose_storage.png)
+Click `NEXT`. You will then be prompted if you would like to use OS customization settings. Select `NO`.
 
-Click `WRITE`. Your computer may ask you for permision to perform this action. Once permission is granted, Raspberry Pi Imager will write FarmBot OS to the microSD card and then verify the installation. The process will take approximately 1 minute.
+![no customization](_images/rpi_imager_no_customization.png)
+
+A final warning popup will be shown. Proceed to write the OS to the microSD card. Your computer may ask you for permision to perform this action. Once permission is granted, Raspberry Pi Imager will write FarmBot OS to the microSD card and then verify the installation. The process will take approximately 1 minute.
 
 ![raspberry pi imager writing](_images/rpi_imager_writing.png)
 
