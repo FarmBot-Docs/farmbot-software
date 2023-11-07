@@ -38,4 +38,4 @@ content="Do not set the timeout times to extremely high values (such as 20,000 s
 
 ## Calibration retry reset distance
 
-Distance in millimeters to group calibration retries. If the distance travelled while detecting the axis end location exceeds this value, the calibration retry counter is reset.
+Distance in millimeters to group calibration retries. If the distance traveled while detecting the axis end location exceeds this value, the calibration retry counter is reset.

@@ -33,7 +33,7 @@ These buttons may come in handy though when playing around with experimental seq
 {%
 include callout.html
 type="warning"
-content="This setting has been deprecated in favor of the [BOOT SEQUENCE](../settings/farmbot-settings.md#boot-sequence) setting, which allows for siginifcantly more customization to the boot process."
+content="This setting has been deprecated in favor of the [BOOT SEQUENCE](../settings/farmbot-settings.md#boot-sequence) setting, which allows for significantly more customization to the boot process."
 %}
 
 {%

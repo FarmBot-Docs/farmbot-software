@@ -14,7 +14,7 @@ We recommend starting with the default values shown in the <i class='fa fa-quest
 {%
 include callout.html
 type="arrows-v"
-content="For the Z-axis, you can also set the **MAX SPEED TOWARD HOME** independently from the max speed travelling away from the home position. This is especially useful for the Z-axis because the motor will either be fighting against or working with gravity depending on the direction of movement."
+content="For the Z-axis, you can also set the **MAX SPEED TOWARD HOME** independently from the max speed traveling away from the home position. This is especially useful for the Z-axis because the motor will either be fighting against or working with gravity depending on the direction of movement."
 %}
 
 {%
@@ -31,7 +31,7 @@ This setting controls the **MINIMUM SPEED** in millimeters per second that FarmB
 {%
 include callout.html
 type="arrows-v"
-content="For the Z-axis, you can also set the **MINIMUM SPEED TOWARD HOME** independently from the minimum speed travelling away from the home position. This is especially useful for the Z-axis because the motor will either be fighting against or working with gravity depending on the direction of movement."
+content="For the Z-axis, you can also set the **MINIMUM SPEED TOWARD HOME** independently from the minimum speed traveling away from the home position. This is especially useful for the Z-axis because the motor will either be fighting against or working with gravity depending on the direction of movement."
 %}
 
 # Accelerate for
@@ -43,7 +43,7 @@ We recommend starting with the default values shown in the <i class='fa fa-quest
 {%
 include callout.html
 type="arrows-v"
-content="For the Z-axis, you can also set the **ACCELERATE FOR TOWARD HOME** independently from the accleration for travelling away from the home position. This is especially useful for the Z-axis because the motor will either be fighting against or working with gravity depending on the direction of movement."
+content="For the Z-axis, you can also set the **ACCELERATE FOR TOWARD HOME** independently from the acceleration for traveling away from the home position. This is especially useful for the Z-axis because the motor will either be fighting against or working with gravity depending on the direction of movement."
 %}
 
 # Always power motors

@@ -51,7 +51,7 @@ You can customize how the sequence editor works with the options in the (cog) me
 * **SHOW PINS** - Show raw pin lists (eg: `Pin 13`) in <span class="fb-step fb-read-pin">Read Sensor</span>, <span class="fb-step fb-write-pin">Control Peripheral</span>, and <span class="fb-step fb-if-statement">If Statement</span> steps.
 * **OPEN OPTIONS BY DEFAULT** - Choose whether advanced step options are open or closed by default.
 * **DISCARD UNSAVED SEQUENCE CHANGES** - Don't ask about saving sequence work before closing browser tab. Warning: may cause loss of data.
-* **VIEW CELERYSCRIPT** - View raw data representation of sequence steps or the entire sequence. Useful for software developers. Once this toggle is set to <span class="fb-peripheral-on">YES</span>, you may switch between the raw celerysript and normal views of individual sequence steps or the entire sequence by clicking the <i class='fa fa-code'></i> buttons in the sequence or step headers.
+* **VIEW CELERYSCRIPT** - View raw data representation of sequence steps or the entire sequence. Useful for software developers. Once this toggle is set to <span class="fb-peripheral-on">YES</span>, you may switch between the raw celeryscript and normal views of individual sequence steps or the entire sequence by clicking the <i class='fa fa-code'></i> buttons in the sequence or step headers.
 
 # What's next?
 

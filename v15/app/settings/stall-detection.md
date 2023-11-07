@@ -57,16 +57,16 @@ If your FarmBot is falsely detecting stalls during normal movements, try _increa
 
 If adjusting **MAX MOTOR LOAD** does not improve stall detection performance, try adjusting the motor speed and acceleration settings.
 
-The motor load readings are very sensitive to the motor's speed, where the load will be significantly greater whenever the motor is moving slowly (less than about 80 mm/s). This will be especially true during the acceleration and decceleration phases of a movement.
+The motor load readings are very sensitive to the motor's speed, where the load will be significantly greater whenever the motor is moving slowly (less than about 80 mm/s). This will be especially true during the acceleration and deceleration phases of a movement.
 
-Once the motor is moving more quickly (80 mm/s or faster) the stepper driver will detect a lower load. Reducing the time spent travelling slower than 80 mm/s can be achieved best by shortening the **ACCELERATE FOR** distance in increments of 5 and increasing the **MINIMUM SPEED** in increments of 5. It can also be affected by increasing the **MAXIMUM SPEED**, though to a lesser effect.
+Once the motor is moving more quickly (80 mm/s or faster) the stepper driver will detect a lower load. Reducing the time spent traveling slower than 80 mm/s can be achieved best by shortening the **ACCELERATE FOR** distance in increments of 5 and increasing the **MINIMUM SPEED** in increments of 5. It can also be affected by increasing the **MAXIMUM SPEED**, though to a lesser effect.
 
 {%
 include callout.html
 type="warning"
-content="Keep in mind that it is unreasonable to accelerate over an extremely short distance because the motors must bring the mass of the entire gantry up to speed. Accelerating _too quickly_ or having a minimum speed that is too high will cause abrupt changes in speed that will comporomise accuracy."
+content="Keep in mind that it is unreasonable to accelerate over an extremely short distance because the motors must bring the mass of the entire gantry up to speed. Accelerating _too quickly_ or having a minimum speed that is too high will cause abrupt changes in speed that will compromise accuracy."
 %}
 
 ## Turning off stall detection
 
-If you cannot find settings that give good results for all movment scenarios, you may disable stall detection. Keep in mind that you will need to manually set the home position any time the FarmBot stalls due to an obstruction or if the FarmBot ever loses power and reboots.
+If you cannot find settings that give good results for all movement scenarios, you may disable stall detection. Keep in mind that you will need to manually set the home position any time the FarmBot stalls due to an obstruction or if the FarmBot ever loses power and reboots.

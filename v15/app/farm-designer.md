@@ -19,7 +19,7 @@ Click the white <i class='fa fa-arrow-left'></i> button in the top right of the 
 The **PLANTS** toggle displays or hides plant icons and their current size shadow. Within the plants submenu:
 
 - **PLANT ANIMATIONS** enables or disables plant animations in the garden map. This may be useful to turn off when using the app on a lower powered device such as a smartphone or chromebook, or if experiencing performance issues.
-- **CONFIRM PLANT DELTION** shows a confirmation dialog when deleting a plant.
+- **CONFIRM PLANT DELETION** shows a confirmation dialog when deleting a plant.
 
 ## Points
 
@@ -109,7 +109,7 @@ content="When enabled, **DYNAMIC MAP SIZE** will override **MAP SIZE** values."
 {%
 include callout.html
 type="info"
-content="**DYNAMIC MAP SIZE** only affects the display of the virtual garden map in the app. This setting will not affect the area in which FarmBot is allowed to move in. To change where FarmBot is allowed to move, see the settings availabe in the Axes section."
+content="**DYNAMIC MAP SIZE** only affects the display of the virtual garden map in the app. This setting will not affect the area in which FarmBot is allowed to move in. To change where FarmBot is allowed to move, see the settings available in the Axes section."
 %}
 
 ## Map size
@@ -119,7 +119,7 @@ Specify custom map dimensions (in millimeters). These values set the size of the
 {%
 include callout.html
 type="info"
-content="**MAP SIZE** only affects the display of the virtual garden map in the app. This setting will not affect the area in which FarmBot is allowed to move in. To change where FarmBot is allowed to move, see the settings availabe in the Axes section."
+content="**MAP SIZE** only affects the display of the virtual garden map in the app. This setting will not affect the area in which FarmBot is allowed to move in. To change where FarmBot is allowed to move, see the settings available in the Axes section."
 %}
 
 ## Rotate map

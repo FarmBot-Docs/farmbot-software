@@ -53,7 +53,7 @@ Use a smartphone, tablet, or laptop to look for the `farmbot-xxxx` WiFi network.
 
 Once you find the `farmbot-xxxx` WiFi network, connect to it and follow the detailed configuration instructions [here](../../farmbot-os/intro/configurator.md).
 
-If you do not see the `farmbot-xxxx` WiFi network, try again with a different smartphone, tablet, or laptopx.
+If you do not see the `farmbot-xxxx` WiFi network, try again with a different smartphone, tablet, or laptop.
 
 # 5. I'm connected to farmbot-xxxx but can't load the configurator
 

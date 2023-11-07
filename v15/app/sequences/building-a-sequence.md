@@ -13,7 +13,7 @@ Once a sequence has been created or selected, it will be loaded into the editor.
 
 # Step 2: Add commands
 
-Add the first command (or another sequence) to your sequence by scrolling through the options available in the command pallete or by using the search bar. Click a <span class="fb-add-command-button"><i class='fa fa-plus'></i></span> button to open the command pallete to add an additional sequence step at that location.
+Add the first command (or another sequence) to your sequence by scrolling through the options available in the command palette or by using the search bar. Click a <span class="fb-add-command-button"><i class='fa fa-plus'></i></span> button to open the command palette to add an additional sequence step at that location.
 
 ![add command](_images/add_command.gif)
 
@@ -53,7 +53,7 @@ Each step in a sequence has a cluster of control icons in the top right:
 |<i class='fa fa-arrows-v'></i>|Clicking and dragging will allow you to drag and drop the step to another location in the sequence. Just clicking will show a popup with <i class='fa fa-arrow-circle-up'></i> and <i class='fa fa-arrow-circle-down'></i> icons. Clicking one of these will move the step up or down one position in the sequence. These controls are especially useful when using a touchscreen that doesn't work with drag-and-drop functionality.
 |<i class='fa fa-external-link'></i>|Clicking will open the linked sequence used in an <span class="fb-step fb-execute">Execute</span> command.
 |<i class='fa fa-font'></i>|Clicking toggles between the fancy and basic text editors in a <span class="fb-step fb-lua">Lua</span> command.
-|<i class='fa fa-code'></i>|Clicking toggles between the default view of the command and the raw code version of the command. Only available if the **VIEW CELERSCRIPT** sequence editor option is set to <span class="fb-peripheral-on">YES</span>.
+|<i class='fa fa-code'></i>|Clicking toggles between the default view of the command and the raw code version of the command. Only available if the **VIEW CELERYSCRIPT** sequence editor option is set to <span class="fb-peripheral-on">YES</span>.
 |<i class='fa fa-exclamation-triangle'></i>|Clicking will show any warnings or problems with the currently configured step.
 
 # Step 5: Name each step

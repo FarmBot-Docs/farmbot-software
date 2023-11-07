@@ -53,7 +53,7 @@ Click `NEXT`. You will then be prompted if you would like to use OS customizatio
 
 ![no customization](_images/rpi_imager_no_customization.png)
 
-A final warning popup will be shown. Proceed to write the OS to the microSD card. Your computer may ask you for permision to perform this action. Once permission is granted, Raspberry Pi Imager will write FarmBot OS to the microSD card and then verify the installation. The process will take approximately 1 minute.
+A final warning popup will be shown. Proceed to write the OS to the microSD card. Your computer may ask you for permission to perform this action. Once permission is granted, Raspberry Pi Imager will write FarmBot OS to the microSD card and then verify the installation. The process will take approximately 1 minute.
 
 ![raspberry pi imager writing](_images/rpi_imager_writing.png)
 

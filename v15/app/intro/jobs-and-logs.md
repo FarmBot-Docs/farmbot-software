@@ -33,16 +33,16 @@ The **logs tab** shows a low-level view of each individual operation that FarmBo
 
 There are several **log types**, each with their own color, that indicate the type of message being sent.
 
-|<span class="gray fa fa-circle suacer"></span>|Type|Meaning|
+|<span class="gray fa fa-circle saucer"></span>|Type|Meaning|
 |:--------------------------------------------:|----|-------|
-|<span class="green fa fa-circle suacer"></span>|**SUCCESS**|FarmBot has successfully completed a task.<br>**Example:** *Synced*
-|<span class="yellow fa fa-circle suacer"></span>|**BUSY**|FarmBot is busy working on a task.<br>**Example:** *Syncing*
-|<span class="orange fa fa-circle suacer"></span>|**WARN**|A situation may require your attention or make FarmBot unresponsive.<br>**Example:** *Emergency locking and powering down*
-|<span class="red fa fa-circle suacer"></span>|**ERROR**|An error or emergency stop has occurred.<br>**Example:** *Movement failed*
-|<span class="light-blue fa fa-circle suacer"></span>|**INFO**|General information about what FarmBot is doing.<br>**Example:** *Starting Water All Plants Sequence*
-|<span class="blue fa fa-circle suacer"></span>|**FUN**|Logs that are just for fun :rabbit:
-|<span class="gray fa fa-circle suacer"></span>|**DEBUG**|Verbose information relevant to software development and troubleshooting.<br>**Example:** *Network interface needs configuration: wlan0*
-|<span class="gray fa fa-circle suacer"></span>|**ASSERTION**|Results of <span class="fb-step fb-assertion">ASSERTION</span> commands. (advanced)
+|<span class="green fa fa-circle saucer"></span>|**SUCCESS**|FarmBot has successfully completed a task.<br>**Example:** *Synced*
+|<span class="yellow fa fa-circle saucer"></span>|**BUSY**|FarmBot is busy working on a task.<br>**Example:** *Syncing*
+|<span class="orange fa fa-circle saucer"></span>|**WARN**|A situation may require your attention or make FarmBot unresponsive.<br>**Example:** *Emergency locking and powering down*
+|<span class="red fa fa-circle saucer"></span>|**ERROR**|An error or emergency stop has occurred.<br>**Example:** *Movement failed*
+|<span class="light-blue fa fa-circle saucer"></span>|**INFO**|General information about what FarmBot is doing.<br>**Example:** *Starting Water All Plants Sequence*
+|<span class="blue fa fa-circle saucer"></span>|**FUN**|Logs that are just for fun :rabbit:
+|<span class="gray fa fa-circle saucer"></span>|**DEBUG**|Verbose information relevant to software development and troubleshooting.<br>**Example:** *Network interface needs configuration: wlan0*
+|<span class="gray fa fa-circle saucer"></span>|**ASSERTION**|Results of <span class="fb-step fb-assertion">ASSERTION</span> commands. (advanced)
 
 ## Verbosity and filtering
 

@@ -77,7 +77,7 @@ include gallery.html images='
 
 ## Express v1.1+
 
-For Express v1.1+ kits, simply connect an Ethernet cable between the Ethenet port on the Farmduino Express and your router. Then proceed through the configuration process and select the **Ethernet** option when prompted.
+For Express v1.1+ kits, simply connect an Ethernet cable between the Ethernet port on the Farmduino Express and your router. Then proceed through the configuration process and select the **Ethernet** option when prompted.
 
 ![farmduino express v1.1 with ethernet port labeled](_images/farmduino_express_ethernet.jpeg)
 

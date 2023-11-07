@@ -87,6 +87,6 @@ content="Demo accounts and their data are automatically deleted after 1 hour."
 
 # Ready to get a bot?
 
-Navigate to our online shop at [farm.bot](https://farm.bot) for availablity and additional information about our latest generation FarmBot kits.
+Navigate to our online shop at [farm.bot](https://farm.bot) for availability and additional information about our latest generation FarmBot kits.
 
 If you have any questions or need assistance in placing an order, get in touch at [contact@farm.bot](mailto:contact@farm.bot).
