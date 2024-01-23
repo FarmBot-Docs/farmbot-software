@@ -9,7 +9,7 @@ Having trouble with the FamBot software? Browse through the troubleshooting guid
 include callout.html
 type="success"
 title="We're here to help"
-content="Still having issues? Please email support@farm.bot or consider posting in the [community forum](https://forum.farmbot.org)."
+content="Still having issues? Please email contact@farm.bot or consider posting in the [community forum](https://forum.farmbot.org)."
 %}
 
 

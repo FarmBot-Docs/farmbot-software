@@ -9,7 +9,7 @@ Having trouble with the FarmBot software? Browse through the troubleshooting gui
 include callout.html
 type="success"
 title="We're here to help"
-content="Still having issues? Please email [support@farm.bot](mailto:support@farm.bot)"
+content="Still having issues? Please email [contact@farm.bot](mailto:contact@farm.bot)"
 %}
 
 

@@ -35,6 +35,6 @@ If you are installing FarmBot at a school or company with restricted network acc
 include callout.html
 type="success"
 title="We're here to help"
-content="Still having trouble? Please email support@farm.bot."
+content="Still having trouble? Please email contact@farm.bot."
 %}
 
