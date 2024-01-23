@@ -52,4 +52,4 @@ FarmBot does not support enterprise WiFi at this time.
 
 # Other security concerns
 
-Please let us know if you have any other security concerns by emailing security@farm.bot, or opening an issue on GitHub.
+Please let us know if you have any other security concerns by emailing contact@farm.bot, or opening an issue on GitHub.

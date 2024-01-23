@@ -44,4 +44,4 @@ As of November 2019, **FarmBot does not support the use of proxy servers**, alth
 
 # Other security concerns
 
-Please let us know if you have any other security concerns by emailing security@farm.bot, or opening an issue on GitHub.
+Please let us know if you have any other security concerns by emailing contact@farm.bot, or opening an issue on GitHub.

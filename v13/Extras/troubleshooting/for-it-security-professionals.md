@@ -62,4 +62,4 @@ If provided an SSH key during configuration (in the "Advanced" panel), it is pos
 
 # Other security concerns
 
-Please let us know if you have any other security concerns by emailing security@farm.bot, or opening an issue on GitHub.
+Please let us know if you have any other security concerns by emailing contact@farm.bot, or opening an issue on GitHub.

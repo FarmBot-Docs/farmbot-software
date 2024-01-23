@@ -10,7 +10,7 @@ description: "**Problem description:** I'm trying to configure my FarmBot but I 
 **Configurator will not start if you do not flash the SD card.**
 
 # 2. Check the Raspberry Pi's power
-Make sure that your FarmBot's power supply is plugged into grid power and that the outlet and optional extension cord you are using are working properly. If you are plugged into a GFCI protected outlet, ensure it has not been tripped. Then check all connections between the power supply and the Raspberry Pi ensuring that polarity is correct, connections are solid, and plugs are fully inserted into receptacles. Once everything is plugged in, refer to the [Raspberry Pi status LEDs](../../FarmBot-OS/farmbot-os/status-leds.md) to verify that the Raspberry Pi is receiving adequate power. If the Pi is not receiving adequate power, then some parts may need replacement. Please contact us at [support@farm.bot](mailto:support@farm.bot).
+Make sure that your FarmBot's power supply is plugged into grid power and that the outlet and optional extension cord you are using are working properly. If you are plugged into a GFCI protected outlet, ensure it has not been tripped. Then check all connections between the power supply and the Raspberry Pi ensuring that polarity is correct, connections are solid, and plugs are fully inserted into receptacles. Once everything is plugged in, refer to the [Raspberry Pi status LEDs](../../FarmBot-OS/farmbot-os/status-leds.md) to verify that the Raspberry Pi is receiving adequate power. If the Pi is not receiving adequate power, then some parts may need replacement. Please contact us at [contact@farm.bot](mailto:contact@farm.bot).
 
 {%
 include callout.html
@@ -32,7 +32,7 @@ If you do not see the `farmbot-xxxx` WiFi network, try again with a different sm
 
 It is possible for the microSD card to become corrupted and unusable. If you have tried the steps above and did not ever find the `farmbot-xxxx` WiFi network, try installing FarmBot OS onto a different microSD card and attempting to connect again. **Some users have reported problems with SD cards that have a storage capacity over 32 gigabytes.** If you have problems with a large SD card, consider using an SD card with a smaller capacity.
 
-If this does not work or you do not have an extra microSD card to try with, please contact us at [support@farm.bot](mailto:support@farm.bot).
+If this does not work or you do not have an extra microSD card to try with, please contact us at [contact@farm.bot](mailto:contact@farm.bot).
 
 # 5. I'm connected to farmbot-xxxx but can't load the configurator
 If you are using a smartphone you may need to disable cellular data to allow your phone's browser to connect to the configurator instead of the Internet.
