@@ -44,9 +44,9 @@ Analog peripherals can be controlled with the sliders when FarmBot is connected 
 
 # Push buttons
 
-To change a push button's behavior, press <span class="fb-button fb-gray">EDIT</span>, and then select a new **Action** or **Sequence** in the push button's dropdown. When finished editing, press <span class="fb-button fb-green">SAVE</span>.
+To change a push button's behavior, press <span class="fb-button fb-gray">EDIT</span>, and then select a new **Action** or **Sequence** in the push button's dropdown. When finished editing, press <span class="fb-button fb-gray">BACK</span>.
 
-Once saved and synced, you can press the physical push button on top of the FarmBot electronics box or click the virtual button in the app to activate the chosen action or sequence.
+Once synced, you can press the physical push button on top of the FarmBot electronics box or click the virtual button in the app to activate the chosen action or sequence.
 
 ![edit push button](_images/edit_push_button.png)
 

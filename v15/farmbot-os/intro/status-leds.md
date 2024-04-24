@@ -100,4 +100,4 @@ The **Unlock Button** (included on the top of the electronics box with all Genes
 
 ## Other buttons
 
-Some kits include three additional buttons (Button 3, Button 4, and Button 5) whose actions can be customized via [Pin Bindings](../../app/settings/pin-bindings.md), however the LEDs for these buttons are not customizable.
+Some kits include three additional buttons (Button 3, Button 4, and Button 5) whose actions can be customized via the [push button UI](../../app/controls/peripherals.md#push-buttons), however the LEDs for these buttons are not customizable.

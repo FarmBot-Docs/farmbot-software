@@ -34,11 +34,11 @@ If the lighting is currently off (a value of `0`), and the button is pressed, Fa
 
 ![toggle lights sequence](_images/toggle_lights_sequence.png)
 
-## Step 3: Create the pin binding
+## Step 3: Assign the sequence to a push button
 
-Create a **[pin binding](../../app/settings/pin-bindings.md)** that binds an available button to your sequence that toggles the lights. Press <span class="fb-button fb-green">SAVE</span> and then try everything out by pressing the button on your FarmBot!
+Assign your sequence that toggles the lights to an available **[push button](../../app/controls/peripherals.md#push-buttons)**. Press <span class="fb-button fb-gray">EDIT</span>, open the dropdown for the push button, select your sequence, press <span class="fb-button fb-gray">BACK</span>, and then try everything out by pressing the button on your FarmBot!
 
-![toggle lights pin binding](_images/toggle_lights_pin_binding.png)
+![toggle lights push button](_images/toggle_lights_push_button.png)
 
 # Example 2: Wash your bounty and your hands
 
@@ -56,11 +56,11 @@ Create a sequence with the following commands:
 
 ![water dose sequence](_images/water_dose_sequence.png)
 
-## Step 2: Create the pin binding
+## Step 2: Assign the sequence to a push button
 
-Create a **[pin binding](../../app/settings/pin-bindings.md)** that binds an available button to your sequence that doses water. Press <span class="fb-button fb-green">SAVE</span> and then try everything out by pressing the button on your FarmBot!
+Assign your sequence that doses water to an available **[push button](../../app/controls/peripherals.md#push-buttons)**. Press <span class="fb-button fb-gray">EDIT</span>, open the dropdown for the push button, select your sequence, press <span class="fb-button fb-gray">BACK</span>, and then try everything out by pressing the button on your FarmBot!
 
-![water dose pin binding](_images/water_dose_pin_binding.png)
+![water dose push button](_images/water_dose_push_button.png)
 
 # Example 3: Get FarmBot out of the way
 
@@ -86,9 +86,9 @@ If FarmBot's current `X position` is in the first half of the bed (a value less 
 
 ![move away sequence](_images/move_away_sequence.png)
 
-## Step 3: Create the pin binding
+## Step 3: Assign the sequence to a push button
 
-Create a **[pin binding](../../app/settings/pin-bindings.md)** that binds an available button to your sequence that determines where FarmBot should move to. Press <span class="fb-button fb-green">SAVE</span> and then try everything out by pressing the button on your FarmBot!
+Assign your sequence that determines where FarmBot should move to an available **[push button](../../app/controls/peripherals.md#push-buttons)**. Press <span class="fb-button fb-gray">EDIT</span>, open the dropdown for the push button, select your sequence, press <span class="fb-button fb-gray">BACK</span>, and then try everything out by pressing the button on your FarmBot!
 
-![move away pin binding](_images/move_away_pin_binding.png)
+![move away push button](_images/move_away_push_button.png)
 
