@@ -66,6 +66,20 @@ title=""
 content="Once camera calibration is run, you must always detect weeds with the camera at the same height (z-axis coordinate). Running calibration with the z-axis all the way up is recommended to maximize the camera's field of view."
 %}
 
+# Camera calibration limitations
+
+It is important to understand that even a perfectly calibrated camera will not produce perfect results in all situations due to the effect of [**parallax**](https://en.wikipedia.org/wiki/Parallax).
+
+The calibration of the camera can only match image pixels to FarmBot coordinates for objects at the **same Z height** that the camera calibration card was at when the camera was calibrated.
+
+Objects that are lower in height, such as a depressed area of the soil, will appear smaller and not match up perfectly with the map. Objects that are higher in height, such as the tools, toolbays, plants, and even parts of the raised bed will appear larger and will not match up perfectly with the map either.
+
+**There can only be one Z plane of perfect calibration and it should be at the height of the soil.** Thus, focus your calibration efforts and fine tuning on the soil surface and do not worry about discrepancies with the tools or toolbays.
+
+Capturing a photo grid of your soil and very small plants should look close to perfect. However, as your plants grow, you will likely see mismatched seams between images when viewing the full mosaic of a photo grid in the farm designer. This is due to the parallax effect and the fact that the camera may not have been directly above the plant when capturing an image. This is not a problem with the camera calibration, but rather a limitation of the camera's field of view and the parallax effect.
+
+If you need to image your plants without seams, then you must position the camera directly above the plant rather than hoping it is does not fall on a seam in a photo grid.
+
 # What's next?
 
  * [Weed Detection](weed-detection.md)
