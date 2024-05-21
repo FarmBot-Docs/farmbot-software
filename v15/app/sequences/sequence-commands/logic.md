@@ -22,21 +22,6 @@ In the example below, FarmBot will check **_IF..._** the **VARIABLE** (`Soil moi
 
 ![if statement](_images/if_statement.png)
 
-# Execute
-
-The <span class="fb-step fb-execute">Execute</span> command uses *existing sequences* as *steps* in a *new, larger sequence*. This allows you to re-use smaller, simpler sequences in different combinations to create far more complex sequences that are easier to modify, manage, and mashup later because of their modularity.
-
-For example, you could make a sequence to `Mount the watering nozzle`, another sequence to `Water the plant`, and a third sequence to `Unmount the watering nozzle`. Then, in a new sequence, you could use three <span class="fb-step fb-execute">Execute</span> commands (one for each of the smaller sequences) to execute all the steps needed to water the plant.
-
-![execute sequence steps](_images/execute_sequence_steps.png)
-
-{%
-include callout.html
-type="success"
-title="Pro tip"
-content="You can drag and drop existing sequences from the **sequences list** into an open sequence in the **full sequence editor** to add an <span class=\"fb-step fb-execute\">Execute</span> step with that sequence selected."
-%}
-
 # Mark as
 
 The <span class="fb-step fb-mark-as">Mark as</span> command instructs FarmBot to **MARK** an item's **PROPERTY**  **AS** the value of your choice. For example, you could mark a Spinach plant's `Plant stage` property as `Planted`. Using this command allows FarmBot to systematically update an item's properties as it works with that item. This step also accepts a Location Variable as an input, which can be used when running a sequence over a group of items.
