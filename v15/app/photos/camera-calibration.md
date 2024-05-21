@@ -43,6 +43,10 @@ To increase lighting, try toggling <span class="fb-peripheral-on">ON</span> Farm
 
 To decrease lighting and ensure there are no interrupting shadows, try waiting until another time of the day when the garden is fully shaded. You may also try in a different location in the garden bed.
 
+If the image appears overexposed like in the example below, try adding a sheet of white printer paper next to the calibration card. This will allow the camera to automatically adjust its exposure settings to better expose the calibration card.
+
+![overexposed calibration image](_images/overexposed_calibration_image.png)
+
 ## Damaged calibration card
 
 If the calibration card is bent or has a crease in it, has been damaged by water, or is otherwise in poor condition then calibration may not complete successfully. If your calibration card is damaged you may:
