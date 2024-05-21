@@ -24,7 +24,6 @@ The next pages include detailed information for all of the commands you can use 
 |**Logic**|
 |<span class="fb-step fb-wait">[Wait](sequence-commands/logic.md#wait)</span>|Pauses sequence execution for the specified amount of time
 |<span class="fb-step fb-if-statement">[If Statement](sequence-commands/logic.md#if-statement)</span>|Evaluates a condition and then executes a subsequence
-|<span class="fb-step fb-execute">[Execute](sequence-commands/logic.md#execute)</span>|Executes a subsequence
 |<span class="fb-step fb-mark-as">[Mark as](sequence-commands/logic.md#mark-as)</span>|Updates the properties of plants, points, weeds, and more
 |<span class="fb-step fb-send-message">[Send Message](sequence-commands/logic.md#send-message)</span>|Sends a message to any number of available channels such as email
 |<span class="fb-step fb-e-stop">[E-stop](sequence-commands/logic.md#e-stop)</span>|Emergency stops FarmBot
@@ -33,6 +32,14 @@ The next pages include detailed information for all of the commands you can use 
 |**Advanced**|
 |<span class="fb-step fb-assertion">[Assertion](sequence-commands/advanced.md#assertion)</span>|Tests if a condition is true or false for automated testing purposes
 |<span class="fb-step fb-lua">[Lua](sequence-commands/advanced.md#lua)</span>|Execute Lua code fragments for custom advanced functionality
+
+# Subsequences
+
+In addition to adding individual commands to a sequence, you can also add **subsequences**. This allows you to re-use smaller, simpler sequences in different combinations to create far more complex, larger sequences that are easier to manage and modify later because of their modularity.
+
+For example, you could make a sequence to `Mount the watering nozzle`, another sequence to `Water the plant`, and a third sequence to `Unmount the watering nozzle`. Then, in a new sequence, you could add all three of these sequences to execute all the steps needed to take care of a plant.
+
+![execute subsequences](_images/execute_subsequences.png)
 
 # What's next?
 
