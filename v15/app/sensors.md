@@ -17,7 +17,7 @@ content="If your FarmBot kit did not include any sensors (Express kits), then th
 
 # Creating sensors
 
-To create a new sensor, press <span class="fb-button fb-gray">EDIT</span>, and then the <span class="fb-button fb-green"><i class='fa fa-plus'></i></span> button. To define the sensor, provide a <span class="fb-input">Name</span>, choose a <span class="fb-dropdown">Pin #</span>, and specify if the sensor is `Digital` or `Analog`. Pressing <span class="fb-button fb-green"><i class='fa fa-plus'></i> STOCK SENSORS</span> will add all of the standard sensors included with your FarmBot kit.
+To create a new sensor, press <span class="fb-button fb-gray">EDIT</span>, and then the <span class="fb-button fb-green"><i class='fa fa-plus'></i></span> button. To define the sensor, provide a <span class="fb-input">Name</span>, choose a <span class="fb-dropdown">Pin #</span>, specify if the sensor is `Digital` or `Analog`, and choose a **TYPE**: **Soil Moisture**, **Tool Verification**, **Current**, or **None**. Pressing <span class="fb-button fb-green"><i class='fa fa-plus'></i> STOCK SENSORS</span> will add all of the standard sensors included with your FarmBot kit.
 
 {%
 include callout.html
@@ -26,13 +26,17 @@ title=""
 content="Pin numbers are required and must be unique."
 %}
 
+The sensor type determines its icon and reading display. **Soil Moisture** sensors use the moisture display and supply readings for the soil-moisture map layer. **Tool Verification** sensors display **TOOL ON** or **NO TOOL** alongside the reading. Use **None** for other sensors.
+
 When finished editing, press <span class="fb-button fb-green">SAVE</span>.
 
 ![edit sensors](_images/edit_sensors.png)
 
 # Reading sensors
 
-To manually read a sensor, press its <span class="fb-button fb-gray">READ SENSOR</span> button. FarmBot will then read the sensor and display the value next to the sensor name. Digital sensors will provide a value of either `0` or `1`, while analog sensors will provide a value between `0` and `1023`.
+To manually read a sensor, press its <span class="fb-button fb-gray">READ</span> button. FarmBot will then read the sensor and display the value next to the sensor name. Digital sensors will provide a value of either `0` or `1`, while analog sensors will provide a value between `0` and `1023`.
+
+For **Current** sensors with a corresponding configured peripheral, click the peripheral icon next to the sensor name to open its controls. The association is determined by the sensor and peripheral pin numbers.
 
 ![read sensors](_images/read_sensors.png)
 

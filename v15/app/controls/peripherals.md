@@ -10,7 +10,7 @@ The **PERIPHERALS** tab of the controls popup allows you to manage FarmBot's per
 
 # Editing peripherals
 
-To create a new peripheral, press <span class="fb-button fb-gray">EDIT</span>, and then the <span class="fb-button fb-green"><i class='fa fa-plus'></i></span> button. Provide a <span class="fb-input">Name</span>, <span class="fb-input fb-dropdown">Select a pin <i class='fa fa-caret-down'></i></span>, and choose `Digital` or `Analog` to define the peripheral. Pressing <span class="fb-button fb-green"><i class='fa fa-plus'></i> STOCK</span> will add all of the standard peripherals included with your FarmBot kit.
+To create a new peripheral, press <span class="fb-button fb-gray">EDIT</span>, and then the <span class="fb-button fb-green"><i class='fa fa-plus'></i></span> button. Provide a <span class="fb-input">Name</span>, <span class="fb-input fb-dropdown">Select a pin <i class='fa fa-caret-down'></i></span>, choose `Digital` or `Analog`, and select a **TYPE**: **Lighting**, **Rotary Tool**, **Vacuum**, **Water**, or **None**. Pressing <span class="fb-button fb-green"><i class='fa fa-plus'></i> STOCK</span> will add all of the standard peripherals included with your FarmBot kit.
 
 {%
 include callout.html
@@ -20,6 +20,8 @@ content="Pin numbers are required and must be unique."
 %}
 
 To delete a peripheral, press the peripheral's <span class="fb-button fb-red"><i class='fa fa-times'></i></span> button. You cannot delete a peripheral that is in-use by a sequence.
+
+The peripheral type determines its icon and where its controls are available. **Lighting** peripherals appear in the gantry beam popup in the 3D view. **Vacuum**, **Water**, and **Rotary Tool** peripherals provide actions for the corresponding mounted tool. Use **None** for other peripherals.
 
 When finished editing, press <span class="fb-button fb-green">SAVE</span>.
 

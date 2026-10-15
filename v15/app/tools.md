@@ -40,9 +40,11 @@ Different tools and seed containers will require different coordinates for the s
 
 Some slots (such as the toolbays included with Genesis kits) have a **slot direction**, which is the direction that the tool must be loaded and unloaded from. To specify a slot's direction, use the **SLOT DIRECTION** dropdown.
 
-### Gantry-mounted slots
+### Axis-mounted slots
 
-Some slots (such as those provided by the seed trough holder) are **gantry-mounted** and move with the FarmBot along the x-axis. To account for this and properly render these types of slots in the farm designer, you can specify that a slot is **GANTRY-MOUNTED** with a checkbox. Doing so will display the **X** coordinate as <span class="fb-input fb-disabled-input">Gantry</span>.
+Some slots (such as those provided by the seed trough holder) are gantry-mounted and move with the FarmBot along the x-axis. To account for this and properly render these types of slots in the farm designer, you can specify that a slot's **MOUNT STAGE** is the x-axis using the dropdown. Doing so will display the **X** coordinate as <span class="fb-input fb-disabled-input">X axis</span>.
+
+Choose **Stationary**, **X axis**, **Y axis**, or **Z axis** from the **MOUNT STAGE** dropdown. X-axis mounting follows X movement; Y-axis mounting follows X and Y; Z-axis mounting follows all three axes. Use **MOUNT OFFSET** to specify the slot's offset from FarmBot's current position on those axes. Each mounted coordinate is the current bot coordinate plus its mounting offset; unmounted coordinates use the stored slot coordinates.
 
 ## Loading slots
 
@@ -72,13 +74,20 @@ content="You cannot delete slots with tools or seed containers that are used in 
 
 ## Creating tools and seed containers
 
-To create a new **tool** or **seed container**, press the <span class="fb-button fb-gray"><i class='fa fa-plus'></i></span> button. Provide a **NAME** to define the tool or seed container and then press <span class="fb-button fb-green">SAVE</span>. Alternatively, you can select from the available **STOCK NAMES** to add one or more of the standard tools and seed containers included with your FarmBot kit.
+To create a new **tool** or **seed container**, press the <span class="fb-button fb-gray"><i class='fa fa-plus'></i></span> button. Provide a **NAME**, choose a **TYPE**, and then press <span class="fb-button fb-green">SAVE</span>. Alternatively, you can select from the available **STOCK NAMES** to add one or more of the standard tools and seed containers included with your FarmBot kit.
 
 ![add new tool](_images/add_new_tool.png)
 
 ## Editing tools and seed containers
 
 To edit a tool or seed container, click it from the **TOOLS AND SEED CONTAINERS** list (Genesis), or the **SEED CONTAINERS** list (Express) located at the bottom of the main tools panel. Make your desired edits and then press the <span class="fb-button fb-green">SAVE</span> button.
+
+The following settings are available when creating or editing a tool or seed container:
+
+* **TYPE** - Choose Rotary Tool, Seed Bin, Seed Tray, Seed Trough, Seeder, Soil Sensor, Watering Nozzle, Weeder, or None. The type determines the tool's standard graphics and available tool actions.
+* **UTM MOUNTABLE** - Enable this for tools that can be mounted by the universal tool mount. Only tools with this setting enabled appear in the **MOUNTED TOOL** dropdown. Leave it disabled for seed containers.
+* **EFFECTOR OFFSET** - Enter the X, Y, and Z offsets in millimeters from the tool head's reference position to the tool's working tip. An effector below the reference position has a negative Z offset; for example, a seeder tip 80mm below it has a Z offset of `-80`.
+* **WATER FLOW RATE (ML/S)** - Available for tools with the **Watering Nozzle** type. Enter the measured flow rate used by dispensing sequences.
 
 ## Deleting tools and seed containers
 
